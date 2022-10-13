@@ -28,6 +28,7 @@ from mycroft.util.format import (nice_date, nice_duration, nice_time,
                                  date_time_format)
 from mycroft.messagebus.message import Message
 from mycroft import MycroftSkill, intent_handler
+from mycroft.skills import skill_api_method
 from mycroft.util.parse import (extract_datetime, fuzzy_match, extract_number,
                                 normalize)
 from mycroft.util.time import now_utc, to_local, now_local
@@ -215,7 +216,8 @@ class TimeSkill(MycroftSkill):
             return None
 
         return dtUTC.astimezone(tz)
-
+    
+    @skill_api_method
     def get_display_date(self, day=None, location=None):
         if not day:
             day = self.get_local_datetime(location)
@@ -224,6 +226,7 @@ class TimeSkill(MycroftSkill):
         else:
             return day.strftime("%Y/%-d/%-m")
 
+    @skill_api_method
     def get_display_current_time(self, location=None, dtUTC=None):
         # Get a formatted digital clock time based on the user preferences
         dt = self.get_local_datetime(location, dtUTC)
@@ -608,6 +611,7 @@ class TimeSkill(MycroftSkill):
         self.enclosure.deactivate_mouth_events()
         self.enclosure.mouth_text(show)
 
+    @skill_api_method
     def get_weekday(self, day=None, location=None):
         if not day:
             day = self.get_local_datetime(location)
@@ -619,6 +623,7 @@ class TimeSkill(MycroftSkill):
             weekday = day.strftime("%A")
         return weekday.capitalize()
 
+    @skill_api_method
     def get_month_date(self, day=None, location=None):
         if not day:
             day = self.get_local_datetime(location)
@@ -633,6 +638,7 @@ class TimeSkill(MycroftSkill):
         else:
             return "{} {}".format(day.strftime("%d"), month)
 
+    @skill_api_method
     def get_year(self, day=None, location=None):
         if not day:
             day = self.get_local_datetime(location)
