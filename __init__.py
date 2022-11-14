@@ -13,7 +13,6 @@
 # limitations under the License.
 
 import datetime
-import holidays
 import json
 import pytz
 import re
@@ -481,20 +480,6 @@ class TimeSkill(MycroftSkill):
         year = extract_number(utt)
         if not year or year < 1500 or year > 3000:  # filter out non-years
             year = day.year
-        all_holidays = {}
-        # TODO: How to pick a location for holidays?
-        for st in holidays.US.STATES:
-            holiday_dict = holidays.US(years=[year], state=st)
-            for d, name in holiday_dict.items():
-                if name not in all_holidays:
-                    all_holidays[name] = d
-        for name in all_holidays:
-            d = all_holidays[name]
-            # Uncomment to display all holidays in the database
-            # self.log.info("Day, name: " +str(d) + " " + str(name))
-            if name.replace(" Day", "").lower() in utt:
-                day = d
-                break
 
         location = self._extract_location(utt)
         today = to_local(now_utc())
