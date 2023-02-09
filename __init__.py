@@ -31,6 +31,8 @@ from mycroft.skills import skill_api_method
 from mycroft.util.parse import (extract_datetime, fuzzy_match, extract_number,
                                 normalize)
 from mycroft.util.time import now_utc, to_local, now_local
+from ovos_utils.process_utils import RuntimeRequirements
+from ovos_utils import classproperty
 
 
 def speakable_timezone(tz):
@@ -58,6 +60,18 @@ class TimeSkill(MycroftSkill):
         self.display_tz = None
         self.answering_query = False
         self.default_timezone = None
+
+    @classproperty
+    def runtime_requirements(self):
+        return RuntimeRequirements(internet_before_load=False,
+                                   network_before_load=False,
+                                   gui_before_load=False,
+                                   requires_internet=False,
+                                   requires_network=False,
+                                   requires_gui=False,
+                                   no_internet_fallback=True,
+                                   no_network_fallback=True,
+                                   no_gui_fallback=True)
 
     def initialize(self):
         date_time_format.cache(self.lang)
