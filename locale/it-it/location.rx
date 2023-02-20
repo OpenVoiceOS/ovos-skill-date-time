@@ -1,1 +1,1 @@
-\b(presso|nel|per) (?P<Location>.*)
+\b(a|in|per) (?P<Location>.*)
