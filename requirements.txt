@@ -4,4 +4,3 @@ timezonefinder~=5.2
 geocoder~=1.38
 ovos-utils~=0.0, >=0.0.28
 ovos_workshop~=0.0, >=0.0.11
-numpy>1.21.6
