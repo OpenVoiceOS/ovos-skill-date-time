@@ -1,1 +1,1 @@
-(op|in|voor) (?P<Location>.*)
+\b(op|in|bij) (?P<Location>.*)
