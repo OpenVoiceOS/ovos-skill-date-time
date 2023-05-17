@@ -13,26 +13,22 @@
 # limitations under the License.
 
 import datetime
-import json
-import pytz
 import re
 import time
-from pathlib import Path
-from timezonefinder import TimezoneFinder
-import geocoder
 
-import mycroft.audio
-from adapt.intent import IntentBuilder
-from mycroft.util.format import (nice_date, nice_duration, nice_time,
-                                 date_time_format)
-from mycroft.messagebus.message import Message
-from mycroft import MycroftSkill, intent_handler
-from mycroft.skills import skill_api_method
-from mycroft.util.parse import (extract_datetime, fuzzy_match, extract_number,
-                                normalize)
-from mycroft.util.time import now_utc, to_local, now_local
-from ovos_utils.process_utils import RuntimeRequirements
+import geocoder
+import pytz
+from lingua_franca.format import nice_date, nice_duration, nice_time, date_time_format
+from lingua_franca.parse import extract_datetime, fuzzy_match, extract_number, normalize
+from ovos_bus_client.message import Message
 from ovos_utils import classproperty
+from ovos_utils.intents import IntentBuilder
+from ovos_utils.process_utils import RuntimeRequirements
+from ovos_utils.time import now_utc, now_local, to_local
+from ovos_utils.sound import wait_while_speaking
+from ovos_workshop.decorators import intent_handler, skill_api_method
+from ovos_workshop.skills import OVOSSkill
+from timezonefinder import TimezoneFinder
 
 
 def speakable_timezone(tz):
@@ -52,14 +48,7 @@ def speakable_timezone(tz):
     return " ".join(say)
 
 
-class TimeSkill(MycroftSkill):
-
-    def __init__(self):
-        super(TimeSkill, self).__init__("TimeSkill")
-        self.displayed_time = None
-        self.display_tz = None
-        self.answering_query = False
-        self.default_timezone = None
+class TimeSkill(OVOSSkill):
 
     @classproperty
     def runtime_requirements(self):
@@ -74,6 +63,10 @@ class TimeSkill(MycroftSkill):
                                    no_gui_fallback=True)
 
     def initialize(self):
+        self.displayed_time = None
+        self.display_tz = None
+        self.answering_query = False
+        self.default_timezone = None
         date_time_format.cache(self.lang)
 
         # Start a callback that repeats every 10 seconds
@@ -85,31 +78,6 @@ class TimeSkill(MycroftSkill):
                                            now.hour, now.minute) +
                          datetime.timedelta(seconds=60))
         self.schedule_repeating_event(self.update_display, callback_time, 10)
-
-    # TODO:19.08 Moved to MycroftSkill
-    @property
-    def platform(self):
-        """ Get the platform identifier string
-
-        Returns:
-            str: Platform identifier, such as "mycroft_mark_1",
-                 "mycroft_picroft", "mycroft_mark_2".  None for nonstandard.
-        """
-        if self.config_core and self.config_core.get("enclosure"):
-            return self.config_core["enclosure"].get("platform")
-        else:
-            return None
-
-    @property
-    def build_info(self):
-        """The /etc/mycroft/build-info.json file as a Dict."""
-        data = {}
-        filename = "/etc/mycroft/build-info.json"
-        if (self.config_core["enclosure"].get("development_device")
-            and Path(filename).is_file()):
-            with open(filename, 'r') as build_info:
-                data = json.loads(build_info.read())
-        return data
 
     @property
     def use_24hour(self):
@@ -229,7 +197,7 @@ class TimeSkill(MycroftSkill):
             return None
 
         return dtUTC.astimezone(tz)
-    
+
     @skill_api_method
     def get_display_date(self, day=None, location=None):
         if not day:
@@ -269,9 +237,8 @@ class TimeSkill(MycroftSkill):
 
     def display(self, display_time):
         if display_time:
-            if self.platform == "mycroft_mark_1":
-                self.display_mark1(display_time)
             self.display_gui(display_time)
+            self.display_mark1(display_time)
 
     def display_mark1(self, display_time):
         # Map characters to the display encoding for a Mark 1
@@ -305,7 +272,7 @@ class TimeSkill(MycroftSkill):
                                          x=24, refresh=False)
 
         # draw the time, centered on display
-        xoffset = (32 - (4*(len(display_time))-2)) / 2
+        xoffset = (32 - (4 * (len(display_time)) - 2)) / 2
         for c in display_time:
             if c in code_dict:
                 self.enclosure.mouth_display(img_code=code_dict[c],
@@ -413,7 +380,7 @@ class TimeSkill(MycroftSkill):
         self.enclosure.deactivate_mouth_events()
         self.display(self.get_display_current_time(location))
         time.sleep(5)
-        mycroft.audio.wait_while_speaking()
+        wait_while_speaking()
         self.enclosure.mouth_reset()
         self.enclosure.activate_mouth_events()
         self.answering_query = False
@@ -447,7 +414,7 @@ class TimeSkill(MycroftSkill):
         self.enclosure.deactivate_mouth_events()
         self.display(self.get_display_current_time(location, dt))
         time.sleep(5)
-        mycroft.audio.wait_while_speaking()
+        wait_while_speaking()
         self.enclosure.mouth_reset()
         self.enclosure.activate_mouth_events()
         self.answering_query = False
@@ -533,10 +500,9 @@ class TimeSkill(MycroftSkill):
         self.answering_query = True
         self.show_date(location, day=day)
         time.sleep(10)
-        mycroft.audio.wait_while_speaking()
-        if self.platform == "mycroft_mark_1":
-            self.enclosure.mouth_reset()
-            self.enclosure.activate_mouth_events()
+        wait_while_speaking()
+        self.enclosure.mouth_reset()
+        self.enclosure.activate_mouth_events()
         self.answering_query = False
         self.displayed_time = None
 
@@ -550,7 +516,7 @@ class TimeSkill(MycroftSkill):
         self.handle_query_date(message, response_type="relative")
 
     @intent_handler(IntentBuilder("").require("Query").require("RelativeDay")
-                                     .optionally("Date"))
+                    .optionally("Date"))
     def handle_query_relative_date(self, message):
         if self.voc_match(message.data.get('utterance', ""), 'Today'):
             self.handle_query_date(message, response_type="simple")
@@ -570,9 +536,9 @@ class TimeSkill(MycroftSkill):
         # Don't pass `now` to `nice_date` as a
         # request on Friday will return "tomorrow"
         saturday_date = ', '.join(nice_date(extract_datetime(
-                        'this saturday', None, 'en-us')[0]).split(', ')[:2])
+            'this saturday', None, 'en-us')[0]).split(', ')[:2])
         sunday_date = ', '.join(nice_date(extract_datetime(
-                      'this sunday', None, 'en-us')[0]).split(', ')[:2])
+            'this sunday', None, 'en-us')[0]).split(', ')[:2])
         self.speak_dialog('date.future.weekend', {
             'saturday_date': saturday_date,
             'sunday_date': sunday_date
@@ -584,9 +550,9 @@ class TimeSkill(MycroftSkill):
         # Don't pass `now` to `nice_date` as a
         # request on Monday will return "yesterday"
         saturday_date = ', '.join(nice_date(extract_datetime(
-                        'last saturday', None, 'en-us')[0]).split(', ')[:2])
+            'last saturday', None, 'en-us')[0]).split(', ')[:2])
         sunday_date = ', '.join(nice_date(extract_datetime(
-                      'last sunday', None, 'en-us')[0]).split(', ')[:2])
+            'last sunday', None, 'en-us')[0]).split(', ')[:2])
         self.speak_dialog('date.last.weekend', {
             'saturday_date': saturday_date,
             'sunday_date': sunday_date
@@ -601,9 +567,8 @@ class TimeSkill(MycroftSkill):
         self.speak_dialog('next.leap.year', {'year': next_leap_year})
 
     def show_date(self, location, day=None):
-        if self.platform == "mycroft_mark_1":
-            self.show_date_mark1(location, day)
         self.show_date_gui(location, day)
+        self.show_date_mark1(location, day)
 
     def show_date_mark1(self, location, day):
         show = self.get_display_date(day, location)
@@ -616,7 +581,7 @@ class TimeSkill(MycroftSkill):
             day = self.get_local_datetime(location)
         if self.lang in date_time_format.lang_config.keys():
             localized_day_names = list(
-                 date_time_format.lang_config[self.lang]['weekday'].values())
+                date_time_format.lang_config[self.lang]['weekday'].values())
             weekday = localized_day_names[day.weekday()]
         else:
             weekday = day.strftime("%A")
