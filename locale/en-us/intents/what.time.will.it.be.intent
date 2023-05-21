@@ -1,4 +1,3 @@
-# auto translated from en-us to en-us
 when is it {offset} minutes from now
 when is it {offset} minutes in {location}
 when is it {offset} minutes from now in {location}
@@ -11,3 +10,39 @@ when is it {offset} minutes
 when is it {offset} hours
 when is it {offset} hours from now in {location}
 when is it {offset} seconds
+when is it {offset} minutes from now
+when is it {offset} minutes in {location}
+when is it {offset} minutes from now in {location}
+when is it {offset} hours from now
+when is it {offset} hours in {location}
+when is it {offset} seconds from now
+when is it {offset} seconds in {location}
+when is it {offset} seconds from now in {location}
+when is it {offset} minutes
+when is it {offset} hours
+when is it {offset} hours from now
+when is it {offset} seconds
+when will it be {offset} minutes from now
+when will it be {offset} minutes in {location}
+when will it be {offset} minutes from now in {location}
+when will it be {offset} hours from now
+when will it be {offset} hours in {location}
+when will it be {offset} seconds from now
+when will it be {offset} seconds in {location}
+when will it be {offset} seconds from now in {location}
+when will it be {offset} minutes
+when will it be {offset} hours
+when will it be {offset} hours from now
+when will it be {offset} seconds
+what time will it be in {offset} minutes
+what time will it be in {offset} minutes in {location}
+what time will it be in {offset} minutes from now
+what time will it be in {offset} minutes from now in {location}
+what time will it be in {offset} hours
+what time will it be in {offset} hours in {location}
+what time will it be in {offset} hours from now
+what time will it be in {offset} hours from now in {location}
+what time will it be in {offset} seconds
+what time will it be in {offset} seconds in {location}
+what time will it be in {offset} seconds from now
+what time will it be in {offset} seconds from now in {location}
