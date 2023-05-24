@@ -1,2 +1,1 @@
-# auto translated from en-us to cs-cz
-minulý víkend byl {saturday_date}, na {sunday_date}
+{direction} týden byl od {saturday_date}, do {sunday_date}
