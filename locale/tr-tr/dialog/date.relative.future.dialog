@@ -1,4 +1,4 @@
 # auto translated from en-us to tr-tr
-Şu andan itibaren {date}
-{date}, {num_days}
-{date}, {num_days} artık
+{{date}}, {{num_days}} içinde
+Şu andan itibaren {{date}}, {{num_days}}
+Bu {{date}}, {{num_days}}'de

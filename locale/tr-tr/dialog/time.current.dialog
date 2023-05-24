@@ -1,4 +1,4 @@
 # auto translated from en-us to tr-tr
-{time}
-Şu anda {time}
-It's {time}
+Bu {{time}}
+Şu anda {{time}}
+{{time}}

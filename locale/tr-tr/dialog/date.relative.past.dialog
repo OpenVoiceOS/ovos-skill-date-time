@@ -1,2 +1,3 @@
 # auto translated from en-us to tr-tr
-{date}, {num_days} ago
+{{date}}, {{num_days}} önce
+{{date}}, {{num_days}} önceydi

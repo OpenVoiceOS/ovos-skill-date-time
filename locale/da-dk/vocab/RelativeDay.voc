@@ -1,13 +1,16 @@
-# auto translated from en-us to da-dk
-Dagens morgen
-I går
-i morgen i morgen
-Mandag
-I morgener
+i dag
+(i dag|dagens)
+(i dagdagens)
+i morgen
+morgendagens
+(i morgen|morgendagens)
+i går
+i gårs
+i gårs
+mandag
+tirsdag
+onsdag
+torsdag
 fredag
-Dagens dag
-Sidste dag
-Tillykke
-i dag i dag
+lørdag
 søndag
-I går i går

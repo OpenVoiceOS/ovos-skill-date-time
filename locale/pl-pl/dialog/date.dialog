@@ -1,4 +1,6 @@
-# auto translated from en-us to pl-pl
-To jest równania (data)
-{date}
-To jest {date}
+{{date}}
+Dziś jest {{date}}
+Dzisiaj jest {{date}}
+Mamy {{date}}
+Dziś mamy {{date}}
+Jest {{date}}

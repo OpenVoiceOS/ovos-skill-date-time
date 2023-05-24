@@ -1,13 +1,6 @@
-# auto translated from en-us to es-es
-cuando es {offset} segundos
-cuando es {offset} minutos de ahora
-cuando es {offset} minutos a partir de ahora {localización}
-cuando es {offset} minutos
-cuando es {offset} horas
-cuando es {offset} horas en {localización}
-cuando es {offset} horas desde ahora
-cuando es {offset} horas a partir de ahora {localización}
-cuando es {offset} segundos a partir de ahora {localización}
-cuando es {offset} segundos en {localización}
-cuando es {offset} minutos en {localización}
-cuando es {offset} segundos a partir de ahora
+que hora será (en|de aquí a|) {offset} (horas|minutos|segundos) (desde ahora|)
+qué hora tendremos en {offset} (horas|minutos|segundos) (desde ahora|)
+qué hora será (en|) {offset} (horas|minutos|segundos) (desde ahora|) en {location}
+qué hora tendremos en {offset} (horas|minutos|segundos) (desde ahora|) en {location}
+que hora será en {location} (en|de aquí a|) {offset} (horas|minutos|segundos) (desde ahora|)
+qué hora tendremos en {location} en {offset} (horas|minutos|segundos) (desde ahora|)

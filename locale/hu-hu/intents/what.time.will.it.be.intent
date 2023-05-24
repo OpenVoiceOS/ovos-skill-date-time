@@ -1,13 +1,35 @@
 # auto translated from en-us to hu-hu
-ha ez {offset} másodpercek
-ha ez {offset} óra a {location}
-ha ez {offset} másodpercek {location}
-Ha ez {offset} perc
-ha ez {offset} óra
-Ha ez {offset} percek múlva
-ha ez {offset} percek a {location}
-Ha ez {offset} órák óta
-ha ez {offset} másodpercek múlva {location}
-ha ez {offset} másodpercek óta
-ha ez {offset} percek mostantól a {location}
-ha ez {offset} órák mostantól a {location}
+mikor lesz {offset} perc mától {location}-ben {offset} perc múlva
+hány óra lesz {offset} perc múlva {location}-ben {offset} perc múlva
+mikor lesz ez {offset} óra múlva
+mikor van ez {offset} perc múlva
+mennyi lesz az idő {offset} másodperc múlva
+mikor lesz {offset} perc
+mennyi lesz az idő {offset} perc múlva
+hány óra múlva lesz {offset} óra múlva
+mennyi idő múlva lesz {offset} másodperc múlva
+mennyi lesz az idő {offset} másodpercben {location}-ben
+mikor van ez {offset} óra múlva
+hány óra lesz {offset} órakor {location} órakor
+mikor lesz {offset} óra {location}-ben {offset} óra
+hány óra lesz {offset} óra múlva {location}-ben
+mikor van {offset} másodperc {location}-ben
+mennyi idő múlva lesz {offset} perc múlva
+hány óra lesz {offset} perc múlva {location}-ben
+mikor van {offset} perc {location}-ben
+hány óra múlva lesz {offset} óra
+mikor van {offset} másodperc múlva {location}-ben
+mikor van ez {offset} perc
+mikor lesz ez {offset} perc múlva
+mikor lesz {offset} óra
+mikor van ez {offset} másodperc
+mikor lesz ez {offset} másodperc múlva {location}-ben
+mikor van ez {offset} másodperc múlva
+mikor van ez {offset} óra
+mikor van {offset} óra {location}-ben
+mikor lesz {offset} óra mától {location}-ben {offset} óra múlva
+mennyi lesz az idő {offset} másodperc múlva {location}-ben
+mikor lesz {offset} másodperc {location}-ben {location}
+mikor lesz ez {offset} másodperc múlva
+mikor lesz {offset} másodperc
+mikor lesz {offset} perc {location}-ben {offset} percben

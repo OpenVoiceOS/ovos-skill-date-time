@@ -1,5 +1,5 @@
-# auto translated from en-us to hu-hu
-Jelenleg {ide}
-{LS}
-Ez {idő}
-Ez az idő
+{{time}}
+{{time}}
+{{time}} van
+{{time}} van
+Jelenleg {{time}}

@@ -1,13 +1,2 @@
-# auto translated from en-us to da-dk
-når det er {offset} timer fra nu i {placering}
-når det er {offset} minutter fra nu i {placering}
-når det er {offset} timer fra nu
-når det er {offset} sekunder fra nu i {placering}
-når det er {offset} sekunder
-når det er {offset} sekunder fra nu
-når det er {offset} timer i {placering}
-når det er {offset} timer
-når det er det {offset} minutter
-når det er {offset} sekunder i {placering}
-når det er {offset} minutter i {placering}
-når det er det {offset} minutter fra nu
+hvad er klokken om {offset} (time|timer|minut|minutter|sekund|sekunder)
+hvad er klokken om {offset} (timtimer|minut|minutter|sekund|sekunder) (i|op) {location}

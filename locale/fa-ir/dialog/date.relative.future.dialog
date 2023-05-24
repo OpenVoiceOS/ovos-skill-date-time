@@ -1,5 +1,4 @@
-# auto translated from en-us to fa-ir
-{تاریخ}، در {num_day}
-این است که، از امروز
-[تاریخ]، از امروز
-در این باره، در {num_day}
+{{date}}، {{num_days}} از الان
+{{date}}, در {{num_days}}
+تاریخ {{date}}, {{num_days}} از الان
+{{date}}, در {{num_days}}

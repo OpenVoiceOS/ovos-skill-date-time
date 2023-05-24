@@ -1,5 +1,4 @@
-# auto translated from en-us to da-dk
-{date}, {num_days} fra nu
-Det er {date}, i {num_days}
-{date}, i {num_days}
-Det er {date}, {num_days} fra nu
+{{date}}, {{num_days}} fra nu
+det er {{date}}, om {{num_days}}
+Det bliver {{date}}, om {{num_days}}
+{{date}}, om {{num_days}}

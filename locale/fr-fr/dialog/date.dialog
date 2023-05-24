@@ -1,3 +1,4 @@
-# auto translated from en-us to fr-fr
-C'est {date}
-{date}
+{{date}}
+{{date}}
+C'est le {{date}}
+On est le {{date}}
