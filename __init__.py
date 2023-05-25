@@ -218,19 +218,16 @@ class TimeSkill(OVOSSkill):
                          use_24hour=self.use_24hour)
 
     def get_spoken_current_time(self, location=None,
-                                dtUTC=None, force_ampm=False):
+                                dtUTC=None):
         # Get a formatted spoken time based on the user preferences
         dt = self.get_local_datetime(location, dtUTC)
         if not dt:
             return
 
-        # speak AM/PM when talking about somewhere else
-        say_am_pm = bool(location) or force_ampm
-
         s = nice_time(dt, self.lang, speech=True,
-                      use_24hour=self.use_24hour, use_ampm=say_am_pm)
+                      use_24hour=self.use_24hour, use_ampm=not self.use_24hour)
         # HACK: Mimic 2 has a bug with saying "AM".  Work around it for now.
-        if say_am_pm:
+        if not self.use_24hour:
             s = s.replace("AM", "A.M.")
 
         return s
@@ -402,7 +399,7 @@ class TimeSkill(OVOSSkill):
             return
 
         location = self._extract_location(utt)
-        future_time = self.get_spoken_current_time(location, dt, True)
+        future_time = self.get_spoken_current_time(location, dt)
         if not future_time:
             return
 
