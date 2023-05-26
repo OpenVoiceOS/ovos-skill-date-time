@@ -1,2 +1,2 @@
-vor {{date}}, {{num_days}}
-Es war vor {{date}}, {{num_days}}
+vor {{num_days}}
+{{date}} war vor {{num_days}}

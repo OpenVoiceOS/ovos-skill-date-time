@@ -14,7 +14,8 @@ the [Skill Setting](https://home.mycroft.ai/#/skill).
 * "What time is it in Paris?"
 * "Show me the time"
 * "What's the date?"
-* "Tell me the day of the week"
+* "Tell me the day of the week" (TODO)
+* "How many days until July 4th"
 * "What day is Memorial Day 2020?"
 
 ## Credits 

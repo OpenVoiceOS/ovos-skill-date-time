@@ -1,4 +1,12 @@
-(wie viel|wieviel) uhr ist (es|) in {offset} (Stunden | Minuten | Sekunden)
-(wie viel|wieviel) uhr ist (es|) in {offset} (Stunden | Minuten | Sekunden) in {location}
-wie spät ist (es|) in {offset} (Stunden | Minuten | Sekunden) in {location}
-wie spät ist (es|) in {offset} (Stunden | Minuten | Sekunden)
+(wie viel|wieviel) uhr ist (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2}
+(wie viel|wieviel) uhr wird (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} sein
+(wie viel|wieviel) uhr ist (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} in {location}
+(wie viel|wieviel) uhr wird (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} in {location} sein
+(wie viel|wieviel) uhr ist (es|) in {location} in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2}
+(wie viel|wieviel) uhr wird (es|) in {location} in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} sein
+wie spät ist (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2}
+wie spät wird (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} sein
+wie spät ist (es|) in {location} in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2}
+wie spät wird (es|) in {location} in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} sein
+wie spät ist (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} in {location}
+wie spät wird (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} in {location} sein

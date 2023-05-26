@@ -1,9 +1,21 @@
-# auto translated from en-us to de-de
-(gib|gebe) mir die (aktuelle|) (uhrzeit|zeit) 
-Weisst du wie viel Uhr es ist?
-(wieviel|wie viel) uhr ist (es|) (in diesem Moment|im moment|momentan|jetzt|)
-(wieviel|wie viel) uhr haben wir
-Wie spät ist es (in diesem Moment|im moment|momentan|jetzt|)
+(gib||geb|gebe|sag|sage|nenn|nenne) mir die (aktuelle|momentane|) (uhrzeit|zeit) 
+(gib||geb|gebe|sag|sage|nenn|nenne) mir die (aktuelle|momentane|) (uhrzeit|zeit) (in|von|aus|bei|am|im|an der) {location}
+Weisst du wie viel Uhr (es|) ist
+Weisst du wie viel Uhr (es|) ist (in|bei|am|im|an der) {location}
+wie ist die (zeit|uhrzeit) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)
+wie ist die (zeit|uhrzeit) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|) (in|von|aus|bei|am|im|an der) {location}
+(wieviel|wie viel) uhr ist (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)
+(wieviel|wie viel) uhr ist (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|) (in|von|aus|bei|am|im|an der) {location}
+(wieviel|wie viel) uhr ist (es|) (in|bei) {location} (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)
+(wieviel|wie viel) uhr haben wir (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)
+(wieviel|wie viel) uhr haben wir (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|) (in|von|aus|bei|am|im|an der) {location}
+(wieviel|wie viel) uhr haben wir (es|) (in|bei|im|an der) {location} (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)
+Wie spät (ist|haben wir) (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)
+Wie spät (ist|haben wir) (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|) (in|bei|im|am|an der) {location}
+Wie spät (ist|haben wir) (es|) (in|bei|im|am|an der) {location} (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)
 (bitte|) (sage|sag) mir die (akzuelle|) (uhrzeit|zeit)
-(die|) (Uhr|uhrzeit|zeit) bitte
+(bitte|) (sage|sag) mir die (akzuelle|) (uhrzeit|zeit) (in|bei|im|am|an der) {location}
+Darf ich die (uhrzeit|zeit) (in|bei|im|am|für|an der) {location} (erfahren|erfragen)
 Darf ich die (uhrzeit|zeit) (erfahren|erfragen)
+hast du die (uhrzeit|zeit)
+hast du die (uhrzeit|zeit) (in|bei|im|am|für|an der) {location}
