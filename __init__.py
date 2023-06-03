@@ -198,25 +198,6 @@ class TimeSkill(OVOSSkill):
 
         return dtUTC.astimezone(tz)
 
-    @skill_api_method
-    def get_display_date(self, day=None, location=None):
-        if not day:
-            day = self.get_local_datetime(location)
-        if self.config_core.get('date_format') == 'MDY':
-            return day.strftime("%-m/%-d/%Y")
-        else:
-            return day.strftime("%Y/%-d/%-m")
-
-    @skill_api_method
-    def get_display_current_time(self, location=None, dtUTC=None):
-        # Get a formatted digital clock time based on the user preferences
-        dt = self.get_local_datetime(location, dtUTC)
-        if not dt:
-            return None
-
-        return nice_time(dt, self.lang, speech=False,
-                         use_24hour=self.use_24hour)
-
     def get_spoken_current_time(self, location=None,
                                 dtUTC=None, force_ampm=False):
         # Get a formatted spoken time based on the user preferences
@@ -307,6 +288,8 @@ class TimeSkill(OVOSSkill):
     def _is_display_idle(self):
         # check if the display is being used by another skill right now
         # or _get_active() == "TimeSkill"
+        # TODO - change this, display_manager no longer exists and is mk1 specific
+        # track gui directly / use active skills list from session
         return self.enclosure.display_manager.get_active() == ''
 
     def update_display(self, force=False):
@@ -315,13 +298,12 @@ class TimeSkill(OVOSSkill):
         if self.answering_query:
             return
 
-        self.gui['time_string'] = self.get_display_current_time()
-        self.gui['date_string'] = self.get_display_date()
-        self.gui['ampm_string'] = ''  # TODO
-        self.gui['weekday_string'] = self.get_weekday()
-        self.gui['month_string'] = self.get_month_date()
-
         if self.settings.get("show_time", False):
+            self.gui['time_string'] = self.get_display_current_time()
+            self.gui['date_string'] = self.get_display_date()
+            self.gui['ampm_string'] = ''  # TODO
+            self.gui['weekday_string'] = self.get_weekday()
+            self.gui['month_string'] = self.get_month_date()
             # user requested display of time while idle
             if (force is True) or self._is_display_idle():
                 current_time = self.get_display_current_time()
