@@ -25,7 +25,6 @@ from ovos_utils import classproperty
 from ovos_utils.intents import IntentBuilder
 from ovos_utils.process_utils import RuntimeRequirements
 from ovos_utils.time import now_utc, now_local, to_local
-from ovos_utils.sound import wait_while_speaking
 from ovos_workshop.decorators import intent_handler, skill_api_method
 from ovos_workshop.skills import OVOSSkill
 from timezonefinder import TimezoneFinder
@@ -380,7 +379,6 @@ class TimeSkill(OVOSSkill):
         self.enclosure.deactivate_mouth_events()
         self.display(self.get_display_current_time(location))
         time.sleep(5)
-        wait_while_speaking()
         self.enclosure.mouth_reset()
         self.enclosure.activate_mouth_events()
         self.answering_query = False
@@ -414,7 +412,6 @@ class TimeSkill(OVOSSkill):
         self.enclosure.deactivate_mouth_events()
         self.display(self.get_display_current_time(location, dt))
         time.sleep(5)
-        wait_while_speaking()
         self.enclosure.mouth_reset()
         self.enclosure.activate_mouth_events()
         self.answering_query = False
@@ -500,7 +497,6 @@ class TimeSkill(OVOSSkill):
         self.answering_query = True
         self.show_date(location, day=day)
         time.sleep(10)
-        wait_while_speaking()
         self.enclosure.mouth_reset()
         self.enclosure.activate_mouth_events()
         self.answering_query = False
