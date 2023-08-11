@@ -1,13 +1,20 @@
-# <img src='https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/calendar.svg' card_color='#22a7f0' width='50' height='50' style='vertical-align:bottom'/> Date and Time
+# Date and Time
 Get the time, date, day of the week
 
 ## About 
 Get the local time or time for major cities around the world.  Times
 are given in 12-hour (2:30 pm) or 24-hour format (14:30) based on the
-Time Format setting at [Home](https://home.mycroft.ai/#/setting/basic)
+Time Format setting at your [mycroft.conf](https://github.com/OpenVoiceOS/ovos-config/blob/dev/ovos_config/mycroft.conf#L33):
 
-Time can optionally be shown on a display, like a digital clock.  See
-the [Skill Setting](https://home.mycroft.ai/#/skill).
+```json
+{
+  // Time format, either 'half' (e.g. "11:37 pm") or 'full' (e.g. "23:37")
+  "time_format": "half",
+
+  // Date format, either 'MDY' (e.g. "11-29-1978") or 'DMY' (e.g. "29-11-1978")
+  "date_format": "MDY",
+}
+```
 
 ## Examples 
 * "What time is it?"
