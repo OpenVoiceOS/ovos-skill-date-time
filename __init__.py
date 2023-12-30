@@ -22,7 +22,7 @@ from lingua_franca.format import nice_date, nice_duration, nice_time, date_time_
 from lingua_franca.parse import extract_datetime, fuzzy_match, extract_number, normalize
 from ovos_bus_client.message import Message
 from ovos_utils import classproperty
-from ovos_utils.intents import IntentBuilder
+from ovos_workshop.intents import IntentBuilder
 from ovos_utils.process_utils import RuntimeRequirements
 from ovos_utils.time import now_utc, now_local, to_local
 from ovos_workshop.decorators import intent_handler, skill_api_method
