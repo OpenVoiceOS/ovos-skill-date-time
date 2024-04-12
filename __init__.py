@@ -84,7 +84,7 @@ class TimeSkill(OVOSSkill):
                                       frequency=10,
                                       name="clock")
 
-    def on_setting_changed(self):
+    def on_settings_changed(self):
         if self.settings.get("show_time"):
             self.schedule_clock_rendering()
         else:
