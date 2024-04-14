@@ -68,15 +68,27 @@ class TimeSkill(OVOSSkill):
         self.default_timezone = None
         date_time_format.cache(self.lang)
 
+        self.settings_change_callback = self.on_settings_changed
+        if self.settings.get("show_time"):
+            self.schedule_clock_rendering()
+
+    def schedule_clock_rendering(self):
+        self.cancel_scheduled_event("clock")
         # Start a callback that repeats every 10 seconds
-        # TODO: Add mechanism to only start timer when UI setting
-        #       is checked, but this requires a notifier for settings
-        #       updates from the web.
         now = datetime.datetime.now()
         callback_time = (datetime.datetime(now.year, now.month, now.day,
                                            now.hour, now.minute) +
                          datetime.timedelta(seconds=60))
-        self.schedule_repeating_event(self.update_display, callback_time, 10)
+        self.schedule_repeating_event(self.update_mk1_faceplate,
+                                      when=callback_time,
+                                      frequency=10,
+                                      name="clock")
+
+    def on_settings_changed(self):
+        if self.settings.get("show_time"):
+            self.schedule_clock_rendering()
+        else:
+            self.cancel_scheduled_event("clock")
 
     @property
     def use_24hour(self):
@@ -234,12 +246,16 @@ class TimeSkill(OVOSSkill):
 
         return s
 
-    def display(self, display_time):
-        if display_time:
-            self.display_gui(display_time)
-            self.display_mark1(display_time)
+    def show_time(self, display_time=None):
+        display_time = display_time or self.get_display_current_time()
+        self.show_time_gui(display_time)
+        self.show_time_mark1(display_time)
 
-    def display_mark1(self, display_time):
+    def show_time_mark1(self, display_time=None):
+        display_time = display_time or self.get_display_current_time()
+        # TODO - move to mark 1 plugin/gui extension,
+        #   implement "homescreen" for mark1
+
         # Map characters to the display encoding for a Mark 1
         # (4x8 except colon, which is 2x8)
         code_dict = {
@@ -295,40 +311,37 @@ class TimeSkill(OVOSSkill):
         msg = self.bus.wait_for_response(query)
         return msg and msg.data.get("active_alarms", 0) > 0
 
-    def display_gui(self, display_time):
+    def show_time_gui(self, display_time=None):
+        display_time = display_time or self.get_display_current_time()
         """ Display time on the Mycroft GUI. """
         self.gui.clear()
         self.gui['time_string'] = display_time
         self.gui['ampm_string'] = ''
         self.gui['date_string'] = self.get_display_date()
-        self.gui.show_page('time.qml')
+        self.gui.show_page('time')
 
     def _is_display_idle(self):
         # check if the display is being used by another skill right now
         # or _get_active() == "TimeSkill"
         return self.enclosure.display_manager.get_active() == ''
 
-    def update_display(self, force=False):
+    def update_mk1_faceplate(self, force=False):
+        # TODO - move to mark 1 plugin/gui extension,
+        #   implement "homescreen" for mark1
+
         # Don't show idle time when answering a query to prevent
         # overwriting the displayed value.
         if self.answering_query:
             return
 
-        self.gui['time_string'] = self.get_display_current_time()
-        self.gui['date_string'] = self.get_display_date()
-        self.gui['ampm_string'] = ''  # TODO
-        self.gui['weekday_string'] = self.get_weekday()
-        self.gui['month_string'] = self.get_month_date()
-
         if self.settings.get("show_time", False):
             # user requested display of time while idle
-            if (force is True) or self._is_display_idle():
+            # (Mark1 faceplate)
+            if force or self._is_display_idle():
                 current_time = self.get_display_current_time()
                 if self.displayed_time != current_time:
                     self.displayed_time = current_time
-                    self.display(current_time)
-                    # return mouth to 'idle'
-                    self.enclosure.display_manager.remove_active()
+                    self.show_time_mark1(current_time)
             else:
                 self.displayed_time = None  # another skill is using display
         else:
@@ -337,8 +350,6 @@ class TimeSkill(OVOSSkill):
                 if self._is_display_idle():
                     # erase the existing displayed time
                     self.enclosure.mouth_reset()
-                    # return mouth to 'idle'
-                    self.enclosure.display_manager.remove_active()
                 self.displayed_time = None
 
     def _extract_location(self, utt):
@@ -377,7 +388,7 @@ class TimeSkill(OVOSSkill):
         # and briefly show the time
         self.answering_query = True
         self.enclosure.deactivate_mouth_events()
-        self.display(self.get_display_current_time(location))
+        self.show_time(self.get_display_current_time(location))
         time.sleep(5)
         self.enclosure.mouth_reset()
         self.enclosure.activate_mouth_events()
@@ -410,7 +421,7 @@ class TimeSkill(OVOSSkill):
         # and briefly show the time
         self.answering_query = True
         self.enclosure.deactivate_mouth_events()
-        self.display(self.get_display_current_time(location, dt))
+        self.show_time(self.get_display_current_time(location, dt))
         time.sleep(5)
         self.enclosure.mouth_reset()
         self.enclosure.activate_mouth_events()
@@ -438,9 +449,10 @@ class TimeSkill(OVOSSkill):
         else:
             self.display_tz = None
 
-        # show time immediately
+        # enable setting
         self.settings["show_time"] = True
-        self.update_display(True)
+        # show time immediately
+        self.show_time()
 
     ######################################################################
     # Date queries
@@ -628,8 +640,4 @@ class TimeSkill(OVOSSkill):
             self.gui['day_string'] = month_string[0]
             self.gui['month_string'] = month_string[1]
         self.gui['year_string'] = self.get_year(day, location)
-        self.gui.show_page('date.qml')
-
-
-def create_skill():
-    return TimeSkill()
+        self.gui.show_page('date')
