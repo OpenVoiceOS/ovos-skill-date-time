@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/V0.2.3a6...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/V0.2.3a7...HEAD)
+
+**Fixed bugs:**
+
+- reduce bus/log spam [\#37](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/37) ([JarbasAl](https://github.com/JarbasAl))
+
+## [V0.2.3a7](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/V0.2.3a7) (2023-12-30)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/V0.2.3a6...V0.2.3a7)
 
 **Merged pull requests:**
 
