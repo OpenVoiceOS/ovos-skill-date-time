@@ -316,11 +316,10 @@ class TimeSkill(OVOSSkill):
         utt = message.data.get('utterance', "")
         location = message.data.get("Location") or self._extract_location(utt)
         time_string = self.get_display_time(location)
-        # show time immediately
+        # show time
         self.show_time(time_string)
-        # enable setting
-        if not location:
-            self.settings["show_time"] = True
+        # TODO - implement "clock homescreen" in mk1 plugin,
+        #   emit bus message to enable it
 
     ######################################################################
     # Date queries
