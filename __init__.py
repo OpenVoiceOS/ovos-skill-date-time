@@ -199,7 +199,7 @@ class TimeSkill(OVOSSkill):
         return dt
 
     def get_spoken_time(self, location: str=None, force_ampm=False,
-                        anchor_date: datetime.datetime = None):
+                        anchor_date: datetime.datetime = None) -> str:
         """Get formatted spoken time based on user preferences."""
         dt = self.get_datetime(location, anchor_date)
 
@@ -214,7 +214,7 @@ class TimeSkill(OVOSSkill):
         return s
 
     def get_display_time(self, location: str=None, force_ampm=False,
-                         anchor_date: datetime.datetime = None):
+                         anchor_date: datetime.datetime = None) -> str:
         """Get formatted display time based on user preferences."""
         dt = self.get_datetime(location, anchor_date)
         # speak AM/PM when talking about somewhere else
@@ -225,7 +225,7 @@ class TimeSkill(OVOSSkill):
                          use_ampm=say_am_pm)
 
     def get_display_date(self, location: str=None,
-                         anchor_date: datetime.datetime = None):
+                         anchor_date: datetime.datetime = None) -> str:
         """Get formatted display date based on user preferences."""
         dt = self.get_datetime(location, anchor_date)
         fmt = self.date_format  # Session aware
@@ -238,7 +238,7 @@ class TimeSkill(OVOSSkill):
         elif fmt == 'DMY':
             return dt.strftime("%d/%-m/%-Y")
 
-    def nice_weekday(self, dt: datetime.datetime):
+    def nice_weekday(self, dt: datetime.datetime) -> str:
         """Get localized weekday name."""
         # TODO - move to lingua-franca
         if self.lang in date_time_format.lang_config.keys():
@@ -249,7 +249,7 @@ class TimeSkill(OVOSSkill):
             weekday = dt.strftime("%A")
         return weekday.capitalize()
 
-    def nice_month(self, dt: datetime.datetime):
+    def nice_month(self, dt: datetime.datetime) -> str:
         """Get localized month name."""
         # TODO - move to lingua-franca
         if self.lang in date_time_format.lang_config.keys():
@@ -257,11 +257,7 @@ class TimeSkill(OVOSSkill):
             month = localized_month_names[str(int(dt.strftime("%m")))]
         else:
             month = dt.strftime("%B")
-        month = month.capitalize()
-        if self.date_format == 'MDY':
-            return f"{month} {dt.strftime('%d')}"
-        else:
-            return f"{dt.strftime('%d')} {month}"
+        return month.capitalize()
 
     ######################################################################
     # Time queries / display
@@ -455,18 +451,16 @@ class TimeSkill(OVOSSkill):
 
     def show_date_gui(self, dt: datetime.datetime, location: str):
         self.gui.clear()
+        self.gui['location_string'] = str(location)
         self.gui['date_string'] = self.get_display_date(anchor_date=dt)
         self.gui['weekday_string'] = self.nice_weekday(dt)
-        self.gui['daymonth_string'] = self.nice_month(dt)
-        self.gui['location_string'] = str(location)
-        month_string = self.nice_month(dt).split(" ")
-        if self.date_format == 'MDY':
-            self.gui['day_string'] = month_string[1]
-            self.gui['month_string'] = month_string[0]
-        else:
-            self.gui['day_string'] = month_string[0]
-            self.gui['month_string'] = month_string[1]
+        self.gui['day_string'] = dt.strftime('%d')
+        self.gui['month_string'] = self.nice_month(dt)
         self.gui['year_string'] = dt.strftime("%Y")
+        if self.date_format == 'MDY':
+            self.gui['daymonth_string'] = f"{self.gui['month_string']} {self.gui['day_string']}"
+        else:
+            self.gui['daymonth_string'] = f"{self.gui['day_string']} {self.gui['month_string']}"
         self.gui.show_page('date')
 
     def show_time(self, display_time: str):
