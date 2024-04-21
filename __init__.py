@@ -32,11 +32,11 @@ from timezonefinder import TimezoneFinder
 def speakable_timezone(tz):
     """Convert timezone to a better speakable version
 
-    Splits joined words,  e.g. EasterIsland  to "Easter Island",
+    Splits joined words, e.g. EasterIsland to "Easter Island",
     "North_Dakota" to "North Dakota" etc.
     Then parses the output into the correct order for speech,
-    eg. "America/North Dakota/Center" to
-    resulting in something like  "Center North Dakota America", or
+    e.g. "America/North Dakota/Center" to
+    resulting in something like "Center North Dakota America", or
     "Easter Island Chile"
     """
     say = re.sub(r"([a-z])([A-Z])", r"\g<1> \g<2>", tz)
@@ -47,6 +47,7 @@ def speakable_timezone(tz):
 
 
 class TimeSkill(OVOSSkill):
+    """A skill for interacting with date and time information."""
 
     @classproperty
     def runtime_requirements(self):
@@ -62,19 +63,19 @@ class TimeSkill(OVOSSkill):
                                    no_gui_fallback=True)
 
     def initialize(self):
-        # pre-load lingua-franca
+        """Initialize the skill by pre-loading lingua-franca."""
         date_time_format.cache(self.lang)
 
     @property
     def use_24hour(self):
-        # self.time_format is Session aware
+        """Check if the time format is in 24-hour mode.
+        self.time_format is Session aware"""
         return self.time_format == 'full'
 
     ######################################################################
     # parsing
-    def _extract_location(self, utt) -> str:
-        # if "Location" in message.data:
-        #     return message.data["Location"]
+    def _extract_location(self, utt: str) -> str:
+        """Extract location from utterance."""
         rx_file = self.find_resource('location.rx', 'regex')
         if rx_file:
             with open(rx_file) as f:
@@ -90,7 +91,8 @@ class TimeSkill(OVOSSkill):
                             pass
         return None
 
-    def _get_timezone_from_builtins(self, location_string) -> datetime.tzinfo:
+    def _get_timezone_from_builtins(self, location_string: str) -> datetime.tzinfo:
+        """Get timezone from built-in resources."""
         if "/" not in location_string:
             try:
                 # This handles common city names, like "Dallas" or "Paris"
@@ -111,7 +113,7 @@ class TimeSkill(OVOSSkill):
             pass
         return None
 
-    def _get_timezone_from_table(self, location_string) -> datetime.tzinfo:
+    def _get_timezone_from_table(self, location_string: str) -> datetime.tzinfo:
         """Check lookup table for timezones.
 
         This can also be a translation layer.
@@ -124,7 +126,7 @@ class TimeSkill(OVOSSkill):
                 return pytz.timezone(timezones[timezone].strip())
         return None
 
-    def _get_timezone_from_fuzzymatch(self, location_string) -> datetime.tzinfo:
+    def _get_timezone_from_fuzzymatch(self, location_string: str) -> datetime.tzinfo:
         """Fuzzymatch a location against the pytz timezones.
 
         The pytz timezones consists of
@@ -180,7 +182,7 @@ class TimeSkill(OVOSSkill):
 
     ######################################################################
     # utils
-    def get_datetime(self, location=None,
+    def get_datetime(self, location: str=None,
                      anchor_date: datetime.datetime = None) -> datetime.datetime:
         """return anchor_date/now_local at location/session_tz"""
         if location:
@@ -196,9 +198,9 @@ class TimeSkill(OVOSSkill):
             dt = now_local(tz)
         return dt
 
-    def get_spoken_time(self, location=None, force_ampm=False,
+    def get_spoken_time(self, location: str=None, force_ampm=False,
                         anchor_date: datetime.datetime = None):
-        # Get a formatted spoken time based on the user preferences
+        """Get formatted spoken time based on user preferences."""
         dt = self.get_datetime(location, anchor_date)
 
         # speak AM/PM when talking about somewhere else
@@ -211,9 +213,9 @@ class TimeSkill(OVOSSkill):
             s = s.replace("AM", "A.M.")
         return s
 
-    def get_display_time(self, location=None, force_ampm=False,
+    def get_display_time(self, location: str=None, force_ampm=False,
                          anchor_date: datetime.datetime = None):
-        # Get a formatted spoken time based on the user preferences
+        """Get formatted display time based on user preferences."""
         dt = self.get_datetime(location, anchor_date)
         # speak AM/PM when talking about somewhere else
         say_am_pm = bool(location) or force_ampm
@@ -222,8 +224,9 @@ class TimeSkill(OVOSSkill):
                          use_24hour=self.use_24hour,  # session aware
                          use_ampm=say_am_pm)
 
-    def get_display_date(self, location=None,
+    def get_display_date(self, location: str=None,
                          anchor_date: datetime.datetime = None):
+        """Get formatted display date based on user preferences."""
         dt = self.get_datetime(location, anchor_date)
         fmt = self.date_format  # Session aware
         if fmt == 'MDY':
@@ -236,6 +239,7 @@ class TimeSkill(OVOSSkill):
             return dt.strftime("%d/%-m/%-Y")
 
     def nice_weekday(self, dt: datetime.datetime):
+        """Get localized weekday name."""
         # TODO - move to lingua-franca
         if self.lang in date_time_format.lang_config.keys():
             localized_day_names = list(
@@ -246,6 +250,7 @@ class TimeSkill(OVOSSkill):
         return weekday.capitalize()
 
     def nice_month(self, dt: datetime.datetime):
+        """Get localized month name."""
         # TODO - move to lingua-franca
         if self.lang in date_time_format.lang_config.keys():
             localized_month_names = date_time_format.lang_config[self.lang]['month']
@@ -261,6 +266,8 @@ class TimeSkill(OVOSSkill):
     ######################################################################
     # Time queries / display
     def speak_time(self, dialog: str, location: str = None):
+        """Speak the current time. Optionally at a location
+        speaks an error if timezone for requested location could not be detected"""
         if location:
             current_time = self.get_spoken_time(location)
             if not current_time:
@@ -275,15 +282,12 @@ class TimeSkill(OVOSSkill):
         self.speak_dialog(dialog, {"time": current_time})
 
         # and briefly show the time
-        self.enclosure.deactivate_mouth_events()
         self.show_time(time_string)
-        time.sleep(5)
-        self.enclosure.mouth_reset()
-        self.enclosure.activate_mouth_events()
 
     @intent_handler(IntentBuilder("").require("Query").require("Time").
                     optionally("Location"))
     def handle_query_time(self, message):
+        """Handle queries about the current time."""
         utt = message.data.get('utterance', "")
         location = message.data.get("Location") or self._extract_location(utt)
         # speak it
@@ -324,8 +328,9 @@ class TimeSkill(OVOSSkill):
     ######################################################################
     # Date queries
     def handle_query_date(self, message, response_type="simple"):
+        """Handle queries about the current date."""
         utt = message.data.get('utterance', "").lower()
-        now = self.get_datetime()
+        now = self.get_datetime() # session aware
         try:
             dt, utt = extract_datetime(utt, anchorDate=now)
         except Exception:
@@ -367,13 +372,11 @@ class TimeSkill(OVOSSkill):
 
         # and briefly show the date
         self.show_date(dt, location=location_string)
-        time.sleep(10)
-        self.enclosure.mouth_reset()
-        self.enclosure.activate_mouth_events()
 
     @intent_handler(IntentBuilder("").require("Query").require("Date").
                     optionally("Location"))
     def handle_query_date_simple(self, message):
+        """Handle simple date queries."""
         self.handle_query_date(message, response_type="simple")
 
     @intent_handler(IntentBuilder("").require("Query").require("Month"))
@@ -438,17 +441,21 @@ class TimeSkill(OVOSSkill):
     ######################################################################
     # GUI / Faceplate
     def show_date(self, dt: datetime.datetime, location: str):
+        """Display date on GUI and Mark 1 faceplate."""
         self.show_date_gui(dt, location)
         self.show_date_mark1(dt)
 
     def show_date_mark1(self, dt: datetime.datetime):
-        show = self.get_display_date(dt)
+        show = self.get_display_date(anchor_date=dt)
         self.enclosure.deactivate_mouth_events()
         self.enclosure.mouth_text(show)
+        time.sleep(10)
+        self.enclosure.mouth_reset()
+        self.enclosure.activate_mouth_events()
 
     def show_date_gui(self, dt: datetime.datetime, location: str):
         self.gui.clear()
-        self.gui['date_string'] = self.get_display_date(dt)
+        self.gui['date_string'] = self.get_display_date(anchor_date=dt)
         self.gui['weekday_string'] = self.nice_weekday(dt)
         self.gui['daymonth_string'] = self.nice_month(dt)
         self.gui['location_string'] = str(location)
@@ -462,11 +469,13 @@ class TimeSkill(OVOSSkill):
         self.gui['year_string'] = dt.strftime("%Y")
         self.gui.show_page('date')
 
-    def show_time(self, display_time):
+    def show_time(self, display_time: str):
+        """Display time on GUI and Mark 1 faceplate."""
         self.show_time_gui(display_time)
         self.show_time_mark1(display_time)
 
-    def show_time_mark1(self, display_time):
+    def show_time_mark1(self, display_time: str):
+        self.enclosure.deactivate_mouth_events()
         # Map characters to the display encoding for a Mark 1
         # (4x8 except colon, which is 2x8)
         code_dict = {
@@ -510,6 +519,9 @@ class TimeSkill(OVOSSkill):
 
         self.enclosure.mouth_display(img_code="CIAAAA", x=29,
                                      refresh=False)
+        time.sleep(5)
+        self.enclosure.mouth_reset()
+        self.enclosure.activate_mouth_events()
 
     def show_time_gui(self, display_time):
         """ Display time on the GUI. """
