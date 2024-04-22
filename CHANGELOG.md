@@ -2,7 +2,19 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/V0.2.3a7...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/V0.2.3a8...HEAD)
+
+**Implemented enhancements:**
+
+- refactor/session\_aware [\#38](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/38) ([JarbasAl](https://github.com/JarbasAl))
+
+**Fixed bugs:**
+
+- `AttributeError: 'EnclosureAPI' object has no attribute 'display_manager'` [\#34](https://github.com/OpenVoiceOS/skill-ovos-date-time/issues/34)
+
+## [V0.2.3a8](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/V0.2.3a8) (2024-04-14)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/V0.2.3a7...V0.2.3a8)
 
 **Fixed bugs:**
 
