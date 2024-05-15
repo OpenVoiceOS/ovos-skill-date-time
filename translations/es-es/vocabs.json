@@ -1,0 +1,58 @@
+{
+    "/vocab/Month.voc": [
+        "Octubre",
+        "Abril",
+        "Mayo",
+        "Marzo",
+        "Agosto",
+        "Enero",
+        "Diciembre",
+        "Junio",
+        "Julio",
+        "Febrero",
+        "Septiembre",
+        "Noviembre"
+    ],
+    "/vocab/Future.voc": [
+        "ser\u00e1",
+        "en",
+        "a partir de ahora"
+    ],
+    "/vocab/Time.voc": [
+        "hora"
+    ],
+    "/vocab/LeapYear.voc": [
+        "a\u00f1o bisiesto"
+    ],
+    "/vocab/Today.voc": [
+        "de hoy",
+        "hoy"
+    ],
+    "/vocab/Query.voc": [
+        "qu\u00e9",
+        "dime|di"
+    ],
+    "/vocab/Display.voc": [
+        "muestra",
+        "ense\u00f1a"
+    ],
+    "/vocab/Date.voc": [
+        "fecha",
+        "d\u00eda",
+        "hoy"
+    ],
+    "/vocab/RelativeDay.voc": [
+        "de ayer",
+        "ayer",
+        "mi\u00e9rcoles",
+        "ma\u00f1ana",
+        "s\u00e1bado",
+        "lunes",
+        "jueves",
+        "martes",
+        "hoy",
+        "domingo",
+        "viernes",
+        "de hoy"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "/dialog/date.relative.future.dialog": [
+        "{date}, {num_days} dn\u00ed od te\u010f",
+        "Je to {date}, za {num_days} dn\u00ed",
+        "{date}, za {num_days}"
+    ],
+    "/dialog/date.future.weekend.dialog": [
+        "t\u00fdden bude od {saturday_date}, do {sunday_date}"
+    ],
+    "/dialog/date.not.found.dialog": [
+        "Toto datum jsem nedok\u00e1zal nal\u00e9zt."
+    ],
+    "/dialog/date.last.weekend.dialog": [
+        "t\u00fdden byl od {saturday_date}, do {sunday_date}"
+    ],
+    "/dialog/time.future.dialog": [
+        "{time}",
+        "Bude to ve {time}"
+    ],
+    "/dialog/next.leap.year.dialog": [
+        "Dal\u0161\u00ed p\u0159estupn\u00fd rok bude {year}"
+    ],
+    "/dialog/date.relative.past.dialog": [
+        "{date}, p\u0159ed {num_days}",
+        "Bylo to {date}, p\u0159ed {num_days} dny"
+    ],
+    "/dialog/did.you.mean.timezone.dialog": [
+        "Myslel jste \u010dasovou z\u00f3nu {zone_name}?"
+    ],
+    "/dialog/date.dialog": [
+        "{date}",
+        "Je {date}"
+    ],
+    "/dialog/time.tz.not.found.dialog": [
+        "Nena\u0161el jsem \u010dasovou z\u00f3nu pro {location}"
+    ],
+    "/dialog/time.current.dialog": [
+        "{time}",
+        "Je {time}",
+        "{time}",
+        "Nyn\u00ed je {time}"
+    ]
+}

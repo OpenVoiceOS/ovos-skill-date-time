@@ -1,0 +1,48 @@
+{
+    "/dialog/date.relative.future.dialog": [
+        "{date}, {num_days} dni od dzisiaj",
+        "Dzie\u0144 {date}, b\u0119dzie za {num_days} dni",
+        "{date}, b\u0119dzie za {num_days} dni"
+    ],
+    "/dialog/date.future.weekend.dialog": [
+        "Nast\u0119pny weekend b\u0119dzie od {saturday_date}, do {sunday_date}"
+    ],
+    "/dialog/date.not.found.dialog": [
+        "Nie uda\u0142o mi si\u0119 znale\u017a\u0107 tej daty."
+    ],
+    "/dialog/date.last.weekend.dialog": [
+        "Poprzedni weekend by\u0142 od {saturday_date}, do {sunday_date}"
+    ],
+    "/dialog/time.future.dialog": [
+        "{time}",
+        "To b\u0119dzie {time}"
+    ],
+    "/dialog/next.leap.year.dialog": [
+        "Nast\u0119pny rok przest\u0119pny to {year}",
+        "Nast\u0119pnym rokiem przest\u0119pnym b\u0119dzie {year}",
+        "Nast\u0119pnym rokiem przest\u0119pnym jest {year}"
+    ],
+    "/dialog/date.relative.past.dialog": [
+        "{date}, {num_days} dni temu",
+        "Data {date} by\u0142a {num_days} dni temu"
+    ],
+    "/dialog/did.you.mean.timezone.dialog": [
+        "Czy chodzi o stref\u0119 czasow\u0105 {zone_name}?"
+    ],
+    "/dialog/date.dialog": [
+        "{date}",
+        "Dzi\u015b jest {date}",
+        "Dzisiaj jest {date}",
+        "Mamy {date}",
+        "Dzi\u015b mamy {date}",
+        "Jest {date}"
+    ],
+    "/dialog/time.tz.not.found.dialog": [
+        "Nie uda\u0142o mi si\u0119 znale\u017a\u0107 strefy czasowej dla {location}"
+    ],
+    "/dialog/time.current.dialog": [
+        "{time}",
+        "Jest {time}",
+        "Obecnie {time}"
+    ]
+}

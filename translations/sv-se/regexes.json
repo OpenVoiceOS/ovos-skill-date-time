@@ -1,0 +1,5 @@
+{
+    "location.rx": [
+        "\\b(vid|p\u00e5|f\u00f6r) (?P<Location>.*)"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "/intents/what.time.will.it.be.intent": [
+        "che ora sar\u00e0 {offset} (ore|minuti|secondi) (da adesso|)",
+        "che ora sar\u00e0 {offset} (ore|minuti|secondi) (da adesso|) (a|in) {location}"
+    ],
+    "/intents/date.last.weekend.intent": [
+        "che giorno era il fine settimana scorso"
+    ],
+    "/intents/date.future.weekend.intent": [
+        "che giorno sar\u00e0 il prossimo fine settimana"
+    ],
+    "/intents/what.time.is.it.intent": [
+        "(per piacere|mi diresti|) che ora \u00e8",
+        "(mi dici|mi dai|) l'ora"
+    ]
+}

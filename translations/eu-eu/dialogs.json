@@ -1,0 +1,47 @@
+{
+    "/dialog/date.relative.future.dialog": [
+        "{date}, gaurtik {num_days}",
+        "{date} izango da, {num_days} egunetan",
+        "{date} izango da, gaurtik hasi eta {num_days} egunera",
+        "{date}, {num_days} egunera"
+    ],
+    "/dialog/date.future.weekend.dialog": [
+        "Hurrengo asteburua {saturday_date}tik {sunday_date}ra izango da."
+    ],
+    "/dialog/date.not.found.dialog": [
+        "Ezin izan dut data hori aurkitu."
+    ],
+    "/dialog/date.last.weekend.dialog": [
+        "Joan den asteburua {saturday_date}tik {sunday_date}ra izan zen"
+    ],
+    "/dialog/time.future.dialog": [
+        "{time}",
+        "{time} izango dira",
+        "{time} izango da"
+    ],
+    "/dialog/next.leap.year.dialog": [
+        "Hurrengo bisurtea {year}-(e|)an izango da."
+    ],
+    "/dialog/date.relative.past.dialog": [
+        "{date}, (orain dela|duela) {num_days}",
+        "{date} izan zen, (orain dela|duela) {num_days}"
+    ],
+    "/dialog/did.you.mean.timezone.dialog": [
+        "{zone_name} ordu-zonaldea diozu?"
+    ],
+    "/dialog/date.dialog": [
+        "{date}",
+        "Gaur {date} da",
+        "{date} da"
+    ],
+    "/dialog/time.tz.not.found.dialog": [
+        "Ezin dut {location}(-erako|rako) ordu-zonaldea aurkitu"
+    ],
+    "/dialog/time.current.dialog": [
+        "{time}",
+        "{time} dira",
+        "{time} da",
+        "Orain {time} dira",
+        "Orain {time} da"
+    ]
+}

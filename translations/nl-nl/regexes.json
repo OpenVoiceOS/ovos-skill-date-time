@@ -1,0 +1,5 @@
+{
+    "location.rx": [
+        "\\b(op|in|bij) (?P<Location>.*)"
+    ]
+}

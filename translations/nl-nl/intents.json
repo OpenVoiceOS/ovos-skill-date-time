@@ -1,0 +1,43 @@
+{
+    "/intents/what.time.will.it.be.intent": [
+        "wanneer is het {offset} (uur|minuten|seconden) (vanaf nu)",
+        "wanneer is het {offset} (uur|minuten|seconden) (vanaf nu) in {locatie}"
+    ],
+    "/intents/date.last.weekend.intent": [
+        "wat waren de data van het afgelopen weekend",
+        "welke datum was het laatste weekend",
+        "wat waren de data voor afgelopen weekend",
+        "welke datum was het afgelopen weekend",
+        "welke data waren er afgelopen weekend",
+        "wat waren de data van het laatste weekend",
+        "welke data waren het laatste weekend"
+    ],
+    "/intents/date.future.weekend.intent": [
+        "wat zijn de dagen dit weekend",
+        "welke dag is volgend weekend",
+        "wat zijn de data dit weekend",
+        "welke data zijn dit weekend",
+        "welke datum is dit weekend",
+        "welke data zijn volgend weekend",
+        "welke dagen volgend weekend",
+        "wat zijn de dagen voor volgend weekend",
+        "welke dagen voor dit weekend",
+        "wat zijn de data voor volgend weekend",
+        "wat zijn de data voor dit weekend",
+        "welke datum is volgend weekend",
+        "welke dag is dit weekend",
+        "welke dagen dit weekend",
+        "wat zijn de dagen voor dit weekend",
+        "wat zijn de data voor volgend weekend",
+        "wat is de datum voor dit weekend",
+        "wat zijn de dagen voor volgend weekend",
+        "welke dagen voor volgend weekend",
+        "wat is de datum voor volgend weekend"
+    ],
+    "/intents/what.time.is.it.intent": [
+        "Wat is de (huidige) tijd",
+        "huidige tijd",
+        "Hoe laat is het",
+        "Hoe laat leven we"
+    ]
+}

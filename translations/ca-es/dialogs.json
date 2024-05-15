@@ -1,0 +1,47 @@
+{
+    "/dialog/date.relative.future.dialog": [
+        "{date}, d'avui en {num_days} dies",
+        "\u00c9s {date}, a {num_days}",
+        "{date}, d'avui en {num_days} dies",
+        "{date}, a {num_days}"
+    ],
+    "/dialog/date.future.weekend.dialog": [
+        "el pr\u00f2xim cap de setmana ser\u00e0 {saturday_date}, fins {sunday_date}"
+    ],
+    "/dialog/date.not.found.dialog": [
+        "No us puc trobar aquesta data."
+    ],
+    "/dialog/date.last.weekend.dialog": [
+        "el cap de setmana passat va ser de {saturday_date}, fins {sunday_date}"
+    ],
+    "/dialog/time.future.dialog": [
+        "{time}",
+        "Ser\u00e1n {time}"
+    ],
+    "/dialog/next.leap.year.dialog": [
+        "el pr\u00f2xim any de trasp\u00e0s \u00e9s el {year}"
+    ],
+    "/dialog/date.relative.past.dialog": [
+        "{date}, fa {num_days} dies",
+        "Va ser {date}, fa {num_days} dies"
+    ],
+    "/dialog/did.you.mean.timezone.dialog": [
+        "Vols dir la zona hor\u00e0ria {zone_name}?"
+    ],
+    "/dialog/date.dialog": [
+        "{date}",
+        "{date}",
+        "Avui \u00e9s {date}",
+        "Som a {date}"
+    ],
+    "/dialog/time.tz.not.found.dialog": [
+        "No puc trobar el fus horari de {location}"
+    ],
+    "/dialog/time.current.dialog": [
+        "{time}",
+        "{time}",
+        "S\u00f3n {time}",
+        "S\u00f3n {time}",
+        "Ara mateix s\u00f3n {time}"
+    ]
+}

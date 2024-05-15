@@ -1,0 +1,47 @@
+{
+    "/dialog/date.relative.future.dialog": [
+        "{date}, {num_days} fr\u00e5n nu",
+        "det \u00e4r {date}, om {num_days}",
+        "Det kommer vara {date}, om {num_days}",
+        "{date}, om {num_days}"
+    ],
+    "/dialog/date.future.weekend.dialog": [
+        "n\u00e4sta helg kommer vara {saturday_date}, till {sunday_date}"
+    ],
+    "/dialog/date.not.found.dialog": [
+        "Jag kunde inte hitta datumet \u00e5t dig"
+    ],
+    "/dialog/date.last.weekend.dialog": [
+        "f\u00f6reg\u00e5ende helg var {saturday_date}, till {sunday_date}"
+    ],
+    "/dialog/time.future.dialog": [
+        "{time}",
+        "Det kommer att vara {time}"
+    ],
+    "/dialog/next.leap.year.dialog": [
+        "n\u00e4sta skott\u00e5r \u00e4r {year}"
+    ],
+    "/dialog/date.relative.past.dialog": [
+        "{date}, f\u00f6r {num_days} sedan",
+        "Det var {date}, f\u00f6r {num_days} sedan"
+    ],
+    "/dialog/did.you.mean.timezone.dialog": [
+        "Menade du tidszonen {zone_name}?"
+    ],
+    "/dialog/date.dialog": [
+        "{date}",
+        "{date}",
+        "det \u00e4r {date}",
+        "idag \u00e4r det {date}"
+    ],
+    "/dialog/time.tz.not.found.dialog": [
+        "Jag kunde inte hitta tidszonen f\u00f6r {location}"
+    ],
+    "/dialog/time.current.dialog": [
+        "{time}",
+        "{time}",
+        "Klockan \u00e4r {time}",
+        "Den \u00e4r {time}",
+        "F\u00f6r n\u00e4rvarande {time}"
+    ]
+}

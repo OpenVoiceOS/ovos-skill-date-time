@@ -1,0 +1,47 @@
+{
+    "/dialog/date.relative.future.dialog": [
+        "{date},{num_days} \u00e0 partir de maintenant",
+        "Nous sommes en {date}, le {num_days}",
+        "C'est le {date}, dans {num_days} jours",
+        "{date}, le {num_days}"
+    ],
+    "/dialog/date.future.weekend.dialog": [
+        "le prochain weekend sera de {saturday_date} \u00e0 {sunday_date}"
+    ],
+    "/dialog/date.not.found.dialog": [
+        "Je n'ai pas pu trouver cette date pour vous."
+    ],
+    "/dialog/date.last.weekend.dialog": [
+        "le weekend dernier \u00e9tait de {saturday_date} \u00e0 {sunday_date}"
+    ],
+    "/dialog/time.future.dialog": [
+        "{time}",
+        "Il sera {time}"
+    ],
+    "/dialog/next.leap.year.dialog": [
+        "la prochaine ann\u00e9e bissextile est en {year}"
+    ],
+    "/dialog/date.relative.past.dialog": [
+        "c'\u00e9tait en {date}, il y a {num_days} jours",
+        "C'\u00e9tait en {date}, il y a {num_days}"
+    ],
+    "/dialog/did.you.mean.timezone.dialog": [
+        "S'agit-il du fuseau {zone_name} ?"
+    ],
+    "/dialog/date.dialog": [
+        "{date}",
+        "{date}",
+        "C'est le {date}",
+        "On est le {date}"
+    ],
+    "/dialog/time.tz.not.found.dialog": [
+        "Je ne peux pas trouver le fuseau horaire pour {location}"
+    ],
+    "/dialog/time.current.dialog": [
+        "{time}",
+        "{time}",
+        "Il est {time}",
+        "Il est {time}",
+        "Il est actuellement {time}"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "location.rx": [
+        "\\b(\u062f\u0631|\u0628\u0631\u0627\u06cc) (?P<Location>.*)"
+    ]
+}

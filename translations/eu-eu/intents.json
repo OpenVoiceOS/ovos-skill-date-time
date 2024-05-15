@@ -1,0 +1,17 @@
+{
+    "/intents/what.time.will.it.be.intent": [
+        "(ze|zer) ordu izango da {location} {offset} (ordu|minutu|segundu) barru",
+        "(ze|zer) ordu izango da {offset} (ordu|minutu|segundu) barru"
+    ],
+    "/intents/date.last.weekend.intent": [
+        "(zer|zein|ze) (data|egun|datatan|egunetan|datetan) izan (da|zen|dira|ziren) (aurreko|pasa den|) (asteburuan|aste bukaeran|asteburua|aste bukaera)"
+    ],
+    "/intents/date.future.weekend.intent": [
+        "(zer|zein|ze) (data|egun|datatan|egunetan|datetan) izango (da|dira) (datorren|) (asteburuan|aste bukaeran|asteburua|aste bukaera)"
+    ],
+    "/intents/what.time.is.it.intent": [
+        "(esan|) ordua (mesedez|)",
+        "(zer|ze) ordutan bizi gara?",
+        "(ze|zer) ordu da"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "/vocab/Month.voc": [
+        "Ocak",
+        "Ekim",
+        "Aral\u0131k",
+        "Temmuz",
+        "A\u011fustos",
+        "May\u0131s",
+        "Eyl\u00fcl",
+        "Kas\u0131m",
+        "Nisan",
+        "Mart",
+        "Haziran",
+        "\u015eubat"
+    ],
+    "/vocab/Future.voc": [
+        "\u015eu andan itibaren",
+        "olacak m\u0131",
+        "olacak",
+        "i\u00e7inde"
+    ],
+    "/vocab/Time.voc": [
+        "zaman",
+        "saat"
+    ],
+    "/vocab/LeapYear.voc": [
+        "art\u0131k y\u0131l"
+    ],
+    "/vocab/Today.voc": [
+        "bug\u00fcn",
+        "BUG\u00dcN",
+        "bug\u00fcn\u00fcn"
+    ],
+    "/vocab/Query.voc": [
+        "s\u00f6yle",
+        "ver",
+        "Biliyorum",
+        "ne",
+        "kontrol et",
+        "ne zaman"
+    ],
+    "/vocab/Display.voc": [
+        "ekran",
+        "g\u00f6ster"
+    ],
+    "/vocab/Date.voc": [
+        "g\u00fcn",
+        "Tarih"
+    ],
+    "/vocab/RelativeDay.voc": [
+        "PAZARTES\u0130",
+        "D\u00dcNK\u00dc G\u00dcNLER",
+        "bug\u00fcn",
+        "BUG\u00dcN",
+        "SALI",
+        "CUMA",
+        "yar\u0131n",
+        "YARINLAR",
+        "yar\u0131n\u0131n",
+        "d\u00fcn",
+        "CUMARTES\u0130",
+        "PER\u015eEMBE",
+        "PAZAR",
+        "d\u00fcnk\u00fc",
+        "\u00c7AR\u015eAMBA",
+        "bug\u00fcn\u00fcn"
+    ]
+}

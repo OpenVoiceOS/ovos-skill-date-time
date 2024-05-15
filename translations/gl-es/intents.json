@@ -1,0 +1,32 @@
+{
+    "/intents/what.time.will.it.be.intent": [
+        "que hora ser\u00e1 (en|) {offset} (horas|minutos|segundos) (a partir de agora|)",
+        "que hora ser\u00e1 (en|) {offset} (horas|minutos|segundos) (a partir de agora|)(en|no|na) {location}",
+        "(cal \u00e9|cantas|cal|que|cal ser\u00e1) (a|as) hora(s) en {offset} (horas|minutos|segundos) (a partir de agora|desde xa|)",
+        "que hora \u00e9 en {offset} (horas|minutos|segundos) (a partir de agora|) (en|no|na) {location}",
+        "que hora ser\u00e1 en {offset} (horas|minutos|segundos) (a partir de agora|)",
+        "que hora ser\u00e1 en {offset} (horas|minutos|segundos) (a partir de agora|) (en|no|na) {location}",
+        "(en|) {offset} (horas|minutos|segundos) que hora ser\u00e1",
+        "(en|) {offset} (horas|minutos|segundos) (a partir de agora|) que hora ser\u00e1 (en|para) {location} ",
+        "que hora ser\u00e1 en {offset} (horas|minutos|segundos) (a partir de agora|)",
+        "que hora ser\u00e1 en {offset} (horas|minutos|segundos) (a partir de agora|) (en|no|na) {location}",
+        "que hora ser\u00e1 (en|no|na) {location} (en|) {offset} (horas|minutos|segundos) (a partir de agora|)",
+        "que hora \u00e9 (en|no|na) {location} (en|) {offset} (horas|minutos|segundos) (a partir de agora|)",
+        "(en|no|na) {location} que hora \u00e9 (en|) {offset} (horas|minutos|segundos)"
+    ],
+    "/intents/date.last.weekend.intent": [
+        "(cal|cales) (foi a data|foron as datas) do \u00faltimo fin de semana",
+        "(cal|cales) (foi o d\u00eda|foron os d\u00edas(para|)|foron os d\u00edas) do \u00faltimo fin de semana",
+        "(cal|cales) (foi o data|foron os datas(para|)|foron as datas) do \u00faltimo fin de semana"
+    ],
+    "/intents/date.future.weekend.intent": [
+        "(cal|cales) ((son os|) d\u00edas (para|)| d\u00eda \u00e9) (este|segundo) fin de semana",
+        "(cal|cales) (\u00e9 a data|son as datas) (deste|do seguinte) fin de semana",
+        "(cal|cales) (\u00e9 a data|son as datas) (para|)(este|o seguinte) fin de semana"
+    ],
+    "/intents/what.time.is.it.intent": [
+        "(a) (hora) ((xa |)agora |)(por favor|)",
+        "tes a hora (actual|)",
+        "hora actual"
+    ]
+}

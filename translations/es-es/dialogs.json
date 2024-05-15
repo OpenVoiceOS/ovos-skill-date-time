@@ -1,0 +1,47 @@
+{
+    "/dialog/date.relative.future.dialog": [
+        "Es {date}, en {num_days}",
+        "{date}, {num_days} a partir de ahora",
+        "Es {date}, {num_days} a partir de ahora",
+        "{date}, en {num_days}"
+    ],
+    "/dialog/date.future.weekend.dialog": [
+        "el pr\u00f3ximo fin de semana ser\u00e1 {saturday_date}, a {sunday_date}"
+    ],
+    "/dialog/date.not.found.dialog": [
+        "No he podido encontrar esa fecha para usted."
+    ],
+    "/dialog/date.last.weekend.dialog": [
+        "el fin de semana pasado fue {saturday_date}, a {sunday_date}"
+    ],
+    "/dialog/time.future.dialog": [
+        "{time}",
+        "ser\u00e1n las {time}"
+    ],
+    "/dialog/next.leap.year.dialog": [
+        "el pr\u00f3ximo a\u00f1o bisiesto es {year}"
+    ],
+    "/dialog/date.relative.past.dialog": [
+        "{date}, hace {num_days}",
+        "Fue hace {date}, {num_days}"
+    ],
+    "/dialog/did.you.mean.timezone.dialog": [
+        "\u00bfTe refieres a la zona horaria de {zone_name}?"
+    ],
+    "/dialog/date.dialog": [
+        "{date}",
+        "{date}",
+        "Hoy es {date}",
+        "Es {date}"
+    ],
+    "/dialog/time.tz.not.found.dialog": [
+        "No puedo encontrar la zona horaria para {location}"
+    ],
+    "/dialog/time.current.dialog": [
+        "{time}",
+        "{time}",
+        "Son las {time}",
+        "Son las {time}",
+        "Ahora mismo son las {time}"
+    ]
+}

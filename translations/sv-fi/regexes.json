@@ -1,0 +1,7 @@
+{
+    "location.rx": [
+        "\\b in ( ?P<Location>.* )",
+        "\\b for ( ?P<Location>.* )",
+        "\\b at ( ?P<Location>.* )"
+    ]
+}

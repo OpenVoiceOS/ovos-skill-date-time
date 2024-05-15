@@ -1,0 +1,63 @@
+{
+    "/vocab/Month.voc": [
+        "leden",
+        "\u00fanor",
+        "b\u0159ezen",
+        "duben",
+        "kv\u011bten",
+        "\u010derven",
+        "\u010dervenec",
+        "srpen",
+        "z\u00e1\u0159\u00ed",
+        "\u0159\u00edjen",
+        "listopad",
+        "prosinec"
+    ],
+    "/vocab/Future.voc": [
+        "bude",
+        "od te\u010f"
+    ],
+    "/vocab/Time.voc": [
+        "\u010das",
+        "hodiny",
+        "hodin"
+    ],
+    "/vocab/LeapYear.voc": [
+        "p\u0159estupn\u00fd rok"
+    ],
+    "/vocab/Today.voc": [
+        "dnes",
+        "dne\u0161n\u00ed"
+    ],
+    "/vocab/Query.voc": [
+        "co",
+        "\u0159ekni",
+        "zjisti",
+        "dej",
+        "v\u011bd\u011bt",
+        "kdy je"
+    ],
+    "/vocab/Display.voc": [
+        "zobraz",
+        "uka\u017e"
+    ],
+    "/vocab/Date.voc": [
+        "datum",
+        "den"
+    ],
+    "/vocab/RelativeDay.voc": [
+        "dnes",
+        "dne\u0161n\u00ed",
+        "z\u00edtra",
+        "z\u00edt\u0159ej\u0161\u00ed",
+        "v\u010dera",
+        "v\u010derej\u0161\u00ed",
+        "pond\u011bl\u00ed",
+        "\u00fater\u00fd",
+        "st\u0159eda",
+        "\u010dtvrtek",
+        "p\u00e1tek",
+        "sobota",
+        "ned\u011ble"
+    ]
+}

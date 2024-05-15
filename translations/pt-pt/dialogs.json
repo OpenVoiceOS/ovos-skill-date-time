@@ -1,0 +1,43 @@
+{
+    "/dialog/date.relative.future.dialog": [
+        "{date}, em {num_days}",
+        "A partir de agora \u00e9 {date}, {num_days}",
+        "\u00c9 {date}, em {num_days}",
+        "{date}, {num_days} a partir de agora"
+    ],
+    "/dialog/date.future.weekend.dialog": [
+        "pr\u00f3ximo fim de semana ser\u00e1 {saturday_date}, para {sunday_date}"
+    ],
+    "/dialog/date.not.found.dialog": [
+        "N\u00e3o consegui encontrar esse encontro para ti"
+    ],
+    "/dialog/date.last.weekend.dialog": [
+        "\u00faltimo fim de semana foi {saturday_date}, para {sunday_date}"
+    ],
+    "/dialog/time.future.dialog": [
+        "{time}",
+        "Ser\u00e1 {time}"
+    ],
+    "/dialog/next.leap.year.dialog": [
+        "o pr\u00f3ximo ano bissexto \u00e9 {year}"
+    ],
+    "/dialog/date.relative.past.dialog": [
+        "{date}, {num_days} atr\u00e1s",
+        "Era {date}, {num_days} atr\u00e1s"
+    ],
+    "/dialog/did.you.mean.timezone.dialog": [
+        "Referia-se ao fuso hor\u00e1rio {zone_name}?"
+    ],
+    "/dialog/date.dialog": [
+        "{date}",
+        "\u00c9 {date}"
+    ],
+    "/dialog/time.tz.not.found.dialog": [
+        "N\u00e3o consegui encontrar o fuso hor\u00e1rio de {location}"
+    ],
+    "/dialog/time.current.dialog": [
+        "\u00c9 {time}",
+        "{time}",
+        "Actualmente {time}"
+    ]
+}

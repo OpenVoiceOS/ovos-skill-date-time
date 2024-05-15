@@ -1,0 +1,61 @@
+{
+    "/vocab/Month.voc": [
+        "gennaio",
+        "febbraio",
+        "marzo",
+        "aprile",
+        "maggio",
+        "giugno",
+        "luglio",
+        "agosto",
+        "settembre",
+        "ottobre",
+        "novembre",
+        "dicembre"
+    ],
+    "/vocab/Future.voc": [
+        "sar\u00e0",
+        "tra",
+        "da adesso",
+        "sar\u00e0"
+    ],
+    "/vocab/Time.voc": [
+        "ora",
+        "tempo"
+    ],
+    "/vocab/LeapYear.voc": [
+        "anno bisestile"
+    ],
+    "/vocab/Today.voc": [
+        "oggi"
+    ],
+    "/vocab/Query.voc": [
+        "cosa",
+        "dimmi",
+        "cerca",
+        "dammi",
+        "conosci",
+        "quando"
+    ],
+    "/vocab/Display.voc": [
+        "mostra",
+        "visualizza",
+        "fammi vedere"
+    ],
+    "/vocab/Date.voc": [
+        "giorno",
+        "data"
+    ],
+    "/vocab/RelativeDay.voc": [
+        "oggi",
+        "domani",
+        "ieri",
+        "luned\u00ec",
+        "marted\u00ec",
+        "mercoled\u00ec",
+        "gioved\u00ec",
+        "venerd\u00ec",
+        "sabato",
+        "domenica"
+    ]
+}

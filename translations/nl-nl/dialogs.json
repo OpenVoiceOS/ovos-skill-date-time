@@ -1,0 +1,46 @@
+{
+    "/dialog/date.relative.future.dialog": [
+        "{date}, over {num_days}",
+        "Het is {date}, over {num_days}",
+        "{date}, is {num_days} vanaf nu",
+        "Het is {date}, {num_days} vanaf nu"
+    ],
+    "/dialog/date.future.weekend.dialog": [
+        "Volgend weekend is {saturday_date}, tot {sunday_date}"
+    ],
+    "/dialog/date.not.found.dialog": [
+        "Ik kan deze datum niet vinden"
+    ],
+    "/dialog/date.last.weekend.dialog": [
+        "Afgelopen weekend was {saturday_date}, tot {sunday_date}"
+    ],
+    "/dialog/time.future.dialog": [
+        "{time}",
+        "Het zal {time} zijn ",
+        "Dan is het {time}"
+    ],
+    "/dialog/next.leap.year.dialog": [
+        "Het volgende schrikkeljaar is {year}"
+    ],
+    "/dialog/date.relative.past.dialog": [
+        "Het was {date}, {num_days} geleden",
+        "{date}, is {num_days} geleden"
+    ],
+    "/dialog/did.you.mean.timezone.dialog": [
+        "Bedoelde je {zone_name} tijdzone?"
+    ],
+    "/dialog/date.dialog": [
+        "Het is {date}",
+        "De huidige datum is {date}",
+        "{date}"
+    ],
+    "/dialog/time.tz.not.found.dialog": [
+        "Ik kon de tijdzone niet vinden voor {location}"
+    ],
+    "/dialog/time.current.dialog": [
+        "{time}",
+        "Momenteel is het {time}",
+        "Momenteel {time}",
+        "Het is {time}"
+    ]
+}

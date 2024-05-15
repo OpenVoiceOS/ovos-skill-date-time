@@ -1,0 +1,66 @@
+{
+    "/vocab/Month.voc": [
+        "Xaneiro",
+        "Febreiro",
+        "Marzo",
+        "Abril",
+        "Maio",
+        "Xu\u00f1o",
+        "Xullo",
+        "Agosto",
+        "Setembro",
+        "Outubro",
+        "Novembro",
+        "Decembro"
+    ],
+    "/vocab/Future.voc": [
+        "ser\u00e1",
+        "a partir de agora"
+    ],
+    "/vocab/Time.voc": [
+        "tempo",
+        "reloxo"
+    ],
+    "/vocab/LeapYear.voc": [
+        "ano bisexto"
+    ],
+    "/vocab/Today.voc": [
+        "hoxe",
+        "de hoxe",
+        "de hoxe"
+    ],
+    "/vocab/Query.voc": [
+        "que",
+        "contar",
+        "verificar",
+        "dar",
+        "(saber|co\u00f1ecer)",
+        "cando"
+    ],
+    "/vocab/Display.voc": [
+        "amosar",
+        "amosar"
+    ],
+    "/vocab/Date.voc": [
+        "data",
+        "d\u00eda"
+    ],
+    "/vocab/RelativeDay.voc": [
+        "hoxe",
+        "de hoxe",
+        "de hoxe",
+        "ma\u00f1\u00e1",
+        "de ma\u00f1\u00e1",
+        "de ma\u00f1\u00e1",
+        "onte",
+        "de onte",
+        "de onte",
+        "luns",
+        "martes",
+        "m\u00e9rcores",
+        "xoves",
+        "venres",
+        "s\u00e1bado",
+        "domingo"
+    ]
+}

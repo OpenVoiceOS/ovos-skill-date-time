@@ -1,0 +1,21 @@
+{
+    "/intents/what.time.will.it.be.intent": [
+        "quand sera-t-il {offset} (heures|minutes|secondes) (\u00e0 partir de maintenant|)",
+        "quand sera-t-il {offset} (heures|minutes|secondes) (\u00e0 partir de maintenant|) \u00e0 {location}"
+    ],
+    "/intents/date.last.weekend.intent": [
+        "(quelle \u00e9tait la date|quelles \u00e9taient les dates) du week-end dernier",
+        "(quel \u00e9tait le jour|quels \u00e9taient les jours) du (weekend dernier|dernier weekend)",
+        "(quel \u00e9tait le jour|quels \u00e9taient les jours|quelles \u00e9taient les dates) du (weekend dernier|dernier weekend)"
+    ],
+    "/intents/date.future.weekend.intent": [
+        "(quels (sont les|) jours (pour ce|du prochain)|quel jour est (ce|le prochain)) weekend",
+        "(quelle est la date|quelles sont les dates) (de ce weekend|du weekend prochain|du prochain weekend)",
+        "quel (es la date|sont les dates) (pour|) (ce|le prochain) weekend"
+    ],
+    "/intents/what.time.is.it.intent": [
+        "(quelle heure est-il|l'heure) (maintenant|tout de suite|actuellement|) (s'il te pla\u00eet|s'il vous pla\u00eet|)",
+        "avez-vous l'heure (actuelle|)",
+        "heure actuelle"
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "/dialog/date.relative.future.dialog": [
+        "{date}, {num_days} i\u00e7inde",
+        "\u015eu andan itibaren {date}, {num_days}",
+        "Bu {date}, {num_days}'de"
+    ],
+    "/dialog/date.future.weekend.dialog": [
+        "Sonraki hafta sonu {saturday_date} olacak, {sunday_date}"
+    ],
+    "/dialog/date.not.found.dialog": [
+        "Bu tarihi sizin i\u00e7in bulamad\u0131m"
+    ],
+    "/dialog/date.last.weekend.dialog": [
+        "Ge\u00e7en hafta sonu {saturday_date} idi, {sunday_date}"
+    ],
+    "/dialog/time.future.dialog": [
+        "{time}",
+        "Bu, {time} olacakt\u0131r"
+    ],
+    "/dialog/next.leap.year.dialog": [
+        "bir sonraki art\u0131k y\u0131l {year}"
+    ],
+    "/dialog/date.relative.past.dialog": [
+        "{date}, {num_days} \u00f6nce",
+        "{date}, {num_days} \u00f6nceydi"
+    ],
+    "/dialog/did.you.mean.timezone.dialog": [
+        "{zone_name} zaman b\u00f6lgesi anlam\u0131na m\u0131 geldin?"
+    ],
+    "/dialog/date.dialog": [
+        "{date}",
+        "Bu {date}"
+    ],
+    "/dialog/time.tz.not.found.dialog": [
+        "{location} i\u00e7in saat dilimini bulamad\u0131m"
+    ],
+    "/dialog/time.current.dialog": [
+        "Bu {time}",
+        "\u015eu anda {time}",
+        "{time}"
+    ]
+}

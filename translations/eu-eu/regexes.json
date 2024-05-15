@@ -1,0 +1,5 @@
+{
+    "location.rx": [
+        "(?P<Location>.*)en|n "
+    ]
+}

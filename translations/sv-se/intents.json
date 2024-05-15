@@ -1,0 +1,21 @@
+{
+    "/intents/what.time.will.it.be.intent": [
+        "vad \u00e4r klockan om {offset} (timme|timmar|minut|minuter|sekund|sekunder)",
+        "vad \u00e4r klockan om {offset} (timme|timmar|minut|minuter|sekund|sekunder) (i|p\u00e5) {location}"
+    ],
+    "/intents/date.last.weekend.intent": [
+        "(vilket|vilka) datum var f\u00f6rra helgen",
+        "vilka dagar (intr\u00e4ffade|var) f\u00f6rra helgen",
+        "vad var datumet f\u00f6r f\u00f6rra helgen"
+    ],
+    "/intents/date.future.weekend.intent": [
+        "(vilket|vilka) (dag|dagar) \u00e4r (den h\u00e4r|n\u00e4sta) (helg|helgen)",
+        "(vilket|vilka) datum \u00e4r (den h\u00e4r|n\u00e4sta) (helg|helgen)",
+        "(vilket|vilka) datum \u00e4r (den h\u00e4r|n\u00e4sta) (helg|helgen)"
+    ],
+    "/intents/what.time.is.it.intent": [
+        "(tiden|klockan) (just|) nu (tack|)",
+        "har du den (nuvarande|) tiden",
+        "nuvarande (tid|tiden)"
+    ]
+}

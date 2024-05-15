@@ -1,0 +1,60 @@
+{
+    "/vocab/Month.voc": [
+        "Januari",
+        "Februari",
+        "Maart",
+        "April",
+        "Mei",
+        "Juni",
+        "Juli",
+        "Augustus",
+        "September",
+        "Oktober",
+        "November",
+        "December"
+    ],
+    "/vocab/Future.voc": [
+        "Zal het zijn",
+        "Over",
+        "Vanaf nu"
+    ],
+    "/vocab/Time.voc": [
+        "tijd",
+        "klok"
+    ],
+    "/vocab/LeapYear.voc": [
+        "Schrikkel jaar",
+        "schrikkeljaar"
+    ],
+    "/vocab/Today.voc": [
+        "Vandaag"
+    ],
+    "/vocab/Query.voc": [
+        "weet",
+        "wat",
+        "geef",
+        "vertel",
+        "check",
+        "wanneer"
+    ],
+    "/vocab/Display.voc": [
+        "Toon",
+        "Geef weer"
+    ],
+    "/vocab/Date.voc": [
+        "Datum",
+        "dag"
+    ],
+    "/vocab/RelativeDay.voc": [
+        "vandaag",
+        "morgen",
+        "gisteren",
+        "maandag",
+        "dinsdag",
+        "woensdag",
+        "donderdag",
+        "vrijdag",
+        "zaterdag",
+        "zondag"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "/vocab/Month.voc": [
+        "Janeiro",
+        "Fevereiro",
+        "Mar\u00e7o",
+        "Abril",
+        "Maio",
+        "Junho",
+        "Julho",
+        "Agosto",
+        "Setembro",
+        "Outubro",
+        "Novembro",
+        "Dezembro"
+    ],
+    "/vocab/Future.voc": [
+        "a partir de agora"
+    ],
+    "/vocab/Time.voc": [
+        "hora",
+        "rel\u00f3gio"
+    ],
+    "/vocab/LeapYear.voc": [
+        "ano bissexto"
+    ],
+    "/vocab/Today.voc": [
+        "hoje",
+        "de hoje",
+        "de hoje"
+    ],
+    "/vocab/Query.voc": [
+        "qual",
+        "dizer",
+        "verificar",
+        "dar",
+        "conhecer",
+        "quando"
+    ],
+    "/vocab/Display.voc": [
+        "mostrar",
+        "mostrar"
+    ],
+    "/vocab/Date.voc": [
+        "data",
+        "dia"
+    ],
+    "/vocab/RelativeDay.voc": [
+        "hoje",
+        "de hoje",
+        "de hoje",
+        "amanh\u00e3",
+        "de amanh\u00e3",
+        "de amanh\u00e3",
+        "ontem",
+        "de ontem",
+        "de ontem",
+        "(segunda|segunda-feira)",
+        "(ter\u00e7a|ter\u00e7a-feira)",
+        "(quarta|quarta-feira)",
+        "(quinta|quinta-feira)",
+        "(sexta|sexta-feira)",
+        "s\u00e1bado",
+        "domingo"
+    ]
+}

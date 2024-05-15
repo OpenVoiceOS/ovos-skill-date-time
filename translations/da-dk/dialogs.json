@@ -1,0 +1,47 @@
+{
+    "/dialog/date.relative.future.dialog": [
+        "{date}, {num_days} fra nu",
+        "det er {date}, om {num_days}",
+        "Det bliver {date}, om {num_days}",
+        "{date}, om {num_days}"
+    ],
+    "/dialog/date.future.weekend.dialog": [
+        "n\u00e6ste weekend vil v\u00e6re {saturday_date}, til {sunday_date}"
+    ],
+    "/dialog/date.not.found.dialog": [
+        "Jeg kunne ikke finde den dato for dig"
+    ],
+    "/dialog/date.last.weekend.dialog": [
+        "sidste weekend var {saturday_date}, til {sunday_date}"
+    ],
+    "/dialog/time.future.dialog": [
+        "{time}",
+        "Det vil blive {time}"
+    ],
+    "/dialog/next.leap.year.dialog": [
+        "n\u00e6ste skud\u00e5r er {year}"
+    ],
+    "/dialog/date.relative.past.dialog": [
+        "{date}, for {num_days} siden",
+        "Det var {date}, for {num_days} siden"
+    ],
+    "/dialog/did.you.mean.timezone.dialog": [
+        "Mente du {zone_name} tidszonen?"
+    ],
+    "/dialog/date.dialog": [
+        "{date}",
+        "{date}",
+        "Det er {date}",
+        "Det er {date}"
+    ],
+    "/dialog/time.tz.not.found.dialog": [
+        "Jeg kunne ikke finde tidszone for {location}"
+    ],
+    "/dialog/time.current.dialog": [
+        "{time}",
+        "{time}",
+        "Det er {time}",
+        "Det er {time}",
+        "Lige nu {time}"
+    ]
+}

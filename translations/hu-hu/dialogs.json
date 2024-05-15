@@ -1,0 +1,45 @@
+{
+    "/dialog/date.relative.future.dialog": [
+        "Ez a {date}, a {num_days}-ben",
+        "{date}, in {num_days}",
+        "{date}, {num_days} mostant\u00f3l",
+        "Ez {date}, {num_days} mostant\u00f3l kezdve"
+    ],
+    "/dialog/date.future.weekend.dialog": [
+        "a k\u00f6vetkez\u0151 h\u00e9tv\u00e9g\u00e9n {saturday_date} lesz, hogy {sunday_date}"
+    ],
+    "/dialog/date.not.found.dialog": [
+        "Nem tal\u00e1ltam meg ezt a d\u00e1tumot."
+    ],
+    "/dialog/date.last.weekend.dialog": [
+        "a m\u00falt h\u00e9tv\u00e9g\u00e9n {saturday_date} volt, hogy {sunday_date}"
+    ],
+    "/dialog/time.future.dialog": [
+        "{time}",
+        "Ez lesz {time}"
+    ],
+    "/dialog/next.leap.year.dialog": [
+        "a k\u00f6vetkez\u0151 sz\u00f6k\u0151\u00e9v {year}"
+    ],
+    "/dialog/date.relative.past.dialog": [
+        "Ez volt {date}, {num_days} ezel\u0151tt",
+        "{date}, {num_days} ezel\u0151tt"
+    ],
+    "/dialog/did.you.mean.timezone.dialog": [
+        "A {zone_name} id\u0151z\u00f3n\u00e1ra gondolt\u00e1l?"
+    ],
+    "/dialog/date.dialog": [
+        "Ez {date}",
+        "{date}"
+    ],
+    "/dialog/time.tz.not.found.dialog": [
+        "Nem tal\u00e1lom az id\u0151z\u00f3n\u00e1t a k\u00f6vetkez\u0151 tart\u00f3zkod\u00e1si helyhez: {location}"
+    ],
+    "/dialog/time.current.dialog": [
+        "{time}",
+        "{time}",
+        "{time} van",
+        "{time} van",
+        "Jelenleg {time}"
+    ]
+}

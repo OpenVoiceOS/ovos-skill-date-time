@@ -1,0 +1,50 @@
+{
+    "/intents/what.time.will.it.be.intent": [
+        "(wie viel|wieviel) uhr ist (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2}",
+        "(wie viel|wieviel) uhr wird (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} sein",
+        "(wie viel|wieviel) uhr ist (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} in {location}",
+        "(wie viel|wieviel) uhr wird (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} in {location} sein",
+        "(wie viel|wieviel) uhr ist (es|) in {location} in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2}",
+        "(wie viel|wieviel) uhr wird (es|) in {location} in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} sein",
+        "wie sp\u00e4t ist (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2}",
+        "wie sp\u00e4t wird (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} sein",
+        "wie sp\u00e4t ist (es|) in {location} in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2}",
+        "wie sp\u00e4t wird (es|) in {location} in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} sein",
+        "wie sp\u00e4t ist (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} in {location}",
+        "wie sp\u00e4t wird (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} in {location} sein"
+    ],
+    "/intents/date.last.weekend.intent": [
+        "welches datum (war|hatten wir) letztes wochenende",
+        "(welcher tag war| welche tage waren) letztes wochenende",
+        "was (war das datum | waren die daten (f\u00fcr |)) letztes wochenende"
+    ],
+    "/intents/date.future.weekend.intent": [
+        "(was sind die|) tage (f\u00fcr |) (dieses | n\u00e4chste) wochenende",
+        "(was f\u00fcr ein | welches) datum (ist|haben wir) (dieses|n\u00e4chstes|am|an dem) wochenende",
+        "(was f\u00fcr ein | welches) datum (ist|haben wir) (an diesem|am n\u00e4chsten|an dem n\u00e4chsten) wochenende ",
+        "(was|wie) (ist das datum | sind die daten) (f\u00fcr |) (dieses | n\u00e4chstes) wochenende"
+    ],
+    "/intents/what.time.is.it.intent": [
+        "(gib||geb|gebe|sag|sage|nenn|nenne) mir die (aktuelle|momentane|) (uhrzeit|zeit) ",
+        "(gib||geb|gebe|sag|sage|nenn|nenne) mir die (aktuelle|momentane|) (uhrzeit|zeit) (in|von|aus|bei|am|im|an der) {location}",
+        "Weisst du wie viel Uhr (es|) ist",
+        "Weisst du wie viel Uhr (es|) ist (in|bei|am|im|an der) {location}",
+        "wie ist die (zeit|uhrzeit) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)",
+        "wie ist die (zeit|uhrzeit) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|) (in|von|aus|bei|am|im|an der) {location}",
+        "(wieviel|wie viel) uhr ist (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)",
+        "(wieviel|wie viel) uhr ist (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|) (in|von|aus|bei|am|im|an der) {location}",
+        "(wieviel|wie viel) uhr ist (es|) (in|bei) {location} (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)",
+        "(wieviel|wie viel) uhr haben wir (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)",
+        "(wieviel|wie viel) uhr haben wir (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|) (in|von|aus|bei|am|im|an der) {location}",
+        "(wieviel|wie viel) uhr haben wir (es|) (in|bei|im|an der) {location} (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)",
+        "Wie sp\u00e4t (ist|haben wir) (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)",
+        "Wie sp\u00e4t (ist|haben wir) (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|) (in|bei|im|am|an der) {location}",
+        "Wie sp\u00e4t (ist|haben wir) (es|) (in|bei|im|am|an der) {location} (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)",
+        "(bitte|) (sage|sag) mir die (akzuelle|) (uhrzeit|zeit)",
+        "(bitte|) (sage|sag) mir die (akzuelle|) (uhrzeit|zeit) (in|bei|im|am|an der) {location}",
+        "Darf ich die (uhrzeit|zeit) (in|bei|im|am|f\u00fcr|an der) {location} (erfahren|erfragen)",
+        "Darf ich die (uhrzeit|zeit) (erfahren|erfragen)",
+        "hast du die (uhrzeit|zeit)",
+        "hast du die (uhrzeit|zeit) (in|bei|im|am|f\u00fcr|an der) {location}"
+    ]
+}

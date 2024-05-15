@@ -1,0 +1,32 @@
+{
+    "/intents/what.time.will.it.be.intent": [
+        "quina hora (hora|) ser\u00e0 (en|de aqui a|) {offset} (hores|minuts|segons) (des d'ara|)",
+        "quina hora (hora|) ser\u00e0 (en|d'aqu\u00ed a|) {offset} (hores|minuts|segons) (des d'ara|) a {location}",
+        "(quina \u00e9s|quina hora ser\u00e0) (hora|) (en|d'aqu\u00ed a|) {offset} (hores|minuts|segons) (des d'ara|)",
+        "(quina \u00e9s|quina hora ser\u00e0) (hora|) (en|d'aqu\u00ed a|) {offset} (hores|minuts|segons) (des d'ara|) a {location}",
+        "(d\u00f3na'm|digues-me) l'hora (en|) {offset} (hores|minuts|segons) (des d'ara|)",
+        "(d\u00f3na'm|digues-me) l'hora (en|) {offset} (hores|minuts|segons) (des d'ara|) a {location}",
+        "(en|) {offset} (hores|minuts|segons) quina (hora ser\u00e0|)",
+        "(en|) {offset} (hores|minuts|segons) (des d'ara) quina (hora ser\u00e0) a {location}",
+        "quan ser\u00e0 {offset} (hores|minuts|segons) (des d'ara)",
+        "quan ser\u00e0 {offset} (hores|minuts|segons) (des d'ara) a {location}",
+        "quina hora (ser\u00e0|\u00e9s) a {location} (en|) {offset} (hores|minuts|segons) (des d'ara|)",
+        "(quina\u00b4\u00e9s|quina ser\u00e0) l'hora a {location} (en|) {offset} (hores|minuts|segons) (des d'ara|)",
+        "(a) {location} quina (hora ser\u00e0) (en|) {offset} (hores|minuts|segons)"
+    ],
+    "/intents/date.last.weekend.intent": [
+        "quina (era la data|) del passat cap de setmana",
+        "quin|quins (dia era|dies eren|) el passat cap de setmana",
+        "quina (era la data|eren les dates) del passat cap de setmana"
+    ],
+    "/intents/date.future.weekend.intent": [
+        "(quan (\u00e9s|arriba|ser\u00e0)|quins s\u00f3n|quan) (el|els dies del) (pr\u00f2xim|seg\u00fcent|vinent|) (cap de setmana|finde|capde|cap de) (vinent|)",
+        "quin (data \u00e9s|) (aquesta|el proper) cap de setmana",
+        "quina (\u00e9s la data|s\u00f3n les dates) (per|per al|) (aquest|) cap de setmana"
+    ],
+    "/intents/what.time.is.it.intent": [
+        "(el|la) (hora|rellotge) ((dreta |)ara |)(si us plau|)",
+        "teniu l'hora (actual|)",
+        "hora actual"
+    ]
+}

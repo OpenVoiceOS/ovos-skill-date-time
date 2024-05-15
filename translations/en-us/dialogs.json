@@ -1,0 +1,47 @@
+{
+    "/dialog/date.relative.future.dialog": [
+        "{date}, {num_days} from now",
+        "It is {date}, in {num_days}",
+        "It's {date}, {num_days} from now",
+        "{date}, in {num_days}"
+    ],
+    "/dialog/date.future.weekend.dialog": [
+        "next weekend will be {saturday_date}, to {sunday_date}"
+    ],
+    "/dialog/date.not.found.dialog": [
+        "I could not find that date for you."
+    ],
+    "/dialog/date.last.weekend.dialog": [
+        "last weekend was {saturday_date}, to {sunday_date}"
+    ],
+    "/dialog/time.future.dialog": [
+        "{time}",
+        "It will be {time}"
+    ],
+    "/dialog/next.leap.year.dialog": [
+        "the next leap year is {year}"
+    ],
+    "/dialog/date.relative.past.dialog": [
+        "{date}, {num_days} ago",
+        "It was {date}, {num_days} ago"
+    ],
+    "/dialog/did.you.mean.timezone.dialog": [
+        "Did you mean the {zone_name} time zone?"
+    ],
+    "/dialog/date.dialog": [
+        "{date}",
+        "It is {date}",
+        "It's {date}",
+        "{date}"
+    ],
+    "/dialog/time.tz.not.found.dialog": [
+        "I could not find the time zone for {location}"
+    ],
+    "/dialog/time.current.dialog": [
+        "{time}",
+        "It is {time}",
+        "{time}",
+        "It's {time}",
+        "Currently {time}"
+    ]
+}

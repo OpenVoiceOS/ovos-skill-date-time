@@ -1,0 +1,61 @@
+{
+    "/vocab/Month.voc": [
+        "urtarrila",
+        "otsaila",
+        "martxoa",
+        "apirila",
+        "maiatza",
+        "ekaina",
+        "uztaila",
+        "abuztua",
+        "iraila",
+        "urria",
+        "azaroa",
+        "abendua"
+    ],
+    "/vocab/Future.voc": [
+        "hurrengo",
+        "datorren"
+    ],
+    "/vocab/Time.voc": [
+        "ordua",
+        "ordu da",
+        "ordu da orain"
+    ],
+    "/vocab/LeapYear.voc": [
+        "bisurte",
+        "bisurtea"
+    ],
+    "/vocab/Today.voc": [
+        "gaur",
+        "gaurko"
+    ],
+    "/vocab/Query.voc": [
+        "zer|ze",
+        "esan|esaidazu",
+        "esadazu"
+    ],
+    "/vocab/Display.voc": [
+        "erakutsi",
+        "bistaratu"
+    ],
+    "/vocab/Date.voc": [
+        "data da",
+        "egun da"
+    ],
+    "/vocab/RelativeDay.voc": [
+        "gaur",
+        "gaurko",
+        "bihar ",
+        "biharko",
+        "atzo",
+        "atzoko",
+        "asteleheneko",
+        "astearteko",
+        "asteazkeneko",
+        "osteguneko",
+        "ostiraleko",
+        "larunbateko",
+        "igandeko"
+    ]
+}

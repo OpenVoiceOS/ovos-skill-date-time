@@ -1,0 +1,79 @@
+{
+    "/vocab/Month.voc": [
+        "Januar",
+        "Februar",
+        "M\u00e4rz",
+        "April",
+        "Mai",
+        "Juni",
+        "Juli",
+        "August",
+        "September",
+        "Oktober",
+        "November",
+        "Dezember"
+    ],
+    "/vocab/Future.voc": [
+        "wird"
+    ],
+    "/vocab/Time.voc": [
+        "zeit",
+        "uhr",
+        "uhrzeit",
+        "sp\u00e4t"
+    ],
+    "/vocab/LeapYear.voc": [
+        "schaltjahr"
+    ],
+    "/vocab/Today.voc": [
+        "heute",
+        "heutig",
+        "heutigen",
+        "heutiger",
+        "heutiges"
+    ],
+    "/vocab/Query.voc": [
+        "wie",
+        "wieviel",
+        "welche",
+        "welchen",
+        "welcher",
+        "welches",
+        "was",
+        "gib",
+        "gebe",
+        "nenne",
+        "nenn",
+        "gebe",
+        "gib",
+        "geb",
+        "wei\u00dft",
+        "weisst",
+        "hast",
+        "wann"
+    ],
+    "/vocab/Display.voc": [
+        "anzeigen",
+        "zeige",
+        "zeig",
+        "zeigen"
+    ],
+    "/vocab/Date.voc": [
+        "datum",
+        "tag"
+    ],
+    "/vocab/RelativeDay.voc": [
+        "heute",
+        "morgen",
+        "\u00fcbermorgen",
+        "gestern",
+        "vorgestern",
+        "montag",
+        "dienstag",
+        "mittwoch",
+        "donnerstag",
+        "freitag",
+        "samstag",
+        "sonntag"
+    ]
+}
