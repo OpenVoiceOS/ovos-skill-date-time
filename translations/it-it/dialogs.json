@@ -1,42 +1,47 @@
 {
-    "/dialog/date.relative.future.dialog": [
-        "{date}, {num_days} giorni da oggi",
-        "tra {num_days} giorni sar\u00e0 il {date}",
-        "{num_days} giorni da oggi sar\u00e0 il {date}",
-        "{date}, tra {num_days} giorni"
-    ],
-    "/dialog/date.future.weekend.dialog": [
-        "il prossimo fine settimana sar\u00e0 dal {saturday_date} al {sunday_date}"
-    ],
-    "/dialog/date.not.found.dialog": [
-        "Non ho potuto trovare la data esatta"
-    ],
-    "/dialog/date.last.weekend.dialog": [
-        "lo scorso fine settimana \u00e8 stato dal {saturday_date} al {sunday_date}"
-    ],
-    "/dialog/time.future.dialog": [
-        "{time}",
-        "Saranno le {time}"
-    ],
-    "/dialog/next.leap.year.dialog": [
-        "il prossimo anno bisestile sar\u00e0 il {year}"
-    ],
-    "/dialog/date.relative.past.dialog": [
-        "{date}, {num_days} giorni fa",
-        "{num_days} giorni fa era il {date}"
-    ],
-    "/dialog/did.you.mean.timezone.dialog": [
-        "vuoi dire il fuso orario di {zone_name}?"
-    ],
-    "/dialog/date.dialog": [
-        "{date}",
-        "Oggi \u00e8 il {date}"
-    ],
-    "/dialog/time.tz.not.found.dialog": [
-        "Scusami, non ho trovato la time zone (per|di) {location}"
-    ],
-    "/dialog/time.current.dialog": [
-        "{time}",
-        "Sono le {time}"
-    ]
+  "/dialog/date.relative.future.dialog": [
+    "{date}, {num_days} giorni da oggi",
+    "tra {num_days} giorni sarà il {date}",
+    "{num_days} giorni da oggi sarà il {date}",
+    "{date}, tra {num_days} giorni"
+  ],
+  "/dialog/date.future.weekend.dialog": [
+    "il prossimo fine settimana sarà dal {saturday_date} al {sunday_date}"
+  ],
+  "/dialog/date.not.found.dialog": [
+    "Non ho potuto trovare la data esatta"
+  ],
+  "/dialog/date.last.weekend.dialog": [
+    "lo scorso fine settimana è stato dal {saturday_date} al {sunday_date}"
+  ],
+  "/dialog/time.future.dialog": [
+    "{time}",
+    "Saranno le {time}"
+  ],
+  "/dialog/next.leap.year.dialog": [
+    "il prossimo anno bisestile sarà il {year}"
+  ],
+  "/dialog/date.relative.past.dialog": [
+    "{date}, {num_days} giorni fa",
+    "{num_days} giorni fa era il {date}"
+  ],
+  "/dialog/did.you.mean.timezone.dialog": [
+    "vuoi dire il fuso orario di {zone_name}?"
+  ],
+  "/dialog/date.dialog": [
+    "{date}",
+    "Oggi è il {date}",
+    "[UNUSED]",
+    "{date}"
+  ],
+  "/dialog/time.tz.not.found.dialog": [
+    "Scusami, non ho trovato il fuso orario (per|di) {location}"
+  ],
+  "/dialog/time.current.dialog": [
+    "{time}",
+    "Sono le {time}",
+    "[UNUSED]",
+    "[UNUSED]",
+    "[UNUSED]"
+  ]
 }
