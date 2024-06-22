@@ -1,4 +1,4 @@
-{{date}}, {{num_days}} ab heute
-in {{num_days}}
-{{num_days}} von jetzt an
-{{date}}, in {{num_days}}
+in {num_days}
+{date}, in {num_days}
+{date}, {num_days} ab heute
+{num_days} von jetzt an

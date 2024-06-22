@@ -1,4 +1,3 @@
-{{date}}
-{{date}}
-Hoy es {{date}}
-Es {{date}}
+Es {date}
+Hoy es {date}
+{date}

@@ -1,5 +1,3 @@
-{{time}}
-{{time}}
-{{time}} van
-{{time}} van
-Jelenleg {{time}}
+Jelenleg {time}
+{time}
+{time} van

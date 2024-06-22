@@ -1,4 +1,3 @@
-{{date}}
-It is {{date}}
-It's {{date}}
-{{date}}
+It is {date}
+It's {date}
+{date}

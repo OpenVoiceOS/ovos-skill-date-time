@@ -1,4 +1,3 @@
-# auto translated from en-us to sv-fi
-Se on {{time}}
-{{time}}
-Tällä hetkellä {{time}}
+Se on {time}
+Tällä hetkellä {time}
+{time}

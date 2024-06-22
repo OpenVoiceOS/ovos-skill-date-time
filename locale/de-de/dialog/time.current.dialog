@@ -1,5 +1,4 @@
-{{time}}
-{{time}}
-Es ist {{time}} Uhr
-Es ist {{time}}
-Aktuell {{time}}
+Aktuell {time}
+Es ist {time}
+Es ist {time} Uhr
+{time}

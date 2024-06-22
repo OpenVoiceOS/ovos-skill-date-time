@@ -1,4 +1,2 @@
-{{date}}
-{{date}}
-Det er {{date}}
-Det er {{date}}
+Det er {date}
+{date}

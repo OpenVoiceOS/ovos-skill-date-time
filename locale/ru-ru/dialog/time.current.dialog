@@ -1,4 +1,3 @@
-# auto translated from en-us to ru-ru
-Это {{time}}
-В настоящее время {{time}}
-{{time}}
+{time}
+В настоящее время {time}
+Это {time}

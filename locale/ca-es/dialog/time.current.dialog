@@ -1,5 +1,3 @@
-{{time}}
-{{time}}
-Són {{time}}
-Són {{time}}
-Ara mateix són {{time}}
+Ara mateix són {time}
+Són {time}
+{time}

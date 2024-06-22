@@ -1,4 +1,4 @@
-{{time}}
-{{time}} هست
-{{time}} هستش
-الان {{time}}
+{time}
+{time} هست
+{time} هستش
+الان {time}

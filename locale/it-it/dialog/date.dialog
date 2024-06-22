@@ -1,2 +1,2 @@
-{{date}}
-Oggi è il {{date}}
+Oggi è il {date}
+{date}

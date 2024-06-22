@@ -1,5 +1,3 @@
-{{time}}
-{{time}}
-são {{time}}
-são {{time}}
-atualmente {{time}}
+atualmente {time}
+são {time}
+{time}
