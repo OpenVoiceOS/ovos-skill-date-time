@@ -20,13 +20,14 @@ import geocoder
 import pytz
 from lingua_franca.format import nice_date, nice_duration, nice_time, date_time_format
 from lingua_franca.parse import extract_datetime, fuzzy_match, normalize
+from timezonefinder import TimezoneFinder
+
 from ovos_utils import classproperty
 from ovos_utils.process_utils import RuntimeRequirements
 from ovos_utils.time import now_local, get_next_leap_year
 from ovos_workshop.decorators import intent_handler
 from ovos_workshop.intents import IntentBuilder
 from ovos_workshop.skills import OVOSSkill
-from timezonefinder import TimezoneFinder
 
 
 def speakable_timezone(tz):
@@ -182,7 +183,7 @@ class TimeSkill(OVOSSkill):
 
     ######################################################################
     # utils
-    def get_datetime(self, location: str=None,
+    def get_datetime(self, location: str = None,
                      anchor_date: datetime.datetime = None) -> datetime.datetime:
         """return anchor_date/now_local at location/session_tz"""
         if location:
@@ -198,7 +199,7 @@ class TimeSkill(OVOSSkill):
             dt = now_local(tz)
         return dt
 
-    def get_spoken_time(self, location: str=None, force_ampm=False,
+    def get_spoken_time(self, location: str = None, force_ampm=False,
                         anchor_date: datetime.datetime = None) -> str:
         """Get formatted spoken time based on user preferences."""
         dt = self.get_datetime(location, anchor_date)
@@ -213,7 +214,7 @@ class TimeSkill(OVOSSkill):
             s = s.replace("AM", "A.M.")
         return s
 
-    def get_display_time(self, location: str=None, force_ampm=False,
+    def get_display_time(self, location: str = None, force_ampm=False,
                          anchor_date: datetime.datetime = None) -> str:
         """Get formatted display time based on user preferences."""
         dt = self.get_datetime(location, anchor_date)
@@ -224,7 +225,7 @@ class TimeSkill(OVOSSkill):
                          use_24hour=self.use_24hour,  # session aware
                          use_ampm=say_am_pm)
 
-    def get_display_date(self, location: str=None,
+    def get_display_date(self, location: str = None,
                          anchor_date: datetime.datetime = None) -> str:
         """Get formatted display date based on user preferences."""
         dt = self.get_datetime(location, anchor_date)
@@ -326,12 +327,12 @@ class TimeSkill(OVOSSkill):
     def handle_query_date(self, message, response_type="simple"):
         """Handle queries about the current date."""
         utt = message.data.get('utterance', "").lower()
-        now = self.get_datetime() # session aware
+        now = self.get_datetime()  # session aware
         try:
-            dt, utt = extract_datetime(utt, anchorDate=now)
-        except Exception:
-            self.speak_dialog('date.not.found')
-            return
+            dt, utt = extract_datetime(utt, anchorDate=now, lang=self.lang) or (now, utt)
+        except Exception as e:
+            self.log.exception(f"failed to extract date from '{utt}'")
+            dt = now
 
         # handle questions ~ "what is the day in sydney"
         location_string = message.data.get("Location") or self._extract_location(utt)
@@ -443,6 +444,9 @@ class TimeSkill(OVOSSkill):
 
     def show_date_mark1(self, dt: datetime.datetime):
         show = self.get_display_date(anchor_date=dt)
+        # TODO - move to mk1 plugin
+        #self.bus.emit(Message("ovos.mk1.display_date",
+        #                      {"text": show}))
         self.enclosure.deactivate_mouth_events()
         self.enclosure.mouth_text(show)
         time.sleep(10)
@@ -469,6 +473,9 @@ class TimeSkill(OVOSSkill):
         self.show_time_mark1(display_time)
 
     def show_time_mark1(self, display_time: str):
+        # TODO - move to mk1 plugin
+        #self.bus.emit(Message("ovos.mk1.display_time",
+        #                      {"text": display_time}))
         self.enclosure.deactivate_mouth_events()
         # Map characters to the display encoding for a Mark 1
         # (4x8 except colon, which is 2x8)
