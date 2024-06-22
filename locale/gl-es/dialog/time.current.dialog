@@ -1,5 +1,3 @@
-{{time}}
-{{time}}
-É {{time}}
-É {{time}}
-Actualmente {{time}}
+Actualmente {time}
+{time}
+É {time}

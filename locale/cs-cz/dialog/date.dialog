@@ -1,2 +1,2 @@
-{{date}}
-Je {{date}}
+Je {date}
+{date}

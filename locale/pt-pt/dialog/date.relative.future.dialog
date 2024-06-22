@@ -1,5 +1,4 @@
-# auto translated from en-us to pt-pt
-{{date}}, em {{num_days}}
-A partir de agora é {{date}}, {{num_days}}
-É {{date}}, em {{num_days}}
-{{date}}, {{num_days}} a partir de agora
+A partir de agora é {date}, {num_days}
+{date}, em {num_days}
+{date}, {num_days} a partir de agora
+É {date}, em {num_days}

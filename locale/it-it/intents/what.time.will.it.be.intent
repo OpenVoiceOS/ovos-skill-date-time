@@ -1,2 +1,6 @@
-che ora sarà {offset} (ore|minuti|secondi) (da adesso|)
-che ora sarà {offset} (ore|minuti|secondi) (da adesso|) (a|in) {location}
+che ora sarà tra {offset} minut(o|i)
+che ora sarà tra {offset} minut(o|i) (a|in) {location}
+che ora sarà tra {offset} or(a|e)
+che ora sarà tra {offset} or(a|e)(a|in) {location}
+che ora sarà tra {offset} second(o|i)
+che ora sarà tra {offset} second(o|i) (a|in) {location}

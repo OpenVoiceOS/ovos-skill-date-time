@@ -1,5 +1,4 @@
-# auto translated from en-us to hu-hu
-Ez a {{date}}, a {{num_days}}-ben
-{{date}}, in {{num_days}}
-{{date}}, {{num_days}} mostantól
-Ez {{date}}, {{num_days}} mostantól kezdve
+Ez a {date}, a {num_days}-ben
+Ez {date}, {num_days} mostantól kezdve
+{date}, in {num_days}
+{date}, {num_days} mostantól

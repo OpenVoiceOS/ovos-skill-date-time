@@ -1,4 +1,3 @@
-{{date}}
-{{date}}
-Avui és {{date}}
-Som a {{date}}
+Avui és {date}
+Som a {date}
+{date}

@@ -1,16 +1,13 @@
-hoje
-de hoje
-de hoje
-amanhã
-de amanhã
-de amanhã
-ontem
-de ontem
-de ontem
-(segunda|segunda-feira)
-(terça|terça-feira)
 (quarta|quarta-feira)
 (quinta|quinta-feira)
+(segunda|segunda-feira)
 (sexta|sexta-feira)
-sábado
+(terça|terça-feira)
+amanhã
+de amanhã
+de hoje
+de ontem
 domingo
+hoje
+ontem
+sábado

@@ -1,6 +1,6 @@
-{{date}}
-Dziś jest {{date}}
-Dzisiaj jest {{date}}
-Mamy {{date}}
-Dziś mamy {{date}}
-Jest {{date}}
+Dzisiaj jest {date}
+Dziś jest {date}
+Dziś mamy {date}
+Jest {date}
+Mamy {date}
+{date}

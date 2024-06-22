@@ -1,4 +1,3 @@
-{{time}}
-Je {{time}}
-{{time}}
-Nyní je {{time}}
+Je {time}
+Nyní je {time}
+{time}

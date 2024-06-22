@@ -1,5 +1,3 @@
-{{time}}
-{{time}}
-Det er {{time}}
-Det er {{time}}
-Lige nu {{time}}
+Det er {time}
+Lige nu {time}
+{time}

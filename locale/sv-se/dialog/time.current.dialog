@@ -1,5 +1,4 @@
-{{time}}
-{{time}}
-Klockan är {{time}}
-Den är {{time}}
-För närvarande {{time}}
+Den är {time}
+För närvarande {time}
+Klockan är {time}
+{time}
