@@ -2,15 +2,29 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/V0.2.3a8...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/V0.2.3a9...HEAD)
 
 **Implemented enhancements:**
 
-- refactor/session\_aware [\#38](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/38) ([JarbasAl](https://github.com/JarbasAl))
+- Update Query.voc [\#45](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/45) ([JarbasAl](https://github.com/JarbasAl))
 
 **Fixed bugs:**
 
 - `AttributeError: 'EnclosureAPI' object has no attribute 'display_manager'` [\#34](https://github.com/OpenVoiceOS/skill-ovos-date-time/issues/34)
+
+**Merged pull requests:**
+
+- corrected a mistake [\#44](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/44) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- fixed some error [\#43](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/43) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- translated an insane number of en-us ways of asking the time [\#42](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/42) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
+## [V0.2.3a9](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/V0.2.3a9) (2024-04-22)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/V0.2.3a8...V0.2.3a9)
+
+**Implemented enhancements:**
+
+- refactor/session\_aware [\#38](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/38) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [V0.2.3a8](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/V0.2.3a8) (2024-04-14)
 
