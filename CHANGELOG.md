@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/V0.2.3a10...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/V0.2.3a11...HEAD)
+
+**Closed issues:**
+
+- "what's the date" doesn't not work [\#39](https://github.com/OpenVoiceOS/skill-ovos-date-time/issues/39)
+
+## [V0.2.3a11](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/V0.2.3a11) (2024-06-22)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/V0.2.3a10...V0.2.3a11)
 
 **Fixed bugs:**
 
