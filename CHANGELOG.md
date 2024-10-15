@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/HEAD)
+## [0.3.2a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.2a1) (2024-10-15)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/V0.2.3...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/V0.2.3...0.3.2a1)
 
 **Closed issues:**
 
@@ -10,6 +10,7 @@
 
 **Merged pull requests:**
 
+- fix:long description [\#51](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/51) ([JarbasAl](https://github.com/JarbasAl))
 - fix:update\_requirements [\#50](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/50) ([JarbasAl](https://github.com/JarbasAl))
 - Add Catalan translation [\#49](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/49) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 - Add Catalan translation [\#48](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/48) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
