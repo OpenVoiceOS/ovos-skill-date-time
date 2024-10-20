@@ -445,13 +445,13 @@ class TimeSkill(OVOSSkill):
     def show_date_mark1(self, dt: datetime.datetime):
         show = self.get_display_date(anchor_date=dt)
         # TODO - move to mk1 plugin
-        #self.bus.emit(Message("ovos.mk1.display_date",
-        #                      {"text": show}))
-        self.enclosure.deactivate_mouth_events()
-        self.enclosure.mouth_text(show)
-        time.sleep(10)
-        self.enclosure.mouth_reset()
-        self.enclosure.activate_mouth_events()
+        self.bus.emit(Message("ovos.mk1.display_date",
+                             {"text": show}))
+        # self.enclosure.deactivate_mouth_events()
+        # self.enclosure.mouth_text(show)
+        # time.sleep(10)
+        # self.enclosure.mouth_reset()
+        # self.enclosure.activate_mouth_events()
 
     def show_date_gui(self, dt: datetime.datetime, location: str):
         self.gui.clear()
@@ -474,55 +474,55 @@ class TimeSkill(OVOSSkill):
 
     def show_time_mark1(self, display_time: str):
         # TODO - move to mk1 plugin
-        #self.bus.emit(Message("ovos.mk1.display_time",
-        #                      {"text": display_time}))
-        self.enclosure.deactivate_mouth_events()
-        # Map characters to the display encoding for a Mark 1
-        # (4x8 except colon, which is 2x8)
-        code_dict = {
-            ':': 'CIICAA',
-            '0': 'EIMHEEMHAA',
-            '1': 'EIIEMHAEAA',
-            '2': 'EIEHEFMFAA',
-            '3': 'EIEFEFMHAA',
-            '4': 'EIMBABMHAA',
-            '5': 'EIMFEFEHAA',
-            '6': 'EIMHEFEHAA',
-            '7': 'EIEAEAMHAA',
-            '8': 'EIMHEFMHAA',
-            '9': 'EIMBEBMHAA',
-        }
-
-        # clear screen (draw two blank sections, numbers cover rest)
-        if len(display_time) == 4:
-            # for 4-character times, 9x8 blank
-            self.enclosure.mouth_display(img_code="JIAAAAAAAAAAAAAAAAAA",
-                                         refresh=False)
-            self.enclosure.mouth_display(img_code="JIAAAAAAAAAAAAAAAAAA",
-                                         x=22, refresh=False)
-        else:
-            # for 5-character times, 7x8 blank
-            self.enclosure.mouth_display(img_code="HIAAAAAAAAAAAAAA",
-                                         refresh=False)
-            self.enclosure.mouth_display(img_code="HIAAAAAAAAAAAAAA",
-                                         x=24, refresh=False)
-
-        # draw the time, centered on display
-        xoffset = (32 - (4 * (len(display_time)) - 2)) / 2
-        for c in display_time:
-            if c in code_dict:
-                self.enclosure.mouth_display(img_code=code_dict[c],
-                                             x=xoffset, refresh=False)
-                if c == ":":
-                    xoffset += 2  # colon is 1 pixels + a space
-                else:
-                    xoffset += 4  # digits are 3 pixels + a space
-
-        self.enclosure.mouth_display(img_code="CIAAAA", x=29,
-                                     refresh=False)
-        time.sleep(5)
-        self.enclosure.mouth_reset()
-        self.enclosure.activate_mouth_events()
+        self.bus.emit(Message("ovos.mk1.display_time",
+                             {"text": display_time}))
+        # self.enclosure.deactivate_mouth_events()
+        # # Map characters to the display encoding for a Mark 1
+        # # (4x8 except colon, which is 2x8)
+        # code_dict = {
+        #     ':': 'CIICAA',
+        #     '0': 'EIMHEEMHAA',
+        #     '1': 'EIIEMHAEAA',
+        #     '2': 'EIEHEFMFAA',
+        #     '3': 'EIEFEFMHAA',
+        #     '4': 'EIMBABMHAA',
+        #     '5': 'EIMFEFEHAA',
+        #     '6': 'EIMHEFEHAA',
+        #     '7': 'EIEAEAMHAA',
+        #     '8': 'EIMHEFMHAA',
+        #     '9': 'EIMBEBMHAA',
+        # }
+        # 
+        # # clear screen (draw two blank sections, numbers cover rest)
+        # if len(display_time) == 4:
+        #     # for 4-character times, 9x8 blank
+        #     self.enclosure.mouth_display(img_code="JIAAAAAAAAAAAAAAAAAA",
+        #                                  refresh=False)
+        #     self.enclosure.mouth_display(img_code="JIAAAAAAAAAAAAAAAAAA",
+        #                                  x=22, refresh=False)
+        # else:
+        #     # for 5-character times, 7x8 blank
+        #     self.enclosure.mouth_display(img_code="HIAAAAAAAAAAAAAA",
+        #                                  refresh=False)
+        #     self.enclosure.mouth_display(img_code="HIAAAAAAAAAAAAAA",
+        #                                  x=24, refresh=False)
+        # 
+        # # draw the time, centered on display
+        # xoffset = (32 - (4 * (len(display_time)) - 2)) / 2
+        # for c in display_time:
+        #     if c in code_dict:
+        #         self.enclosure.mouth_display(img_code=code_dict[c],
+        #                                      x=xoffset, refresh=False)
+        #         if c == ":":
+        #             xoffset += 2  # colon is 1 pixels + a space
+        #         else:
+        #             xoffset += 4  # digits are 3 pixels + a space
+        # 
+        # self.enclosure.mouth_display(img_code="CIAAAA", x=29,
+        #                              refresh=False)
+        # time.sleep(5)
+        # self.enclosure.mouth_reset()
+        # self.enclosure.activate_mouth_events()
 
     def show_time_gui(self, display_time):
         """ Display time on the GUI. """
