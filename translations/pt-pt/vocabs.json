@@ -1,61 +1,68 @@
 {
-    "/vocab/Month.voc": [
-        "Outubro",
-        "Mar\u00e7o",
-        "Janeiro",
-        "Junho",
-        "Julho",
-        "Fevereiro",
-        "Dezembro",
-        "Novembro",
-        "Maio",
-        "Setembro",
-        "Abril",
-        "Agosto"
-    ],
-    "/vocab/Future.voc": [
-        "ser\u00e1",
-        "ele ser\u00e1",
-        "em",
-        "a partir de agora"
-    ],
-    "/vocab/Time.voc": [
-        "rel\u00f3gio",
-        "Tempo"
-    ],
-    "/vocab/LeapYear.voc": [
-        "ano bissexto"
-    ],
-    "/vocab/Today.voc": [
-        "hoje"
-    ],
-    "/vocab/Query.voc": [
-        "Diz-me",
-        "sabe",
-        "quando",
-        "dar-lhe",
-        "Verifica\u00e7\u00e3o",
-        "O qu\u00ea?"
-    ],
-    "/vocab/Display.voc": [
-        "mostrar",
-        "exibi\u00e7\u00e3o de exibi\u00e7\u00e3o"
-    ],
-    "/vocab/Date.voc": [
-        "dia",
-        "Data de data"
-    ],
-    "/vocab/RelativeDay.voc": [
-        "Sexta-feira",
-        "quinta-feira",
-        "ontem",
-        "ter\u00e7a-feira",
-        "ontem ontem \u00e0 noite",
-        "quarta-feira",
-        "Domingo",
-        "s\u00e1bado",
-        "hoje",
-        "amanh\u00e3",
-        "Segunda-feira"
-    ]
+  "/vocab/Month.voc": [
+    "Janeiro",
+    "Março",
+    "Janeiro",
+    "Abril",
+    "Maio",
+    "Junho",
+    "Julho",
+    "Agosto",
+    "Setembro",
+    "Outubro",
+    "Novembro",
+    "Dezembro"
+  ],
+  "/vocab/Future.voc": [
+    "daqui para a frente",
+    "em",
+    "vão ser",
+    "vai ser"
+  ],
+  "/vocab/Time.voc": [
+    "tempo",
+    "relógio"
+  ],
+  "/vocab/LeapYear.voc": [
+    "ano bissexto"
+  ],
+  "/vocab/Today.voc": [
+    "hoje",
+    "[UNUSED]",
+    "[UNUSED]"
+  ],
+  "/vocab/Query.voc": [
+    "qual",
+    "diz",
+    "confirma",
+    "dá-me",
+    "sabes",
+    "quando"
+  ],
+  "/vocab/Display.voc": [
+    "mostra",
+    "[UNUSED]"
+  ],
+  "/vocab/Date.voc": [
+    "data",
+    "dia"
+  ],
+  "/vocab/RelativeDay.voc": [
+    "hoje",
+    "[UNUSED]",
+    "[UNUSED]",
+    "amanhã",
+    "[UNUSED]",
+    "[UNUSED]",
+    "ontem",
+    "[UNUSED]",
+    "[UNUSED]",
+    "segunda-feira",
+    "terça-feira",
+    "quarta-feira",
+    "quinta-feira",
+    "sexta-feira",
+    "sábado",
+    "domingo"
+  ]
 }
