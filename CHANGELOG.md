@@ -1,12 +1,16 @@
 # Changelog
 
-## [0.3.3a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.3a1) (2024-10-23)
+## [0.3.4a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.4a1) (2024-10-31)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.2...0.3.3a1)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.3...0.3.4a1)
+
+**Closed issues:**
+
+- ModuleNotFoundError: format module of language 'fr' is not currently loaded. [\#57](https://github.com/OpenVoiceOS/skill-ovos-date-time/issues/57)
 
 **Merged pull requests:**
 
-- Feat/seperate mk1 [\#53](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/53) ([builderjer](https://github.com/builderjer))
+- fix:allow workshop 3.0.0 [\#58](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/58) ([JarbasAl](https://github.com/JarbasAl))
 
 
 

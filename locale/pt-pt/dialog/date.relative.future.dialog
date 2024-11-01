@@ -1,4 +1,4 @@
-A partir de agora é {date}, {num_days}
 {date}, em {num_days}
 {date}, {num_days} a partir de agora
 É {date}, em {num_days}
+É {date}, {num_days} a partir de agora
