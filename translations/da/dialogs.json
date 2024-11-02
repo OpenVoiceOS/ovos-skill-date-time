@@ -15,11 +15,11 @@
     "sidste weekend var {saturday_date} til {sunday_date}"
   ],
   "/dialog/time.future.dialog": [
-    null,
-    null
+    "{time}",
+    "Det bliver {time}"
   ],
   "/dialog/next.leap.year.dialog": [
-    null
+    "det næste skudår er {year}"
   ],
   "/dialog/date.relative.past.dialog": [
     "{date}, for {num_days} siden",
@@ -29,19 +29,19 @@
     "Mente du tidszonen {zone_name}?"
   ],
   "/dialog/date.dialog": [
-    null,
-    null,
-    null,
-    null
+    "{date}",
+    "Det er {date}",
+    "Det er {date}",
+    "{date}"
   ],
   "/dialog/time.tz.not.found.dialog": [
     "Jeg kunne ikke finde tidszonen for {location}"
   ],
   "/dialog/time.current.dialog": [
-    null,
-    null,
-    null,
-    null,
+    "{time}",
+    "Det er {time}",
+    "{time}",
+    "Det er {time}",
     "I øjeblikket {time}"
   ]
 }
