@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.6a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.6a1) (2024-11-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.5a1...0.3.6a1)
+
+**Merged pull requests:**
+
+- fix: gui resources path [\#61](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/61) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.3.5a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.5a1) (2024-11-04)
 
 [Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.4...0.3.5a1)
