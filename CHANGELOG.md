@@ -1,16 +1,16 @@
 # Changelog
 
-## [0.3.4a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.4a1) (2024-10-31)
+## [0.3.5a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.5a1) (2024-11-04)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.3...0.3.4a1)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.4...0.3.5a1)
 
 **Closed issues:**
 
-- ModuleNotFoundError: format module of language 'fr' is not currently loaded. [\#57](https://github.com/OpenVoiceOS/skill-ovos-date-time/issues/57)
+- PyPI automation [\#11](https://github.com/OpenVoiceOS/skill-ovos-date-time/issues/11)
 
 **Merged pull requests:**
 
-- fix:allow workshop 3.0.0 [\#58](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/58) ([JarbasAl](https://github.com/JarbasAl))
+- da-dk/translate [\#60](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/60) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 
 
