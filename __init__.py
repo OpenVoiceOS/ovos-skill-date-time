@@ -98,7 +98,7 @@ class TimeSkill(OVOSSkill):
         the scheduled time for the next chime event.
         """
         n = now_local() + datetime.timedelta(hours=1)
-        self.schedule_event(self._schedule_hour_chime,
+        self.schedule_event(self._handle_play_hour_chime,
                             when=datetime.datetime(year=n.year, month=n.month, day=n.day,
                                                    hour=n.hour, minute=0, second=0))
 
