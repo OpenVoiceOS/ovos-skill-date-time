@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.7a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.7a1) (2024-11-06)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.6a1...0.3.7a1)
+
+**Fixed bugs:**
+
+- Oct 23 14:24:20 x270.home.lan ovos-core\[177137\]: AttributeError: 'TimeSkill' object has no attribute 'translate\_namedvalues' [\#56](https://github.com/OpenVoiceOS/skill-ovos-date-time/issues/56)
+
+**Merged pull requests:**
+
+- fix: usage\_of\_deprecated\_method [\#64](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/64) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.3.6a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.6a1) (2024-11-04)
 
 [Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.5a1...0.3.6a1)
