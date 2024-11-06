@@ -16,8 +16,25 @@ Time Format setting in your `mycroft.conf`
 * "How many days until July 4th"
 * "What day is Memorial Day 2020?"
 
+## Configuration
+
+You can adjust certain aspects of this skill's behavior by configuring the `settings.json` file. Below is an example configuration file with explanations for each option.
+
+```json
+{
+    "play_hour_chime": true,
+    "hour_sound": "/path/to/your/custom/sound.mp3"
+}
+```
+
+- **`play_hour_chime`**: (boolean) Enables or disables the hourly chime notification. If `true`, the skill will play an audio chime at the start of every hour. Default is `false`.
+  
+- **`hour_sound`**: (string) Specifies the file path to the audio file used for the hourly chime. By default, it points to `clock-chime-88027.mp3` in the `res` folder. You can customize this with the path to any audio file you prefer.
+
 ## Credits 
-Mycroft AI (@MycroftAI)
+
+- [clock-chime.mp3 by @ecfike](https://pixabay.com/sound-effects/clock-chime-88027/) under the [Pixabay Content License](https://pixabay.com/service/license-summary/)
+- Original skill by Mycroft AI (@MycroftAI)
 
 ## Category
 **Daily**
