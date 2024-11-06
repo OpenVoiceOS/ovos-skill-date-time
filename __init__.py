@@ -14,14 +14,13 @@
 
 import datetime
 import re
-import time
+from typing import Optional
 
 import geocoder
 import pytz
 from lingua_franca.format import nice_date, nice_duration, nice_time, date_time_format
 from lingua_franca.parse import extract_datetime, fuzzy_match, normalize
-from timezonefinder import TimezoneFinder
-
+from ovos_bus_client.message import Message
 from ovos_utils import classproperty
 from ovos_utils.log import LOG
 from ovos_utils.process_utils import RuntimeRequirements
@@ -29,7 +28,7 @@ from ovos_utils.time import now_local, get_next_leap_year
 from ovos_workshop.decorators import intent_handler
 from ovos_workshop.intents import IntentBuilder
 from ovos_workshop.skills import OVOSSkill
-from ovos_bus_client.message import Message
+from timezonefinder import TimezoneFinder
 
 
 def speakable_timezone(tz):
@@ -116,13 +115,13 @@ class TimeSkill(OVOSSkill):
             pass
         return None
 
-    def _get_timezone_from_table(self, location_string: str) -> datetime.tzinfo:
+    def _get_timezone_from_table(self, location_string: str) -> Optional[datetime.tzinfo]:
         """Check lookup table for timezones.
 
         This can also be a translation layer.
         E.g. "china = GMT+8"
         """
-        timezones = self.translate_namedvalues("timezone.value")
+        timezones = self.resources.load_named_value_file("timezone.value", ',')
         for timezone in timezones:
             if location_string.lower() == timezone.lower():
                 # assumes translation is correct
