@@ -117,9 +117,13 @@ class TimeSkill(OVOSSkill):
 
         Returns:
             str: The file path to the chime audio file. If not set in settings,
-            defaults to 'clock-chime-88027.mp3' in the 'res' folder.
+            defaults to 'casio-watch.wav' in the 'res' folder.
         """
-        return self.settings.get("hour_sound", f"{os.path.dirname(__file__)}/res/clock-chime-88027.mp3")
+        snd = self.settings.get("hour_sound", "casio-watch.wav")
+        if not os.path.isfile(snd):
+            snd2 = f"{os.path.dirname(__file__)}/res/{snd}"
+            snd = snd2 if os.path.isfile(snd2) else snd
+        return snd
 
     @property
     def use_24hour(self):
