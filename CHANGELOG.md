@@ -1,8 +1,8 @@
 # Changelog
 
-## [0.3.8a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.8a1) (2024-11-10)
+## [0.3.8a2](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.8a2) (2024-11-10)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.7...0.3.8a1)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.7...0.3.8a2)
 
 **Merged pull requests:**
 
