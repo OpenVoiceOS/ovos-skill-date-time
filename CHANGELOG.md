@@ -1,8 +1,24 @@
 # Changelog
 
+## [0.3.9a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.9a1) (2024-11-11)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.8a3...0.3.9a1)
+
+**Merged pull requests:**
+
+- fix: drop lingua-franca [\#71](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/71) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.3.8a3](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.8a3) (2024-11-10)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.8a2...0.3.8a3)
+
 ## [0.3.8a2](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.8a2) (2024-11-10)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.7...0.3.8a2)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.8a1...0.3.8a2)
+
+## [0.3.8a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.8a1) (2024-11-10)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.7...0.3.8a1)
 
 **Merged pull requests:**
 
