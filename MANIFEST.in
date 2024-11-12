@@ -1,4 +1,5 @@
 recursive-include locale *
+recursive-include res *
 recursive-include gui *
 include *.json
 include *.txt
