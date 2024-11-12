@@ -1,30 +1,16 @@
 # Changelog
 
-## [0.3.9a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.9a1) (2024-11-11)
+## [0.4.0a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.4.0a1) (2024-11-12)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.8a3...0.3.9a1)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.9...0.4.0a1)
 
-**Merged pull requests:**
+**Implemented enhancements:**
 
-- fix: drop lingua-franca [\#71](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/71) ([JarbasAl](https://github.com/JarbasAl))
-
-## [0.3.8a3](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.8a3) (2024-11-10)
-
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.8a2...0.3.8a3)
-
-## [0.3.8a2](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.8a2) (2024-11-10)
-
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.8a1...0.3.8a2)
-
-## [0.3.8a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.8a1) (2024-11-10)
-
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.7...0.3.8a1)
+- play sound - when hour changes [\#47](https://github.com/OpenVoiceOS/skill-ovos-date-time/issues/47)
 
 **Merged pull requests:**
 
-- Nl-nl translation [\#69](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/69) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-- Nl-NL translation [\#68](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/68) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-- Nl-nl translation [\#67](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/67) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- feat: hour chime [\#66](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/66) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
