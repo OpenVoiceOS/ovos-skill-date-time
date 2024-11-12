@@ -11,8 +11,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
 import datetime
+import os
 import re
 from typing import Optional
 
@@ -67,8 +67,63 @@ class TimeSkill(OVOSSkill):
                                    no_gui_fallback=True)
 
     def initialize(self):
-        """Initialize the skill by pre-loading lingua-franca."""
+        """Initialize the skill by pre-loading language settings and scheduling
+        the hourly chime.
+
+        This method is called automatically when the skill starts, preloading
+        language-related formatting for date and time and setting up the initial
+        scheduling for the hourly chime event.
+        """
         date_time_format.cache(self.lang)
+        self._schedule_hour_chime()
+
+    def _handle_play_hour_chime(self, message: Message):
+        """Play the hourly chime audio and re-schedule the next chime event.
+
+        Args:
+            message (Message): message object
+
+        This method checks if the hourly chime setting is enabled. If it is, it
+        plays the specified chime audio. Then, it re-schedules the next hourly
+        chime event.
+        """
+        if self.play_hour_chime:
+            self.play_audio(self.hour_chime, instant=True)
+        self._schedule_hour_chime()
+
+    def _schedule_hour_chime(self):
+        """Schedule the next hourly chime event for the start of the next hour.
+
+        This method calculates the time for the upcoming hour, setting it as
+        the scheduled time for the next chime event.
+        """
+        n = now_local() + datetime.timedelta(hours=1)
+        self.schedule_event(self._handle_play_hour_chime,
+                            when=datetime.datetime(year=n.year, month=n.month, day=n.day,
+                                                   hour=n.hour, minute=0, second=0))
+
+    @property
+    def play_hour_chime(self) -> bool:
+        """Check if the hourly chime setting is enabled.
+
+        Returns:
+            bool: True if the chime should be played on the hour, False otherwise.
+        """
+        return self.settings.get("play_hour_chime", False)
+
+    @property
+    def hour_chime(self) -> str:
+        """Get the file path for the hourly chime sound.
+
+        Returns:
+            str: The file path to the chime audio file. If not set in settings,
+            defaults to 'casio-watch.wav' in the 'res' folder.
+        """
+        snd = self.settings.get("hour_sound", "casio-watch.wav")
+        if not os.path.isfile(snd):
+            snd2 = f"{os.path.dirname(__file__)}/res/{snd}"
+            snd = snd2 if os.path.isfile(snd2) else snd
+        return snd
 
     @property
     def use_24hour(self):
@@ -95,7 +150,8 @@ class TimeSkill(OVOSSkill):
                             pass
         return None
 
-    def _get_timezone_from_builtins(self, location_string: str) -> datetime.tzinfo:
+    @staticmethod
+    def _get_timezone_from_builtins(location_string: str) -> Optional[datetime.tzinfo]:
         """Get timezone from built-in resources."""
         if "/" not in location_string:
             try:
@@ -130,7 +186,7 @@ class TimeSkill(OVOSSkill):
                 return pytz.timezone(timezones[timezone].strip())
         return None
 
-    def _get_timezone_from_fuzzymatch(self, location_string: str) -> datetime.tzinfo:
+    def _get_timezone_from_fuzzymatch(self, location_string: str) -> Optional[datetime.tzinfo]:
         """Fuzzymatch a location against the pytz timezones.
 
         The pytz timezones consists of
@@ -187,7 +243,7 @@ class TimeSkill(OVOSSkill):
     ######################################################################
     # utils
     def get_datetime(self, location: str = None,
-                     anchor_date: datetime.datetime = None) -> datetime.datetime:
+                     anchor_date: datetime.datetime = None) -> Optional[datetime.datetime]:
         """return anchor_date/now_local at location/session_tz"""
         if location:
             tz = self.get_timezone_in_location(location)
@@ -430,7 +486,7 @@ class TimeSkill(OVOSSkill):
         show = self.get_display_date(anchor_date=dt)
         LOG.debug(f"sending date to mk1 {show}")
         self.bus.emit(Message("ovos.mk1.display_date",
-                             {"text": show}))
+                              {"text": show}))
 
     def show_date_gui(self, dt: datetime.datetime, location: str):
         self.gui.clear()
@@ -454,7 +510,7 @@ class TimeSkill(OVOSSkill):
     def show_time_mark1(self, display_time: str):
         LOG.debug(f"Emitting ovos.mk1.display_time with time: {display_time}")
         self.bus.emit(Message("ovos.mk1.display_time",
-                             {"text": display_time}))
+                              {"text": display_time}))
 
     def show_time_gui(self, display_time):
         """ Display time on the GUI. """
