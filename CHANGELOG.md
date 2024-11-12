@@ -1,36 +1,30 @@
 # Changelog
 
-## [0.3.7a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.7a1) (2024-11-06)
+## [0.3.9a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.9a1) (2024-11-11)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.6a1...0.3.7a1)
-
-**Fixed bugs:**
-
-- Oct 23 14:24:20 x270.home.lan ovos-core\[177137\]: AttributeError: 'TimeSkill' object has no attribute 'translate\_namedvalues' [\#56](https://github.com/OpenVoiceOS/skill-ovos-date-time/issues/56)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.8a3...0.3.9a1)
 
 **Merged pull requests:**
 
-- fix: usage\_of\_deprecated\_method [\#64](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/64) ([JarbasAl](https://github.com/JarbasAl))
+- fix: drop lingua-franca [\#71](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/71) ([JarbasAl](https://github.com/JarbasAl))
 
-## [0.3.6a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.6a1) (2024-11-04)
+## [0.3.8a3](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.8a3) (2024-11-10)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.5a1...0.3.6a1)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.8a2...0.3.8a3)
 
-**Merged pull requests:**
+## [0.3.8a2](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.8a2) (2024-11-10)
 
-- fix: gui resources path [\#61](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/61) ([JarbasAl](https://github.com/JarbasAl))
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.8a1...0.3.8a2)
 
-## [0.3.5a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.5a1) (2024-11-04)
+## [0.3.8a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.3.8a1) (2024-11-10)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.4...0.3.5a1)
-
-**Closed issues:**
-
-- PyPI automation [\#11](https://github.com/OpenVoiceOS/skill-ovos-date-time/issues/11)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.3.7...0.3.8a1)
 
 **Merged pull requests:**
 
-- da-dk/translate [\#60](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/60) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- Nl-nl translation [\#69](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/69) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- Nl-NL translation [\#68](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/68) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- Nl-nl translation [\#67](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/67) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 
 

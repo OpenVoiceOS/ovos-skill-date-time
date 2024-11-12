@@ -18,13 +18,15 @@ from typing import Optional
 
 import geocoder
 import pytz
-from lingua_franca.format import nice_date, nice_duration, nice_time, date_time_format
-from lingua_franca.parse import extract_datetime, fuzzy_match, normalize
 from ovos_bus_client.message import Message
+from ovos_date_parser import nice_time, extract_datetime, nice_date, nice_duration, date_time_format, nice_weekday, \
+    nice_month
 from ovos_utils import classproperty
 from ovos_utils.log import LOG
+from ovos_utils.parse import fuzzy_match
 from ovos_utils.process_utils import RuntimeRequirements
 from ovos_utils.time import now_local, get_next_leap_year
+from ovos_utterance_normalizer import UtteranceNormalizerPlugin
 from ovos_workshop.decorators import intent_handler
 from ovos_workshop.intents import IntentBuilder
 from ovos_workshop.skills import OVOSSkill
@@ -240,27 +242,6 @@ class TimeSkill(OVOSSkill):
         elif fmt == 'DMY':
             return dt.strftime("%d/%-m/%-Y")
 
-    def nice_weekday(self, dt: datetime.datetime) -> str:
-        """Get localized weekday name."""
-        # TODO - move to lingua-franca
-        if self.lang in date_time_format.lang_config.keys():
-            localized_day_names = list(
-                date_time_format.lang_config[self.lang]['weekday'].values())
-            weekday = localized_day_names[dt.weekday()]
-        else:
-            weekday = dt.strftime("%A")
-        return weekday.capitalize()
-
-    def nice_month(self, dt: datetime.datetime) -> str:
-        """Get localized month name."""
-        # TODO - move to lingua-franca
-        if self.lang in date_time_format.lang_config.keys():
-            localized_month_names = date_time_format.lang_config[self.lang]['month']
-            month = localized_month_names[str(int(dt.strftime("%m")))]
-        else:
-            month = dt.strftime("%B")
-        return month.capitalize()
-
     ######################################################################
     # Time queries / display
     def speak_time(self, dialog: str, location: str = None):
@@ -297,8 +278,10 @@ class TimeSkill(OVOSSkill):
 
     @intent_handler("what.time.will.it.be.intent")
     def handle_query_future_time(self, message):
-        utt = normalize(message.data.get('utterance', "").lower())
-        dt, utt = extract_datetime(utt) or (None, None)
+        normalizer = UtteranceNormalizerPlugin.get_normalizer(self.lang)
+        utt = normalizer.normalize(message.data["utterance"])
+
+        dt, utt = extract_datetime(utt, lang=self.lang) or (None, None)
         if not dt:
             self.handle_query_time(message)
             return
@@ -453,9 +436,9 @@ class TimeSkill(OVOSSkill):
         self.gui.clear()
         self.gui['location_string'] = str(location)
         self.gui['date_string'] = self.get_display_date(anchor_date=dt)
-        self.gui['weekday_string'] = self.nice_weekday(dt)
+        self.gui['weekday_string'] = nice_weekday(dt, lang=self.lang)
         self.gui['day_string'] = dt.strftime('%d')
-        self.gui['month_string'] = self.nice_month(dt)
+        self.gui['month_string'] = nice_month(dt, lang=self.lang)
         self.gui['year_string'] = dt.strftime("%Y")
         if self.date_format == 'MDY':
             self.gui['daymonth_string'] = f"{self.gui['month_string']} {self.gui['day_string']}"
