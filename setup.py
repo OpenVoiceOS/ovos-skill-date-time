@@ -32,7 +32,7 @@ def get_requirements(requirements_filename: str):
 def find_resource_files():
     resource_base_dirs = ("locale", "gui", "res")
     base_dir = path.dirname(__file__)
-    package_data = ["*.json", "*.mp3"]
+    package_data = ["*.json", "*.mp3", "*.wav"]
     for res in resource_base_dirs:
         if path.isdir(path.join(base_dir, res)):
             for (directory, _, files) in walk(path.join(base_dir, res)):
