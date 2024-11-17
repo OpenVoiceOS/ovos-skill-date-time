@@ -509,8 +509,7 @@ class TimeSkill(OVOSSkill):
 
     def show_time_mark1(self, display_time: str):
         LOG.debug(f"Emitting ovos.mk1.display_time with time: {display_time}")
-        self.bus.emit(Message("ovos.mk1.display_time",
-                              {"text": display_time}))
+        self.bus.emit(Message("ovos.mk1.display_time", {"text": display_time}))
 
     def show_time_gui(self, display_time):
         """ Display time on the GUI. """
