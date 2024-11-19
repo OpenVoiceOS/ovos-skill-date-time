@@ -1,24 +1,25 @@
 # Changelog
 
-## [0.4.1a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.4.1a1) (2024-11-17)
+## [0.4.1a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.1a2) (2024-11-19)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.4.1a1...0.4.1a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.1a1...0.4.1a2)
 
 **Fixed bugs:**
 
-- Mix of English and Dutch with "what's the date" [\#70](https://github.com/OpenVoiceOS/skill-ovos-date-time/issues/70)
+- Mix of English and Dutch with "what's the date" [\#70](https://github.com/OpenVoiceOS/ovos-skill-date-time/issues/70)
 
 **Merged pull requests:**
 
-- fix: skilljson [\#76](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/76) ([JarbasAl](https://github.com/JarbasAl))
+- fix:allow workshop 3.0.0 [\#77](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/77) ([JarbasAl](https://github.com/JarbasAl))
+- fix: skilljson [\#76](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/76) ([JarbasAl](https://github.com/JarbasAl))
 
-## [0.4.1a1](https://github.com/OpenVoiceOS/skill-ovos-date-time/tree/0.4.1a1) (2024-11-12)
+## [0.4.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.1a1) (2024-11-12)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-date-time/compare/0.4.0...0.4.1a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.0...0.4.1a1)
 
 **Merged pull requests:**
 
-- Added key word "welke" \("which"\) for "which day is it"\) [\#75](https://github.com/OpenVoiceOS/skill-ovos-date-time/pull/75) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- Added key word "welke" \("which"\) for "which day is it"\) [\#75](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/75) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 
 
