@@ -75,6 +75,7 @@ setup(
     version=get_version(),
     description='ovos skill plugin',
     long_description=long_description,
+    long_description_content_type="text/markdown",
     url=URL,
     author=SKILL_AUTHOR,
     license='Apache-2.0',
