@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-ovos-date-time.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/skill-ovos-date-time",
+  "name": " Data i hora",
+  "description": "Obteniu l'hora, la data, el dia de la setmana",
+  "examples": [
+    "Quina hora és?",
+    "Digues-me el dia de la setmana",
+    "Quants dies falten per al 24 de juny?",
+    "Quina data som?",
+    "Mostra'm l'hora",
+    "Quin dia és el dia del Punt Volat de 2026?",
+    "Quina hora és a París?"
+  ],
+  "tags": [
+    "rellotge",
+    "data",
+    "hora",
+    "consulta",
+    "informació"
+  ]
+}

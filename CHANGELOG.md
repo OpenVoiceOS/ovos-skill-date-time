@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.4.2a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.2a1) (2024-11-19)
+## [0.4.3a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.3a1) (2024-11-23)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.1...0.4.2a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.2...0.4.3a1)
 
 **Merged pull requests:**
 
-- fix: long description type [\#79](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/79) ([JarbasAl](https://github.com/JarbasAl))
+- Add Catalan translation [\#81](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/81) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 
 
