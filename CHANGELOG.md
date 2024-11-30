@@ -1,12 +1,20 @@
 # Changelog
 
-## [0.4.4a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.4a1) (2024-11-24)
+## [0.4.5a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.5a1) (2024-11-30)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.3...0.4.4a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.5a1...0.4.5a1)
 
 **Merged pull requests:**
 
-- Add Catalan translation [\#83](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/83) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- de-de/translate [\#86](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/86) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
+## [0.4.5a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.5a1) (2024-11-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.4...0.4.5a1)
+
+**Merged pull requests:**
+
+- da-dk/translate [\#85](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/85) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 
 
