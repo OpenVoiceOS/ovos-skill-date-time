@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-ovos-date-time.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/skill-ovos-date-time",
+  "name": "Datum und Uhrzeit",
+  "description": "Erfrage die Uhrzeit, das Datum, den Wochentag",
+  "examples": [
+    "Wie spät ist es?",
+    "Sag mir den Wochentag",
+    "Wie viele Tage bis zum 4. Juli",
+    "Welches Datum haben wir?",
+    "Zeig mir die Zeit",
+    "Welcher Tag ist der Memorial Day 2020?",
+    "Wie spät ist es in Paris?"
+  ],
+  "tags": [
+    "Uhr",
+    "Datum",
+    "Zeit",
+    "Abfrage\nSuche",
+    "Information"
+  ]
+}
