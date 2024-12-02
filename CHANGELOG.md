@@ -1,11 +1,12 @@
 # Changelog
 
-## [0.4.5a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.5a1) (2024-11-30)
+## [0.4.5a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.5a2) (2024-12-02)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.5a1...0.4.5a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.5a1...0.4.5a2)
 
 **Merged pull requests:**
 
+- import galician translations [\#87](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/87) ([JarbasAl](https://github.com/JarbasAl))
 - de-de/translate [\#86](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/86) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [0.4.5a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.5a1) (2024-11-25)
