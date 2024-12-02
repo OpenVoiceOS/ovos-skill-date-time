@@ -1,2 +1,2 @@
-{date} izan zen, (orain dela|duela) {num_days}
-{date}, (orain dela|duela) {num_days}
+{date} zen. duela {num_days} egun
+{date}. duela {num_days} egun

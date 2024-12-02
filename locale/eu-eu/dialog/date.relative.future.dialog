@@ -1,4 +1,4 @@
-{date} izango da, gaurtik hasi eta {num_days} egunera
-{date} izango da, {num_days} egunetan
-{date}, gaurtik {num_days}
-{date}, {num_days} egunera
+{date} da {num_days} egunetan
+{date} da. hemendik {num_days} egunetara
+{date}. hemendik {num_days} egunetara
+{date}. {num_days} egunetan
