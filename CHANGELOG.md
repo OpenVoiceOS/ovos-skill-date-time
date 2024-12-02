@@ -1,21 +1,12 @@
 # Changelog
 
-## [0.4.5a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.5a2) (2024-12-02)
+## [0.4.6a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.6a1) (2024-12-02)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.5a1...0.4.5a2)
-
-**Merged pull requests:**
-
-- import galician translations [\#87](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/87) ([JarbasAl](https://github.com/JarbasAl))
-- de-de/translate [\#86](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/86) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
-## [0.4.5a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.5a1) (2024-11-25)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.4...0.4.5a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.5...0.4.6a1)
 
 **Merged pull requests:**
 
-- da-dk/translate [\#85](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/85) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- import galician and basque translations [\#89](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/89) ([JarbasAl](https://github.com/JarbasAl))
 
 
 

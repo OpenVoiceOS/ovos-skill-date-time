@@ -1,5 +1,3 @@
-Orain {time} da
-Orain {time} dira
+orain {time}
 {time}
-{time} da
-{time} dira
+{time}(a|ak|) (da|dira)
