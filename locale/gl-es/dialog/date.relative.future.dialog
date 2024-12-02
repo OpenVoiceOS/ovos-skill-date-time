@@ -1,4 +1,4 @@
-Será {date}, en {num_days}
-Será {date}, {num_days} a partir de agora
-{date}, en {num_days}
-{date}, {num_days} a partir de agora
+Será {date}. dentro de {num_days}
+{date}. cando pasen {num_days}
+{date}. dentro de {num_days}
+É {date}. dentro de {num_days}
