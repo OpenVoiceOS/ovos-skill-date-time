@@ -1,11 +1,35 @@
-(cal é|cantas|cal|que|cal será) (a|as) hora(s) en {offset} (horas|minutos|segundos) (a partir de agora|desde xa|)
-(en|) {offset} (horas|minutos|segundos) (a partir de agora|) que hora será (en|para) {location}
-(en|) {offset} (horas|minutos|segundos) que hora será
-(en|no|na) {location} que hora é (en|) {offset} (horas|minutos|segundos)
-que hora será (en|) {offset} (horas|minutos|segundos) (a partir de agora|)
-que hora será (en|) {offset} (horas|minutos|segundos) (a partir de agora|)(en|no|na) {location}
-que hora será (en|no|na) {location} (en|) {offset} (horas|minutos|segundos) (a partir de agora|)
-que hora será en {offset} (horas|minutos|segundos) (a partir de agora|)
-que hora será en {offset} (horas|minutos|segundos) (a partir de agora|) (en|no|na) {location}
-que hora é (en|no|na) {location} (en|) {offset} (horas|minutos|segundos) (a partir de agora|)
-que hora é en {offset} (horas|minutos|segundos) (a partir de agora|) (en|no|na) {location}
+que hora vai ser dentro de {offset} horas
+que hora vai ser dentro de {offset} horas a partir de agora
+que hora vai ser dentro de {offset} horas a partir de agora en {location}
+que hora vai ser dentro de {offset} horas en {location}
+que hora vai ser dentro de {offset} minutos
+que hora vai ser dentro de {offset} minutos a partir de agora
+que hora vai ser dentro de {offset} minutos a partir de agora en {location}
+que hora vai ser dentro de {offset} minutos en {location}
+que hora vai ser dentro de {offset} segundos
+que hora vai ser dentro de {offset} segundos a partir de agora
+que hora vai ser dentro de {offset} segundos a partir de agora en {location}
+que hora vai ser dentro de {offset} segundos en {location}
+que vai ser dentro de {offset} horas
+que vai ser dentro de {offset} horas a partir de agora
+que vai ser dentro de {offset} horas en {location}
+que vai ser dentro de {offset} minutos
+que vai ser dentro de {offset} minutos a partir de agora
+que vai ser dentro de {offset} minutos a partir de agora en {location}
+que vai ser dentro de {offset} minutos en {location}
+que vai ser dentro de {offset} segundos
+que vai ser dentro de {offset} segundos a partir de agora
+que vai ser dentro de {offset} segundos a partir de agora en {location}
+que vai ser dentro de {offset} segundos en {location}
+que é dentro de {offset} horas
+que é dentro de {offset} horas a partir de agora
+que é dentro de {offset} horas a partir de agora en {location}
+que é dentro de {offset} horas en {location}
+que é dentro de {offset} minutos
+que é dentro de {offset} minutos a partir de agora
+que é dentro de {offset} minutos a partir de agora en {location}
+que é dentro de {offset} minutos en {location}
+que é dentro de {offset} segundos
+que é dentro de {offset} segundos a partir de agora
+que é dentro de {offset} segundos a partir de agora en {location}
+que é dentro de {offset} segundos en {location}

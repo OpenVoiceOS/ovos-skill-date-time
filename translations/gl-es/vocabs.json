@@ -1,66 +1,68 @@
 {
     "/vocab/Month.voc": [
-        "Xaneiro",
-        "Febreiro",
-        "Marzo",
-        "Abril",
-        "Maio",
-        "Xu\u00f1o",
-        "Xullo",
+        "abril",
         "Agosto",
-        "Setembro",
-        "Outubro",
+        "Decembro",
+        "Febreiro",
+        "Xaneiro",
+        "Xullo",
+        "Xuño",
+        "Marzo",
+        "Maio",
         "Novembro",
-        "Decembro"
+        "Outubro",
+        "Setembro"
     ],
     "/vocab/Future.voc": [
-        "ser\u00e1",
-        "a partir de agora"
+        "a partir de agora",
+        "en",
+        "será",
+        "estará"
     ],
     "/vocab/Time.voc": [
-        "tempo",
-        "reloxo"
+        "reloxo",
+        "hora"
     ],
     "/vocab/LeapYear.voc": [
-        "ano bisexto"
+        "ano bisesto"
     ],
     "/vocab/Today.voc": [
         "hoxe",
         "de hoxe",
-        "de hoxe"
+        "para hoxe"
     ],
     "/vocab/Query.voc": [
-        "que",
-        "contar",
         "verificar",
         "dar",
-        "(saber|co\u00f1ecer)",
+        "saber",
+        "dicir",
+        "que",
         "cando"
     ],
     "/vocab/Display.voc": [
-        "amosar",
-        "amosar"
+        "ensinar",
+        "mostrar"
     ],
     "/vocab/Date.voc": [
         "data",
-        "d\u00eda"
+        "día"
     ],
     "/vocab/RelativeDay.voc": [
+        "venres",
+        "luns",
+        "sábado",
+        "domingo",
+        "xoves",
         "hoxe",
         "de hoxe",
-        "de hoxe",
-        "ma\u00f1\u00e1",
-        "de ma\u00f1\u00e1",
-        "de ma\u00f1\u00e1",
+        "para hoxe",
+        "mañá",
+        "de mañá",
+        "para mañá",
+        "martes",
+        "mércores",
         "onte",
         "de onte",
-        "de onte",
-        "luns",
-        "martes",
-        "m\u00e9rcores",
-        "xoves",
-        "venres",
-        "s\u00e1bado",
-        "domingo"
+        "para onte"
     ]
 }

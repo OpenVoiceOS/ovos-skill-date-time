@@ -1,47 +1,47 @@
 {
     "/dialog/date.relative.future.dialog": [
-        "{date}, {num_days} a partir de agora",
-        "Ser\u00e1 {date}, en {num_days}",
-        "Ser\u00e1 {date}, {num_days} a partir de agora",
-        "{date}, en {num_days}"
+        "É {date}. dentro de {num_days}",
+        "Será {date}. dentro de {num_days}",
+        "{date}. cando pasen {num_days}",
+        "{date}. dentro de {num_days}"
     ],
     "/dialog/date.future.weekend.dialog": [
-        "{direction} fin de semana ser\u00e1 de {saturday_date}, ata {sunday_date}"
+        "o vindeiro fin de semana será {saturday_date}. e {sunday_date}"
     ],
     "/dialog/date.not.found.dialog": [
-        "Non puiden atopar esa data para ti"
+        "Non che dei atopado esa data."
     ],
     "/dialog/date.last.weekend.dialog": [
-        "{direction} fin de semana foi de {saturday_date}, ata {sunday_date}"
+        "o fin de semana pasado foi {saturday_date}. e {sunday_date}"
     ],
     "/dialog/time.future.dialog": [
-        "{time}",
-        "Ser\u00e1n as {time}"
+        "Serán as {time}",
+        "{time}"
     ],
     "/dialog/next.leap.year.dialog": [
-        "o pr\u00f3ximo ano bisexto \u00e9 {year}"
+        "O vindeiro ano bisesto é {year}"
     ],
     "/dialog/date.relative.past.dialog": [
-        "{date}, {num_days} atr\u00e1s",
-        "Era {date}, {num_days} atr\u00e1s"
+        "Foi {date}. hai {num_days}",
+        "{date}. hai {num_days}"
     ],
     "/dialog/did.you.mean.timezone.dialog": [
-        "Quer\u00edas dicir o fuso horario {zone_name}?"
+        "Refíreste ao fuso horario {zone_name}?"
     ],
     "/dialog/date.dialog": [
+        "É {date}",
+        "É {date}",
         "{date}",
-        "{date}",
-        "\u00c9 {date}",
-        "\u00c9 {date}"
+        "{date}"
     ],
     "/dialog/time.tz.not.found.dialog": [
-        "Non consegu\u00edn atopar o fuso horario de {location}"
+        "Non dei atopado o fuso horario de {location}"
     ],
     "/dialog/time.current.dialog": [
+        "Actualmente {time}",
+        "Son as {time}",
+        "Son as {time}",
         "{time}",
-        "{time}",
-        "\u00c9 {time}",
-        "\u00c9 {time}",
-        "Actualmente {time}"
+        "{time}"
     ]
 }
