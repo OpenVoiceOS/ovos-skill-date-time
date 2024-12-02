@@ -1,61 +1,80 @@
 {
     "/vocab/Month.voc": [
-        "urtarrila",
-        "otsaila",
-        "martxoa",
-        "apirila",
-        "maiatza",
-        "ekaina",
-        "uztaila",
-        "abuztua",
-        "iraila",
-        "urria",
-        "azaroa",
-        "abendua"
+        "apiril",
+        "abuztu",
+        "abendu",
+        "otsail",
+        "urtarril",
+        "uztail",
+        "ekain",
+        "martxo",
+        "maiatz",
+        "azaro",
+        "urri",
+        "irail",
+        "apiril",
+        "abuztu",
+        "abendu",
+        "otsail",
+        "urtarril",
+        "uztail",
+        "ekain",
+        "martxo",
+        "maiatz",
+        "azaro",
+        "urri",
+        "irail"
     ],
     "/vocab/Future.voc": [
-        "hurrengo",
-        "datorren"
+        "(-an|-ean|-etan)",
+        "hemendik aurrera",
+        "izango da",
+        "izango al da"
     ],
     "/vocab/Time.voc": [
-        "ordua",
-        "ordu da",
-        "ordu da orain"
+        "ordu|garai|denbora",
+        "ordulari"
     ],
     "/vocab/LeapYear.voc": [
-        "bisurte",
-        "bisurtea"
+        "bisurte"
     ],
     "/vocab/Today.voc": [
         "gaur",
+        "gaurko",
         "gaurko"
     ],
     "/vocab/Query.voc": [
-        "zer|ze",
-        "esan|esaidazu",
-        "esadazu"
+        "zer",
+        "noiz",
+        "esan",
+        "egiaztatu",
+        "eman",
+        "jakin"
     ],
     "/vocab/Display.voc": [
         "erakutsi",
         "bistaratu"
     ],
     "/vocab/Date.voc": [
-        "data da",
-        "egun da"
+        "data",
+        "egun"
     ],
     "/vocab/RelativeDay.voc": [
+        "ostiral",
+        "astelehen",
+        "larunbat",
+        "igande",
+        "ostegun",
+        "astearte",
+        "asteazken",
         "gaur",
-        "gaurko",
-        "bihar ",
-        "biharko",
+        "bihar",
         "atzo",
+        "gaurko",
+        "gaurko",
+        "biharko",
+        "biharko",
         "atzoko",
-        "asteleheneko",
-        "astearteko",
-        "asteazkeneko",
-        "osteguneko",
-        "ostiraleko",
-        "larunbateko",
-        "igandeko"
+        "atzoko"
     ]
 }
