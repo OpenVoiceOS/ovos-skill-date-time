@@ -4,9 +4,36 @@
 (wie viel|wieviel) uhr wird (es|) in {location} in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} sein
 (wie viel|wieviel) uhr wird (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} in {location} sein
 (wie viel|wieviel) uhr wird (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} sein
+wann ist es ab jetzt {offset} Minuten
+wann ist es ab jetzt {offset} Minuten in {location}
+wann ist es ab jetzt {offset} Sekunden
+wann ist es ab jetzt {offset} Sekunden in {location}
+wann ist es ab jetzt {offset} Stunden
+wann ist es in {location} {offset} Minuten
+wann ist es in {location} {offset} Sekunden
+wann ist es in {location} {offset} Uhr
+wann ist es {offset} Minuten
+wann ist es {offset} Minuten ab jetzt
+wann ist es {offset} Minuten in {location}
+wann ist es {offset} Sekunden
+wann ist es {offset} Sekunden ab jetzt
+wann ist es {offset} Sekunden ab jetzt in {location}
+wann ist es {offset} Sekunden in {location}
+wann ist es {offset} Stunden
+wann ist es {offset} Stunden ab jetzt
+wann ist es {offset} Uhr in {location}
+wann sind es {offset} Minuten
+wann sind es {offset} Sekunden
+wann sind es {offset} Stunden
 wie spät ist (es|) in {location} in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2}
 wie spät ist (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2}
 wie spät ist (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} in {location}
+wie spät ist es in {offset} Minuten
+wie spät ist es in {offset} Minuten in {location}
+wie spät ist es in {offset} Sekunden
+wie spät ist es in {offset} Sekunden in {location}
+wie spät ist es in {offset} Stunden
+wie spät ist es in {offset} Stunden in {location}
 wie spät wird (es|) in {location} in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} sein
 wie spät wird (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} in {location} sein
 wie spät wird (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} sein
