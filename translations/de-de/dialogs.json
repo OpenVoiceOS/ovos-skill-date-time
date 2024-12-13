@@ -1,47 +1,47 @@
 {
-    "/dialog/date.relative.future.dialog": [
-        "{date}, {num_days} ab heute",
-        "in {num_days}",
-        "{num_days} von jetzt an",
-        "{date}, in {num_days}"
-    ],
-    "/dialog/date.future.weekend.dialog": [
-        "n\u00e4chstes wochenende ist {saturday_date} und {sunday_date}"
-    ],
-    "/dialog/date.not.found.dialog": [
-        "Ich konnte das Datum f\u00fcr dich nicht finden."
-    ],
-    "/dialog/date.last.weekend.dialog": [
-        "letztes Wochenende war {saturday_date} und {sunday_date}"
-    ],
-    "/dialog/time.future.dialog": [
-        "{time}",
-        "Es wird {time} sein"
-    ],
-    "/dialog/next.leap.year.dialog": [
-        "das n\u00e4chste Schaltjahr ist {year}"
-    ],
-    "/dialog/date.relative.past.dialog": [
-        "vor {num_days}",
-        "{date} war vor {num_days}"
-    ],
-    "/dialog/did.you.mean.timezone.dialog": [
-        "Meintest du die Zeitzone {zone_name}?"
-    ],
-    "/dialog/date.dialog": [
-        "{date}",
-        "{date}",
-        "Es ist {date}",
-        "Es ist {date}"
-    ],
-    "/dialog/time.tz.not.found.dialog": [
-        "Ich konnte die Zeitzone f\u00fcr {location} nicht finden"
-    ],
-    "/dialog/time.current.dialog": [
-        "{time}",
-        "{time}",
-        "Es ist {time} Uhr",
-        "Es ist {time}",
-        "Aktuell {time}"
-    ]
+  "/dialog/date.relative.future.dialog": [
+    "{date}, {num_days} ab heute",
+    "es ist der {date} in {num_days}",
+    "es ist der {date} in {num_days} Tagen von heute an",
+    "{date}, in {num_days}"
+  ],
+  "/dialog/date.future.weekend.dialog": [
+    "nächstes wochenende ist {saturday_date} und {sunday_date}"
+  ],
+  "/dialog/date.not.found.dialog": [
+    "Ich konnte das Datum für dich nicht finden."
+  ],
+  "/dialog/date.last.weekend.dialog": [
+    "letztes Wochenende war {saturday_date} und {sunday_date}"
+  ],
+  "/dialog/time.future.dialog": [
+    "Uhrzeit",
+    "Es wird {time} sein"
+  ],
+  "/dialog/next.leap.year.dialog": [
+    "das nächste Schaltjahr ist {year}"
+  ],
+  "/dialog/date.relative.past.dialog": [
+    "vor {num_days}",
+    "{date} war vor {num_days}"
+  ],
+  "/dialog/did.you.mean.timezone.dialog": [
+    "Meintest du die Zeitzone {zone_name}?"
+  ],
+  "/dialog/date.dialog": [
+    "{date}",
+    "das datum ist {date}",
+    "Es ist {date}",
+    "Es ist {date}"
+  ],
+  "/dialog/time.tz.not.found.dialog": [
+    "Ich konnte die Zeitzone für {location} nicht finden"
+  ],
+  "/dialog/time.current.dialog": [
+    "Uhrzeit",
+    "{time}",
+    "Es ist {time} Uhr",
+    "Es ist {time}",
+    "Aktuell {time}"
+  ]
 }
