@@ -1,4 +1,4 @@
-in {num_days}
+es ist der {date} in {num_days}
+es ist der {date} in {num_days} Tagen von heute an
 {date}, in {num_days}
 {date}, {num_days} ab heute
-{num_days} von jetzt an
