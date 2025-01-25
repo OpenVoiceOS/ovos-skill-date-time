@@ -1,11 +1,24 @@
 # Changelog
 
-## [0.4.7a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.7a1) (2024-12-13)
+## [0.4.7a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.7a2) (2025-01-25)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.7a1...0.4.7a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.7a2...0.4.7a2)
 
 **Merged pull requests:**
 
+- fix automations [\#97](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/97) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.4.7a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.7a2) (2024-12-29)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.7a1...0.4.7a2)
+
+**Closed issues:**
+
+- Strange voice behaviour [\#92](https://github.com/OpenVoiceOS/ovos-skill-date-time/issues/92)
+
+**Merged pull requests:**
+
+- Add Catalans strings [\#94](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/94) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 - adjusting German translation from joergz2 [\#93](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/93) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [0.4.7a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.7a1) (2024-12-04)
