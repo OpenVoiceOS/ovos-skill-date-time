@@ -6,72 +6,72 @@
 (Digues|Digue)(-me|'m|) les dates previstes pel pròxim cap de setmana.
 (Digues|Digue)(-me|'m|) les dates previstes per al cap de setmana posterior a aquest.
 (quan (és|arriba|serà)|quins són|quan) (el|els dies del) (pròxim|següent|vinent|) (cap de setmana|finde|capde|cap de) (vinent|)
-Em pots dir els dies del proper cap de setmana(?|)
-Em pots dir les dates del cap de setmana que segueix a l'actual(?|)
-Em pots dir les dates del proper cap de setmana(?|)
-Em pots informar de les dates d'aquest cap de setmana(?|)
-Em pots informar de les dates del cap de setmana posterior a aquest(?|)
+Em pots dir els dies del proper cap de setmana
+Em pots dir les dates del cap de setmana que segueix a l'actual
+Em pots dir les dates del proper cap de setmana
+Em pots informar de les dates d'aquest cap de setmana
+Em pots informar de les dates del cap de setmana posterior a aquest
 Explica'm els dies del cap de setmana que segueix aquest.
 Explica'm els dies del proper cap de setmana.
-Podeu indicar les dates del cap de setmana que segueix aquest(?|)
-Pots indicar les dates d'aquest cap de setmana(?|)
-Pots indicar les dates del cap de setmana següent(?|)
-Quin (dia|jorn) (és|serà) (aquest|este|eixe|el|es) cap de setmana(?|)
-Quin (són|son) (els|es) (dies|jorns) (d'aquest|d'este|d'eixe|del|des) cap de setmana(?|)
-Quin (són|son) (les|ses) dates (d'aquest|d'este|d'eixe|del|des) cap de setmana( vinent| que ve|)(?|)
-Quin és l'agenda per aquest cap de setmana(?|)
-Quin és l'horari per al cap de setmana posterior a aquest(?|)
-Quina data és aquest cap de setmana(?|)
-Quina data és el proper cap de setmana(?|)
-Quina és la data d'aquest cap de setmana(?|)
-Quina és la data el proper cap de setmana(?|)
-Quina és la data pel proper cap de setmana(?|)
-Quina és la data per aquest cap de setmana(?|)
-Quines dates estan assignades per aquest cap de setmana(?|)
-Quines dates estan confirmades per al cap de setmana que segueix a l'actual(?|)
-Quines dates estan confirmades per al cap de setmana següent(?|)
-Quines dates estan confirmades per aquest cap de setmana(?|)
-Quines dates estan marcades per al cap de setmana que ve(?|)
-Quines dates estan marcades per al proper cap de setmana(?|)
-Quines dates estan previstes per al cap de setmana que segueix a l'actual(?|)
-Quines dates hi ha previstes per al proper cap de setmana(?|)
-Quines dates hi ha previstes per aquest cap de setmana(?|)
-Quines dates s'assignen per al cap de setmana posterior a aquest(?|)
-Quines dates són aquest cap de setmana(?|)
-Quines dates són el proper cap de setmana(?|)
-Quines són les dates del proper cap de setmana(?|)
-Quines són les dates per( a|) aquest cap de setmana(?|)
-Quins (dies|jorns) (és|seran) (aquest|este|eixe|el|es) cap de setmana(?|)
-Quins dies arriben aquest cap de setmana(?|)
-Quins dies es fixen per al cap de setmana posterior a l'actual(?|)
-Quins dies es preveu per al cap de setmana que ve(?|)
-Quins dies es preveu per al proper cap de setmana(?|)
-Quins dies es preveuen pel cap de setmana que s'acosta(?|)
-Quins dies es preveuen per al cap de setmana que s'acosta(?|)
-Quins dies es preveuen per al cap de setmana que ve(?|)
-Quins dies es reserven per al cap de setmana següent(?|)
-Quins dies es reserven per al proper cap de setmana(?|)
-Quins dies formaran part del cap de setmana que ve(?|)
-Quins dies formaran part del proper cap de setmana(?|)
-Quins dies pel proper cap de setmana(?|)
-Quins dies per aquest cap de setmana(?|)
-Quins dies s'esperen pel cap de setmana que s'acosta(?|)
-Quins dies s'esperen per al cap de setmana posterior a l'actual(?|)
-Quins dies s'esperen per al proper cap de setmana(?|)
-Quins dies seran el proper cap de setmana(?|)
-Quins dies seran per al cap de setmana que ve(?|)
-Quins dies seran per al proper cap de setmana(?|)
-Quins dies seran per aquest cap de setmana(?|)
-Quins dies són el proper cap de setmana(?|)
-Quins dies tenen previst per al proper cap de setmana(?|)
-Quins dies vindran aquest cap de setmana(?|)
-Quins seran els dies del cap de setmana posterior a aquest(?|)
-Quins seran els dies del cap de setmana posterior a l'actual(?|)
-Quins seran els dies del cap de setmana que s'acosta(?|)
-Quins seran els dies del cap de setmana que ve(?|)
-Quins són els dies pel (proper|pròxim) cap de setmana(?|)
-Quins són els dies per al proper cap de setmana(?|)
-Quins són els dies previstos per al cap de setmana que segueix a l'actual(?|)
-Quins són els dies previstos per aquest cap de setmana(?|)
+Podeu indicar les dates del cap de setmana que segueix aquest
+Pots indicar les dates d'aquest cap de setmana
+Pots indicar les dates del cap de setmana següent
+Quin (dia|jorn) (és|serà) (aquest|este|eixe|el|es) cap de setmana
+Quin (són|son) (els|es) (dies|jorns) (d'aquest|d'este|d'eixe|del|des) cap de setmana
+Quin (són|son) (les|ses) dates (d'aquest|d'este|d'eixe|del|des) cap de setmana( vinent| que ve|)
+Quin és l'agenda per aquest cap de setmana
+Quin és l'horari per al cap de setmana posterior a aquest
+Quina data és aquest cap de setmana
+Quina data és el proper cap de setmana
+Quina és la data d'aquest cap de setmana
+Quina és la data el proper cap de setmana
+Quina és la data pel proper cap de setmana
+Quina és la data per aquest cap de setmana
+Quines dates estan assignades per aquest cap de setmana
+Quines dates estan confirmades per al cap de setmana que segueix a l'actual
+Quines dates estan confirmades per al cap de setmana següent
+Quines dates estan confirmades per aquest cap de setmana
+Quines dates estan marcades per al cap de setmana que ve
+Quines dates estan marcades per al proper cap de setmana
+Quines dates estan previstes per al cap de setmana que segueix a l'actual
+Quines dates hi ha previstes per al proper cap de setmana
+Quines dates hi ha previstes per aquest cap de setmana
+Quines dates s'assignen per al cap de setmana posterior a aquest
+Quines dates són aquest cap de setmana
+Quines dates són el proper cap de setmana
+Quines són les dates del proper cap de setmana
+Quines són les dates per( a|) aquest cap de setmana
+Quins (dies|jorns) (és|seran) (aquest|este|eixe|el|es) cap de setmana
+Quins dies arriben aquest cap de setmana
+Quins dies es fixen per al cap de setmana posterior a l'actual
+Quins dies es preveu per al cap de setmana que ve
+Quins dies es preveu per al proper cap de setmana
+Quins dies es preveuen pel cap de setmana que s'acosta
+Quins dies es preveuen per al cap de setmana que s'acosta
+Quins dies es preveuen per al cap de setmana que ve
+Quins dies es reserven per al cap de setmana següent
+Quins dies es reserven per al proper cap de setmana
+Quins dies formaran part del cap de setmana que ve
+Quins dies formaran part del proper cap de setmana
+Quins dies pel proper cap de setmana
+Quins dies per aquest cap de setmana
+Quins dies s'esperen pel cap de setmana que s'acosta
+Quins dies s'esperen per al cap de setmana posterior a l'actual
+Quins dies s'esperen per al proper cap de setmana
+Quins dies seran el proper cap de setmana
+Quins dies seran per al cap de setmana que ve
+Quins dies seran per al proper cap de setmana
+Quins dies seran per aquest cap de setmana
+Quins dies són el proper cap de setmana
+Quins dies tenen previst per al proper cap de setmana
+Quins dies vindran aquest cap de setmana
+Quins seran els dies del cap de setmana posterior a aquest
+Quins seran els dies del cap de setmana posterior a l'actual
+Quins seran els dies del cap de setmana que s'acosta
+Quins seran els dies del cap de setmana que ve
+Quins són els dies pel (proper|pròxim) cap de setmana
+Quins són els dies per al proper cap de setmana
+Quins són els dies previstos per al cap de setmana que segueix a l'actual
+Quins són els dies previstos per aquest cap de setmana
 quin (data és|) (aquesta|el proper) cap de setmana
 quina (és la data|són les dates) (per|per al|) (aquest|) cap de setmana
