@@ -1,23 +1,57 @@
 (Digues-me|Digue'm|Dis-me) (els dies|es dies|les dates|ses dates) que (formen|conformen|) (del|des|el|es) cap de setmana (que acaba de passar|que just ha passat|passat).
 (Digues-me|Digue'm|Dis-me) (les|ses) dates (del|des) (cap de setmana que acaba de passar|cap de setmana passat|passat cap de setmana).
 (Digues-me|Digue'm|Dis-me) (les|ses) dates (del|des) (passat cap de setmana|cap de setmana anterior|cap de setmana passat).
+(Digues|Digue|Dis)(-me|) les dates del cap de setmana abans de l'últim.
+(Digue|Digues)('m|-me|) les dates del cap de setmana anterior a l'actual.
 (Dona'm|Digues-me|Digue'm|Dis-me) les dates (del|des) (cap de setmana que acaba d'acabar|cap de setmana passat|passat cap de setmana).
 (Dona|Dóna|Indica)('m|) (les dates|ses dates|els dies|es dies) (concretes|concrets|exactes) (del|des) (passat cap de setmana|cap de setmana passat|cap de setmana anterior).
+(Dóna|Dona)'m les dates del cap de setmana abans de l'últim.
 (Dóna|Dona)(|'m) (els|es) (dies|jorns) (del|des|de l'|de s')( passat|últim| darrer| anterior) cap de setmana (passat|anterior).
 (Dóna|Dona)(|'m) (les|ses) dates (del|des|de l'|de s')( passat|últim| darrer| anterior) cap de setmana (passat|anterior).
-(Em pots|Pots indicar|Pots indicar-me) (les dates|ses dates|els dies|es dies) (del|des) cap de setmana anterior a aquest (passat|)(?|)
-(En quins|Quins) dies (van caure|va caure|caigué|caigueren) (el|es|l'|s')( darrer|últim| passat) cap de setmana(| passat)(?|)
-(quan|com) (va caure|caigué) (l'|s'|el |es)(últim|darrer|passat) cap de setmana (passat|)(?|)
+(Em pots dir|Digues-me|Dis-me|Digue'm) (els|es) (dies|jorns) del cap de setmana anterior
+(Em pots|Pots indicar|Pots indicar-me) (les dates|ses dates|els dies|es dies) (del|des) cap de setmana anterior a aquest (passat|)
+(En quins|Quins) (dies|jorns) (van caure|caigueren) (durant|) l'últim cap de setmana
+(En quins|Quins) dies (van caure|va caure|caigué|caigueren) (el|es|l'|s')( darrer|últim| passat) cap de setmana(| passat)
+(Indica|Informa)('m|) de les dates del cap de setmana passat.
+(Indica|Proporciona)('m|) (les|ses) dates (específiques|concretes) (del|des) cap de setmana anterior.
+(quan|com) (va caure|caigué) (l'|s'|el |es)(últim|darrer|passat) cap de setmana (passat|)
 (quina data era|quina data va ser| quina data fou|quin dia era|quins dies eren|) el passat cap de setmana
-(quins dies|quina data|quines dates) (va ser|van ser|fou|foren|era|eren) (el|es) (passat cap de setmana|cap de setmana passat)(?|)
-Quan va ser (el|es) (cap de setmana anterior|cap de setmana passat|passat cap de setmana)(?|)
-Quines (van ser|foren) (les|ses) dates (del|des) cap de setmana anterior a aquest (passat|)(?|)
-Quines dates van constituir (el|es) (cap de setmana passat|passat cap de setmana)(?|)
-Quins dies (va cobrir|van ser|cobriren|foren) l'últim cap de setmana(?|)
-Quins dies (van formar|formaren|formaven) part (del|des) cap de setmana anterior a aquest(?|)
+(quins dies|quina data|quines dates) (va ser|van ser|fou|foren|era|eren) (el|es) (passat cap de setmana|cap de setmana passat)
+Dona'm les dates concretes del cap de setmana anterior.
+Em pots dir quins dies van ser el cap de setmana passat
+Explica'm els dies que van caure durant l'últim cap de setmana.
+Explica'm les dates concretes de l'últim cap de setmana.
+Indica els dies del cap de setmana anterior.
+Informa'm de les dates del cap de setmana abans de l'últim.
+Informa'm de les dates del cap de setmana que acaba de passar.
+Informa'm dels dies que van constituir el cap de setmana passat.
+M'interessa saber les dates del cap de setmana passat.
+Pots indicar els dies de l'últim cap de setmana
+Quan va ser (el|es) (cap de setmana anterior|cap de setmana passat|passat cap de setmana)
+Quines (van ser|foren) (les|ses) dates (del|des) cap de setmana anterior a aquest (passat|)
+Quines (van ser|foren|han estat) les dates del cap de setmana (anterior|precedent)
+Quines dates (van cobrir|van ser|cobriren|foren|eren) el cap de setmana (passat|anterior)
+Quines dates (van incloure|inclogueren) el cap de setmana passat?
+Quines dates (van ser|foren) l'últim cap de setmana
+Quines dates es van considerar el cap de setmana passat
+Quines dates van caure durant l'últim cap de setmana
+Quines dates van constituir (el|es) (cap de setmana passat|passat cap de setmana)
+Quines van ser les dates del cap de setmana anterior
+Quines van ser les dates del cap de setmana anterior a l'actual
+Quines van ser les dates del cap de setmana que acabava de passar
+Quins (dies|jorns) (es van incloure|s'inclogueren) en el cap de setmana passat?
+Quins (dies|jorns) (han estat|van ser|foren) (just|) el (passat|darrer|últim|) cap de setmana (passat|)
+Quins (dies|jorns) (van formar|formaren) part de l'últim cap de setmana
+Quins (dies|jorns) incloïen el cap de setmana anterior a (aquest|este)
+Quins (van ser|eren|foren) (els|es) (dies|jorns) del cap de setmana (passat|anterior)
+Quins dies (va cobrir|van ser|cobriren|foren) l'últim cap de setmana
+Quins dies (van formar|formaren|formaven) part (del|des) cap de setmana anterior a aquest
+Quins dies es van incloure al cap de setmana anterior a l'actual
+Quins dies va abastar l'últim cap de setmana
+Quins dies va incloure el cap de setmana passat
 quin (dia|jorn) (va ser|fou) (el|es) (darrer|últim) cap de setmana (passat|)
 quina (era la data|eren les dates) del passat cap de setmana
-quina data (va ser|fou) (l'|s'|e l|es )(últim|darrer|passat) cap de setmana( passat|)(?|)
+quina data (va ser|fou) (l'|s'|e l|es )(últim|darrer|passat) cap de setmana( passat|)
 quines dates (van ser|foren) (el|es) (darrer|últim|passat) cap de setmana (|passat)
-quins (dies|jorns) (van ser|foren) (l'|s'|e l|es )(últim|darrer|passat) cap de setmana( passat|)(?|)
+quins (dies|jorns) (van ser|foren) (l'|s'|e l|es )(últim|darrer|passat) cap de setmana( passat|)
 quins (van ser|foren) (els|es) (dies|jorns) del (darrer|últim) cap de setmana (passat|)
