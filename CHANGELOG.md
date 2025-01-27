@@ -1,11 +1,12 @@
 # Changelog
 
-## [0.4.7a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.7a2) (2025-01-25)
+## [0.4.8a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.8a1) (2025-01-27)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.7a2...0.4.7a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.7a2...0.4.8a1)
 
 **Merged pull requests:**
 
+- fix:catalan intents punctuation [\#98](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/98) ([JarbasAl](https://github.com/JarbasAl))
 - fix automations [\#97](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/97) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.4.7a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.7a2) (2024-12-29)
