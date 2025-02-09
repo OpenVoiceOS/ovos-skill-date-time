@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-ovos-date-time.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/skill-ovos-date-time",
+  "name": "Data e ora",
+  "description": "Chiedi l'ora, la data, il giorno della settimana",
+  "examples": [
+    "Che ora è?",
+    "[UNUSED]",
+    "[UNUSED]",
+    "[UNUSED]",
+    "[UNUSED]",
+    "[UNUSED]",
+    "[UNUSED]"
+  ],
+  "tags": [
+    "orologio",
+    "data",
+    "ora",
+    "domanda",
+    "informazione"
+  ]
+}
