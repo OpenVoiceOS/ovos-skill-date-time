@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-ovos-date-time.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/skill-ovos-date-time",
+  "name": "Datum en tijd",
+  "description": "Hoor de tijd, datum en dag van de week",
+  "examples": [
+    "Hoe laat is het?",
+    "Welke dag is het?",
+    "Hoeveel dagen tot 4 juli?",
+    "Wat is de datum?",
+    "Wat is de huidige tijd?",
+    "Welke dag is 4 mei?",
+    "Hoe laat is het in Parijs?"
+  ],
+  "tags": [
+    "klok",
+    "datum",
+    "tijd",
+    "vraag",
+    "informatie"
+  ]
+}
