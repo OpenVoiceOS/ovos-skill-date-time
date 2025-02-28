@@ -3,9 +3,9 @@
 (en|d'aquí a|) {offset} (minut|minuts) quina hora (és|serà|tindrem) (a|en|al|as|a la| a sa) {location}
 (en|d'aquí a|) {offset} (segon|segons) quina hora (és|serà|tindrem)
 (en|d'aquí a|) {offset} (segon|segons) quina hora (és|serà|tindrem) (a|en|al|as|a la| a sa) {location}
-(en|d'aquí a|d'aquí|) {offset} (hora|hores) (des d'ara|a partir d'ara|)(,|) quina hora (és|serà|tindrem)
-(en|d'aquí a|d'aquí|) {offset} (minut|minuts) (des d'ara|a partir d'ara|)(,|) quina hora (és|serà|tindrem)
-(en|d'aquí a|d'aquí|) {offset} (segon|segons) (des d'ara|a partir d'ara|)(,|) quina hora (és|serà|tindrem)
+(en|d'aquí a|d'aquí|) {offset} (hora|hores) (des d'ara|a partir d'ara|) quina hora (és|serà|tindrem)
+(en|d'aquí a|d'aquí|) {offset} (minut|minuts) (des d'ara|a partir d'ara|) quina hora (és|serà|tindrem)
+(en|d'aquí a|d'aquí|) {offset} (segon|segons) (des d'ara|a partir d'ara|) quina hora (és|serà|tindrem)
 quina hora (és|serà|tindrem) (en|d'aquí a|) {offset} (hora|hora) (a|en|al|a la|a sa) {location}
 quina hora (és|serà|tindrem) (en|d'aquí a|) {offset} (hora|hora) (des d'ara|a partir d'ara|)
 quina hora (és|serà|tindrem) (en|d'aquí a|) {offset} (hora|hores)
