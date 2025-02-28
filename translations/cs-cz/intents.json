@@ -1,28 +1,28 @@
 {
     "/intents/what.time.will.it.be.intent": [
-        "(\u0159ekni mi|dej mi|) jak\u00fd \u010das bude (za|) {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od te\u010f|)",
-        "(\u0159ekni mi|dej mi|) jak\u00fd \u010das bude (za|) {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od te\u010f|) v {location}",
-        "(\u0159ekni mi|dej mi|) (jak\u00fd je|jak\u00fd bude|) \u010das za {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od te\u010f|)",
-        "(\u0159ekni mi|dej mi|) (jak\u00fd je|jak\u00fd bude|) \u010das za {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od te\u010f|) v {location}",
-        "kdy (je|bude) {offset} {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od te\u010f|)",
-        "kdy (je|bude) {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od te\u010f|) v {location}",
-        "(za|) {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od te\u010f|) ((jak\u00fd je to|jak\u00fd bude) \u010das)",
-        "(za|) {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od te\u010f|) ((jak\u00fd je to|jak\u00fd bude) \u010das) v {location}",
-        "(jak\u00fd \u010das|kolik hodin) (bude|) v {location} (za|) {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od te\u010f|)",
-        "v {location} (jak\u00fd \u010das|kolik hodin) (bude|) (za|) {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu))"
-    ],
-    "/intents/date.last.weekend.intent": [
-        "(jak\u00e9(byly|) dny (byly|)|jak\u00fd (byl|) den (byl|)) (minul\u00fd|p\u0159edchoz\u00ed) v\u00edkend",
-        "(jak\u00fd (byl|) datum (byl|)|jak\u00e9 (byly|) datumy (byly|)) (minul\u00fd|p\u0159edchoz\u00ed) v\u00edkend"
-    ],
-    "/intents/date.future.weekend.intent": [
-        "(jak\u00e9 (jsou|) dny (jsou|) (pro|)|jak\u00fd (je|) den (je|)) (to|) (tento|p\u0159\u00ed\u0161t\u00ed) v\u00edkend",
-        "(jak\u00fd (je|) datum (je|)|jak\u00e9 (jsou|) datumy (jsou|)) (na|pro|) (tento|p\u0159\u00ed\u0161t\u00ed) v\u00edkend"
+        "(jaký čas|kolik hodin) (bude|) v {location} (za|) {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od teď|)",
+        "(za|) {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od teď|) ((jaký je to|jaký bude) čas)",
+        "(za|) {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od teď|) ((jaký je to|jaký bude) čas) v {location}",
+        "(řekni mi|dej mi|) (jaký je|jaký bude|) čas za {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od teď|)",
+        "(řekni mi|dej mi|) (jaký je|jaký bude|) čas za {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od teď|) v {location}",
+        "(řekni mi|dej mi|) jaký čas bude (za|) {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od teď|)",
+        "(řekni mi|dej mi|) jaký čas bude (za|) {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od teď|) v {location}",
+        "kdy (je|bude) {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od teď|) v {location}",
+        "kdy (je|bude) {offset} {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu)) (od teď|)",
+        "v {location} (jaký čas|kolik hodin) (bude|) (za|) {offset} ((hodin|hodiny|hodinu)|(minut|minuty|minutu)|(sekund|sekundy|sekundu))"
     ],
     "/intents/what.time.is.it.intent": [
-        "(m\u00e1\u0161|) nyn\u011bj\u0161\u00ed \u010das (pros\u00edm|)",
-        "\u010das te\u010f  (pros\u00edm|)",
-        "kolik je (pr\u00e1v\u011b te\u010f|) hodin (pros\u00edm|)",
-        "jak\u00fd je \u010das (pros\u00edm|)"
+        "(máš|) nynější čas (prosím|)",
+        "jaký je čas (prosím|)",
+        "kolik je (právě teď|) hodin (prosím|)",
+        "čas teď (prosím|)"
+    ],
+    "/intents/date.future.weekend.intent": [
+        "(jaké (jsou|) dny (jsou|) (pro|)|jaký (je|) den (je|)) (to|) (tento|příští) víkend",
+        "(jaký (je|) datum (je|)|jaké (jsou|) datumy (jsou|)) (na|pro|) (tento|příští) víkend"
+    ],
+    "/intents/date.last.weekend.intent": [
+        "(jaké(byly|) dny (byly|)|jaký (byl|) den (byl|)) (minulý|předchozí) víkend",
+        "(jaký (byl|) datum (byl|)|jaké (byly|) datumy (byly|)) (minulý|předchozí) víkend"
     ]
 }

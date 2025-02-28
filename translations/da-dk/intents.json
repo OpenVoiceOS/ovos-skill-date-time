@@ -3,19 +3,19 @@
         "hvad er klokken om {offset} (time|timer|minut|minutter|sekund|sekunder)",
         "hvad er klokken om {offset} (timtimer|minut|minutter|sekund|sekunder) (i|op) {location}"
     ],
-    "/intents/date.last.weekend.intent": [
-        "(hvilken|hvilken) (dato|datoer) var f\u00f8r sidste wekend ",
-        "hvilke dage (var|intraf) f\u00f8r (sidste|) (weekend|weekenden)",
-        "hvad var datoen f\u00f8r sidste weekend"
-    ],
-    "/intents/date.future.weekend.intent": [
-        "(hvilken|hvilke) (dag|dage) er (den her|n\u00e6ste) weekend",
-        "(hvilken|hvilke) (dato|datoer) er (den her|n\u00e6ste|den n\u00e6ste) weekend",
-        "(hvilke|hvilken) (dato|datoer) er (den her|n\u00e6ste|den n\u00e6ste) weekend"
-    ],
     "/intents/what.time.is.it.intent": [
         "(tid|klokken) (lige|) nu (tak|)",
         "Hvad er klokken (nu|)",
         "klokken nu"
+    ],
+    "/intents/date.future.weekend.intent": [
+        "(hvilken|hvilke) (dag|dage) er (den her|næste) weekend",
+        "(hvilken|hvilke) (dato|datoer) er (den her|næste|den næste) weekend",
+        "(hvilke|hvilken) (dato|datoer) er (den her|næste|den næste) weekend"
+    ],
+    "/intents/date.last.weekend.intent": [
+        "(hvilken|hvilken) (dato|datoer) var før sidste wekend",
+        "hvad var datoen før sidste weekend",
+        "hvilke dage (var|intraf) før (sidste|) (weekend|weekenden)"
     ]
 }

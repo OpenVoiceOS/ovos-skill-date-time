@@ -1,21 +1,21 @@
 {
     "/intents/what.time.will.it.be.intent": [
-        "que horas ser\u00e3o em {offset} (horas|minutos|segundos) (a partir de agora|)",
-        "que horas s\u00e3o em {offset} (horas|minutos|segundos) (a partir de agora|) (em|no|na) {location}"
-    ],
-    "/intents/date.last.weekend.intent": [
-        "(qual|quais) (foi a data|foram as datas) do \u00faltimo final de semana",
-        "(qual|quais) (dia foi|foram os dias (para|)|dias foram) do \u00faltimo final de semana",
-        "(quais|qual) (foi a data|foram as datas(para|)|foram as datas) do \u00faltimo final de semana"
-    ],
-    "/intents/date.future.weekend.intent": [
-        "(qual|quais) ((s\u00e3o os|) dias (para|)| dia \u00e9) (este|pr\u00f3ximo) final de semana",
-        "(qual|quais) (\u00e9 a data|s\u00e3o as datas) (deste|do pr\u00f3ximo) final de semana",
-        "(qual|quais) (\u00e9 a data|s\u00e3o as datas) (para|) (este|o pr\u00f3ximo) final de semana"
+        "que horas serão em {offset} (horas|minutos|segundos) (a partir de agora|)",
+        "que horas são em {offset} (horas|minutos|segundos) (a partir de agora|) (em|no|na) {location}"
     ],
     "/intents/what.time.is.it.intent": [
-        "(o|a) (hora|hor\u00e1rio) ((j\u00e1 |)agora |)(por favor|)",
-        "voc\u00ea tem a hora (atual)",
-        "hora atual"
+        "(o|a) (hora|horário) ((já |)agora |)(por favor|)",
+        "hora atual",
+        "você tem a hora (atual)"
+    ],
+    "/intents/date.future.weekend.intent": [
+        "(qual|quais) ((são os|) dias (para|)| dia é) (este|próximo) final de semana",
+        "(qual|quais) (é a data|são as datas) (deste|do próximo) final de semana",
+        "(qual|quais) (é a data|são as datas) (para|) (este|o próximo) final de semana"
+    ],
+    "/intents/date.last.weekend.intent": [
+        "(quais|qual) (foi a data|foram as datas(para|)|foram as datas) do último final de semana",
+        "(qual|quais) (dia foi|foram os dias (para|)|dias foram) do último final de semana",
+        "(qual|quais) (foi a data|foram as datas) do último final de semana"
     ]
 }
