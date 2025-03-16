@@ -16,8 +16,8 @@
   "/vocab/Future.voc": [
     "wird",
     "in",
-    "wird\nes wird\nwird es",
-    null
+    "(wird|es wird|wird es)",
+    "wird es sein"
   ],
   "/vocab/Time.voc": [
     "zeit",
@@ -50,7 +50,7 @@
   "/vocab/RelativeDay.voc": [
     "heute",
     "heutig",
-    "hutig",
+    "heutig",
     "morgen",
     "morgig",
     "morgigen",
