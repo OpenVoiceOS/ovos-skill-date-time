@@ -20,7 +20,7 @@
     "seran"
   ],
   "/vocab/Time.voc": [
-    "hora",
+    "(hora|hores)",
     "rellotge"
   ],
   "/vocab/LeapYear.voc": [

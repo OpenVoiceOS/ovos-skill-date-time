@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.4.10a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.10a1) (2025-03-16)
+## [0.4.11a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.11a1) (2025-03-20)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.9...0.4.10a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.10...0.4.11a1)
 
 **Merged pull requests:**
 
-- updating German translation [\#105](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/105) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- fix: improve translations [\#107](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/107) ([JarbasAl](https://github.com/JarbasAl))
 
 
 

@@ -1,8 +1,3 @@
-(quarta|quarta-feira)
-(quinta|quinta-feira)
-(segunda|segunda-feira)
-(sexta|sexta-feira)
-(terça|terça-feira)
 amanhã
 de amanhã
 de hoje
@@ -10,4 +5,14 @@ de ontem
 domingo
 hoje
 ontem
+quarta
+quarta-feira
+quinta
+quinta-feira
+segunda
+segunda-feira
+sexta
+sexta-feira
 sábado
+terça
+terça-feira

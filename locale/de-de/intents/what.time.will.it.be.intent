@@ -1,9 +1,3 @@
-(wie viel|wieviel) uhr ist (es|) in {location} in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2}
-(wie viel|wieviel) uhr ist (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2}
-(wie viel|wieviel) uhr ist (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} in {location}
-(wie viel|wieviel) uhr wird (es|) in {location} in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} sein
-(wie viel|wieviel) uhr wird (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} in {location} sein
-(wie viel|wieviel) uhr wird (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} sein
 wann ist es ab jetzt {offset} Minuten
 wann ist es ab jetzt {offset} Minuten in {location}
 wann ist es ab jetzt {offset} Sekunden
@@ -25,15 +19,225 @@ wann ist es {offset} Uhr in {location}
 wann sind es {offset} Minuten
 wann sind es {offset} Sekunden
 wann sind es {offset} Stunden
-wie spät ist (es|) in {location} in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2}
-wie spät ist (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2}
-wie spät ist (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} in {location}
+wie spät ist  in {location} in {offset} Minute {offset2}
+wie spät ist  in {location} in {offset} Minuten {offset2}
+wie spät ist  in {location} in {offset} Sekunde {offset2}
+wie spät ist  in {location} in {offset} Sekunden {offset2}
+wie spät ist  in {location} in {offset} Stunde {offset2}
+wie spät ist  in {location} in {offset} Stunden {offset2}
+wie spät ist  in {offset} Minute {offset2}
+wie spät ist  in {offset} Minute {offset2} in {location}
+wie spät ist  in {offset} Minuten {offset2}
+wie spät ist  in {offset} Minuten {offset2} in {location}
+wie spät ist  in {offset} Sekunde {offset2}
+wie spät ist  in {offset} Sekunde {offset2} in {location}
+wie spät ist  in {offset} Sekunden {offset2}
+wie spät ist  in {offset} Sekunden {offset2} in {location}
+wie spät ist  in {offset} Stunde {offset2}
+wie spät ist  in {offset} Stunde {offset2} in {location}
+wie spät ist  in {offset} Stunden {offset2}
+wie spät ist  in {offset} Stunden {offset2} in {location}
+wie spät ist es in {location} in {offset} Minute {offset2}
+wie spät ist es in {location} in {offset} Minuten {offset2}
+wie spät ist es in {location} in {offset} Sekunde {offset2}
+wie spät ist es in {location} in {offset} Sekunden {offset2}
+wie spät ist es in {location} in {offset} Stunde {offset2}
+wie spät ist es in {location} in {offset} Stunden {offset2}
+wie spät ist es in {offset} Minute {offset2}
+wie spät ist es in {offset} Minute {offset2} in {location}
 wie spät ist es in {offset} Minuten
 wie spät ist es in {offset} Minuten in {location}
+wie spät ist es in {offset} Minuten {offset2}
+wie spät ist es in {offset} Minuten {offset2} in {location}
+wie spät ist es in {offset} Sekunde {offset2}
+wie spät ist es in {offset} Sekunde {offset2} in {location}
 wie spät ist es in {offset} Sekunden
 wie spät ist es in {offset} Sekunden in {location}
+wie spät ist es in {offset} Sekunden {offset2}
+wie spät ist es in {offset} Sekunden {offset2} in {location}
+wie spät ist es in {offset} Stunde {offset2}
+wie spät ist es in {offset} Stunde {offset2} in {location}
 wie spät ist es in {offset} Stunden
 wie spät ist es in {offset} Stunden in {location}
-wie spät wird (es|) in {location} in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} sein
-wie spät wird (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} in {location} sein
-wie spät wird (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} sein
+wie spät ist es in {offset} Stunden {offset2}
+wie spät ist es in {offset} Stunden {offset2} in {location}
+wie spät wird  in {location} in {offset} Minute {offset2} sein
+wie spät wird  in {location} in {offset} Minuten {offset2} sein
+wie spät wird  in {location} in {offset} Sekunde {offset2} sein
+wie spät wird  in {location} in {offset} Sekunden {offset2} sein
+wie spät wird  in {location} in {offset} Stunde {offset2} sein
+wie spät wird  in {location} in {offset} Stunden {offset2} sein
+wie spät wird  in {offset} Minute {offset2} in {location} sein
+wie spät wird  in {offset} Minute {offset2} sein
+wie spät wird  in {offset} Minuten {offset2} in {location} sein
+wie spät wird  in {offset} Minuten {offset2} sein
+wie spät wird  in {offset} Sekunde {offset2} in {location} sein
+wie spät wird  in {offset} Sekunde {offset2} sein
+wie spät wird  in {offset} Sekunden {offset2} in {location} sein
+wie spät wird  in {offset} Sekunden {offset2} sein
+wie spät wird  in {offset} Stunde {offset2} in {location} sein
+wie spät wird  in {offset} Stunde {offset2} sein
+wie spät wird  in {offset} Stunden {offset2} in {location} sein
+wie spät wird  in {offset} Stunden {offset2} sein
+wie spät wird es in {location} in {offset} Minute {offset2} sein
+wie spät wird es in {location} in {offset} Minuten {offset2} sein
+wie spät wird es in {location} in {offset} Sekunde {offset2} sein
+wie spät wird es in {location} in {offset} Sekunden {offset2} sein
+wie spät wird es in {location} in {offset} Stunde {offset2} sein
+wie spät wird es in {location} in {offset} Stunden {offset2} sein
+wie spät wird es in {offset} Minute {offset2} in {location} sein
+wie spät wird es in {offset} Minute {offset2} sein
+wie spät wird es in {offset} Minuten {offset2} in {location} sein
+wie spät wird es in {offset} Minuten {offset2} sein
+wie spät wird es in {offset} Sekunde {offset2} in {location} sein
+wie spät wird es in {offset} Sekunde {offset2} sein
+wie spät wird es in {offset} Sekunden {offset2} in {location} sein
+wie spät wird es in {offset} Sekunden {offset2} sein
+wie spät wird es in {offset} Stunde {offset2} in {location} sein
+wie spät wird es in {offset} Stunde {offset2} sein
+wie spät wird es in {offset} Stunden {offset2} in {location} sein
+wie spät wird es in {offset} Stunden {offset2} sein
+wie viel uhr ist  in {location} in {offset} Minute {offset2}
+wie viel uhr ist  in {location} in {offset} Minuten {offset2}
+wie viel uhr ist  in {location} in {offset} Sekunde {offset2}
+wie viel uhr ist  in {location} in {offset} Sekunden {offset2}
+wie viel uhr ist  in {location} in {offset} Stunde {offset2}
+wie viel uhr ist  in {location} in {offset} Stunden {offset2}
+wie viel uhr ist  in {offset} Minute {offset2}
+wie viel uhr ist  in {offset} Minute {offset2} in {location}
+wie viel uhr ist  in {offset} Minuten {offset2}
+wie viel uhr ist  in {offset} Minuten {offset2} in {location}
+wie viel uhr ist  in {offset} Sekunde {offset2}
+wie viel uhr ist  in {offset} Sekunde {offset2} in {location}
+wie viel uhr ist  in {offset} Sekunden {offset2}
+wie viel uhr ist  in {offset} Sekunden {offset2} in {location}
+wie viel uhr ist  in {offset} Stunde {offset2}
+wie viel uhr ist  in {offset} Stunde {offset2} in {location}
+wie viel uhr ist  in {offset} Stunden {offset2}
+wie viel uhr ist  in {offset} Stunden {offset2} in {location}
+wie viel uhr ist es in {location} in {offset} Minute {offset2}
+wie viel uhr ist es in {location} in {offset} Minuten {offset2}
+wie viel uhr ist es in {location} in {offset} Sekunde {offset2}
+wie viel uhr ist es in {location} in {offset} Sekunden {offset2}
+wie viel uhr ist es in {location} in {offset} Stunde {offset2}
+wie viel uhr ist es in {location} in {offset} Stunden {offset2}
+wie viel uhr ist es in {offset} Minute {offset2}
+wie viel uhr ist es in {offset} Minute {offset2} in {location}
+wie viel uhr ist es in {offset} Minuten {offset2}
+wie viel uhr ist es in {offset} Minuten {offset2} in {location}
+wie viel uhr ist es in {offset} Sekunde {offset2}
+wie viel uhr ist es in {offset} Sekunde {offset2} in {location}
+wie viel uhr ist es in {offset} Sekunden {offset2}
+wie viel uhr ist es in {offset} Sekunden {offset2} in {location}
+wie viel uhr ist es in {offset} Stunde {offset2}
+wie viel uhr ist es in {offset} Stunde {offset2} in {location}
+wie viel uhr ist es in {offset} Stunden {offset2}
+wie viel uhr ist es in {offset} Stunden {offset2} in {location}
+wie viel uhr wird  in {location} in {offset} Minute {offset2} sein
+wie viel uhr wird  in {location} in {offset} Minuten {offset2} sein
+wie viel uhr wird  in {location} in {offset} Sekunde {offset2} sein
+wie viel uhr wird  in {location} in {offset} Sekunden {offset2} sein
+wie viel uhr wird  in {location} in {offset} Stunde {offset2} sein
+wie viel uhr wird  in {location} in {offset} Stunden {offset2} sein
+wie viel uhr wird  in {offset} Minute {offset2} in {location} sein
+wie viel uhr wird  in {offset} Minute {offset2} sein
+wie viel uhr wird  in {offset} Minuten {offset2} in {location} sein
+wie viel uhr wird  in {offset} Minuten {offset2} sein
+wie viel uhr wird  in {offset} Sekunde {offset2} in {location} sein
+wie viel uhr wird  in {offset} Sekunde {offset2} sein
+wie viel uhr wird  in {offset} Sekunden {offset2} in {location} sein
+wie viel uhr wird  in {offset} Sekunden {offset2} sein
+wie viel uhr wird  in {offset} Stunde {offset2} in {location} sein
+wie viel uhr wird  in {offset} Stunde {offset2} sein
+wie viel uhr wird  in {offset} Stunden {offset2} in {location} sein
+wie viel uhr wird  in {offset} Stunden {offset2} sein
+wie viel uhr wird es in {location} in {offset} Minute {offset2} sein
+wie viel uhr wird es in {location} in {offset} Minuten {offset2} sein
+wie viel uhr wird es in {location} in {offset} Sekunde {offset2} sein
+wie viel uhr wird es in {location} in {offset} Sekunden {offset2} sein
+wie viel uhr wird es in {location} in {offset} Stunde {offset2} sein
+wie viel uhr wird es in {location} in {offset} Stunden {offset2} sein
+wie viel uhr wird es in {offset} Minute {offset2} in {location} sein
+wie viel uhr wird es in {offset} Minute {offset2} sein
+wie viel uhr wird es in {offset} Minuten {offset2} in {location} sein
+wie viel uhr wird es in {offset} Minuten {offset2} sein
+wie viel uhr wird es in {offset} Sekunde {offset2} in {location} sein
+wie viel uhr wird es in {offset} Sekunde {offset2} sein
+wie viel uhr wird es in {offset} Sekunden {offset2} in {location} sein
+wie viel uhr wird es in {offset} Sekunden {offset2} sein
+wie viel uhr wird es in {offset} Stunde {offset2} in {location} sein
+wie viel uhr wird es in {offset} Stunde {offset2} sein
+wie viel uhr wird es in {offset} Stunden {offset2} in {location} sein
+wie viel uhr wird es in {offset} Stunden {offset2} sein
+wieviel uhr ist  in {location} in {offset} Minute {offset2}
+wieviel uhr ist  in {location} in {offset} Minuten {offset2}
+wieviel uhr ist  in {location} in {offset} Sekunde {offset2}
+wieviel uhr ist  in {location} in {offset} Sekunden {offset2}
+wieviel uhr ist  in {location} in {offset} Stunde {offset2}
+wieviel uhr ist  in {location} in {offset} Stunden {offset2}
+wieviel uhr ist  in {offset} Minute {offset2}
+wieviel uhr ist  in {offset} Minute {offset2} in {location}
+wieviel uhr ist  in {offset} Minuten {offset2}
+wieviel uhr ist  in {offset} Minuten {offset2} in {location}
+wieviel uhr ist  in {offset} Sekunde {offset2}
+wieviel uhr ist  in {offset} Sekunde {offset2} in {location}
+wieviel uhr ist  in {offset} Sekunden {offset2}
+wieviel uhr ist  in {offset} Sekunden {offset2} in {location}
+wieviel uhr ist  in {offset} Stunde {offset2}
+wieviel uhr ist  in {offset} Stunde {offset2} in {location}
+wieviel uhr ist  in {offset} Stunden {offset2}
+wieviel uhr ist  in {offset} Stunden {offset2} in {location}
+wieviel uhr ist es in {location} in {offset} Minute {offset2}
+wieviel uhr ist es in {location} in {offset} Minuten {offset2}
+wieviel uhr ist es in {location} in {offset} Sekunde {offset2}
+wieviel uhr ist es in {location} in {offset} Sekunden {offset2}
+wieviel uhr ist es in {location} in {offset} Stunde {offset2}
+wieviel uhr ist es in {location} in {offset} Stunden {offset2}
+wieviel uhr ist es in {offset} Minute {offset2}
+wieviel uhr ist es in {offset} Minute {offset2} in {location}
+wieviel uhr ist es in {offset} Minuten {offset2}
+wieviel uhr ist es in {offset} Minuten {offset2} in {location}
+wieviel uhr ist es in {offset} Sekunde {offset2}
+wieviel uhr ist es in {offset} Sekunde {offset2} in {location}
+wieviel uhr ist es in {offset} Sekunden {offset2}
+wieviel uhr ist es in {offset} Sekunden {offset2} in {location}
+wieviel uhr ist es in {offset} Stunde {offset2}
+wieviel uhr ist es in {offset} Stunde {offset2} in {location}
+wieviel uhr ist es in {offset} Stunden {offset2}
+wieviel uhr ist es in {offset} Stunden {offset2} in {location}
+wieviel uhr wird  in {location} in {offset} Minute {offset2} sein
+wieviel uhr wird  in {location} in {offset} Minuten {offset2} sein
+wieviel uhr wird  in {location} in {offset} Sekunde {offset2} sein
+wieviel uhr wird  in {location} in {offset} Sekunden {offset2} sein
+wieviel uhr wird  in {location} in {offset} Stunde {offset2} sein
+wieviel uhr wird  in {location} in {offset} Stunden {offset2} sein
+wieviel uhr wird  in {offset} Minute {offset2} in {location} sein
+wieviel uhr wird  in {offset} Minute {offset2} sein
+wieviel uhr wird  in {offset} Minuten {offset2} in {location} sein
+wieviel uhr wird  in {offset} Minuten {offset2} sein
+wieviel uhr wird  in {offset} Sekunde {offset2} in {location} sein
+wieviel uhr wird  in {offset} Sekunde {offset2} sein
+wieviel uhr wird  in {offset} Sekunden {offset2} in {location} sein
+wieviel uhr wird  in {offset} Sekunden {offset2} sein
+wieviel uhr wird  in {offset} Stunde {offset2} in {location} sein
+wieviel uhr wird  in {offset} Stunde {offset2} sein
+wieviel uhr wird  in {offset} Stunden {offset2} in {location} sein
+wieviel uhr wird  in {offset} Stunden {offset2} sein
+wieviel uhr wird es in {location} in {offset} Minute {offset2} sein
+wieviel uhr wird es in {location} in {offset} Minuten {offset2} sein
+wieviel uhr wird es in {location} in {offset} Sekunde {offset2} sein
+wieviel uhr wird es in {location} in {offset} Sekunden {offset2} sein
+wieviel uhr wird es in {location} in {offset} Stunde {offset2} sein
+wieviel uhr wird es in {location} in {offset} Stunden {offset2} sein
+wieviel uhr wird es in {offset} Minute {offset2} in {location} sein
+wieviel uhr wird es in {offset} Minute {offset2} sein
+wieviel uhr wird es in {offset} Minuten {offset2} in {location} sein
+wieviel uhr wird es in {offset} Minuten {offset2} sein
+wieviel uhr wird es in {offset} Sekunde {offset2} in {location} sein
+wieviel uhr wird es in {offset} Sekunde {offset2} sein
+wieviel uhr wird es in {offset} Sekunden {offset2} in {location} sein
+wieviel uhr wird es in {offset} Sekunden {offset2} sein
+wieviel uhr wird es in {offset} Stunde {offset2} in {location} sein
+wieviel uhr wird es in {offset} Stunde {offset2} sein
+wieviel uhr wird es in {offset} Stunden {offset2} in {location} sein
+wieviel uhr wird es in {offset} Stunden {offset2} sein

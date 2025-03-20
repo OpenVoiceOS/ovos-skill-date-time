@@ -1,6 +1,66 @@
-que hora será (en|de aquí a|) {offset} (horas|minutos|segundos) (desde ahora|)
-que hora será en {location} (en|de aquí a|) {offset} (horas|minutos|segundos) (desde ahora|)
-qué hora será (en|) {offset} (horas|minutos|segundos) (desde ahora|) en {location}
-qué hora tendremos en {location} en {offset} (horas|minutos|segundos) (desde ahora|)
-qué hora tendremos en {offset} (horas|minutos|segundos) (desde ahora|)
-qué hora tendremos en {offset} (horas|minutos|segundos) (desde ahora|) en {location}
+que hora será  {offset} horas
+que hora será  {offset} horas desde ahora
+que hora será  {offset} minutos
+que hora será  {offset} minutos desde ahora
+que hora será  {offset} segundos
+que hora será  {offset} segundos desde ahora
+que hora será de aquí a {offset} horas
+que hora será de aquí a {offset} horas desde ahora
+que hora será de aquí a {offset} minutos
+que hora será de aquí a {offset} minutos desde ahora
+que hora será de aquí a {offset} segundos
+que hora será de aquí a {offset} segundos desde ahora
+que hora será en {location}  {offset} horas
+que hora será en {location}  {offset} horas desde ahora
+que hora será en {location}  {offset} minutos
+que hora será en {location}  {offset} minutos desde ahora
+que hora será en {location}  {offset} segundos
+que hora será en {location}  {offset} segundos desde ahora
+que hora será en {location} de aquí a {offset} horas
+que hora será en {location} de aquí a {offset} horas desde ahora
+que hora será en {location} de aquí a {offset} minutos
+que hora será en {location} de aquí a {offset} minutos desde ahora
+que hora será en {location} de aquí a {offset} segundos
+que hora será en {location} de aquí a {offset} segundos desde ahora
+que hora será en {location} en {offset} horas
+que hora será en {location} en {offset} horas desde ahora
+que hora será en {location} en {offset} minutos
+que hora será en {location} en {offset} minutos desde ahora
+que hora será en {location} en {offset} segundos
+que hora será en {location} en {offset} segundos desde ahora
+que hora será en {offset} horas
+que hora será en {offset} horas desde ahora
+que hora será en {offset} minutos
+que hora será en {offset} minutos desde ahora
+que hora será en {offset} segundos
+que hora será en {offset} segundos desde ahora
+qué hora será  {offset} horas  en {location}
+qué hora será  {offset} horas desde ahora en {location}
+qué hora será  {offset} minutos  en {location}
+qué hora será  {offset} minutos desde ahora en {location}
+qué hora será  {offset} segundos  en {location}
+qué hora será  {offset} segundos desde ahora en {location}
+qué hora será en {offset} horas  en {location}
+qué hora será en {offset} horas desde ahora en {location}
+qué hora será en {offset} minutos  en {location}
+qué hora será en {offset} minutos desde ahora en {location}
+qué hora será en {offset} segundos  en {location}
+qué hora será en {offset} segundos desde ahora en {location}
+qué hora tendremos en {location} en {offset} horas
+qué hora tendremos en {location} en {offset} horas desde ahora
+qué hora tendremos en {location} en {offset} minutos
+qué hora tendremos en {location} en {offset} minutos desde ahora
+qué hora tendremos en {location} en {offset} segundos
+qué hora tendremos en {location} en {offset} segundos desde ahora
+qué hora tendremos en {offset} horas
+qué hora tendremos en {offset} horas  en {location}
+qué hora tendremos en {offset} horas desde ahora
+qué hora tendremos en {offset} horas desde ahora en {location}
+qué hora tendremos en {offset} minutos
+qué hora tendremos en {offset} minutos  en {location}
+qué hora tendremos en {offset} minutos desde ahora
+qué hora tendremos en {offset} minutos desde ahora en {location}
+qué hora tendremos en {offset} segundos
+qué hora tendremos en {offset} segundos  en {location}
+qué hora tendremos en {offset} segundos desde ahora
+qué hora tendremos en {offset} segundos desde ahora en {location}

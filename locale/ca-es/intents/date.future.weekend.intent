@@ -1,11 +1,47 @@
-(Digues|Digue)(-me|'m) les dates del cap de setmana següent a aquest.
-(Digues|Digue)(-me|'m) les dates previstes per al cap de setmana que segueix a l'actual.
-(Digues|Digue)(-me|'m|) les dates d'aquest cap de setmana( que ve|).
-(Digues|Digue)(-me|'m|) les dates del cap de setmana que segueix a l'actual.
-(Digues|Digue)(-me|'m|) les dates del cap de setmana que ve.
-(Digues|Digue)(-me|'m|) les dates previstes pel pròxim cap de setmana.
-(Digues|Digue)(-me|'m|) les dates previstes per al cap de setmana posterior a aquest.
-(quan (és|arriba|serà)|quins són|quan) (el|els dies del) (pròxim|següent|vinent|) (cap de setmana|finde|capde|cap de) (vinent|)
+Digue les dates d'aquest cap de setmana que ve.
+Digue les dates d'aquest cap de setmana.
+Digue les dates del cap de setmana que segueix a l'actual.
+Digue les dates del cap de setmana que ve.
+Digue les dates previstes pel pròxim cap de setmana.
+Digue les dates previstes per al cap de setmana posterior a aquest.
+Digue'm les dates d'aquest cap de setmana que ve.
+Digue'm les dates d'aquest cap de setmana.
+Digue'm les dates del cap de setmana que segueix a l'actual.
+Digue'm les dates del cap de setmana que ve.
+Digue'm les dates del cap de setmana següent a aquest.
+Digue'm les dates previstes pel pròxim cap de setmana.
+Digue'm les dates previstes per al cap de setmana posterior a aquest.
+Digue'm les dates previstes per al cap de setmana que segueix a l'actual.
+Digue-me les dates d'aquest cap de setmana que ve.
+Digue-me les dates d'aquest cap de setmana.
+Digue-me les dates del cap de setmana que segueix a l'actual.
+Digue-me les dates del cap de setmana que ve.
+Digue-me les dates del cap de setmana següent a aquest.
+Digue-me les dates previstes pel pròxim cap de setmana.
+Digue-me les dates previstes per al cap de setmana posterior a aquest.
+Digue-me les dates previstes per al cap de setmana que segueix a l'actual.
+Digues les dates d'aquest cap de setmana que ve.
+Digues les dates d'aquest cap de setmana.
+Digues les dates del cap de setmana que segueix a l'actual.
+Digues les dates del cap de setmana que ve.
+Digues les dates previstes pel pròxim cap de setmana.
+Digues les dates previstes per al cap de setmana posterior a aquest.
+Digues'm les dates d'aquest cap de setmana que ve.
+Digues'm les dates d'aquest cap de setmana.
+Digues'm les dates del cap de setmana que segueix a l'actual.
+Digues'm les dates del cap de setmana que ve.
+Digues'm les dates del cap de setmana següent a aquest.
+Digues'm les dates previstes pel pròxim cap de setmana.
+Digues'm les dates previstes per al cap de setmana posterior a aquest.
+Digues'm les dates previstes per al cap de setmana que segueix a l'actual.
+Digues-me les dates d'aquest cap de setmana que ve.
+Digues-me les dates d'aquest cap de setmana.
+Digues-me les dates del cap de setmana que segueix a l'actual.
+Digues-me les dates del cap de setmana que ve.
+Digues-me les dates del cap de setmana següent a aquest.
+Digues-me les dates previstes pel pròxim cap de setmana.
+Digues-me les dates previstes per al cap de setmana posterior a aquest.
+Digues-me les dates previstes per al cap de setmana que segueix a l'actual.
 Em pots dir els dies del proper cap de setmana
 Em pots dir les dates del cap de setmana que segueix a l'actual
 Em pots dir les dates del proper cap de setmana
@@ -16,9 +52,126 @@ Explica'm els dies del proper cap de setmana.
 Podeu indicar les dates del cap de setmana que segueix aquest
 Pots indicar les dates d'aquest cap de setmana
 Pots indicar les dates del cap de setmana següent
-Quin (dia|jorn) (és|serà) (aquest|este|eixe|el|es) cap de setmana
-Quin (són|son) (els|es) (dies|jorns) (d'aquest|d'este|d'eixe|del|des) cap de setmana
-Quin (són|son) (les|ses) dates (d'aquest|d'este|d'eixe|del|des) cap de setmana( vinent| que ve|)
+Quin dia serà aquest cap de setmana
+Quin dia serà eixe cap de setmana
+Quin dia serà el cap de setmana
+Quin dia serà es cap de setmana
+Quin dia serà este cap de setmana
+Quin dia és aquest cap de setmana
+Quin dia és eixe cap de setmana
+Quin dia és el cap de setmana
+Quin dia és es cap de setmana
+Quin dia és este cap de setmana
+Quin jorn serà aquest cap de setmana
+Quin jorn serà eixe cap de setmana
+Quin jorn serà el cap de setmana
+Quin jorn serà es cap de setmana
+Quin jorn serà este cap de setmana
+Quin jorn és aquest cap de setmana
+Quin jorn és eixe cap de setmana
+Quin jorn és el cap de setmana
+Quin jorn és es cap de setmana
+Quin jorn és este cap de setmana
+Quin son els dies d'aquest cap de setmana
+Quin son els dies d'eixe cap de setmana
+Quin son els dies d'este cap de setmana
+Quin son els dies del cap de setmana
+Quin son els dies des cap de setmana
+Quin son els jorns d'aquest cap de setmana
+Quin son els jorns d'eixe cap de setmana
+Quin son els jorns d'este cap de setmana
+Quin son els jorns del cap de setmana
+Quin son els jorns des cap de setmana
+Quin son es dies d'aquest cap de setmana
+Quin son es dies d'eixe cap de setmana
+Quin son es dies d'este cap de setmana
+Quin son es dies del cap de setmana
+Quin son es dies des cap de setmana
+Quin son es jorns d'aquest cap de setmana
+Quin son es jorns d'eixe cap de setmana
+Quin son es jorns d'este cap de setmana
+Quin son es jorns del cap de setmana
+Quin son es jorns des cap de setmana
+Quin son les dates d'aquest cap de setmana
+Quin son les dates d'aquest cap de setmana que ve
+Quin son les dates d'aquest cap de setmana vinent
+Quin son les dates d'eixe cap de setmana
+Quin son les dates d'eixe cap de setmana que ve
+Quin son les dates d'eixe cap de setmana vinent
+Quin son les dates d'este cap de setmana
+Quin son les dates d'este cap de setmana que ve
+Quin son les dates d'este cap de setmana vinent
+Quin son les dates del cap de setmana
+Quin son les dates del cap de setmana que ve
+Quin son les dates del cap de setmana vinent
+Quin son les dates des cap de setmana
+Quin son les dates des cap de setmana que ve
+Quin son les dates des cap de setmana vinent
+Quin son ses dates d'aquest cap de setmana
+Quin son ses dates d'aquest cap de setmana que ve
+Quin son ses dates d'aquest cap de setmana vinent
+Quin son ses dates d'eixe cap de setmana
+Quin son ses dates d'eixe cap de setmana que ve
+Quin son ses dates d'eixe cap de setmana vinent
+Quin son ses dates d'este cap de setmana
+Quin son ses dates d'este cap de setmana que ve
+Quin son ses dates d'este cap de setmana vinent
+Quin son ses dates del cap de setmana
+Quin son ses dates del cap de setmana que ve
+Quin son ses dates del cap de setmana vinent
+Quin son ses dates des cap de setmana
+Quin son ses dates des cap de setmana que ve
+Quin son ses dates des cap de setmana vinent
+Quin són els dies d'aquest cap de setmana
+Quin són els dies d'eixe cap de setmana
+Quin són els dies d'este cap de setmana
+Quin són els dies del cap de setmana
+Quin són els dies des cap de setmana
+Quin són els jorns d'aquest cap de setmana
+Quin són els jorns d'eixe cap de setmana
+Quin són els jorns d'este cap de setmana
+Quin són els jorns del cap de setmana
+Quin són els jorns des cap de setmana
+Quin són es dies d'aquest cap de setmana
+Quin són es dies d'eixe cap de setmana
+Quin són es dies d'este cap de setmana
+Quin són es dies del cap de setmana
+Quin són es dies des cap de setmana
+Quin són es jorns d'aquest cap de setmana
+Quin són es jorns d'eixe cap de setmana
+Quin són es jorns d'este cap de setmana
+Quin són es jorns del cap de setmana
+Quin són es jorns des cap de setmana
+Quin són les dates d'aquest cap de setmana
+Quin són les dates d'aquest cap de setmana que ve
+Quin són les dates d'aquest cap de setmana vinent
+Quin són les dates d'eixe cap de setmana
+Quin són les dates d'eixe cap de setmana que ve
+Quin són les dates d'eixe cap de setmana vinent
+Quin són les dates d'este cap de setmana
+Quin són les dates d'este cap de setmana que ve
+Quin són les dates d'este cap de setmana vinent
+Quin són les dates del cap de setmana
+Quin són les dates del cap de setmana que ve
+Quin són les dates del cap de setmana vinent
+Quin són les dates des cap de setmana
+Quin són les dates des cap de setmana que ve
+Quin són les dates des cap de setmana vinent
+Quin són ses dates d'aquest cap de setmana
+Quin són ses dates d'aquest cap de setmana que ve
+Quin són ses dates d'aquest cap de setmana vinent
+Quin són ses dates d'eixe cap de setmana
+Quin són ses dates d'eixe cap de setmana que ve
+Quin són ses dates d'eixe cap de setmana vinent
+Quin són ses dates d'este cap de setmana
+Quin són ses dates d'este cap de setmana que ve
+Quin són ses dates d'este cap de setmana vinent
+Quin són ses dates del cap de setmana
+Quin són ses dates del cap de setmana que ve
+Quin són ses dates del cap de setmana vinent
+Quin són ses dates des cap de setmana
+Quin són ses dates des cap de setmana que ve
+Quin són ses dates des cap de setmana vinent
 Quin és l'agenda per aquest cap de setmana
 Quin és l'horari per al cap de setmana posterior a aquest
 Quina data és aquest cap de setmana
@@ -40,8 +193,8 @@ Quines dates s'assignen per al cap de setmana posterior a aquest
 Quines dates són aquest cap de setmana
 Quines dates són el proper cap de setmana
 Quines són les dates del proper cap de setmana
-Quines són les dates per( a|) aquest cap de setmana
-Quins (dies|jorns) (és|seran) (aquest|este|eixe|el|es) cap de setmana
+Quines són les dates per a aquest cap de setmana
+Quines són les dates per aquest cap de setmana
 Quins dies arriben aquest cap de setmana
 Quins dies es fixen per al cap de setmana posterior a l'actual
 Quins dies es preveu per al cap de setmana que ve
@@ -58,20 +211,375 @@ Quins dies per aquest cap de setmana
 Quins dies s'esperen pel cap de setmana que s'acosta
 Quins dies s'esperen per al cap de setmana posterior a l'actual
 Quins dies s'esperen per al proper cap de setmana
+Quins dies seran aquest cap de setmana
+Quins dies seran eixe cap de setmana
+Quins dies seran el cap de setmana
 Quins dies seran el proper cap de setmana
+Quins dies seran es cap de setmana
+Quins dies seran este cap de setmana
 Quins dies seran per al cap de setmana que ve
 Quins dies seran per al proper cap de setmana
 Quins dies seran per aquest cap de setmana
 Quins dies són el proper cap de setmana
 Quins dies tenen previst per al proper cap de setmana
 Quins dies vindran aquest cap de setmana
+Quins dies és aquest cap de setmana
+Quins dies és eixe cap de setmana
+Quins dies és el cap de setmana
+Quins dies és es cap de setmana
+Quins dies és este cap de setmana
+Quins jorns seran aquest cap de setmana
+Quins jorns seran eixe cap de setmana
+Quins jorns seran el cap de setmana
+Quins jorns seran es cap de setmana
+Quins jorns seran este cap de setmana
+Quins jorns és aquest cap de setmana
+Quins jorns és eixe cap de setmana
+Quins jorns és el cap de setmana
+Quins jorns és es cap de setmana
+Quins jorns és este cap de setmana
 Quins seran els dies del cap de setmana posterior a aquest
 Quins seran els dies del cap de setmana posterior a l'actual
 Quins seran els dies del cap de setmana que s'acosta
 Quins seran els dies del cap de setmana que ve
-Quins són els dies pel (proper|pròxim) cap de setmana
+Quins són els dies pel proper cap de setmana
+Quins són els dies pel pròxim cap de setmana
 Quins són els dies per al proper cap de setmana
 Quins són els dies previstos per al cap de setmana que segueix a l'actual
 Quins són els dies previstos per aquest cap de setmana
-quin (data és|) (aquesta|el proper) cap de setmana
-quina (és la data|són les dates) (per|per al|) (aquest|) cap de setmana
+quan arriba el  cap de
+quan arriba el  cap de setmana
+quan arriba el  cap de setmana vinent
+quan arriba el  cap de vinent
+quan arriba el  capde
+quan arriba el  capde vinent
+quan arriba el  finde
+quan arriba el  finde vinent
+quan arriba el pròxim cap de
+quan arriba el pròxim cap de setmana
+quan arriba el pròxim cap de setmana vinent
+quan arriba el pròxim cap de vinent
+quan arriba el pròxim capde
+quan arriba el pròxim capde vinent
+quan arriba el pròxim finde
+quan arriba el pròxim finde vinent
+quan arriba el següent cap de
+quan arriba el següent cap de setmana
+quan arriba el següent cap de setmana vinent
+quan arriba el següent cap de vinent
+quan arriba el següent capde
+quan arriba el següent capde vinent
+quan arriba el següent finde
+quan arriba el següent finde vinent
+quan arriba el vinent cap de
+quan arriba el vinent cap de setmana
+quan arriba el vinent cap de setmana vinent
+quan arriba el vinent cap de vinent
+quan arriba el vinent capde
+quan arriba el vinent capde vinent
+quan arriba el vinent finde
+quan arriba el vinent finde vinent
+quan arriba els dies del  cap de
+quan arriba els dies del  cap de setmana
+quan arriba els dies del  cap de setmana vinent
+quan arriba els dies del  cap de vinent
+quan arriba els dies del  capde
+quan arriba els dies del  capde vinent
+quan arriba els dies del  finde
+quan arriba els dies del  finde vinent
+quan arriba els dies del pròxim cap de
+quan arriba els dies del pròxim cap de setmana
+quan arriba els dies del pròxim cap de setmana vinent
+quan arriba els dies del pròxim cap de vinent
+quan arriba els dies del pròxim capde
+quan arriba els dies del pròxim capde vinent
+quan arriba els dies del pròxim finde
+quan arriba els dies del pròxim finde vinent
+quan arriba els dies del següent cap de
+quan arriba els dies del següent cap de setmana
+quan arriba els dies del següent cap de setmana vinent
+quan arriba els dies del següent cap de vinent
+quan arriba els dies del següent capde
+quan arriba els dies del següent capde vinent
+quan arriba els dies del següent finde
+quan arriba els dies del següent finde vinent
+quan arriba els dies del vinent cap de
+quan arriba els dies del vinent cap de setmana
+quan arriba els dies del vinent cap de setmana vinent
+quan arriba els dies del vinent cap de vinent
+quan arriba els dies del vinent capde
+quan arriba els dies del vinent capde vinent
+quan arriba els dies del vinent finde
+quan arriba els dies del vinent finde vinent
+quan el  cap de
+quan el  cap de setmana
+quan el  cap de setmana vinent
+quan el  cap de vinent
+quan el  capde
+quan el  capde vinent
+quan el  finde
+quan el  finde vinent
+quan el pròxim cap de
+quan el pròxim cap de setmana
+quan el pròxim cap de setmana vinent
+quan el pròxim cap de vinent
+quan el pròxim capde
+quan el pròxim capde vinent
+quan el pròxim finde
+quan el pròxim finde vinent
+quan el següent cap de
+quan el següent cap de setmana
+quan el següent cap de setmana vinent
+quan el següent cap de vinent
+quan el següent capde
+quan el següent capde vinent
+quan el següent finde
+quan el següent finde vinent
+quan el vinent cap de
+quan el vinent cap de setmana
+quan el vinent cap de setmana vinent
+quan el vinent cap de vinent
+quan el vinent capde
+quan el vinent capde vinent
+quan el vinent finde
+quan el vinent finde vinent
+quan els dies del  cap de
+quan els dies del  cap de setmana
+quan els dies del  cap de setmana vinent
+quan els dies del  cap de vinent
+quan els dies del  capde
+quan els dies del  capde vinent
+quan els dies del  finde
+quan els dies del  finde vinent
+quan els dies del pròxim cap de
+quan els dies del pròxim cap de setmana
+quan els dies del pròxim cap de setmana vinent
+quan els dies del pròxim cap de vinent
+quan els dies del pròxim capde
+quan els dies del pròxim capde vinent
+quan els dies del pròxim finde
+quan els dies del pròxim finde vinent
+quan els dies del següent cap de
+quan els dies del següent cap de setmana
+quan els dies del següent cap de setmana vinent
+quan els dies del següent cap de vinent
+quan els dies del següent capde
+quan els dies del següent capde vinent
+quan els dies del següent finde
+quan els dies del següent finde vinent
+quan els dies del vinent cap de
+quan els dies del vinent cap de setmana
+quan els dies del vinent cap de setmana vinent
+quan els dies del vinent cap de vinent
+quan els dies del vinent capde
+quan els dies del vinent capde vinent
+quan els dies del vinent finde
+quan els dies del vinent finde vinent
+quan serà el  cap de
+quan serà el  cap de setmana
+quan serà el  cap de setmana vinent
+quan serà el  cap de vinent
+quan serà el  capde
+quan serà el  capde vinent
+quan serà el  finde
+quan serà el  finde vinent
+quan serà el pròxim cap de
+quan serà el pròxim cap de setmana
+quan serà el pròxim cap de setmana vinent
+quan serà el pròxim cap de vinent
+quan serà el pròxim capde
+quan serà el pròxim capde vinent
+quan serà el pròxim finde
+quan serà el pròxim finde vinent
+quan serà el següent cap de
+quan serà el següent cap de setmana
+quan serà el següent cap de setmana vinent
+quan serà el següent cap de vinent
+quan serà el següent capde
+quan serà el següent capde vinent
+quan serà el següent finde
+quan serà el següent finde vinent
+quan serà el vinent cap de
+quan serà el vinent cap de setmana
+quan serà el vinent cap de setmana vinent
+quan serà el vinent cap de vinent
+quan serà el vinent capde
+quan serà el vinent capde vinent
+quan serà el vinent finde
+quan serà el vinent finde vinent
+quan serà els dies del  cap de
+quan serà els dies del  cap de setmana
+quan serà els dies del  cap de setmana vinent
+quan serà els dies del  cap de vinent
+quan serà els dies del  capde
+quan serà els dies del  capde vinent
+quan serà els dies del  finde
+quan serà els dies del  finde vinent
+quan serà els dies del pròxim cap de
+quan serà els dies del pròxim cap de setmana
+quan serà els dies del pròxim cap de setmana vinent
+quan serà els dies del pròxim cap de vinent
+quan serà els dies del pròxim capde
+quan serà els dies del pròxim capde vinent
+quan serà els dies del pròxim finde
+quan serà els dies del pròxim finde vinent
+quan serà els dies del següent cap de
+quan serà els dies del següent cap de setmana
+quan serà els dies del següent cap de setmana vinent
+quan serà els dies del següent cap de vinent
+quan serà els dies del següent capde
+quan serà els dies del següent capde vinent
+quan serà els dies del següent finde
+quan serà els dies del següent finde vinent
+quan serà els dies del vinent cap de
+quan serà els dies del vinent cap de setmana
+quan serà els dies del vinent cap de setmana vinent
+quan serà els dies del vinent cap de vinent
+quan serà els dies del vinent capde
+quan serà els dies del vinent capde vinent
+quan serà els dies del vinent finde
+quan serà els dies del vinent finde vinent
+quan és el  cap de
+quan és el  cap de setmana
+quan és el  cap de setmana vinent
+quan és el  cap de vinent
+quan és el  capde
+quan és el  capde vinent
+quan és el  finde
+quan és el  finde vinent
+quan és el pròxim cap de
+quan és el pròxim cap de setmana
+quan és el pròxim cap de setmana vinent
+quan és el pròxim cap de vinent
+quan és el pròxim capde
+quan és el pròxim capde vinent
+quan és el pròxim finde
+quan és el pròxim finde vinent
+quan és el següent cap de
+quan és el següent cap de setmana
+quan és el següent cap de setmana vinent
+quan és el següent cap de vinent
+quan és el següent capde
+quan és el següent capde vinent
+quan és el següent finde
+quan és el següent finde vinent
+quan és el vinent cap de
+quan és el vinent cap de setmana
+quan és el vinent cap de setmana vinent
+quan és el vinent cap de vinent
+quan és el vinent capde
+quan és el vinent capde vinent
+quan és el vinent finde
+quan és el vinent finde vinent
+quan és els dies del  cap de
+quan és els dies del  cap de setmana
+quan és els dies del  cap de setmana vinent
+quan és els dies del  cap de vinent
+quan és els dies del  capde
+quan és els dies del  capde vinent
+quan és els dies del  finde
+quan és els dies del  finde vinent
+quan és els dies del pròxim cap de
+quan és els dies del pròxim cap de setmana
+quan és els dies del pròxim cap de setmana vinent
+quan és els dies del pròxim cap de vinent
+quan és els dies del pròxim capde
+quan és els dies del pròxim capde vinent
+quan és els dies del pròxim finde
+quan és els dies del pròxim finde vinent
+quan és els dies del següent cap de
+quan és els dies del següent cap de setmana
+quan és els dies del següent cap de setmana vinent
+quan és els dies del següent cap de vinent
+quan és els dies del següent capde
+quan és els dies del següent capde vinent
+quan és els dies del següent finde
+quan és els dies del següent finde vinent
+quan és els dies del vinent cap de
+quan és els dies del vinent cap de setmana
+quan és els dies del vinent cap de setmana vinent
+quan és els dies del vinent cap de vinent
+quan és els dies del vinent capde
+quan és els dies del vinent capde vinent
+quan és els dies del vinent finde
+quan és els dies del vinent finde vinent
+quin  aquesta cap de setmana
+quin  el proper cap de setmana
+quin data és aquesta cap de setmana
+quin data és el proper cap de setmana
+quina són les dates   cap de setmana
+quina són les dates  aquest cap de setmana
+quina són les dates per  cap de setmana
+quina són les dates per al  cap de setmana
+quina són les dates per al aquest cap de setmana
+quina són les dates per aquest cap de setmana
+quina és la data   cap de setmana
+quina és la data  aquest cap de setmana
+quina és la data per  cap de setmana
+quina és la data per al  cap de setmana
+quina és la data per al aquest cap de setmana
+quina és la data per aquest cap de setmana
+quins són el  cap de
+quins són el  cap de setmana
+quins són el  cap de setmana vinent
+quins són el  cap de vinent
+quins són el  capde
+quins són el  capde vinent
+quins són el  finde
+quins són el  finde vinent
+quins són el pròxim cap de
+quins són el pròxim cap de setmana
+quins són el pròxim cap de setmana vinent
+quins són el pròxim cap de vinent
+quins són el pròxim capde
+quins són el pròxim capde vinent
+quins són el pròxim finde
+quins són el pròxim finde vinent
+quins són el següent cap de
+quins són el següent cap de setmana
+quins són el següent cap de setmana vinent
+quins són el següent cap de vinent
+quins són el següent capde
+quins són el següent capde vinent
+quins són el següent finde
+quins són el següent finde vinent
+quins són el vinent cap de
+quins són el vinent cap de setmana
+quins són el vinent cap de setmana vinent
+quins són el vinent cap de vinent
+quins són el vinent capde
+quins són el vinent capde vinent
+quins són el vinent finde
+quins són el vinent finde vinent
+quins són els dies del  cap de
+quins són els dies del  cap de setmana
+quins són els dies del  cap de setmana vinent
+quins són els dies del  cap de vinent
+quins són els dies del  capde
+quins són els dies del  capde vinent
+quins són els dies del  finde
+quins són els dies del  finde vinent
+quins són els dies del pròxim cap de
+quins són els dies del pròxim cap de setmana
+quins són els dies del pròxim cap de setmana vinent
+quins són els dies del pròxim cap de vinent
+quins són els dies del pròxim capde
+quins són els dies del pròxim capde vinent
+quins són els dies del pròxim finde
+quins són els dies del pròxim finde vinent
+quins són els dies del següent cap de
+quins són els dies del següent cap de setmana
+quins són els dies del següent cap de setmana vinent
+quins són els dies del següent cap de vinent
+quins són els dies del següent capde
+quins són els dies del següent capde vinent
+quins són els dies del següent finde
+quins són els dies del següent finde vinent
+quins són els dies del vinent cap de
+quins són els dies del vinent cap de setmana
+quins són els dies del vinent cap de setmana vinent
+quins són els dies del vinent cap de vinent
+quins són els dies del vinent capde
+quins són els dies del vinent capde vinent
+quins són els dies del vinent finde
+quins són els dies del vinent finde vinent
