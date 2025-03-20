@@ -1,16 +1,32 @@
-(bitte|) (sage|sag) mir die (akzuelle|) (uhrzeit|zeit)
-(bitte|) (sage|sag) mir die (akzuelle|) (uhrzeit|zeit) (in|bei|im|am|an der) {location}
-(gib||geb|gebe|sag|sage|nenn|nenne) mir die (aktuelle|momentane|) (uhrzeit|zeit)
-(gib||geb|gebe|sag|sage|nenn|nenne) mir die (aktuelle|momentane|) (uhrzeit|zeit) (in|von|aus|bei|am|im|an der) {location}
-(wieviel|wie viel) uhr haben wir (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)
-(wieviel|wie viel) uhr haben wir (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|) (in|von|aus|bei|am|im|an der) {location}
-(wieviel|wie viel) uhr haben wir (es|) (in|bei|im|an der) {location} (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)
-(wieviel|wie viel) uhr ist (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)
-(wieviel|wie viel) uhr ist (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|) (in|von|aus|bei|am|im|an der) {location}
-(wieviel|wie viel) uhr ist (es|) (in|bei) {location} (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)
 Bitte teilen Sie mir die Uhrzeit mit.
-Darf ich die (uhrzeit|zeit) (erfahren|erfragen)
-Darf ich die (uhrzeit|zeit) (in|bei|im|am|für|an der) {location} (erfahren|erfragen)
+Darf ich die uhrzeit am {location} erfahren
+Darf ich die uhrzeit am {location} erfragen
+Darf ich die uhrzeit an der {location} erfahren
+Darf ich die uhrzeit an der {location} erfragen
+Darf ich die uhrzeit bei {location} erfahren
+Darf ich die uhrzeit bei {location} erfragen
+Darf ich die uhrzeit erfahren
+Darf ich die uhrzeit erfragen
+Darf ich die uhrzeit für {location} erfahren
+Darf ich die uhrzeit für {location} erfragen
+Darf ich die uhrzeit im {location} erfahren
+Darf ich die uhrzeit im {location} erfragen
+Darf ich die uhrzeit in {location} erfahren
+Darf ich die uhrzeit in {location} erfragen
+Darf ich die zeit am {location} erfahren
+Darf ich die zeit am {location} erfragen
+Darf ich die zeit an der {location} erfahren
+Darf ich die zeit an der {location} erfragen
+Darf ich die zeit bei {location} erfahren
+Darf ich die zeit bei {location} erfragen
+Darf ich die zeit erfahren
+Darf ich die zeit erfragen
+Darf ich die zeit für {location} erfahren
+Darf ich die zeit für {location} erfragen
+Darf ich die zeit im {location} erfahren
+Darf ich die zeit im {location} erfragen
+Darf ich die zeit in {location} erfahren
+Darf ich die zeit in {location} erfragen
 Ich bin gespannt auf die Zeit
 Ich bin neugierig, wie spät ist es?
 Ich frage mich, wie die aktuelle Uhrzeit ist.
@@ -39,37 +55,1546 @@ Steht Dir die aktuelle Uhrzeit zur Verfügung?
 Teile mir bitte die aktuelle Uhrzeit mit.
 Teilen Sie mir bitte die Uhrzeit mit.
 Uhr jetzt
-Weisst du wie viel Uhr (es|) ist
-Weisst du wie viel Uhr (es|) ist (in|bei|am|im|an der) {location}
+Weisst du wie viel Uhr  ist
+Weisst du wie viel Uhr  ist am {location}
+Weisst du wie viel Uhr  ist an der {location}
+Weisst du wie viel Uhr  ist bei {location}
+Weisst du wie viel Uhr  ist im {location}
+Weisst du wie viel Uhr  ist in {location}
+Weisst du wie viel Uhr es ist
+Weisst du wie viel Uhr es ist am {location}
+Weisst du wie viel Uhr es ist an der {location}
+Weisst du wie viel Uhr es ist bei {location}
+Weisst du wie viel Uhr es ist im {location}
+Weisst du wie viel Uhr es ist in {location}
 Weißt du zufällig, wie spät es ist?
 Welche Uhrzeit wird angezeigt?
-Wie spät (ist|haben wir) (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)
-Wie spät (ist|haben wir) (es|) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|) (in|bei|im|am|an der) {location}
-Wie spät (ist|haben wir) (es|) (in|bei|im|am|an der) {location} (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)
+Wie spät haben wir
+Wie spät haben wir   am {location}
+Wie spät haben wir   an der {location}
+Wie spät haben wir   bei {location}
+Wie spät haben wir   im {location}
+Wie spät haben wir   in {location}
+Wie spät haben wir  am {location}
+Wie spät haben wir  am {location} im moment
+Wie spät haben wir  am {location} in diesem Moment
+Wie spät haben wir  am {location} jetzt
+Wie spät haben wir  am {location} momentan
+Wie spät haben wir  am {location} zur zeit
+Wie spät haben wir  am {location} zurzeit
+Wie spät haben wir  an der {location}
+Wie spät haben wir  an der {location} im moment
+Wie spät haben wir  an der {location} in diesem Moment
+Wie spät haben wir  an der {location} jetzt
+Wie spät haben wir  an der {location} momentan
+Wie spät haben wir  an der {location} zur zeit
+Wie spät haben wir  an der {location} zurzeit
+Wie spät haben wir  bei {location}
+Wie spät haben wir  bei {location} im moment
+Wie spät haben wir  bei {location} in diesem Moment
+Wie spät haben wir  bei {location} jetzt
+Wie spät haben wir  bei {location} momentan
+Wie spät haben wir  bei {location} zur zeit
+Wie spät haben wir  bei {location} zurzeit
+Wie spät haben wir  im moment
+Wie spät haben wir  im moment am {location}
+Wie spät haben wir  im moment an der {location}
+Wie spät haben wir  im moment bei {location}
+Wie spät haben wir  im moment im {location}
+Wie spät haben wir  im moment in {location}
+Wie spät haben wir  im {location}
+Wie spät haben wir  im {location} im moment
+Wie spät haben wir  im {location} in diesem Moment
+Wie spät haben wir  im {location} jetzt
+Wie spät haben wir  im {location} momentan
+Wie spät haben wir  im {location} zur zeit
+Wie spät haben wir  im {location} zurzeit
+Wie spät haben wir  in diesem Moment
+Wie spät haben wir  in diesem Moment am {location}
+Wie spät haben wir  in diesem Moment an der {location}
+Wie spät haben wir  in diesem Moment bei {location}
+Wie spät haben wir  in diesem Moment im {location}
+Wie spät haben wir  in diesem Moment in {location}
+Wie spät haben wir  in {location}
+Wie spät haben wir  in {location} im moment
+Wie spät haben wir  in {location} in diesem Moment
+Wie spät haben wir  in {location} jetzt
+Wie spät haben wir  in {location} momentan
+Wie spät haben wir  in {location} zur zeit
+Wie spät haben wir  in {location} zurzeit
+Wie spät haben wir  jetzt
+Wie spät haben wir  jetzt am {location}
+Wie spät haben wir  jetzt an der {location}
+Wie spät haben wir  jetzt bei {location}
+Wie spät haben wir  jetzt im {location}
+Wie spät haben wir  jetzt in {location}
+Wie spät haben wir  momentan
+Wie spät haben wir  momentan am {location}
+Wie spät haben wir  momentan an der {location}
+Wie spät haben wir  momentan bei {location}
+Wie spät haben wir  momentan im {location}
+Wie spät haben wir  momentan in {location}
+Wie spät haben wir  zur zeit
+Wie spät haben wir  zur zeit am {location}
+Wie spät haben wir  zur zeit an der {location}
+Wie spät haben wir  zur zeit bei {location}
+Wie spät haben wir  zur zeit im {location}
+Wie spät haben wir  zur zeit in {location}
+Wie spät haben wir  zurzeit
+Wie spät haben wir  zurzeit am {location}
+Wie spät haben wir  zurzeit an der {location}
+Wie spät haben wir  zurzeit bei {location}
+Wie spät haben wir  zurzeit im {location}
+Wie spät haben wir  zurzeit in {location}
+Wie spät haben wir es
+Wie spät haben wir es  am {location}
+Wie spät haben wir es  an der {location}
+Wie spät haben wir es  bei {location}
+Wie spät haben wir es  im {location}
+Wie spät haben wir es  in {location}
+Wie spät haben wir es am {location}
+Wie spät haben wir es am {location} im moment
+Wie spät haben wir es am {location} in diesem Moment
+Wie spät haben wir es am {location} jetzt
+Wie spät haben wir es am {location} momentan
+Wie spät haben wir es am {location} zur zeit
+Wie spät haben wir es am {location} zurzeit
+Wie spät haben wir es an der {location}
+Wie spät haben wir es an der {location} im moment
+Wie spät haben wir es an der {location} in diesem Moment
+Wie spät haben wir es an der {location} jetzt
+Wie spät haben wir es an der {location} momentan
+Wie spät haben wir es an der {location} zur zeit
+Wie spät haben wir es an der {location} zurzeit
+Wie spät haben wir es bei {location}
+Wie spät haben wir es bei {location} im moment
+Wie spät haben wir es bei {location} in diesem Moment
+Wie spät haben wir es bei {location} jetzt
+Wie spät haben wir es bei {location} momentan
+Wie spät haben wir es bei {location} zur zeit
+Wie spät haben wir es bei {location} zurzeit
+Wie spät haben wir es im moment
+Wie spät haben wir es im moment am {location}
+Wie spät haben wir es im moment an der {location}
+Wie spät haben wir es im moment bei {location}
+Wie spät haben wir es im moment im {location}
+Wie spät haben wir es im moment in {location}
+Wie spät haben wir es im {location}
+Wie spät haben wir es im {location} im moment
+Wie spät haben wir es im {location} in diesem Moment
+Wie spät haben wir es im {location} jetzt
+Wie spät haben wir es im {location} momentan
+Wie spät haben wir es im {location} zur zeit
+Wie spät haben wir es im {location} zurzeit
+Wie spät haben wir es in diesem Moment
+Wie spät haben wir es in diesem Moment am {location}
+Wie spät haben wir es in diesem Moment an der {location}
+Wie spät haben wir es in diesem Moment bei {location}
+Wie spät haben wir es in diesem Moment im {location}
+Wie spät haben wir es in diesem Moment in {location}
+Wie spät haben wir es in {location}
+Wie spät haben wir es in {location} im moment
+Wie spät haben wir es in {location} in diesem Moment
+Wie spät haben wir es in {location} jetzt
+Wie spät haben wir es in {location} momentan
+Wie spät haben wir es in {location} zur zeit
+Wie spät haben wir es in {location} zurzeit
+Wie spät haben wir es jetzt
+Wie spät haben wir es jetzt am {location}
+Wie spät haben wir es jetzt an der {location}
+Wie spät haben wir es jetzt bei {location}
+Wie spät haben wir es jetzt im {location}
+Wie spät haben wir es jetzt in {location}
+Wie spät haben wir es momentan
+Wie spät haben wir es momentan am {location}
+Wie spät haben wir es momentan an der {location}
+Wie spät haben wir es momentan bei {location}
+Wie spät haben wir es momentan im {location}
+Wie spät haben wir es momentan in {location}
+Wie spät haben wir es zur zeit
+Wie spät haben wir es zur zeit am {location}
+Wie spät haben wir es zur zeit an der {location}
+Wie spät haben wir es zur zeit bei {location}
+Wie spät haben wir es zur zeit im {location}
+Wie spät haben wir es zur zeit in {location}
+Wie spät haben wir es zurzeit
+Wie spät haben wir es zurzeit am {location}
+Wie spät haben wir es zurzeit an der {location}
+Wie spät haben wir es zurzeit bei {location}
+Wie spät haben wir es zurzeit im {location}
+Wie spät haben wir es zurzeit in {location}
+Wie spät ist
+Wie spät ist   am {location}
+Wie spät ist   an der {location}
+Wie spät ist   bei {location}
+Wie spät ist   im {location}
+Wie spät ist   in {location}
+Wie spät ist  am {location}
+Wie spät ist  am {location} im moment
+Wie spät ist  am {location} in diesem Moment
+Wie spät ist  am {location} jetzt
+Wie spät ist  am {location} momentan
+Wie spät ist  am {location} zur zeit
+Wie spät ist  am {location} zurzeit
+Wie spät ist  an der {location}
+Wie spät ist  an der {location} im moment
+Wie spät ist  an der {location} in diesem Moment
+Wie spät ist  an der {location} jetzt
+Wie spät ist  an der {location} momentan
+Wie spät ist  an der {location} zur zeit
+Wie spät ist  an der {location} zurzeit
+Wie spät ist  bei {location}
+Wie spät ist  bei {location} im moment
+Wie spät ist  bei {location} in diesem Moment
+Wie spät ist  bei {location} jetzt
+Wie spät ist  bei {location} momentan
+Wie spät ist  bei {location} zur zeit
+Wie spät ist  bei {location} zurzeit
+Wie spät ist  im moment
+Wie spät ist  im moment am {location}
+Wie spät ist  im moment an der {location}
+Wie spät ist  im moment bei {location}
+Wie spät ist  im moment im {location}
+Wie spät ist  im moment in {location}
+Wie spät ist  im {location}
+Wie spät ist  im {location} im moment
+Wie spät ist  im {location} in diesem Moment
+Wie spät ist  im {location} jetzt
+Wie spät ist  im {location} momentan
+Wie spät ist  im {location} zur zeit
+Wie spät ist  im {location} zurzeit
+Wie spät ist  in diesem Moment
+Wie spät ist  in diesem Moment am {location}
+Wie spät ist  in diesem Moment an der {location}
+Wie spät ist  in diesem Moment bei {location}
+Wie spät ist  in diesem Moment im {location}
+Wie spät ist  in diesem Moment in {location}
+Wie spät ist  in {location}
+Wie spät ist  in {location} im moment
+Wie spät ist  in {location} in diesem Moment
+Wie spät ist  in {location} jetzt
+Wie spät ist  in {location} momentan
+Wie spät ist  in {location} zur zeit
+Wie spät ist  in {location} zurzeit
+Wie spät ist  jetzt
+Wie spät ist  jetzt am {location}
+Wie spät ist  jetzt an der {location}
+Wie spät ist  jetzt bei {location}
+Wie spät ist  jetzt im {location}
+Wie spät ist  jetzt in {location}
+Wie spät ist  momentan
+Wie spät ist  momentan am {location}
+Wie spät ist  momentan an der {location}
+Wie spät ist  momentan bei {location}
+Wie spät ist  momentan im {location}
+Wie spät ist  momentan in {location}
+Wie spät ist  zur zeit
+Wie spät ist  zur zeit am {location}
+Wie spät ist  zur zeit an der {location}
+Wie spät ist  zur zeit bei {location}
+Wie spät ist  zur zeit im {location}
+Wie spät ist  zur zeit in {location}
+Wie spät ist  zurzeit
+Wie spät ist  zurzeit am {location}
+Wie spät ist  zurzeit an der {location}
+Wie spät ist  zurzeit bei {location}
+Wie spät ist  zurzeit im {location}
+Wie spät ist  zurzeit in {location}
+Wie spät ist es
+Wie spät ist es  am {location}
+Wie spät ist es  an der {location}
+Wie spät ist es  bei {location}
+Wie spät ist es  im {location}
+Wie spät ist es  in {location}
+Wie spät ist es am {location}
+Wie spät ist es am {location} im moment
+Wie spät ist es am {location} in diesem Moment
+Wie spät ist es am {location} jetzt
+Wie spät ist es am {location} momentan
+Wie spät ist es am {location} zur zeit
+Wie spät ist es am {location} zurzeit
+Wie spät ist es an der {location}
+Wie spät ist es an der {location} im moment
+Wie spät ist es an der {location} in diesem Moment
+Wie spät ist es an der {location} jetzt
+Wie spät ist es an der {location} momentan
+Wie spät ist es an der {location} zur zeit
+Wie spät ist es an der {location} zurzeit
 Wie spät ist es bei Ihnen?
+Wie spät ist es bei {location}
+Wie spät ist es bei {location} im moment
+Wie spät ist es bei {location} in diesem Moment
+Wie spät ist es bei {location} jetzt
+Wie spät ist es bei {location} momentan
+Wie spät ist es bei {location} zur zeit
+Wie spät ist es bei {location} zurzeit
 Wie spät ist es im Moment?
+Wie spät ist es im moment
+Wie spät ist es im moment am {location}
+Wie spät ist es im moment an der {location}
+Wie spät ist es im moment bei {location}
+Wie spät ist es im moment im {location}
+Wie spät ist es im moment in {location}
+Wie spät ist es im {location}
+Wie spät ist es im {location} im moment
+Wie spät ist es im {location} in diesem Moment
+Wie spät ist es im {location} jetzt
+Wie spät ist es im {location} momentan
+Wie spät ist es im {location} zur zeit
+Wie spät ist es im {location} zurzeit
+Wie spät ist es in diesem Moment
+Wie spät ist es in diesem Moment am {location}
+Wie spät ist es in diesem Moment an der {location}
+Wie spät ist es in diesem Moment bei {location}
+Wie spät ist es in diesem Moment im {location}
+Wie spät ist es in diesem Moment in {location}
+Wie spät ist es in {location}
+Wie spät ist es in {location} im moment
+Wie spät ist es in {location} in diesem Moment
+Wie spät ist es in {location} jetzt
+Wie spät ist es in {location} momentan
+Wie spät ist es in {location} zur zeit
+Wie spät ist es in {location} zurzeit
+Wie spät ist es jetzt
+Wie spät ist es jetzt am {location}
+Wie spät ist es jetzt an der {location}
+Wie spät ist es jetzt bei {location}
+Wie spät ist es jetzt im {location}
+Wie spät ist es jetzt in {location}
 Wie spät ist es laut Ihrer Uhr?
+Wie spät ist es momentan
+Wie spät ist es momentan am {location}
+Wie spät ist es momentan an der {location}
+Wie spät ist es momentan bei {location}
+Wie spät ist es momentan im {location}
+Wie spät ist es momentan in {location}
 Wie spät ist es momentan?
+Wie spät ist es zur zeit
+Wie spät ist es zur zeit am {location}
+Wie spät ist es zur zeit an der {location}
+Wie spät ist es zur zeit bei {location}
+Wie spät ist es zur zeit im {location}
+Wie spät ist es zur zeit in {location}
+Wie spät ist es zurzeit
+Wie spät ist es zurzeit am {location}
+Wie spät ist es zurzeit an der {location}
+Wie spät ist es zurzeit bei {location}
+Wie spät ist es zurzeit im {location}
+Wie spät ist es zurzeit in {location}
 Wie spät ist es, wenn es Ihnen nichts ausmacht?
 Wie spät ist es?
 Zeit jetzt
 Zeit jetzt bitte
 bitte bib mir  die Uhrzeit an
+bitte sag mir die  uhrzeit
+bitte sag mir die  uhrzeit am {location}
+bitte sag mir die  uhrzeit an der {location}
+bitte sag mir die  uhrzeit bei {location}
+bitte sag mir die  uhrzeit im {location}
+bitte sag mir die  uhrzeit in {location}
+bitte sag mir die  zeit
+bitte sag mir die  zeit am {location}
+bitte sag mir die  zeit an der {location}
+bitte sag mir die  zeit bei {location}
+bitte sag mir die  zeit im {location}
+bitte sag mir die  zeit in {location}
 bitte sag mir die aktuelle Uhrzeit
+bitte sag mir die akzuelle uhrzeit
+bitte sag mir die akzuelle uhrzeit am {location}
+bitte sag mir die akzuelle uhrzeit an der {location}
+bitte sag mir die akzuelle uhrzeit bei {location}
+bitte sag mir die akzuelle uhrzeit im {location}
+bitte sag mir die akzuelle uhrzeit in {location}
+bitte sag mir die akzuelle zeit
+bitte sag mir die akzuelle zeit am {location}
+bitte sag mir die akzuelle zeit an der {location}
+bitte sag mir die akzuelle zeit bei {location}
+bitte sag mir die akzuelle zeit im {location}
+bitte sag mir die akzuelle zeit in {location}
+bitte sage mir die  uhrzeit
+bitte sage mir die  uhrzeit am {location}
+bitte sage mir die  uhrzeit an der {location}
+bitte sage mir die  uhrzeit bei {location}
+bitte sage mir die  uhrzeit im {location}
+bitte sage mir die  uhrzeit in {location}
+bitte sage mir die  zeit
+bitte sage mir die  zeit am {location}
+bitte sage mir die  zeit an der {location}
+bitte sage mir die  zeit bei {location}
+bitte sage mir die  zeit im {location}
+bitte sage mir die  zeit in {location}
+bitte sage mir die akzuelle uhrzeit
+bitte sage mir die akzuelle uhrzeit am {location}
+bitte sage mir die akzuelle uhrzeit an der {location}
+bitte sage mir die akzuelle uhrzeit bei {location}
+bitte sage mir die akzuelle uhrzeit im {location}
+bitte sage mir die akzuelle uhrzeit in {location}
+bitte sage mir die akzuelle zeit
+bitte sage mir die akzuelle zeit am {location}
+bitte sage mir die akzuelle zeit an der {location}
+bitte sage mir die akzuelle zeit bei {location}
+bitte sage mir die akzuelle zeit im {location}
+bitte sage mir die akzuelle zeit in {location}
 die Uhrzeit bitte
 die Uhrzeit jetzt
 die Zeit
+geb mir die  uhrzeit
+geb mir die  uhrzeit am {location}
+geb mir die  uhrzeit an der {location}
+geb mir die  uhrzeit aus {location}
+geb mir die  uhrzeit bei {location}
+geb mir die  uhrzeit im {location}
+geb mir die  uhrzeit in {location}
+geb mir die  uhrzeit von {location}
+geb mir die  zeit
+geb mir die  zeit am {location}
+geb mir die  zeit an der {location}
+geb mir die  zeit aus {location}
+geb mir die  zeit bei {location}
+geb mir die  zeit im {location}
+geb mir die  zeit in {location}
+geb mir die  zeit von {location}
+geb mir die aktuelle uhrzeit
+geb mir die aktuelle uhrzeit am {location}
+geb mir die aktuelle uhrzeit an der {location}
+geb mir die aktuelle uhrzeit aus {location}
+geb mir die aktuelle uhrzeit bei {location}
+geb mir die aktuelle uhrzeit im {location}
+geb mir die aktuelle uhrzeit in {location}
+geb mir die aktuelle uhrzeit von {location}
+geb mir die aktuelle zeit
+geb mir die aktuelle zeit am {location}
+geb mir die aktuelle zeit an der {location}
+geb mir die aktuelle zeit aus {location}
+geb mir die aktuelle zeit bei {location}
+geb mir die aktuelle zeit im {location}
+geb mir die aktuelle zeit in {location}
+geb mir die aktuelle zeit von {location}
+geb mir die momentane uhrzeit
+geb mir die momentane uhrzeit am {location}
+geb mir die momentane uhrzeit an der {location}
+geb mir die momentane uhrzeit aus {location}
+geb mir die momentane uhrzeit bei {location}
+geb mir die momentane uhrzeit im {location}
+geb mir die momentane uhrzeit in {location}
+geb mir die momentane uhrzeit von {location}
+geb mir die momentane zeit
+geb mir die momentane zeit am {location}
+geb mir die momentane zeit an der {location}
+geb mir die momentane zeit aus {location}
+geb mir die momentane zeit bei {location}
+geb mir die momentane zeit im {location}
+geb mir die momentane zeit in {location}
+geb mir die momentane zeit von {location}
+gebe mir die  uhrzeit
+gebe mir die  uhrzeit am {location}
+gebe mir die  uhrzeit an der {location}
+gebe mir die  uhrzeit aus {location}
+gebe mir die  uhrzeit bei {location}
+gebe mir die  uhrzeit im {location}
+gebe mir die  uhrzeit in {location}
+gebe mir die  uhrzeit von {location}
+gebe mir die  zeit
+gebe mir die  zeit am {location}
+gebe mir die  zeit an der {location}
+gebe mir die  zeit aus {location}
+gebe mir die  zeit bei {location}
+gebe mir die  zeit im {location}
+gebe mir die  zeit in {location}
+gebe mir die  zeit von {location}
+gebe mir die aktuelle uhrzeit
+gebe mir die aktuelle uhrzeit am {location}
+gebe mir die aktuelle uhrzeit an der {location}
+gebe mir die aktuelle uhrzeit aus {location}
+gebe mir die aktuelle uhrzeit bei {location}
+gebe mir die aktuelle uhrzeit im {location}
+gebe mir die aktuelle uhrzeit in {location}
+gebe mir die aktuelle uhrzeit von {location}
+gebe mir die aktuelle zeit
+gebe mir die aktuelle zeit am {location}
+gebe mir die aktuelle zeit an der {location}
+gebe mir die aktuelle zeit aus {location}
+gebe mir die aktuelle zeit bei {location}
+gebe mir die aktuelle zeit im {location}
+gebe mir die aktuelle zeit in {location}
+gebe mir die aktuelle zeit von {location}
+gebe mir die momentane uhrzeit
+gebe mir die momentane uhrzeit am {location}
+gebe mir die momentane uhrzeit an der {location}
+gebe mir die momentane uhrzeit aus {location}
+gebe mir die momentane uhrzeit bei {location}
+gebe mir die momentane uhrzeit im {location}
+gebe mir die momentane uhrzeit in {location}
+gebe mir die momentane uhrzeit von {location}
+gebe mir die momentane zeit
+gebe mir die momentane zeit am {location}
+gebe mir die momentane zeit an der {location}
+gebe mir die momentane zeit aus {location}
+gebe mir die momentane zeit bei {location}
+gebe mir die momentane zeit im {location}
+gebe mir die momentane zeit in {location}
+gebe mir die momentane zeit von {location}
+gib mir die  uhrzeit
+gib mir die  uhrzeit am {location}
+gib mir die  uhrzeit an der {location}
+gib mir die  uhrzeit aus {location}
+gib mir die  uhrzeit bei {location}
+gib mir die  uhrzeit im {location}
+gib mir die  uhrzeit in {location}
+gib mir die  uhrzeit von {location}
+gib mir die  zeit
+gib mir die  zeit am {location}
+gib mir die  zeit an der {location}
+gib mir die  zeit aus {location}
+gib mir die  zeit bei {location}
+gib mir die  zeit im {location}
+gib mir die  zeit in {location}
+gib mir die  zeit von {location}
 gib mir die aktuelle Zeit
-hast du die (uhrzeit|zeit)
-hast du die (uhrzeit|zeit) (in|bei|im|am|für|an der) {location}
+gib mir die aktuelle uhrzeit
+gib mir die aktuelle uhrzeit am {location}
+gib mir die aktuelle uhrzeit an der {location}
+gib mir die aktuelle uhrzeit aus {location}
+gib mir die aktuelle uhrzeit bei {location}
+gib mir die aktuelle uhrzeit im {location}
+gib mir die aktuelle uhrzeit in {location}
+gib mir die aktuelle uhrzeit von {location}
+gib mir die aktuelle zeit
+gib mir die aktuelle zeit am {location}
+gib mir die aktuelle zeit an der {location}
+gib mir die aktuelle zeit aus {location}
+gib mir die aktuelle zeit bei {location}
+gib mir die aktuelle zeit im {location}
+gib mir die aktuelle zeit in {location}
+gib mir die aktuelle zeit von {location}
+gib mir die momentane uhrzeit
+gib mir die momentane uhrzeit am {location}
+gib mir die momentane uhrzeit an der {location}
+gib mir die momentane uhrzeit aus {location}
+gib mir die momentane uhrzeit bei {location}
+gib mir die momentane uhrzeit im {location}
+gib mir die momentane uhrzeit in {location}
+gib mir die momentane uhrzeit von {location}
+gib mir die momentane zeit
+gib mir die momentane zeit am {location}
+gib mir die momentane zeit an der {location}
+gib mir die momentane zeit aus {location}
+gib mir die momentane zeit bei {location}
+gib mir die momentane zeit im {location}
+gib mir die momentane zeit in {location}
+gib mir die momentane zeit von {location}
 hast du die aktuelle Uhrzeit
+hast du die uhrzeit
+hast du die uhrzeit am {location}
+hast du die uhrzeit an der {location}
+hast du die uhrzeit bei {location}
+hast du die uhrzeit für {location}
+hast du die uhrzeit im {location}
+hast du die uhrzeit in {location}
+hast du die zeit
+hast du die zeit am {location}
+hast du die zeit an der {location}
+hast du die zeit bei {location}
+hast du die zeit für {location}
+hast du die zeit im {location}
+hast du die zeit in {location}
 kannst Du mir die Uhrzeit mitteilen
 kannst du mir die Zeit sagen
 lass mich die aktuelle Zeit wissen
+mir die  uhrzeit
+mir die  uhrzeit am {location}
+mir die  uhrzeit an der {location}
+mir die  uhrzeit aus {location}
+mir die  uhrzeit bei {location}
+mir die  uhrzeit im {location}
+mir die  uhrzeit in {location}
+mir die  uhrzeit von {location}
+mir die  zeit
+mir die  zeit am {location}
+mir die  zeit an der {location}
+mir die  zeit aus {location}
+mir die  zeit bei {location}
+mir die  zeit im {location}
+mir die  zeit in {location}
+mir die  zeit von {location}
+mir die aktuelle uhrzeit
+mir die aktuelle uhrzeit am {location}
+mir die aktuelle uhrzeit an der {location}
+mir die aktuelle uhrzeit aus {location}
+mir die aktuelle uhrzeit bei {location}
+mir die aktuelle uhrzeit im {location}
+mir die aktuelle uhrzeit in {location}
+mir die aktuelle uhrzeit von {location}
+mir die aktuelle zeit
+mir die aktuelle zeit am {location}
+mir die aktuelle zeit an der {location}
+mir die aktuelle zeit aus {location}
+mir die aktuelle zeit bei {location}
+mir die aktuelle zeit im {location}
+mir die aktuelle zeit in {location}
+mir die aktuelle zeit von {location}
+mir die momentane uhrzeit
+mir die momentane uhrzeit am {location}
+mir die momentane uhrzeit an der {location}
+mir die momentane uhrzeit aus {location}
+mir die momentane uhrzeit bei {location}
+mir die momentane uhrzeit im {location}
+mir die momentane uhrzeit in {location}
+mir die momentane uhrzeit von {location}
+mir die momentane zeit
+mir die momentane zeit am {location}
+mir die momentane zeit an der {location}
+mir die momentane zeit aus {location}
+mir die momentane zeit bei {location}
+mir die momentane zeit im {location}
+mir die momentane zeit in {location}
+mir die momentane zeit von {location}
+nenn mir die  uhrzeit
+nenn mir die  uhrzeit am {location}
+nenn mir die  uhrzeit an der {location}
+nenn mir die  uhrzeit aus {location}
+nenn mir die  uhrzeit bei {location}
+nenn mir die  uhrzeit im {location}
+nenn mir die  uhrzeit in {location}
+nenn mir die  uhrzeit von {location}
+nenn mir die  zeit
+nenn mir die  zeit am {location}
+nenn mir die  zeit an der {location}
+nenn mir die  zeit aus {location}
+nenn mir die  zeit bei {location}
+nenn mir die  zeit im {location}
+nenn mir die  zeit in {location}
+nenn mir die  zeit von {location}
+nenn mir die aktuelle uhrzeit
+nenn mir die aktuelle uhrzeit am {location}
+nenn mir die aktuelle uhrzeit an der {location}
+nenn mir die aktuelle uhrzeit aus {location}
+nenn mir die aktuelle uhrzeit bei {location}
+nenn mir die aktuelle uhrzeit im {location}
+nenn mir die aktuelle uhrzeit in {location}
+nenn mir die aktuelle uhrzeit von {location}
+nenn mir die aktuelle zeit
+nenn mir die aktuelle zeit am {location}
+nenn mir die aktuelle zeit an der {location}
+nenn mir die aktuelle zeit aus {location}
+nenn mir die aktuelle zeit bei {location}
+nenn mir die aktuelle zeit im {location}
+nenn mir die aktuelle zeit in {location}
+nenn mir die aktuelle zeit von {location}
+nenn mir die momentane uhrzeit
+nenn mir die momentane uhrzeit am {location}
+nenn mir die momentane uhrzeit an der {location}
+nenn mir die momentane uhrzeit aus {location}
+nenn mir die momentane uhrzeit bei {location}
+nenn mir die momentane uhrzeit im {location}
+nenn mir die momentane uhrzeit in {location}
+nenn mir die momentane uhrzeit von {location}
+nenn mir die momentane zeit
+nenn mir die momentane zeit am {location}
+nenn mir die momentane zeit an der {location}
+nenn mir die momentane zeit aus {location}
+nenn mir die momentane zeit bei {location}
+nenn mir die momentane zeit im {location}
+nenn mir die momentane zeit in {location}
+nenn mir die momentane zeit von {location}
+nenne mir die  uhrzeit
+nenne mir die  uhrzeit am {location}
+nenne mir die  uhrzeit an der {location}
+nenne mir die  uhrzeit aus {location}
+nenne mir die  uhrzeit bei {location}
+nenne mir die  uhrzeit im {location}
+nenne mir die  uhrzeit in {location}
+nenne mir die  uhrzeit von {location}
+nenne mir die  zeit
+nenne mir die  zeit am {location}
+nenne mir die  zeit an der {location}
+nenne mir die  zeit aus {location}
+nenne mir die  zeit bei {location}
+nenne mir die  zeit im {location}
+nenne mir die  zeit in {location}
+nenne mir die  zeit von {location}
+nenne mir die aktuelle uhrzeit
+nenne mir die aktuelle uhrzeit am {location}
+nenne mir die aktuelle uhrzeit an der {location}
+nenne mir die aktuelle uhrzeit aus {location}
+nenne mir die aktuelle uhrzeit bei {location}
+nenne mir die aktuelle uhrzeit im {location}
+nenne mir die aktuelle uhrzeit in {location}
+nenne mir die aktuelle uhrzeit von {location}
+nenne mir die aktuelle zeit
+nenne mir die aktuelle zeit am {location}
+nenne mir die aktuelle zeit an der {location}
+nenne mir die aktuelle zeit aus {location}
+nenne mir die aktuelle zeit bei {location}
+nenne mir die aktuelle zeit im {location}
+nenne mir die aktuelle zeit in {location}
+nenne mir die aktuelle zeit von {location}
+nenne mir die momentane uhrzeit
+nenne mir die momentane uhrzeit am {location}
+nenne mir die momentane uhrzeit an der {location}
+nenne mir die momentane uhrzeit aus {location}
+nenne mir die momentane uhrzeit bei {location}
+nenne mir die momentane uhrzeit im {location}
+nenne mir die momentane uhrzeit in {location}
+nenne mir die momentane uhrzeit von {location}
+nenne mir die momentane zeit
+nenne mir die momentane zeit am {location}
+nenne mir die momentane zeit an der {location}
+nenne mir die momentane zeit aus {location}
+nenne mir die momentane zeit bei {location}
+nenne mir die momentane zeit im {location}
+nenne mir die momentane zeit in {location}
+nenne mir die momentane zeit von {location}
+sag mir die  uhrzeit
+sag mir die  uhrzeit am {location}
+sag mir die  uhrzeit an der {location}
+sag mir die  uhrzeit aus {location}
+sag mir die  uhrzeit bei {location}
+sag mir die  uhrzeit im {location}
+sag mir die  uhrzeit in {location}
+sag mir die  uhrzeit von {location}
+sag mir die  zeit
+sag mir die  zeit am {location}
+sag mir die  zeit an der {location}
+sag mir die  zeit aus {location}
+sag mir die  zeit bei {location}
+sag mir die  zeit im {location}
+sag mir die  zeit in {location}
+sag mir die  zeit von {location}
+sag mir die aktuelle uhrzeit
+sag mir die aktuelle uhrzeit am {location}
+sag mir die aktuelle uhrzeit an der {location}
+sag mir die aktuelle uhrzeit aus {location}
+sag mir die aktuelle uhrzeit bei {location}
+sag mir die aktuelle uhrzeit im {location}
+sag mir die aktuelle uhrzeit in {location}
+sag mir die aktuelle uhrzeit von {location}
+sag mir die aktuelle zeit
+sag mir die aktuelle zeit am {location}
+sag mir die aktuelle zeit an der {location}
+sag mir die aktuelle zeit aus {location}
+sag mir die aktuelle zeit bei {location}
+sag mir die aktuelle zeit im {location}
+sag mir die aktuelle zeit in {location}
+sag mir die aktuelle zeit von {location}
+sag mir die akzuelle uhrzeit
+sag mir die akzuelle uhrzeit am {location}
+sag mir die akzuelle uhrzeit an der {location}
+sag mir die akzuelle uhrzeit bei {location}
+sag mir die akzuelle uhrzeit im {location}
+sag mir die akzuelle uhrzeit in {location}
+sag mir die akzuelle zeit
+sag mir die akzuelle zeit am {location}
+sag mir die akzuelle zeit an der {location}
+sag mir die akzuelle zeit bei {location}
+sag mir die akzuelle zeit im {location}
+sag mir die akzuelle zeit in {location}
+sag mir die momentane uhrzeit
+sag mir die momentane uhrzeit am {location}
+sag mir die momentane uhrzeit an der {location}
+sag mir die momentane uhrzeit aus {location}
+sag mir die momentane uhrzeit bei {location}
+sag mir die momentane uhrzeit im {location}
+sag mir die momentane uhrzeit in {location}
+sag mir die momentane uhrzeit von {location}
+sag mir die momentane zeit
+sag mir die momentane zeit am {location}
+sag mir die momentane zeit an der {location}
+sag mir die momentane zeit aus {location}
+sag mir die momentane zeit bei {location}
+sag mir die momentane zeit im {location}
+sag mir die momentane zeit in {location}
+sag mir die momentane zeit von {location}
+sage mir die  uhrzeit
+sage mir die  uhrzeit am {location}
+sage mir die  uhrzeit an der {location}
+sage mir die  uhrzeit aus {location}
+sage mir die  uhrzeit bei {location}
+sage mir die  uhrzeit im {location}
+sage mir die  uhrzeit in {location}
+sage mir die  uhrzeit von {location}
+sage mir die  zeit
+sage mir die  zeit am {location}
+sage mir die  zeit an der {location}
+sage mir die  zeit aus {location}
+sage mir die  zeit bei {location}
+sage mir die  zeit im {location}
+sage mir die  zeit in {location}
+sage mir die  zeit von {location}
+sage mir die aktuelle uhrzeit
+sage mir die aktuelle uhrzeit am {location}
+sage mir die aktuelle uhrzeit an der {location}
+sage mir die aktuelle uhrzeit aus {location}
+sage mir die aktuelle uhrzeit bei {location}
+sage mir die aktuelle uhrzeit im {location}
+sage mir die aktuelle uhrzeit in {location}
+sage mir die aktuelle uhrzeit von {location}
+sage mir die aktuelle zeit
+sage mir die aktuelle zeit am {location}
+sage mir die aktuelle zeit an der {location}
+sage mir die aktuelle zeit aus {location}
+sage mir die aktuelle zeit bei {location}
+sage mir die aktuelle zeit im {location}
+sage mir die aktuelle zeit in {location}
+sage mir die aktuelle zeit von {location}
+sage mir die akzuelle uhrzeit
+sage mir die akzuelle uhrzeit am {location}
+sage mir die akzuelle uhrzeit an der {location}
+sage mir die akzuelle uhrzeit bei {location}
+sage mir die akzuelle uhrzeit im {location}
+sage mir die akzuelle uhrzeit in {location}
+sage mir die akzuelle zeit
+sage mir die akzuelle zeit am {location}
+sage mir die akzuelle zeit an der {location}
+sage mir die akzuelle zeit bei {location}
+sage mir die akzuelle zeit im {location}
+sage mir die akzuelle zeit in {location}
+sage mir die momentane uhrzeit
+sage mir die momentane uhrzeit am {location}
+sage mir die momentane uhrzeit an der {location}
+sage mir die momentane uhrzeit aus {location}
+sage mir die momentane uhrzeit bei {location}
+sage mir die momentane uhrzeit im {location}
+sage mir die momentane uhrzeit in {location}
+sage mir die momentane uhrzeit von {location}
+sage mir die momentane zeit
+sage mir die momentane zeit am {location}
+sage mir die momentane zeit an der {location}
+sage mir die momentane zeit aus {location}
+sage mir die momentane zeit bei {location}
+sage mir die momentane zeit im {location}
+sage mir die momentane zeit in {location}
+sage mir die momentane zeit von {location}
 weißt du, wie spät es ist
-wie ist die (zeit|uhrzeit) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|)
-wie ist die (zeit|uhrzeit) (in diesem Moment|im moment|momentan|jetzt|zurzeit|zur zeit|) (in|von|aus|bei|am|im|an der) {location}
+wie ist die uhrzeit
+wie ist die uhrzeit  am {location}
+wie ist die uhrzeit  an der {location}
+wie ist die uhrzeit  aus {location}
+wie ist die uhrzeit  bei {location}
+wie ist die uhrzeit  im {location}
+wie ist die uhrzeit  in {location}
+wie ist die uhrzeit  von {location}
+wie ist die uhrzeit im moment
+wie ist die uhrzeit im moment am {location}
+wie ist die uhrzeit im moment an der {location}
+wie ist die uhrzeit im moment aus {location}
+wie ist die uhrzeit im moment bei {location}
+wie ist die uhrzeit im moment im {location}
+wie ist die uhrzeit im moment in {location}
+wie ist die uhrzeit im moment von {location}
+wie ist die uhrzeit in diesem Moment
+wie ist die uhrzeit in diesem Moment am {location}
+wie ist die uhrzeit in diesem Moment an der {location}
+wie ist die uhrzeit in diesem Moment aus {location}
+wie ist die uhrzeit in diesem Moment bei {location}
+wie ist die uhrzeit in diesem Moment im {location}
+wie ist die uhrzeit in diesem Moment in {location}
+wie ist die uhrzeit in diesem Moment von {location}
+wie ist die uhrzeit jetzt
+wie ist die uhrzeit jetzt am {location}
+wie ist die uhrzeit jetzt an der {location}
+wie ist die uhrzeit jetzt aus {location}
+wie ist die uhrzeit jetzt bei {location}
+wie ist die uhrzeit jetzt im {location}
+wie ist die uhrzeit jetzt in {location}
+wie ist die uhrzeit jetzt von {location}
+wie ist die uhrzeit momentan
+wie ist die uhrzeit momentan am {location}
+wie ist die uhrzeit momentan an der {location}
+wie ist die uhrzeit momentan aus {location}
+wie ist die uhrzeit momentan bei {location}
+wie ist die uhrzeit momentan im {location}
+wie ist die uhrzeit momentan in {location}
+wie ist die uhrzeit momentan von {location}
+wie ist die uhrzeit zur zeit
+wie ist die uhrzeit zur zeit am {location}
+wie ist die uhrzeit zur zeit an der {location}
+wie ist die uhrzeit zur zeit aus {location}
+wie ist die uhrzeit zur zeit bei {location}
+wie ist die uhrzeit zur zeit im {location}
+wie ist die uhrzeit zur zeit in {location}
+wie ist die uhrzeit zur zeit von {location}
+wie ist die uhrzeit zurzeit
+wie ist die uhrzeit zurzeit am {location}
+wie ist die uhrzeit zurzeit an der {location}
+wie ist die uhrzeit zurzeit aus {location}
+wie ist die uhrzeit zurzeit bei {location}
+wie ist die uhrzeit zurzeit im {location}
+wie ist die uhrzeit zurzeit in {location}
+wie ist die uhrzeit zurzeit von {location}
+wie ist die zeit
+wie ist die zeit  am {location}
+wie ist die zeit  an der {location}
+wie ist die zeit  aus {location}
+wie ist die zeit  bei {location}
+wie ist die zeit  im {location}
+wie ist die zeit  in {location}
+wie ist die zeit  von {location}
+wie ist die zeit im moment
+wie ist die zeit im moment am {location}
+wie ist die zeit im moment an der {location}
+wie ist die zeit im moment aus {location}
+wie ist die zeit im moment bei {location}
+wie ist die zeit im moment im {location}
+wie ist die zeit im moment in {location}
+wie ist die zeit im moment von {location}
+wie ist die zeit in diesem Moment
+wie ist die zeit in diesem Moment am {location}
+wie ist die zeit in diesem Moment an der {location}
+wie ist die zeit in diesem Moment aus {location}
+wie ist die zeit in diesem Moment bei {location}
+wie ist die zeit in diesem Moment im {location}
+wie ist die zeit in diesem Moment in {location}
+wie ist die zeit in diesem Moment von {location}
+wie ist die zeit jetzt
+wie ist die zeit jetzt am {location}
+wie ist die zeit jetzt an der {location}
+wie ist die zeit jetzt aus {location}
+wie ist die zeit jetzt bei {location}
+wie ist die zeit jetzt im {location}
+wie ist die zeit jetzt in {location}
+wie ist die zeit jetzt von {location}
+wie ist die zeit momentan
+wie ist die zeit momentan am {location}
+wie ist die zeit momentan an der {location}
+wie ist die zeit momentan aus {location}
+wie ist die zeit momentan bei {location}
+wie ist die zeit momentan im {location}
+wie ist die zeit momentan in {location}
+wie ist die zeit momentan von {location}
+wie ist die zeit zur zeit
+wie ist die zeit zur zeit am {location}
+wie ist die zeit zur zeit an der {location}
+wie ist die zeit zur zeit aus {location}
+wie ist die zeit zur zeit bei {location}
+wie ist die zeit zur zeit im {location}
+wie ist die zeit zur zeit in {location}
+wie ist die zeit zur zeit von {location}
+wie ist die zeit zurzeit
+wie ist die zeit zurzeit am {location}
+wie ist die zeit zurzeit an der {location}
+wie ist die zeit zurzeit aus {location}
+wie ist die zeit zurzeit bei {location}
+wie ist die zeit zurzeit im {location}
+wie ist die zeit zurzeit in {location}
+wie ist die zeit zurzeit von {location}
 wie spät ist es
 wie spät ist es aktuell
 wie spät ist es im Moment
 wie spät ist es jetzt
+wie viel uhr haben wir
+wie viel uhr haben wir   am {location}
+wie viel uhr haben wir   an der {location}
+wie viel uhr haben wir   aus {location}
+wie viel uhr haben wir   bei {location}
+wie viel uhr haben wir   im {location}
+wie viel uhr haben wir   in {location}
+wie viel uhr haben wir   von {location}
+wie viel uhr haben wir  an der {location}
+wie viel uhr haben wir  an der {location} im moment
+wie viel uhr haben wir  an der {location} in diesem Moment
+wie viel uhr haben wir  an der {location} jetzt
+wie viel uhr haben wir  an der {location} momentan
+wie viel uhr haben wir  an der {location} zur zeit
+wie viel uhr haben wir  an der {location} zurzeit
+wie viel uhr haben wir  bei {location}
+wie viel uhr haben wir  bei {location} im moment
+wie viel uhr haben wir  bei {location} in diesem Moment
+wie viel uhr haben wir  bei {location} jetzt
+wie viel uhr haben wir  bei {location} momentan
+wie viel uhr haben wir  bei {location} zur zeit
+wie viel uhr haben wir  bei {location} zurzeit
+wie viel uhr haben wir  im moment
+wie viel uhr haben wir  im moment am {location}
+wie viel uhr haben wir  im moment an der {location}
+wie viel uhr haben wir  im moment aus {location}
+wie viel uhr haben wir  im moment bei {location}
+wie viel uhr haben wir  im moment im {location}
+wie viel uhr haben wir  im moment in {location}
+wie viel uhr haben wir  im moment von {location}
+wie viel uhr haben wir  im {location}
+wie viel uhr haben wir  im {location} im moment
+wie viel uhr haben wir  im {location} in diesem Moment
+wie viel uhr haben wir  im {location} jetzt
+wie viel uhr haben wir  im {location} momentan
+wie viel uhr haben wir  im {location} zur zeit
+wie viel uhr haben wir  im {location} zurzeit
+wie viel uhr haben wir  in diesem Moment
+wie viel uhr haben wir  in diesem Moment am {location}
+wie viel uhr haben wir  in diesem Moment an der {location}
+wie viel uhr haben wir  in diesem Moment aus {location}
+wie viel uhr haben wir  in diesem Moment bei {location}
+wie viel uhr haben wir  in diesem Moment im {location}
+wie viel uhr haben wir  in diesem Moment in {location}
+wie viel uhr haben wir  in diesem Moment von {location}
+wie viel uhr haben wir  in {location}
+wie viel uhr haben wir  in {location} im moment
+wie viel uhr haben wir  in {location} in diesem Moment
+wie viel uhr haben wir  in {location} jetzt
+wie viel uhr haben wir  in {location} momentan
+wie viel uhr haben wir  in {location} zur zeit
+wie viel uhr haben wir  in {location} zurzeit
+wie viel uhr haben wir  jetzt
+wie viel uhr haben wir  jetzt am {location}
+wie viel uhr haben wir  jetzt an der {location}
+wie viel uhr haben wir  jetzt aus {location}
+wie viel uhr haben wir  jetzt bei {location}
+wie viel uhr haben wir  jetzt im {location}
+wie viel uhr haben wir  jetzt in {location}
+wie viel uhr haben wir  jetzt von {location}
+wie viel uhr haben wir  momentan
+wie viel uhr haben wir  momentan am {location}
+wie viel uhr haben wir  momentan an der {location}
+wie viel uhr haben wir  momentan aus {location}
+wie viel uhr haben wir  momentan bei {location}
+wie viel uhr haben wir  momentan im {location}
+wie viel uhr haben wir  momentan in {location}
+wie viel uhr haben wir  momentan von {location}
+wie viel uhr haben wir  zur zeit
+wie viel uhr haben wir  zur zeit am {location}
+wie viel uhr haben wir  zur zeit an der {location}
+wie viel uhr haben wir  zur zeit aus {location}
+wie viel uhr haben wir  zur zeit bei {location}
+wie viel uhr haben wir  zur zeit im {location}
+wie viel uhr haben wir  zur zeit in {location}
+wie viel uhr haben wir  zur zeit von {location}
+wie viel uhr haben wir  zurzeit
+wie viel uhr haben wir  zurzeit am {location}
+wie viel uhr haben wir  zurzeit an der {location}
+wie viel uhr haben wir  zurzeit aus {location}
+wie viel uhr haben wir  zurzeit bei {location}
+wie viel uhr haben wir  zurzeit im {location}
+wie viel uhr haben wir  zurzeit in {location}
+wie viel uhr haben wir  zurzeit von {location}
+wie viel uhr haben wir es
+wie viel uhr haben wir es  am {location}
+wie viel uhr haben wir es  an der {location}
+wie viel uhr haben wir es  aus {location}
+wie viel uhr haben wir es  bei {location}
+wie viel uhr haben wir es  im {location}
+wie viel uhr haben wir es  in {location}
+wie viel uhr haben wir es  von {location}
+wie viel uhr haben wir es an der {location}
+wie viel uhr haben wir es an der {location} im moment
+wie viel uhr haben wir es an der {location} in diesem Moment
+wie viel uhr haben wir es an der {location} jetzt
+wie viel uhr haben wir es an der {location} momentan
+wie viel uhr haben wir es an der {location} zur zeit
+wie viel uhr haben wir es an der {location} zurzeit
+wie viel uhr haben wir es bei {location}
+wie viel uhr haben wir es bei {location} im moment
+wie viel uhr haben wir es bei {location} in diesem Moment
+wie viel uhr haben wir es bei {location} jetzt
+wie viel uhr haben wir es bei {location} momentan
+wie viel uhr haben wir es bei {location} zur zeit
+wie viel uhr haben wir es bei {location} zurzeit
+wie viel uhr haben wir es im moment
+wie viel uhr haben wir es im moment am {location}
+wie viel uhr haben wir es im moment an der {location}
+wie viel uhr haben wir es im moment aus {location}
+wie viel uhr haben wir es im moment bei {location}
+wie viel uhr haben wir es im moment im {location}
+wie viel uhr haben wir es im moment in {location}
+wie viel uhr haben wir es im moment von {location}
+wie viel uhr haben wir es im {location}
+wie viel uhr haben wir es im {location} im moment
+wie viel uhr haben wir es im {location} in diesem Moment
+wie viel uhr haben wir es im {location} jetzt
+wie viel uhr haben wir es im {location} momentan
+wie viel uhr haben wir es im {location} zur zeit
+wie viel uhr haben wir es im {location} zurzeit
+wie viel uhr haben wir es in diesem Moment
+wie viel uhr haben wir es in diesem Moment am {location}
+wie viel uhr haben wir es in diesem Moment an der {location}
+wie viel uhr haben wir es in diesem Moment aus {location}
+wie viel uhr haben wir es in diesem Moment bei {location}
+wie viel uhr haben wir es in diesem Moment im {location}
+wie viel uhr haben wir es in diesem Moment in {location}
+wie viel uhr haben wir es in diesem Moment von {location}
+wie viel uhr haben wir es in {location}
+wie viel uhr haben wir es in {location} im moment
+wie viel uhr haben wir es in {location} in diesem Moment
+wie viel uhr haben wir es in {location} jetzt
+wie viel uhr haben wir es in {location} momentan
+wie viel uhr haben wir es in {location} zur zeit
+wie viel uhr haben wir es in {location} zurzeit
+wie viel uhr haben wir es jetzt
+wie viel uhr haben wir es jetzt am {location}
+wie viel uhr haben wir es jetzt an der {location}
+wie viel uhr haben wir es jetzt aus {location}
+wie viel uhr haben wir es jetzt bei {location}
+wie viel uhr haben wir es jetzt im {location}
+wie viel uhr haben wir es jetzt in {location}
+wie viel uhr haben wir es jetzt von {location}
+wie viel uhr haben wir es momentan
+wie viel uhr haben wir es momentan am {location}
+wie viel uhr haben wir es momentan an der {location}
+wie viel uhr haben wir es momentan aus {location}
+wie viel uhr haben wir es momentan bei {location}
+wie viel uhr haben wir es momentan im {location}
+wie viel uhr haben wir es momentan in {location}
+wie viel uhr haben wir es momentan von {location}
+wie viel uhr haben wir es zur zeit
+wie viel uhr haben wir es zur zeit am {location}
+wie viel uhr haben wir es zur zeit an der {location}
+wie viel uhr haben wir es zur zeit aus {location}
+wie viel uhr haben wir es zur zeit bei {location}
+wie viel uhr haben wir es zur zeit im {location}
+wie viel uhr haben wir es zur zeit in {location}
+wie viel uhr haben wir es zur zeit von {location}
+wie viel uhr haben wir es zurzeit
+wie viel uhr haben wir es zurzeit am {location}
+wie viel uhr haben wir es zurzeit an der {location}
+wie viel uhr haben wir es zurzeit aus {location}
+wie viel uhr haben wir es zurzeit bei {location}
+wie viel uhr haben wir es zurzeit im {location}
+wie viel uhr haben wir es zurzeit in {location}
+wie viel uhr haben wir es zurzeit von {location}
+wie viel uhr ist
+wie viel uhr ist   am {location}
+wie viel uhr ist   an der {location}
+wie viel uhr ist   aus {location}
+wie viel uhr ist   bei {location}
+wie viel uhr ist   im {location}
+wie viel uhr ist   in {location}
+wie viel uhr ist   von {location}
+wie viel uhr ist  bei {location}
+wie viel uhr ist  bei {location} im moment
+wie viel uhr ist  bei {location} in diesem Moment
+wie viel uhr ist  bei {location} jetzt
+wie viel uhr ist  bei {location} momentan
+wie viel uhr ist  bei {location} zur zeit
+wie viel uhr ist  bei {location} zurzeit
+wie viel uhr ist  im moment
+wie viel uhr ist  im moment am {location}
+wie viel uhr ist  im moment an der {location}
+wie viel uhr ist  im moment aus {location}
+wie viel uhr ist  im moment bei {location}
+wie viel uhr ist  im moment im {location}
+wie viel uhr ist  im moment in {location}
+wie viel uhr ist  im moment von {location}
+wie viel uhr ist  in diesem Moment
+wie viel uhr ist  in diesem Moment am {location}
+wie viel uhr ist  in diesem Moment an der {location}
+wie viel uhr ist  in diesem Moment aus {location}
+wie viel uhr ist  in diesem Moment bei {location}
+wie viel uhr ist  in diesem Moment im {location}
+wie viel uhr ist  in diesem Moment in {location}
+wie viel uhr ist  in diesem Moment von {location}
+wie viel uhr ist  in {location}
+wie viel uhr ist  in {location} im moment
+wie viel uhr ist  in {location} in diesem Moment
+wie viel uhr ist  in {location} jetzt
+wie viel uhr ist  in {location} momentan
+wie viel uhr ist  in {location} zur zeit
+wie viel uhr ist  in {location} zurzeit
+wie viel uhr ist  jetzt
+wie viel uhr ist  jetzt am {location}
+wie viel uhr ist  jetzt an der {location}
+wie viel uhr ist  jetzt aus {location}
+wie viel uhr ist  jetzt bei {location}
+wie viel uhr ist  jetzt im {location}
+wie viel uhr ist  jetzt in {location}
+wie viel uhr ist  jetzt von {location}
+wie viel uhr ist  momentan
+wie viel uhr ist  momentan am {location}
+wie viel uhr ist  momentan an der {location}
+wie viel uhr ist  momentan aus {location}
+wie viel uhr ist  momentan bei {location}
+wie viel uhr ist  momentan im {location}
+wie viel uhr ist  momentan in {location}
+wie viel uhr ist  momentan von {location}
+wie viel uhr ist  zur zeit
+wie viel uhr ist  zur zeit am {location}
+wie viel uhr ist  zur zeit an der {location}
+wie viel uhr ist  zur zeit aus {location}
+wie viel uhr ist  zur zeit bei {location}
+wie viel uhr ist  zur zeit im {location}
+wie viel uhr ist  zur zeit in {location}
+wie viel uhr ist  zur zeit von {location}
+wie viel uhr ist  zurzeit
+wie viel uhr ist  zurzeit am {location}
+wie viel uhr ist  zurzeit an der {location}
+wie viel uhr ist  zurzeit aus {location}
+wie viel uhr ist  zurzeit bei {location}
+wie viel uhr ist  zurzeit im {location}
+wie viel uhr ist  zurzeit in {location}
+wie viel uhr ist  zurzeit von {location}
+wie viel uhr ist es
+wie viel uhr ist es  am {location}
+wie viel uhr ist es  an der {location}
+wie viel uhr ist es  aus {location}
+wie viel uhr ist es  bei {location}
+wie viel uhr ist es  im {location}
+wie viel uhr ist es  in {location}
+wie viel uhr ist es  von {location}
+wie viel uhr ist es bei {location}
+wie viel uhr ist es bei {location} im moment
+wie viel uhr ist es bei {location} in diesem Moment
+wie viel uhr ist es bei {location} jetzt
+wie viel uhr ist es bei {location} momentan
+wie viel uhr ist es bei {location} zur zeit
+wie viel uhr ist es bei {location} zurzeit
+wie viel uhr ist es im moment
+wie viel uhr ist es im moment am {location}
+wie viel uhr ist es im moment an der {location}
+wie viel uhr ist es im moment aus {location}
+wie viel uhr ist es im moment bei {location}
+wie viel uhr ist es im moment im {location}
+wie viel uhr ist es im moment in {location}
+wie viel uhr ist es im moment von {location}
+wie viel uhr ist es in diesem Moment
+wie viel uhr ist es in diesem Moment am {location}
+wie viel uhr ist es in diesem Moment an der {location}
+wie viel uhr ist es in diesem Moment aus {location}
+wie viel uhr ist es in diesem Moment bei {location}
+wie viel uhr ist es in diesem Moment im {location}
+wie viel uhr ist es in diesem Moment in {location}
+wie viel uhr ist es in diesem Moment von {location}
+wie viel uhr ist es in {location}
+wie viel uhr ist es in {location} im moment
+wie viel uhr ist es in {location} in diesem Moment
+wie viel uhr ist es in {location} jetzt
+wie viel uhr ist es in {location} momentan
+wie viel uhr ist es in {location} zur zeit
+wie viel uhr ist es in {location} zurzeit
+wie viel uhr ist es jetzt
+wie viel uhr ist es jetzt am {location}
+wie viel uhr ist es jetzt an der {location}
+wie viel uhr ist es jetzt aus {location}
+wie viel uhr ist es jetzt bei {location}
+wie viel uhr ist es jetzt im {location}
+wie viel uhr ist es jetzt in {location}
+wie viel uhr ist es jetzt von {location}
+wie viel uhr ist es momentan
+wie viel uhr ist es momentan am {location}
+wie viel uhr ist es momentan an der {location}
+wie viel uhr ist es momentan aus {location}
+wie viel uhr ist es momentan bei {location}
+wie viel uhr ist es momentan im {location}
+wie viel uhr ist es momentan in {location}
+wie viel uhr ist es momentan von {location}
+wie viel uhr ist es zur zeit
+wie viel uhr ist es zur zeit am {location}
+wie viel uhr ist es zur zeit an der {location}
+wie viel uhr ist es zur zeit aus {location}
+wie viel uhr ist es zur zeit bei {location}
+wie viel uhr ist es zur zeit im {location}
+wie viel uhr ist es zur zeit in {location}
+wie viel uhr ist es zur zeit von {location}
+wie viel uhr ist es zurzeit
+wie viel uhr ist es zurzeit am {location}
+wie viel uhr ist es zurzeit an der {location}
+wie viel uhr ist es zurzeit aus {location}
+wie viel uhr ist es zurzeit bei {location}
+wie viel uhr ist es zurzeit im {location}
+wie viel uhr ist es zurzeit in {location}
+wie viel uhr ist es zurzeit von {location}
+wieviel uhr haben wir
+wieviel uhr haben wir   am {location}
+wieviel uhr haben wir   an der {location}
+wieviel uhr haben wir   aus {location}
+wieviel uhr haben wir   bei {location}
+wieviel uhr haben wir   im {location}
+wieviel uhr haben wir   in {location}
+wieviel uhr haben wir   von {location}
+wieviel uhr haben wir  an der {location}
+wieviel uhr haben wir  an der {location} im moment
+wieviel uhr haben wir  an der {location} in diesem Moment
+wieviel uhr haben wir  an der {location} jetzt
+wieviel uhr haben wir  an der {location} momentan
+wieviel uhr haben wir  an der {location} zur zeit
+wieviel uhr haben wir  an der {location} zurzeit
+wieviel uhr haben wir  bei {location}
+wieviel uhr haben wir  bei {location} im moment
+wieviel uhr haben wir  bei {location} in diesem Moment
+wieviel uhr haben wir  bei {location} jetzt
+wieviel uhr haben wir  bei {location} momentan
+wieviel uhr haben wir  bei {location} zur zeit
+wieviel uhr haben wir  bei {location} zurzeit
+wieviel uhr haben wir  im moment
+wieviel uhr haben wir  im moment am {location}
+wieviel uhr haben wir  im moment an der {location}
+wieviel uhr haben wir  im moment aus {location}
+wieviel uhr haben wir  im moment bei {location}
+wieviel uhr haben wir  im moment im {location}
+wieviel uhr haben wir  im moment in {location}
+wieviel uhr haben wir  im moment von {location}
+wieviel uhr haben wir  im {location}
+wieviel uhr haben wir  im {location} im moment
+wieviel uhr haben wir  im {location} in diesem Moment
+wieviel uhr haben wir  im {location} jetzt
+wieviel uhr haben wir  im {location} momentan
+wieviel uhr haben wir  im {location} zur zeit
+wieviel uhr haben wir  im {location} zurzeit
+wieviel uhr haben wir  in diesem Moment
+wieviel uhr haben wir  in diesem Moment am {location}
+wieviel uhr haben wir  in diesem Moment an der {location}
+wieviel uhr haben wir  in diesem Moment aus {location}
+wieviel uhr haben wir  in diesem Moment bei {location}
+wieviel uhr haben wir  in diesem Moment im {location}
+wieviel uhr haben wir  in diesem Moment in {location}
+wieviel uhr haben wir  in diesem Moment von {location}
+wieviel uhr haben wir  in {location}
+wieviel uhr haben wir  in {location} im moment
+wieviel uhr haben wir  in {location} in diesem Moment
+wieviel uhr haben wir  in {location} jetzt
+wieviel uhr haben wir  in {location} momentan
+wieviel uhr haben wir  in {location} zur zeit
+wieviel uhr haben wir  in {location} zurzeit
+wieviel uhr haben wir  jetzt
+wieviel uhr haben wir  jetzt am {location}
+wieviel uhr haben wir  jetzt an der {location}
+wieviel uhr haben wir  jetzt aus {location}
+wieviel uhr haben wir  jetzt bei {location}
+wieviel uhr haben wir  jetzt im {location}
+wieviel uhr haben wir  jetzt in {location}
+wieviel uhr haben wir  jetzt von {location}
+wieviel uhr haben wir  momentan
+wieviel uhr haben wir  momentan am {location}
+wieviel uhr haben wir  momentan an der {location}
+wieviel uhr haben wir  momentan aus {location}
+wieviel uhr haben wir  momentan bei {location}
+wieviel uhr haben wir  momentan im {location}
+wieviel uhr haben wir  momentan in {location}
+wieviel uhr haben wir  momentan von {location}
+wieviel uhr haben wir  zur zeit
+wieviel uhr haben wir  zur zeit am {location}
+wieviel uhr haben wir  zur zeit an der {location}
+wieviel uhr haben wir  zur zeit aus {location}
+wieviel uhr haben wir  zur zeit bei {location}
+wieviel uhr haben wir  zur zeit im {location}
+wieviel uhr haben wir  zur zeit in {location}
+wieviel uhr haben wir  zur zeit von {location}
+wieviel uhr haben wir  zurzeit
+wieviel uhr haben wir  zurzeit am {location}
+wieviel uhr haben wir  zurzeit an der {location}
+wieviel uhr haben wir  zurzeit aus {location}
+wieviel uhr haben wir  zurzeit bei {location}
+wieviel uhr haben wir  zurzeit im {location}
+wieviel uhr haben wir  zurzeit in {location}
+wieviel uhr haben wir  zurzeit von {location}
+wieviel uhr haben wir es
+wieviel uhr haben wir es  am {location}
+wieviel uhr haben wir es  an der {location}
+wieviel uhr haben wir es  aus {location}
+wieviel uhr haben wir es  bei {location}
+wieviel uhr haben wir es  im {location}
+wieviel uhr haben wir es  in {location}
+wieviel uhr haben wir es  von {location}
+wieviel uhr haben wir es an der {location}
+wieviel uhr haben wir es an der {location} im moment
+wieviel uhr haben wir es an der {location} in diesem Moment
+wieviel uhr haben wir es an der {location} jetzt
+wieviel uhr haben wir es an der {location} momentan
+wieviel uhr haben wir es an der {location} zur zeit
+wieviel uhr haben wir es an der {location} zurzeit
+wieviel uhr haben wir es bei {location}
+wieviel uhr haben wir es bei {location} im moment
+wieviel uhr haben wir es bei {location} in diesem Moment
+wieviel uhr haben wir es bei {location} jetzt
+wieviel uhr haben wir es bei {location} momentan
+wieviel uhr haben wir es bei {location} zur zeit
+wieviel uhr haben wir es bei {location} zurzeit
+wieviel uhr haben wir es im moment
+wieviel uhr haben wir es im moment am {location}
+wieviel uhr haben wir es im moment an der {location}
+wieviel uhr haben wir es im moment aus {location}
+wieviel uhr haben wir es im moment bei {location}
+wieviel uhr haben wir es im moment im {location}
+wieviel uhr haben wir es im moment in {location}
+wieviel uhr haben wir es im moment von {location}
+wieviel uhr haben wir es im {location}
+wieviel uhr haben wir es im {location} im moment
+wieviel uhr haben wir es im {location} in diesem Moment
+wieviel uhr haben wir es im {location} jetzt
+wieviel uhr haben wir es im {location} momentan
+wieviel uhr haben wir es im {location} zur zeit
+wieviel uhr haben wir es im {location} zurzeit
+wieviel uhr haben wir es in diesem Moment
+wieviel uhr haben wir es in diesem Moment am {location}
+wieviel uhr haben wir es in diesem Moment an der {location}
+wieviel uhr haben wir es in diesem Moment aus {location}
+wieviel uhr haben wir es in diesem Moment bei {location}
+wieviel uhr haben wir es in diesem Moment im {location}
+wieviel uhr haben wir es in diesem Moment in {location}
+wieviel uhr haben wir es in diesem Moment von {location}
+wieviel uhr haben wir es in {location}
+wieviel uhr haben wir es in {location} im moment
+wieviel uhr haben wir es in {location} in diesem Moment
+wieviel uhr haben wir es in {location} jetzt
+wieviel uhr haben wir es in {location} momentan
+wieviel uhr haben wir es in {location} zur zeit
+wieviel uhr haben wir es in {location} zurzeit
+wieviel uhr haben wir es jetzt
+wieviel uhr haben wir es jetzt am {location}
+wieviel uhr haben wir es jetzt an der {location}
+wieviel uhr haben wir es jetzt aus {location}
+wieviel uhr haben wir es jetzt bei {location}
+wieviel uhr haben wir es jetzt im {location}
+wieviel uhr haben wir es jetzt in {location}
+wieviel uhr haben wir es jetzt von {location}
+wieviel uhr haben wir es momentan
+wieviel uhr haben wir es momentan am {location}
+wieviel uhr haben wir es momentan an der {location}
+wieviel uhr haben wir es momentan aus {location}
+wieviel uhr haben wir es momentan bei {location}
+wieviel uhr haben wir es momentan im {location}
+wieviel uhr haben wir es momentan in {location}
+wieviel uhr haben wir es momentan von {location}
+wieviel uhr haben wir es zur zeit
+wieviel uhr haben wir es zur zeit am {location}
+wieviel uhr haben wir es zur zeit an der {location}
+wieviel uhr haben wir es zur zeit aus {location}
+wieviel uhr haben wir es zur zeit bei {location}
+wieviel uhr haben wir es zur zeit im {location}
+wieviel uhr haben wir es zur zeit in {location}
+wieviel uhr haben wir es zur zeit von {location}
+wieviel uhr haben wir es zurzeit
+wieviel uhr haben wir es zurzeit am {location}
+wieviel uhr haben wir es zurzeit an der {location}
+wieviel uhr haben wir es zurzeit aus {location}
+wieviel uhr haben wir es zurzeit bei {location}
+wieviel uhr haben wir es zurzeit im {location}
+wieviel uhr haben wir es zurzeit in {location}
+wieviel uhr haben wir es zurzeit von {location}
+wieviel uhr ist
+wieviel uhr ist   am {location}
+wieviel uhr ist   an der {location}
+wieviel uhr ist   aus {location}
+wieviel uhr ist   bei {location}
+wieviel uhr ist   im {location}
+wieviel uhr ist   in {location}
+wieviel uhr ist   von {location}
+wieviel uhr ist  bei {location}
+wieviel uhr ist  bei {location} im moment
+wieviel uhr ist  bei {location} in diesem Moment
+wieviel uhr ist  bei {location} jetzt
+wieviel uhr ist  bei {location} momentan
+wieviel uhr ist  bei {location} zur zeit
+wieviel uhr ist  bei {location} zurzeit
+wieviel uhr ist  im moment
+wieviel uhr ist  im moment am {location}
+wieviel uhr ist  im moment an der {location}
+wieviel uhr ist  im moment aus {location}
+wieviel uhr ist  im moment bei {location}
+wieviel uhr ist  im moment im {location}
+wieviel uhr ist  im moment in {location}
+wieviel uhr ist  im moment von {location}
+wieviel uhr ist  in diesem Moment
+wieviel uhr ist  in diesem Moment am {location}
+wieviel uhr ist  in diesem Moment an der {location}
+wieviel uhr ist  in diesem Moment aus {location}
+wieviel uhr ist  in diesem Moment bei {location}
+wieviel uhr ist  in diesem Moment im {location}
+wieviel uhr ist  in diesem Moment in {location}
+wieviel uhr ist  in diesem Moment von {location}
+wieviel uhr ist  in {location}
+wieviel uhr ist  in {location} im moment
+wieviel uhr ist  in {location} in diesem Moment
+wieviel uhr ist  in {location} jetzt
+wieviel uhr ist  in {location} momentan
+wieviel uhr ist  in {location} zur zeit
+wieviel uhr ist  in {location} zurzeit
+wieviel uhr ist  jetzt
+wieviel uhr ist  jetzt am {location}
+wieviel uhr ist  jetzt an der {location}
+wieviel uhr ist  jetzt aus {location}
+wieviel uhr ist  jetzt bei {location}
+wieviel uhr ist  jetzt im {location}
+wieviel uhr ist  jetzt in {location}
+wieviel uhr ist  jetzt von {location}
+wieviel uhr ist  momentan
+wieviel uhr ist  momentan am {location}
+wieviel uhr ist  momentan an der {location}
+wieviel uhr ist  momentan aus {location}
+wieviel uhr ist  momentan bei {location}
+wieviel uhr ist  momentan im {location}
+wieviel uhr ist  momentan in {location}
+wieviel uhr ist  momentan von {location}
+wieviel uhr ist  zur zeit
+wieviel uhr ist  zur zeit am {location}
+wieviel uhr ist  zur zeit an der {location}
+wieviel uhr ist  zur zeit aus {location}
+wieviel uhr ist  zur zeit bei {location}
+wieviel uhr ist  zur zeit im {location}
+wieviel uhr ist  zur zeit in {location}
+wieviel uhr ist  zur zeit von {location}
+wieviel uhr ist  zurzeit
+wieviel uhr ist  zurzeit am {location}
+wieviel uhr ist  zurzeit an der {location}
+wieviel uhr ist  zurzeit aus {location}
+wieviel uhr ist  zurzeit bei {location}
+wieviel uhr ist  zurzeit im {location}
+wieviel uhr ist  zurzeit in {location}
+wieviel uhr ist  zurzeit von {location}
+wieviel uhr ist es
+wieviel uhr ist es  am {location}
+wieviel uhr ist es  an der {location}
+wieviel uhr ist es  aus {location}
+wieviel uhr ist es  bei {location}
+wieviel uhr ist es  im {location}
+wieviel uhr ist es  in {location}
+wieviel uhr ist es  von {location}
+wieviel uhr ist es bei {location}
+wieviel uhr ist es bei {location} im moment
+wieviel uhr ist es bei {location} in diesem Moment
+wieviel uhr ist es bei {location} jetzt
+wieviel uhr ist es bei {location} momentan
+wieviel uhr ist es bei {location} zur zeit
+wieviel uhr ist es bei {location} zurzeit
+wieviel uhr ist es im moment
+wieviel uhr ist es im moment am {location}
+wieviel uhr ist es im moment an der {location}
+wieviel uhr ist es im moment aus {location}
+wieviel uhr ist es im moment bei {location}
+wieviel uhr ist es im moment im {location}
+wieviel uhr ist es im moment in {location}
+wieviel uhr ist es im moment von {location}
+wieviel uhr ist es in diesem Moment
+wieviel uhr ist es in diesem Moment am {location}
+wieviel uhr ist es in diesem Moment an der {location}
+wieviel uhr ist es in diesem Moment aus {location}
+wieviel uhr ist es in diesem Moment bei {location}
+wieviel uhr ist es in diesem Moment im {location}
+wieviel uhr ist es in diesem Moment in {location}
+wieviel uhr ist es in diesem Moment von {location}
+wieviel uhr ist es in {location}
+wieviel uhr ist es in {location} im moment
+wieviel uhr ist es in {location} in diesem Moment
+wieviel uhr ist es in {location} jetzt
+wieviel uhr ist es in {location} momentan
+wieviel uhr ist es in {location} zur zeit
+wieviel uhr ist es in {location} zurzeit
+wieviel uhr ist es jetzt
+wieviel uhr ist es jetzt am {location}
+wieviel uhr ist es jetzt an der {location}
+wieviel uhr ist es jetzt aus {location}
+wieviel uhr ist es jetzt bei {location}
+wieviel uhr ist es jetzt im {location}
+wieviel uhr ist es jetzt in {location}
+wieviel uhr ist es jetzt von {location}
+wieviel uhr ist es momentan
+wieviel uhr ist es momentan am {location}
+wieviel uhr ist es momentan an der {location}
+wieviel uhr ist es momentan aus {location}
+wieviel uhr ist es momentan bei {location}
+wieviel uhr ist es momentan im {location}
+wieviel uhr ist es momentan in {location}
+wieviel uhr ist es momentan von {location}
+wieviel uhr ist es zur zeit
+wieviel uhr ist es zur zeit am {location}
+wieviel uhr ist es zur zeit an der {location}
+wieviel uhr ist es zur zeit aus {location}
+wieviel uhr ist es zur zeit bei {location}
+wieviel uhr ist es zur zeit im {location}
+wieviel uhr ist es zur zeit in {location}
+wieviel uhr ist es zur zeit von {location}
+wieviel uhr ist es zurzeit
+wieviel uhr ist es zurzeit am {location}
+wieviel uhr ist es zurzeit an der {location}
+wieviel uhr ist es zurzeit aus {location}
+wieviel uhr ist es zurzeit bei {location}
+wieviel uhr ist es zurzeit im {location}
+wieviel uhr ist es zurzeit in {location}
+wieviel uhr ist es zurzeit von {location}

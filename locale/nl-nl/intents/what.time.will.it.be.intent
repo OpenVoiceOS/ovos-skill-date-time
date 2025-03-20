@@ -10,8 +10,6 @@ hoe laat zal het zijn over {offset} seconden
 hoe laat zal het zijn over {offset} seconden vanaf nu
 hoe laat zal het zijn over {offset} uur
 hoe laat zal het zijn over {offset} uur in {location}
-wanneer is het {offset} (uur|minuten|seconden) (vanaf nu)
-wanneer is het {offset} (uur|minuten|seconden) (vanaf nu) in {location}
 wanneer is het {offset} minuten
 wanneer is het {offset} minuten in {location}
 wanneer is het {offset} minuten vanaf nu

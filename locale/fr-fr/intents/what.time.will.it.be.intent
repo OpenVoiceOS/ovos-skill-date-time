@@ -1,2 +1,12 @@
-quand sera-t-il {offset} (heures|minutes|secondes) (à partir de maintenant|)
-quand sera-t-il {offset} (heures|minutes|secondes) (à partir de maintenant|) à {location}
+quand sera-t-il {offset} heures
+quand sera-t-il {offset} heures  à {location}
+quand sera-t-il {offset} heures à partir de maintenant
+quand sera-t-il {offset} heures à partir de maintenant à {location}
+quand sera-t-il {offset} minutes
+quand sera-t-il {offset} minutes  à {location}
+quand sera-t-il {offset} minutes à partir de maintenant
+quand sera-t-il {offset} minutes à partir de maintenant à {location}
+quand sera-t-il {offset} secondes
+quand sera-t-il {offset} secondes  à {location}
+quand sera-t-il {offset} secondes à partir de maintenant
+quand sera-t-il {offset} secondes à partir de maintenant à {location}

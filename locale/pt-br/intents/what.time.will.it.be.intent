@@ -1,2 +1,24 @@
-que horas serão em {offset} (horas|minutos|segundos) (a partir de agora|)
-que horas são em {offset} (horas|minutos|segundos) (a partir de agora|) (em|no|na) {location}
+que horas serão em {offset} horas
+que horas serão em {offset} horas a partir de agora
+que horas serão em {offset} minutos
+que horas serão em {offset} minutos a partir de agora
+que horas serão em {offset} segundos
+que horas serão em {offset} segundos a partir de agora
+que horas são em {offset} horas  em {location}
+que horas são em {offset} horas  na {location}
+que horas são em {offset} horas  no {location}
+que horas são em {offset} horas a partir de agora em {location}
+que horas são em {offset} horas a partir de agora na {location}
+que horas são em {offset} horas a partir de agora no {location}
+que horas são em {offset} minutos  em {location}
+que horas são em {offset} minutos  na {location}
+que horas são em {offset} minutos  no {location}
+que horas são em {offset} minutos a partir de agora em {location}
+que horas são em {offset} minutos a partir de agora na {location}
+que horas são em {offset} minutos a partir de agora no {location}
+que horas são em {offset} segundos  em {location}
+que horas são em {offset} segundos  na {location}
+que horas são em {offset} segundos  no {location}
+que horas são em {offset} segundos a partir de agora em {location}
+que horas são em {offset} segundos a partir de agora na {location}
+que horas são em {offset} segundos a partir de agora no {location}

@@ -1,75 +1,499 @@
-(Digue'm|Digues-me|Dis-me) (ara|) (l'|s'|)hora (ara|), (si us plau|sisplau|per favor).
-(Digue'm|Digues-me|Dis-me) (l'|s'|)hora.
-(Digues-me|Digue'm|Dis-me) (l'|s'|)hora (si us plau|sisplau|per favor|)
-(Digues-me|Digue'm|Dis-me|Dóna'm|Dona'm) l'hora actual(,|) (si us plau|sisplau|per favor).
-(Em cal|Necessito) saber (l'|s'|)hora.
-(Em pots donar|Em pots indicar|Pots donar-me|Pots indicar-me) (l |s)'hora actualitzada
-(He de|Em cal|Necessito) (saber|comprovar) (l'|s'|)hora.
-(Pots|Podries) compartir (l'|s'|)hora (si us plau|sisplau|per favor)
-(Pots|Podries) dir-me (l'|s'|)hora (sisplau|si us plau|per favor|)
-(Proporciona|Indica)('m|) (l'|s'|)hora actual.
-(Si us plau|Sisplau|Per favor), (informa'm de |digues-me|digue'm|dis-me) (l'|s'|)hora.
-(digues|digues-me|digue'm|dis-me) quina hora és
-(dona|dóna|indica)'m (l'|s'|)hora actual
-(el|es) rellotge ara mateix
-(el|es) rellotge ara mateix (si us plau|sisplau|per favor)
-(el|la) (hora|rellotge) ((dreta |)ara |)(si us plau|)
-(indica'm|dona'm|dóna'm) (l'|s'|)hora
-(l'|s'|)hora
-(l'|s'|)hora (si us plau|sisplau|per favor|)
-(l'|s'|)hora ara
-(l'|s'|)hora ara (si us plau|sisplau|per favor)
-(l'|s'|)hora ara mateix (si us plau|sisplau|per favor)
-(si us plau|sisplau|per favor|)(,|) (digues-me|digue'm|dis-me) (l'|s'|)hora actual
-Avisa'm de (l'|s'|)hora, (si us plau|sisplau|per favor).
+Avisa'm de hora, per favor.
+Avisa'm de hora, si us plau.
+Avisa'm de hora, sisplau.
+Avisa'm de l'hora, per favor.
+Avisa'm de l'hora, si us plau.
+Avisa'm de l'hora, sisplau.
+Avisa'm de s'hora, per favor.
+Avisa'm de s'hora, si us plau.
+Avisa'm de s'hora, sisplau.
+Digue'm hora
+Digue'm hora actual
+Digue'm hora ara
+Digue'm hora.
+Digue'm l'hora
+Digue'm l'hora actual
+Digue'm l'hora actual per favor.
+Digue'm l'hora actual si us plau.
+Digue'm l'hora actual sisplau.
+Digue'm l'hora actual, per favor.
+Digue'm l'hora actual, si us plau.
+Digue'm l'hora actual, sisplau.
+Digue'm l'hora ara
+Digue'm l'hora.
+Digue'm s'hora
+Digue'm s'hora actual
+Digue'm s'hora ara
+Digue'm s'hora.
+Digues-me hora
+Digues-me hora actual
+Digues-me hora ara
+Digues-me hora.
+Digues-me l'hora
+Digues-me l'hora actual
+Digues-me l'hora actual per favor.
+Digues-me l'hora actual si us plau.
+Digues-me l'hora actual sisplau.
+Digues-me l'hora actual, per favor.
+Digues-me l'hora actual, si us plau.
+Digues-me l'hora actual, sisplau.
+Digues-me l'hora ara
+Digues-me l'hora.
+Digues-me s'hora
+Digues-me s'hora actual
+Digues-me s'hora ara
+Digues-me s'hora.
+Dis-me hora
+Dis-me hora actual
+Dis-me hora ara
+Dis-me hora.
+Dis-me l'hora
+Dis-me l'hora actual
+Dis-me l'hora actual per favor.
+Dis-me l'hora actual si us plau.
+Dis-me l'hora actual sisplau.
+Dis-me l'hora actual, per favor.
+Dis-me l'hora actual, si us plau.
+Dis-me l'hora actual, sisplau.
+Dis-me l'hora ara
+Dis-me l'hora.
+Dis-me s'hora
+Dis-me s'hora actual
+Dis-me s'hora ara
+Dis-me s'hora.
+Dona'm l'hora actual per favor.
+Dona'm l'hora actual si us plau.
+Dona'm l'hora actual sisplau.
+Dona'm l'hora actual, per favor.
+Dona'm l'hora actual, si us plau.
+Dona'm l'hora actual, sisplau.
+Dóna'm l'hora actual per favor.
+Dóna'm l'hora actual si us plau.
+Dóna'm l'hora actual sisplau.
+Dóna'm l'hora actual, per favor.
+Dóna'm l'hora actual, si us plau.
+Dóna'm l'hora actual, sisplau.
+Em cal comprovar hora.
+Em cal comprovar l'hora.
+Em cal comprovar s'hora.
+Em cal saber hora.
+Em cal saber l'hora.
+Em cal saber s'hora.
 Em pots dir quina hora és
-Em pots donar (l'|s'|)hora, (si us plau|sisplau|per favor)
-Em pregunto (quina hora és|per (l'|s'|)hora actual).
-M'agradaria saber (l'|s'|)hora actual
-M'agradaria saber (l'|s'|)hora ara mateix.
-Necessito saber (l'|s'|)hora ara
-Per casualitat saps (l'|s'|)hora?
-Pots dir-me (l'|s'|)hora
+Em pots donar hora, per favor
+Em pots donar hora, si us plau
+Em pots donar hora, sisplau
+Em pots donar l 'hora actualitzada
+Em pots donar l'hora, per favor
+Em pots donar l'hora, si us plau
+Em pots donar l'hora, sisplau
+Em pots donar s'hora actualitzada
+Em pots donar s'hora, per favor
+Em pots donar s'hora, si us plau
+Em pots donar s'hora, sisplau
+Em pots indicar l 'hora actualitzada
+Em pots indicar s'hora actualitzada
+Em pregunto per hora actual.
+Em pregunto per l'hora actual.
+Em pregunto per s'hora actual.
+Em pregunto quina hora és.
+He de comprovar hora.
+He de comprovar l'hora.
+He de comprovar s'hora.
+He de saber hora.
+He de saber l'hora.
+He de saber s'hora.
+Indica hora actual.
+Indica l'hora actual.
+Indica s'hora actual.
+Indica'm hora actual.
+Indica'm l'hora actual.
+Indica'm s'hora actual.
+M'agradaria saber hora ara mateix.
+M'agradaria saber l'hora ara mateix.
+M'agradaria saber s'hora ara mateix.
+Necessito comprovar hora.
+Necessito comprovar l'hora.
+Necessito comprovar s'hora.
+Necessito saber hora.
+Necessito saber l'hora.
+Necessito saber s'hora.
+Per casualitat saps hora?
+Per casualitat saps l'hora?
+Per casualitat saps s'hora?
+Per favor digue'm hora.
+Per favor digue'm l'hora.
+Per favor digue'm s'hora.
+Per favor digues-me hora.
+Per favor digues-me l'hora.
+Per favor digues-me s'hora.
+Per favor dis-me hora.
+Per favor dis-me l'hora.
+Per favor dis-me s'hora.
+Per favor informa'm de  hora.
+Per favor informa'm de  l'hora.
+Per favor informa'm de  s'hora.
+Podries compartir hora per favor
+Podries compartir hora si us plau
+Podries compartir hora sisplau
+Podries compartir l'hora per favor
+Podries compartir l'hora si us plau
+Podries compartir l'hora sisplau
+Podries compartir s'hora per favor
+Podries compartir s'hora si us plau
+Podries compartir s'hora sisplau
+Podries dir-me hora
+Podries dir-me hora per favor
+Podries dir-me hora si us plau
+Podries dir-me hora sisplau
+Podries dir-me l'hora
+Podries dir-me l'hora per favor
+Podries dir-me l'hora si us plau
+Podries dir-me l'hora sisplau
+Podries dir-me s'hora
+Podries dir-me s'hora per favor
+Podries dir-me s'hora si us plau
+Podries dir-me s'hora sisplau
+Pots compartir hora per favor
+Pots compartir hora si us plau
+Pots compartir hora sisplau
+Pots compartir l'hora per favor
+Pots compartir l'hora si us plau
+Pots compartir l'hora sisplau
+Pots compartir s'hora per favor
+Pots compartir s'hora si us plau
+Pots compartir s'hora sisplau
+Pots dir-me hora
+Pots dir-me hora per favor
+Pots dir-me hora si us plau
+Pots dir-me hora sisplau
+Pots dir-me l'hora
+Pots dir-me l'hora per favor
+Pots dir-me l'hora si us plau
+Pots dir-me l'hora sisplau
+Pots dir-me s'hora
+Pots dir-me s'hora per favor
+Pots dir-me s'hora si us plau
+Pots dir-me s'hora sisplau
+Pots donar-me l 'hora actualitzada
+Pots donar-me s'hora actualitzada
+Pots indicar-me l 'hora actualitzada
+Pots indicar-me s'hora actualitzada
+Proporciona hora actual.
+Proporciona l'hora actual.
+Proporciona s'hora actual.
+Proporciona'm hora actual.
+Proporciona'm l'hora actual.
+Proporciona'm s'hora actual.
 Puc saber l'hora
-Quina (hora és|és (l'|s'|)hora actual), si no t'importa
 Quina hora es mostra
 Quina hora és
 Quina hora és actualment
 Quina hora és ara
-Quina hora és segons (el|es) teu rellotge?
-Quina és (l'|s'|)hora en aquest moment
-T'agrairia que em (poguessis dir|diguessis) (l'|s'|)hora.
-Tens (l'|s'|)hora ara mateix
-Tens disponible (l'|s'|)hora actual
-Tinc curiositat per (l'|s'|)hora
+Quina hora és segons el teu rellotge?
+Quina hora és segons es teu rellotge?
+Quina hora és si no t'importa
+Quina és hora actual
+Quina és hora actual si no t'importa
+Quina és hora en aquest moment
+Quina és l'hora actual
+Quina és l'hora actual si no t'importa
+Quina és l'hora en aquest moment
+Quina és s'hora actual
+Quina és s'hora actual si no t'importa
+Quina és s'hora en aquest moment
+Si us plau digue'm hora.
+Si us plau digue'm l'hora.
+Si us plau digue'm s'hora.
+Si us plau digues-me hora.
+Si us plau digues-me l'hora.
+Si us plau digues-me s'hora.
+Si us plau dis-me hora.
+Si us plau dis-me l'hora.
+Si us plau dis-me s'hora.
+Si us plau informa'm de  hora.
+Si us plau informa'm de  l'hora.
+Si us plau informa'm de  s'hora.
+Sisplau digue'm hora.
+Sisplau digue'm l'hora.
+Sisplau digue'm s'hora.
+Sisplau digues-me hora.
+Sisplau digues-me l'hora.
+Sisplau digues-me s'hora.
+Sisplau dis-me hora.
+Sisplau dis-me l'hora.
+Sisplau dis-me s'hora.
+Sisplau informa'm de  hora.
+Sisplau informa'm de  l'hora.
+Sisplau informa'm de  s'hora.
+T'agrairia que em diguessis hora.
+T'agrairia que em diguessis l'hora.
+T'agrairia que em diguessis s'hora.
+T'agrairia que em poguessis dir hora.
+T'agrairia que em poguessis dir l'hora.
+T'agrairia que em poguessis dir s'hora.
+Tens disponible hora actual
+Tens disponible l'hora actual
+Tens disponible s'hora actual
+Tens hora ara mateix
+Tens l'hora ara mateix
+Tens s'hora ara mateix
+Tinc curiositat per hora
+Tinc curiositat per l'hora
+Tinc curiositat per s'hora
 Tinc curiositat, quina hora és
-Vull (comprovar|saber) (l'|s'|)hora (actual|).
-Vull (saber|conèixer) (l'|s'|)hora
+Vull comprovar hora
+Vull comprovar hora actual
+Vull comprovar l'hora
+Vull comprovar l'hora actual
+Vull comprovar s'hora
+Vull comprovar s'hora actual
+Vull conèixer hora
+Vull conèixer l'hora
+Vull conèixer s'hora
+Vull saber hora
+Vull saber hora actual
+Vull saber l'hora
+Vull saber l'hora actual
+Vull saber s'hora
+Vull saber s'hora actual
+digue'm hora actual
+digue'm hora.
+digue'm l'hora actual
+digue'm l'hora.
+digue'm quina hora és
+digue'm s'hora actual
+digue'm s'hora.
+digues quina hora és
+digues-me hora actual
+digues-me hora.
+digues-me l'hora actual
+digues-me l'hora.
+digues-me quina hora és
+digues-me s'hora actual
+digues-me s'hora.
+dis-me hora actual
+dis-me hora.
+dis-me l'hora actual
+dis-me l'hora.
+dis-me quina hora és
+dis-me s'hora actual
+dis-me s'hora.
+dona'm hora
+dona'm hora actual
+dona'm l'hora
+dona'm l'hora actual
+dona'm s'hora
+dona'm s'hora actual
+dóna'm hora
+dóna'm hora actual
+dóna'm l'hora
+dóna'm l'hora actual
+dóna'm s'hora
+dóna'm s'hora actual
+el hora
+el hora actual
+el hora actualitzat
+el hora correcta
+el hora dreta
+el hora exacta
+el hora precisa
+el hora presenta
 el rellotge
+el rellotge actual
+el rellotge actualitzat
 el rellotge ara
-el rellotge ara (si us plau|sisplau|per favor)
+el rellotge ara mateix
+el rellotge ara mateix per favor
+el rellotge ara mateix si us plau
+el rellotge ara mateix sisplau
+el rellotge correcta
+el rellotge dreta
+el rellotge exacta
+el rellotge precisa
+el rellotge presenta
 el rellotge sisplau
-em podries dir (l'|s'|)hora
-em pots (informar de|dir) (l'|s'|)hora
-em pots dir (l'|s'|)hora
-fes-me saber (l'|s'|)hora actual
+el relox
+el relox actual
+el relox actualitzat
+el relox correcta
+el relox dreta
+el relox exacta
+el relox precisa
+el relox presenta
+el temps
+el temps actual
+el temps actualitzat
+el temps correcta
+el temps dreta
+el temps exacta
+el temps precisa
+el temps presenta
+em podries dir hora
+em podries dir l'hora
+em podries dir s'hora
+em pots dir hora
+em pots dir l'hora
+em pots dir s'hora
+em pots informar de hora
+em pots informar de l'hora
+em pots informar de s'hora
+es rellotge ara mateix
+es rellotge ara mateix per favor
+es rellotge ara mateix si us plau
+es rellotge ara mateix sisplau
+fes-me saber hora actual
+fes-me saber l'hora actual
+fes-me saber s'hora actual
 hora
-hora (si us plau|sisplau|per favor)
-hora actual
-hora ara (si us plau|sisplau|per favor|)
+hora ara
+hora ara mateix per favor
+hora ara mateix si us plau
+hora ara mateix sisplau
+hora ara per favor
+hora ara si us plau
+hora ara sisplau
+hora per favor
+hora si us plau
+hora sisplau
+horaactual
+indica'm hora
+indica'm hora actual
+indica'm l'hora
+indica'm l'hora actual
+indica'm s'hora
+indica'm s'hora actual
+informa'm de  hora.
+informa'm de  l'hora.
+informa'm de  s'hora.
+l'hora
+l'hora ara
 l'hora ara mateix
+l'hora ara mateix per favor
+l'hora ara mateix si us plau
 l'hora ara mateix sisplau
+l'hora ara per favor
+l'hora ara si us plau
+l'hora ara sisplau
+l'hora per favor
+l'hora si us plau
+l'hora sisplau
+la hora
+la hora actual
+la hora actualitzat
+la hora correcta
+la hora dreta
+la hora exacta
+la hora precisa
+la hora presenta
+la rellotge
+la rellotge actual
+la rellotge actualitzat
+la rellotge correcta
+la rellotge dreta
+la rellotge exacta
+la rellotge precisa
+la rellotge presenta
+la relox
+la relox actual
+la relox actualitzat
+la relox correcta
+la relox dreta
+la relox exacta
+la relox precisa
+la relox presenta
+la temps
+la temps actual
+la temps actualitzat
+la temps correcta
+la temps dreta
+la temps exacta
+la temps precisa
+la temps presenta
+necessito saber hora actual
+necessito saber hora ara
+necessito saber l'hora actual
+necessito saber l'hora ara
+necessito saber s'hora actual
+necessito saber s'hora ara
+per favor digue'm hora actual
+per favor digue'm l'hora actual
+per favor digue'm s'hora actual
+per favor digues-me hora actual
+per favor digues-me l'hora actual
+per favor digues-me s'hora actual
+per favor dis-me hora actual
+per favor dis-me l'hora actual
+per favor dis-me s'hora actual
+quin hora
+quin hora és ara
+quin hores
+quina hora
 quina hora és
-quina hora és (ara mateix|en aquest moment|en este moment)
 quina hora és actualment
 quina hora és ara
-quina és (l'|s'|)hora actual
+quina hora és ara mateix
+quina hora és en aquest moment
+quina hora és en este moment
+quina hores
+quina és hora actual
+quina és l'hora actual
+quina és s'hora actual
 rellotge ara
-rellotge ara (si us plau|sisplau|per favor)
 rellotge ara mateix
+rellotge ara per favor
+rellotge ara si us plau
+rellotge ara sisplau
 rellotge sisplau
+reloxactual
+s'hora
+s'hora ara
+s'hora ara mateix per favor
+s'hora ara mateix si us plau
+s'hora ara mateix sisplau
+s'hora ara per favor
+s'hora ara si us plau
+s'hora ara sisplau
+s'hora per favor
+s'hora si us plau
+s'hora sisplau
+saber hora actual
+saber l'hora actual
+saber s'hora actual
 saps quina hora és
-teniu l'hora (actual|)
-tens (s'|l'|)hora
+si us plau digue'm hora actual
+si us plau digue'm l'hora actual
+si us plau digue'm s'hora actual
+si us plau digues-me hora actual
+si us plau digues-me l'hora actual
+si us plau digues-me s'hora actual
+si us plau dis-me hora actual
+si us plau dis-me l'hora actual
+si us plau dis-me s'hora actual
+sisplau digue'm hora actual
+sisplau digue'm l'hora actual
+sisplau digue'm s'hora actual
+sisplau digues-me hora actual
+sisplau digues-me l'hora actual
+sisplau digues-me s'hora actual
+sisplau dis-me hora actual
+sisplau dis-me l'hora actual
+sisplau dis-me s'hora actual
+teniu l'hora
+teniu l'hora actual
+tens hora
+tens l'hora
 tens l'hora actual
-És possible (d'|)aconseguir (l'|s'|)hora (ara mateix|)
+tens s'hora
+És possible aconseguir hora
+És possible aconseguir hora ara mateix
+És possible aconseguir l'hora
+És possible aconseguir l'hora ara mateix
+És possible aconseguir s'hora
+És possible aconseguir s'hora ara mateix
+És possible d'aconseguir hora
+És possible d'aconseguir hora ara mateix
+És possible d'aconseguir l'hora
+És possible d'aconseguir l'hora ara mateix
+És possible d'aconseguir s'hora
+És possible d'aconseguir s'hora ara mateix
