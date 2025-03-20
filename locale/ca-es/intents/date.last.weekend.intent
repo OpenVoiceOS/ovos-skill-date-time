@@ -1,57 +1,2606 @@
-(Digues-me|Digue'm|Dis-me) (els dies|es dies|les dates|ses dates) que (formen|conformen|) (del|des|el|es) cap de setmana (que acaba de passar|que just ha passat|passat).
-(Digues-me|Digue'm|Dis-me) (les|ses) dates (del|des) (cap de setmana que acaba de passar|cap de setmana passat|passat cap de setmana).
-(Digues-me|Digue'm|Dis-me) (les|ses) dates (del|des) (passat cap de setmana|cap de setmana anterior|cap de setmana passat).
-(Digues|Digue|Dis)(-me|) les dates del cap de setmana abans de l'últim.
-(Digue|Digues)('m|-me|) les dates del cap de setmana anterior a l'actual.
-(Dona'm|Digues-me|Digue'm|Dis-me) les dates (del|des) (cap de setmana que acaba d'acabar|cap de setmana passat|passat cap de setmana).
-(Dona|Dóna|Indica)('m|) (les dates|ses dates|els dies|es dies) (concretes|concrets|exactes) (del|des) (passat cap de setmana|cap de setmana passat|cap de setmana anterior).
-(Dóna|Dona)'m les dates del cap de setmana abans de l'últim.
-(Dóna|Dona)(|'m) (els|es) (dies|jorns) (del|des|de l'|de s')( passat|últim| darrer| anterior) cap de setmana (passat|anterior).
-(Dóna|Dona)(|'m) (les|ses) dates (del|des|de l'|de s')( passat|últim| darrer| anterior) cap de setmana (passat|anterior).
-(Em pots dir|Digues-me|Dis-me|Digue'm) (els|es) (dies|jorns) del cap de setmana anterior
-(Em pots|Pots indicar|Pots indicar-me) (les dates|ses dates|els dies|es dies) (del|des) cap de setmana anterior a aquest (passat|)
-(En quins|Quins) (dies|jorns) (van caure|caigueren) (durant|) l'últim cap de setmana
-(En quins|Quins) dies (van caure|va caure|caigué|caigueren) (el|es|l'|s')( darrer|últim| passat) cap de setmana(| passat)
-(Indica|Informa)('m|) de les dates del cap de setmana passat.
-(Indica|Proporciona)('m|) (les|ses) dates (específiques|concretes) (del|des) cap de setmana anterior.
-(quan|com) (va caure|caigué) (l'|s'|el |es)(últim|darrer|passat) cap de setmana (passat|)
-(quina data era|quina data va ser| quina data fou|quin dia era|quins dies eren|) el passat cap de setmana
-(quins dies|quina data|quines dates) (va ser|van ser|fou|foren|era|eren) (el|es) (passat cap de setmana|cap de setmana passat)
+Digue les dates del cap de setmana abans de l'últim.
+Digue les dates del cap de setmana anterior a l'actual.
+Digue'm els dies del cap de setmana anterior
+Digue'm els dies que  del cap de setmana passat.
+Digue'm els dies que  del cap de setmana que acaba de passar.
+Digue'm els dies que  del cap de setmana que just ha passat.
+Digue'm els dies que  des cap de setmana passat.
+Digue'm els dies que  des cap de setmana que acaba de passar.
+Digue'm els dies que  des cap de setmana que just ha passat.
+Digue'm els dies que  el cap de setmana passat.
+Digue'm els dies que  el cap de setmana que acaba de passar.
+Digue'm els dies que  el cap de setmana que just ha passat.
+Digue'm els dies que  es cap de setmana passat.
+Digue'm els dies que  es cap de setmana que acaba de passar.
+Digue'm els dies que  es cap de setmana que just ha passat.
+Digue'm els dies que conformen del cap de setmana passat.
+Digue'm els dies que conformen del cap de setmana que acaba de passar.
+Digue'm els dies que conformen del cap de setmana que just ha passat.
+Digue'm els dies que conformen des cap de setmana passat.
+Digue'm els dies que conformen des cap de setmana que acaba de passar.
+Digue'm els dies que conformen des cap de setmana que just ha passat.
+Digue'm els dies que conformen el cap de setmana passat.
+Digue'm els dies que conformen el cap de setmana que acaba de passar.
+Digue'm els dies que conformen el cap de setmana que just ha passat.
+Digue'm els dies que conformen es cap de setmana passat.
+Digue'm els dies que conformen es cap de setmana que acaba de passar.
+Digue'm els dies que conformen es cap de setmana que just ha passat.
+Digue'm els dies que formen del cap de setmana passat.
+Digue'm els dies que formen del cap de setmana que acaba de passar.
+Digue'm els dies que formen del cap de setmana que just ha passat.
+Digue'm els dies que formen des cap de setmana passat.
+Digue'm els dies que formen des cap de setmana que acaba de passar.
+Digue'm els dies que formen des cap de setmana que just ha passat.
+Digue'm els dies que formen el cap de setmana passat.
+Digue'm els dies que formen el cap de setmana que acaba de passar.
+Digue'm els dies que formen el cap de setmana que just ha passat.
+Digue'm els dies que formen es cap de setmana passat.
+Digue'm els dies que formen es cap de setmana que acaba de passar.
+Digue'm els dies que formen es cap de setmana que just ha passat.
+Digue'm els jorns del cap de setmana anterior
+Digue'm es dies del cap de setmana anterior
+Digue'm es dies que  del cap de setmana passat.
+Digue'm es dies que  del cap de setmana que acaba de passar.
+Digue'm es dies que  del cap de setmana que just ha passat.
+Digue'm es dies que  des cap de setmana passat.
+Digue'm es dies que  des cap de setmana que acaba de passar.
+Digue'm es dies que  des cap de setmana que just ha passat.
+Digue'm es dies que  el cap de setmana passat.
+Digue'm es dies que  el cap de setmana que acaba de passar.
+Digue'm es dies que  el cap de setmana que just ha passat.
+Digue'm es dies que  es cap de setmana passat.
+Digue'm es dies que  es cap de setmana que acaba de passar.
+Digue'm es dies que  es cap de setmana que just ha passat.
+Digue'm es dies que conformen del cap de setmana passat.
+Digue'm es dies que conformen del cap de setmana que acaba de passar.
+Digue'm es dies que conformen del cap de setmana que just ha passat.
+Digue'm es dies que conformen des cap de setmana passat.
+Digue'm es dies que conformen des cap de setmana que acaba de passar.
+Digue'm es dies que conformen des cap de setmana que just ha passat.
+Digue'm es dies que conformen el cap de setmana passat.
+Digue'm es dies que conformen el cap de setmana que acaba de passar.
+Digue'm es dies que conformen el cap de setmana que just ha passat.
+Digue'm es dies que conformen es cap de setmana passat.
+Digue'm es dies que conformen es cap de setmana que acaba de passar.
+Digue'm es dies que conformen es cap de setmana que just ha passat.
+Digue'm es dies que formen del cap de setmana passat.
+Digue'm es dies que formen del cap de setmana que acaba de passar.
+Digue'm es dies que formen del cap de setmana que just ha passat.
+Digue'm es dies que formen des cap de setmana passat.
+Digue'm es dies que formen des cap de setmana que acaba de passar.
+Digue'm es dies que formen des cap de setmana que just ha passat.
+Digue'm es dies que formen el cap de setmana passat.
+Digue'm es dies que formen el cap de setmana que acaba de passar.
+Digue'm es dies que formen el cap de setmana que just ha passat.
+Digue'm es dies que formen es cap de setmana passat.
+Digue'm es dies que formen es cap de setmana que acaba de passar.
+Digue'm es dies que formen es cap de setmana que just ha passat.
+Digue'm es jorns del cap de setmana anterior
+Digue'm les dates del cap de setmana anterior a l'actual.
+Digue'm les dates del cap de setmana anterior.
+Digue'm les dates del cap de setmana passat.
+Digue'm les dates del cap de setmana que acaba d'acabar.
+Digue'm les dates del cap de setmana que acaba de passar.
+Digue'm les dates del passat cap de setmana.
+Digue'm les dates des cap de setmana anterior.
+Digue'm les dates des cap de setmana passat.
+Digue'm les dates des cap de setmana que acaba d'acabar.
+Digue'm les dates des cap de setmana que acaba de passar.
+Digue'm les dates des passat cap de setmana.
+Digue'm les dates que  del cap de setmana passat.
+Digue'm les dates que  del cap de setmana que acaba de passar.
+Digue'm les dates que  del cap de setmana que just ha passat.
+Digue'm les dates que  des cap de setmana passat.
+Digue'm les dates que  des cap de setmana que acaba de passar.
+Digue'm les dates que  des cap de setmana que just ha passat.
+Digue'm les dates que  el cap de setmana passat.
+Digue'm les dates que  el cap de setmana que acaba de passar.
+Digue'm les dates que  el cap de setmana que just ha passat.
+Digue'm les dates que  es cap de setmana passat.
+Digue'm les dates que  es cap de setmana que acaba de passar.
+Digue'm les dates que  es cap de setmana que just ha passat.
+Digue'm les dates que conformen del cap de setmana passat.
+Digue'm les dates que conformen del cap de setmana que acaba de passar.
+Digue'm les dates que conformen del cap de setmana que just ha passat.
+Digue'm les dates que conformen des cap de setmana passat.
+Digue'm les dates que conformen des cap de setmana que acaba de passar.
+Digue'm les dates que conformen des cap de setmana que just ha passat.
+Digue'm les dates que conformen el cap de setmana passat.
+Digue'm les dates que conformen el cap de setmana que acaba de passar.
+Digue'm les dates que conformen el cap de setmana que just ha passat.
+Digue'm les dates que conformen es cap de setmana passat.
+Digue'm les dates que conformen es cap de setmana que acaba de passar.
+Digue'm les dates que conformen es cap de setmana que just ha passat.
+Digue'm les dates que formen del cap de setmana passat.
+Digue'm les dates que formen del cap de setmana que acaba de passar.
+Digue'm les dates que formen del cap de setmana que just ha passat.
+Digue'm les dates que formen des cap de setmana passat.
+Digue'm les dates que formen des cap de setmana que acaba de passar.
+Digue'm les dates que formen des cap de setmana que just ha passat.
+Digue'm les dates que formen el cap de setmana passat.
+Digue'm les dates que formen el cap de setmana que acaba de passar.
+Digue'm les dates que formen el cap de setmana que just ha passat.
+Digue'm les dates que formen es cap de setmana passat.
+Digue'm les dates que formen es cap de setmana que acaba de passar.
+Digue'm les dates que formen es cap de setmana que just ha passat.
+Digue'm ses dates del cap de setmana anterior.
+Digue'm ses dates del cap de setmana passat.
+Digue'm ses dates del cap de setmana que acaba de passar.
+Digue'm ses dates del passat cap de setmana.
+Digue'm ses dates des cap de setmana anterior.
+Digue'm ses dates des cap de setmana passat.
+Digue'm ses dates des cap de setmana que acaba de passar.
+Digue'm ses dates des passat cap de setmana.
+Digue'm ses dates que  del cap de setmana passat.
+Digue'm ses dates que  del cap de setmana que acaba de passar.
+Digue'm ses dates que  del cap de setmana que just ha passat.
+Digue'm ses dates que  des cap de setmana passat.
+Digue'm ses dates que  des cap de setmana que acaba de passar.
+Digue'm ses dates que  des cap de setmana que just ha passat.
+Digue'm ses dates que  el cap de setmana passat.
+Digue'm ses dates que  el cap de setmana que acaba de passar.
+Digue'm ses dates que  el cap de setmana que just ha passat.
+Digue'm ses dates que  es cap de setmana passat.
+Digue'm ses dates que  es cap de setmana que acaba de passar.
+Digue'm ses dates que  es cap de setmana que just ha passat.
+Digue'm ses dates que conformen del cap de setmana passat.
+Digue'm ses dates que conformen del cap de setmana que acaba de passar.
+Digue'm ses dates que conformen del cap de setmana que just ha passat.
+Digue'm ses dates que conformen des cap de setmana passat.
+Digue'm ses dates que conformen des cap de setmana que acaba de passar.
+Digue'm ses dates que conformen des cap de setmana que just ha passat.
+Digue'm ses dates que conformen el cap de setmana passat.
+Digue'm ses dates que conformen el cap de setmana que acaba de passar.
+Digue'm ses dates que conformen el cap de setmana que just ha passat.
+Digue'm ses dates que conformen es cap de setmana passat.
+Digue'm ses dates que conformen es cap de setmana que acaba de passar.
+Digue'm ses dates que conformen es cap de setmana que just ha passat.
+Digue'm ses dates que formen del cap de setmana passat.
+Digue'm ses dates que formen del cap de setmana que acaba de passar.
+Digue'm ses dates que formen del cap de setmana que just ha passat.
+Digue'm ses dates que formen des cap de setmana passat.
+Digue'm ses dates que formen des cap de setmana que acaba de passar.
+Digue'm ses dates que formen des cap de setmana que just ha passat.
+Digue'm ses dates que formen el cap de setmana passat.
+Digue'm ses dates que formen el cap de setmana que acaba de passar.
+Digue'm ses dates que formen el cap de setmana que just ha passat.
+Digue'm ses dates que formen es cap de setmana passat.
+Digue'm ses dates que formen es cap de setmana que acaba de passar.
+Digue'm ses dates que formen es cap de setmana que just ha passat.
+Digue-me les dates del cap de setmana abans de l'últim.
+Digue-me les dates del cap de setmana anterior a l'actual.
+Digues les dates del cap de setmana abans de l'últim.
+Digues les dates del cap de setmana anterior a l'actual.
+Digues'm les dates del cap de setmana anterior a l'actual.
+Digues-me els dies del cap de setmana anterior
+Digues-me els dies que  del cap de setmana passat.
+Digues-me els dies que  del cap de setmana que acaba de passar.
+Digues-me els dies que  del cap de setmana que just ha passat.
+Digues-me els dies que  des cap de setmana passat.
+Digues-me els dies que  des cap de setmana que acaba de passar.
+Digues-me els dies que  des cap de setmana que just ha passat.
+Digues-me els dies que  el cap de setmana passat.
+Digues-me els dies que  el cap de setmana que acaba de passar.
+Digues-me els dies que  el cap de setmana que just ha passat.
+Digues-me els dies que  es cap de setmana passat.
+Digues-me els dies que  es cap de setmana que acaba de passar.
+Digues-me els dies que  es cap de setmana que just ha passat.
+Digues-me els dies que conformen del cap de setmana passat.
+Digues-me els dies que conformen del cap de setmana que acaba de passar.
+Digues-me els dies que conformen del cap de setmana que just ha passat.
+Digues-me els dies que conformen des cap de setmana passat.
+Digues-me els dies que conformen des cap de setmana que acaba de passar.
+Digues-me els dies que conformen des cap de setmana que just ha passat.
+Digues-me els dies que conformen el cap de setmana passat.
+Digues-me els dies que conformen el cap de setmana que acaba de passar.
+Digues-me els dies que conformen el cap de setmana que just ha passat.
+Digues-me els dies que conformen es cap de setmana passat.
+Digues-me els dies que conformen es cap de setmana que acaba de passar.
+Digues-me els dies que conformen es cap de setmana que just ha passat.
+Digues-me els dies que formen del cap de setmana passat.
+Digues-me els dies que formen del cap de setmana que acaba de passar.
+Digues-me els dies que formen del cap de setmana que just ha passat.
+Digues-me els dies que formen des cap de setmana passat.
+Digues-me els dies que formen des cap de setmana que acaba de passar.
+Digues-me els dies que formen des cap de setmana que just ha passat.
+Digues-me els dies que formen el cap de setmana passat.
+Digues-me els dies que formen el cap de setmana que acaba de passar.
+Digues-me els dies que formen el cap de setmana que just ha passat.
+Digues-me els dies que formen es cap de setmana passat.
+Digues-me els dies que formen es cap de setmana que acaba de passar.
+Digues-me els dies que formen es cap de setmana que just ha passat.
+Digues-me els jorns del cap de setmana anterior
+Digues-me es dies del cap de setmana anterior
+Digues-me es dies que  del cap de setmana passat.
+Digues-me es dies que  del cap de setmana que acaba de passar.
+Digues-me es dies que  del cap de setmana que just ha passat.
+Digues-me es dies que  des cap de setmana passat.
+Digues-me es dies que  des cap de setmana que acaba de passar.
+Digues-me es dies que  des cap de setmana que just ha passat.
+Digues-me es dies que  el cap de setmana passat.
+Digues-me es dies que  el cap de setmana que acaba de passar.
+Digues-me es dies que  el cap de setmana que just ha passat.
+Digues-me es dies que  es cap de setmana passat.
+Digues-me es dies que  es cap de setmana que acaba de passar.
+Digues-me es dies que  es cap de setmana que just ha passat.
+Digues-me es dies que conformen del cap de setmana passat.
+Digues-me es dies que conformen del cap de setmana que acaba de passar.
+Digues-me es dies que conformen del cap de setmana que just ha passat.
+Digues-me es dies que conformen des cap de setmana passat.
+Digues-me es dies que conformen des cap de setmana que acaba de passar.
+Digues-me es dies que conformen des cap de setmana que just ha passat.
+Digues-me es dies que conformen el cap de setmana passat.
+Digues-me es dies que conformen el cap de setmana que acaba de passar.
+Digues-me es dies que conformen el cap de setmana que just ha passat.
+Digues-me es dies que conformen es cap de setmana passat.
+Digues-me es dies que conformen es cap de setmana que acaba de passar.
+Digues-me es dies que conformen es cap de setmana que just ha passat.
+Digues-me es dies que formen del cap de setmana passat.
+Digues-me es dies que formen del cap de setmana que acaba de passar.
+Digues-me es dies que formen del cap de setmana que just ha passat.
+Digues-me es dies que formen des cap de setmana passat.
+Digues-me es dies que formen des cap de setmana que acaba de passar.
+Digues-me es dies que formen des cap de setmana que just ha passat.
+Digues-me es dies que formen el cap de setmana passat.
+Digues-me es dies que formen el cap de setmana que acaba de passar.
+Digues-me es dies que formen el cap de setmana que just ha passat.
+Digues-me es dies que formen es cap de setmana passat.
+Digues-me es dies que formen es cap de setmana que acaba de passar.
+Digues-me es dies que formen es cap de setmana que just ha passat.
+Digues-me es jorns del cap de setmana anterior
+Digues-me les dates del cap de setmana abans de l'últim.
+Digues-me les dates del cap de setmana anterior a l'actual.
+Digues-me les dates del cap de setmana anterior.
+Digues-me les dates del cap de setmana passat.
+Digues-me les dates del cap de setmana que acaba d'acabar.
+Digues-me les dates del cap de setmana que acaba de passar.
+Digues-me les dates del passat cap de setmana.
+Digues-me les dates des cap de setmana anterior.
+Digues-me les dates des cap de setmana passat.
+Digues-me les dates des cap de setmana que acaba d'acabar.
+Digues-me les dates des cap de setmana que acaba de passar.
+Digues-me les dates des passat cap de setmana.
+Digues-me les dates que  del cap de setmana passat.
+Digues-me les dates que  del cap de setmana que acaba de passar.
+Digues-me les dates que  del cap de setmana que just ha passat.
+Digues-me les dates que  des cap de setmana passat.
+Digues-me les dates que  des cap de setmana que acaba de passar.
+Digues-me les dates que  des cap de setmana que just ha passat.
+Digues-me les dates que  el cap de setmana passat.
+Digues-me les dates que  el cap de setmana que acaba de passar.
+Digues-me les dates que  el cap de setmana que just ha passat.
+Digues-me les dates que  es cap de setmana passat.
+Digues-me les dates que  es cap de setmana que acaba de passar.
+Digues-me les dates que  es cap de setmana que just ha passat.
+Digues-me les dates que conformen del cap de setmana passat.
+Digues-me les dates que conformen del cap de setmana que acaba de passar.
+Digues-me les dates que conformen del cap de setmana que just ha passat.
+Digues-me les dates que conformen des cap de setmana passat.
+Digues-me les dates que conformen des cap de setmana que acaba de passar.
+Digues-me les dates que conformen des cap de setmana que just ha passat.
+Digues-me les dates que conformen el cap de setmana passat.
+Digues-me les dates que conformen el cap de setmana que acaba de passar.
+Digues-me les dates que conformen el cap de setmana que just ha passat.
+Digues-me les dates que conformen es cap de setmana passat.
+Digues-me les dates que conformen es cap de setmana que acaba de passar.
+Digues-me les dates que conformen es cap de setmana que just ha passat.
+Digues-me les dates que formen del cap de setmana passat.
+Digues-me les dates que formen del cap de setmana que acaba de passar.
+Digues-me les dates que formen del cap de setmana que just ha passat.
+Digues-me les dates que formen des cap de setmana passat.
+Digues-me les dates que formen des cap de setmana que acaba de passar.
+Digues-me les dates que formen des cap de setmana que just ha passat.
+Digues-me les dates que formen el cap de setmana passat.
+Digues-me les dates que formen el cap de setmana que acaba de passar.
+Digues-me les dates que formen el cap de setmana que just ha passat.
+Digues-me les dates que formen es cap de setmana passat.
+Digues-me les dates que formen es cap de setmana que acaba de passar.
+Digues-me les dates que formen es cap de setmana que just ha passat.
+Digues-me ses dates del cap de setmana anterior.
+Digues-me ses dates del cap de setmana passat.
+Digues-me ses dates del cap de setmana que acaba de passar.
+Digues-me ses dates del passat cap de setmana.
+Digues-me ses dates des cap de setmana anterior.
+Digues-me ses dates des cap de setmana passat.
+Digues-me ses dates des cap de setmana que acaba de passar.
+Digues-me ses dates des passat cap de setmana.
+Digues-me ses dates que  del cap de setmana passat.
+Digues-me ses dates que  del cap de setmana que acaba de passar.
+Digues-me ses dates que  del cap de setmana que just ha passat.
+Digues-me ses dates que  des cap de setmana passat.
+Digues-me ses dates que  des cap de setmana que acaba de passar.
+Digues-me ses dates que  des cap de setmana que just ha passat.
+Digues-me ses dates que  el cap de setmana passat.
+Digues-me ses dates que  el cap de setmana que acaba de passar.
+Digues-me ses dates que  el cap de setmana que just ha passat.
+Digues-me ses dates que  es cap de setmana passat.
+Digues-me ses dates que  es cap de setmana que acaba de passar.
+Digues-me ses dates que  es cap de setmana que just ha passat.
+Digues-me ses dates que conformen del cap de setmana passat.
+Digues-me ses dates que conformen del cap de setmana que acaba de passar.
+Digues-me ses dates que conformen del cap de setmana que just ha passat.
+Digues-me ses dates que conformen des cap de setmana passat.
+Digues-me ses dates que conformen des cap de setmana que acaba de passar.
+Digues-me ses dates que conformen des cap de setmana que just ha passat.
+Digues-me ses dates que conformen el cap de setmana passat.
+Digues-me ses dates que conformen el cap de setmana que acaba de passar.
+Digues-me ses dates que conformen el cap de setmana que just ha passat.
+Digues-me ses dates que conformen es cap de setmana passat.
+Digues-me ses dates que conformen es cap de setmana que acaba de passar.
+Digues-me ses dates que conformen es cap de setmana que just ha passat.
+Digues-me ses dates que formen del cap de setmana passat.
+Digues-me ses dates que formen del cap de setmana que acaba de passar.
+Digues-me ses dates que formen del cap de setmana que just ha passat.
+Digues-me ses dates que formen des cap de setmana passat.
+Digues-me ses dates que formen des cap de setmana que acaba de passar.
+Digues-me ses dates que formen des cap de setmana que just ha passat.
+Digues-me ses dates que formen el cap de setmana passat.
+Digues-me ses dates que formen el cap de setmana que acaba de passar.
+Digues-me ses dates que formen el cap de setmana que just ha passat.
+Digues-me ses dates que formen es cap de setmana passat.
+Digues-me ses dates que formen es cap de setmana que acaba de passar.
+Digues-me ses dates que formen es cap de setmana que just ha passat.
+Dis les dates del cap de setmana abans de l'últim.
+Dis-me els dies del cap de setmana anterior
+Dis-me els dies que  del cap de setmana passat.
+Dis-me els dies que  del cap de setmana que acaba de passar.
+Dis-me els dies que  del cap de setmana que just ha passat.
+Dis-me els dies que  des cap de setmana passat.
+Dis-me els dies que  des cap de setmana que acaba de passar.
+Dis-me els dies que  des cap de setmana que just ha passat.
+Dis-me els dies que  el cap de setmana passat.
+Dis-me els dies que  el cap de setmana que acaba de passar.
+Dis-me els dies que  el cap de setmana que just ha passat.
+Dis-me els dies que  es cap de setmana passat.
+Dis-me els dies que  es cap de setmana que acaba de passar.
+Dis-me els dies que  es cap de setmana que just ha passat.
+Dis-me els dies que conformen del cap de setmana passat.
+Dis-me els dies que conformen del cap de setmana que acaba de passar.
+Dis-me els dies que conformen del cap de setmana que just ha passat.
+Dis-me els dies que conformen des cap de setmana passat.
+Dis-me els dies que conformen des cap de setmana que acaba de passar.
+Dis-me els dies que conformen des cap de setmana que just ha passat.
+Dis-me els dies que conformen el cap de setmana passat.
+Dis-me els dies que conformen el cap de setmana que acaba de passar.
+Dis-me els dies que conformen el cap de setmana que just ha passat.
+Dis-me els dies que conformen es cap de setmana passat.
+Dis-me els dies que conformen es cap de setmana que acaba de passar.
+Dis-me els dies que conformen es cap de setmana que just ha passat.
+Dis-me els dies que formen del cap de setmana passat.
+Dis-me els dies que formen del cap de setmana que acaba de passar.
+Dis-me els dies que formen del cap de setmana que just ha passat.
+Dis-me els dies que formen des cap de setmana passat.
+Dis-me els dies que formen des cap de setmana que acaba de passar.
+Dis-me els dies que formen des cap de setmana que just ha passat.
+Dis-me els dies que formen el cap de setmana passat.
+Dis-me els dies que formen el cap de setmana que acaba de passar.
+Dis-me els dies que formen el cap de setmana que just ha passat.
+Dis-me els dies que formen es cap de setmana passat.
+Dis-me els dies que formen es cap de setmana que acaba de passar.
+Dis-me els dies que formen es cap de setmana que just ha passat.
+Dis-me els jorns del cap de setmana anterior
+Dis-me es dies del cap de setmana anterior
+Dis-me es dies que  del cap de setmana passat.
+Dis-me es dies que  del cap de setmana que acaba de passar.
+Dis-me es dies que  del cap de setmana que just ha passat.
+Dis-me es dies que  des cap de setmana passat.
+Dis-me es dies que  des cap de setmana que acaba de passar.
+Dis-me es dies que  des cap de setmana que just ha passat.
+Dis-me es dies que  el cap de setmana passat.
+Dis-me es dies que  el cap de setmana que acaba de passar.
+Dis-me es dies que  el cap de setmana que just ha passat.
+Dis-me es dies que  es cap de setmana passat.
+Dis-me es dies que  es cap de setmana que acaba de passar.
+Dis-me es dies que  es cap de setmana que just ha passat.
+Dis-me es dies que conformen del cap de setmana passat.
+Dis-me es dies que conformen del cap de setmana que acaba de passar.
+Dis-me es dies que conformen del cap de setmana que just ha passat.
+Dis-me es dies que conformen des cap de setmana passat.
+Dis-me es dies que conformen des cap de setmana que acaba de passar.
+Dis-me es dies que conformen des cap de setmana que just ha passat.
+Dis-me es dies que conformen el cap de setmana passat.
+Dis-me es dies que conformen el cap de setmana que acaba de passar.
+Dis-me es dies que conformen el cap de setmana que just ha passat.
+Dis-me es dies que conformen es cap de setmana passat.
+Dis-me es dies que conformen es cap de setmana que acaba de passar.
+Dis-me es dies que conformen es cap de setmana que just ha passat.
+Dis-me es dies que formen del cap de setmana passat.
+Dis-me es dies que formen del cap de setmana que acaba de passar.
+Dis-me es dies que formen del cap de setmana que just ha passat.
+Dis-me es dies que formen des cap de setmana passat.
+Dis-me es dies que formen des cap de setmana que acaba de passar.
+Dis-me es dies que formen des cap de setmana que just ha passat.
+Dis-me es dies que formen el cap de setmana passat.
+Dis-me es dies que formen el cap de setmana que acaba de passar.
+Dis-me es dies que formen el cap de setmana que just ha passat.
+Dis-me es dies que formen es cap de setmana passat.
+Dis-me es dies que formen es cap de setmana que acaba de passar.
+Dis-me es dies que formen es cap de setmana que just ha passat.
+Dis-me es jorns del cap de setmana anterior
+Dis-me les dates del cap de setmana abans de l'últim.
+Dis-me les dates del cap de setmana anterior.
+Dis-me les dates del cap de setmana passat.
+Dis-me les dates del cap de setmana que acaba d'acabar.
+Dis-me les dates del cap de setmana que acaba de passar.
+Dis-me les dates del passat cap de setmana.
+Dis-me les dates des cap de setmana anterior.
+Dis-me les dates des cap de setmana passat.
+Dis-me les dates des cap de setmana que acaba d'acabar.
+Dis-me les dates des cap de setmana que acaba de passar.
+Dis-me les dates des passat cap de setmana.
+Dis-me les dates que  del cap de setmana passat.
+Dis-me les dates que  del cap de setmana que acaba de passar.
+Dis-me les dates que  del cap de setmana que just ha passat.
+Dis-me les dates que  des cap de setmana passat.
+Dis-me les dates que  des cap de setmana que acaba de passar.
+Dis-me les dates que  des cap de setmana que just ha passat.
+Dis-me les dates que  el cap de setmana passat.
+Dis-me les dates que  el cap de setmana que acaba de passar.
+Dis-me les dates que  el cap de setmana que just ha passat.
+Dis-me les dates que  es cap de setmana passat.
+Dis-me les dates que  es cap de setmana que acaba de passar.
+Dis-me les dates que  es cap de setmana que just ha passat.
+Dis-me les dates que conformen del cap de setmana passat.
+Dis-me les dates que conformen del cap de setmana que acaba de passar.
+Dis-me les dates que conformen del cap de setmana que just ha passat.
+Dis-me les dates que conformen des cap de setmana passat.
+Dis-me les dates que conformen des cap de setmana que acaba de passar.
+Dis-me les dates que conformen des cap de setmana que just ha passat.
+Dis-me les dates que conformen el cap de setmana passat.
+Dis-me les dates que conformen el cap de setmana que acaba de passar.
+Dis-me les dates que conformen el cap de setmana que just ha passat.
+Dis-me les dates que conformen es cap de setmana passat.
+Dis-me les dates que conformen es cap de setmana que acaba de passar.
+Dis-me les dates que conformen es cap de setmana que just ha passat.
+Dis-me les dates que formen del cap de setmana passat.
+Dis-me les dates que formen del cap de setmana que acaba de passar.
+Dis-me les dates que formen del cap de setmana que just ha passat.
+Dis-me les dates que formen des cap de setmana passat.
+Dis-me les dates que formen des cap de setmana que acaba de passar.
+Dis-me les dates que formen des cap de setmana que just ha passat.
+Dis-me les dates que formen el cap de setmana passat.
+Dis-me les dates que formen el cap de setmana que acaba de passar.
+Dis-me les dates que formen el cap de setmana que just ha passat.
+Dis-me les dates que formen es cap de setmana passat.
+Dis-me les dates que formen es cap de setmana que acaba de passar.
+Dis-me les dates que formen es cap de setmana que just ha passat.
+Dis-me ses dates del cap de setmana anterior.
+Dis-me ses dates del cap de setmana passat.
+Dis-me ses dates del cap de setmana que acaba de passar.
+Dis-me ses dates del passat cap de setmana.
+Dis-me ses dates des cap de setmana anterior.
+Dis-me ses dates des cap de setmana passat.
+Dis-me ses dates des cap de setmana que acaba de passar.
+Dis-me ses dates des passat cap de setmana.
+Dis-me ses dates que  del cap de setmana passat.
+Dis-me ses dates que  del cap de setmana que acaba de passar.
+Dis-me ses dates que  del cap de setmana que just ha passat.
+Dis-me ses dates que  des cap de setmana passat.
+Dis-me ses dates que  des cap de setmana que acaba de passar.
+Dis-me ses dates que  des cap de setmana que just ha passat.
+Dis-me ses dates que  el cap de setmana passat.
+Dis-me ses dates que  el cap de setmana que acaba de passar.
+Dis-me ses dates que  el cap de setmana que just ha passat.
+Dis-me ses dates que  es cap de setmana passat.
+Dis-me ses dates que  es cap de setmana que acaba de passar.
+Dis-me ses dates que  es cap de setmana que just ha passat.
+Dis-me ses dates que conformen del cap de setmana passat.
+Dis-me ses dates que conformen del cap de setmana que acaba de passar.
+Dis-me ses dates que conformen del cap de setmana que just ha passat.
+Dis-me ses dates que conformen des cap de setmana passat.
+Dis-me ses dates que conformen des cap de setmana que acaba de passar.
+Dis-me ses dates que conformen des cap de setmana que just ha passat.
+Dis-me ses dates que conformen el cap de setmana passat.
+Dis-me ses dates que conformen el cap de setmana que acaba de passar.
+Dis-me ses dates que conformen el cap de setmana que just ha passat.
+Dis-me ses dates que conformen es cap de setmana passat.
+Dis-me ses dates que conformen es cap de setmana que acaba de passar.
+Dis-me ses dates que conformen es cap de setmana que just ha passat.
+Dis-me ses dates que formen del cap de setmana passat.
+Dis-me ses dates que formen del cap de setmana que acaba de passar.
+Dis-me ses dates que formen del cap de setmana que just ha passat.
+Dis-me ses dates que formen des cap de setmana passat.
+Dis-me ses dates que formen des cap de setmana que acaba de passar.
+Dis-me ses dates que formen des cap de setmana que just ha passat.
+Dis-me ses dates que formen el cap de setmana passat.
+Dis-me ses dates que formen el cap de setmana que acaba de passar.
+Dis-me ses dates que formen el cap de setmana que just ha passat.
+Dis-me ses dates que formen es cap de setmana passat.
+Dis-me ses dates que formen es cap de setmana que acaba de passar.
+Dis-me ses dates que formen es cap de setmana que just ha passat.
+Dona els dies concretes del cap de setmana anterior.
+Dona els dies concretes del cap de setmana passat.
+Dona els dies concretes del passat cap de setmana.
+Dona els dies concretes des cap de setmana anterior.
+Dona els dies concretes des cap de setmana passat.
+Dona els dies concretes des passat cap de setmana.
+Dona els dies concrets del cap de setmana anterior.
+Dona els dies concrets del cap de setmana passat.
+Dona els dies concrets del passat cap de setmana.
+Dona els dies concrets des cap de setmana anterior.
+Dona els dies concrets des cap de setmana passat.
+Dona els dies concrets des passat cap de setmana.
+Dona els dies de l' anterior cap de setmana anterior.
+Dona els dies de l' anterior cap de setmana passat.
+Dona els dies de l' darrer cap de setmana anterior.
+Dona els dies de l' darrer cap de setmana passat.
+Dona els dies de l' passat cap de setmana anterior.
+Dona els dies de l' passat cap de setmana passat.
+Dona els dies de l'últim cap de setmana anterior.
+Dona els dies de l'últim cap de setmana passat.
+Dona els dies de s' anterior cap de setmana anterior.
+Dona els dies de s' anterior cap de setmana passat.
+Dona els dies de s' darrer cap de setmana anterior.
+Dona els dies de s' darrer cap de setmana passat.
+Dona els dies de s' passat cap de setmana anterior.
+Dona els dies de s' passat cap de setmana passat.
+Dona els dies de s'últim cap de setmana anterior.
+Dona els dies de s'últim cap de setmana passat.
+Dona els dies del anterior cap de setmana anterior.
+Dona els dies del anterior cap de setmana passat.
+Dona els dies del darrer cap de setmana anterior.
+Dona els dies del darrer cap de setmana passat.
+Dona els dies del passat cap de setmana anterior.
+Dona els dies del passat cap de setmana passat.
+Dona els dies delúltim cap de setmana anterior.
+Dona els dies delúltim cap de setmana passat.
+Dona els dies des anterior cap de setmana anterior.
+Dona els dies des anterior cap de setmana passat.
+Dona els dies des darrer cap de setmana anterior.
+Dona els dies des darrer cap de setmana passat.
+Dona els dies des passat cap de setmana anterior.
+Dona els dies des passat cap de setmana passat.
+Dona els dies desúltim cap de setmana anterior.
+Dona els dies desúltim cap de setmana passat.
+Dona els dies exactes del cap de setmana anterior.
+Dona els dies exactes del cap de setmana passat.
+Dona els dies exactes del passat cap de setmana.
+Dona els dies exactes des cap de setmana anterior.
+Dona els dies exactes des cap de setmana passat.
+Dona els dies exactes des passat cap de setmana.
+Dona els jorns de l' anterior cap de setmana anterior.
+Dona els jorns de l' anterior cap de setmana passat.
+Dona els jorns de l' darrer cap de setmana anterior.
+Dona els jorns de l' darrer cap de setmana passat.
+Dona els jorns de l' passat cap de setmana anterior.
+Dona els jorns de l' passat cap de setmana passat.
+Dona els jorns de l'últim cap de setmana anterior.
+Dona els jorns de l'últim cap de setmana passat.
+Dona els jorns de s' anterior cap de setmana anterior.
+Dona els jorns de s' anterior cap de setmana passat.
+Dona els jorns de s' darrer cap de setmana anterior.
+Dona els jorns de s' darrer cap de setmana passat.
+Dona els jorns de s' passat cap de setmana anterior.
+Dona els jorns de s' passat cap de setmana passat.
+Dona els jorns de s'últim cap de setmana anterior.
+Dona els jorns de s'últim cap de setmana passat.
+Dona els jorns del anterior cap de setmana anterior.
+Dona els jorns del anterior cap de setmana passat.
+Dona els jorns del darrer cap de setmana anterior.
+Dona els jorns del darrer cap de setmana passat.
+Dona els jorns del passat cap de setmana anterior.
+Dona els jorns del passat cap de setmana passat.
+Dona els jorns delúltim cap de setmana anterior.
+Dona els jorns delúltim cap de setmana passat.
+Dona els jorns des anterior cap de setmana anterior.
+Dona els jorns des anterior cap de setmana passat.
+Dona els jorns des darrer cap de setmana anterior.
+Dona els jorns des darrer cap de setmana passat.
+Dona els jorns des passat cap de setmana anterior.
+Dona els jorns des passat cap de setmana passat.
+Dona els jorns desúltim cap de setmana anterior.
+Dona els jorns desúltim cap de setmana passat.
+Dona es dies concretes del cap de setmana anterior.
+Dona es dies concretes del cap de setmana passat.
+Dona es dies concretes del passat cap de setmana.
+Dona es dies concretes des cap de setmana anterior.
+Dona es dies concretes des cap de setmana passat.
+Dona es dies concretes des passat cap de setmana.
+Dona es dies concrets del cap de setmana anterior.
+Dona es dies concrets del cap de setmana passat.
+Dona es dies concrets del passat cap de setmana.
+Dona es dies concrets des cap de setmana anterior.
+Dona es dies concrets des cap de setmana passat.
+Dona es dies concrets des passat cap de setmana.
+Dona es dies de l' anterior cap de setmana anterior.
+Dona es dies de l' anterior cap de setmana passat.
+Dona es dies de l' darrer cap de setmana anterior.
+Dona es dies de l' darrer cap de setmana passat.
+Dona es dies de l' passat cap de setmana anterior.
+Dona es dies de l' passat cap de setmana passat.
+Dona es dies de l'últim cap de setmana anterior.
+Dona es dies de l'últim cap de setmana passat.
+Dona es dies de s' anterior cap de setmana anterior.
+Dona es dies de s' anterior cap de setmana passat.
+Dona es dies de s' darrer cap de setmana anterior.
+Dona es dies de s' darrer cap de setmana passat.
+Dona es dies de s' passat cap de setmana anterior.
+Dona es dies de s' passat cap de setmana passat.
+Dona es dies de s'últim cap de setmana anterior.
+Dona es dies de s'últim cap de setmana passat.
+Dona es dies del anterior cap de setmana anterior.
+Dona es dies del anterior cap de setmana passat.
+Dona es dies del darrer cap de setmana anterior.
+Dona es dies del darrer cap de setmana passat.
+Dona es dies del passat cap de setmana anterior.
+Dona es dies del passat cap de setmana passat.
+Dona es dies delúltim cap de setmana anterior.
+Dona es dies delúltim cap de setmana passat.
+Dona es dies des anterior cap de setmana anterior.
+Dona es dies des anterior cap de setmana passat.
+Dona es dies des darrer cap de setmana anterior.
+Dona es dies des darrer cap de setmana passat.
+Dona es dies des passat cap de setmana anterior.
+Dona es dies des passat cap de setmana passat.
+Dona es dies desúltim cap de setmana anterior.
+Dona es dies desúltim cap de setmana passat.
+Dona es dies exactes del cap de setmana anterior.
+Dona es dies exactes del cap de setmana passat.
+Dona es dies exactes del passat cap de setmana.
+Dona es dies exactes des cap de setmana anterior.
+Dona es dies exactes des cap de setmana passat.
+Dona es dies exactes des passat cap de setmana.
+Dona es jorns de l' anterior cap de setmana anterior.
+Dona es jorns de l' anterior cap de setmana passat.
+Dona es jorns de l' darrer cap de setmana anterior.
+Dona es jorns de l' darrer cap de setmana passat.
+Dona es jorns de l' passat cap de setmana anterior.
+Dona es jorns de l' passat cap de setmana passat.
+Dona es jorns de l'últim cap de setmana anterior.
+Dona es jorns de l'últim cap de setmana passat.
+Dona es jorns de s' anterior cap de setmana anterior.
+Dona es jorns de s' anterior cap de setmana passat.
+Dona es jorns de s' darrer cap de setmana anterior.
+Dona es jorns de s' darrer cap de setmana passat.
+Dona es jorns de s' passat cap de setmana anterior.
+Dona es jorns de s' passat cap de setmana passat.
+Dona es jorns de s'últim cap de setmana anterior.
+Dona es jorns de s'últim cap de setmana passat.
+Dona es jorns del anterior cap de setmana anterior.
+Dona es jorns del anterior cap de setmana passat.
+Dona es jorns del darrer cap de setmana anterior.
+Dona es jorns del darrer cap de setmana passat.
+Dona es jorns del passat cap de setmana anterior.
+Dona es jorns del passat cap de setmana passat.
+Dona es jorns delúltim cap de setmana anterior.
+Dona es jorns delúltim cap de setmana passat.
+Dona es jorns des anterior cap de setmana anterior.
+Dona es jorns des anterior cap de setmana passat.
+Dona es jorns des darrer cap de setmana anterior.
+Dona es jorns des darrer cap de setmana passat.
+Dona es jorns des passat cap de setmana anterior.
+Dona es jorns des passat cap de setmana passat.
+Dona es jorns desúltim cap de setmana anterior.
+Dona es jorns desúltim cap de setmana passat.
+Dona les dates concretes del cap de setmana anterior.
+Dona les dates concretes del cap de setmana passat.
+Dona les dates concretes del passat cap de setmana.
+Dona les dates concretes des cap de setmana anterior.
+Dona les dates concretes des cap de setmana passat.
+Dona les dates concretes des passat cap de setmana.
+Dona les dates concrets del cap de setmana anterior.
+Dona les dates concrets del cap de setmana passat.
+Dona les dates concrets del passat cap de setmana.
+Dona les dates concrets des cap de setmana anterior.
+Dona les dates concrets des cap de setmana passat.
+Dona les dates concrets des passat cap de setmana.
+Dona les dates de l' anterior cap de setmana anterior.
+Dona les dates de l' anterior cap de setmana passat.
+Dona les dates de l' darrer cap de setmana anterior.
+Dona les dates de l' darrer cap de setmana passat.
+Dona les dates de l' passat cap de setmana anterior.
+Dona les dates de l' passat cap de setmana passat.
+Dona les dates de l'últim cap de setmana anterior.
+Dona les dates de l'últim cap de setmana passat.
+Dona les dates de s' anterior cap de setmana anterior.
+Dona les dates de s' anterior cap de setmana passat.
+Dona les dates de s' darrer cap de setmana anterior.
+Dona les dates de s' darrer cap de setmana passat.
+Dona les dates de s' passat cap de setmana anterior.
+Dona les dates de s' passat cap de setmana passat.
+Dona les dates de s'últim cap de setmana anterior.
+Dona les dates de s'últim cap de setmana passat.
+Dona les dates del anterior cap de setmana anterior.
+Dona les dates del anterior cap de setmana passat.
+Dona les dates del darrer cap de setmana anterior.
+Dona les dates del darrer cap de setmana passat.
+Dona les dates del passat cap de setmana anterior.
+Dona les dates del passat cap de setmana passat.
+Dona les dates delúltim cap de setmana anterior.
+Dona les dates delúltim cap de setmana passat.
+Dona les dates des anterior cap de setmana anterior.
+Dona les dates des anterior cap de setmana passat.
+Dona les dates des darrer cap de setmana anterior.
+Dona les dates des darrer cap de setmana passat.
+Dona les dates des passat cap de setmana anterior.
+Dona les dates des passat cap de setmana passat.
+Dona les dates desúltim cap de setmana anterior.
+Dona les dates desúltim cap de setmana passat.
+Dona les dates exactes del cap de setmana anterior.
+Dona les dates exactes del cap de setmana passat.
+Dona les dates exactes del passat cap de setmana.
+Dona les dates exactes des cap de setmana anterior.
+Dona les dates exactes des cap de setmana passat.
+Dona les dates exactes des passat cap de setmana.
+Dona ses dates concretes del cap de setmana anterior.
+Dona ses dates concretes del cap de setmana passat.
+Dona ses dates concretes del passat cap de setmana.
+Dona ses dates concretes des cap de setmana anterior.
+Dona ses dates concretes des cap de setmana passat.
+Dona ses dates concretes des passat cap de setmana.
+Dona ses dates concrets del cap de setmana anterior.
+Dona ses dates concrets del cap de setmana passat.
+Dona ses dates concrets del passat cap de setmana.
+Dona ses dates concrets des cap de setmana anterior.
+Dona ses dates concrets des cap de setmana passat.
+Dona ses dates concrets des passat cap de setmana.
+Dona ses dates de l' anterior cap de setmana anterior.
+Dona ses dates de l' anterior cap de setmana passat.
+Dona ses dates de l' darrer cap de setmana anterior.
+Dona ses dates de l' darrer cap de setmana passat.
+Dona ses dates de l' passat cap de setmana anterior.
+Dona ses dates de l' passat cap de setmana passat.
+Dona ses dates de l'últim cap de setmana anterior.
+Dona ses dates de l'últim cap de setmana passat.
+Dona ses dates de s' anterior cap de setmana anterior.
+Dona ses dates de s' anterior cap de setmana passat.
+Dona ses dates de s' darrer cap de setmana anterior.
+Dona ses dates de s' darrer cap de setmana passat.
+Dona ses dates de s' passat cap de setmana anterior.
+Dona ses dates de s' passat cap de setmana passat.
+Dona ses dates de s'últim cap de setmana anterior.
+Dona ses dates de s'últim cap de setmana passat.
+Dona ses dates del anterior cap de setmana anterior.
+Dona ses dates del anterior cap de setmana passat.
+Dona ses dates del darrer cap de setmana anterior.
+Dona ses dates del darrer cap de setmana passat.
+Dona ses dates del passat cap de setmana anterior.
+Dona ses dates del passat cap de setmana passat.
+Dona ses dates delúltim cap de setmana anterior.
+Dona ses dates delúltim cap de setmana passat.
+Dona ses dates des anterior cap de setmana anterior.
+Dona ses dates des anterior cap de setmana passat.
+Dona ses dates des darrer cap de setmana anterior.
+Dona ses dates des darrer cap de setmana passat.
+Dona ses dates des passat cap de setmana anterior.
+Dona ses dates des passat cap de setmana passat.
+Dona ses dates desúltim cap de setmana anterior.
+Dona ses dates desúltim cap de setmana passat.
+Dona ses dates exactes del cap de setmana anterior.
+Dona ses dates exactes del cap de setmana passat.
+Dona ses dates exactes del passat cap de setmana.
+Dona ses dates exactes des cap de setmana anterior.
+Dona ses dates exactes des cap de setmana passat.
+Dona ses dates exactes des passat cap de setmana.
+Dona'm els dies concretes del cap de setmana anterior.
+Dona'm els dies concretes del cap de setmana passat.
+Dona'm els dies concretes del passat cap de setmana.
+Dona'm els dies concretes des cap de setmana anterior.
+Dona'm els dies concretes des cap de setmana passat.
+Dona'm els dies concretes des passat cap de setmana.
+Dona'm els dies concrets del cap de setmana anterior.
+Dona'm els dies concrets del cap de setmana passat.
+Dona'm els dies concrets del passat cap de setmana.
+Dona'm els dies concrets des cap de setmana anterior.
+Dona'm els dies concrets des cap de setmana passat.
+Dona'm els dies concrets des passat cap de setmana.
+Dona'm els dies de l' anterior cap de setmana anterior.
+Dona'm els dies de l' anterior cap de setmana passat.
+Dona'm els dies de l' darrer cap de setmana anterior.
+Dona'm els dies de l' darrer cap de setmana passat.
+Dona'm els dies de l' passat cap de setmana anterior.
+Dona'm els dies de l' passat cap de setmana passat.
+Dona'm els dies de l'últim cap de setmana anterior.
+Dona'm els dies de l'últim cap de setmana passat.
+Dona'm els dies de s' anterior cap de setmana anterior.
+Dona'm els dies de s' anterior cap de setmana passat.
+Dona'm els dies de s' darrer cap de setmana anterior.
+Dona'm els dies de s' darrer cap de setmana passat.
+Dona'm els dies de s' passat cap de setmana anterior.
+Dona'm els dies de s' passat cap de setmana passat.
+Dona'm els dies de s'últim cap de setmana anterior.
+Dona'm els dies de s'últim cap de setmana passat.
+Dona'm els dies del anterior cap de setmana anterior.
+Dona'm els dies del anterior cap de setmana passat.
+Dona'm els dies del darrer cap de setmana anterior.
+Dona'm els dies del darrer cap de setmana passat.
+Dona'm els dies del passat cap de setmana anterior.
+Dona'm els dies del passat cap de setmana passat.
+Dona'm els dies delúltim cap de setmana anterior.
+Dona'm els dies delúltim cap de setmana passat.
+Dona'm els dies des anterior cap de setmana anterior.
+Dona'm els dies des anterior cap de setmana passat.
+Dona'm els dies des darrer cap de setmana anterior.
+Dona'm els dies des darrer cap de setmana passat.
+Dona'm els dies des passat cap de setmana anterior.
+Dona'm els dies des passat cap de setmana passat.
+Dona'm els dies desúltim cap de setmana anterior.
+Dona'm els dies desúltim cap de setmana passat.
+Dona'm els dies exactes del cap de setmana anterior.
+Dona'm els dies exactes del cap de setmana passat.
+Dona'm els dies exactes del passat cap de setmana.
+Dona'm els dies exactes des cap de setmana anterior.
+Dona'm els dies exactes des cap de setmana passat.
+Dona'm els dies exactes des passat cap de setmana.
+Dona'm els jorns de l' anterior cap de setmana anterior.
+Dona'm els jorns de l' anterior cap de setmana passat.
+Dona'm els jorns de l' darrer cap de setmana anterior.
+Dona'm els jorns de l' darrer cap de setmana passat.
+Dona'm els jorns de l' passat cap de setmana anterior.
+Dona'm els jorns de l' passat cap de setmana passat.
+Dona'm els jorns de l'últim cap de setmana anterior.
+Dona'm els jorns de l'últim cap de setmana passat.
+Dona'm els jorns de s' anterior cap de setmana anterior.
+Dona'm els jorns de s' anterior cap de setmana passat.
+Dona'm els jorns de s' darrer cap de setmana anterior.
+Dona'm els jorns de s' darrer cap de setmana passat.
+Dona'm els jorns de s' passat cap de setmana anterior.
+Dona'm els jorns de s' passat cap de setmana passat.
+Dona'm els jorns de s'últim cap de setmana anterior.
+Dona'm els jorns de s'últim cap de setmana passat.
+Dona'm els jorns del anterior cap de setmana anterior.
+Dona'm els jorns del anterior cap de setmana passat.
+Dona'm els jorns del darrer cap de setmana anterior.
+Dona'm els jorns del darrer cap de setmana passat.
+Dona'm els jorns del passat cap de setmana anterior.
+Dona'm els jorns del passat cap de setmana passat.
+Dona'm els jorns delúltim cap de setmana anterior.
+Dona'm els jorns delúltim cap de setmana passat.
+Dona'm els jorns des anterior cap de setmana anterior.
+Dona'm els jorns des anterior cap de setmana passat.
+Dona'm els jorns des darrer cap de setmana anterior.
+Dona'm els jorns des darrer cap de setmana passat.
+Dona'm els jorns des passat cap de setmana anterior.
+Dona'm els jorns des passat cap de setmana passat.
+Dona'm els jorns desúltim cap de setmana anterior.
+Dona'm els jorns desúltim cap de setmana passat.
+Dona'm es dies concretes del cap de setmana anterior.
+Dona'm es dies concretes del cap de setmana passat.
+Dona'm es dies concretes del passat cap de setmana.
+Dona'm es dies concretes des cap de setmana anterior.
+Dona'm es dies concretes des cap de setmana passat.
+Dona'm es dies concretes des passat cap de setmana.
+Dona'm es dies concrets del cap de setmana anterior.
+Dona'm es dies concrets del cap de setmana passat.
+Dona'm es dies concrets del passat cap de setmana.
+Dona'm es dies concrets des cap de setmana anterior.
+Dona'm es dies concrets des cap de setmana passat.
+Dona'm es dies concrets des passat cap de setmana.
+Dona'm es dies de l' anterior cap de setmana anterior.
+Dona'm es dies de l' anterior cap de setmana passat.
+Dona'm es dies de l' darrer cap de setmana anterior.
+Dona'm es dies de l' darrer cap de setmana passat.
+Dona'm es dies de l' passat cap de setmana anterior.
+Dona'm es dies de l' passat cap de setmana passat.
+Dona'm es dies de l'últim cap de setmana anterior.
+Dona'm es dies de l'últim cap de setmana passat.
+Dona'm es dies de s' anterior cap de setmana anterior.
+Dona'm es dies de s' anterior cap de setmana passat.
+Dona'm es dies de s' darrer cap de setmana anterior.
+Dona'm es dies de s' darrer cap de setmana passat.
+Dona'm es dies de s' passat cap de setmana anterior.
+Dona'm es dies de s' passat cap de setmana passat.
+Dona'm es dies de s'últim cap de setmana anterior.
+Dona'm es dies de s'últim cap de setmana passat.
+Dona'm es dies del anterior cap de setmana anterior.
+Dona'm es dies del anterior cap de setmana passat.
+Dona'm es dies del darrer cap de setmana anterior.
+Dona'm es dies del darrer cap de setmana passat.
+Dona'm es dies del passat cap de setmana anterior.
+Dona'm es dies del passat cap de setmana passat.
+Dona'm es dies delúltim cap de setmana anterior.
+Dona'm es dies delúltim cap de setmana passat.
+Dona'm es dies des anterior cap de setmana anterior.
+Dona'm es dies des anterior cap de setmana passat.
+Dona'm es dies des darrer cap de setmana anterior.
+Dona'm es dies des darrer cap de setmana passat.
+Dona'm es dies des passat cap de setmana anterior.
+Dona'm es dies des passat cap de setmana passat.
+Dona'm es dies desúltim cap de setmana anterior.
+Dona'm es dies desúltim cap de setmana passat.
+Dona'm es dies exactes del cap de setmana anterior.
+Dona'm es dies exactes del cap de setmana passat.
+Dona'm es dies exactes del passat cap de setmana.
+Dona'm es dies exactes des cap de setmana anterior.
+Dona'm es dies exactes des cap de setmana passat.
+Dona'm es dies exactes des passat cap de setmana.
+Dona'm es jorns de l' anterior cap de setmana anterior.
+Dona'm es jorns de l' anterior cap de setmana passat.
+Dona'm es jorns de l' darrer cap de setmana anterior.
+Dona'm es jorns de l' darrer cap de setmana passat.
+Dona'm es jorns de l' passat cap de setmana anterior.
+Dona'm es jorns de l' passat cap de setmana passat.
+Dona'm es jorns de l'últim cap de setmana anterior.
+Dona'm es jorns de l'últim cap de setmana passat.
+Dona'm es jorns de s' anterior cap de setmana anterior.
+Dona'm es jorns de s' anterior cap de setmana passat.
+Dona'm es jorns de s' darrer cap de setmana anterior.
+Dona'm es jorns de s' darrer cap de setmana passat.
+Dona'm es jorns de s' passat cap de setmana anterior.
+Dona'm es jorns de s' passat cap de setmana passat.
+Dona'm es jorns de s'últim cap de setmana anterior.
+Dona'm es jorns de s'últim cap de setmana passat.
+Dona'm es jorns del anterior cap de setmana anterior.
+Dona'm es jorns del anterior cap de setmana passat.
+Dona'm es jorns del darrer cap de setmana anterior.
+Dona'm es jorns del darrer cap de setmana passat.
+Dona'm es jorns del passat cap de setmana anterior.
+Dona'm es jorns del passat cap de setmana passat.
+Dona'm es jorns delúltim cap de setmana anterior.
+Dona'm es jorns delúltim cap de setmana passat.
+Dona'm es jorns des anterior cap de setmana anterior.
+Dona'm es jorns des anterior cap de setmana passat.
+Dona'm es jorns des darrer cap de setmana anterior.
+Dona'm es jorns des darrer cap de setmana passat.
+Dona'm es jorns des passat cap de setmana anterior.
+Dona'm es jorns des passat cap de setmana passat.
+Dona'm es jorns desúltim cap de setmana anterior.
+Dona'm es jorns desúltim cap de setmana passat.
 Dona'm les dates concretes del cap de setmana anterior.
+Dona'm les dates concretes del cap de setmana passat.
+Dona'm les dates concretes del passat cap de setmana.
+Dona'm les dates concretes des cap de setmana anterior.
+Dona'm les dates concretes des cap de setmana passat.
+Dona'm les dates concretes des passat cap de setmana.
+Dona'm les dates concrets del cap de setmana anterior.
+Dona'm les dates concrets del cap de setmana passat.
+Dona'm les dates concrets del passat cap de setmana.
+Dona'm les dates concrets des cap de setmana anterior.
+Dona'm les dates concrets des cap de setmana passat.
+Dona'm les dates concrets des passat cap de setmana.
+Dona'm les dates de l' anterior cap de setmana anterior.
+Dona'm les dates de l' anterior cap de setmana passat.
+Dona'm les dates de l' darrer cap de setmana anterior.
+Dona'm les dates de l' darrer cap de setmana passat.
+Dona'm les dates de l' passat cap de setmana anterior.
+Dona'm les dates de l' passat cap de setmana passat.
+Dona'm les dates de l'últim cap de setmana anterior.
+Dona'm les dates de l'últim cap de setmana passat.
+Dona'm les dates de s' anterior cap de setmana anterior.
+Dona'm les dates de s' anterior cap de setmana passat.
+Dona'm les dates de s' darrer cap de setmana anterior.
+Dona'm les dates de s' darrer cap de setmana passat.
+Dona'm les dates de s' passat cap de setmana anterior.
+Dona'm les dates de s' passat cap de setmana passat.
+Dona'm les dates de s'últim cap de setmana anterior.
+Dona'm les dates de s'últim cap de setmana passat.
+Dona'm les dates del anterior cap de setmana anterior.
+Dona'm les dates del anterior cap de setmana passat.
+Dona'm les dates del cap de setmana abans de l'últim.
+Dona'm les dates del cap de setmana passat.
+Dona'm les dates del cap de setmana que acaba d'acabar.
+Dona'm les dates del darrer cap de setmana anterior.
+Dona'm les dates del darrer cap de setmana passat.
+Dona'm les dates del passat cap de setmana anterior.
+Dona'm les dates del passat cap de setmana passat.
+Dona'm les dates del passat cap de setmana.
+Dona'm les dates delúltim cap de setmana anterior.
+Dona'm les dates delúltim cap de setmana passat.
+Dona'm les dates des anterior cap de setmana anterior.
+Dona'm les dates des anterior cap de setmana passat.
+Dona'm les dates des cap de setmana passat.
+Dona'm les dates des cap de setmana que acaba d'acabar.
+Dona'm les dates des darrer cap de setmana anterior.
+Dona'm les dates des darrer cap de setmana passat.
+Dona'm les dates des passat cap de setmana anterior.
+Dona'm les dates des passat cap de setmana passat.
+Dona'm les dates des passat cap de setmana.
+Dona'm les dates desúltim cap de setmana anterior.
+Dona'm les dates desúltim cap de setmana passat.
+Dona'm les dates exactes del cap de setmana anterior.
+Dona'm les dates exactes del cap de setmana passat.
+Dona'm les dates exactes del passat cap de setmana.
+Dona'm les dates exactes des cap de setmana anterior.
+Dona'm les dates exactes des cap de setmana passat.
+Dona'm les dates exactes des passat cap de setmana.
+Dona'm ses dates concretes del cap de setmana anterior.
+Dona'm ses dates concretes del cap de setmana passat.
+Dona'm ses dates concretes del passat cap de setmana.
+Dona'm ses dates concretes des cap de setmana anterior.
+Dona'm ses dates concretes des cap de setmana passat.
+Dona'm ses dates concretes des passat cap de setmana.
+Dona'm ses dates concrets del cap de setmana anterior.
+Dona'm ses dates concrets del cap de setmana passat.
+Dona'm ses dates concrets del passat cap de setmana.
+Dona'm ses dates concrets des cap de setmana anterior.
+Dona'm ses dates concrets des cap de setmana passat.
+Dona'm ses dates concrets des passat cap de setmana.
+Dona'm ses dates de l' anterior cap de setmana anterior.
+Dona'm ses dates de l' anterior cap de setmana passat.
+Dona'm ses dates de l' darrer cap de setmana anterior.
+Dona'm ses dates de l' darrer cap de setmana passat.
+Dona'm ses dates de l' passat cap de setmana anterior.
+Dona'm ses dates de l' passat cap de setmana passat.
+Dona'm ses dates de l'últim cap de setmana anterior.
+Dona'm ses dates de l'últim cap de setmana passat.
+Dona'm ses dates de s' anterior cap de setmana anterior.
+Dona'm ses dates de s' anterior cap de setmana passat.
+Dona'm ses dates de s' darrer cap de setmana anterior.
+Dona'm ses dates de s' darrer cap de setmana passat.
+Dona'm ses dates de s' passat cap de setmana anterior.
+Dona'm ses dates de s' passat cap de setmana passat.
+Dona'm ses dates de s'últim cap de setmana anterior.
+Dona'm ses dates de s'últim cap de setmana passat.
+Dona'm ses dates del anterior cap de setmana anterior.
+Dona'm ses dates del anterior cap de setmana passat.
+Dona'm ses dates del darrer cap de setmana anterior.
+Dona'm ses dates del darrer cap de setmana passat.
+Dona'm ses dates del passat cap de setmana anterior.
+Dona'm ses dates del passat cap de setmana passat.
+Dona'm ses dates delúltim cap de setmana anterior.
+Dona'm ses dates delúltim cap de setmana passat.
+Dona'm ses dates des anterior cap de setmana anterior.
+Dona'm ses dates des anterior cap de setmana passat.
+Dona'm ses dates des darrer cap de setmana anterior.
+Dona'm ses dates des darrer cap de setmana passat.
+Dona'm ses dates des passat cap de setmana anterior.
+Dona'm ses dates des passat cap de setmana passat.
+Dona'm ses dates desúltim cap de setmana anterior.
+Dona'm ses dates desúltim cap de setmana passat.
+Dona'm ses dates exactes del cap de setmana anterior.
+Dona'm ses dates exactes del cap de setmana passat.
+Dona'm ses dates exactes del passat cap de setmana.
+Dona'm ses dates exactes des cap de setmana anterior.
+Dona'm ses dates exactes des cap de setmana passat.
+Dona'm ses dates exactes des passat cap de setmana.
+Dóna els dies concretes del cap de setmana anterior.
+Dóna els dies concretes del cap de setmana passat.
+Dóna els dies concretes del passat cap de setmana.
+Dóna els dies concretes des cap de setmana anterior.
+Dóna els dies concretes des cap de setmana passat.
+Dóna els dies concretes des passat cap de setmana.
+Dóna els dies concrets del cap de setmana anterior.
+Dóna els dies concrets del cap de setmana passat.
+Dóna els dies concrets del passat cap de setmana.
+Dóna els dies concrets des cap de setmana anterior.
+Dóna els dies concrets des cap de setmana passat.
+Dóna els dies concrets des passat cap de setmana.
+Dóna els dies de l' anterior cap de setmana anterior.
+Dóna els dies de l' anterior cap de setmana passat.
+Dóna els dies de l' darrer cap de setmana anterior.
+Dóna els dies de l' darrer cap de setmana passat.
+Dóna els dies de l' passat cap de setmana anterior.
+Dóna els dies de l' passat cap de setmana passat.
+Dóna els dies de l'últim cap de setmana anterior.
+Dóna els dies de l'últim cap de setmana passat.
+Dóna els dies de s' anterior cap de setmana anterior.
+Dóna els dies de s' anterior cap de setmana passat.
+Dóna els dies de s' darrer cap de setmana anterior.
+Dóna els dies de s' darrer cap de setmana passat.
+Dóna els dies de s' passat cap de setmana anterior.
+Dóna els dies de s' passat cap de setmana passat.
+Dóna els dies de s'últim cap de setmana anterior.
+Dóna els dies de s'últim cap de setmana passat.
+Dóna els dies del anterior cap de setmana anterior.
+Dóna els dies del anterior cap de setmana passat.
+Dóna els dies del darrer cap de setmana anterior.
+Dóna els dies del darrer cap de setmana passat.
+Dóna els dies del passat cap de setmana anterior.
+Dóna els dies del passat cap de setmana passat.
+Dóna els dies delúltim cap de setmana anterior.
+Dóna els dies delúltim cap de setmana passat.
+Dóna els dies des anterior cap de setmana anterior.
+Dóna els dies des anterior cap de setmana passat.
+Dóna els dies des darrer cap de setmana anterior.
+Dóna els dies des darrer cap de setmana passat.
+Dóna els dies des passat cap de setmana anterior.
+Dóna els dies des passat cap de setmana passat.
+Dóna els dies desúltim cap de setmana anterior.
+Dóna els dies desúltim cap de setmana passat.
+Dóna els dies exactes del cap de setmana anterior.
+Dóna els dies exactes del cap de setmana passat.
+Dóna els dies exactes del passat cap de setmana.
+Dóna els dies exactes des cap de setmana anterior.
+Dóna els dies exactes des cap de setmana passat.
+Dóna els dies exactes des passat cap de setmana.
+Dóna els jorns de l' anterior cap de setmana anterior.
+Dóna els jorns de l' anterior cap de setmana passat.
+Dóna els jorns de l' darrer cap de setmana anterior.
+Dóna els jorns de l' darrer cap de setmana passat.
+Dóna els jorns de l' passat cap de setmana anterior.
+Dóna els jorns de l' passat cap de setmana passat.
+Dóna els jorns de l'últim cap de setmana anterior.
+Dóna els jorns de l'últim cap de setmana passat.
+Dóna els jorns de s' anterior cap de setmana anterior.
+Dóna els jorns de s' anterior cap de setmana passat.
+Dóna els jorns de s' darrer cap de setmana anterior.
+Dóna els jorns de s' darrer cap de setmana passat.
+Dóna els jorns de s' passat cap de setmana anterior.
+Dóna els jorns de s' passat cap de setmana passat.
+Dóna els jorns de s'últim cap de setmana anterior.
+Dóna els jorns de s'últim cap de setmana passat.
+Dóna els jorns del anterior cap de setmana anterior.
+Dóna els jorns del anterior cap de setmana passat.
+Dóna els jorns del darrer cap de setmana anterior.
+Dóna els jorns del darrer cap de setmana passat.
+Dóna els jorns del passat cap de setmana anterior.
+Dóna els jorns del passat cap de setmana passat.
+Dóna els jorns delúltim cap de setmana anterior.
+Dóna els jorns delúltim cap de setmana passat.
+Dóna els jorns des anterior cap de setmana anterior.
+Dóna els jorns des anterior cap de setmana passat.
+Dóna els jorns des darrer cap de setmana anterior.
+Dóna els jorns des darrer cap de setmana passat.
+Dóna els jorns des passat cap de setmana anterior.
+Dóna els jorns des passat cap de setmana passat.
+Dóna els jorns desúltim cap de setmana anterior.
+Dóna els jorns desúltim cap de setmana passat.
+Dóna es dies concretes del cap de setmana anterior.
+Dóna es dies concretes del cap de setmana passat.
+Dóna es dies concretes del passat cap de setmana.
+Dóna es dies concretes des cap de setmana anterior.
+Dóna es dies concretes des cap de setmana passat.
+Dóna es dies concretes des passat cap de setmana.
+Dóna es dies concrets del cap de setmana anterior.
+Dóna es dies concrets del cap de setmana passat.
+Dóna es dies concrets del passat cap de setmana.
+Dóna es dies concrets des cap de setmana anterior.
+Dóna es dies concrets des cap de setmana passat.
+Dóna es dies concrets des passat cap de setmana.
+Dóna es dies de l' anterior cap de setmana anterior.
+Dóna es dies de l' anterior cap de setmana passat.
+Dóna es dies de l' darrer cap de setmana anterior.
+Dóna es dies de l' darrer cap de setmana passat.
+Dóna es dies de l' passat cap de setmana anterior.
+Dóna es dies de l' passat cap de setmana passat.
+Dóna es dies de l'últim cap de setmana anterior.
+Dóna es dies de l'últim cap de setmana passat.
+Dóna es dies de s' anterior cap de setmana anterior.
+Dóna es dies de s' anterior cap de setmana passat.
+Dóna es dies de s' darrer cap de setmana anterior.
+Dóna es dies de s' darrer cap de setmana passat.
+Dóna es dies de s' passat cap de setmana anterior.
+Dóna es dies de s' passat cap de setmana passat.
+Dóna es dies de s'últim cap de setmana anterior.
+Dóna es dies de s'últim cap de setmana passat.
+Dóna es dies del anterior cap de setmana anterior.
+Dóna es dies del anterior cap de setmana passat.
+Dóna es dies del darrer cap de setmana anterior.
+Dóna es dies del darrer cap de setmana passat.
+Dóna es dies del passat cap de setmana anterior.
+Dóna es dies del passat cap de setmana passat.
+Dóna es dies delúltim cap de setmana anterior.
+Dóna es dies delúltim cap de setmana passat.
+Dóna es dies des anterior cap de setmana anterior.
+Dóna es dies des anterior cap de setmana passat.
+Dóna es dies des darrer cap de setmana anterior.
+Dóna es dies des darrer cap de setmana passat.
+Dóna es dies des passat cap de setmana anterior.
+Dóna es dies des passat cap de setmana passat.
+Dóna es dies desúltim cap de setmana anterior.
+Dóna es dies desúltim cap de setmana passat.
+Dóna es dies exactes del cap de setmana anterior.
+Dóna es dies exactes del cap de setmana passat.
+Dóna es dies exactes del passat cap de setmana.
+Dóna es dies exactes des cap de setmana anterior.
+Dóna es dies exactes des cap de setmana passat.
+Dóna es dies exactes des passat cap de setmana.
+Dóna es jorns de l' anterior cap de setmana anterior.
+Dóna es jorns de l' anterior cap de setmana passat.
+Dóna es jorns de l' darrer cap de setmana anterior.
+Dóna es jorns de l' darrer cap de setmana passat.
+Dóna es jorns de l' passat cap de setmana anterior.
+Dóna es jorns de l' passat cap de setmana passat.
+Dóna es jorns de l'últim cap de setmana anterior.
+Dóna es jorns de l'últim cap de setmana passat.
+Dóna es jorns de s' anterior cap de setmana anterior.
+Dóna es jorns de s' anterior cap de setmana passat.
+Dóna es jorns de s' darrer cap de setmana anterior.
+Dóna es jorns de s' darrer cap de setmana passat.
+Dóna es jorns de s' passat cap de setmana anterior.
+Dóna es jorns de s' passat cap de setmana passat.
+Dóna es jorns de s'últim cap de setmana anterior.
+Dóna es jorns de s'últim cap de setmana passat.
+Dóna es jorns del anterior cap de setmana anterior.
+Dóna es jorns del anterior cap de setmana passat.
+Dóna es jorns del darrer cap de setmana anterior.
+Dóna es jorns del darrer cap de setmana passat.
+Dóna es jorns del passat cap de setmana anterior.
+Dóna es jorns del passat cap de setmana passat.
+Dóna es jorns delúltim cap de setmana anterior.
+Dóna es jorns delúltim cap de setmana passat.
+Dóna es jorns des anterior cap de setmana anterior.
+Dóna es jorns des anterior cap de setmana passat.
+Dóna es jorns des darrer cap de setmana anterior.
+Dóna es jorns des darrer cap de setmana passat.
+Dóna es jorns des passat cap de setmana anterior.
+Dóna es jorns des passat cap de setmana passat.
+Dóna es jorns desúltim cap de setmana anterior.
+Dóna es jorns desúltim cap de setmana passat.
+Dóna les dates concretes del cap de setmana anterior.
+Dóna les dates concretes del cap de setmana passat.
+Dóna les dates concretes del passat cap de setmana.
+Dóna les dates concretes des cap de setmana anterior.
+Dóna les dates concretes des cap de setmana passat.
+Dóna les dates concretes des passat cap de setmana.
+Dóna les dates concrets del cap de setmana anterior.
+Dóna les dates concrets del cap de setmana passat.
+Dóna les dates concrets del passat cap de setmana.
+Dóna les dates concrets des cap de setmana anterior.
+Dóna les dates concrets des cap de setmana passat.
+Dóna les dates concrets des passat cap de setmana.
+Dóna les dates de l' anterior cap de setmana anterior.
+Dóna les dates de l' anterior cap de setmana passat.
+Dóna les dates de l' darrer cap de setmana anterior.
+Dóna les dates de l' darrer cap de setmana passat.
+Dóna les dates de l' passat cap de setmana anterior.
+Dóna les dates de l' passat cap de setmana passat.
+Dóna les dates de l'últim cap de setmana anterior.
+Dóna les dates de l'últim cap de setmana passat.
+Dóna les dates de s' anterior cap de setmana anterior.
+Dóna les dates de s' anterior cap de setmana passat.
+Dóna les dates de s' darrer cap de setmana anterior.
+Dóna les dates de s' darrer cap de setmana passat.
+Dóna les dates de s' passat cap de setmana anterior.
+Dóna les dates de s' passat cap de setmana passat.
+Dóna les dates de s'últim cap de setmana anterior.
+Dóna les dates de s'últim cap de setmana passat.
+Dóna les dates del anterior cap de setmana anterior.
+Dóna les dates del anterior cap de setmana passat.
+Dóna les dates del darrer cap de setmana anterior.
+Dóna les dates del darrer cap de setmana passat.
+Dóna les dates del passat cap de setmana anterior.
+Dóna les dates del passat cap de setmana passat.
+Dóna les dates delúltim cap de setmana anterior.
+Dóna les dates delúltim cap de setmana passat.
+Dóna les dates des anterior cap de setmana anterior.
+Dóna les dates des anterior cap de setmana passat.
+Dóna les dates des darrer cap de setmana anterior.
+Dóna les dates des darrer cap de setmana passat.
+Dóna les dates des passat cap de setmana anterior.
+Dóna les dates des passat cap de setmana passat.
+Dóna les dates desúltim cap de setmana anterior.
+Dóna les dates desúltim cap de setmana passat.
+Dóna les dates exactes del cap de setmana anterior.
+Dóna les dates exactes del cap de setmana passat.
+Dóna les dates exactes del passat cap de setmana.
+Dóna les dates exactes des cap de setmana anterior.
+Dóna les dates exactes des cap de setmana passat.
+Dóna les dates exactes des passat cap de setmana.
+Dóna ses dates concretes del cap de setmana anterior.
+Dóna ses dates concretes del cap de setmana passat.
+Dóna ses dates concretes del passat cap de setmana.
+Dóna ses dates concretes des cap de setmana anterior.
+Dóna ses dates concretes des cap de setmana passat.
+Dóna ses dates concretes des passat cap de setmana.
+Dóna ses dates concrets del cap de setmana anterior.
+Dóna ses dates concrets del cap de setmana passat.
+Dóna ses dates concrets del passat cap de setmana.
+Dóna ses dates concrets des cap de setmana anterior.
+Dóna ses dates concrets des cap de setmana passat.
+Dóna ses dates concrets des passat cap de setmana.
+Dóna ses dates de l' anterior cap de setmana anterior.
+Dóna ses dates de l' anterior cap de setmana passat.
+Dóna ses dates de l' darrer cap de setmana anterior.
+Dóna ses dates de l' darrer cap de setmana passat.
+Dóna ses dates de l' passat cap de setmana anterior.
+Dóna ses dates de l' passat cap de setmana passat.
+Dóna ses dates de l'últim cap de setmana anterior.
+Dóna ses dates de l'últim cap de setmana passat.
+Dóna ses dates de s' anterior cap de setmana anterior.
+Dóna ses dates de s' anterior cap de setmana passat.
+Dóna ses dates de s' darrer cap de setmana anterior.
+Dóna ses dates de s' darrer cap de setmana passat.
+Dóna ses dates de s' passat cap de setmana anterior.
+Dóna ses dates de s' passat cap de setmana passat.
+Dóna ses dates de s'últim cap de setmana anterior.
+Dóna ses dates de s'últim cap de setmana passat.
+Dóna ses dates del anterior cap de setmana anterior.
+Dóna ses dates del anterior cap de setmana passat.
+Dóna ses dates del darrer cap de setmana anterior.
+Dóna ses dates del darrer cap de setmana passat.
+Dóna ses dates del passat cap de setmana anterior.
+Dóna ses dates del passat cap de setmana passat.
+Dóna ses dates delúltim cap de setmana anterior.
+Dóna ses dates delúltim cap de setmana passat.
+Dóna ses dates des anterior cap de setmana anterior.
+Dóna ses dates des anterior cap de setmana passat.
+Dóna ses dates des darrer cap de setmana anterior.
+Dóna ses dates des darrer cap de setmana passat.
+Dóna ses dates des passat cap de setmana anterior.
+Dóna ses dates des passat cap de setmana passat.
+Dóna ses dates desúltim cap de setmana anterior.
+Dóna ses dates desúltim cap de setmana passat.
+Dóna ses dates exactes del cap de setmana anterior.
+Dóna ses dates exactes del cap de setmana passat.
+Dóna ses dates exactes del passat cap de setmana.
+Dóna ses dates exactes des cap de setmana anterior.
+Dóna ses dates exactes des cap de setmana passat.
+Dóna ses dates exactes des passat cap de setmana.
+Dóna'm els dies concretes del cap de setmana anterior.
+Dóna'm els dies concretes del cap de setmana passat.
+Dóna'm els dies concretes del passat cap de setmana.
+Dóna'm els dies concretes des cap de setmana anterior.
+Dóna'm els dies concretes des cap de setmana passat.
+Dóna'm els dies concretes des passat cap de setmana.
+Dóna'm els dies concrets del cap de setmana anterior.
+Dóna'm els dies concrets del cap de setmana passat.
+Dóna'm els dies concrets del passat cap de setmana.
+Dóna'm els dies concrets des cap de setmana anterior.
+Dóna'm els dies concrets des cap de setmana passat.
+Dóna'm els dies concrets des passat cap de setmana.
+Dóna'm els dies de l' anterior cap de setmana anterior.
+Dóna'm els dies de l' anterior cap de setmana passat.
+Dóna'm els dies de l' darrer cap de setmana anterior.
+Dóna'm els dies de l' darrer cap de setmana passat.
+Dóna'm els dies de l' passat cap de setmana anterior.
+Dóna'm els dies de l' passat cap de setmana passat.
+Dóna'm els dies de l'últim cap de setmana anterior.
+Dóna'm els dies de l'últim cap de setmana passat.
+Dóna'm els dies de s' anterior cap de setmana anterior.
+Dóna'm els dies de s' anterior cap de setmana passat.
+Dóna'm els dies de s' darrer cap de setmana anterior.
+Dóna'm els dies de s' darrer cap de setmana passat.
+Dóna'm els dies de s' passat cap de setmana anterior.
+Dóna'm els dies de s' passat cap de setmana passat.
+Dóna'm els dies de s'últim cap de setmana anterior.
+Dóna'm els dies de s'últim cap de setmana passat.
+Dóna'm els dies del anterior cap de setmana anterior.
+Dóna'm els dies del anterior cap de setmana passat.
+Dóna'm els dies del darrer cap de setmana anterior.
+Dóna'm els dies del darrer cap de setmana passat.
+Dóna'm els dies del passat cap de setmana anterior.
+Dóna'm els dies del passat cap de setmana passat.
+Dóna'm els dies delúltim cap de setmana anterior.
+Dóna'm els dies delúltim cap de setmana passat.
+Dóna'm els dies des anterior cap de setmana anterior.
+Dóna'm els dies des anterior cap de setmana passat.
+Dóna'm els dies des darrer cap de setmana anterior.
+Dóna'm els dies des darrer cap de setmana passat.
+Dóna'm els dies des passat cap de setmana anterior.
+Dóna'm els dies des passat cap de setmana passat.
+Dóna'm els dies desúltim cap de setmana anterior.
+Dóna'm els dies desúltim cap de setmana passat.
+Dóna'm els dies exactes del cap de setmana anterior.
+Dóna'm els dies exactes del cap de setmana passat.
+Dóna'm els dies exactes del passat cap de setmana.
+Dóna'm els dies exactes des cap de setmana anterior.
+Dóna'm els dies exactes des cap de setmana passat.
+Dóna'm els dies exactes des passat cap de setmana.
+Dóna'm els jorns de l' anterior cap de setmana anterior.
+Dóna'm els jorns de l' anterior cap de setmana passat.
+Dóna'm els jorns de l' darrer cap de setmana anterior.
+Dóna'm els jorns de l' darrer cap de setmana passat.
+Dóna'm els jorns de l' passat cap de setmana anterior.
+Dóna'm els jorns de l' passat cap de setmana passat.
+Dóna'm els jorns de l'últim cap de setmana anterior.
+Dóna'm els jorns de l'últim cap de setmana passat.
+Dóna'm els jorns de s' anterior cap de setmana anterior.
+Dóna'm els jorns de s' anterior cap de setmana passat.
+Dóna'm els jorns de s' darrer cap de setmana anterior.
+Dóna'm els jorns de s' darrer cap de setmana passat.
+Dóna'm els jorns de s' passat cap de setmana anterior.
+Dóna'm els jorns de s' passat cap de setmana passat.
+Dóna'm els jorns de s'últim cap de setmana anterior.
+Dóna'm els jorns de s'últim cap de setmana passat.
+Dóna'm els jorns del anterior cap de setmana anterior.
+Dóna'm els jorns del anterior cap de setmana passat.
+Dóna'm els jorns del darrer cap de setmana anterior.
+Dóna'm els jorns del darrer cap de setmana passat.
+Dóna'm els jorns del passat cap de setmana anterior.
+Dóna'm els jorns del passat cap de setmana passat.
+Dóna'm els jorns delúltim cap de setmana anterior.
+Dóna'm els jorns delúltim cap de setmana passat.
+Dóna'm els jorns des anterior cap de setmana anterior.
+Dóna'm els jorns des anterior cap de setmana passat.
+Dóna'm els jorns des darrer cap de setmana anterior.
+Dóna'm els jorns des darrer cap de setmana passat.
+Dóna'm els jorns des passat cap de setmana anterior.
+Dóna'm els jorns des passat cap de setmana passat.
+Dóna'm els jorns desúltim cap de setmana anterior.
+Dóna'm els jorns desúltim cap de setmana passat.
+Dóna'm es dies concretes del cap de setmana anterior.
+Dóna'm es dies concretes del cap de setmana passat.
+Dóna'm es dies concretes del passat cap de setmana.
+Dóna'm es dies concretes des cap de setmana anterior.
+Dóna'm es dies concretes des cap de setmana passat.
+Dóna'm es dies concretes des passat cap de setmana.
+Dóna'm es dies concrets del cap de setmana anterior.
+Dóna'm es dies concrets del cap de setmana passat.
+Dóna'm es dies concrets del passat cap de setmana.
+Dóna'm es dies concrets des cap de setmana anterior.
+Dóna'm es dies concrets des cap de setmana passat.
+Dóna'm es dies concrets des passat cap de setmana.
+Dóna'm es dies de l' anterior cap de setmana anterior.
+Dóna'm es dies de l' anterior cap de setmana passat.
+Dóna'm es dies de l' darrer cap de setmana anterior.
+Dóna'm es dies de l' darrer cap de setmana passat.
+Dóna'm es dies de l' passat cap de setmana anterior.
+Dóna'm es dies de l' passat cap de setmana passat.
+Dóna'm es dies de l'últim cap de setmana anterior.
+Dóna'm es dies de l'últim cap de setmana passat.
+Dóna'm es dies de s' anterior cap de setmana anterior.
+Dóna'm es dies de s' anterior cap de setmana passat.
+Dóna'm es dies de s' darrer cap de setmana anterior.
+Dóna'm es dies de s' darrer cap de setmana passat.
+Dóna'm es dies de s' passat cap de setmana anterior.
+Dóna'm es dies de s' passat cap de setmana passat.
+Dóna'm es dies de s'últim cap de setmana anterior.
+Dóna'm es dies de s'últim cap de setmana passat.
+Dóna'm es dies del anterior cap de setmana anterior.
+Dóna'm es dies del anterior cap de setmana passat.
+Dóna'm es dies del darrer cap de setmana anterior.
+Dóna'm es dies del darrer cap de setmana passat.
+Dóna'm es dies del passat cap de setmana anterior.
+Dóna'm es dies del passat cap de setmana passat.
+Dóna'm es dies delúltim cap de setmana anterior.
+Dóna'm es dies delúltim cap de setmana passat.
+Dóna'm es dies des anterior cap de setmana anterior.
+Dóna'm es dies des anterior cap de setmana passat.
+Dóna'm es dies des darrer cap de setmana anterior.
+Dóna'm es dies des darrer cap de setmana passat.
+Dóna'm es dies des passat cap de setmana anterior.
+Dóna'm es dies des passat cap de setmana passat.
+Dóna'm es dies desúltim cap de setmana anterior.
+Dóna'm es dies desúltim cap de setmana passat.
+Dóna'm es dies exactes del cap de setmana anterior.
+Dóna'm es dies exactes del cap de setmana passat.
+Dóna'm es dies exactes del passat cap de setmana.
+Dóna'm es dies exactes des cap de setmana anterior.
+Dóna'm es dies exactes des cap de setmana passat.
+Dóna'm es dies exactes des passat cap de setmana.
+Dóna'm es jorns de l' anterior cap de setmana anterior.
+Dóna'm es jorns de l' anterior cap de setmana passat.
+Dóna'm es jorns de l' darrer cap de setmana anterior.
+Dóna'm es jorns de l' darrer cap de setmana passat.
+Dóna'm es jorns de l' passat cap de setmana anterior.
+Dóna'm es jorns de l' passat cap de setmana passat.
+Dóna'm es jorns de l'últim cap de setmana anterior.
+Dóna'm es jorns de l'últim cap de setmana passat.
+Dóna'm es jorns de s' anterior cap de setmana anterior.
+Dóna'm es jorns de s' anterior cap de setmana passat.
+Dóna'm es jorns de s' darrer cap de setmana anterior.
+Dóna'm es jorns de s' darrer cap de setmana passat.
+Dóna'm es jorns de s' passat cap de setmana anterior.
+Dóna'm es jorns de s' passat cap de setmana passat.
+Dóna'm es jorns de s'últim cap de setmana anterior.
+Dóna'm es jorns de s'últim cap de setmana passat.
+Dóna'm es jorns del anterior cap de setmana anterior.
+Dóna'm es jorns del anterior cap de setmana passat.
+Dóna'm es jorns del darrer cap de setmana anterior.
+Dóna'm es jorns del darrer cap de setmana passat.
+Dóna'm es jorns del passat cap de setmana anterior.
+Dóna'm es jorns del passat cap de setmana passat.
+Dóna'm es jorns delúltim cap de setmana anterior.
+Dóna'm es jorns delúltim cap de setmana passat.
+Dóna'm es jorns des anterior cap de setmana anterior.
+Dóna'm es jorns des anterior cap de setmana passat.
+Dóna'm es jorns des darrer cap de setmana anterior.
+Dóna'm es jorns des darrer cap de setmana passat.
+Dóna'm es jorns des passat cap de setmana anterior.
+Dóna'm es jorns des passat cap de setmana passat.
+Dóna'm es jorns desúltim cap de setmana anterior.
+Dóna'm es jorns desúltim cap de setmana passat.
+Dóna'm les dates concretes del cap de setmana anterior.
+Dóna'm les dates concretes del cap de setmana passat.
+Dóna'm les dates concretes del passat cap de setmana.
+Dóna'm les dates concretes des cap de setmana anterior.
+Dóna'm les dates concretes des cap de setmana passat.
+Dóna'm les dates concretes des passat cap de setmana.
+Dóna'm les dates concrets del cap de setmana anterior.
+Dóna'm les dates concrets del cap de setmana passat.
+Dóna'm les dates concrets del passat cap de setmana.
+Dóna'm les dates concrets des cap de setmana anterior.
+Dóna'm les dates concrets des cap de setmana passat.
+Dóna'm les dates concrets des passat cap de setmana.
+Dóna'm les dates de l' anterior cap de setmana anterior.
+Dóna'm les dates de l' anterior cap de setmana passat.
+Dóna'm les dates de l' darrer cap de setmana anterior.
+Dóna'm les dates de l' darrer cap de setmana passat.
+Dóna'm les dates de l' passat cap de setmana anterior.
+Dóna'm les dates de l' passat cap de setmana passat.
+Dóna'm les dates de l'últim cap de setmana anterior.
+Dóna'm les dates de l'últim cap de setmana passat.
+Dóna'm les dates de s' anterior cap de setmana anterior.
+Dóna'm les dates de s' anterior cap de setmana passat.
+Dóna'm les dates de s' darrer cap de setmana anterior.
+Dóna'm les dates de s' darrer cap de setmana passat.
+Dóna'm les dates de s' passat cap de setmana anterior.
+Dóna'm les dates de s' passat cap de setmana passat.
+Dóna'm les dates de s'últim cap de setmana anterior.
+Dóna'm les dates de s'últim cap de setmana passat.
+Dóna'm les dates del anterior cap de setmana anterior.
+Dóna'm les dates del anterior cap de setmana passat.
+Dóna'm les dates del cap de setmana abans de l'últim.
+Dóna'm les dates del darrer cap de setmana anterior.
+Dóna'm les dates del darrer cap de setmana passat.
+Dóna'm les dates del passat cap de setmana anterior.
+Dóna'm les dates del passat cap de setmana passat.
+Dóna'm les dates delúltim cap de setmana anterior.
+Dóna'm les dates delúltim cap de setmana passat.
+Dóna'm les dates des anterior cap de setmana anterior.
+Dóna'm les dates des anterior cap de setmana passat.
+Dóna'm les dates des darrer cap de setmana anterior.
+Dóna'm les dates des darrer cap de setmana passat.
+Dóna'm les dates des passat cap de setmana anterior.
+Dóna'm les dates des passat cap de setmana passat.
+Dóna'm les dates desúltim cap de setmana anterior.
+Dóna'm les dates desúltim cap de setmana passat.
+Dóna'm les dates exactes del cap de setmana anterior.
+Dóna'm les dates exactes del cap de setmana passat.
+Dóna'm les dates exactes del passat cap de setmana.
+Dóna'm les dates exactes des cap de setmana anterior.
+Dóna'm les dates exactes des cap de setmana passat.
+Dóna'm les dates exactes des passat cap de setmana.
+Dóna'm ses dates concretes del cap de setmana anterior.
+Dóna'm ses dates concretes del cap de setmana passat.
+Dóna'm ses dates concretes del passat cap de setmana.
+Dóna'm ses dates concretes des cap de setmana anterior.
+Dóna'm ses dates concretes des cap de setmana passat.
+Dóna'm ses dates concretes des passat cap de setmana.
+Dóna'm ses dates concrets del cap de setmana anterior.
+Dóna'm ses dates concrets del cap de setmana passat.
+Dóna'm ses dates concrets del passat cap de setmana.
+Dóna'm ses dates concrets des cap de setmana anterior.
+Dóna'm ses dates concrets des cap de setmana passat.
+Dóna'm ses dates concrets des passat cap de setmana.
+Dóna'm ses dates de l' anterior cap de setmana anterior.
+Dóna'm ses dates de l' anterior cap de setmana passat.
+Dóna'm ses dates de l' darrer cap de setmana anterior.
+Dóna'm ses dates de l' darrer cap de setmana passat.
+Dóna'm ses dates de l' passat cap de setmana anterior.
+Dóna'm ses dates de l' passat cap de setmana passat.
+Dóna'm ses dates de l'últim cap de setmana anterior.
+Dóna'm ses dates de l'últim cap de setmana passat.
+Dóna'm ses dates de s' anterior cap de setmana anterior.
+Dóna'm ses dates de s' anterior cap de setmana passat.
+Dóna'm ses dates de s' darrer cap de setmana anterior.
+Dóna'm ses dates de s' darrer cap de setmana passat.
+Dóna'm ses dates de s' passat cap de setmana anterior.
+Dóna'm ses dates de s' passat cap de setmana passat.
+Dóna'm ses dates de s'últim cap de setmana anterior.
+Dóna'm ses dates de s'últim cap de setmana passat.
+Dóna'm ses dates del anterior cap de setmana anterior.
+Dóna'm ses dates del anterior cap de setmana passat.
+Dóna'm ses dates del darrer cap de setmana anterior.
+Dóna'm ses dates del darrer cap de setmana passat.
+Dóna'm ses dates del passat cap de setmana anterior.
+Dóna'm ses dates del passat cap de setmana passat.
+Dóna'm ses dates delúltim cap de setmana anterior.
+Dóna'm ses dates delúltim cap de setmana passat.
+Dóna'm ses dates des anterior cap de setmana anterior.
+Dóna'm ses dates des anterior cap de setmana passat.
+Dóna'm ses dates des darrer cap de setmana anterior.
+Dóna'm ses dates des darrer cap de setmana passat.
+Dóna'm ses dates des passat cap de setmana anterior.
+Dóna'm ses dates des passat cap de setmana passat.
+Dóna'm ses dates desúltim cap de setmana anterior.
+Dóna'm ses dates desúltim cap de setmana passat.
+Dóna'm ses dates exactes del cap de setmana anterior.
+Dóna'm ses dates exactes del cap de setmana passat.
+Dóna'm ses dates exactes del passat cap de setmana.
+Dóna'm ses dates exactes des cap de setmana anterior.
+Dóna'm ses dates exactes des cap de setmana passat.
+Dóna'm ses dates exactes des passat cap de setmana.
+Em pots dir els dies del cap de setmana anterior
+Em pots dir els jorns del cap de setmana anterior
+Em pots dir es dies del cap de setmana anterior
+Em pots dir es jorns del cap de setmana anterior
 Em pots dir quins dies van ser el cap de setmana passat
+Em pots els dies del cap de setmana anterior a aquest
+Em pots els dies del cap de setmana anterior a aquest passat
+Em pots els dies des cap de setmana anterior a aquest
+Em pots els dies des cap de setmana anterior a aquest passat
+Em pots es dies del cap de setmana anterior a aquest
+Em pots es dies del cap de setmana anterior a aquest passat
+Em pots es dies des cap de setmana anterior a aquest
+Em pots es dies des cap de setmana anterior a aquest passat
+Em pots les dates del cap de setmana anterior a aquest
+Em pots les dates del cap de setmana anterior a aquest passat
+Em pots les dates des cap de setmana anterior a aquest
+Em pots les dates des cap de setmana anterior a aquest passat
+Em pots ses dates del cap de setmana anterior a aquest
+Em pots ses dates del cap de setmana anterior a aquest passat
+Em pots ses dates des cap de setmana anterior a aquest
+Em pots ses dates des cap de setmana anterior a aquest passat
+En quins dies caigueren  l'últim cap de setmana
+En quins dies caigueren durant l'últim cap de setmana
+En quins dies caigueren el darrer cap de setmana
+En quins dies caigueren el darrer cap de setmana passat
+En quins dies caigueren el passat cap de setmana
+En quins dies caigueren el passat cap de setmana passat
+En quins dies caigueren elúltim cap de setmana
+En quins dies caigueren elúltim cap de setmana passat
+En quins dies caigueren es darrer cap de setmana
+En quins dies caigueren es darrer cap de setmana passat
+En quins dies caigueren es passat cap de setmana
+En quins dies caigueren es passat cap de setmana passat
+En quins dies caigueren esúltim cap de setmana
+En quins dies caigueren esúltim cap de setmana passat
+En quins dies caigueren l' darrer cap de setmana
+En quins dies caigueren l' darrer cap de setmana passat
+En quins dies caigueren l' passat cap de setmana
+En quins dies caigueren l' passat cap de setmana passat
+En quins dies caigueren l'últim cap de setmana
+En quins dies caigueren l'últim cap de setmana passat
+En quins dies caigueren s' darrer cap de setmana
+En quins dies caigueren s' darrer cap de setmana passat
+En quins dies caigueren s' passat cap de setmana
+En quins dies caigueren s' passat cap de setmana passat
+En quins dies caigueren s'últim cap de setmana
+En quins dies caigueren s'últim cap de setmana passat
+En quins dies caigué el darrer cap de setmana
+En quins dies caigué el darrer cap de setmana passat
+En quins dies caigué el passat cap de setmana
+En quins dies caigué el passat cap de setmana passat
+En quins dies caigué elúltim cap de setmana
+En quins dies caigué elúltim cap de setmana passat
+En quins dies caigué es darrer cap de setmana
+En quins dies caigué es darrer cap de setmana passat
+En quins dies caigué es passat cap de setmana
+En quins dies caigué es passat cap de setmana passat
+En quins dies caigué esúltim cap de setmana
+En quins dies caigué esúltim cap de setmana passat
+En quins dies caigué l' darrer cap de setmana
+En quins dies caigué l' darrer cap de setmana passat
+En quins dies caigué l' passat cap de setmana
+En quins dies caigué l' passat cap de setmana passat
+En quins dies caigué l'últim cap de setmana
+En quins dies caigué l'últim cap de setmana passat
+En quins dies caigué s' darrer cap de setmana
+En quins dies caigué s' darrer cap de setmana passat
+En quins dies caigué s' passat cap de setmana
+En quins dies caigué s' passat cap de setmana passat
+En quins dies caigué s'últim cap de setmana
+En quins dies caigué s'últim cap de setmana passat
+En quins dies va caure el darrer cap de setmana
+En quins dies va caure el darrer cap de setmana passat
+En quins dies va caure el passat cap de setmana
+En quins dies va caure el passat cap de setmana passat
+En quins dies va caure elúltim cap de setmana
+En quins dies va caure elúltim cap de setmana passat
+En quins dies va caure es darrer cap de setmana
+En quins dies va caure es darrer cap de setmana passat
+En quins dies va caure es passat cap de setmana
+En quins dies va caure es passat cap de setmana passat
+En quins dies va caure esúltim cap de setmana
+En quins dies va caure esúltim cap de setmana passat
+En quins dies va caure l' darrer cap de setmana
+En quins dies va caure l' darrer cap de setmana passat
+En quins dies va caure l' passat cap de setmana
+En quins dies va caure l' passat cap de setmana passat
+En quins dies va caure l'últim cap de setmana
+En quins dies va caure l'últim cap de setmana passat
+En quins dies va caure s' darrer cap de setmana
+En quins dies va caure s' darrer cap de setmana passat
+En quins dies va caure s' passat cap de setmana
+En quins dies va caure s' passat cap de setmana passat
+En quins dies va caure s'últim cap de setmana
+En quins dies va caure s'últim cap de setmana passat
+En quins dies van caure  l'últim cap de setmana
+En quins dies van caure durant l'últim cap de setmana
+En quins dies van caure el darrer cap de setmana
+En quins dies van caure el darrer cap de setmana passat
+En quins dies van caure el passat cap de setmana
+En quins dies van caure el passat cap de setmana passat
+En quins dies van caure elúltim cap de setmana
+En quins dies van caure elúltim cap de setmana passat
+En quins dies van caure es darrer cap de setmana
+En quins dies van caure es darrer cap de setmana passat
+En quins dies van caure es passat cap de setmana
+En quins dies van caure es passat cap de setmana passat
+En quins dies van caure esúltim cap de setmana
+En quins dies van caure esúltim cap de setmana passat
+En quins dies van caure l' darrer cap de setmana
+En quins dies van caure l' darrer cap de setmana passat
+En quins dies van caure l' passat cap de setmana
+En quins dies van caure l' passat cap de setmana passat
+En quins dies van caure l'últim cap de setmana
+En quins dies van caure l'últim cap de setmana passat
+En quins dies van caure s' darrer cap de setmana
+En quins dies van caure s' darrer cap de setmana passat
+En quins dies van caure s' passat cap de setmana
+En quins dies van caure s' passat cap de setmana passat
+En quins dies van caure s'últim cap de setmana
+En quins dies van caure s'últim cap de setmana passat
+En quins jorns caigueren  l'últim cap de setmana
+En quins jorns caigueren durant l'últim cap de setmana
+En quins jorns van caure  l'últim cap de setmana
+En quins jorns van caure durant l'últim cap de setmana
 Explica'm els dies que van caure durant l'últim cap de setmana.
 Explica'm les dates concretes de l'últim cap de setmana.
+Indica de les dates del cap de setmana passat.
+Indica els dies concretes del cap de setmana anterior.
+Indica els dies concretes del cap de setmana passat.
+Indica els dies concretes del passat cap de setmana.
+Indica els dies concretes des cap de setmana anterior.
+Indica els dies concretes des cap de setmana passat.
+Indica els dies concretes des passat cap de setmana.
+Indica els dies concrets del cap de setmana anterior.
+Indica els dies concrets del cap de setmana passat.
+Indica els dies concrets del passat cap de setmana.
+Indica els dies concrets des cap de setmana anterior.
+Indica els dies concrets des cap de setmana passat.
+Indica els dies concrets des passat cap de setmana.
 Indica els dies del cap de setmana anterior.
+Indica els dies exactes del cap de setmana anterior.
+Indica els dies exactes del cap de setmana passat.
+Indica els dies exactes del passat cap de setmana.
+Indica els dies exactes des cap de setmana anterior.
+Indica els dies exactes des cap de setmana passat.
+Indica els dies exactes des passat cap de setmana.
+Indica es dies concretes del cap de setmana anterior.
+Indica es dies concretes del cap de setmana passat.
+Indica es dies concretes del passat cap de setmana.
+Indica es dies concretes des cap de setmana anterior.
+Indica es dies concretes des cap de setmana passat.
+Indica es dies concretes des passat cap de setmana.
+Indica es dies concrets del cap de setmana anterior.
+Indica es dies concrets del cap de setmana passat.
+Indica es dies concrets del passat cap de setmana.
+Indica es dies concrets des cap de setmana anterior.
+Indica es dies concrets des cap de setmana passat.
+Indica es dies concrets des passat cap de setmana.
+Indica es dies exactes del cap de setmana anterior.
+Indica es dies exactes del cap de setmana passat.
+Indica es dies exactes del passat cap de setmana.
+Indica es dies exactes des cap de setmana anterior.
+Indica es dies exactes des cap de setmana passat.
+Indica es dies exactes des passat cap de setmana.
+Indica les dates concretes del cap de setmana anterior.
+Indica les dates concretes del cap de setmana passat.
+Indica les dates concretes del passat cap de setmana.
+Indica les dates concretes des cap de setmana anterior.
+Indica les dates concretes des cap de setmana passat.
+Indica les dates concretes des passat cap de setmana.
+Indica les dates concrets del cap de setmana anterior.
+Indica les dates concrets del cap de setmana passat.
+Indica les dates concrets del passat cap de setmana.
+Indica les dates concrets des cap de setmana anterior.
+Indica les dates concrets des cap de setmana passat.
+Indica les dates concrets des passat cap de setmana.
+Indica les dates específiques del cap de setmana anterior.
+Indica les dates específiques des cap de setmana anterior.
+Indica les dates exactes del cap de setmana anterior.
+Indica les dates exactes del cap de setmana passat.
+Indica les dates exactes del passat cap de setmana.
+Indica les dates exactes des cap de setmana anterior.
+Indica les dates exactes des cap de setmana passat.
+Indica les dates exactes des passat cap de setmana.
+Indica ses dates concretes del cap de setmana anterior.
+Indica ses dates concretes del cap de setmana passat.
+Indica ses dates concretes del passat cap de setmana.
+Indica ses dates concretes des cap de setmana anterior.
+Indica ses dates concretes des cap de setmana passat.
+Indica ses dates concretes des passat cap de setmana.
+Indica ses dates concrets del cap de setmana anterior.
+Indica ses dates concrets del cap de setmana passat.
+Indica ses dates concrets del passat cap de setmana.
+Indica ses dates concrets des cap de setmana anterior.
+Indica ses dates concrets des cap de setmana passat.
+Indica ses dates concrets des passat cap de setmana.
+Indica ses dates específiques del cap de setmana anterior.
+Indica ses dates específiques des cap de setmana anterior.
+Indica ses dates exactes del cap de setmana anterior.
+Indica ses dates exactes del cap de setmana passat.
+Indica ses dates exactes del passat cap de setmana.
+Indica ses dates exactes des cap de setmana anterior.
+Indica ses dates exactes des cap de setmana passat.
+Indica ses dates exactes des passat cap de setmana.
+Indica'm de les dates del cap de setmana passat.
+Indica'm els dies concretes del cap de setmana anterior.
+Indica'm els dies concretes del cap de setmana passat.
+Indica'm els dies concretes del passat cap de setmana.
+Indica'm els dies concretes des cap de setmana anterior.
+Indica'm els dies concretes des cap de setmana passat.
+Indica'm els dies concretes des passat cap de setmana.
+Indica'm els dies concrets del cap de setmana anterior.
+Indica'm els dies concrets del cap de setmana passat.
+Indica'm els dies concrets del passat cap de setmana.
+Indica'm els dies concrets des cap de setmana anterior.
+Indica'm els dies concrets des cap de setmana passat.
+Indica'm els dies concrets des passat cap de setmana.
+Indica'm els dies exactes del cap de setmana anterior.
+Indica'm els dies exactes del cap de setmana passat.
+Indica'm els dies exactes del passat cap de setmana.
+Indica'm els dies exactes des cap de setmana anterior.
+Indica'm els dies exactes des cap de setmana passat.
+Indica'm els dies exactes des passat cap de setmana.
+Indica'm es dies concretes del cap de setmana anterior.
+Indica'm es dies concretes del cap de setmana passat.
+Indica'm es dies concretes del passat cap de setmana.
+Indica'm es dies concretes des cap de setmana anterior.
+Indica'm es dies concretes des cap de setmana passat.
+Indica'm es dies concretes des passat cap de setmana.
+Indica'm es dies concrets del cap de setmana anterior.
+Indica'm es dies concrets del cap de setmana passat.
+Indica'm es dies concrets del passat cap de setmana.
+Indica'm es dies concrets des cap de setmana anterior.
+Indica'm es dies concrets des cap de setmana passat.
+Indica'm es dies concrets des passat cap de setmana.
+Indica'm es dies exactes del cap de setmana anterior.
+Indica'm es dies exactes del cap de setmana passat.
+Indica'm es dies exactes del passat cap de setmana.
+Indica'm es dies exactes des cap de setmana anterior.
+Indica'm es dies exactes des cap de setmana passat.
+Indica'm es dies exactes des passat cap de setmana.
+Indica'm les dates concretes del cap de setmana anterior.
+Indica'm les dates concretes del cap de setmana passat.
+Indica'm les dates concretes del passat cap de setmana.
+Indica'm les dates concretes des cap de setmana anterior.
+Indica'm les dates concretes des cap de setmana passat.
+Indica'm les dates concretes des passat cap de setmana.
+Indica'm les dates concrets del cap de setmana anterior.
+Indica'm les dates concrets del cap de setmana passat.
+Indica'm les dates concrets del passat cap de setmana.
+Indica'm les dates concrets des cap de setmana anterior.
+Indica'm les dates concrets des cap de setmana passat.
+Indica'm les dates concrets des passat cap de setmana.
+Indica'm les dates específiques del cap de setmana anterior.
+Indica'm les dates específiques des cap de setmana anterior.
+Indica'm les dates exactes del cap de setmana anterior.
+Indica'm les dates exactes del cap de setmana passat.
+Indica'm les dates exactes del passat cap de setmana.
+Indica'm les dates exactes des cap de setmana anterior.
+Indica'm les dates exactes des cap de setmana passat.
+Indica'm les dates exactes des passat cap de setmana.
+Indica'm ses dates concretes del cap de setmana anterior.
+Indica'm ses dates concretes del cap de setmana passat.
+Indica'm ses dates concretes del passat cap de setmana.
+Indica'm ses dates concretes des cap de setmana anterior.
+Indica'm ses dates concretes des cap de setmana passat.
+Indica'm ses dates concretes des passat cap de setmana.
+Indica'm ses dates concrets del cap de setmana anterior.
+Indica'm ses dates concrets del cap de setmana passat.
+Indica'm ses dates concrets del passat cap de setmana.
+Indica'm ses dates concrets des cap de setmana anterior.
+Indica'm ses dates concrets des cap de setmana passat.
+Indica'm ses dates concrets des passat cap de setmana.
+Indica'm ses dates específiques del cap de setmana anterior.
+Indica'm ses dates específiques des cap de setmana anterior.
+Indica'm ses dates exactes del cap de setmana anterior.
+Indica'm ses dates exactes del cap de setmana passat.
+Indica'm ses dates exactes del passat cap de setmana.
+Indica'm ses dates exactes des cap de setmana anterior.
+Indica'm ses dates exactes des cap de setmana passat.
+Indica'm ses dates exactes des passat cap de setmana.
+Informa de les dates del cap de setmana passat.
 Informa'm de les dates del cap de setmana abans de l'últim.
+Informa'm de les dates del cap de setmana passat.
 Informa'm de les dates del cap de setmana que acaba de passar.
 Informa'm dels dies que van constituir el cap de setmana passat.
 M'interessa saber les dates del cap de setmana passat.
 Pots indicar els dies de l'últim cap de setmana
-Quan va ser (el|es) (cap de setmana anterior|cap de setmana passat|passat cap de setmana)
-Quines (van ser|foren) (les|ses) dates (del|des) cap de setmana anterior a aquest (passat|)
-Quines (van ser|foren|han estat) les dates del cap de setmana (anterior|precedent)
-Quines dates (van cobrir|van ser|cobriren|foren|eren) el cap de setmana (passat|anterior)
-Quines dates (van incloure|inclogueren) el cap de setmana passat?
-Quines dates (van ser|foren) l'últim cap de setmana
+Pots indicar els dies del cap de setmana anterior a aquest
+Pots indicar els dies del cap de setmana anterior a aquest passat
+Pots indicar els dies des cap de setmana anterior a aquest
+Pots indicar els dies des cap de setmana anterior a aquest passat
+Pots indicar es dies del cap de setmana anterior a aquest
+Pots indicar es dies del cap de setmana anterior a aquest passat
+Pots indicar es dies des cap de setmana anterior a aquest
+Pots indicar es dies des cap de setmana anterior a aquest passat
+Pots indicar les dates del cap de setmana anterior a aquest
+Pots indicar les dates del cap de setmana anterior a aquest passat
+Pots indicar les dates des cap de setmana anterior a aquest
+Pots indicar les dates des cap de setmana anterior a aquest passat
+Pots indicar ses dates del cap de setmana anterior a aquest
+Pots indicar ses dates del cap de setmana anterior a aquest passat
+Pots indicar ses dates des cap de setmana anterior a aquest
+Pots indicar ses dates des cap de setmana anterior a aquest passat
+Pots indicar-me els dies del cap de setmana anterior a aquest
+Pots indicar-me els dies del cap de setmana anterior a aquest passat
+Pots indicar-me els dies des cap de setmana anterior a aquest
+Pots indicar-me els dies des cap de setmana anterior a aquest passat
+Pots indicar-me es dies del cap de setmana anterior a aquest
+Pots indicar-me es dies del cap de setmana anterior a aquest passat
+Pots indicar-me es dies des cap de setmana anterior a aquest
+Pots indicar-me es dies des cap de setmana anterior a aquest passat
+Pots indicar-me les dates del cap de setmana anterior a aquest
+Pots indicar-me les dates del cap de setmana anterior a aquest passat
+Pots indicar-me les dates des cap de setmana anterior a aquest
+Pots indicar-me les dates des cap de setmana anterior a aquest passat
+Pots indicar-me ses dates del cap de setmana anterior a aquest
+Pots indicar-me ses dates del cap de setmana anterior a aquest passat
+Pots indicar-me ses dates des cap de setmana anterior a aquest
+Pots indicar-me ses dates des cap de setmana anterior a aquest passat
+Proporciona les dates concretes del cap de setmana anterior.
+Proporciona les dates concretes des cap de setmana anterior.
+Proporciona les dates específiques del cap de setmana anterior.
+Proporciona les dates específiques des cap de setmana anterior.
+Proporciona ses dates concretes del cap de setmana anterior.
+Proporciona ses dates concretes des cap de setmana anterior.
+Proporciona ses dates específiques del cap de setmana anterior.
+Proporciona ses dates específiques des cap de setmana anterior.
+Proporciona'm les dates concretes del cap de setmana anterior.
+Proporciona'm les dates concretes des cap de setmana anterior.
+Proporciona'm les dates específiques del cap de setmana anterior.
+Proporciona'm les dates específiques des cap de setmana anterior.
+Proporciona'm ses dates concretes del cap de setmana anterior.
+Proporciona'm ses dates concretes des cap de setmana anterior.
+Proporciona'm ses dates específiques del cap de setmana anterior.
+Proporciona'm ses dates específiques des cap de setmana anterior.
+Quan va ser el cap de setmana anterior
+Quan va ser el cap de setmana passat
+Quan va ser el passat cap de setmana
+Quan va ser es cap de setmana anterior
+Quan va ser es cap de setmana passat
+Quan va ser es passat cap de setmana
+Quines dates cobriren el cap de setmana anterior
+Quines dates cobriren el cap de setmana passat
+Quines dates eren el cap de setmana anterior
+Quines dates eren el cap de setmana passat
 Quines dates es van considerar el cap de setmana passat
+Quines dates foren el cap de setmana anterior
+Quines dates foren el cap de setmana passat
+Quines dates foren l'últim cap de setmana
+Quines dates inclogueren el cap de setmana passat?
 Quines dates van caure durant l'últim cap de setmana
-Quines dates van constituir (el|es) (cap de setmana passat|passat cap de setmana)
+Quines dates van cobrir el cap de setmana anterior
+Quines dates van cobrir el cap de setmana passat
+Quines dates van constituir el cap de setmana passat
+Quines dates van constituir el passat cap de setmana
+Quines dates van constituir es cap de setmana passat
+Quines dates van constituir es passat cap de setmana
+Quines dates van incloure el cap de setmana passat?
+Quines dates van ser el cap de setmana anterior
+Quines dates van ser el cap de setmana passat
+Quines dates van ser l'últim cap de setmana
+Quines foren les dates del cap de setmana anterior
+Quines foren les dates del cap de setmana anterior a aquest
+Quines foren les dates del cap de setmana anterior a aquest passat
+Quines foren les dates del cap de setmana precedent
+Quines foren les dates des cap de setmana anterior a aquest
+Quines foren les dates des cap de setmana anterior a aquest passat
+Quines foren ses dates del cap de setmana anterior a aquest
+Quines foren ses dates del cap de setmana anterior a aquest passat
+Quines foren ses dates des cap de setmana anterior a aquest
+Quines foren ses dates des cap de setmana anterior a aquest passat
+Quines han estat les dates del cap de setmana anterior
+Quines han estat les dates del cap de setmana precedent
 Quines van ser les dates del cap de setmana anterior
+Quines van ser les dates del cap de setmana anterior a aquest
+Quines van ser les dates del cap de setmana anterior a aquest passat
 Quines van ser les dates del cap de setmana anterior a l'actual
+Quines van ser les dates del cap de setmana precedent
 Quines van ser les dates del cap de setmana que acabava de passar
-Quins (dies|jorns) (es van incloure|s'inclogueren) en el cap de setmana passat?
-Quins (dies|jorns) (han estat|van ser|foren) (just|) el (passat|darrer|últim|) cap de setmana (passat|)
-Quins (dies|jorns) (van formar|formaren) part de l'últim cap de setmana
-Quins (dies|jorns) incloïen el cap de setmana anterior a (aquest|este)
-Quins (van ser|eren|foren) (els|es) (dies|jorns) del cap de setmana (passat|anterior)
-Quins dies (va cobrir|van ser|cobriren|foren) l'últim cap de setmana
-Quins dies (van formar|formaren|formaven) part (del|des) cap de setmana anterior a aquest
+Quines van ser les dates des cap de setmana anterior a aquest
+Quines van ser les dates des cap de setmana anterior a aquest passat
+Quines van ser ses dates del cap de setmana anterior a aquest
+Quines van ser ses dates del cap de setmana anterior a aquest passat
+Quines van ser ses dates des cap de setmana anterior a aquest
+Quines van ser ses dates des cap de setmana anterior a aquest passat
+Quins dies caigueren  l'últim cap de setmana
+Quins dies caigueren durant l'últim cap de setmana
+Quins dies caigueren el darrer cap de setmana
+Quins dies caigueren el darrer cap de setmana passat
+Quins dies caigueren el passat cap de setmana
+Quins dies caigueren el passat cap de setmana passat
+Quins dies caigueren elúltim cap de setmana
+Quins dies caigueren elúltim cap de setmana passat
+Quins dies caigueren es darrer cap de setmana
+Quins dies caigueren es darrer cap de setmana passat
+Quins dies caigueren es passat cap de setmana
+Quins dies caigueren es passat cap de setmana passat
+Quins dies caigueren esúltim cap de setmana
+Quins dies caigueren esúltim cap de setmana passat
+Quins dies caigueren l' darrer cap de setmana
+Quins dies caigueren l' darrer cap de setmana passat
+Quins dies caigueren l' passat cap de setmana
+Quins dies caigueren l' passat cap de setmana passat
+Quins dies caigueren l'últim cap de setmana
+Quins dies caigueren l'últim cap de setmana passat
+Quins dies caigueren s' darrer cap de setmana
+Quins dies caigueren s' darrer cap de setmana passat
+Quins dies caigueren s' passat cap de setmana
+Quins dies caigueren s' passat cap de setmana passat
+Quins dies caigueren s'últim cap de setmana
+Quins dies caigueren s'últim cap de setmana passat
+Quins dies caigué el darrer cap de setmana
+Quins dies caigué el darrer cap de setmana passat
+Quins dies caigué el passat cap de setmana
+Quins dies caigué el passat cap de setmana passat
+Quins dies caigué elúltim cap de setmana
+Quins dies caigué elúltim cap de setmana passat
+Quins dies caigué es darrer cap de setmana
+Quins dies caigué es darrer cap de setmana passat
+Quins dies caigué es passat cap de setmana
+Quins dies caigué es passat cap de setmana passat
+Quins dies caigué esúltim cap de setmana
+Quins dies caigué esúltim cap de setmana passat
+Quins dies caigué l' darrer cap de setmana
+Quins dies caigué l' darrer cap de setmana passat
+Quins dies caigué l' passat cap de setmana
+Quins dies caigué l' passat cap de setmana passat
+Quins dies caigué l'últim cap de setmana
+Quins dies caigué l'últim cap de setmana passat
+Quins dies caigué s' darrer cap de setmana
+Quins dies caigué s' darrer cap de setmana passat
+Quins dies caigué s' passat cap de setmana
+Quins dies caigué s' passat cap de setmana passat
+Quins dies caigué s'últim cap de setmana
+Quins dies caigué s'últim cap de setmana passat
+Quins dies cobriren l'últim cap de setmana
 Quins dies es van incloure al cap de setmana anterior a l'actual
+Quins dies es van incloure en el cap de setmana passat?
+Quins dies foren  el  cap de setmana
+Quins dies foren  el  cap de setmana passat
+Quins dies foren  el darrer cap de setmana
+Quins dies foren  el darrer cap de setmana passat
+Quins dies foren  el passat cap de setmana
+Quins dies foren  el passat cap de setmana passat
+Quins dies foren  el últim cap de setmana
+Quins dies foren  el últim cap de setmana passat
+Quins dies foren just el  cap de setmana
+Quins dies foren just el  cap de setmana passat
+Quins dies foren just el darrer cap de setmana
+Quins dies foren just el darrer cap de setmana passat
+Quins dies foren just el passat cap de setmana
+Quins dies foren just el passat cap de setmana passat
+Quins dies foren just el últim cap de setmana
+Quins dies foren just el últim cap de setmana passat
+Quins dies foren l'últim cap de setmana
+Quins dies formaren part de l'últim cap de setmana
+Quins dies formaren part del cap de setmana anterior a aquest
+Quins dies formaren part des cap de setmana anterior a aquest
+Quins dies formaven part del cap de setmana anterior a aquest
+Quins dies formaven part des cap de setmana anterior a aquest
+Quins dies han estat  el  cap de setmana
+Quins dies han estat  el  cap de setmana passat
+Quins dies han estat  el darrer cap de setmana
+Quins dies han estat  el darrer cap de setmana passat
+Quins dies han estat  el passat cap de setmana
+Quins dies han estat  el passat cap de setmana passat
+Quins dies han estat  el últim cap de setmana
+Quins dies han estat  el últim cap de setmana passat
+Quins dies han estat just el  cap de setmana
+Quins dies han estat just el  cap de setmana passat
+Quins dies han estat just el darrer cap de setmana
+Quins dies han estat just el darrer cap de setmana passat
+Quins dies han estat just el passat cap de setmana
+Quins dies han estat just el passat cap de setmana passat
+Quins dies han estat just el últim cap de setmana
+Quins dies han estat just el últim cap de setmana passat
+Quins dies incloïen el cap de setmana anterior a aquest
+Quins dies incloïen el cap de setmana anterior a este
+Quins dies s'inclogueren en el cap de setmana passat?
 Quins dies va abastar l'últim cap de setmana
+Quins dies va caure el darrer cap de setmana
+Quins dies va caure el darrer cap de setmana passat
+Quins dies va caure el passat cap de setmana
+Quins dies va caure el passat cap de setmana passat
+Quins dies va caure elúltim cap de setmana
+Quins dies va caure elúltim cap de setmana passat
+Quins dies va caure es darrer cap de setmana
+Quins dies va caure es darrer cap de setmana passat
+Quins dies va caure es passat cap de setmana
+Quins dies va caure es passat cap de setmana passat
+Quins dies va caure esúltim cap de setmana
+Quins dies va caure esúltim cap de setmana passat
+Quins dies va caure l' darrer cap de setmana
+Quins dies va caure l' darrer cap de setmana passat
+Quins dies va caure l' passat cap de setmana
+Quins dies va caure l' passat cap de setmana passat
+Quins dies va caure l'últim cap de setmana
+Quins dies va caure l'últim cap de setmana passat
+Quins dies va caure s' darrer cap de setmana
+Quins dies va caure s' darrer cap de setmana passat
+Quins dies va caure s' passat cap de setmana
+Quins dies va caure s' passat cap de setmana passat
+Quins dies va caure s'últim cap de setmana
+Quins dies va caure s'últim cap de setmana passat
+Quins dies va cobrir l'últim cap de setmana
 Quins dies va incloure el cap de setmana passat
-quin (dia|jorn) (va ser|fou) (el|es) (darrer|últim) cap de setmana (passat|)
-quina (era la data|eren les dates) del passat cap de setmana
-quina data (va ser|fou) (l'|s'|e l|es )(últim|darrer|passat) cap de setmana( passat|)
-quines dates (van ser|foren) (el|es) (darrer|últim|passat) cap de setmana (|passat)
-quins (dies|jorns) (van ser|foren) (l'|s'|e l|es )(últim|darrer|passat) cap de setmana( passat|)
-quins (van ser|foren) (els|es) (dies|jorns) del (darrer|últim) cap de setmana (passat|)
+Quins dies van caure  l'últim cap de setmana
+Quins dies van caure durant l'últim cap de setmana
+Quins dies van caure el darrer cap de setmana
+Quins dies van caure el darrer cap de setmana passat
+Quins dies van caure el passat cap de setmana
+Quins dies van caure el passat cap de setmana passat
+Quins dies van caure elúltim cap de setmana
+Quins dies van caure elúltim cap de setmana passat
+Quins dies van caure es darrer cap de setmana
+Quins dies van caure es darrer cap de setmana passat
+Quins dies van caure es passat cap de setmana
+Quins dies van caure es passat cap de setmana passat
+Quins dies van caure esúltim cap de setmana
+Quins dies van caure esúltim cap de setmana passat
+Quins dies van caure l' darrer cap de setmana
+Quins dies van caure l' darrer cap de setmana passat
+Quins dies van caure l' passat cap de setmana
+Quins dies van caure l' passat cap de setmana passat
+Quins dies van caure l'últim cap de setmana
+Quins dies van caure l'últim cap de setmana passat
+Quins dies van caure s' darrer cap de setmana
+Quins dies van caure s' darrer cap de setmana passat
+Quins dies van caure s' passat cap de setmana
+Quins dies van caure s' passat cap de setmana passat
+Quins dies van caure s'últim cap de setmana
+Quins dies van caure s'últim cap de setmana passat
+Quins dies van formar part de l'últim cap de setmana
+Quins dies van formar part del cap de setmana anterior a aquest
+Quins dies van formar part des cap de setmana anterior a aquest
+Quins dies van ser  el  cap de setmana
+Quins dies van ser  el  cap de setmana passat
+Quins dies van ser  el darrer cap de setmana
+Quins dies van ser  el darrer cap de setmana passat
+Quins dies van ser  el passat cap de setmana
+Quins dies van ser  el passat cap de setmana passat
+Quins dies van ser  el últim cap de setmana
+Quins dies van ser  el últim cap de setmana passat
+Quins dies van ser just el  cap de setmana
+Quins dies van ser just el  cap de setmana passat
+Quins dies van ser just el darrer cap de setmana
+Quins dies van ser just el darrer cap de setmana passat
+Quins dies van ser just el passat cap de setmana
+Quins dies van ser just el passat cap de setmana passat
+Quins dies van ser just el últim cap de setmana
+Quins dies van ser just el últim cap de setmana passat
+Quins dies van ser l'últim cap de setmana
+Quins eren els dies del cap de setmana anterior
+Quins eren els dies del cap de setmana passat
+Quins eren els jorns del cap de setmana anterior
+Quins eren els jorns del cap de setmana passat
+Quins eren es dies del cap de setmana anterior
+Quins eren es dies del cap de setmana passat
+Quins eren es jorns del cap de setmana anterior
+Quins eren es jorns del cap de setmana passat
+Quins foren els dies del cap de setmana anterior
+Quins foren els dies del cap de setmana passat
+Quins foren els jorns del cap de setmana anterior
+Quins foren els jorns del cap de setmana passat
+Quins foren es dies del cap de setmana anterior
+Quins foren es dies del cap de setmana passat
+Quins foren es jorns del cap de setmana anterior
+Quins foren es jorns del cap de setmana passat
+Quins jorns caigueren  l'últim cap de setmana
+Quins jorns caigueren durant l'últim cap de setmana
+Quins jorns es van incloure en el cap de setmana passat?
+Quins jorns foren  el  cap de setmana
+Quins jorns foren  el  cap de setmana passat
+Quins jorns foren  el darrer cap de setmana
+Quins jorns foren  el darrer cap de setmana passat
+Quins jorns foren  el passat cap de setmana
+Quins jorns foren  el passat cap de setmana passat
+Quins jorns foren  el últim cap de setmana
+Quins jorns foren  el últim cap de setmana passat
+Quins jorns foren just el  cap de setmana
+Quins jorns foren just el  cap de setmana passat
+Quins jorns foren just el darrer cap de setmana
+Quins jorns foren just el darrer cap de setmana passat
+Quins jorns foren just el passat cap de setmana
+Quins jorns foren just el passat cap de setmana passat
+Quins jorns foren just el últim cap de setmana
+Quins jorns foren just el últim cap de setmana passat
+Quins jorns formaren part de l'últim cap de setmana
+Quins jorns han estat  el  cap de setmana
+Quins jorns han estat  el  cap de setmana passat
+Quins jorns han estat  el darrer cap de setmana
+Quins jorns han estat  el darrer cap de setmana passat
+Quins jorns han estat  el passat cap de setmana
+Quins jorns han estat  el passat cap de setmana passat
+Quins jorns han estat  el últim cap de setmana
+Quins jorns han estat  el últim cap de setmana passat
+Quins jorns han estat just el  cap de setmana
+Quins jorns han estat just el  cap de setmana passat
+Quins jorns han estat just el darrer cap de setmana
+Quins jorns han estat just el darrer cap de setmana passat
+Quins jorns han estat just el passat cap de setmana
+Quins jorns han estat just el passat cap de setmana passat
+Quins jorns han estat just el últim cap de setmana
+Quins jorns han estat just el últim cap de setmana passat
+Quins jorns incloïen el cap de setmana anterior a aquest
+Quins jorns incloïen el cap de setmana anterior a este
+Quins jorns s'inclogueren en el cap de setmana passat?
+Quins jorns van caure  l'últim cap de setmana
+Quins jorns van caure durant l'últim cap de setmana
+Quins jorns van formar part de l'últim cap de setmana
+Quins jorns van ser  el  cap de setmana
+Quins jorns van ser  el  cap de setmana passat
+Quins jorns van ser  el darrer cap de setmana
+Quins jorns van ser  el darrer cap de setmana passat
+Quins jorns van ser  el passat cap de setmana
+Quins jorns van ser  el passat cap de setmana passat
+Quins jorns van ser  el últim cap de setmana
+Quins jorns van ser  el últim cap de setmana passat
+Quins jorns van ser just el  cap de setmana
+Quins jorns van ser just el  cap de setmana passat
+Quins jorns van ser just el darrer cap de setmana
+Quins jorns van ser just el darrer cap de setmana passat
+Quins jorns van ser just el passat cap de setmana
+Quins jorns van ser just el passat cap de setmana passat
+Quins jorns van ser just el últim cap de setmana
+Quins jorns van ser just el últim cap de setmana passat
+Quins van ser els dies del cap de setmana anterior
+Quins van ser els dies del cap de setmana passat
+Quins van ser els jorns del cap de setmana anterior
+Quins van ser els jorns del cap de setmana passat
+Quins van ser es dies del cap de setmana anterior
+Quins van ser es dies del cap de setmana passat
+Quins van ser es jorns del cap de setmana anterior
+Quins van ser es jorns del cap de setmana passat
+com caigué el darrer cap de setmana
+com caigué el darrer cap de setmana passat
+com caigué el passat cap de setmana
+com caigué el passat cap de setmana passat
+com caigué el últim cap de setmana
+com caigué el últim cap de setmana passat
+com caigué esdarrer cap de setmana
+com caigué esdarrer cap de setmana passat
+com caigué espassat cap de setmana
+com caigué espassat cap de setmana passat
+com caigué esúltim cap de setmana
+com caigué esúltim cap de setmana passat
+com caigué l'darrer cap de setmana
+com caigué l'darrer cap de setmana passat
+com caigué l'passat cap de setmana
+com caigué l'passat cap de setmana passat
+com caigué l'últim cap de setmana
+com caigué l'últim cap de setmana passat
+com caigué s'darrer cap de setmana
+com caigué s'darrer cap de setmana passat
+com caigué s'passat cap de setmana
+com caigué s'passat cap de setmana passat
+com caigué s'últim cap de setmana
+com caigué s'últim cap de setmana passat
+com va caure el darrer cap de setmana
+com va caure el darrer cap de setmana passat
+com va caure el passat cap de setmana
+com va caure el passat cap de setmana passat
+com va caure el últim cap de setmana
+com va caure el últim cap de setmana passat
+com va caure esdarrer cap de setmana
+com va caure esdarrer cap de setmana passat
+com va caure espassat cap de setmana
+com va caure espassat cap de setmana passat
+com va caure esúltim cap de setmana
+com va caure esúltim cap de setmana passat
+com va caure l'darrer cap de setmana
+com va caure l'darrer cap de setmana passat
+com va caure l'passat cap de setmana
+com va caure l'passat cap de setmana passat
+com va caure l'últim cap de setmana
+com va caure l'últim cap de setmana passat
+com va caure s'darrer cap de setmana
+com va caure s'darrer cap de setmana passat
+com va caure s'passat cap de setmana
+com va caure s'passat cap de setmana passat
+com va caure s'últim cap de setmana
+com va caure s'últim cap de setmana passat
+el passat cap de setmana
+quan caigué el darrer cap de setmana
+quan caigué el darrer cap de setmana passat
+quan caigué el passat cap de setmana
+quan caigué el passat cap de setmana passat
+quan caigué el últim cap de setmana
+quan caigué el últim cap de setmana passat
+quan caigué esdarrer cap de setmana
+quan caigué esdarrer cap de setmana passat
+quan caigué espassat cap de setmana
+quan caigué espassat cap de setmana passat
+quan caigué esúltim cap de setmana
+quan caigué esúltim cap de setmana passat
+quan caigué l'darrer cap de setmana
+quan caigué l'darrer cap de setmana passat
+quan caigué l'passat cap de setmana
+quan caigué l'passat cap de setmana passat
+quan caigué l'últim cap de setmana
+quan caigué l'últim cap de setmana passat
+quan caigué s'darrer cap de setmana
+quan caigué s'darrer cap de setmana passat
+quan caigué s'passat cap de setmana
+quan caigué s'passat cap de setmana passat
+quan caigué s'últim cap de setmana
+quan caigué s'últim cap de setmana passat
+quan va caure el darrer cap de setmana
+quan va caure el darrer cap de setmana passat
+quan va caure el passat cap de setmana
+quan va caure el passat cap de setmana passat
+quan va caure el últim cap de setmana
+quan va caure el últim cap de setmana passat
+quan va caure esdarrer cap de setmana
+quan va caure esdarrer cap de setmana passat
+quan va caure espassat cap de setmana
+quan va caure espassat cap de setmana passat
+quan va caure esúltim cap de setmana
+quan va caure esúltim cap de setmana passat
+quan va caure l'darrer cap de setmana
+quan va caure l'darrer cap de setmana passat
+quan va caure l'passat cap de setmana
+quan va caure l'passat cap de setmana passat
+quan va caure l'últim cap de setmana
+quan va caure l'últim cap de setmana passat
+quan va caure s'darrer cap de setmana
+quan va caure s'darrer cap de setmana passat
+quan va caure s'passat cap de setmana
+quan va caure s'passat cap de setmana passat
+quan va caure s'últim cap de setmana
+quan va caure s'últim cap de setmana passat
+quin dia era el passat cap de setmana
+quin dia fou el darrer cap de setmana
+quin dia fou el darrer cap de setmana passat
+quin dia fou el últim cap de setmana
+quin dia fou el últim cap de setmana passat
+quin dia fou es darrer cap de setmana
+quin dia fou es darrer cap de setmana passat
+quin dia fou es últim cap de setmana
+quin dia fou es últim cap de setmana passat
+quin dia va ser el darrer cap de setmana
+quin dia va ser el darrer cap de setmana passat
+quin dia va ser el últim cap de setmana
+quin dia va ser el últim cap de setmana passat
+quin dia va ser es darrer cap de setmana
+quin dia va ser es darrer cap de setmana passat
+quin dia va ser es últim cap de setmana
+quin dia va ser es últim cap de setmana passat
+quin jorn fou el darrer cap de setmana
+quin jorn fou el darrer cap de setmana passat
+quin jorn fou el últim cap de setmana
+quin jorn fou el últim cap de setmana passat
+quin jorn fou es darrer cap de setmana
+quin jorn fou es darrer cap de setmana passat
+quin jorn fou es últim cap de setmana
+quin jorn fou es últim cap de setmana passat
+quin jorn va ser el darrer cap de setmana
+quin jorn va ser el darrer cap de setmana passat
+quin jorn va ser el últim cap de setmana
+quin jorn va ser el últim cap de setmana passat
+quin jorn va ser es darrer cap de setmana
+quin jorn va ser es darrer cap de setmana passat
+quin jorn va ser es últim cap de setmana
+quin jorn va ser es últim cap de setmana passat
+quina data era el cap de setmana passat
+quina data era el passat cap de setmana
+quina data era es cap de setmana passat
+quina data era es passat cap de setmana
+quina data eren el cap de setmana passat
+quina data eren el passat cap de setmana
+quina data eren es cap de setmana passat
+quina data eren es passat cap de setmana
+quina data foren el cap de setmana passat
+quina data foren el passat cap de setmana
+quina data foren es cap de setmana passat
+quina data foren es passat cap de setmana
+quina data fou e ldarrer cap de setmana
+quina data fou e ldarrer cap de setmana passat
+quina data fou e lpassat cap de setmana
+quina data fou e lpassat cap de setmana passat
+quina data fou e lúltim cap de setmana
+quina data fou e lúltim cap de setmana passat
+quina data fou el cap de setmana passat
+quina data fou el passat cap de setmana
+quina data fou es cap de setmana passat
+quina data fou es darrer cap de setmana
+quina data fou es darrer cap de setmana passat
+quina data fou es passat cap de setmana
+quina data fou es passat cap de setmana passat
+quina data fou es últim cap de setmana
+quina data fou es últim cap de setmana passat
+quina data fou l'darrer cap de setmana
+quina data fou l'darrer cap de setmana passat
+quina data fou l'passat cap de setmana
+quina data fou l'passat cap de setmana passat
+quina data fou l'últim cap de setmana
+quina data fou l'últim cap de setmana passat
+quina data fou s'darrer cap de setmana
+quina data fou s'darrer cap de setmana passat
+quina data fou s'passat cap de setmana
+quina data fou s'passat cap de setmana passat
+quina data fou s'últim cap de setmana
+quina data fou s'últim cap de setmana passat
+quina data va ser e ldarrer cap de setmana
+quina data va ser e ldarrer cap de setmana passat
+quina data va ser e lpassat cap de setmana
+quina data va ser e lpassat cap de setmana passat
+quina data va ser e lúltim cap de setmana
+quina data va ser e lúltim cap de setmana passat
+quina data va ser el cap de setmana passat
+quina data va ser el passat cap de setmana
+quina data va ser es cap de setmana passat
+quina data va ser es darrer cap de setmana
+quina data va ser es darrer cap de setmana passat
+quina data va ser es passat cap de setmana
+quina data va ser es passat cap de setmana passat
+quina data va ser es últim cap de setmana
+quina data va ser es últim cap de setmana passat
+quina data va ser l'darrer cap de setmana
+quina data va ser l'darrer cap de setmana passat
+quina data va ser l'passat cap de setmana
+quina data va ser l'passat cap de setmana passat
+quina data va ser l'últim cap de setmana
+quina data va ser l'últim cap de setmana passat
+quina data va ser s'darrer cap de setmana
+quina data va ser s'darrer cap de setmana passat
+quina data va ser s'passat cap de setmana
+quina data va ser s'passat cap de setmana passat
+quina data va ser s'últim cap de setmana
+quina data va ser s'últim cap de setmana passat
+quina data van ser el cap de setmana passat
+quina data van ser el passat cap de setmana
+quina data van ser es cap de setmana passat
+quina data van ser es passat cap de setmana
+quina era la data del passat cap de setmana
+quina eren les dates del passat cap de setmana
+quines dates era el cap de setmana passat
+quines dates era el passat cap de setmana
+quines dates era es cap de setmana passat
+quines dates era es passat cap de setmana
+quines dates eren el cap de setmana passat
+quines dates eren el passat cap de setmana
+quines dates eren es cap de setmana passat
+quines dates eren es passat cap de setmana
+quines dates foren el cap de setmana passat
+quines dates foren el darrer cap de setmana
+quines dates foren el darrer cap de setmana passat
+quines dates foren el passat cap de setmana
+quines dates foren el passat cap de setmana passat
+quines dates foren el últim cap de setmana
+quines dates foren el últim cap de setmana passat
+quines dates foren es cap de setmana passat
+quines dates foren es darrer cap de setmana
+quines dates foren es darrer cap de setmana passat
+quines dates foren es passat cap de setmana
+quines dates foren es passat cap de setmana passat
+quines dates foren es últim cap de setmana
+quines dates foren es últim cap de setmana passat
+quines dates fou el cap de setmana passat
+quines dates fou el passat cap de setmana
+quines dates fou es cap de setmana passat
+quines dates fou es passat cap de setmana
+quines dates va ser el cap de setmana passat
+quines dates va ser el passat cap de setmana
+quines dates va ser es cap de setmana passat
+quines dates va ser es passat cap de setmana
+quines dates van ser el cap de setmana passat
+quines dates van ser el darrer cap de setmana
+quines dates van ser el darrer cap de setmana passat
+quines dates van ser el passat cap de setmana
+quines dates van ser el passat cap de setmana passat
+quines dates van ser el últim cap de setmana
+quines dates van ser el últim cap de setmana passat
+quines dates van ser es cap de setmana passat
+quines dates van ser es darrer cap de setmana
+quines dates van ser es darrer cap de setmana passat
+quines dates van ser es passat cap de setmana
+quines dates van ser es passat cap de setmana passat
+quines dates van ser es últim cap de setmana
+quines dates van ser es últim cap de setmana passat
+quins dies era el cap de setmana passat
+quins dies era el passat cap de setmana
+quins dies era es cap de setmana passat
+quins dies era es passat cap de setmana
+quins dies eren el cap de setmana passat
+quins dies eren el passat cap de setmana
+quins dies eren es cap de setmana passat
+quins dies eren es passat cap de setmana
+quins dies foren e ldarrer cap de setmana
+quins dies foren e ldarrer cap de setmana passat
+quins dies foren e lpassat cap de setmana
+quins dies foren e lpassat cap de setmana passat
+quins dies foren e lúltim cap de setmana
+quins dies foren e lúltim cap de setmana passat
+quins dies foren el cap de setmana passat
+quins dies foren el passat cap de setmana
+quins dies foren es cap de setmana passat
+quins dies foren es darrer cap de setmana
+quins dies foren es darrer cap de setmana passat
+quins dies foren es passat cap de setmana
+quins dies foren es passat cap de setmana passat
+quins dies foren es últim cap de setmana
+quins dies foren es últim cap de setmana passat
+quins dies foren l'darrer cap de setmana
+quins dies foren l'darrer cap de setmana passat
+quins dies foren l'passat cap de setmana
+quins dies foren l'passat cap de setmana passat
+quins dies foren l'últim cap de setmana
+quins dies foren l'últim cap de setmana passat
+quins dies foren s'darrer cap de setmana
+quins dies foren s'darrer cap de setmana passat
+quins dies foren s'passat cap de setmana
+quins dies foren s'passat cap de setmana passat
+quins dies foren s'últim cap de setmana
+quins dies foren s'últim cap de setmana passat
+quins dies fou el cap de setmana passat
+quins dies fou el passat cap de setmana
+quins dies fou es cap de setmana passat
+quins dies fou es passat cap de setmana
+quins dies va ser el cap de setmana passat
+quins dies va ser el passat cap de setmana
+quins dies va ser es cap de setmana passat
+quins dies va ser es passat cap de setmana
+quins dies van ser e ldarrer cap de setmana
+quins dies van ser e ldarrer cap de setmana passat
+quins dies van ser e lpassat cap de setmana
+quins dies van ser e lpassat cap de setmana passat
+quins dies van ser e lúltim cap de setmana
+quins dies van ser e lúltim cap de setmana passat
+quins dies van ser el cap de setmana passat
+quins dies van ser el passat cap de setmana
+quins dies van ser es cap de setmana passat
+quins dies van ser es darrer cap de setmana
+quins dies van ser es darrer cap de setmana passat
+quins dies van ser es passat cap de setmana
+quins dies van ser es passat cap de setmana passat
+quins dies van ser es últim cap de setmana
+quins dies van ser es últim cap de setmana passat
+quins dies van ser l'darrer cap de setmana
+quins dies van ser l'darrer cap de setmana passat
+quins dies van ser l'passat cap de setmana
+quins dies van ser l'passat cap de setmana passat
+quins dies van ser l'últim cap de setmana
+quins dies van ser l'últim cap de setmana passat
+quins dies van ser s'darrer cap de setmana
+quins dies van ser s'darrer cap de setmana passat
+quins dies van ser s'passat cap de setmana
+quins dies van ser s'passat cap de setmana passat
+quins dies van ser s'últim cap de setmana
+quins dies van ser s'últim cap de setmana passat
+quins foren els dies del darrer cap de setmana
+quins foren els dies del darrer cap de setmana passat
+quins foren els dies del últim cap de setmana
+quins foren els dies del últim cap de setmana passat
+quins foren els jorns del darrer cap de setmana
+quins foren els jorns del darrer cap de setmana passat
+quins foren els jorns del últim cap de setmana
+quins foren els jorns del últim cap de setmana passat
+quins foren es dies del darrer cap de setmana
+quins foren es dies del darrer cap de setmana passat
+quins foren es dies del últim cap de setmana
+quins foren es dies del últim cap de setmana passat
+quins foren es jorns del darrer cap de setmana
+quins foren es jorns del darrer cap de setmana passat
+quins foren es jorns del últim cap de setmana
+quins foren es jorns del últim cap de setmana passat
+quins jorns foren e ldarrer cap de setmana
+quins jorns foren e ldarrer cap de setmana passat
+quins jorns foren e lpassat cap de setmana
+quins jorns foren e lpassat cap de setmana passat
+quins jorns foren e lúltim cap de setmana
+quins jorns foren e lúltim cap de setmana passat
+quins jorns foren es darrer cap de setmana
+quins jorns foren es darrer cap de setmana passat
+quins jorns foren es passat cap de setmana
+quins jorns foren es passat cap de setmana passat
+quins jorns foren es últim cap de setmana
+quins jorns foren es últim cap de setmana passat
+quins jorns foren l'darrer cap de setmana
+quins jorns foren l'darrer cap de setmana passat
+quins jorns foren l'passat cap de setmana
+quins jorns foren l'passat cap de setmana passat
+quins jorns foren l'últim cap de setmana
+quins jorns foren l'últim cap de setmana passat
+quins jorns foren s'darrer cap de setmana
+quins jorns foren s'darrer cap de setmana passat
+quins jorns foren s'passat cap de setmana
+quins jorns foren s'passat cap de setmana passat
+quins jorns foren s'últim cap de setmana
+quins jorns foren s'últim cap de setmana passat
+quins jorns van ser e ldarrer cap de setmana
+quins jorns van ser e ldarrer cap de setmana passat
+quins jorns van ser e lpassat cap de setmana
+quins jorns van ser e lpassat cap de setmana passat
+quins jorns van ser e lúltim cap de setmana
+quins jorns van ser e lúltim cap de setmana passat
+quins jorns van ser es darrer cap de setmana
+quins jorns van ser es darrer cap de setmana passat
+quins jorns van ser es passat cap de setmana
+quins jorns van ser es passat cap de setmana passat
+quins jorns van ser es últim cap de setmana
+quins jorns van ser es últim cap de setmana passat
+quins jorns van ser l'darrer cap de setmana
+quins jorns van ser l'darrer cap de setmana passat
+quins jorns van ser l'passat cap de setmana
+quins jorns van ser l'passat cap de setmana passat
+quins jorns van ser l'últim cap de setmana
+quins jorns van ser l'últim cap de setmana passat
+quins jorns van ser s'darrer cap de setmana
+quins jorns van ser s'darrer cap de setmana passat
+quins jorns van ser s'passat cap de setmana
+quins jorns van ser s'passat cap de setmana passat
+quins jorns van ser s'últim cap de setmana
+quins jorns van ser s'últim cap de setmana passat
+quins van ser els dies del darrer cap de setmana
+quins van ser els dies del darrer cap de setmana passat
+quins van ser els dies del últim cap de setmana
+quins van ser els dies del últim cap de setmana passat
+quins van ser els jorns del darrer cap de setmana
+quins van ser els jorns del darrer cap de setmana passat
+quins van ser els jorns del últim cap de setmana
+quins van ser els jorns del últim cap de setmana passat
+quins van ser es dies del darrer cap de setmana
+quins van ser es dies del darrer cap de setmana passat
+quins van ser es dies del últim cap de setmana
+quins van ser es dies del últim cap de setmana passat
+quins van ser es jorns del darrer cap de setmana
+quins van ser es jorns del darrer cap de setmana passat
+quins van ser es jorns del últim cap de setmana
+quins van ser es jorns del últim cap de setmana passat
