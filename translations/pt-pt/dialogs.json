@@ -43,5 +43,34 @@
     "Actualmente {time}",
     "[UNUSED]",
     "[UNUSED]"
+  ],
+  "/dialog/day.current.dialog": [
+    "{day}",
+    "É {day}",
+    "Hoje é {day}",
+    "O dia atual é {day}",
+    "Hoje é {day}"
+  ],
+  "/dialog/month.current.dialog": [
+    "{month}",
+    "É {month}",
+    "Este mês é {month}",
+    "O mês atual é {month}",
+    "Agora estamos em {month}"
+  ],
+  "/dialog/year.current.dialog": [
+    "{year}",
+    "É {year}",
+    "Este ano é {year}",
+    "O ano atual é {year}",
+    "Estamos no {year} agora"
+  ],
+  "/dialog/weekday.current.dialog": [
+    "{weekday}",
+    "É {weekday}",
+    "Hoje é {weekday}",
+    "O dia da semana atual é {weekday}",
+    "Hoje é {weekday}"
   ]
+
 }

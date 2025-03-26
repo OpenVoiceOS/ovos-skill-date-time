@@ -37,11 +37,40 @@
     "/dialog/time.tz.not.found.dialog": [
         "I could not find the time zone for {location}"
     ],
-    "/dialog/time.current.dialog": [
-        "{time}",
-        "It is {time}",
-        "{time}",
-        "It's {time}",
-        "Currently {time}"
-    ]
+  "/dialog/time.current.dialog": [
+    "{time}",
+    "It is {time}",
+    "{time}",
+    "It's {time}",
+    "Currently {time}"
+  ],
+  "/dialog/day.current.dialog": [
+    "{day}",
+    "It is {day}",
+    "Today is {day}",
+    "The current day is {day}",
+    "It's {day} today"
+  ],
+  "/dialog/weekday.current.dialog": [
+    "{weekday}",
+    "It is {weekday}",
+    "Today is {weekday}",
+    "The current weekday is {weekday}",
+    "It's {weekday} today"
+  ],
+  "/dialog/month.current.dialog": [
+    "{month}",
+    "It is {month}",
+    "This month is {month}",
+    "The current month is {month}",
+    "It's {month} right now"
+  ],
+  "/dialog/year.current.dialog": [
+    "{year}",
+    "It is {year}",
+    "This year is {year}",
+    "The current year is {year}",
+    "We're in {year} right now"
+  ]
+
 }

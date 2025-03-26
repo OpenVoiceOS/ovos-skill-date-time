@@ -43,5 +43,35 @@
         "Son las {time}",
         "Son las {time}",
         "Ahora mismo son las {time}"
-    ]
+    ],
+  "/dialog/day.current.dialog": [
+    "{day}",
+    "Es {day}",
+    "Hoy es {day}",
+    "El día actual es {day}",
+    "Hoy es {day}"
+  ],
+  "/dialog/month.current.dialog": [
+    "{month}",
+    "Es {month}",
+    "Este mes es {month}",
+    "El mes actual es {month}",
+    "Ahora estamos en {month}"
+  ],
+  "/dialog/year.current.dialog": [
+    "{year}",
+    "Es {year}",
+    "Este año es {year}",
+    "El año actual es {year}",
+    "Estamos en {year} ahora"
+  ],
+  "/dialog/weekday.current.dialog": [
+    "{weekday}",
+    "Es {weekday}",
+    "Hoy es {weekday}",
+    "El día de la semana actual es {weekday}",
+    "Hoy es {weekday}"
+  ]
+
+
 }

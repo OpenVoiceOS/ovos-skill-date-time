@@ -8,8 +8,9 @@ Get the local time or time for major cities around the world.  Times are given i
 * "What time is it?"
 * "What time is it in Paris?"
 * "Show me the time"
+* "What day is it"
 * "What's the date?"
-* "Tell me the day of the week" (TODO)
+* "Tell me the day of the week"
 * "How many days until July 4th"
 * "What day is Memorial Day 2020?"
 
