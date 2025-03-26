@@ -1,23 +1,21 @@
 {
   "/intents/what.day.is.it.intent": [
-    "quin dia és avui",
-    "quin dia tenim avui",
-    "quin dia és avui",
-    "quin és la data d'avui",
-    "em pots dir quin dia és",
+    "[saps] quin dia és [avui]",
+    "[saps] quin dia tenim avui",
+    "quin és la data [d'avui]",
+    "em pots dir quin dia és [avui]",
     "qualsevol dia d'avui"
   ],
   "/intents/what.weekday.is.it.intent": [
-    "quin dia de la setmana és avui",
-    "quin dia de la setmana tenim avui",
+    "[saps] quin dia de la setmana és [avui]",
+    "[saps] quin dia de la setmana tenim avui",
     "quin és el dia de la setmana",
-    "quin dia de la setmana és avui",
-    "quin dia és avui",
+    "quin dia de la setmana és [avui]",
     "qualsevol dia de la setmana és avui"
   ],
   "/intents/what.month.is.it.intent": [
-    "quin mes és aquest",
-    "quin mes tenim avui",
+    "[saps] quin mes és aquest",
+    "[saps] quin mes tenim avui",
     "mes actual",
     "quins mes és aquest",
     "en quin mes estem",
@@ -25,7 +23,7 @@
     "quin mes és ara mateix"
   ],
   "/intents/what.year.is.it.intent": [
-    "quin any és aquest",
+    "[saps] quin any és aquest",
     "quin any tenim avui",
     "any actual",
     "quins any és aquest",
