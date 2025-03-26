@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.12a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.12a2) (2025-03-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.12a1...0.4.12a2)
+
+**Merged pull requests:**
+
+- Intents [\#111](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/111) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.4.12a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.12a1) (2025-03-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.11...0.4.12a1)
