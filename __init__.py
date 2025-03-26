@@ -334,52 +334,28 @@ class TimeSkill(OVOSSkill):
 
     @intent_handler("what.day.is.it.intent")
     def handle_current_day_simple(self, message):
-        utt = message.data.get('utterance', "").lower()
         now = self.get_datetime()  # session aware
-        try:
-            dt, utt = extract_datetime(utt, anchorDate=now, lang=self.lang) or (now, utt)
-        except Exception as e:
-            self.log.exception(f"failed to extract date from '{utt}'")
-            dt = now
         self.speak_dialog("day.current",
-                          {"day": nice_day(dt, lang=self.lang)})
+                          {"day": nice_day(now, lang=self.lang)})
 
 
     @intent_handler("what.weekday.is.it.intent")
     def handle_current_weekday_simple(self, message):
-        utt = message.data.get('utterance', "").lower()
         now = self.get_datetime()  # session aware
-        try:
-            dt, utt = extract_datetime(utt, anchorDate=now, lang=self.lang) or (now, utt)
-        except Exception as e:
-            self.log.exception(f"failed to extract date from '{utt}'")
-            dt = now
         self.speak_dialog("weekday.current",
-                          {"weekday": nice_weekday(dt, lang=self.lang)})
+                          {"weekday": nice_weekday(now, lang=self.lang)})
 
     @intent_handler("what.month.is.it.intent")
     def handle_current_month_simple(self, message):
-        utt = message.data.get('utterance', "").lower()
         now = self.get_datetime()  # session aware
-        try:
-            dt, utt = extract_datetime(utt, anchorDate=now, lang=self.lang) or (now, utt)
-        except Exception as e:
-            self.log.exception(f"failed to extract date from '{utt}'")
-            dt = now
         self.speak_dialog("month.current",
-                          {"month": nice_month(dt, lang=self.lang)})
+                          {"month": nice_month(now, lang=self.lang)})
 
     @intent_handler("what.year.is.it.intent")
     def handle_current_year_simple(self, message):
-        utt = message.data.get('utterance', "").lower()
         now = self.get_datetime()  # session aware
-        try:
-            dt, utt = extract_datetime(utt, anchorDate=now, lang=self.lang) or (now, utt)
-        except Exception as e:
-            self.log.exception(f"failed to extract date from '{utt}'")
-            dt = now
         self.speak_dialog("year.current",
-                          {"year": nice_year(dt, lang=self.lang)})
+                          {"year": nice_year(now, lang=self.lang)})
 
     @intent_handler("what.time.will.it.be.intent")
     def handle_query_future_time(self, message):
