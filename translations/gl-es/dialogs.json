@@ -43,5 +43,35 @@
         "Son as {time}",
         "{time}",
         "{time}"
-    ]
+    ],
+  "/dialog/day.current.dialog": [
+    "{day}",
+    "É {day}",
+    "Hoxe é {day}",
+    "O día actual é {day}",
+    "Hoxe é {day}"
+  ],
+  "/dialog/month.current.dialog": [
+    "{month}",
+    "É {month}",
+    "Este mes é {month}",
+    "O mes actual é {month}",
+    "Agora estamos en {month}"
+  ],
+  "/dialog/year.current.dialog": [
+    "{year}",
+    "É {year}",
+    "Este ano é {year}",
+    "O ano actual é {year}",
+    "Estamos no {year} agora"
+  ],
+  "/dialog/weekday.current.dialog": [
+    "{weekday}",
+    "É {weekday}",
+    "Hoxe é {weekday}",
+    "O día da semana actual é {weekday}",
+    "Hoxe é {weekday}"
+  ]
+
+
 }

@@ -43,5 +43,35 @@
         "{time}(a|ak|) (da|dira)",
         "{time}",
         "{time}"
-    ]
+    ],
+  "/dialog/day.current.dialog": [
+    "{day}",
+    "{day} da",
+    "Gaur {day} da",
+    "Eguna {day} da",
+    "Gaur {day} da"
+  ],
+  "/dialog/month.current.dialog": [
+    "{month}",
+    "{month} da",
+    "Hileko {month} da",
+    "Hilabetea {month} da",
+    "Orain {month} gaude"
+  ],
+  "/dialog/year.current.dialog": [
+    "{year}",
+    "{year} da",
+    "Urte hau {year} da",
+    "Urte hau {year} da",
+    "Orain {year} gaude"
+  ],
+  "/dialog/weekday.current.dialog": [
+    "{weekday}",
+    "{weekday} da",
+    "Gaur {weekday} da",
+    "Asteko eguna {weekday} da",
+    "Gaur {weekday} da"
+  ]
+
+
 }

@@ -20,7 +20,7 @@ import geocoder
 import pytz
 from ovos_bus_client.message import Message
 from ovos_date_parser import nice_time, extract_datetime, nice_date, nice_duration, date_time_format, nice_weekday, \
-    nice_month
+    nice_month, nice_day, nice_year
 from ovos_utils import classproperty
 from ovos_utils.log import LOG
 from ovos_utils.parse import fuzzy_match
@@ -331,6 +331,55 @@ class TimeSkill(OVOSSkill):
     @intent_handler("what.time.is.it.intent")
     def handle_current_time_simple(self, message):
         self.handle_query_time(message)
+
+    @intent_handler("what.day.is.it.intent")
+    def handle_current_day_simple(self, message):
+        utt = message.data.get('utterance', "").lower()
+        now = self.get_datetime()  # session aware
+        try:
+            dt, utt = extract_datetime(utt, anchorDate=now, lang=self.lang) or (now, utt)
+        except Exception as e:
+            self.log.exception(f"failed to extract date from '{utt}'")
+            dt = now
+        self.speak_dialog("day.current",
+                          {"day": nice_day(dt, lang=self.lang)})
+
+
+    @intent_handler("what.weekday.is.it.intent")
+    def handle_current_weekday_simple(self, message):
+        utt = message.data.get('utterance', "").lower()
+        now = self.get_datetime()  # session aware
+        try:
+            dt, utt = extract_datetime(utt, anchorDate=now, lang=self.lang) or (now, utt)
+        except Exception as e:
+            self.log.exception(f"failed to extract date from '{utt}'")
+            dt = now
+        self.speak_dialog("weekday.current",
+                          {"weekday": nice_weekday(dt, lang=self.lang)})
+
+    @intent_handler("what.month.is.it.intent")
+    def handle_current_month_simple(self, message):
+        utt = message.data.get('utterance', "").lower()
+        now = self.get_datetime()  # session aware
+        try:
+            dt, utt = extract_datetime(utt, anchorDate=now, lang=self.lang) or (now, utt)
+        except Exception as e:
+            self.log.exception(f"failed to extract date from '{utt}'")
+            dt = now
+        self.speak_dialog("month.current",
+                          {"month": nice_month(dt, lang=self.lang)})
+
+    @intent_handler("what.year.is.it.intent")
+    def handle_current_year_simple(self, message):
+        utt = message.data.get('utterance', "").lower()
+        now = self.get_datetime()  # session aware
+        try:
+            dt, utt = extract_datetime(utt, anchorDate=now, lang=self.lang) or (now, utt)
+        except Exception as e:
+            self.log.exception(f"failed to extract date from '{utt}'")
+            dt = now
+        self.speak_dialog("year.current",
+                          {"year": nice_year(dt, lang=self.lang)})
 
     @intent_handler("what.time.will.it.be.intent")
     def handle_query_future_time(self, message):
