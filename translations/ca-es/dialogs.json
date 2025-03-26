@@ -43,5 +43,35 @@
         "S\u00f3n {time}",
         "S\u00f3n {time}",
         "Ara mateix s\u00f3n {time}"
-    ]
+    ],
+  "/dialog/day.current.dialog": [
+    "{day}",
+    "És {day}",
+    "Avui és {day}",
+    "El dia actual és {day}",
+    "Avui és {day}"
+  ],
+  "/dialog/month.current.dialog": [
+    "{month}",
+    "És {month}",
+    "Aquest mes és {month}",
+    "El mes actual és {month}",
+    "Ara estem a {month}"
+  ],
+  "/dialog/year.current.dialog": [
+    "{year}",
+    "És {year}",
+    "Aquest any és {year}",
+    "L'any actual és {year}",
+    "Som al {year} ara mateix"
+  ],
+  "/dialog/weekday.current.dialog": [
+    "{weekday}",
+    "És {weekday}",
+    "Avui és {weekday}",
+    "El dia de la setmana actual és {weekday}",
+    "Avui és {weekday}"
+  ]
+
+
 }
