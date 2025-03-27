@@ -1,7 +1,7 @@
 {
   "/intents/what.day.is.it.intent": [
-    "[saps] quin dia és [avui]",
-    "[saps] quin dia tenim avui",
+    "[saps] quin dia (tenim|és) avui",
+    "[avui] quin dia és",
     "quin és la data [d'avui]",
     "em pots dir quin dia és [avui]",
     "qualsevol dia d'avui"
