@@ -1,20 +1,12 @@
 # Changelog
 
-## [0.4.12a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.12a2) (2025-03-26)
+## [0.4.13a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.13a1) (2025-03-27)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.12a1...0.4.12a2)
-
-**Merged pull requests:**
-
-- Intents [\#111](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/111) ([JarbasAl](https://github.com/JarbasAl))
-
-## [0.4.12a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.12a1) (2025-03-26)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.11...0.4.12a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.12...0.4.13a1)
 
 **Merged pull requests:**
 
-- More intents [\#109](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/109) ([JarbasAl](https://github.com/JarbasAl))
+- fix: catalan [\#113](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/113) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
