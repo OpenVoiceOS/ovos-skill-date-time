@@ -1,4 +1,44 @@
 {
+  "/intents/what.day.is.it.intent": [
+    "welcher Tag ist heute",
+    "was ist heute für ein Tag",
+    "Welcher Tag ist heute",
+    "welches Datum ist heute",
+    "kannst du mir den Tag sagen",
+    "welches Datum ist heute",
+    "welcher Tag ist heute",
+    "Sag mir den aktuellen Tag"
+  ],
+  "/intents/what.weekday.is.it.intent": [
+    "welcher Wochentag ist es",
+    "welcher Wochentag ist heute",
+    "was ist der Wochentag",
+    "welcher Wochentag ist heute",
+    "welcher Wochentag ist es",
+    "Sag mir den Wochentag"
+  ],
+  "/intents/what.month.is.it.intent": [
+    "welcher Monat ist es",
+    "welcher Monat ist heute",
+    "aktueller Monat",
+    "welcher Monat ist es",
+    "in welchem Monat sind wir",
+    "welcher Monat ist es",
+    "welcher Monat ist es gerade",
+    "Sag mir den aktuellen Monat",
+    "Sag mir den Monat"
+  ],
+  "/intents/what.year.is.it.intent": [
+    "welches Jahr ist es",
+    "welches Jahr ist heute",
+    "laufendes Jahr\naktuelles Jahr",
+    "welches Jahr haben wir",
+    "welches Jahr ist es",
+    "in welchem Jahr sind wir",
+    "welches Jahr ist es gerade",
+    "Sag mir das aktuelle Jahr",
+    "Sag mir das Jahr"
+  ],
   "/intents/what.time.will.it.be.intent": [
     "(wie viel|wieviel) uhr ist (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2}",
     "(wie viel|wieviel) uhr wird (es|) in {offset} (Stunde|Stunden|Minute|Minuten|Sekunde|Sekunden) {offset2} sein",
