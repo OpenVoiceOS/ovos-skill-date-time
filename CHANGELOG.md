@@ -1,12 +1,21 @@
 # Changelog
 
-## [0.4.13a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.13a1) (2025-03-27)
+## [0.4.14a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.14a2) (2025-03-29)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.12...0.4.13a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.14a1...0.4.14a2)
 
 **Merged pull requests:**
 
-- fix: catalan [\#113](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/113) ([JarbasAl](https://github.com/JarbasAl))
+- adding German translations for new intents [\#118](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/118) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- adding German translations for new intents [\#117](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/117) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
+## [0.4.14a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.14a1) (2025-03-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.13...0.4.14a1)
+
+**Merged pull requests:**
+
+- fix: disambiguate better between intents [\#115](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/115) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
