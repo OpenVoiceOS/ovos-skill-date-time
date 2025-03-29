@@ -46,10 +46,10 @@
   ],
   "/dialog/day.current.dialog": [
     "{day}",
-    "Es ist {day}",
-    "Heute ist {day}",
-    "Der aktuelle Tag ist {day}",
-    "Heute ist {day}"
+    "Es ist der {day}",
+    "Heute ist der {day}",
+    "Der aktuelle Tag ist der {day}",
+    "Heute ist der {day}"
   ],
   "/dialog/weekday.current.dialog": [
     "{weekday}",
