@@ -1,58 +1,65 @@
 {
-    "/vocab/Month.voc": [
-        "Octubre",
-        "Abril",
-        "Mayo",
-        "Marzo",
-        "Agosto",
-        "Enero",
-        "Diciembre",
-        "Junio",
-        "Julio",
-        "Febrero",
-        "Septiembre",
-        "Noviembre"
-    ],
-    "/vocab/Future.voc": [
-        "ser\u00e1",
-        "en",
-        "a partir de ahora"
-    ],
-    "/vocab/Time.voc": [
-        "hora"
-    ],
-    "/vocab/LeapYear.voc": [
-        "a\u00f1o bisiesto"
-    ],
-    "/vocab/Today.voc": [
-        "de hoy",
-        "hoy"
-    ],
-    "/vocab/Query.voc": [
-        "qu\u00e9",
-        "dime|di"
-    ],
-    "/vocab/Display.voc": [
-        "muestra",
-        "ense\u00f1a"
-    ],
-    "/vocab/Date.voc": [
-        "fecha",
-        "d\u00eda",
-        "hoy"
-    ],
-    "/vocab/RelativeDay.voc": [
-        "de ayer",
-        "ayer",
-        "mi\u00e9rcoles",
-        "ma\u00f1ana",
-        "s\u00e1bado",
-        "lunes",
-        "jueves",
-        "martes",
-        "hoy",
-        "domingo",
-        "viernes",
-        "de hoy"
-    ]
+  "/vocab/Month.voc": [
+    "Enero",
+    "Febrero",
+    "Marzo",
+    "Abril",
+    "Mayo",
+    "Junio",
+    "Julio",
+    "Agosto",
+    "Septiembre",
+    "Octubre",
+    "Noviembre",
+    "Diciembre"
+  ],
+  "/vocab/Future.voc": [
+    "a partir de ahora",
+    "en",
+    "será",
+    "será"
+  ],
+  "/vocab/Time.voc": [
+    "hora",
+    "reloj"
+  ],
+  "/vocab/LeapYear.voc": [
+    "año bisiesto"
+  ],
+  "/vocab/Today.voc": [
+    "hoy",
+    "hoy",
+    "de hoy"
+  ],
+  "/vocab/Query.voc": [
+    "qué",
+    "(dime|di)",
+    "(comprueba|verifica|revisa)",
+    "(dame|da|dime|indícame|indica|muestra|muéstrame)",
+    "(sabes|conoces)",
+    "cuándo"
+  ],
+  "/vocab/Display.voc": [
+    "(muestra|muéstrame)",
+    "enseña"
+  ],
+  "/vocab/Date.voc": [
+    "fecha",
+    "día"
+  ],
+  "/vocab/RelativeDay.voc": [
+    "mañana",
+    "mañanas",
+    "de mañana",
+    "ayer",
+    "ayeres",
+    "de ayer",
+    "lunes",
+    "martes",
+    "miércoles",
+    "jueves",
+    "viernes",
+    "sábado",
+    "domingo"
+  ]
 }
