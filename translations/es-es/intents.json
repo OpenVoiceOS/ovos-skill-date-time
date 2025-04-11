@@ -6,7 +6,7 @@
     "¿Cuál es la fecha de hoy?",
     "¿Puedes decirme qué día es (hoy|)?\n¿Me puedes decir qué día es (hoy|)?",
     "¿Cuál es la fecha de hoy?",
-    null,
+    "¿Qué día es hoy?",
     "Dime el día actual\nDime a qué día estamos"
   ],
   "/intents/what.weekday.is.it.intent": [
