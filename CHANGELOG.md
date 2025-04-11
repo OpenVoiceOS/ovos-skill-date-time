@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.4.16a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.16a1) (2025-04-11)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.15a1...0.4.16a1)
+
+**Merged pull requests:**
+
+- fix: catalan matching [\#124](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/124) ([JarbasAl](https://github.com/JarbasAl))
+- es-es/translate [\#123](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/123) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- Create skill.json [\#122](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/122) ([c-armentano](https://github.com/c-armentano))
+
 ## [0.4.15a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.15a1) (2025-03-29)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.14...0.4.15a1)
