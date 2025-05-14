@@ -1,55 +1,62 @@
 {
-    "/dialog/date.relative.future.dialog": [
-        "É {date}. dentro de {num_days}",
-        "Será {date}. dentro de {num_days}",
-        "{date}. cando pasen {num_days}",
-        "{date}. dentro de {num_days}"
-    ],
-    "/dialog/date.future.weekend.dialog": [
-        "o vindeiro fin de semana será {saturday_date}. e {sunday_date}"
-    ],
-    "/dialog/date.not.found.dialog": [
-        "Non che dei atopado esa data."
-    ],
-    "/dialog/date.last.weekend.dialog": [
-        "o fin de semana pasado foi {saturday_date}. e {sunday_date}"
-    ],
-    "/dialog/time.future.dialog": [
-        "Serán as {time}",
-        "{time}"
-    ],
-    "/dialog/next.leap.year.dialog": [
-        "O vindeiro ano bisesto é {year}"
-    ],
-    "/dialog/date.relative.past.dialog": [
-        "Foi {date}. hai {num_days}",
-        "{date}. hai {num_days}"
-    ],
-    "/dialog/did.you.mean.timezone.dialog": [
-        "Refíreste ao fuso horario {zone_name}?"
-    ],
-    "/dialog/date.dialog": [
-        "É {date}",
-        "É {date}",
-        "{date}",
-        "{date}"
-    ],
-    "/dialog/time.tz.not.found.dialog": [
-        "Non dei atopado o fuso horario de {location}"
-    ],
-    "/dialog/time.current.dialog": [
-        "Actualmente {time}",
-        "Son as {time}",
-        "Son as {time}",
-        "{time}",
-        "{time}"
-    ],
+  "/dialog/date.relative.future.dialog": [
+    "{date}, dentro de {num_days}",
+    "É {date}, en {num_days}",
+    "É {date}, dentro de {num_days}",
+    "{date}, en {num_days}"
+  ],
+  "/dialog/date.future.weekend.dialog": [
+    "o vindeiro fin de semana será {saturday_date}, e {sunday_date}"
+  ],
+  "/dialog/date.not.found.dialog": [
+    "Non che dei atopado esa data."
+  ],
+  "/dialog/date.last.weekend.dialog": [
+    "o fin de semana pasado foi {saturday_date}, e {sunday_date}"
+  ],
+  "/dialog/time.future.dialog": [
+    "{time}",
+    "Serán as {time}"
+  ],
+  "/dialog/next.leap.year.dialog": [
+    "O vindeiro ano bisesto é {year}"
+  ],
+  "/dialog/date.relative.past.dialog": [
+    "{date}, hai {num_days}",
+    "Foi {date}, hai {num_days}"
+  ],
+  "/dialog/did.you.mean.timezone.dialog": [
+    "Refíreste ao fuso horario {zone_name}?"
+  ],
+  "/dialog/date.dialog": [
+    "{date}",
+    "É {date}",
+    "É {date}",
+    "{date}"
+  ],
+  "/dialog/time.tz.not.found.dialog": [
+    "Non dei atopado o fuso horario de {location}"
+  ],
+  "/dialog/time.current.dialog": [
+    "{time}",
+    "Son as {time}",
+    "{time}",
+    "Son as {time}",
+    "Neste momento as {time}"
+  ],
   "/dialog/day.current.dialog": [
     "{day}",
     "É {day}",
     "Hoxe é {day}",
     "O día actual é {day}",
-    "Hoxe é {day}"
+    "É {day} hoxe"
+  ],
+  "/dialog/weekday.current.dialog": [
+    "{weekday}",
+    "É {weekday}",
+    "Hoxe é {weekday}",
+    "O día da semana actual é {weekday}",
+    "É {weekday} hoxe"
   ],
   "/dialog/month.current.dialog": [
     "{month}",
@@ -64,14 +71,5 @@
     "Este ano é {year}",
     "O ano actual é {year}",
     "Estamos no {year} agora"
-  ],
-  "/dialog/weekday.current.dialog": [
-    "{weekday}",
-    "É {weekday}",
-    "Hoxe é {weekday}",
-    "O día da semana actual é {weekday}",
-    "Hoxe é {weekday}"
   ]
-
-
 }
