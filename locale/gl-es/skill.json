@@ -1,0 +1,22 @@
+{
+  "skill_id": "skill-ovos-date-time.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/skill-ovos-date-time",
+  "name": " Data e Hora",
+  "description": "Obtén a hora, a data, o día da semana",
+  "examples": [
+    "Que hora é?",
+    "Dime o día da semana",
+    "Cantos días faltan para o 4 de xullo",
+    "Que día é hoxe?",
+    "(Dime|Amósame|Móstrame|Indícame) que hora é",
+    "(Que día é|A que día cae) o martes de entroido de 2025?",
+    "Que hora é en París?"
+  ],
+  "tags": [
+    "reloxo",
+    "data",
+    "hora",
+    "(consulta|pregunta|consultar|preguntar)",
+    "información"
+  ]
+}
