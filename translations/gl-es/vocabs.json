@@ -1,68 +1,65 @@
 {
-    "/vocab/Month.voc": [
-        "abril",
-        "Agosto",
-        "Decembro",
-        "Febreiro",
-        "Xaneiro",
-        "Xullo",
-        "Xuño",
-        "Marzo",
-        "Maio",
-        "Novembro",
-        "Outubro",
-        "Setembro"
-    ],
-    "/vocab/Future.voc": [
-        "a partir de agora",
-        "en",
-        "será",
-        "estará"
-    ],
-    "/vocab/Time.voc": [
-        "reloxo",
-        "hora"
-    ],
-    "/vocab/LeapYear.voc": [
-        "ano bisesto"
-    ],
-    "/vocab/Today.voc": [
-        "hoxe",
-        "de hoxe",
-        "para hoxe"
-    ],
-    "/vocab/Query.voc": [
-        "verificar",
-        "dar",
-        "saber",
-        "dicir",
-        "que",
-        "cando"
-    ],
-    "/vocab/Display.voc": [
-        "ensinar",
-        "mostrar"
-    ],
-    "/vocab/Date.voc": [
-        "data",
-        "día"
-    ],
-    "/vocab/RelativeDay.voc": [
-        "venres",
-        "luns",
-        "sábado",
-        "domingo",
-        "xoves",
-        "hoxe",
-        "de hoxe",
-        "para hoxe",
-        "mañá",
-        "de mañá",
-        "para mañá",
-        "martes",
-        "mércores",
-        "onte",
-        "de onte",
-        "para onte"
-    ]
+  "/vocab/Month.voc": [
+    "Xaneiro",
+    "Febreiro",
+    "Marzo",
+    "Abril",
+    "Maio",
+    "Xuño",
+    "Xullo",
+    "Agosto",
+    "Setembro",
+    "Outubro",
+    "Novembro",
+    "Decembro"
+  ],
+  "/vocab/Future.voc": [
+    "a partir de agora",
+    "en",
+    "será",
+    "estará"
+  ],
+  "/vocab/Time.voc": [
+    "reloxo",
+    "hora"
+  ],
+  "/vocab/LeapYear.voc": [
+    "ano bisesto"
+  ],
+  "/vocab/Today.voc": [
+    "hoxe",
+    "para hoxe",
+    "de hoxe"
+  ],
+  "/vocab/Query.voc": [
+    "(que|cal|cales)",
+    "dicir",
+    "verificar",
+    "dar",
+    "saber",
+    "cando"
+  ],
+  "/vocab/Display.voc": [
+    "ensinar",
+    "mostrar"
+  ],
+  "/vocab/Date.voc": [
+    "data",
+    "día"
+  ],
+  "/vocab/RelativeDay.voc": [
+    "mañá",
+    "para mañá",
+    "de mañá",
+    "onte",
+    "para onte",
+    "de onte",
+    "(luns|segunda feira)",
+    "(martes|terza feira|terceira feira)",
+    "(mércores|cuarta feira|corta feira)",
+    "(xoves|quinta feira)",
+    "(venres|sexta feira)",
+    "sábado",
+    "domingo"
+  ]
 }
