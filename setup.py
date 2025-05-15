@@ -4,7 +4,7 @@ import os
 from os import walk, path
 
 
-URL = "https://github.com/OpenVoiceOS/skill-ovos-date-time"
+URL = "https://github.com/OpenVoiceOS/ovos-skill-date-time"
 SKILL_CLAZZ = "TimeSkill"  # needs to match __init__.py class name
 PYPI_NAME = "ovos-skill-date-time"  # pip install PYPI_NAME
 
