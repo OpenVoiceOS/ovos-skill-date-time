@@ -1,20 +1,20 @@
 # Changelog
 
-## [0.4.18a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.18a2) (2025-05-15)
+## [0.4.20a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.20a1) (2025-05-15)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.18a1...0.4.18a2)
-
-**Merged pull requests:**
-
-- gl/translate [\#132](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/132) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
-## [0.4.18a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.18a1) (2025-05-14)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.17...0.4.18a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.19a1...0.4.20a1)
 
 **Merged pull requests:**
 
-- gl/translate [\#130](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/130) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- fix: standardize urls / skill-id / pypi-name [\#136](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/136) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.4.19a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.19a1) (2025-05-15)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.18...0.4.19a1)
+
+**Merged pull requests:**
+
+- Update Catalan strings [\#134](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/134) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 
 
