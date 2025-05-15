@@ -10,7 +10,7 @@ from skill_ovos_date_time import TimeSkill
 class TestSkillLoading(unittest.TestCase):
     @classmethod
     def setUpClass(self):
-        self.skill_id = "skill-ovos-date-time.openvoiceos"
+        self.skill_id = "ovos-skill-date-time.openvoiceos"
         self.path = dirname(dirname(dirname(__file__)))
 
     def test_from_class(self):
