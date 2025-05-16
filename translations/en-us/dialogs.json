@@ -52,11 +52,19 @@
     "It's {day} today"
   ],
   "/dialog/weekday.current.dialog": [
-    "{weekday}",
-    "It is {weekday}",
     "Today is {weekday}",
     "The current weekday is {weekday}",
-    "It's {weekday} today"
+    "It's {weekday} today",
+    "It is {weekday}"
+  ],
+  "/dialog/weekday.at.date.future.dialog": [
+    "on {date} it will be {weekday}"
+  ],
+  "/dialog/weekday.at.date.past.dialog": [
+    "on {date} it was {weekday}"
+  ],
+  "/dialog/extract.date.error.dialog": [
+    "I couldn't understand what date you are asking about"
   ],
   "/dialog/month.current.dialog": [
     "{month}",
