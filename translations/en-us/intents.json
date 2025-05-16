@@ -56,15 +56,15 @@
     "tell me the current day[ of the (month|calendar)] [in {location}]"
   ],
   "/intents/weekday.for.date.intent": [
-    "(which|what) (day of the week|weekday) is {date}",
+    "(which|what) (day of the week|weekday) (was|is) {date}",
     "(do you know|[can you] tell me) the (day of the week|weekday) for {date}",
     "what’s the (day of the week|weekday) for {date}",
-    "is {date} [on] a (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)",
+    "(was|is) {date} [on] a (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)",
     "[on] (what|which) (day|day of the week|weekday) does {date} fall on",
-    "[on] (what|which) (day|day of the week|weekday) will it be on {date}",
-    "[on] (what|which) (day|day of the week|weekday) is {date}",
-    "[can you] tell me what (day|day of the week|weekday) {date} is",
-    "[(I want to|do you) know] (which|what) (day|day of the week|weekday) ({date} is|is {date})"
+    "[on] (what|which) (day|day of the week|weekday) (was|will it be on) {date}",
+    "[on] (what|which) (day|day of the week|weekday) (was|is) {date}",
+    "[can you] tell me what (day|day of the week|weekday) {date} (was|is)",
+    "[(I want to|do you) know] (which|what) (day|day of the week|weekday) {date} (was|is)"
   ],
   "/intents/what.weekday.is.it.intent": [
     "(which|what) (day of the week|weekday) is (it|today)",

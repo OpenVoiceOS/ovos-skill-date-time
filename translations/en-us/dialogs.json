@@ -58,11 +58,9 @@
     "It is {weekday}"
   ],
   "/dialog/weekday.at.date.future.dialog": [
-    "on {date} it will be {weekday}",
     "on {date} it will be {weekday}"
   ],
   "/dialog/weekday.at.date.past.dialog": [
-    "on {date} it was {weekday}",
     "on {date} it was {weekday}"
   ],
   "/dialog/extract.date.error.dialog": [
