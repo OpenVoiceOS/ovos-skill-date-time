@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.0.0a1) (2025-05-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.21a1...1.0.0a1)
+
+**Breaking changes:**
+
+- refactor!: drop adapt in favor of padatious [\#140](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/140) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.4.21a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.21a1) (2025-05-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.20...0.4.21a1)
