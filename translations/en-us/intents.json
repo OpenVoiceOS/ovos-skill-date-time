@@ -1,13 +1,59 @@
 {
+  "/intents/next.leap.year.intent": [
+    "(what's|what is|when is) the next leap year",
+    "what (year|date) is the next leap year",
+    "when will [the] next leap year (be|happen)",
+    "[can you] tell me when [the] next leap year is",
+    "when does [the] next leap year (start|happen)",
+    "what's the next year with (February 29th|366 days|an extra day [in February])",
+    "when will we (have|get|see) [a] leap year again",
+    "when is (February 29th|Feb 29) happening (again|next)",
+    "(what|when) is the next year that has (February 29th|366 days|an extra day [in February])",
+    "is (next year|this year) a leap year",
+    "is this year a leap year or (next|the next one)",
+    "(what|which) year is the next leap year"
+  ],
+  "/intents/time.until.intent": [
+    "how (long|much time|much longer) (is left|do we have) (before|until) {date}",
+    "how far (away|off) is {date} [from (today|now)]",
+    "how many (weeks|days|hours) (are left|remaining) (before|until) {date}",
+    "when [exactly] (will it be|is) {date}",
+    "(what's the|how much) time (remaining|left) (before|until) {date}",
+    "when (is|was) {date}",
+    "when (is|was) the (next|last|previous) {date}",
+    "how long ago was {date}",
+    "how long from now is {date}",
+    "how many days ago was {date}",
+    "how many days from now is {date}"
+  ],
+  "/intents/current_date.intent": [
+    "what date is it [in {location}]",
+    "what is the (current|present|) date [in {location}]",
+    "(tell me|what is) today’s date [in {location}]",
+    "(tell me|give me|show me) the (date|calendar date) [in {location}]",
+    "[can you] tell me the (current|present) date [in {location}]",
+    "do you know what the date is [in {location}]",
+    "I want to know the date [in {location}]",
+    "what is the full date (today|in {location}|)",
+    "what’s (current|present|today’s) full date [in {location}]",
+    "today’s (calendar|exact) date [in {location}] [please]",
+    "I need to know the (date|calendar date) (today|in {location}|)",
+    "give me today's (full|complete|) date [in {location}]",
+    "what is (the|today’s) (day and month|full date|full date with year|day, month, and year)",
+    "[can you] give me the (day and month|full date|full date with year|day, month, and year)",
+    "tell me the (day and month|full date|full date with year|day, month, and year)",
+    "what (day and month|full date|full date with year|day, month, and year) is it (today|in {location}|)",
+    "what’s the full date today including the year",
+    "(what is|tell me|give me) (the|today’s) (full|complete) date",
+    "what date including (month|month and year|year) is it (today|in {location}|)"
+  ],
   "/intents/what.day.is.it.intent": [
     "(which|what) day[ of the (month|calendar)] is (it|today)",
-    "what’s the day[ of the (month|calendar)] today",
-    "what day[ of the (month|calendar)] is today",
-    "(tell me|what is) today’s (day|date)",
+    "what’s the day[ of the (month|calendar)] (today|in {location})",
+    "what day[ of the (month|calendar)] is (today|in {location})",
     "can you tell me the day[ of the (month|calendar)]",
-    "what's today's (day|date)",
-    "what day[ of the (month|calendar)] is it today",
-    "tell me the current day[ of the (month|calendar)]"
+    "what day[ of the (month|calendar)] is it (today|in {location})",
+    "tell me the current day[ of the (month|calendar)] [in {location}]"
   ],
   "/intents/what.weekday.is.it.intent": [
     "(which|what) (day of the week|weekday) is (it|today)",
@@ -67,12 +113,12 @@
     "(which|what) (date|day) is the (next|upcoming|coming|forthcoming) (Saturday|Sunday|weekend)"
   ],
   "/intents/what.time.is.it.intent": [
-    "(tell|give|share|provide|inform|let me know|can you give|could you give|do you have|do you know|can you tell|may I know|I want to know|I need to know|I need to check|I'd like to know|I would like to know|I'd appreciate it if you could tell|is it possible to get|can you let me know) the [current] (time|hour[s])",
-    "(what's the time|what time is it) (currently|now|at the moment|at the present|)",
-    "(time|clock|hours)( right now| now)[ please]",
-    "(present|current) (time|hour|hours)",
-    "time [right] now",
-    "is it already (noon|midnight|[one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve])",
-    "is it already (morning|afternoon|evening|night)"
+    "(tell|give|share|provide|inform|let me know|can you give|could you give|do you have|do you know|can you tell|may I know|I want to know|I need to know|I need to check|I'd like to know|I would like to know|I'd appreciate it if you could tell|is it possible to get|can you let me know) the [current] (time|hour[s]) [in {location}]",
+    "(what's the time|what time is it) (currently|now|at the moment|at the present|) [in {location}]",
+    "(time|clock|hours)( right now| now)[ please] [in {location}]",
+    "(present|current) (time|hour|hours) [in {location}]",
+    "time [right] now [in {location}]",
+    "is it already (noon|midnight|[one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve]) [in {location}]",
+    "is it already (morning|afternoon|evening|night) [in {location}]"
   ]
 }
