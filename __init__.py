@@ -33,14 +33,18 @@ from timezonefinder import TimezoneFinder
 
 
 def speakable_timezone(tz):
-    """Convert timezone to a better speakable version
+    """Convert a timezone string to a more speakable form.
 
-    Splits joined words, e.g. EasterIsland to "Easter Island",
-    "North_Dakota" to "North Dakota" etc.
-    Then parses the output into the correct order for speech,
-    e.g. "America/North Dakota/Center" to
-    resulting in something like "Center North Dakota America", or
-    "Easter Island Chile"
+    This function reformats a timezone string by:
+      - Inserting spaces between camel case words (e.g., 'EasterIsland' → 'Easter Island')
+      - Replacing underscores with spaces
+      - Reversing the components of a timezone path (e.g., 'America/North_Dakota/Center' → 'Center North Dakota America')
+
+    Args:
+        tz (str): A timezone string in pytz format.
+
+    Returns:
+        str: A more natural, speakable form of the timezone.
     """
     say = re.sub(r"([a-z])([A-Z])", r"\g<1> \g<2>", tz)
     say = say.replace("_", " ")
@@ -126,14 +130,24 @@ class TimeSkill(OVOSSkill):
 
     @property
     def use_24hour(self):
-        """Check if the time format is in 24-hour mode.
-        self.time_format is Session aware"""
+        """Determine if 24-hour time format is used.
+
+        Returns:
+            bool: True if using 24-hour format, False otherwise.
+        """
         return self.time_format == 'full'
 
     ######################################################################
     # parsing
     def _extract_location(self, utt: str) -> str:
-        """Extract location from utterance."""
+        """Extract a location name from a spoken utterance using regex patterns.
+
+        Args:
+            utt (str): The user utterance.
+
+        Returns:
+            str: Extracted location if matched, otherwise None.
+        """
         rx_file = self.find_resource('location.rx', 'regex')
         if rx_file:
             with open(rx_file) as f:
@@ -151,7 +165,14 @@ class TimeSkill(OVOSSkill):
 
     @staticmethod
     def _get_timezone_from_builtins(location_string: str) -> Optional[datetime.tzinfo]:
-        """Get timezone from built-in resources."""
+        """Attempt to resolve a timezone from a location name using geocoding.
+
+        Args:
+            location_string (str): The location name or timezone string.
+
+        Returns:
+            Optional[datetime.tzinfo]: The corresponding timezone, or None if not found.
+        """
         if "/" not in location_string:
             try:
                 # This handles common city names, like "Dallas" or "Paris"
@@ -173,10 +194,13 @@ class TimeSkill(OVOSSkill):
         return None
 
     def _get_timezone_from_table(self, location_string: str) -> Optional[datetime.tzinfo]:
-        """Check lookup table for timezones.
+        """Resolve timezone using a manually defined lookup table.
 
-        This can also be a translation layer.
-        E.g. "china = GMT+8"
+        Args:
+            location_string (str): The location string to resolve.
+
+        Returns:
+            Optional[datetime.tzinfo]: The corresponding timezone, or None if not found.
         """
         timezones = self.resources.load_named_value_file("timezone.value", ',')
         for timezone in timezones:
@@ -227,10 +251,16 @@ class TimeSkill(OVOSSkill):
             return None
 
     def get_timezone_in_location(self, location_string: str) -> datetime.tzinfo:
-        """Get the timezone.
+        """Get the timezone for a given location using multiple fallback strategies.
 
-        This uses a variety of approaches to determine the intended timezone.
-        If locale is the user defined locale, we save that timezone and cache it.
+        This method attempts to resolve a timezone by checking built-in resources,
+        a custom lookup table, and finally fuzzy matching.
+
+        Args:
+            location_string (str): A string representing a location (e.g., city or region).
+
+        Returns:
+            datetime.tzinfo: The timezone object if resolved, else None.
         """
         timezone = self._get_timezone_from_builtins(location_string)
         if not timezone:
@@ -243,7 +273,15 @@ class TimeSkill(OVOSSkill):
     # utils
     def get_datetime(self, location: str = None,
                      anchor_date: datetime.datetime = None) -> Optional[datetime.datetime]:
-        """return anchor_date/now_local at location/session_tz"""
+        """Return the localized datetime for a given location or current session.
+
+        Args:
+            location (str, optional): A location name for timezone conversion.
+            anchor_date (datetime.datetime, optional): A reference date. Defaults to now.
+
+        Returns:
+            Optional[datetime.datetime]: The localized datetime, or None if timezone cannot be resolved.
+        """
         if location:
             tz = self.get_timezone_in_location(location)
             if not tz:
@@ -259,7 +297,16 @@ class TimeSkill(OVOSSkill):
 
     def get_spoken_time(self, location: str = None, force_ampm=False,
                         anchor_date: datetime.datetime = None) -> str:
-        """Get formatted spoken time based on user preferences."""
+        """Get a human-readable spoken version of the current time.
+
+        Args:
+            location (str, optional): Location for timezone conversion.
+            force_ampm (bool, optional): Whether to force AM/PM mode even if using 24-hour format.
+            anchor_date (datetime.datetime, optional): Specific time to use instead of now.
+
+        Returns:
+            str: A spoken-friendly representation of the time.
+        """
         dt = self.get_datetime(location, anchor_date)
 
         # speak AM/PM when talking about somewhere else
@@ -274,7 +321,16 @@ class TimeSkill(OVOSSkill):
 
     def get_display_time(self, location: str = None, force_ampm=False,
                          anchor_date: datetime.datetime = None) -> str:
-        """Get formatted display time based on user preferences."""
+        """Get a display-friendly version of the current time.
+
+        Args:
+            location (str, optional): Location for timezone conversion.
+            force_ampm (bool, optional): Whether to display time in AM/PM format.
+            anchor_date (datetime.datetime, optional): Specific time to use instead of now.
+
+        Returns:
+            str: A string representing the display time.
+        """
         dt = self.get_datetime(location, anchor_date)
         # speak AM/PM when talking about somewhere else
         say_am_pm = bool(location) or force_ampm
@@ -285,7 +341,15 @@ class TimeSkill(OVOSSkill):
 
     def get_display_date(self, location: str = None,
                          anchor_date: datetime.datetime = None) -> str:
-        """Get formatted display date based on user preferences."""
+        """Get a localized and display-friendly version of the current date.
+
+        Args:
+            location (str, optional): Location name for timezone context.
+            anchor_date (datetime.datetime, optional): Date to display instead of now.
+
+        Returns:
+            str: A string representing the formatted date.
+        """
         dt = self.get_datetime(location, anchor_date)
         fmt = self.date_format  # Session aware
         if fmt == 'MDY':
