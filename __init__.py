@@ -470,12 +470,20 @@ class TimeSkill(OVOSSkill):
 
     @intent_handler("what.weekday.is.it.intent")
     def handle_current_weekday(self, message):
+        """
+        Handles queries about the current weekday and speaks the name of today's weekday.
+        """
         now = self.get_datetime()  # session aware
         self.speak_dialog("weekday.current",
                           {"weekday": nice_weekday(now, lang=self.lang)})
 
     @intent_handler("weekday.for.date.intent")
     def handle_weekday(self, message):
+        """
+        Handles queries about the weekday for a specific date.
+        
+        Extracts a date from the user's message and responds with the weekday name and a contextual dialog indicating whether the date is in the past or future. If no date can be extracted, speaks an error dialog.
+        """
         now = self.get_datetime()  # session aware
         dt, _ = extract_datetime(message.data.get("date") or message.data["utterance"],
                                  anchorDate=now, lang=self.lang) or (None, None)
@@ -494,6 +502,12 @@ class TimeSkill(OVOSSkill):
 
     @intent_handler("what.month.is.it.intent")
     def handle_current_month(self, message):
+        """
+        Handles queries about the current month and speaks its name.
+        
+        Args:
+            message: The message object containing the user's request.
+        """
         now = self.get_datetime()  # session aware
         self.speak_dialog("month.current",
                           {"month": nice_month(now, lang=self.lang)})
