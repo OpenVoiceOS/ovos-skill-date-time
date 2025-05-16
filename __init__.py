@@ -28,7 +28,6 @@ from ovos_utils.process_utils import RuntimeRequirements
 from ovos_utils.time import now_local, get_next_leap_year
 from ovos_utterance_normalizer import UtteranceNormalizerPlugin
 from ovos_workshop.decorators import intent_handler
-from ovos_workshop.intents import IntentBuilder
 from ovos_workshop.skills import OVOSSkill
 from timezonefinder import TimezoneFinder
 
@@ -319,43 +318,13 @@ class TimeSkill(OVOSSkill):
         # and briefly show the time
         self.show_time(time_string)
 
-    @intent_handler(IntentBuilder("").require("Query").require("Time").
-                    optionally("Location"))
+    @intent_handler("what.time.is.it.intent")
     def handle_query_time(self, message):
         """Handle queries about the current time."""
         utt = message.data.get('utterance', "")
-        location = message.data.get("Location") or self._extract_location(utt)
+        location = message.data.get("location") or self._extract_location(utt)
         # speak it
         self.speak_time("time.current", location=location)
-
-    @intent_handler("what.time.is.it.intent")
-    def handle_current_time_simple(self, message):
-        self.handle_query_time(message)
-
-    @intent_handler("what.day.is.it.intent")
-    def handle_current_day_simple(self, message):
-        now = self.get_datetime()  # session aware
-        self.speak_dialog("day.current",
-                          {"day": nice_day(now, lang=self.lang)})
-
-
-    @intent_handler("what.weekday.is.it.intent")
-    def handle_current_weekday_simple(self, message):
-        now = self.get_datetime()  # session aware
-        self.speak_dialog("weekday.current",
-                          {"weekday": nice_weekday(now, lang=self.lang)})
-
-    @intent_handler("what.month.is.it.intent")
-    def handle_current_month_simple(self, message):
-        now = self.get_datetime()  # session aware
-        self.speak_dialog("month.current",
-                          {"month": nice_month(now, lang=self.lang)})
-
-    @intent_handler("what.year.is.it.intent")
-    def handle_current_year_simple(self, message):
-        now = self.get_datetime()  # session aware
-        self.speak_dialog("year.current",
-                          {"year": nice_year(now, lang=self.lang)})
 
     @intent_handler("what.time.will.it.be.intent")
     def handle_query_future_time(self, message):
@@ -367,25 +336,10 @@ class TimeSkill(OVOSSkill):
             self.handle_query_time(message)
             return
 
-        location = message.data.get("Location") or self._extract_location(utt)
+        location = message.data.get("location") or self._extract_location(utt)
+
         # speak it
         self.speak_time("time.future", location=location)
-
-    @intent_handler(IntentBuilder("").optionally("Query").
-                    require("Time").require("Future").optionally("Location"))
-    def handle_future_time_simple(self, message):
-        self.handle_query_future_time(message)
-
-    @intent_handler(IntentBuilder("").require("Display").require("Time").
-                    optionally("Location"))
-    def handle_show_time(self, message):
-        utt = message.data.get('utterance', "")
-        location = message.data.get("Location") or self._extract_location(utt)
-        time_string = self.get_display_time(location)
-        # show time
-        self.show_time(time_string)
-        # TODO - implement "clock homescreen" in mk1 plugin,
-        #   emit bus message to enable it
 
     ######################################################################
     # Date queries
@@ -400,7 +354,7 @@ class TimeSkill(OVOSSkill):
             dt = now
 
         # handle questions ~ "what is the day in sydney"
-        location_string = message.data.get("Location") or self._extract_location(utt)
+        location_string = message.data.get("location") or self._extract_location(utt)
 
         if location_string:
             dt = self.get_datetime(location_string, anchor_date=dt)
@@ -435,30 +389,38 @@ class TimeSkill(OVOSSkill):
         # and briefly show the date
         self.show_date(dt, location=location_string)
 
-    @intent_handler(IntentBuilder("").require("Query").require("Date").
-                    optionally("Location"))
-    def handle_query_date_simple(self, message):
-        """Handle simple date queries."""
+    @intent_handler("current_date.intent")
+    def handle_current_date(self, message):
+        """Handle current date queries."""
         self.handle_query_date(message, response_type="simple")
 
-    @intent_handler(IntentBuilder("").require("Query").require("Month"))
-    def handle_day_for_date(self, message):
+    @intent_handler("time.until.intent")
+    def handle_time_until(self, message):
         self.handle_query_date(message, response_type="relative")
 
-    @intent_handler(IntentBuilder("").require("Query").require("RelativeDay")
-                    .optionally("Date"))
-    def handle_query_relative_date(self, message):
-        if self.voc_match(message.data.get('utterance', ""), 'Today'):
-            self.handle_query_date(message, response_type="simple")
-        else:
-            self.handle_query_date(message, response_type="relative")
+    @intent_handler("what.day.is.it.intent")
+    def handle_current_day(self, message):
+        now = self.get_datetime()  # session aware
+        self.speak_dialog("day.current",
+                          {"day": nice_day(now, lang=self.lang)})
 
-    @intent_handler(IntentBuilder("").require("RelativeDay").require("Date"))
-    def handle_query_relative_date_alt(self, message):
-        if self.voc_match(message.data.get('utterance', ""), 'Today'):
-            self.handle_query_date(message, response_type="simple")
-        else:
-            self.handle_query_date(message, response_type="relative")
+    @intent_handler("what.weekday.is.it.intent")
+    def handle_current_weekday(self, message):
+        now = self.get_datetime()  # session aware
+        self.speak_dialog("weekday.current",
+                          {"weekday": nice_weekday(now, lang=self.lang)})
+
+    @intent_handler("what.month.is.it.intent")
+    def handle_current_month(self, message):
+        now = self.get_datetime()  # session aware
+        self.speak_dialog("month.current",
+                          {"month": nice_month(now, lang=self.lang)})
+
+    @intent_handler("what.year.is.it.intent")
+    def handle_current_year(self, message):
+        now = self.get_datetime()  # session aware
+        self.speak_dialog("year.current",
+                          {"year": nice_year(now, lang=self.lang)})
 
     @intent_handler("date.future.weekend.intent")
     def handle_date_future_weekend(self, message):
@@ -492,7 +454,7 @@ class TimeSkill(OVOSSkill):
             'sunday_date': sunday_date
         })
 
-    @intent_handler(IntentBuilder("").require("Query").require("LeapYear"))
+    @intent_handler("next.leap.year.intent")
     def handle_query_next_leap_year(self, message):
         now = self.get_datetime()
         leap_date = datetime.datetime(now.year, 2, 28)
