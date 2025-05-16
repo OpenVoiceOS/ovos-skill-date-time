@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.0a1) (2025-05-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.0.0a2...1.1.0a1)
+
+**Merged pull requests:**
+
+- feat: weekday for date intent [\#144](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/144) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [1.0.0a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.0.0a2) (2025-05-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.0.0a1...1.0.0a2)
