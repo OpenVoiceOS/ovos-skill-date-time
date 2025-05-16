@@ -67,7 +67,7 @@
     "(which|what) (date|day) is the (next|upcoming|coming|forthcoming) (Saturday|Sunday|weekend)"
   ],
   "/intents/what.time.is.it.intent": [
-    "[please ](tell|give|share|provide|inform|let me know|can you give|could you give|do you have|do you know|can you tell|may I know|I want to know|I need to know|I need to check|I'd like to know|I would like to know|I'd appreciate it if you could tell|is it possible to get|can you let me know) the [current] (time|hour[s])",
+    "(tell|give|share|provide|inform|let me know|can you give|could you give|do you have|do you know|can you tell|may I know|I want to know|I need to know|I need to check|I'd like to know|I would like to know|I'd appreciate it if you could tell|is it possible to get|can you let me know) the [current] (time|hour[s])",
     "(what's the time|what time is it) (currently|now|at the moment|at the present|)",
     "(time|clock|hours)( right now| now)[ please]",
     "(present|current) (time|hour|hours)",
