@@ -43,5 +43,41 @@
     "{time}",
     "Det er {time}",
     "I øjeblikket {time}"
+  ],
+  "/dialog/day.current.dialog": [
+    "{day}",
+    "Det er {day}",
+    "I dag er {day}",
+    "Nen nuværende dag er {day}",
+    "Det er {day} i dag"
+  ],
+  "/dialog/weekday.current.dialog": [
+    "I dag er det {weekday}",
+    null,
+    "Det er {weekday} i dag",
+    "Det er {weekday}"
+  ],
+  "/dialog/weekday.at.date.future.dialog": [
+    null
+  ],
+  "/dialog/weekday.at.date.past.dialog": [
+    "den {date} var det {weekday}"
+  ],
+  "/dialog/extract.date.error.dialog": [
+    null
+  ],
+  "/dialog/month.current.dialog": [
+    "{month}",
+    "Det er{month}",
+    "Denne måned er {month}",
+    "Den aktuelle måned er {month}",
+    "Det er {month} lige nu"
+  ],
+  "/dialog/year.current.dialog": [
+    "{year}",
+    "Det er {year}",
+    "I år er det {year}",
+    "Nuværende år er {year}",
+    "Vi er i år {year} lige nu"
   ]
 }
