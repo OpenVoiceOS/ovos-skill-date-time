@@ -1,5 +1,5 @@
 {
   "location.rx": [
-    "\\b(à|dans|pour) (?P<Emplacement>.*)"
+    "\\b(à|dans|pour) (?P<Location>.*)"
   ]
 }
