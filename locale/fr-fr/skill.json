@@ -1,0 +1,22 @@
+{
+  "skill_id": "ovos-skill-date-time.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-date-time",
+  "name": "Date et heure",
+  "description": "Obtenez l'heure, la date et le jour de la semaine",
+  "examples": [
+    "Quelle heure est-il?",
+    "Dis-moi le jour de la semaine",
+    "Combien de jours avant le 14 juillet",
+    "Quelle est la date ?",
+    "Montre-moi l'heure",
+    "Quel jour est la Toussaint 2025 ?",
+    "Quelle heure est-il à Paris ?"
+  ],
+  "tags": [
+    "horloge",
+    "date",
+    "heure",
+    "requête",
+    "information"
+  ]
+}
