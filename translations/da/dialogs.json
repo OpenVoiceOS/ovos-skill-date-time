@@ -53,18 +53,18 @@
   ],
   "/dialog/weekday.current.dialog": [
     "I dag er det {weekday}",
-    null,
+    "Den nuværende hverdag er {weekday}",
     "Det er {weekday} i dag",
     "Det er {weekday}"
   ],
   "/dialog/weekday.at.date.future.dialog": [
-    null
+    "den {date} vil det være {weekday}"
   ],
   "/dialog/weekday.at.date.past.dialog": [
     "den {date} var det {weekday}"
   ],
   "/dialog/extract.date.error.dialog": [
-    null
+    "Jeg forstod ikke hvilken dato du spurgte om"
   ],
   "/dialog/month.current.dialog": [
     "{month}",
