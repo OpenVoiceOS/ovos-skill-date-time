@@ -28,20 +28,23 @@ from ovos_utils.process_utils import RuntimeRequirements
 from ovos_utils.time import now_local, get_next_leap_year
 from ovos_utterance_normalizer import UtteranceNormalizerPlugin
 from ovos_workshop.decorators import intent_handler
-from ovos_workshop.intents import IntentBuilder
 from ovos_workshop.skills import OVOSSkill
 from timezonefinder import TimezoneFinder
 
 
 def speakable_timezone(tz):
-    """Convert timezone to a better speakable version
+    """Convert a timezone string to a more speakable form.
 
-    Splits joined words, e.g. EasterIsland to "Easter Island",
-    "North_Dakota" to "North Dakota" etc.
-    Then parses the output into the correct order for speech,
-    e.g. "America/North Dakota/Center" to
-    resulting in something like "Center North Dakota America", or
-    "Easter Island Chile"
+    This function reformats a timezone string by:
+      - Inserting spaces between camel case words (e.g., 'EasterIsland' → 'Easter Island')
+      - Replacing underscores with spaces
+      - Reversing the components of a timezone path (e.g., 'America/North_Dakota/Center' → 'Center North Dakota America')
+
+    Args:
+        tz (str): A timezone string in pytz format.
+
+    Returns:
+        str: A more natural, speakable form of the timezone.
     """
     say = re.sub(r"([a-z])([A-Z])", r"\g<1> \g<2>", tz)
     say = say.replace("_", " ")
@@ -127,14 +130,24 @@ class TimeSkill(OVOSSkill):
 
     @property
     def use_24hour(self):
-        """Check if the time format is in 24-hour mode.
-        self.time_format is Session aware"""
+        """Determine if 24-hour time format is used.
+
+        Returns:
+            bool: True if using 24-hour format, False otherwise.
+        """
         return self.time_format == 'full'
 
     ######################################################################
     # parsing
     def _extract_location(self, utt: str) -> str:
-        """Extract location from utterance."""
+        """Extract a location name from a spoken utterance using regex patterns.
+
+        Args:
+            utt (str): The user utterance.
+
+        Returns:
+            str: Extracted location if matched, otherwise None.
+        """
         rx_file = self.find_resource('location.rx', 'regex')
         if rx_file:
             with open(rx_file) as f:
@@ -152,7 +165,14 @@ class TimeSkill(OVOSSkill):
 
     @staticmethod
     def _get_timezone_from_builtins(location_string: str) -> Optional[datetime.tzinfo]:
-        """Get timezone from built-in resources."""
+        """Attempt to resolve a timezone from a location name using geocoding.
+
+        Args:
+            location_string (str): The location name or timezone string.
+
+        Returns:
+            Optional[datetime.tzinfo]: The corresponding timezone, or None if not found.
+        """
         if "/" not in location_string:
             try:
                 # This handles common city names, like "Dallas" or "Paris"
@@ -174,10 +194,13 @@ class TimeSkill(OVOSSkill):
         return None
 
     def _get_timezone_from_table(self, location_string: str) -> Optional[datetime.tzinfo]:
-        """Check lookup table for timezones.
+        """Resolve timezone using a manually defined lookup table.
 
-        This can also be a translation layer.
-        E.g. "china = GMT+8"
+        Args:
+            location_string (str): The location string to resolve.
+
+        Returns:
+            Optional[datetime.tzinfo]: The corresponding timezone, or None if not found.
         """
         timezones = self.resources.load_named_value_file("timezone.value", ',')
         for timezone in timezones:
@@ -228,10 +251,16 @@ class TimeSkill(OVOSSkill):
             return None
 
     def get_timezone_in_location(self, location_string: str) -> datetime.tzinfo:
-        """Get the timezone.
+        """Get the timezone for a given location using multiple fallback strategies.
 
-        This uses a variety of approaches to determine the intended timezone.
-        If locale is the user defined locale, we save that timezone and cache it.
+        This method attempts to resolve a timezone by checking built-in resources,
+        a custom lookup table, and finally fuzzy matching.
+
+        Args:
+            location_string (str): A string representing a location (e.g., city or region).
+
+        Returns:
+            datetime.tzinfo: The timezone object if resolved, else None.
         """
         timezone = self._get_timezone_from_builtins(location_string)
         if not timezone:
@@ -244,7 +273,15 @@ class TimeSkill(OVOSSkill):
     # utils
     def get_datetime(self, location: str = None,
                      anchor_date: datetime.datetime = None) -> Optional[datetime.datetime]:
-        """return anchor_date/now_local at location/session_tz"""
+        """Return the localized datetime for a given location or current session.
+
+        Args:
+            location (str, optional): A location name for timezone conversion.
+            anchor_date (datetime.datetime, optional): A reference date. Defaults to now.
+
+        Returns:
+            Optional[datetime.datetime]: The localized datetime, or None if timezone cannot be resolved.
+        """
         if location:
             tz = self.get_timezone_in_location(location)
             if not tz:
@@ -260,7 +297,16 @@ class TimeSkill(OVOSSkill):
 
     def get_spoken_time(self, location: str = None, force_ampm=False,
                         anchor_date: datetime.datetime = None) -> str:
-        """Get formatted spoken time based on user preferences."""
+        """Get a human-readable spoken version of the current time.
+
+        Args:
+            location (str, optional): Location for timezone conversion.
+            force_ampm (bool, optional): Whether to force AM/PM mode even if using 24-hour format.
+            anchor_date (datetime.datetime, optional): Specific time to use instead of now.
+
+        Returns:
+            str: A spoken-friendly representation of the time.
+        """
         dt = self.get_datetime(location, anchor_date)
 
         # speak AM/PM when talking about somewhere else
@@ -275,7 +321,16 @@ class TimeSkill(OVOSSkill):
 
     def get_display_time(self, location: str = None, force_ampm=False,
                          anchor_date: datetime.datetime = None) -> str:
-        """Get formatted display time based on user preferences."""
+        """Get a display-friendly version of the current time.
+
+        Args:
+            location (str, optional): Location for timezone conversion.
+            force_ampm (bool, optional): Whether to display time in AM/PM format.
+            anchor_date (datetime.datetime, optional): Specific time to use instead of now.
+
+        Returns:
+            str: A string representing the display time.
+        """
         dt = self.get_datetime(location, anchor_date)
         # speak AM/PM when talking about somewhere else
         say_am_pm = bool(location) or force_ampm
@@ -286,7 +341,15 @@ class TimeSkill(OVOSSkill):
 
     def get_display_date(self, location: str = None,
                          anchor_date: datetime.datetime = None) -> str:
-        """Get formatted display date based on user preferences."""
+        """Get a localized and display-friendly version of the current date.
+
+        Args:
+            location (str, optional): Location name for timezone context.
+            anchor_date (datetime.datetime, optional): Date to display instead of now.
+
+        Returns:
+            str: A string representing the formatted date.
+        """
         dt = self.get_datetime(location, anchor_date)
         fmt = self.date_format  # Session aware
         if fmt == 'MDY':
@@ -319,43 +382,13 @@ class TimeSkill(OVOSSkill):
         # and briefly show the time
         self.show_time(time_string)
 
-    @intent_handler(IntentBuilder("").require("Query").require("Time").
-                    optionally("Location"))
+    @intent_handler("what.time.is.it.intent")
     def handle_query_time(self, message):
         """Handle queries about the current time."""
         utt = message.data.get('utterance', "")
-        location = message.data.get("Location") or self._extract_location(utt)
+        location = message.data.get("location") or self._extract_location(utt)
         # speak it
         self.speak_time("time.current", location=location)
-
-    @intent_handler("what.time.is.it.intent")
-    def handle_current_time_simple(self, message):
-        self.handle_query_time(message)
-
-    @intent_handler("what.day.is.it.intent")
-    def handle_current_day_simple(self, message):
-        now = self.get_datetime()  # session aware
-        self.speak_dialog("day.current",
-                          {"day": nice_day(now, lang=self.lang)})
-
-
-    @intent_handler("what.weekday.is.it.intent")
-    def handle_current_weekday_simple(self, message):
-        now = self.get_datetime()  # session aware
-        self.speak_dialog("weekday.current",
-                          {"weekday": nice_weekday(now, lang=self.lang)})
-
-    @intent_handler("what.month.is.it.intent")
-    def handle_current_month_simple(self, message):
-        now = self.get_datetime()  # session aware
-        self.speak_dialog("month.current",
-                          {"month": nice_month(now, lang=self.lang)})
-
-    @intent_handler("what.year.is.it.intent")
-    def handle_current_year_simple(self, message):
-        now = self.get_datetime()  # session aware
-        self.speak_dialog("year.current",
-                          {"year": nice_year(now, lang=self.lang)})
 
     @intent_handler("what.time.will.it.be.intent")
     def handle_query_future_time(self, message):
@@ -367,25 +400,10 @@ class TimeSkill(OVOSSkill):
             self.handle_query_time(message)
             return
 
-        location = message.data.get("Location") or self._extract_location(utt)
+        location = message.data.get("location") or self._extract_location(utt)
+
         # speak it
         self.speak_time("time.future", location=location)
-
-    @intent_handler(IntentBuilder("").optionally("Query").
-                    require("Time").require("Future").optionally("Location"))
-    def handle_future_time_simple(self, message):
-        self.handle_query_future_time(message)
-
-    @intent_handler(IntentBuilder("").require("Display").require("Time").
-                    optionally("Location"))
-    def handle_show_time(self, message):
-        utt = message.data.get('utterance', "")
-        location = message.data.get("Location") or self._extract_location(utt)
-        time_string = self.get_display_time(location)
-        # show time
-        self.show_time(time_string)
-        # TODO - implement "clock homescreen" in mk1 plugin,
-        #   emit bus message to enable it
 
     ######################################################################
     # Date queries
@@ -400,7 +418,7 @@ class TimeSkill(OVOSSkill):
             dt = now
 
         # handle questions ~ "what is the day in sydney"
-        location_string = message.data.get("Location") or self._extract_location(utt)
+        location_string = message.data.get("location") or self._extract_location(utt)
 
         if location_string:
             dt = self.get_datetime(location_string, anchor_date=dt)
@@ -435,30 +453,70 @@ class TimeSkill(OVOSSkill):
         # and briefly show the date
         self.show_date(dt, location=location_string)
 
-    @intent_handler(IntentBuilder("").require("Query").require("Date").
-                    optionally("Location"))
-    def handle_query_date_simple(self, message):
-        """Handle simple date queries."""
+    @intent_handler("current_date.intent")
+    def handle_current_date(self, message):
+        """Handle current date queries."""
         self.handle_query_date(message, response_type="simple")
 
-    @intent_handler(IntentBuilder("").require("Query").require("Month"))
-    def handle_day_for_date(self, message):
+    @intent_handler("time.until.intent")
+    def handle_time_until(self, message):
         self.handle_query_date(message, response_type="relative")
 
-    @intent_handler(IntentBuilder("").require("Query").require("RelativeDay")
-                    .optionally("Date"))
-    def handle_query_relative_date(self, message):
-        if self.voc_match(message.data.get('utterance', ""), 'Today'):
-            self.handle_query_date(message, response_type="simple")
-        else:
-            self.handle_query_date(message, response_type="relative")
+    @intent_handler("what.day.is.it.intent")
+    def handle_current_day(self, message):
+        now = self.get_datetime()  # session aware
+        self.speak_dialog("day.current",
+                          {"day": nice_day(now, lang=self.lang)})
 
-    @intent_handler(IntentBuilder("").require("RelativeDay").require("Date"))
-    def handle_query_relative_date_alt(self, message):
-        if self.voc_match(message.data.get('utterance', ""), 'Today'):
-            self.handle_query_date(message, response_type="simple")
+    @intent_handler("what.weekday.is.it.intent")
+    def handle_current_weekday(self, message):
+        """
+        Handles queries about the current weekday and speaks the name of today's weekday.
+        """
+        now = self.get_datetime()  # session aware
+        self.speak_dialog("weekday.current",
+                          {"weekday": nice_weekday(now, lang=self.lang)})
+
+    @intent_handler("weekday.for.date.intent")
+    def handle_weekday(self, message):
+        """
+        Handles queries about the weekday for a specific date.
+        
+        Extracts a date from the user's message and responds with the weekday name and a contextual dialog indicating whether the date is in the past or future. If no date can be extracted, speaks an error dialog.
+        """
+        now = self.get_datetime()  # session aware
+        dt, _ = extract_datetime(message.data.get("date") or message.data["utterance"],
+                                 anchorDate=now, lang=self.lang) or (None, None)
+        if not dt:
+            self.speak_dialog("extract.date.error")
         else:
-            self.handle_query_date(message, response_type="relative")
+            if dt >= now:
+                dialog = "weekday.at.date.future"
+            else:
+                dialog = "weekday.at.date.past"
+            # TODO - "today" should never trigger this intent, but if it does,
+            #  should we handle it better? nice_date will return "today" in that case
+            self.speak_dialog(dialog, {
+                "date": nice_date(dt, lang=self.lang, now=now),
+                "weekday": nice_weekday(dt, lang=self.lang)})
+
+    @intent_handler("what.month.is.it.intent")
+    def handle_current_month(self, message):
+        """
+        Handles queries about the current month and speaks its name.
+        
+        Args:
+            message: The message object containing the user's request.
+        """
+        now = self.get_datetime()  # session aware
+        self.speak_dialog("month.current",
+                          {"month": nice_month(now, lang=self.lang)})
+
+    @intent_handler("what.year.is.it.intent")
+    def handle_current_year(self, message):
+        now = self.get_datetime()  # session aware
+        self.speak_dialog("year.current",
+                          {"year": nice_year(now, lang=self.lang)})
 
     @intent_handler("date.future.weekend.intent")
     def handle_date_future_weekend(self, message):
@@ -492,7 +550,7 @@ class TimeSkill(OVOSSkill):
             'sunday_date': sunday_date
         })
 
-    @intent_handler(IntentBuilder("").require("Query").require("LeapYear"))
+    @intent_handler("next.leap.year.intent")
     def handle_query_next_leap_year(self, message):
         now = self.get_datetime()
         leap_date = datetime.datetime(now.year, 2, 28)

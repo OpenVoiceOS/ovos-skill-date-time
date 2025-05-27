@@ -1,4 +1,4 @@
 C'est le {date}, dans {num_days} jours
-Nous sommes en {date}, le {num_days}
+Le {date} sera dans {num_days} à partir de maintenant
+On sera le {date}, dans {num_days}
 {date}, le {num_days}
-{date},{num_days} à partir de maintenant

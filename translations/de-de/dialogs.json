@@ -52,11 +52,19 @@
     "Heute ist der {day}"
   ],
   "/dialog/weekday.current.dialog": [
-    "{weekday}",
-    "Es ist {weekday}",
     "Heute ist {weekday}",
     "Der aktuelle Wochentag ist {weekday}",
-    "Heute ist {weekday}"
+    "Heute ist {weekday}",
+    "es ist {weekday}"
+  ],
+  "/dialog/weekday.at.date.future.dialog": [
+    "am {date} ist es {weekday}"
+  ],
+  "/dialog/weekday.at.date.past.dialog": [
+    "am {date} war es {weekday}"
+  ],
+  "/dialog/extract.date.error.dialog": [
+    "Ich konnte nicht verstehen, nach welchem Datum du gefragt hast"
   ],
   "/dialog/month.current.dialog": [
     "{month}",
