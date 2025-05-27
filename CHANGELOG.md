@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.1a1) (2025-05-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.0a7...1.1.1a1)
+
+**Merged pull requests:**
+
+- fix: add training data for entity extractors [\#159](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/159) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [1.1.0a7](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.0a7) (2025-05-21)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.0a6...1.1.0a7)
