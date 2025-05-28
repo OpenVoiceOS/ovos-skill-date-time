@@ -468,6 +468,8 @@ class TimeSkill(OVOSSkill):
         self.speak_dialog("day.current",
                           {"day": nice_day(now, lang=self.lang)})
 
+    # TODO - merge with weekday.for.date.intent
+    #  use voc_match or something to disambiguate
     @intent_handler("what.weekday.is.it.intent")
     def handle_current_weekday(self, message):
         """
@@ -533,6 +535,8 @@ class TimeSkill(OVOSSkill):
             'sunday_date': sunday_date
         })
 
+    # TODO - merge date.last.weekend.intent and date.future.weekend.intent handlers
+    #  use voc_match or something to disambiguate
     @intent_handler("date.last.weekend.intent")
     def handle_date_last_weekend(self, message):
         # Strip year off nice_date as request is inherently close
@@ -553,7 +557,7 @@ class TimeSkill(OVOSSkill):
     @intent_handler("next.leap.year.intent")
     def handle_query_next_leap_year(self, message):
         now = self.get_datetime()
-        leap_date = datetime.datetime(now.year, 2, 28)
+        leap_date = now_local().replace(month=2, day=28)
         year = now.year if now <= leap_date else now.year + 1
         next_leap_year = get_next_leap_year(year)
         self.speak_dialog('next.leap.year', {'year': next_leap_year})
