@@ -464,6 +464,12 @@ class TimeSkill(OVOSSkill):
 
     @intent_handler("what.day.is.it.intent")
     def handle_current_day(self, message):
+        """
+        Speaks the current day name using a localized dialog.
+        
+        Args:
+            message: The message object triggering the intent.
+        """
         now = self.get_datetime()  # session aware
         self.speak_dialog("day.current",
                           {"day": nice_day(now, lang=self.lang)})
@@ -474,6 +480,8 @@ class TimeSkill(OVOSSkill):
     def handle_current_weekday(self, message):
         """
         Handles queries about the current weekday and speaks the name of today's weekday.
+        
+        Responds to user requests for the current weekday by retrieving the localized current date and speaking the corresponding weekday name.
         """
         now = self.get_datetime()  # session aware
         self.speak_dialog("weekday.current",
@@ -525,6 +533,11 @@ class TimeSkill(OVOSSkill):
         # Strip year off nice_date as request is inherently close
         # Don't pass `now` to `nice_date` as a
         # request on Friday will return "tomorrow"
+        """
+        Handles queries about the upcoming weekend's dates.
+        
+        Determines the dates for the next Saturday and Sunday, formats them for speech, and responds with a dialog containing both dates.
+        """
         now = self.get_datetime()
         dt = extract_datetime('this saturday', anchorDate=now, lang='en-us')[0]
         saturday_date = ', '.join(nice_date(dt, lang=self.lang).split(', ')[:2])
@@ -542,6 +555,11 @@ class TimeSkill(OVOSSkill):
         # Strip year off nice_date as request is inherently close
         # Don't pass `now` to `nice_date` as a
         # request on Monday will return "yesterday"
+        """
+        Handles the intent to provide the dates of the previous weekend.
+        
+        Speaks a dialog with the formatted dates for last Saturday and Sunday.
+        """
         now = self.get_datetime()
         dt = extract_datetime('last saturday',
                               anchorDate=now, lang='en-us')[0]
@@ -556,6 +574,11 @@ class TimeSkill(OVOSSkill):
 
     @intent_handler("next.leap.year.intent")
     def handle_query_next_leap_year(self, message):
+        """
+        Handles the intent to provide the year of the next leap year.
+        
+        Determines the next leap year based on the current date and speaks the result to the user.
+        """
         now = self.get_datetime()
         leap_date = now_local().replace(month=2, day=28)
         year = now.year if now <= leap_date else now.year + 1
