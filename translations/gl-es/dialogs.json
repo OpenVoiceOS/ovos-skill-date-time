@@ -52,11 +52,19 @@
     "É {day} hoxe"
   ],
   "/dialog/weekday.current.dialog": [
-    "{weekday}",
-    "É {weekday}",
     "Hoxe é {weekday}",
-    "O día da semana actual é {weekday}",
-    "É {weekday} hoxe"
+    "O día da semana de hoxe é {weekday}",
+    "Hoxe é {weekday}",
+    "É {weekday}"
+  ],
+  "/dialog/weekday.at.date.future.dialog": [
+    "o {date} vai ser {weekday}"
+  ],
+  "/dialog/weekday.at.date.past.dialog": [
+    "o {date} foi {weekday}"
+  ],
+  "/dialog/extract.date.error.dialog": [
+    "Non entendín a data pola que preguntas"
   ],
   "/dialog/month.current.dialog": [
     "{month}",
