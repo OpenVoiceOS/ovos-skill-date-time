@@ -1,24 +1,12 @@
 # Changelog
 
-## [1.1.2a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.2a2) (2025-06-02)
+## [1.1.3a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.3a1) (2025-06-08)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.2a1...1.1.2a2)
-
-**Merged pull requests:**
-
-- gl/translate [\#165](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/165) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
-## [1.1.2a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.2a1) (2025-05-28)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.1...1.1.2a1)
-
-**Closed issues:**
-
-- leap.year.intent results in an error [\#161](https://github.com/OpenVoiceOS/ovos-skill-date-time/issues/161)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.2...1.1.3a1)
 
 **Merged pull requests:**
 
-- fix: leap.year.intent [\#162](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/162) ([JarbasAl](https://github.com/JarbasAl))
+- fix: workshop 7.X.X [\#167](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/167) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
