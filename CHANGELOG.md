@@ -1,12 +1,12 @@
 # Changelog
 
-## [1.1.3a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.3a1) (2025-06-08)
+## [1.1.4a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.4a1) (2025-06-13)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.2...1.1.3a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.3...1.1.4a1)
 
 **Merged pull requests:**
 
-- fix: workshop 7.X.X [\#167](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/167) ([JarbasAl](https://github.com/JarbasAl))
+- Update requirements.txt [\#169](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/169) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
