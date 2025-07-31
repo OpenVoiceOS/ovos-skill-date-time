@@ -2,20 +2,20 @@
   "/intents/next.leap.year.intent": [
     "(qual é|quando é) o próximo ano bissexto",
     "em qual (ano|data) é o próximo ano bissexto",
-    null,
-    null,
-    null,
+    "quando acontecerá o próximo ano bissexto",
+    "[você pode] me dizer quando será o próximo ano bissexto",
+    "quando começa o próximo ano bissexto",
     "qual é o próximo ano com (29 de fevereiro|366 dias|um dia extra [em fevereiro])",
-    null,
+    "quando teremos (um) ano bissexto novamente",
     "quando (29 de fevereiro) acontecerá (de novo|próximo)",
     "(qual|quando) é o próximo ano que terá (29 de fevereiro|366 dias|um dia extra [em fevereiro])",
-    null,
-    null,
+    "(ano que vem|este ano) é um ano bissexto",
+    "este ano é um ano bissexto ou (próximo|o próximo)",
     "(qual) ano é o próximo ano bissexto"
   ],
   "/intents/time.until.intent": [
     "quanto tempo (ainda falta|temos) (antes|até) {data}",
-    null,
+    "quão longe (distante|fora) está {data} [de (hoje|agora)]",
     "quantas (semanas|dias|horas) (restam|restam) (antes|até) {date}",
     "quando [exatamente] (será|é) {date}",
     "(quanto tempo resta) (antes de) {date}",
@@ -43,7 +43,7 @@
     "[você pode] me dar (o|a) (dia e mês|data completa|data completa com ano|dia, mês e ano)",
     "diga-me (o|a) (dia e mês|data completa|data completa com ano|dia, mês e ano)",
     "que (dia e mês|data completa|data completa com ano|dia, mês e ano) é (hoje|em {location}|)",
-    null,
+    "qual é a data completa de hoje incluindo o ano",
     "(qual|diga-me|dê-me) (a) data (de hoje) (completa)",
     "em que data incluindo (mês|mês e ano|ano) é (hoje|em {location}|)"
   ],
@@ -51,7 +51,7 @@
     "(qual) dia[ do (mês|calendário)] é (hoje)",
     "que dia é[do (mês|calendário)] (hoje|em {location})",
     "que dia[ do (mês|calendário)] é (hoje|em {location})",
-    null,
+    "você pode me dizer o dia[do (mês|calendário)]",
     "que dia[do (mês|calendário)] é (hoje|em {location})",
     "diga-me o dia [do (mês|calendário)] [em {location}]"
   ],
@@ -73,25 +73,25 @@
     "(é|hoje é) (segunda-feira|terça-feira|quarta-feira|quinta-feira|sexta-feira|sábado|domingo)"
   ],
   "/intents/what.month.is.it.intent": [
-    null,
+    "(qual|qual) mês é (hoje|este)",
     "(você sabe|me diga|) o mês (presente|atual|)",
     "(você sabe|me diga|) (que|qual) o mês (é|em que estamos)",
-    null,
+    "qual é o mês (agora|hoje|)",
     "(pode|você pode) (dizer|dizer) (em que|em qual) mês (estamos)",
     "(poderia|pode) (me dizer|confirmar) em que mês (estamos)?",
-    null,
+    "estamos (em|já em|atualmente em) (janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)?",
     "nós (entramos|chegamos em) (janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)?",
     "(este mês|atualmente) é (janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)?",
-    null,
+    "você sabe o mês atual",
     "qual é o nome (deste|do) mês (atual|presente)",
     "(você sabe|me diga|) em que mês estamos"
   ],
   "/intents/what.year.is.it.intent": [
-    null,
-    null,
-    null,
-    null,
-    null
+    "(qual|qual) ano é (hoje|agora)",
+    "(em que) ano estamos",
+    "[diga-me o] ano (presente|atual)",
+    "qual é o ano (presente|atual|) [hoje]",
+    "diga-me o ano (presente|atual|)"
   ],
   "/intents/what.time.will.it.be.intent": [
     "(que horas|quando) (serão|será|é [em {location}] depois de {offset} (segundos|minutos|horas) [a partir de agora] ",
@@ -106,7 +106,7 @@
     "quando foi o (último) (sábado|domingo|fim de semana) (passado|anterior)",
     "quais dias compunham o (último) (sábado|domingo|fim de semana) (passado|anterior)",
     "[você pode] me dizer quando foi o (último) (sábado|domingo|fim de semana) (passado|anterior)",
-    null,
+    "quais foram as datas exatas do último sábado, domingo e fim de semana?",
     "quando foi o (último) (sábado|domingo|fim de semana) (passado|anterior)",
     "[você se lembra da] data do (último) (sábado|domingo|fim de semana) (passado|anterior)",
     "(qual|que) (data|dia) foi o (último) (sábado|domingo|fim de semana) (passado|anterior) "
@@ -115,13 +115,13 @@
     "quais são as (datas|dias) [para] os (próximos) (sábados|domingos|fins de semana)",
     "quais são as (datas|dias) [para] os (sábados|domingos|fins de semana) que (vêm|seguem|estão chegando)",
     "(quais são os dias|qual é a data) do (próximo|próximo|próximo|próximo) (sábado|domingo|fim de semana)",
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    "quando é o (próximo|próximo|próximo|próximo) (sábado|domingo|fim de semana)",
+    "quais dias compõem o (próximo|próximo|próximo|próximo) (sábado|domingo|fim de semana)",
+    "[você pode] me dizer quando é o (próximo|próximo|próximo|próximo) (sábado|domingo|fim de semana)",
+    "quais são as datas exatas do próximo sábado, domingo e fim de semana?",
+    "quando é o (próximo|próximo|próximo|próximo) (sábado|domingo|fim de semana)",
+    "[você se lembra da] data do (próximo|próximo|próximo|próximo) (sábado|domingo|fim de semana)",
+    "(qual|o que) (data|dia) é o (próximo|próximo|próximo|próximo) (sábado|domingo|fim de semana)"
   ],
   "/intents/what.time.is.it.intent": [
     "(diga|dê|compartilhe|forneça|informe|deixe-me saber|pode dar|poderia dar|você tem|você sabe|você pode me dizer|posso saber|eu quero saber|eu preciso saber|eu preciso verificar|eu gostaria de saber|gostaria de saber|eu gostaria de saber|eu agradeceria se você pudesse me dizer|é possível obter|você pode me dizer) a [hora atual] [em {location}]",
