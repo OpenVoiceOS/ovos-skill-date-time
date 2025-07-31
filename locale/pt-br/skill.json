@@ -1,0 +1,22 @@
+{
+  "skill_id": "ovos-skill-date-time.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-date-time",
+  "name": "Data e hora",
+  "description": "Obtenha a hora, a data e o dia da semana",
+  "examples": [
+    "Que horas são?",
+    "Diga-me o dia da semana",
+    "Quantos dias faltam para 4 de julho",
+    "Qual é a data?",
+    "Mostre-me as horas",
+    "Que dia é o Memorial Day de 2020?",
+    "Que horas são em Paris?"
+  ],
+  "tags": [
+    "relógio",
+    "data",
+    "tempo",
+    "pesquisa",
+    "Informação"
+  ]
+}
