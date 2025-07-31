@@ -1,21 +1,135 @@
 {
-    "/intents/what.time.will.it.be.intent": [
-        "que horas ser\u00e3o em {offset} (horas|minutos|segundos) (a partir de agora|)",
-        "que horas s\u00e3o em {offset} (horas|minutos|segundos) (a partir de agora|) (em|no|na) {location}"
-    ],
-    "/intents/date.last.weekend.intent": [
-        "(qual|quais) (foi a data|foram as datas) do \u00faltimo final de semana",
-        "(qual|quais) (dia foi|foram os dias (para|)|dias foram) do \u00faltimo final de semana",
-        "(quais|qual) (foi a data|foram as datas(para|)|foram as datas) do \u00faltimo final de semana"
-    ],
-    "/intents/date.future.weekend.intent": [
-        "(qual|quais) ((s\u00e3o os|) dias (para|)| dia \u00e9) (este|pr\u00f3ximo) final de semana",
-        "(qual|quais) (\u00e9 a data|s\u00e3o as datas) (deste|do pr\u00f3ximo) final de semana",
-        "(qual|quais) (\u00e9 a data|s\u00e3o as datas) (para|) (este|o pr\u00f3ximo) final de semana"
-    ],
-    "/intents/what.time.is.it.intent": [
-        "(o|a) (hora|hor\u00e1rio) ((j\u00e1 |)agora |)(por favor|)",
-        "voc\u00ea tem a hora (atual)",
-        "hora atual"
-    ]
+  "/intents/next.leap.year.intent": [
+    "(qual é|quando é) o próximo ano bissexto",
+    "em qual (ano|data) é o próximo ano bissexto",
+    null,
+    null,
+    null,
+    "qual é o próximo ano com (29 de fevereiro|366 dias|um dia extra [em fevereiro])",
+    null,
+    "quando (29 de fevereiro) acontecerá (de novo|próximo)",
+    "(qual|quando) é o próximo ano que terá (29 de fevereiro|366 dias|um dia extra [em fevereiro])",
+    null,
+    null,
+    "(qual) ano é o próximo ano bissexto"
+  ],
+  "/intents/time.until.intent": [
+    "quanto tempo (ainda falta|temos) (antes|até) {data}",
+    null,
+    "quantas (semanas|dias|horas) (restam|restam) (antes|até) {date}",
+    "quando [exatamente] (será|é) {date}",
+    "(quanto tempo resta) (antes de) {date}",
+    "quando (é|foi) {date}",
+    "quando (é|foi) a (próxima|última|anterior) {date}",
+    "há quanto tempo foi {date}",
+    "quanto tempo vai demorar para {date}",
+    "há quantos dias foi {date}",
+    "quantos dias a partir de agora é {date}"
+  ],
+  "/intents/current_date.intent": [
+    "que data é [em {location}]",
+    "qual é a data (atual|presente) [em {location}]",
+    "(diga-me|qual é) a data de hoje [em {location}]",
+    "(diga-me|dê-me|mostre-me) a (data|data do calendário) [em {location}]",
+    "[você pode] me dizer a data (atual|presente) [em {location}]",
+    "você sabe que data é [em {location}]",
+    "Quero saber a data [em {location}]",
+    "qual é a data completa (hoje|em {location}|)",
+    "qual é a data completa (atual|presente|hoje) [em {location}]",
+    "data (do calendário|exata) hoje [em {location}] [por favor]",
+    "Preciso saber a (data|data do calendário) (hoje|em {location}|)",
+    "me dê a data (completa) de hoje [em {location}]",
+    "qual é (o|a) (dia e mês|data completa|data completa com ano|dia, mês e ano)",
+    "[você pode] me dar (o|a) (dia e mês|data completa|data completa com ano|dia, mês e ano)",
+    "diga-me (o|a) (dia e mês|data completa|data completa com ano|dia, mês e ano)",
+    "que (dia e mês|data completa|data completa com ano|dia, mês e ano) é (hoje|em {location}|)",
+    null,
+    "(qual|diga-me|dê-me) (a) data (de hoje) (completa)",
+    "em que data incluindo (mês|mês e ano|ano) é (hoje|em {location}|)"
+  ],
+  "/intents/what.day.is.it.intent": [
+    "(qual) dia[ do (mês|calendário)] é (hoje)",
+    "que dia é[do (mês|calendário)] (hoje|em {location})",
+    "que dia[ do (mês|calendário)] é (hoje|em {location})",
+    null,
+    "que dia[do (mês|calendário)] é (hoje|em {location})",
+    "diga-me o dia [do (mês|calendário)] [em {location}]"
+  ],
+  "/intents/weekday.for.date.intent": [
+    "(qual|que) (dia da semana) (era|é) {date}",
+    "(você sabe|pode me dizer) o (dia da semana) para {date}",
+    "qual é o (dia da semana) para {date}",
+    "(era|é) {date} [em] uma (segunda-feira|terça-feira|quarta-feira|quinta-feira|sexta-feira|sábado|domingo)",
+    "[em] (qual|qual) (dia|dia da semana) {date} cai",
+    "[em] (que|qual) (dia|dia da semana) (foi|será) o {date}",
+    "[em] (que|qual) (dia|dia da semana) (era|é) {data}",
+    "pode me dizer qual (dia|dia da semana) (era|é) o {date}",
+    "[(Eu gostaria de saber|você sabe)] (qual|que) (dia|dia da semana) (era|é) {date}"
+  ],
+  "/intents/what.weekday.is.it.intent": [
+    "(qual|qual) (dia da semana) é (hoje)",
+    "(você sabe|[você pode] me dizer) o (dia da semana)",
+    "qual é (o) (dia da semana|dia da semana) hoje",
+    "(é|hoje é) (segunda-feira|terça-feira|quarta-feira|quinta-feira|sexta-feira|sábado|domingo)"
+  ],
+  "/intents/what.month.is.it.intent": [
+    null,
+    "(você sabe|me diga|) o mês (presente|atual|)",
+    "(você sabe|me diga|) (que|qual) o mês (é|em que estamos)",
+    null,
+    "(pode|você pode) (dizer|dizer) (em que|em qual) mês (estamos)",
+    "(poderia|pode) (me dizer|confirmar) em que mês (estamos)?",
+    null,
+    "nós (entramos|chegamos em) (janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)?",
+    "(este mês|atualmente) é (janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)?",
+    null,
+    "qual é o nome (deste|do) mês (atual|presente)",
+    "(você sabe|me diga|) em que mês estamos"
+  ],
+  "/intents/what.year.is.it.intent": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "/intents/what.time.will.it.be.intent": [
+    "(que horas|quando) (serão|será|é [em {location}] depois de {offset} (segundos|minutos|horas) [a partir de agora] ",
+    "(que horas serão|o que o relógio mostrará) [em {location}] (em|se eu esperar| depois de) {offset} (segundo[s]|minuto[s]|hora[s])",
+    "(que horas|quando) (serão|será) [em {location}] se (eu esperar|eu gastar) {offset} (segundo[s]|minuto[s]|hora[s])",
+    "que horas serão (em|se eu esperar|depois de) {offset} (segundo[s]|minuto[s]|hora[s]) [em {location}]",
+    "em {offset} (segundo[s]|minuto[s]|hora[s]) [a partir de agora] que horas serão [em {location}]"
+  ],
+  "/intents/date.last.weekend.intent": [
+    "quais foram as (datas|dias) [para] os (últimos) (sábados|domingos|fins de semana) (passados|anteriores)",
+    "quais foram (dias|data) (último) (sábado|domingo|fim de semana) (passado|anterior)",
+    "quando foi o (último) (sábado|domingo|fim de semana) (passado|anterior)",
+    "quais dias compunham o (último) (sábado|domingo|fim de semana) (passado|anterior)",
+    "[você pode] me dizer quando foi o (último) (sábado|domingo|fim de semana) (passado|anterior)",
+    null,
+    "quando foi o (último) (sábado|domingo|fim de semana) (passado|anterior)",
+    "[você se lembra da] data do (último) (sábado|domingo|fim de semana) (passado|anterior)",
+    "(qual|que) (data|dia) foi o (último) (sábado|domingo|fim de semana) (passado|anterior) "
+  ],
+  "/intents/date.future.weekend.intent": [
+    "quais são as (datas|dias) [para] os (próximos) (sábados|domingos|fins de semana)",
+    "quais são as (datas|dias) [para] os (sábados|domingos|fins de semana) que (vêm|seguem|estão chegando)",
+    "(quais são os dias|qual é a data) do (próximo|próximo|próximo|próximo) (sábado|domingo|fim de semana)",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "/intents/what.time.is.it.intent": [
+    "(diga|dê|compartilhe|forneça|informe|deixe-me saber|pode dar|poderia dar|você tem|você sabe|você pode me dizer|posso saber|eu quero saber|eu preciso saber|eu preciso verificar|eu gostaria de saber|gostaria de saber|eu gostaria de saber|eu agradeceria se você pudesse me dizer|é possível obter|você pode me dizer) a [hora atual] [em {location}]",
+    "(que horas são) (atualmente|agora|no momento|no presente|) [em {location}]",
+    "(hora|horário|horas) [em {location}] (agora|no momento) [por favor]",
+    "(hora|horas|horário) [em {location}] agora",
+    "hora agora [em {location}]",
+    "já é (meio-dia|meia-noite|[um|dois|três|quatro|cinco|seis|sete|oito|nove|dez|onze|doze]) [em {location}]",
+    "já é (manhã|tarde|noite|noite) [em {location}]"
+  ]
 }
