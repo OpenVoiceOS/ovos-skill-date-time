@@ -94,7 +94,7 @@
     "diga-me o ano (presente|atual|)"
   ],
   "/intents/what.time.will.it.be.intent": [
-    "(que horas|quando) (serão|será|é [em {location}] depois de {offset} (segundos|minutos|horas) [a partir de agora] ",
+    "(que horas|quando) (serão|será|é) [em {location}] depois de {offset} (segundos|minutos|horas) [a partir de agora] ",
     "(que horas serão|o que o relógio mostrará) [em {location}] (em|se eu esperar| depois de) {offset} (segundo[s]|minuto[s]|hora[s])",
     "(que horas|quando) (serão|será) [em {location}] se (eu esperar|eu gastar) {offset} (segundo[s]|minuto[s]|hora[s])",
     "que horas serão (em|se eu esperar|depois de) {offset} (segundo[s]|minuto[s]|hora[s]) [em {location}]",
