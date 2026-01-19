@@ -1,0 +1,90 @@
+era {date}  un domingo
+era {date}  un jueves
+era {date}  un lunes
+era {date}  un martes
+era {date}  un miércoles
+era {date}  un sábado
+era {date}  un viernes
+era {date} en un domingo
+era {date} en un jueves
+era {date} en un lunes
+era {date} en un martes
+era {date} en un miércoles
+era {date} en un sábado
+era {date} en un viernes
+es {date}  un domingo
+es {date}  un jueves
+es {date}  un lunes
+es {date}  un martes
+es {date}  un miércoles
+es {date}  un sábado
+es {date}  un viernes
+es {date} en un domingo
+es {date} en un jueves
+es {date} en un lunes
+es {date} en un martes
+es {date} en un miércoles
+es {date} en un sábado
+es {date} en un viernes
+quiero saber qué día  es {date}
+quiero saber qué día  es {date} ?
+quiero saber qué día  fue {date}
+quiero saber qué día  fue {date} ?
+quiero saber qué día de la semana es {date}
+quiero saber qué día de la semana es {date} ?
+quiero saber qué día de la semana fue {date}
+quiero saber qué día de la semana fue {date} ?
+quiero saber qué día laborable es {date}
+quiero saber qué día laborable es {date} ?
+quiero saber qué día laborable fue {date}
+quiero saber qué día laborable fue {date} ?
+¿cuál día de la semana era el {date}?
+¿cuál día de la semana era en {date}?
+¿cuál día de la semana es el {date}?
+¿cuál día de la semana es en {date}?
+¿cuál día laborable era el {date}?
+¿cuál día laborable era en {date}?
+¿cuál día laborable es el {date}?
+¿cuál día laborable es en {date}?
+¿dime qué día  fue {date}?
+¿dime qué día de la semana fue {date}?
+¿dime qué día laborable fue {date}?
+¿en qué día  cae {date}?
+¿en qué día  es {date}?
+¿en qué día  fue {date}?
+¿en qué día  laborable fue {date}?
+¿en qué día  laborable será {date}?
+¿en qué día  será {date}?
+¿en qué día de la semana cae {date}?
+¿en qué día de la semana es {date}?
+¿en qué día de la semana fue {date}?
+¿en qué día de la semana será {date}?
+¿en qué día laborable cae {date}?
+¿en qué día laborable es {date}?
+¿en qué día laborable fue {date}?
+¿me podrías decir qué día de la semana es para {date}?
+¿me puedes decir qué día  fue {date}?
+¿me puedes decir qué día de la semana fue {date}?
+¿me puedes decir qué día laborable fue {date}?
+¿qué día de la semana era el {date}?
+¿qué día de la semana era en {date}?
+¿qué día de la semana es el {date}?
+¿qué día de la semana es en {date}?
+¿qué día de la semana es {date}?
+¿qué día laborable era el {date}?
+¿qué día laborable era en {date}?
+¿qué día laborable es el {date}?
+¿qué día laborable es en {date}?
+¿sabes qué día  es {date}
+¿sabes qué día  es {date} ?
+¿sabes qué día  fue {date}
+¿sabes qué día  fue {date} ?
+¿sabes qué día de la semana es para {date}?
+¿sabes qué día de la semana es {date}
+¿sabes qué día de la semana es {date} ?
+¿sabes qué día de la semana fue {date}
+¿sabes qué día de la semana fue {date} ?
+¿sabes qué día laborable es {date}
+¿sabes qué día laborable es {date} ?
+¿sabes qué día laborable fue {date}
+¿sabes qué día laborable fue {date} ?

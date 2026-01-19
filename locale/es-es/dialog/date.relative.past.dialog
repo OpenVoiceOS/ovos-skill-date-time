@@ -1,2 +1,2 @@
-Fue hace {date}, {num_days}
+Fue {date}, hace {num_days}
 {date}, hace {num_days}
