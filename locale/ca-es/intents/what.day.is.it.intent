@@ -1,33 +1,38 @@
-avui quin dia és
-digue'm la data d'avui
-digue'm la data d'hui
-digue'm sa data d'avui
-digue'm sa data d'hui
-digue's la data d'avui
-digue's la data d'hui
-digue's sa data d'avui
-digue's sa data d'hui
-digues-me la data d'avui
-digues-me la data d'hui
-digues-me sa data d'avui
-digues-me sa data d'hui
-em pots dir quin dia és
-em pots dir quin dia és avui
-qualsevol dia d'avui
-quin dia som avui
-quin dia som hui
-quin dia tenim avui
-quin dia és
-quin dia és avui
-quin dia és hui
-quin és la data
-quin és la data d'avui
-quina data som avui
-quina data som hui
-quina data és avui
-quina data és hui
-saps quin dia tenim avui
-saps quin dia és
-saps quin dia és avui
-saps quin és la data
-saps quin és la data d'avui
+diga'm el dia actual
+diga'm el dia actual  a {location}
+diga'm el dia actual del calendari
+diga'm el dia actual del calendari a {location}
+diga'm el dia actual del mes
+diga'm el dia actual del mes a {location}
+digue'm el dia actual
+digue'm el dia actual  a {location}
+digue'm el dia actual del calendari
+digue'm el dia actual del calendari a {location}
+digue'm el dia actual del mes
+digue'm el dia actual del mes a {location}
+digues-me el dia actual
+digues-me el dia actual  a {location}
+digues-me el dia actual del calendari
+digues-me el dia actual del calendari a {location}
+digues-me el dia actual del mes
+digues-me el dia actual del mes a {location}
+em pots dir el dia ?
+em pots dir el dia del calendari?
+em pots dir el dia del mes?
+podries dir-me el dia ?
+podries dir-me el dia del calendari?
+podries dir-me el dia del mes?
+quin dia  és a {location}
+quin dia  és avui
+quin dia del calendari és
+quin dia del calendari és a {location}
+quin dia del calendari és avui
+quin dia del mes és
+quin dia del mes és a {location}
+quin dia del mes és avui
+quin és el dia  a {location}
+quin és el dia  avui
+quin és el dia del calendari a {location}
+quin és el dia del calendari avui
+quin és el dia del mes a {location}
+quin és el dia del mes avui

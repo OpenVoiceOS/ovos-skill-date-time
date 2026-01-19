@@ -1,1926 +1,240 @@
-d'aquí a {offset} hora  quina hora serà
-d'aquí a {offset} hora  quina hora tindrem
-d'aquí a {offset} hora  quina hora és
-d'aquí a {offset} hora , quina hora serà
-d'aquí a {offset} hora , quina hora tindrem
-d'aquí a {offset} hora , quina hora és
-d'aquí a {offset} hora a partir d'ara quina hora serà
-d'aquí a {offset} hora a partir d'ara quina hora tindrem
-d'aquí a {offset} hora a partir d'ara quina hora és
-d'aquí a {offset} hora a partir d'ara, quina hora serà
-d'aquí a {offset} hora a partir d'ara, quina hora tindrem
-d'aquí a {offset} hora a partir d'ara, quina hora és
-d'aquí a {offset} hora des d'ara quina hora serà
-d'aquí a {offset} hora des d'ara quina hora tindrem
-d'aquí a {offset} hora des d'ara quina hora és
-d'aquí a {offset} hora des d'ara, quina hora serà
-d'aquí a {offset} hora des d'ara, quina hora tindrem
-d'aquí a {offset} hora des d'ara, quina hora és
-d'aquí a {offset} hora quina hora serà
-d'aquí a {offset} hora quina hora tindrem
-d'aquí a {offset} hora quina hora és
-d'aquí a {offset} hores  quina hora serà
-d'aquí a {offset} hores  quina hora tindrem
-d'aquí a {offset} hores  quina hora és
-d'aquí a {offset} hores , quina hora serà
-d'aquí a {offset} hores , quina hora tindrem
-d'aquí a {offset} hores , quina hora és
-d'aquí a {offset} hores a partir d'ara quina hora serà
-d'aquí a {offset} hores a partir d'ara quina hora tindrem
-d'aquí a {offset} hores a partir d'ara quina hora és
-d'aquí a {offset} hores a partir d'ara, quina hora serà
-d'aquí a {offset} hores a partir d'ara, quina hora tindrem
-d'aquí a {offset} hores a partir d'ara, quina hora és
-d'aquí a {offset} hores des d'ara quina hora serà
-d'aquí a {offset} hores des d'ara quina hora tindrem
-d'aquí a {offset} hores des d'ara quina hora és
-d'aquí a {offset} hores des d'ara, quina hora serà
-d'aquí a {offset} hores des d'ara, quina hora tindrem
-d'aquí a {offset} hores des d'ara, quina hora és
-d'aquí a {offset} hores quina hora serà
-d'aquí a {offset} hores quina hora tindrem
-d'aquí a {offset} hores quina hora és
-d'aquí a {offset} minut  quina hora serà
-d'aquí a {offset} minut  quina hora tindrem
-d'aquí a {offset} minut  quina hora és
-d'aquí a {offset} minut , quina hora serà
-d'aquí a {offset} minut , quina hora tindrem
-d'aquí a {offset} minut , quina hora és
-d'aquí a {offset} minut a partir d'ara quina hora serà
-d'aquí a {offset} minut a partir d'ara quina hora tindrem
-d'aquí a {offset} minut a partir d'ara quina hora és
-d'aquí a {offset} minut a partir d'ara, quina hora serà
-d'aquí a {offset} minut a partir d'ara, quina hora tindrem
-d'aquí a {offset} minut a partir d'ara, quina hora és
-d'aquí a {offset} minut des d'ara quina hora serà
-d'aquí a {offset} minut des d'ara quina hora tindrem
-d'aquí a {offset} minut des d'ara quina hora és
-d'aquí a {offset} minut des d'ara, quina hora serà
-d'aquí a {offset} minut des d'ara, quina hora tindrem
-d'aquí a {offset} minut des d'ara, quina hora és
-d'aquí a {offset} minut quina hora serà
-d'aquí a {offset} minut quina hora serà  a sa {location}
-d'aquí a {offset} minut quina hora serà a la {location}
-d'aquí a {offset} minut quina hora serà a {location}
-d'aquí a {offset} minut quina hora serà al {location}
-d'aquí a {offset} minut quina hora serà as {location}
-d'aquí a {offset} minut quina hora serà en {location}
-d'aquí a {offset} minut quina hora tindrem
-d'aquí a {offset} minut quina hora tindrem  a sa {location}
-d'aquí a {offset} minut quina hora tindrem a la {location}
-d'aquí a {offset} minut quina hora tindrem a {location}
-d'aquí a {offset} minut quina hora tindrem al {location}
-d'aquí a {offset} minut quina hora tindrem as {location}
-d'aquí a {offset} minut quina hora tindrem en {location}
-d'aquí a {offset} minut quina hora és
-d'aquí a {offset} minut quina hora és  a sa {location}
-d'aquí a {offset} minut quina hora és a la {location}
-d'aquí a {offset} minut quina hora és a {location}
-d'aquí a {offset} minut quina hora és al {location}
-d'aquí a {offset} minut quina hora és as {location}
-d'aquí a {offset} minut quina hora és en {location}
-d'aquí a {offset} minuts  quina hora serà
-d'aquí a {offset} minuts  quina hora tindrem
-d'aquí a {offset} minuts  quina hora és
-d'aquí a {offset} minuts , quina hora serà
-d'aquí a {offset} minuts , quina hora tindrem
-d'aquí a {offset} minuts , quina hora és
-d'aquí a {offset} minuts a partir d'ara quina hora serà
-d'aquí a {offset} minuts a partir d'ara quina hora tindrem
-d'aquí a {offset} minuts a partir d'ara quina hora és
-d'aquí a {offset} minuts a partir d'ara, quina hora serà
-d'aquí a {offset} minuts a partir d'ara, quina hora tindrem
-d'aquí a {offset} minuts a partir d'ara, quina hora és
-d'aquí a {offset} minuts des d'ara quina hora serà
-d'aquí a {offset} minuts des d'ara quina hora tindrem
-d'aquí a {offset} minuts des d'ara quina hora és
-d'aquí a {offset} minuts des d'ara, quina hora serà
-d'aquí a {offset} minuts des d'ara, quina hora tindrem
-d'aquí a {offset} minuts des d'ara, quina hora és
-d'aquí a {offset} minuts quina hora serà
-d'aquí a {offset} minuts quina hora serà  a sa {location}
-d'aquí a {offset} minuts quina hora serà a la {location}
-d'aquí a {offset} minuts quina hora serà a {location}
-d'aquí a {offset} minuts quina hora serà al {location}
-d'aquí a {offset} minuts quina hora serà as {location}
-d'aquí a {offset} minuts quina hora serà en {location}
-d'aquí a {offset} minuts quina hora tindrem
-d'aquí a {offset} minuts quina hora tindrem  a sa {location}
-d'aquí a {offset} minuts quina hora tindrem a la {location}
-d'aquí a {offset} minuts quina hora tindrem a {location}
-d'aquí a {offset} minuts quina hora tindrem al {location}
-d'aquí a {offset} minuts quina hora tindrem as {location}
-d'aquí a {offset} minuts quina hora tindrem en {location}
-d'aquí a {offset} minuts quina hora és
-d'aquí a {offset} minuts quina hora és  a sa {location}
-d'aquí a {offset} minuts quina hora és a la {location}
-d'aquí a {offset} minuts quina hora és a {location}
-d'aquí a {offset} minuts quina hora és al {location}
-d'aquí a {offset} minuts quina hora és as {location}
-d'aquí a {offset} minuts quina hora és en {location}
-d'aquí a {offset} segon  quina hora serà
-d'aquí a {offset} segon  quina hora tindrem
-d'aquí a {offset} segon  quina hora és
-d'aquí a {offset} segon , quina hora serà
-d'aquí a {offset} segon , quina hora tindrem
-d'aquí a {offset} segon , quina hora és
-d'aquí a {offset} segon a partir d'ara quina hora serà
-d'aquí a {offset} segon a partir d'ara quina hora tindrem
-d'aquí a {offset} segon a partir d'ara quina hora és
-d'aquí a {offset} segon a partir d'ara, quina hora serà
-d'aquí a {offset} segon a partir d'ara, quina hora tindrem
-d'aquí a {offset} segon a partir d'ara, quina hora és
-d'aquí a {offset} segon des d'ara quina hora serà
-d'aquí a {offset} segon des d'ara quina hora tindrem
-d'aquí a {offset} segon des d'ara quina hora és
-d'aquí a {offset} segon des d'ara, quina hora serà
-d'aquí a {offset} segon des d'ara, quina hora tindrem
-d'aquí a {offset} segon des d'ara, quina hora és
-d'aquí a {offset} segon quina hora serà
-d'aquí a {offset} segon quina hora serà  a sa {location}
-d'aquí a {offset} segon quina hora serà a la {location}
-d'aquí a {offset} segon quina hora serà a {location}
-d'aquí a {offset} segon quina hora serà al {location}
-d'aquí a {offset} segon quina hora serà as {location}
-d'aquí a {offset} segon quina hora serà en {location}
-d'aquí a {offset} segon quina hora tindrem
-d'aquí a {offset} segon quina hora tindrem  a sa {location}
-d'aquí a {offset} segon quina hora tindrem a la {location}
-d'aquí a {offset} segon quina hora tindrem a {location}
-d'aquí a {offset} segon quina hora tindrem al {location}
-d'aquí a {offset} segon quina hora tindrem as {location}
-d'aquí a {offset} segon quina hora tindrem en {location}
-d'aquí a {offset} segon quina hora és
-d'aquí a {offset} segon quina hora és  a sa {location}
-d'aquí a {offset} segon quina hora és a la {location}
-d'aquí a {offset} segon quina hora és a {location}
-d'aquí a {offset} segon quina hora és al {location}
-d'aquí a {offset} segon quina hora és as {location}
-d'aquí a {offset} segon quina hora és en {location}
-d'aquí a {offset} segons  quina hora serà
-d'aquí a {offset} segons  quina hora tindrem
-d'aquí a {offset} segons  quina hora és
-d'aquí a {offset} segons , quina hora serà
-d'aquí a {offset} segons , quina hora tindrem
-d'aquí a {offset} segons , quina hora és
-d'aquí a {offset} segons a partir d'ara quina hora serà
-d'aquí a {offset} segons a partir d'ara quina hora tindrem
-d'aquí a {offset} segons a partir d'ara quina hora és
-d'aquí a {offset} segons a partir d'ara, quina hora serà
-d'aquí a {offset} segons a partir d'ara, quina hora tindrem
-d'aquí a {offset} segons a partir d'ara, quina hora és
-d'aquí a {offset} segons des d'ara quina hora serà
-d'aquí a {offset} segons des d'ara quina hora tindrem
-d'aquí a {offset} segons des d'ara quina hora és
-d'aquí a {offset} segons des d'ara, quina hora serà
-d'aquí a {offset} segons des d'ara, quina hora tindrem
-d'aquí a {offset} segons des d'ara, quina hora és
-d'aquí a {offset} segons quina hora serà
-d'aquí a {offset} segons quina hora serà  a sa {location}
-d'aquí a {offset} segons quina hora serà a la {location}
-d'aquí a {offset} segons quina hora serà a {location}
-d'aquí a {offset} segons quina hora serà al {location}
-d'aquí a {offset} segons quina hora serà as {location}
-d'aquí a {offset} segons quina hora serà en {location}
-d'aquí a {offset} segons quina hora tindrem
-d'aquí a {offset} segons quina hora tindrem  a sa {location}
-d'aquí a {offset} segons quina hora tindrem a la {location}
-d'aquí a {offset} segons quina hora tindrem a {location}
-d'aquí a {offset} segons quina hora tindrem al {location}
-d'aquí a {offset} segons quina hora tindrem as {location}
-d'aquí a {offset} segons quina hora tindrem en {location}
-d'aquí a {offset} segons quina hora és
-d'aquí a {offset} segons quina hora és  a sa {location}
-d'aquí a {offset} segons quina hora és a la {location}
-d'aquí a {offset} segons quina hora és a {location}
-d'aquí a {offset} segons quina hora és al {location}
-d'aquí a {offset} segons quina hora és as {location}
-d'aquí a {offset} segons quina hora és en {location}
-d'aquí {offset} hora  quina hora serà
-d'aquí {offset} hora  quina hora tindrem
-d'aquí {offset} hora  quina hora és
-d'aquí {offset} hora , quina hora serà
-d'aquí {offset} hora , quina hora tindrem
-d'aquí {offset} hora , quina hora és
-d'aquí {offset} hora a partir d'ara quina hora serà
-d'aquí {offset} hora a partir d'ara quina hora tindrem
-d'aquí {offset} hora a partir d'ara quina hora és
-d'aquí {offset} hora a partir d'ara, quina hora serà
-d'aquí {offset} hora a partir d'ara, quina hora tindrem
-d'aquí {offset} hora a partir d'ara, quina hora és
-d'aquí {offset} hora des d'ara quina hora serà
-d'aquí {offset} hora des d'ara quina hora tindrem
-d'aquí {offset} hora des d'ara quina hora és
-d'aquí {offset} hora des d'ara, quina hora serà
-d'aquí {offset} hora des d'ara, quina hora tindrem
-d'aquí {offset} hora des d'ara, quina hora és
-d'aquí {offset} hores  quina hora serà
-d'aquí {offset} hores  quina hora tindrem
-d'aquí {offset} hores  quina hora és
-d'aquí {offset} hores , quina hora serà
-d'aquí {offset} hores , quina hora tindrem
-d'aquí {offset} hores , quina hora és
-d'aquí {offset} hores a partir d'ara quina hora serà
-d'aquí {offset} hores a partir d'ara quina hora tindrem
-d'aquí {offset} hores a partir d'ara quina hora és
-d'aquí {offset} hores a partir d'ara, quina hora serà
-d'aquí {offset} hores a partir d'ara, quina hora tindrem
-d'aquí {offset} hores a partir d'ara, quina hora és
-d'aquí {offset} hores des d'ara quina hora serà
-d'aquí {offset} hores des d'ara quina hora tindrem
-d'aquí {offset} hores des d'ara quina hora és
-d'aquí {offset} hores des d'ara, quina hora serà
-d'aquí {offset} hores des d'ara, quina hora tindrem
-d'aquí {offset} hores des d'ara, quina hora és
-d'aquí {offset} minut  quina hora serà
-d'aquí {offset} minut  quina hora tindrem
-d'aquí {offset} minut  quina hora és
-d'aquí {offset} minut , quina hora serà
-d'aquí {offset} minut , quina hora tindrem
-d'aquí {offset} minut , quina hora és
-d'aquí {offset} minut a partir d'ara quina hora serà
-d'aquí {offset} minut a partir d'ara quina hora tindrem
-d'aquí {offset} minut a partir d'ara quina hora és
-d'aquí {offset} minut a partir d'ara, quina hora serà
-d'aquí {offset} minut a partir d'ara, quina hora tindrem
-d'aquí {offset} minut a partir d'ara, quina hora és
-d'aquí {offset} minut des d'ara quina hora serà
-d'aquí {offset} minut des d'ara quina hora tindrem
-d'aquí {offset} minut des d'ara quina hora és
-d'aquí {offset} minut des d'ara, quina hora serà
-d'aquí {offset} minut des d'ara, quina hora tindrem
-d'aquí {offset} minut des d'ara, quina hora és
-d'aquí {offset} minuts  quina hora serà
-d'aquí {offset} minuts  quina hora tindrem
-d'aquí {offset} minuts  quina hora és
-d'aquí {offset} minuts , quina hora serà
-d'aquí {offset} minuts , quina hora tindrem
-d'aquí {offset} minuts , quina hora és
-d'aquí {offset} minuts a partir d'ara quina hora serà
-d'aquí {offset} minuts a partir d'ara quina hora tindrem
-d'aquí {offset} minuts a partir d'ara quina hora és
-d'aquí {offset} minuts a partir d'ara, quina hora serà
-d'aquí {offset} minuts a partir d'ara, quina hora tindrem
-d'aquí {offset} minuts a partir d'ara, quina hora és
-d'aquí {offset} minuts des d'ara quina hora serà
-d'aquí {offset} minuts des d'ara quina hora tindrem
-d'aquí {offset} minuts des d'ara quina hora és
-d'aquí {offset} minuts des d'ara, quina hora serà
-d'aquí {offset} minuts des d'ara, quina hora tindrem
-d'aquí {offset} minuts des d'ara, quina hora és
-d'aquí {offset} segon  quina hora serà
-d'aquí {offset} segon  quina hora tindrem
-d'aquí {offset} segon  quina hora és
-d'aquí {offset} segon , quina hora serà
-d'aquí {offset} segon , quina hora tindrem
-d'aquí {offset} segon , quina hora és
-d'aquí {offset} segon a partir d'ara quina hora serà
-d'aquí {offset} segon a partir d'ara quina hora tindrem
-d'aquí {offset} segon a partir d'ara quina hora és
-d'aquí {offset} segon a partir d'ara, quina hora serà
-d'aquí {offset} segon a partir d'ara, quina hora tindrem
-d'aquí {offset} segon a partir d'ara, quina hora és
-d'aquí {offset} segon des d'ara quina hora serà
-d'aquí {offset} segon des d'ara quina hora tindrem
-d'aquí {offset} segon des d'ara quina hora és
-d'aquí {offset} segon des d'ara, quina hora serà
-d'aquí {offset} segon des d'ara, quina hora tindrem
-d'aquí {offset} segon des d'ara, quina hora és
-d'aquí {offset} segons  quina hora serà
-d'aquí {offset} segons  quina hora tindrem
-d'aquí {offset} segons  quina hora és
-d'aquí {offset} segons , quina hora serà
-d'aquí {offset} segons , quina hora tindrem
-d'aquí {offset} segons , quina hora és
-d'aquí {offset} segons a partir d'ara quina hora serà
-d'aquí {offset} segons a partir d'ara quina hora tindrem
-d'aquí {offset} segons a partir d'ara quina hora és
-d'aquí {offset} segons a partir d'ara, quina hora serà
-d'aquí {offset} segons a partir d'ara, quina hora tindrem
-d'aquí {offset} segons a partir d'ara, quina hora és
-d'aquí {offset} segons des d'ara quina hora serà
-d'aquí {offset} segons des d'ara quina hora tindrem
-d'aquí {offset} segons des d'ara quina hora és
-d'aquí {offset} segons des d'ara, quina hora serà
-d'aquí {offset} segons des d'ara, quina hora tindrem
-d'aquí {offset} segons des d'ara, quina hora és
-en {offset} hora  quina hora serà
-en {offset} hora  quina hora tindrem
-en {offset} hora  quina hora és
-en {offset} hora , quina hora serà
-en {offset} hora , quina hora tindrem
-en {offset} hora , quina hora és
-en {offset} hora a partir d'ara quina hora serà
-en {offset} hora a partir d'ara quina hora tindrem
-en {offset} hora a partir d'ara quina hora és
-en {offset} hora a partir d'ara, quina hora serà
-en {offset} hora a partir d'ara, quina hora tindrem
-en {offset} hora a partir d'ara, quina hora és
-en {offset} hora des d'ara quina hora serà
-en {offset} hora des d'ara quina hora tindrem
-en {offset} hora des d'ara quina hora és
-en {offset} hora des d'ara, quina hora serà
-en {offset} hora des d'ara, quina hora tindrem
-en {offset} hora des d'ara, quina hora és
-en {offset} hora quina hora serà
-en {offset} hora quina hora tindrem
-en {offset} hora quina hora és
-en {offset} hores  quina hora serà
-en {offset} hores  quina hora tindrem
-en {offset} hores  quina hora és
-en {offset} hores , quina hora serà
-en {offset} hores , quina hora tindrem
-en {offset} hores , quina hora és
-en {offset} hores a partir d'ara quina hora serà
-en {offset} hores a partir d'ara quina hora tindrem
-en {offset} hores a partir d'ara quina hora és
-en {offset} hores a partir d'ara, quina hora serà
-en {offset} hores a partir d'ara, quina hora tindrem
-en {offset} hores a partir d'ara, quina hora és
-en {offset} hores des d'ara quina hora serà
-en {offset} hores des d'ara quina hora tindrem
-en {offset} hores des d'ara quina hora és
-en {offset} hores des d'ara, quina hora serà
-en {offset} hores des d'ara, quina hora tindrem
-en {offset} hores des d'ara, quina hora és
-en {offset} hores quina hora serà
-en {offset} hores quina hora tindrem
-en {offset} hores quina hora és
-en {offset} minut  quina hora serà
-en {offset} minut  quina hora tindrem
-en {offset} minut  quina hora és
-en {offset} minut , quina hora serà
-en {offset} minut , quina hora tindrem
-en {offset} minut , quina hora és
-en {offset} minut a partir d'ara quina hora serà
-en {offset} minut a partir d'ara quina hora tindrem
-en {offset} minut a partir d'ara quina hora és
-en {offset} minut a partir d'ara, quina hora serà
-en {offset} minut a partir d'ara, quina hora tindrem
-en {offset} minut a partir d'ara, quina hora és
-en {offset} minut des d'ara quina hora serà
-en {offset} minut des d'ara quina hora tindrem
-en {offset} minut des d'ara quina hora és
-en {offset} minut des d'ara, quina hora serà
-en {offset} minut des d'ara, quina hora tindrem
-en {offset} minut des d'ara, quina hora és
-en {offset} minut quina hora serà
-en {offset} minut quina hora serà  a sa {location}
-en {offset} minut quina hora serà a la {location}
-en {offset} minut quina hora serà a {location}
-en {offset} minut quina hora serà al {location}
-en {offset} minut quina hora serà as {location}
-en {offset} minut quina hora serà en {location}
-en {offset} minut quina hora tindrem
-en {offset} minut quina hora tindrem  a sa {location}
-en {offset} minut quina hora tindrem a la {location}
-en {offset} minut quina hora tindrem a {location}
-en {offset} minut quina hora tindrem al {location}
-en {offset} minut quina hora tindrem as {location}
-en {offset} minut quina hora tindrem en {location}
-en {offset} minut quina hora és
-en {offset} minut quina hora és  a sa {location}
-en {offset} minut quina hora és a la {location}
-en {offset} minut quina hora és a {location}
-en {offset} minut quina hora és al {location}
-en {offset} minut quina hora és as {location}
-en {offset} minut quina hora és en {location}
-en {offset} minuts  quina hora serà
-en {offset} minuts  quina hora tindrem
-en {offset} minuts  quina hora és
-en {offset} minuts , quina hora serà
-en {offset} minuts , quina hora tindrem
-en {offset} minuts , quina hora és
-en {offset} minuts a partir d'ara quina hora serà
-en {offset} minuts a partir d'ara quina hora tindrem
-en {offset} minuts a partir d'ara quina hora és
-en {offset} minuts a partir d'ara, quina hora serà
-en {offset} minuts a partir d'ara, quina hora tindrem
-en {offset} minuts a partir d'ara, quina hora és
-en {offset} minuts des d'ara quina hora serà
-en {offset} minuts des d'ara quina hora tindrem
-en {offset} minuts des d'ara quina hora és
-en {offset} minuts des d'ara, quina hora serà
-en {offset} minuts des d'ara, quina hora tindrem
-en {offset} minuts des d'ara, quina hora és
-en {offset} minuts quina hora serà
-en {offset} minuts quina hora serà  a sa {location}
-en {offset} minuts quina hora serà a la {location}
-en {offset} minuts quina hora serà a {location}
-en {offset} minuts quina hora serà al {location}
-en {offset} minuts quina hora serà as {location}
-en {offset} minuts quina hora serà en {location}
-en {offset} minuts quina hora tindrem
-en {offset} minuts quina hora tindrem  a sa {location}
-en {offset} minuts quina hora tindrem a la {location}
-en {offset} minuts quina hora tindrem a {location}
-en {offset} minuts quina hora tindrem al {location}
-en {offset} minuts quina hora tindrem as {location}
-en {offset} minuts quina hora tindrem en {location}
-en {offset} minuts quina hora és
-en {offset} minuts quina hora és  a sa {location}
-en {offset} minuts quina hora és a la {location}
-en {offset} minuts quina hora és a {location}
-en {offset} minuts quina hora és al {location}
-en {offset} minuts quina hora és as {location}
-en {offset} minuts quina hora és en {location}
-en {offset} segon  quina hora serà
-en {offset} segon  quina hora tindrem
-en {offset} segon  quina hora és
-en {offset} segon , quina hora serà
-en {offset} segon , quina hora tindrem
-en {offset} segon , quina hora és
-en {offset} segon a partir d'ara quina hora serà
-en {offset} segon a partir d'ara quina hora tindrem
-en {offset} segon a partir d'ara quina hora és
-en {offset} segon a partir d'ara, quina hora serà
-en {offset} segon a partir d'ara, quina hora tindrem
-en {offset} segon a partir d'ara, quina hora és
-en {offset} segon des d'ara quina hora serà
-en {offset} segon des d'ara quina hora tindrem
-en {offset} segon des d'ara quina hora és
-en {offset} segon des d'ara, quina hora serà
-en {offset} segon des d'ara, quina hora tindrem
-en {offset} segon des d'ara, quina hora és
-en {offset} segon quina hora serà
-en {offset} segon quina hora serà  a sa {location}
-en {offset} segon quina hora serà a la {location}
-en {offset} segon quina hora serà a {location}
-en {offset} segon quina hora serà al {location}
-en {offset} segon quina hora serà as {location}
-en {offset} segon quina hora serà en {location}
-en {offset} segon quina hora tindrem
-en {offset} segon quina hora tindrem  a sa {location}
-en {offset} segon quina hora tindrem a la {location}
-en {offset} segon quina hora tindrem a {location}
-en {offset} segon quina hora tindrem al {location}
-en {offset} segon quina hora tindrem as {location}
-en {offset} segon quina hora tindrem en {location}
-en {offset} segon quina hora és
-en {offset} segon quina hora és  a sa {location}
-en {offset} segon quina hora és a la {location}
-en {offset} segon quina hora és a {location}
-en {offset} segon quina hora és al {location}
-en {offset} segon quina hora és as {location}
-en {offset} segon quina hora és en {location}
-en {offset} segons  quina hora serà
-en {offset} segons  quina hora tindrem
-en {offset} segons  quina hora és
-en {offset} segons , quina hora serà
-en {offset} segons , quina hora tindrem
-en {offset} segons , quina hora és
-en {offset} segons a partir d'ara quina hora serà
-en {offset} segons a partir d'ara quina hora tindrem
-en {offset} segons a partir d'ara quina hora és
-en {offset} segons a partir d'ara, quina hora serà
-en {offset} segons a partir d'ara, quina hora tindrem
-en {offset} segons a partir d'ara, quina hora és
-en {offset} segons des d'ara quina hora serà
-en {offset} segons des d'ara quina hora tindrem
-en {offset} segons des d'ara quina hora és
-en {offset} segons des d'ara, quina hora serà
-en {offset} segons des d'ara, quina hora tindrem
-en {offset} segons des d'ara, quina hora és
-en {offset} segons quina hora serà
-en {offset} segons quina hora serà  a sa {location}
-en {offset} segons quina hora serà a la {location}
-en {offset} segons quina hora serà a {location}
-en {offset} segons quina hora serà al {location}
-en {offset} segons quina hora serà as {location}
-en {offset} segons quina hora serà en {location}
-en {offset} segons quina hora tindrem
-en {offset} segons quina hora tindrem  a sa {location}
-en {offset} segons quina hora tindrem a la {location}
-en {offset} segons quina hora tindrem a {location}
-en {offset} segons quina hora tindrem al {location}
-en {offset} segons quina hora tindrem as {location}
-en {offset} segons quina hora tindrem en {location}
-en {offset} segons quina hora és
-en {offset} segons quina hora és  a sa {location}
-en {offset} segons quina hora és a la {location}
-en {offset} segons quina hora és a {location}
-en {offset} segons quina hora és al {location}
-en {offset} segons quina hora és as {location}
-en {offset} segons quina hora és en {location}
-quina hora serà  {offset} hora
-quina hora serà  {offset} hora  a la {location}
-quina hora serà  {offset} hora  a sa {location}
-quina hora serà  {offset} hora  a {location}
-quina hora serà  {offset} hora  al {location}
-quina hora serà  {offset} hora  en {location}
-quina hora serà  {offset} hora a la {location}
-quina hora serà  {offset} hora a partir d'ara
-quina hora serà  {offset} hora a partir d'ara a la {location}
-quina hora serà  {offset} hora a partir d'ara a sa {location}
-quina hora serà  {offset} hora a partir d'ara a {location}
-quina hora serà  {offset} hora a partir d'ara al {location}
-quina hora serà  {offset} hora a partir d'ara en {location}
-quina hora serà  {offset} hora a sa {location}
-quina hora serà  {offset} hora a {location}
-quina hora serà  {offset} hora al {location}
-quina hora serà  {offset} hora des d'ara
-quina hora serà  {offset} hora des d'ara a la {location}
-quina hora serà  {offset} hora des d'ara a sa {location}
-quina hora serà  {offset} hora des d'ara a {location}
-quina hora serà  {offset} hora des d'ara al {location}
-quina hora serà  {offset} hora des d'ara en {location}
-quina hora serà  {offset} hora en {location}
-quina hora serà  {offset} hores
-quina hora serà  {offset} hores  a la {location}
-quina hora serà  {offset} hores  a sa {location}
-quina hora serà  {offset} hores  a {location}
-quina hora serà  {offset} hores  al {location}
-quina hora serà  {offset} hores  en {location}
-quina hora serà  {offset} hores a la {location}
-quina hora serà  {offset} hores a partir d'ara a la {location}
-quina hora serà  {offset} hores a partir d'ara a sa {location}
-quina hora serà  {offset} hores a partir d'ara a {location}
-quina hora serà  {offset} hores a partir d'ara al {location}
-quina hora serà  {offset} hores a partir d'ara en {location}
-quina hora serà  {offset} hores a sa {location}
-quina hora serà  {offset} hores a {location}
-quina hora serà  {offset} hores al {location}
-quina hora serà  {offset} hores des d'ara a la {location}
-quina hora serà  {offset} hores des d'ara a sa {location}
-quina hora serà  {offset} hores des d'ara a {location}
-quina hora serà  {offset} hores des d'ara al {location}
-quina hora serà  {offset} hores des d'ara en {location}
-quina hora serà  {offset} hores en {location}
-quina hora serà  {offset} minut
-quina hora serà  {offset} minut  a la {location}
-quina hora serà  {offset} minut  a sa {location}
-quina hora serà  {offset} minut  a {location}
-quina hora serà  {offset} minut  al {location}
-quina hora serà  {offset} minut  en {location}
-quina hora serà  {offset} minut a la {location}
-quina hora serà  {offset} minut a partir d'ara
-quina hora serà  {offset} minut a partir d'ara a la {location}
-quina hora serà  {offset} minut a partir d'ara a sa {location}
-quina hora serà  {offset} minut a partir d'ara a {location}
-quina hora serà  {offset} minut a partir d'ara al {location}
-quina hora serà  {offset} minut a partir d'ara en {location}
-quina hora serà  {offset} minut a sa {location}
-quina hora serà  {offset} minut a {location}
-quina hora serà  {offset} minut al {location}
-quina hora serà  {offset} minut des d'ara
-quina hora serà  {offset} minut des d'ara a la {location}
-quina hora serà  {offset} minut des d'ara a sa {location}
-quina hora serà  {offset} minut des d'ara a {location}
-quina hora serà  {offset} minut des d'ara al {location}
-quina hora serà  {offset} minut des d'ara en {location}
-quina hora serà  {offset} minut en {location}
-quina hora serà  {offset} minuts
-quina hora serà  {offset} minuts  a la {location}
-quina hora serà  {offset} minuts  a sa {location}
-quina hora serà  {offset} minuts  a {location}
-quina hora serà  {offset} minuts  al {location}
-quina hora serà  {offset} minuts  en {location}
-quina hora serà  {offset} minuts a la {location}
-quina hora serà  {offset} minuts a partir d'ara
-quina hora serà  {offset} minuts a partir d'ara a la {location}
-quina hora serà  {offset} minuts a partir d'ara a sa {location}
-quina hora serà  {offset} minuts a partir d'ara a {location}
-quina hora serà  {offset} minuts a partir d'ara al {location}
-quina hora serà  {offset} minuts a partir d'ara en {location}
-quina hora serà  {offset} minuts a sa {location}
-quina hora serà  {offset} minuts a {location}
-quina hora serà  {offset} minuts al {location}
-quina hora serà  {offset} minuts des d'ara
-quina hora serà  {offset} minuts des d'ara a la {location}
-quina hora serà  {offset} minuts des d'ara a sa {location}
-quina hora serà  {offset} minuts des d'ara a {location}
-quina hora serà  {offset} minuts des d'ara al {location}
-quina hora serà  {offset} minuts des d'ara en {location}
-quina hora serà  {offset} minuts en {location}
-quina hora serà  {offset} segon
-quina hora serà  {offset} segon  a la {location}
-quina hora serà  {offset} segon  a sa {location}
-quina hora serà  {offset} segon  a {location}
-quina hora serà  {offset} segon  al {location}
-quina hora serà  {offset} segon  en {location}
-quina hora serà  {offset} segon a la {location}
-quina hora serà  {offset} segon a partir d'ara
-quina hora serà  {offset} segon a partir d'ara a la {location}
-quina hora serà  {offset} segon a partir d'ara a sa {location}
-quina hora serà  {offset} segon a partir d'ara a {location}
-quina hora serà  {offset} segon a partir d'ara al {location}
-quina hora serà  {offset} segon a partir d'ara en {location}
-quina hora serà  {offset} segon a sa {location}
-quina hora serà  {offset} segon a {location}
-quina hora serà  {offset} segon al {location}
-quina hora serà  {offset} segon des d'ara
-quina hora serà  {offset} segon des d'ara a la {location}
-quina hora serà  {offset} segon des d'ara a sa {location}
-quina hora serà  {offset} segon des d'ara a {location}
-quina hora serà  {offset} segon des d'ara al {location}
-quina hora serà  {offset} segon des d'ara en {location}
-quina hora serà  {offset} segon en {location}
-quina hora serà  {offset} segons
-quina hora serà  {offset} segons  a la {location}
-quina hora serà  {offset} segons  a sa {location}
-quina hora serà  {offset} segons  a {location}
-quina hora serà  {offset} segons  al {location}
-quina hora serà  {offset} segons  en {location}
-quina hora serà  {offset} segons a la {location}
-quina hora serà  {offset} segons a partir d'ara
-quina hora serà  {offset} segons a partir d'ara a la {location}
-quina hora serà  {offset} segons a partir d'ara a sa {location}
-quina hora serà  {offset} segons a partir d'ara a {location}
-quina hora serà  {offset} segons a partir d'ara al {location}
-quina hora serà  {offset} segons a partir d'ara en {location}
-quina hora serà  {offset} segons a sa {location}
-quina hora serà  {offset} segons a {location}
-quina hora serà  {offset} segons al {location}
-quina hora serà  {offset} segons des d'ara
-quina hora serà  {offset} segons des d'ara a la {location}
-quina hora serà  {offset} segons des d'ara a sa {location}
-quina hora serà  {offset} segons des d'ara a {location}
-quina hora serà  {offset} segons des d'ara al {location}
-quina hora serà  {offset} segons des d'ara en {location}
-quina hora serà  {offset} segons en {location}
-quina hora serà d'aquí a {offset} hora
-quina hora serà d'aquí a {offset} hora  a la {location}
-quina hora serà d'aquí a {offset} hora  a sa {location}
-quina hora serà d'aquí a {offset} hora  a {location}
-quina hora serà d'aquí a {offset} hora  al {location}
-quina hora serà d'aquí a {offset} hora  en {location}
-quina hora serà d'aquí a {offset} hora a la {location}
-quina hora serà d'aquí a {offset} hora a partir d'ara
-quina hora serà d'aquí a {offset} hora a partir d'ara a la {location}
-quina hora serà d'aquí a {offset} hora a partir d'ara a sa {location}
-quina hora serà d'aquí a {offset} hora a partir d'ara a {location}
-quina hora serà d'aquí a {offset} hora a partir d'ara al {location}
-quina hora serà d'aquí a {offset} hora a partir d'ara en {location}
-quina hora serà d'aquí a {offset} hora a sa {location}
-quina hora serà d'aquí a {offset} hora a {location}
-quina hora serà d'aquí a {offset} hora al {location}
-quina hora serà d'aquí a {offset} hora des d'ara
-quina hora serà d'aquí a {offset} hora des d'ara a la {location}
-quina hora serà d'aquí a {offset} hora des d'ara a sa {location}
-quina hora serà d'aquí a {offset} hora des d'ara a {location}
-quina hora serà d'aquí a {offset} hora des d'ara al {location}
-quina hora serà d'aquí a {offset} hora des d'ara en {location}
-quina hora serà d'aquí a {offset} hora en {location}
-quina hora serà d'aquí a {offset} hores
-quina hora serà d'aquí a {offset} hores  a la {location}
-quina hora serà d'aquí a {offset} hores  a sa {location}
-quina hora serà d'aquí a {offset} hores  a {location}
-quina hora serà d'aquí a {offset} hores  al {location}
-quina hora serà d'aquí a {offset} hores  en {location}
-quina hora serà d'aquí a {offset} hores a la {location}
-quina hora serà d'aquí a {offset} hores a partir d'ara a la {location}
-quina hora serà d'aquí a {offset} hores a partir d'ara a sa {location}
-quina hora serà d'aquí a {offset} hores a partir d'ara a {location}
-quina hora serà d'aquí a {offset} hores a partir d'ara al {location}
-quina hora serà d'aquí a {offset} hores a partir d'ara en {location}
-quina hora serà d'aquí a {offset} hores a sa {location}
-quina hora serà d'aquí a {offset} hores a {location}
-quina hora serà d'aquí a {offset} hores al {location}
-quina hora serà d'aquí a {offset} hores des d'ara a la {location}
-quina hora serà d'aquí a {offset} hores des d'ara a sa {location}
-quina hora serà d'aquí a {offset} hores des d'ara a {location}
-quina hora serà d'aquí a {offset} hores des d'ara al {location}
-quina hora serà d'aquí a {offset} hores des d'ara en {location}
-quina hora serà d'aquí a {offset} hores en {location}
-quina hora serà d'aquí a {offset} minut
-quina hora serà d'aquí a {offset} minut  a la {location}
-quina hora serà d'aquí a {offset} minut  a sa {location}
-quina hora serà d'aquí a {offset} minut  a {location}
-quina hora serà d'aquí a {offset} minut  al {location}
-quina hora serà d'aquí a {offset} minut  en {location}
-quina hora serà d'aquí a {offset} minut a la {location}
-quina hora serà d'aquí a {offset} minut a partir d'ara
-quina hora serà d'aquí a {offset} minut a partir d'ara a la {location}
-quina hora serà d'aquí a {offset} minut a partir d'ara a sa {location}
-quina hora serà d'aquí a {offset} minut a partir d'ara a {location}
-quina hora serà d'aquí a {offset} minut a partir d'ara al {location}
-quina hora serà d'aquí a {offset} minut a partir d'ara en {location}
-quina hora serà d'aquí a {offset} minut a sa {location}
-quina hora serà d'aquí a {offset} minut a {location}
-quina hora serà d'aquí a {offset} minut al {location}
-quina hora serà d'aquí a {offset} minut des d'ara
-quina hora serà d'aquí a {offset} minut des d'ara a la {location}
-quina hora serà d'aquí a {offset} minut des d'ara a sa {location}
-quina hora serà d'aquí a {offset} minut des d'ara a {location}
-quina hora serà d'aquí a {offset} minut des d'ara al {location}
-quina hora serà d'aquí a {offset} minut des d'ara en {location}
-quina hora serà d'aquí a {offset} minut en {location}
-quina hora serà d'aquí a {offset} minuts
-quina hora serà d'aquí a {offset} minuts  a la {location}
-quina hora serà d'aquí a {offset} minuts  a sa {location}
-quina hora serà d'aquí a {offset} minuts  a {location}
-quina hora serà d'aquí a {offset} minuts  al {location}
-quina hora serà d'aquí a {offset} minuts  en {location}
-quina hora serà d'aquí a {offset} minuts a la {location}
-quina hora serà d'aquí a {offset} minuts a partir d'ara
-quina hora serà d'aquí a {offset} minuts a partir d'ara a la {location}
-quina hora serà d'aquí a {offset} minuts a partir d'ara a sa {location}
-quina hora serà d'aquí a {offset} minuts a partir d'ara a {location}
-quina hora serà d'aquí a {offset} minuts a partir d'ara al {location}
-quina hora serà d'aquí a {offset} minuts a partir d'ara en {location}
-quina hora serà d'aquí a {offset} minuts a sa {location}
-quina hora serà d'aquí a {offset} minuts a {location}
-quina hora serà d'aquí a {offset} minuts al {location}
-quina hora serà d'aquí a {offset} minuts des d'ara
-quina hora serà d'aquí a {offset} minuts des d'ara a la {location}
-quina hora serà d'aquí a {offset} minuts des d'ara a sa {location}
-quina hora serà d'aquí a {offset} minuts des d'ara a {location}
-quina hora serà d'aquí a {offset} minuts des d'ara al {location}
-quina hora serà d'aquí a {offset} minuts des d'ara en {location}
-quina hora serà d'aquí a {offset} minuts en {location}
-quina hora serà d'aquí a {offset} segon
-quina hora serà d'aquí a {offset} segon  a la {location}
-quina hora serà d'aquí a {offset} segon  a sa {location}
-quina hora serà d'aquí a {offset} segon  a {location}
-quina hora serà d'aquí a {offset} segon  al {location}
-quina hora serà d'aquí a {offset} segon  en {location}
-quina hora serà d'aquí a {offset} segon a la {location}
-quina hora serà d'aquí a {offset} segon a partir d'ara
-quina hora serà d'aquí a {offset} segon a partir d'ara a la {location}
-quina hora serà d'aquí a {offset} segon a partir d'ara a sa {location}
-quina hora serà d'aquí a {offset} segon a partir d'ara a {location}
-quina hora serà d'aquí a {offset} segon a partir d'ara al {location}
-quina hora serà d'aquí a {offset} segon a partir d'ara en {location}
-quina hora serà d'aquí a {offset} segon a sa {location}
-quina hora serà d'aquí a {offset} segon a {location}
-quina hora serà d'aquí a {offset} segon al {location}
-quina hora serà d'aquí a {offset} segon des d'ara
-quina hora serà d'aquí a {offset} segon des d'ara a la {location}
-quina hora serà d'aquí a {offset} segon des d'ara a sa {location}
-quina hora serà d'aquí a {offset} segon des d'ara a {location}
-quina hora serà d'aquí a {offset} segon des d'ara al {location}
-quina hora serà d'aquí a {offset} segon des d'ara en {location}
-quina hora serà d'aquí a {offset} segon en {location}
-quina hora serà d'aquí a {offset} segons
-quina hora serà d'aquí a {offset} segons  a la {location}
-quina hora serà d'aquí a {offset} segons  a sa {location}
-quina hora serà d'aquí a {offset} segons  a {location}
-quina hora serà d'aquí a {offset} segons  al {location}
-quina hora serà d'aquí a {offset} segons  en {location}
-quina hora serà d'aquí a {offset} segons a la {location}
-quina hora serà d'aquí a {offset} segons a partir d'ara
-quina hora serà d'aquí a {offset} segons a partir d'ara a la {location}
-quina hora serà d'aquí a {offset} segons a partir d'ara a sa {location}
-quina hora serà d'aquí a {offset} segons a partir d'ara a {location}
-quina hora serà d'aquí a {offset} segons a partir d'ara al {location}
-quina hora serà d'aquí a {offset} segons a partir d'ara en {location}
-quina hora serà d'aquí a {offset} segons a sa {location}
-quina hora serà d'aquí a {offset} segons a {location}
-quina hora serà d'aquí a {offset} segons al {location}
-quina hora serà d'aquí a {offset} segons des d'ara
-quina hora serà d'aquí a {offset} segons des d'ara a la {location}
-quina hora serà d'aquí a {offset} segons des d'ara a sa {location}
-quina hora serà d'aquí a {offset} segons des d'ara a {location}
-quina hora serà d'aquí a {offset} segons des d'ara al {location}
-quina hora serà d'aquí a {offset} segons des d'ara en {location}
-quina hora serà d'aquí a {offset} segons en {location}
-quina hora serà en {offset} hora
-quina hora serà en {offset} hora  a la {location}
-quina hora serà en {offset} hora  a sa {location}
-quina hora serà en {offset} hora  a {location}
-quina hora serà en {offset} hora  al {location}
-quina hora serà en {offset} hora  en {location}
-quina hora serà en {offset} hora a la {location}
-quina hora serà en {offset} hora a partir d'ara
-quina hora serà en {offset} hora a partir d'ara a la {location}
-quina hora serà en {offset} hora a partir d'ara a sa {location}
-quina hora serà en {offset} hora a partir d'ara a {location}
-quina hora serà en {offset} hora a partir d'ara al {location}
-quina hora serà en {offset} hora a partir d'ara en {location}
-quina hora serà en {offset} hora a sa {location}
-quina hora serà en {offset} hora a {location}
-quina hora serà en {offset} hora al {location}
-quina hora serà en {offset} hora des d'ara
-quina hora serà en {offset} hora des d'ara a la {location}
-quina hora serà en {offset} hora des d'ara a sa {location}
-quina hora serà en {offset} hora des d'ara a {location}
-quina hora serà en {offset} hora des d'ara al {location}
-quina hora serà en {offset} hora des d'ara en {location}
-quina hora serà en {offset} hora en {location}
-quina hora serà en {offset} hores
-quina hora serà en {offset} hores  a la {location}
-quina hora serà en {offset} hores  a sa {location}
-quina hora serà en {offset} hores  a {location}
-quina hora serà en {offset} hores  al {location}
-quina hora serà en {offset} hores  en {location}
-quina hora serà en {offset} hores a la {location}
-quina hora serà en {offset} hores a partir d'ara a la {location}
-quina hora serà en {offset} hores a partir d'ara a sa {location}
-quina hora serà en {offset} hores a partir d'ara a {location}
-quina hora serà en {offset} hores a partir d'ara al {location}
-quina hora serà en {offset} hores a partir d'ara en {location}
-quina hora serà en {offset} hores a sa {location}
-quina hora serà en {offset} hores a {location}
-quina hora serà en {offset} hores al {location}
-quina hora serà en {offset} hores des d'ara a la {location}
-quina hora serà en {offset} hores des d'ara a sa {location}
-quina hora serà en {offset} hores des d'ara a {location}
-quina hora serà en {offset} hores des d'ara al {location}
-quina hora serà en {offset} hores des d'ara en {location}
-quina hora serà en {offset} hores en {location}
-quina hora serà en {offset} minut
-quina hora serà en {offset} minut  a la {location}
-quina hora serà en {offset} minut  a sa {location}
-quina hora serà en {offset} minut  a {location}
-quina hora serà en {offset} minut  al {location}
-quina hora serà en {offset} minut  en {location}
-quina hora serà en {offset} minut a la {location}
-quina hora serà en {offset} minut a partir d'ara
-quina hora serà en {offset} minut a partir d'ara a la {location}
-quina hora serà en {offset} minut a partir d'ara a sa {location}
-quina hora serà en {offset} minut a partir d'ara a {location}
-quina hora serà en {offset} minut a partir d'ara al {location}
-quina hora serà en {offset} minut a partir d'ara en {location}
-quina hora serà en {offset} minut a sa {location}
-quina hora serà en {offset} minut a {location}
-quina hora serà en {offset} minut al {location}
-quina hora serà en {offset} minut des d'ara
-quina hora serà en {offset} minut des d'ara a la {location}
-quina hora serà en {offset} minut des d'ara a sa {location}
-quina hora serà en {offset} minut des d'ara a {location}
-quina hora serà en {offset} minut des d'ara al {location}
-quina hora serà en {offset} minut des d'ara en {location}
-quina hora serà en {offset} minut en {location}
-quina hora serà en {offset} minuts
-quina hora serà en {offset} minuts  a la {location}
-quina hora serà en {offset} minuts  a sa {location}
-quina hora serà en {offset} minuts  a {location}
-quina hora serà en {offset} minuts  al {location}
-quina hora serà en {offset} minuts  en {location}
-quina hora serà en {offset} minuts a la {location}
-quina hora serà en {offset} minuts a partir d'ara
-quina hora serà en {offset} minuts a partir d'ara a la {location}
-quina hora serà en {offset} minuts a partir d'ara a sa {location}
-quina hora serà en {offset} minuts a partir d'ara a {location}
-quina hora serà en {offset} minuts a partir d'ara al {location}
-quina hora serà en {offset} minuts a partir d'ara en {location}
-quina hora serà en {offset} minuts a sa {location}
-quina hora serà en {offset} minuts a {location}
-quina hora serà en {offset} minuts al {location}
-quina hora serà en {offset} minuts des d'ara
-quina hora serà en {offset} minuts des d'ara a la {location}
-quina hora serà en {offset} minuts des d'ara a sa {location}
-quina hora serà en {offset} minuts des d'ara a {location}
-quina hora serà en {offset} minuts des d'ara al {location}
-quina hora serà en {offset} minuts des d'ara en {location}
-quina hora serà en {offset} minuts en {location}
-quina hora serà en {offset} segon
-quina hora serà en {offset} segon  a la {location}
-quina hora serà en {offset} segon  a sa {location}
-quina hora serà en {offset} segon  a {location}
-quina hora serà en {offset} segon  al {location}
-quina hora serà en {offset} segon  en {location}
-quina hora serà en {offset} segon a la {location}
-quina hora serà en {offset} segon a partir d'ara
-quina hora serà en {offset} segon a partir d'ara a la {location}
-quina hora serà en {offset} segon a partir d'ara a sa {location}
-quina hora serà en {offset} segon a partir d'ara a {location}
-quina hora serà en {offset} segon a partir d'ara al {location}
-quina hora serà en {offset} segon a partir d'ara en {location}
-quina hora serà en {offset} segon a sa {location}
-quina hora serà en {offset} segon a {location}
-quina hora serà en {offset} segon al {location}
-quina hora serà en {offset} segon des d'ara
-quina hora serà en {offset} segon des d'ara a la {location}
-quina hora serà en {offset} segon des d'ara a sa {location}
-quina hora serà en {offset} segon des d'ara a {location}
-quina hora serà en {offset} segon des d'ara al {location}
-quina hora serà en {offset} segon des d'ara en {location}
-quina hora serà en {offset} segon en {location}
-quina hora serà en {offset} segons
-quina hora serà en {offset} segons  a la {location}
-quina hora serà en {offset} segons  a sa {location}
-quina hora serà en {offset} segons  a {location}
-quina hora serà en {offset} segons  al {location}
-quina hora serà en {offset} segons  en {location}
-quina hora serà en {offset} segons a la {location}
-quina hora serà en {offset} segons a partir d'ara
-quina hora serà en {offset} segons a partir d'ara a la {location}
-quina hora serà en {offset} segons a partir d'ara a sa {location}
-quina hora serà en {offset} segons a partir d'ara a {location}
-quina hora serà en {offset} segons a partir d'ara al {location}
-quina hora serà en {offset} segons a partir d'ara en {location}
-quina hora serà en {offset} segons a sa {location}
-quina hora serà en {offset} segons a {location}
-quina hora serà en {offset} segons al {location}
-quina hora serà en {offset} segons des d'ara
-quina hora serà en {offset} segons des d'ara a la {location}
-quina hora serà en {offset} segons des d'ara a sa {location}
-quina hora serà en {offset} segons des d'ara a {location}
-quina hora serà en {offset} segons des d'ara al {location}
-quina hora serà en {offset} segons des d'ara en {location}
-quina hora serà en {offset} segons en {location}
-quina hora tindrem  {offset} hora
-quina hora tindrem  {offset} hora  a la {location}
-quina hora tindrem  {offset} hora  a sa {location}
-quina hora tindrem  {offset} hora  a {location}
-quina hora tindrem  {offset} hora  al {location}
-quina hora tindrem  {offset} hora  en {location}
-quina hora tindrem  {offset} hora a la {location}
-quina hora tindrem  {offset} hora a partir d'ara
-quina hora tindrem  {offset} hora a partir d'ara a la {location}
-quina hora tindrem  {offset} hora a partir d'ara a sa {location}
-quina hora tindrem  {offset} hora a partir d'ara a {location}
-quina hora tindrem  {offset} hora a partir d'ara al {location}
-quina hora tindrem  {offset} hora a partir d'ara en {location}
-quina hora tindrem  {offset} hora a sa {location}
-quina hora tindrem  {offset} hora a {location}
-quina hora tindrem  {offset} hora al {location}
-quina hora tindrem  {offset} hora des d'ara
-quina hora tindrem  {offset} hora des d'ara a la {location}
-quina hora tindrem  {offset} hora des d'ara a sa {location}
-quina hora tindrem  {offset} hora des d'ara a {location}
-quina hora tindrem  {offset} hora des d'ara al {location}
-quina hora tindrem  {offset} hora des d'ara en {location}
-quina hora tindrem  {offset} hora en {location}
-quina hora tindrem  {offset} hores
-quina hora tindrem  {offset} hores  a la {location}
-quina hora tindrem  {offset} hores  a sa {location}
-quina hora tindrem  {offset} hores  a {location}
-quina hora tindrem  {offset} hores  al {location}
-quina hora tindrem  {offset} hores  en {location}
-quina hora tindrem  {offset} hores a la {location}
-quina hora tindrem  {offset} hores a partir d'ara a la {location}
-quina hora tindrem  {offset} hores a partir d'ara a sa {location}
-quina hora tindrem  {offset} hores a partir d'ara a {location}
-quina hora tindrem  {offset} hores a partir d'ara al {location}
-quina hora tindrem  {offset} hores a partir d'ara en {location}
-quina hora tindrem  {offset} hores a sa {location}
-quina hora tindrem  {offset} hores a {location}
-quina hora tindrem  {offset} hores al {location}
-quina hora tindrem  {offset} hores des d'ara a la {location}
-quina hora tindrem  {offset} hores des d'ara a sa {location}
-quina hora tindrem  {offset} hores des d'ara a {location}
-quina hora tindrem  {offset} hores des d'ara al {location}
-quina hora tindrem  {offset} hores des d'ara en {location}
-quina hora tindrem  {offset} hores en {location}
-quina hora tindrem  {offset} minut
-quina hora tindrem  {offset} minut  a la {location}
-quina hora tindrem  {offset} minut  a sa {location}
-quina hora tindrem  {offset} minut  a {location}
-quina hora tindrem  {offset} minut  al {location}
-quina hora tindrem  {offset} minut  en {location}
-quina hora tindrem  {offset} minut a la {location}
-quina hora tindrem  {offset} minut a partir d'ara
-quina hora tindrem  {offset} minut a partir d'ara a la {location}
-quina hora tindrem  {offset} minut a partir d'ara a sa {location}
-quina hora tindrem  {offset} minut a partir d'ara a {location}
-quina hora tindrem  {offset} minut a partir d'ara al {location}
-quina hora tindrem  {offset} minut a partir d'ara en {location}
-quina hora tindrem  {offset} minut a sa {location}
-quina hora tindrem  {offset} minut a {location}
-quina hora tindrem  {offset} minut al {location}
-quina hora tindrem  {offset} minut des d'ara
-quina hora tindrem  {offset} minut des d'ara a la {location}
-quina hora tindrem  {offset} minut des d'ara a sa {location}
-quina hora tindrem  {offset} minut des d'ara a {location}
-quina hora tindrem  {offset} minut des d'ara al {location}
-quina hora tindrem  {offset} minut des d'ara en {location}
-quina hora tindrem  {offset} minut en {location}
-quina hora tindrem  {offset} minuts
-quina hora tindrem  {offset} minuts  a la {location}
-quina hora tindrem  {offset} minuts  a sa {location}
-quina hora tindrem  {offset} minuts  a {location}
-quina hora tindrem  {offset} minuts  al {location}
-quina hora tindrem  {offset} minuts  en {location}
-quina hora tindrem  {offset} minuts a la {location}
-quina hora tindrem  {offset} minuts a partir d'ara
-quina hora tindrem  {offset} minuts a partir d'ara a la {location}
-quina hora tindrem  {offset} minuts a partir d'ara a sa {location}
-quina hora tindrem  {offset} minuts a partir d'ara a {location}
-quina hora tindrem  {offset} minuts a partir d'ara al {location}
-quina hora tindrem  {offset} minuts a partir d'ara en {location}
-quina hora tindrem  {offset} minuts a sa {location}
-quina hora tindrem  {offset} minuts a {location}
-quina hora tindrem  {offset} minuts al {location}
-quina hora tindrem  {offset} minuts des d'ara
-quina hora tindrem  {offset} minuts des d'ara a la {location}
-quina hora tindrem  {offset} minuts des d'ara a sa {location}
-quina hora tindrem  {offset} minuts des d'ara a {location}
-quina hora tindrem  {offset} minuts des d'ara al {location}
-quina hora tindrem  {offset} minuts des d'ara en {location}
-quina hora tindrem  {offset} minuts en {location}
-quina hora tindrem  {offset} segon
-quina hora tindrem  {offset} segon  a la {location}
-quina hora tindrem  {offset} segon  a sa {location}
-quina hora tindrem  {offset} segon  a {location}
-quina hora tindrem  {offset} segon  al {location}
-quina hora tindrem  {offset} segon  en {location}
-quina hora tindrem  {offset} segon a la {location}
-quina hora tindrem  {offset} segon a partir d'ara
-quina hora tindrem  {offset} segon a partir d'ara a la {location}
-quina hora tindrem  {offset} segon a partir d'ara a sa {location}
-quina hora tindrem  {offset} segon a partir d'ara a {location}
-quina hora tindrem  {offset} segon a partir d'ara al {location}
-quina hora tindrem  {offset} segon a partir d'ara en {location}
-quina hora tindrem  {offset} segon a sa {location}
-quina hora tindrem  {offset} segon a {location}
-quina hora tindrem  {offset} segon al {location}
-quina hora tindrem  {offset} segon des d'ara
-quina hora tindrem  {offset} segon des d'ara a la {location}
-quina hora tindrem  {offset} segon des d'ara a sa {location}
-quina hora tindrem  {offset} segon des d'ara a {location}
-quina hora tindrem  {offset} segon des d'ara al {location}
-quina hora tindrem  {offset} segon des d'ara en {location}
-quina hora tindrem  {offset} segon en {location}
-quina hora tindrem  {offset} segons
-quina hora tindrem  {offset} segons  a la {location}
-quina hora tindrem  {offset} segons  a sa {location}
-quina hora tindrem  {offset} segons  a {location}
-quina hora tindrem  {offset} segons  al {location}
-quina hora tindrem  {offset} segons  en {location}
-quina hora tindrem  {offset} segons a la {location}
-quina hora tindrem  {offset} segons a partir d'ara
-quina hora tindrem  {offset} segons a partir d'ara a la {location}
-quina hora tindrem  {offset} segons a partir d'ara a sa {location}
-quina hora tindrem  {offset} segons a partir d'ara a {location}
-quina hora tindrem  {offset} segons a partir d'ara al {location}
-quina hora tindrem  {offset} segons a partir d'ara en {location}
-quina hora tindrem  {offset} segons a sa {location}
-quina hora tindrem  {offset} segons a {location}
-quina hora tindrem  {offset} segons al {location}
-quina hora tindrem  {offset} segons des d'ara
-quina hora tindrem  {offset} segons des d'ara a la {location}
-quina hora tindrem  {offset} segons des d'ara a sa {location}
-quina hora tindrem  {offset} segons des d'ara a {location}
-quina hora tindrem  {offset} segons des d'ara al {location}
-quina hora tindrem  {offset} segons des d'ara en {location}
-quina hora tindrem  {offset} segons en {location}
-quina hora tindrem d'aquí a {offset} hora
-quina hora tindrem d'aquí a {offset} hora  a la {location}
-quina hora tindrem d'aquí a {offset} hora  a sa {location}
-quina hora tindrem d'aquí a {offset} hora  a {location}
-quina hora tindrem d'aquí a {offset} hora  al {location}
-quina hora tindrem d'aquí a {offset} hora  en {location}
-quina hora tindrem d'aquí a {offset} hora a la {location}
-quina hora tindrem d'aquí a {offset} hora a partir d'ara
-quina hora tindrem d'aquí a {offset} hora a partir d'ara a la {location}
-quina hora tindrem d'aquí a {offset} hora a partir d'ara a sa {location}
-quina hora tindrem d'aquí a {offset} hora a partir d'ara a {location}
-quina hora tindrem d'aquí a {offset} hora a partir d'ara al {location}
-quina hora tindrem d'aquí a {offset} hora a partir d'ara en {location}
-quina hora tindrem d'aquí a {offset} hora a sa {location}
-quina hora tindrem d'aquí a {offset} hora a {location}
-quina hora tindrem d'aquí a {offset} hora al {location}
-quina hora tindrem d'aquí a {offset} hora des d'ara
-quina hora tindrem d'aquí a {offset} hora des d'ara a la {location}
-quina hora tindrem d'aquí a {offset} hora des d'ara a sa {location}
-quina hora tindrem d'aquí a {offset} hora des d'ara a {location}
-quina hora tindrem d'aquí a {offset} hora des d'ara al {location}
-quina hora tindrem d'aquí a {offset} hora des d'ara en {location}
-quina hora tindrem d'aquí a {offset} hora en {location}
-quina hora tindrem d'aquí a {offset} hores
-quina hora tindrem d'aquí a {offset} hores  a la {location}
-quina hora tindrem d'aquí a {offset} hores  a sa {location}
-quina hora tindrem d'aquí a {offset} hores  a {location}
-quina hora tindrem d'aquí a {offset} hores  al {location}
-quina hora tindrem d'aquí a {offset} hores  en {location}
-quina hora tindrem d'aquí a {offset} hores a la {location}
-quina hora tindrem d'aquí a {offset} hores a partir d'ara a la {location}
-quina hora tindrem d'aquí a {offset} hores a partir d'ara a sa {location}
-quina hora tindrem d'aquí a {offset} hores a partir d'ara a {location}
-quina hora tindrem d'aquí a {offset} hores a partir d'ara al {location}
-quina hora tindrem d'aquí a {offset} hores a partir d'ara en {location}
-quina hora tindrem d'aquí a {offset} hores a sa {location}
-quina hora tindrem d'aquí a {offset} hores a {location}
-quina hora tindrem d'aquí a {offset} hores al {location}
-quina hora tindrem d'aquí a {offset} hores des d'ara a la {location}
-quina hora tindrem d'aquí a {offset} hores des d'ara a sa {location}
-quina hora tindrem d'aquí a {offset} hores des d'ara a {location}
-quina hora tindrem d'aquí a {offset} hores des d'ara al {location}
-quina hora tindrem d'aquí a {offset} hores des d'ara en {location}
-quina hora tindrem d'aquí a {offset} hores en {location}
-quina hora tindrem d'aquí a {offset} minut
-quina hora tindrem d'aquí a {offset} minut  a la {location}
-quina hora tindrem d'aquí a {offset} minut  a sa {location}
-quina hora tindrem d'aquí a {offset} minut  a {location}
-quina hora tindrem d'aquí a {offset} minut  al {location}
-quina hora tindrem d'aquí a {offset} minut  en {location}
-quina hora tindrem d'aquí a {offset} minut a la {location}
-quina hora tindrem d'aquí a {offset} minut a partir d'ara
-quina hora tindrem d'aquí a {offset} minut a partir d'ara a la {location}
-quina hora tindrem d'aquí a {offset} minut a partir d'ara a sa {location}
-quina hora tindrem d'aquí a {offset} minut a partir d'ara a {location}
-quina hora tindrem d'aquí a {offset} minut a partir d'ara al {location}
-quina hora tindrem d'aquí a {offset} minut a partir d'ara en {location}
-quina hora tindrem d'aquí a {offset} minut a sa {location}
-quina hora tindrem d'aquí a {offset} minut a {location}
-quina hora tindrem d'aquí a {offset} minut al {location}
-quina hora tindrem d'aquí a {offset} minut des d'ara
-quina hora tindrem d'aquí a {offset} minut des d'ara a la {location}
-quina hora tindrem d'aquí a {offset} minut des d'ara a sa {location}
-quina hora tindrem d'aquí a {offset} minut des d'ara a {location}
-quina hora tindrem d'aquí a {offset} minut des d'ara al {location}
-quina hora tindrem d'aquí a {offset} minut des d'ara en {location}
-quina hora tindrem d'aquí a {offset} minut en {location}
-quina hora tindrem d'aquí a {offset} minuts
-quina hora tindrem d'aquí a {offset} minuts  a la {location}
-quina hora tindrem d'aquí a {offset} minuts  a sa {location}
-quina hora tindrem d'aquí a {offset} minuts  a {location}
-quina hora tindrem d'aquí a {offset} minuts  al {location}
-quina hora tindrem d'aquí a {offset} minuts  en {location}
-quina hora tindrem d'aquí a {offset} minuts a la {location}
-quina hora tindrem d'aquí a {offset} minuts a partir d'ara
-quina hora tindrem d'aquí a {offset} minuts a partir d'ara a la {location}
-quina hora tindrem d'aquí a {offset} minuts a partir d'ara a sa {location}
-quina hora tindrem d'aquí a {offset} minuts a partir d'ara a {location}
-quina hora tindrem d'aquí a {offset} minuts a partir d'ara al {location}
-quina hora tindrem d'aquí a {offset} minuts a partir d'ara en {location}
-quina hora tindrem d'aquí a {offset} minuts a sa {location}
-quina hora tindrem d'aquí a {offset} minuts a {location}
-quina hora tindrem d'aquí a {offset} minuts al {location}
-quina hora tindrem d'aquí a {offset} minuts des d'ara
-quina hora tindrem d'aquí a {offset} minuts des d'ara a la {location}
-quina hora tindrem d'aquí a {offset} minuts des d'ara a sa {location}
-quina hora tindrem d'aquí a {offset} minuts des d'ara a {location}
-quina hora tindrem d'aquí a {offset} minuts des d'ara al {location}
-quina hora tindrem d'aquí a {offset} minuts des d'ara en {location}
-quina hora tindrem d'aquí a {offset} minuts en {location}
-quina hora tindrem d'aquí a {offset} segon
-quina hora tindrem d'aquí a {offset} segon  a la {location}
-quina hora tindrem d'aquí a {offset} segon  a sa {location}
-quina hora tindrem d'aquí a {offset} segon  a {location}
-quina hora tindrem d'aquí a {offset} segon  al {location}
-quina hora tindrem d'aquí a {offset} segon  en {location}
-quina hora tindrem d'aquí a {offset} segon a la {location}
-quina hora tindrem d'aquí a {offset} segon a partir d'ara
-quina hora tindrem d'aquí a {offset} segon a partir d'ara a la {location}
-quina hora tindrem d'aquí a {offset} segon a partir d'ara a sa {location}
-quina hora tindrem d'aquí a {offset} segon a partir d'ara a {location}
-quina hora tindrem d'aquí a {offset} segon a partir d'ara al {location}
-quina hora tindrem d'aquí a {offset} segon a partir d'ara en {location}
-quina hora tindrem d'aquí a {offset} segon a sa {location}
-quina hora tindrem d'aquí a {offset} segon a {location}
-quina hora tindrem d'aquí a {offset} segon al {location}
-quina hora tindrem d'aquí a {offset} segon des d'ara
-quina hora tindrem d'aquí a {offset} segon des d'ara a la {location}
-quina hora tindrem d'aquí a {offset} segon des d'ara a sa {location}
-quina hora tindrem d'aquí a {offset} segon des d'ara a {location}
-quina hora tindrem d'aquí a {offset} segon des d'ara al {location}
-quina hora tindrem d'aquí a {offset} segon des d'ara en {location}
-quina hora tindrem d'aquí a {offset} segon en {location}
-quina hora tindrem d'aquí a {offset} segons
-quina hora tindrem d'aquí a {offset} segons  a la {location}
-quina hora tindrem d'aquí a {offset} segons  a sa {location}
-quina hora tindrem d'aquí a {offset} segons  a {location}
-quina hora tindrem d'aquí a {offset} segons  al {location}
-quina hora tindrem d'aquí a {offset} segons  en {location}
-quina hora tindrem d'aquí a {offset} segons a la {location}
-quina hora tindrem d'aquí a {offset} segons a partir d'ara
-quina hora tindrem d'aquí a {offset} segons a partir d'ara a la {location}
-quina hora tindrem d'aquí a {offset} segons a partir d'ara a sa {location}
-quina hora tindrem d'aquí a {offset} segons a partir d'ara a {location}
-quina hora tindrem d'aquí a {offset} segons a partir d'ara al {location}
-quina hora tindrem d'aquí a {offset} segons a partir d'ara en {location}
-quina hora tindrem d'aquí a {offset} segons a sa {location}
-quina hora tindrem d'aquí a {offset} segons a {location}
-quina hora tindrem d'aquí a {offset} segons al {location}
-quina hora tindrem d'aquí a {offset} segons des d'ara
-quina hora tindrem d'aquí a {offset} segons des d'ara a la {location}
-quina hora tindrem d'aquí a {offset} segons des d'ara a sa {location}
-quina hora tindrem d'aquí a {offset} segons des d'ara a {location}
-quina hora tindrem d'aquí a {offset} segons des d'ara al {location}
-quina hora tindrem d'aquí a {offset} segons des d'ara en {location}
-quina hora tindrem d'aquí a {offset} segons en {location}
-quina hora tindrem en {offset} hora
-quina hora tindrem en {offset} hora  a la {location}
-quina hora tindrem en {offset} hora  a sa {location}
-quina hora tindrem en {offset} hora  a {location}
-quina hora tindrem en {offset} hora  al {location}
-quina hora tindrem en {offset} hora  en {location}
-quina hora tindrem en {offset} hora a la {location}
-quina hora tindrem en {offset} hora a partir d'ara
-quina hora tindrem en {offset} hora a partir d'ara a la {location}
-quina hora tindrem en {offset} hora a partir d'ara a sa {location}
-quina hora tindrem en {offset} hora a partir d'ara a {location}
-quina hora tindrem en {offset} hora a partir d'ara al {location}
-quina hora tindrem en {offset} hora a partir d'ara en {location}
-quina hora tindrem en {offset} hora a sa {location}
-quina hora tindrem en {offset} hora a {location}
-quina hora tindrem en {offset} hora al {location}
-quina hora tindrem en {offset} hora des d'ara
-quina hora tindrem en {offset} hora des d'ara a la {location}
-quina hora tindrem en {offset} hora des d'ara a sa {location}
-quina hora tindrem en {offset} hora des d'ara a {location}
-quina hora tindrem en {offset} hora des d'ara al {location}
-quina hora tindrem en {offset} hora des d'ara en {location}
-quina hora tindrem en {offset} hora en {location}
-quina hora tindrem en {offset} hores
-quina hora tindrem en {offset} hores  a la {location}
-quina hora tindrem en {offset} hores  a sa {location}
-quina hora tindrem en {offset} hores  a {location}
-quina hora tindrem en {offset} hores  al {location}
-quina hora tindrem en {offset} hores  en {location}
-quina hora tindrem en {offset} hores a la {location}
-quina hora tindrem en {offset} hores a partir d'ara a la {location}
-quina hora tindrem en {offset} hores a partir d'ara a sa {location}
-quina hora tindrem en {offset} hores a partir d'ara a {location}
-quina hora tindrem en {offset} hores a partir d'ara al {location}
-quina hora tindrem en {offset} hores a partir d'ara en {location}
-quina hora tindrem en {offset} hores a sa {location}
-quina hora tindrem en {offset} hores a {location}
-quina hora tindrem en {offset} hores al {location}
-quina hora tindrem en {offset} hores des d'ara a la {location}
-quina hora tindrem en {offset} hores des d'ara a sa {location}
-quina hora tindrem en {offset} hores des d'ara a {location}
-quina hora tindrem en {offset} hores des d'ara al {location}
-quina hora tindrem en {offset} hores des d'ara en {location}
-quina hora tindrem en {offset} hores en {location}
-quina hora tindrem en {offset} minut
-quina hora tindrem en {offset} minut  a la {location}
-quina hora tindrem en {offset} minut  a sa {location}
-quina hora tindrem en {offset} minut  a {location}
-quina hora tindrem en {offset} minut  al {location}
-quina hora tindrem en {offset} minut  en {location}
-quina hora tindrem en {offset} minut a la {location}
-quina hora tindrem en {offset} minut a partir d'ara
-quina hora tindrem en {offset} minut a partir d'ara a la {location}
-quina hora tindrem en {offset} minut a partir d'ara a sa {location}
-quina hora tindrem en {offset} minut a partir d'ara a {location}
-quina hora tindrem en {offset} minut a partir d'ara al {location}
-quina hora tindrem en {offset} minut a partir d'ara en {location}
-quina hora tindrem en {offset} minut a sa {location}
-quina hora tindrem en {offset} minut a {location}
-quina hora tindrem en {offset} minut al {location}
-quina hora tindrem en {offset} minut des d'ara
-quina hora tindrem en {offset} minut des d'ara a la {location}
-quina hora tindrem en {offset} minut des d'ara a sa {location}
-quina hora tindrem en {offset} minut des d'ara a {location}
-quina hora tindrem en {offset} minut des d'ara al {location}
-quina hora tindrem en {offset} minut des d'ara en {location}
-quina hora tindrem en {offset} minut en {location}
-quina hora tindrem en {offset} minuts
-quina hora tindrem en {offset} minuts  a la {location}
-quina hora tindrem en {offset} minuts  a sa {location}
-quina hora tindrem en {offset} minuts  a {location}
-quina hora tindrem en {offset} minuts  al {location}
-quina hora tindrem en {offset} minuts  en {location}
-quina hora tindrem en {offset} minuts a la {location}
-quina hora tindrem en {offset} minuts a partir d'ara
-quina hora tindrem en {offset} minuts a partir d'ara a la {location}
-quina hora tindrem en {offset} minuts a partir d'ara a sa {location}
-quina hora tindrem en {offset} minuts a partir d'ara a {location}
-quina hora tindrem en {offset} minuts a partir d'ara al {location}
-quina hora tindrem en {offset} minuts a partir d'ara en {location}
-quina hora tindrem en {offset} minuts a sa {location}
-quina hora tindrem en {offset} minuts a {location}
-quina hora tindrem en {offset} minuts al {location}
-quina hora tindrem en {offset} minuts des d'ara
-quina hora tindrem en {offset} minuts des d'ara a la {location}
-quina hora tindrem en {offset} minuts des d'ara a sa {location}
-quina hora tindrem en {offset} minuts des d'ara a {location}
-quina hora tindrem en {offset} minuts des d'ara al {location}
-quina hora tindrem en {offset} minuts des d'ara en {location}
-quina hora tindrem en {offset} minuts en {location}
-quina hora tindrem en {offset} segon
-quina hora tindrem en {offset} segon  a la {location}
-quina hora tindrem en {offset} segon  a sa {location}
-quina hora tindrem en {offset} segon  a {location}
-quina hora tindrem en {offset} segon  al {location}
-quina hora tindrem en {offset} segon  en {location}
-quina hora tindrem en {offset} segon a la {location}
-quina hora tindrem en {offset} segon a partir d'ara
-quina hora tindrem en {offset} segon a partir d'ara a la {location}
-quina hora tindrem en {offset} segon a partir d'ara a sa {location}
-quina hora tindrem en {offset} segon a partir d'ara a {location}
-quina hora tindrem en {offset} segon a partir d'ara al {location}
-quina hora tindrem en {offset} segon a partir d'ara en {location}
-quina hora tindrem en {offset} segon a sa {location}
-quina hora tindrem en {offset} segon a {location}
-quina hora tindrem en {offset} segon al {location}
-quina hora tindrem en {offset} segon des d'ara
-quina hora tindrem en {offset} segon des d'ara a la {location}
-quina hora tindrem en {offset} segon des d'ara a sa {location}
-quina hora tindrem en {offset} segon des d'ara a {location}
-quina hora tindrem en {offset} segon des d'ara al {location}
-quina hora tindrem en {offset} segon des d'ara en {location}
-quina hora tindrem en {offset} segon en {location}
-quina hora tindrem en {offset} segons
-quina hora tindrem en {offset} segons  a la {location}
-quina hora tindrem en {offset} segons  a sa {location}
-quina hora tindrem en {offset} segons  a {location}
-quina hora tindrem en {offset} segons  al {location}
-quina hora tindrem en {offset} segons  en {location}
-quina hora tindrem en {offset} segons a la {location}
-quina hora tindrem en {offset} segons a partir d'ara
-quina hora tindrem en {offset} segons a partir d'ara a la {location}
-quina hora tindrem en {offset} segons a partir d'ara a sa {location}
-quina hora tindrem en {offset} segons a partir d'ara a {location}
-quina hora tindrem en {offset} segons a partir d'ara al {location}
-quina hora tindrem en {offset} segons a partir d'ara en {location}
-quina hora tindrem en {offset} segons a sa {location}
-quina hora tindrem en {offset} segons a {location}
-quina hora tindrem en {offset} segons al {location}
-quina hora tindrem en {offset} segons des d'ara
-quina hora tindrem en {offset} segons des d'ara a la {location}
-quina hora tindrem en {offset} segons des d'ara a sa {location}
-quina hora tindrem en {offset} segons des d'ara a {location}
-quina hora tindrem en {offset} segons des d'ara al {location}
-quina hora tindrem en {offset} segons des d'ara en {location}
-quina hora tindrem en {offset} segons en {location}
-quina hora és  {offset} hora
-quina hora és  {offset} hora  a la {location}
-quina hora és  {offset} hora  a sa {location}
-quina hora és  {offset} hora  a {location}
-quina hora és  {offset} hora  al {location}
-quina hora és  {offset} hora  en {location}
-quina hora és  {offset} hora a la {location}
-quina hora és  {offset} hora a partir d'ara
-quina hora és  {offset} hora a partir d'ara a la {location}
-quina hora és  {offset} hora a partir d'ara a sa {location}
-quina hora és  {offset} hora a partir d'ara a {location}
-quina hora és  {offset} hora a partir d'ara al {location}
-quina hora és  {offset} hora a partir d'ara en {location}
-quina hora és  {offset} hora a sa {location}
-quina hora és  {offset} hora a {location}
-quina hora és  {offset} hora al {location}
-quina hora és  {offset} hora des d'ara
-quina hora és  {offset} hora des d'ara a la {location}
-quina hora és  {offset} hora des d'ara a sa {location}
-quina hora és  {offset} hora des d'ara a {location}
-quina hora és  {offset} hora des d'ara al {location}
-quina hora és  {offset} hora des d'ara en {location}
-quina hora és  {offset} hora en {location}
-quina hora és  {offset} hores
-quina hora és  {offset} hores  a la {location}
-quina hora és  {offset} hores  a sa {location}
-quina hora és  {offset} hores  a {location}
-quina hora és  {offset} hores  al {location}
-quina hora és  {offset} hores  en {location}
-quina hora és  {offset} hores a la {location}
-quina hora és  {offset} hores a partir d'ara a la {location}
-quina hora és  {offset} hores a partir d'ara a sa {location}
-quina hora és  {offset} hores a partir d'ara a {location}
-quina hora és  {offset} hores a partir d'ara al {location}
-quina hora és  {offset} hores a partir d'ara en {location}
-quina hora és  {offset} hores a sa {location}
-quina hora és  {offset} hores a {location}
-quina hora és  {offset} hores al {location}
-quina hora és  {offset} hores des d'ara a la {location}
-quina hora és  {offset} hores des d'ara a sa {location}
-quina hora és  {offset} hores des d'ara a {location}
-quina hora és  {offset} hores des d'ara al {location}
-quina hora és  {offset} hores des d'ara en {location}
-quina hora és  {offset} hores en {location}
-quina hora és  {offset} minut
-quina hora és  {offset} minut  a la {location}
-quina hora és  {offset} minut  a sa {location}
-quina hora és  {offset} minut  a {location}
-quina hora és  {offset} minut  al {location}
-quina hora és  {offset} minut  en {location}
-quina hora és  {offset} minut a la {location}
-quina hora és  {offset} minut a partir d'ara
-quina hora és  {offset} minut a partir d'ara a la {location}
-quina hora és  {offset} minut a partir d'ara a sa {location}
-quina hora és  {offset} minut a partir d'ara a {location}
-quina hora és  {offset} minut a partir d'ara al {location}
-quina hora és  {offset} minut a partir d'ara en {location}
-quina hora és  {offset} minut a sa {location}
-quina hora és  {offset} minut a {location}
-quina hora és  {offset} minut al {location}
-quina hora és  {offset} minut des d'ara
-quina hora és  {offset} minut des d'ara a la {location}
-quina hora és  {offset} minut des d'ara a sa {location}
-quina hora és  {offset} minut des d'ara a {location}
-quina hora és  {offset} minut des d'ara al {location}
-quina hora és  {offset} minut des d'ara en {location}
-quina hora és  {offset} minut en {location}
-quina hora és  {offset} minuts
-quina hora és  {offset} minuts  a la {location}
-quina hora és  {offset} minuts  a sa {location}
-quina hora és  {offset} minuts  a {location}
-quina hora és  {offset} minuts  al {location}
-quina hora és  {offset} minuts  en {location}
-quina hora és  {offset} minuts a la {location}
-quina hora és  {offset} minuts a partir d'ara
-quina hora és  {offset} minuts a partir d'ara a la {location}
-quina hora és  {offset} minuts a partir d'ara a sa {location}
-quina hora és  {offset} minuts a partir d'ara a {location}
-quina hora és  {offset} minuts a partir d'ara al {location}
-quina hora és  {offset} minuts a partir d'ara en {location}
-quina hora és  {offset} minuts a sa {location}
-quina hora és  {offset} minuts a {location}
-quina hora és  {offset} minuts al {location}
-quina hora és  {offset} minuts des d'ara
-quina hora és  {offset} minuts des d'ara a la {location}
-quina hora és  {offset} minuts des d'ara a sa {location}
-quina hora és  {offset} minuts des d'ara a {location}
-quina hora és  {offset} minuts des d'ara al {location}
-quina hora és  {offset} minuts des d'ara en {location}
-quina hora és  {offset} minuts en {location}
-quina hora és  {offset} segon
-quina hora és  {offset} segon  a la {location}
-quina hora és  {offset} segon  a sa {location}
-quina hora és  {offset} segon  a {location}
-quina hora és  {offset} segon  al {location}
-quina hora és  {offset} segon  en {location}
-quina hora és  {offset} segon a la {location}
-quina hora és  {offset} segon a partir d'ara
-quina hora és  {offset} segon a partir d'ara a la {location}
-quina hora és  {offset} segon a partir d'ara a sa {location}
-quina hora és  {offset} segon a partir d'ara a {location}
-quina hora és  {offset} segon a partir d'ara al {location}
-quina hora és  {offset} segon a partir d'ara en {location}
-quina hora és  {offset} segon a sa {location}
-quina hora és  {offset} segon a {location}
-quina hora és  {offset} segon al {location}
-quina hora és  {offset} segon des d'ara
-quina hora és  {offset} segon des d'ara a la {location}
-quina hora és  {offset} segon des d'ara a sa {location}
-quina hora és  {offset} segon des d'ara a {location}
-quina hora és  {offset} segon des d'ara al {location}
-quina hora és  {offset} segon des d'ara en {location}
-quina hora és  {offset} segon en {location}
-quina hora és  {offset} segons
-quina hora és  {offset} segons  a la {location}
-quina hora és  {offset} segons  a sa {location}
-quina hora és  {offset} segons  a {location}
-quina hora és  {offset} segons  al {location}
-quina hora és  {offset} segons  en {location}
-quina hora és  {offset} segons a la {location}
-quina hora és  {offset} segons a partir d'ara
-quina hora és  {offset} segons a partir d'ara a la {location}
-quina hora és  {offset} segons a partir d'ara a sa {location}
-quina hora és  {offset} segons a partir d'ara a {location}
-quina hora és  {offset} segons a partir d'ara al {location}
-quina hora és  {offset} segons a partir d'ara en {location}
-quina hora és  {offset} segons a sa {location}
-quina hora és  {offset} segons a {location}
-quina hora és  {offset} segons al {location}
-quina hora és  {offset} segons des d'ara
-quina hora és  {offset} segons des d'ara a la {location}
-quina hora és  {offset} segons des d'ara a sa {location}
-quina hora és  {offset} segons des d'ara a {location}
-quina hora és  {offset} segons des d'ara al {location}
-quina hora és  {offset} segons des d'ara en {location}
-quina hora és  {offset} segons en {location}
-quina hora és d'aquí a {offset} hora
-quina hora és d'aquí a {offset} hora  a la {location}
-quina hora és d'aquí a {offset} hora  a sa {location}
-quina hora és d'aquí a {offset} hora  a {location}
-quina hora és d'aquí a {offset} hora  al {location}
-quina hora és d'aquí a {offset} hora  en {location}
-quina hora és d'aquí a {offset} hora a la {location}
-quina hora és d'aquí a {offset} hora a partir d'ara
-quina hora és d'aquí a {offset} hora a partir d'ara a la {location}
-quina hora és d'aquí a {offset} hora a partir d'ara a sa {location}
-quina hora és d'aquí a {offset} hora a partir d'ara a {location}
-quina hora és d'aquí a {offset} hora a partir d'ara al {location}
-quina hora és d'aquí a {offset} hora a partir d'ara en {location}
-quina hora és d'aquí a {offset} hora a sa {location}
-quina hora és d'aquí a {offset} hora a {location}
-quina hora és d'aquí a {offset} hora al {location}
-quina hora és d'aquí a {offset} hora des d'ara
-quina hora és d'aquí a {offset} hora des d'ara a la {location}
-quina hora és d'aquí a {offset} hora des d'ara a sa {location}
-quina hora és d'aquí a {offset} hora des d'ara a {location}
-quina hora és d'aquí a {offset} hora des d'ara al {location}
-quina hora és d'aquí a {offset} hora des d'ara en {location}
-quina hora és d'aquí a {offset} hora en {location}
-quina hora és d'aquí a {offset} hores
-quina hora és d'aquí a {offset} hores  a la {location}
-quina hora és d'aquí a {offset} hores  a sa {location}
-quina hora és d'aquí a {offset} hores  a {location}
-quina hora és d'aquí a {offset} hores  al {location}
-quina hora és d'aquí a {offset} hores  en {location}
-quina hora és d'aquí a {offset} hores a la {location}
-quina hora és d'aquí a {offset} hores a partir d'ara a la {location}
-quina hora és d'aquí a {offset} hores a partir d'ara a sa {location}
-quina hora és d'aquí a {offset} hores a partir d'ara a {location}
-quina hora és d'aquí a {offset} hores a partir d'ara al {location}
-quina hora és d'aquí a {offset} hores a partir d'ara en {location}
-quina hora és d'aquí a {offset} hores a sa {location}
-quina hora és d'aquí a {offset} hores a {location}
-quina hora és d'aquí a {offset} hores al {location}
-quina hora és d'aquí a {offset} hores des d'ara a la {location}
-quina hora és d'aquí a {offset} hores des d'ara a sa {location}
-quina hora és d'aquí a {offset} hores des d'ara a {location}
-quina hora és d'aquí a {offset} hores des d'ara al {location}
-quina hora és d'aquí a {offset} hores des d'ara en {location}
-quina hora és d'aquí a {offset} hores en {location}
-quina hora és d'aquí a {offset} minut
-quina hora és d'aquí a {offset} minut  a la {location}
-quina hora és d'aquí a {offset} minut  a sa {location}
-quina hora és d'aquí a {offset} minut  a {location}
-quina hora és d'aquí a {offset} minut  al {location}
-quina hora és d'aquí a {offset} minut  en {location}
-quina hora és d'aquí a {offset} minut a la {location}
-quina hora és d'aquí a {offset} minut a partir d'ara
-quina hora és d'aquí a {offset} minut a partir d'ara a la {location}
-quina hora és d'aquí a {offset} minut a partir d'ara a sa {location}
-quina hora és d'aquí a {offset} minut a partir d'ara a {location}
-quina hora és d'aquí a {offset} minut a partir d'ara al {location}
-quina hora és d'aquí a {offset} minut a partir d'ara en {location}
-quina hora és d'aquí a {offset} minut a sa {location}
-quina hora és d'aquí a {offset} minut a {location}
-quina hora és d'aquí a {offset} minut al {location}
-quina hora és d'aquí a {offset} minut des d'ara
-quina hora és d'aquí a {offset} minut des d'ara a la {location}
-quina hora és d'aquí a {offset} minut des d'ara a sa {location}
-quina hora és d'aquí a {offset} minut des d'ara a {location}
-quina hora és d'aquí a {offset} minut des d'ara al {location}
-quina hora és d'aquí a {offset} minut des d'ara en {location}
-quina hora és d'aquí a {offset} minut en {location}
-quina hora és d'aquí a {offset} minuts
-quina hora és d'aquí a {offset} minuts  a la {location}
-quina hora és d'aquí a {offset} minuts  a sa {location}
-quina hora és d'aquí a {offset} minuts  a {location}
-quina hora és d'aquí a {offset} minuts  al {location}
-quina hora és d'aquí a {offset} minuts  en {location}
-quina hora és d'aquí a {offset} minuts a la {location}
-quina hora és d'aquí a {offset} minuts a partir d'ara
-quina hora és d'aquí a {offset} minuts a partir d'ara a la {location}
-quina hora és d'aquí a {offset} minuts a partir d'ara a sa {location}
-quina hora és d'aquí a {offset} minuts a partir d'ara a {location}
-quina hora és d'aquí a {offset} minuts a partir d'ara al {location}
-quina hora és d'aquí a {offset} minuts a partir d'ara en {location}
-quina hora és d'aquí a {offset} minuts a sa {location}
-quina hora és d'aquí a {offset} minuts a {location}
-quina hora és d'aquí a {offset} minuts al {location}
-quina hora és d'aquí a {offset} minuts des d'ara
-quina hora és d'aquí a {offset} minuts des d'ara a la {location}
-quina hora és d'aquí a {offset} minuts des d'ara a sa {location}
-quina hora és d'aquí a {offset} minuts des d'ara a {location}
-quina hora és d'aquí a {offset} minuts des d'ara al {location}
-quina hora és d'aquí a {offset} minuts des d'ara en {location}
-quina hora és d'aquí a {offset} minuts en {location}
-quina hora és d'aquí a {offset} segon
-quina hora és d'aquí a {offset} segon  a la {location}
-quina hora és d'aquí a {offset} segon  a sa {location}
-quina hora és d'aquí a {offset} segon  a {location}
-quina hora és d'aquí a {offset} segon  al {location}
-quina hora és d'aquí a {offset} segon  en {location}
-quina hora és d'aquí a {offset} segon a la {location}
-quina hora és d'aquí a {offset} segon a partir d'ara
-quina hora és d'aquí a {offset} segon a partir d'ara a la {location}
-quina hora és d'aquí a {offset} segon a partir d'ara a sa {location}
-quina hora és d'aquí a {offset} segon a partir d'ara a {location}
-quina hora és d'aquí a {offset} segon a partir d'ara al {location}
-quina hora és d'aquí a {offset} segon a partir d'ara en {location}
-quina hora és d'aquí a {offset} segon a sa {location}
-quina hora és d'aquí a {offset} segon a {location}
-quina hora és d'aquí a {offset} segon al {location}
-quina hora és d'aquí a {offset} segon des d'ara
-quina hora és d'aquí a {offset} segon des d'ara a la {location}
-quina hora és d'aquí a {offset} segon des d'ara a sa {location}
-quina hora és d'aquí a {offset} segon des d'ara a {location}
-quina hora és d'aquí a {offset} segon des d'ara al {location}
-quina hora és d'aquí a {offset} segon des d'ara en {location}
-quina hora és d'aquí a {offset} segon en {location}
-quina hora és d'aquí a {offset} segons
-quina hora és d'aquí a {offset} segons  a la {location}
-quina hora és d'aquí a {offset} segons  a sa {location}
-quina hora és d'aquí a {offset} segons  a {location}
-quina hora és d'aquí a {offset} segons  al {location}
-quina hora és d'aquí a {offset} segons  en {location}
-quina hora és d'aquí a {offset} segons a la {location}
-quina hora és d'aquí a {offset} segons a partir d'ara
-quina hora és d'aquí a {offset} segons a partir d'ara a la {location}
-quina hora és d'aquí a {offset} segons a partir d'ara a sa {location}
-quina hora és d'aquí a {offset} segons a partir d'ara a {location}
-quina hora és d'aquí a {offset} segons a partir d'ara al {location}
-quina hora és d'aquí a {offset} segons a partir d'ara en {location}
-quina hora és d'aquí a {offset} segons a sa {location}
-quina hora és d'aquí a {offset} segons a {location}
-quina hora és d'aquí a {offset} segons al {location}
-quina hora és d'aquí a {offset} segons des d'ara
-quina hora és d'aquí a {offset} segons des d'ara a la {location}
-quina hora és d'aquí a {offset} segons des d'ara a sa {location}
-quina hora és d'aquí a {offset} segons des d'ara a {location}
-quina hora és d'aquí a {offset} segons des d'ara al {location}
-quina hora és d'aquí a {offset} segons des d'ara en {location}
-quina hora és d'aquí a {offset} segons en {location}
-quina hora és en {offset} hora
-quina hora és en {offset} hora  a la {location}
-quina hora és en {offset} hora  a sa {location}
-quina hora és en {offset} hora  a {location}
-quina hora és en {offset} hora  al {location}
-quina hora és en {offset} hora  en {location}
-quina hora és en {offset} hora a la {location}
-quina hora és en {offset} hora a partir d'ara
-quina hora és en {offset} hora a partir d'ara a la {location}
-quina hora és en {offset} hora a partir d'ara a sa {location}
-quina hora és en {offset} hora a partir d'ara a {location}
-quina hora és en {offset} hora a partir d'ara al {location}
-quina hora és en {offset} hora a partir d'ara en {location}
-quina hora és en {offset} hora a sa {location}
-quina hora és en {offset} hora a {location}
-quina hora és en {offset} hora al {location}
-quina hora és en {offset} hora des d'ara
-quina hora és en {offset} hora des d'ara a la {location}
-quina hora és en {offset} hora des d'ara a sa {location}
-quina hora és en {offset} hora des d'ara a {location}
-quina hora és en {offset} hora des d'ara al {location}
-quina hora és en {offset} hora des d'ara en {location}
-quina hora és en {offset} hora en {location}
-quina hora és en {offset} hores
-quina hora és en {offset} hores  a la {location}
-quina hora és en {offset} hores  a sa {location}
-quina hora és en {offset} hores  a {location}
-quina hora és en {offset} hores  al {location}
-quina hora és en {offset} hores  en {location}
-quina hora és en {offset} hores a la {location}
-quina hora és en {offset} hores a partir d'ara a la {location}
-quina hora és en {offset} hores a partir d'ara a sa {location}
-quina hora és en {offset} hores a partir d'ara a {location}
-quina hora és en {offset} hores a partir d'ara al {location}
-quina hora és en {offset} hores a partir d'ara en {location}
-quina hora és en {offset} hores a sa {location}
-quina hora és en {offset} hores a {location}
-quina hora és en {offset} hores al {location}
-quina hora és en {offset} hores des d'ara a la {location}
-quina hora és en {offset} hores des d'ara a sa {location}
-quina hora és en {offset} hores des d'ara a {location}
-quina hora és en {offset} hores des d'ara al {location}
-quina hora és en {offset} hores des d'ara en {location}
-quina hora és en {offset} hores en {location}
-quina hora és en {offset} minut
-quina hora és en {offset} minut  a la {location}
-quina hora és en {offset} minut  a sa {location}
-quina hora és en {offset} minut  a {location}
-quina hora és en {offset} minut  al {location}
-quina hora és en {offset} minut  en {location}
-quina hora és en {offset} minut a la {location}
-quina hora és en {offset} minut a partir d'ara
-quina hora és en {offset} minut a partir d'ara a la {location}
-quina hora és en {offset} minut a partir d'ara a sa {location}
-quina hora és en {offset} minut a partir d'ara a {location}
-quina hora és en {offset} minut a partir d'ara al {location}
-quina hora és en {offset} minut a partir d'ara en {location}
-quina hora és en {offset} minut a sa {location}
-quina hora és en {offset} minut a {location}
-quina hora és en {offset} minut al {location}
-quina hora és en {offset} minut des d'ara
-quina hora és en {offset} minut des d'ara a la {location}
-quina hora és en {offset} minut des d'ara a sa {location}
-quina hora és en {offset} minut des d'ara a {location}
-quina hora és en {offset} minut des d'ara al {location}
-quina hora és en {offset} minut des d'ara en {location}
-quina hora és en {offset} minut en {location}
-quina hora és en {offset} minuts
-quina hora és en {offset} minuts  a la {location}
-quina hora és en {offset} minuts  a sa {location}
-quina hora és en {offset} minuts  a {location}
-quina hora és en {offset} minuts  al {location}
-quina hora és en {offset} minuts  en {location}
-quina hora és en {offset} minuts a la {location}
-quina hora és en {offset} minuts a partir d'ara
-quina hora és en {offset} minuts a partir d'ara a la {location}
-quina hora és en {offset} minuts a partir d'ara a sa {location}
-quina hora és en {offset} minuts a partir d'ara a {location}
-quina hora és en {offset} minuts a partir d'ara al {location}
-quina hora és en {offset} minuts a partir d'ara en {location}
-quina hora és en {offset} minuts a sa {location}
-quina hora és en {offset} minuts a {location}
-quina hora és en {offset} minuts al {location}
-quina hora és en {offset} minuts des d'ara
-quina hora és en {offset} minuts des d'ara a la {location}
-quina hora és en {offset} minuts des d'ara a sa {location}
-quina hora és en {offset} minuts des d'ara a {location}
-quina hora és en {offset} minuts des d'ara al {location}
-quina hora és en {offset} minuts des d'ara en {location}
-quina hora és en {offset} minuts en {location}
-quina hora és en {offset} segon
-quina hora és en {offset} segon  a la {location}
-quina hora és en {offset} segon  a sa {location}
-quina hora és en {offset} segon  a {location}
-quina hora és en {offset} segon  al {location}
-quina hora és en {offset} segon  en {location}
-quina hora és en {offset} segon a la {location}
-quina hora és en {offset} segon a partir d'ara
-quina hora és en {offset} segon a partir d'ara a la {location}
-quina hora és en {offset} segon a partir d'ara a sa {location}
-quina hora és en {offset} segon a partir d'ara a {location}
-quina hora és en {offset} segon a partir d'ara al {location}
-quina hora és en {offset} segon a partir d'ara en {location}
-quina hora és en {offset} segon a sa {location}
-quina hora és en {offset} segon a {location}
-quina hora és en {offset} segon al {location}
-quina hora és en {offset} segon des d'ara
-quina hora és en {offset} segon des d'ara a la {location}
-quina hora és en {offset} segon des d'ara a sa {location}
-quina hora és en {offset} segon des d'ara a {location}
-quina hora és en {offset} segon des d'ara al {location}
-quina hora és en {offset} segon des d'ara en {location}
-quina hora és en {offset} segon en {location}
-quina hora és en {offset} segons
-quina hora és en {offset} segons  a la {location}
-quina hora és en {offset} segons  a sa {location}
-quina hora és en {offset} segons  a {location}
-quina hora és en {offset} segons  al {location}
-quina hora és en {offset} segons  en {location}
-quina hora és en {offset} segons a la {location}
-quina hora és en {offset} segons a partir d'ara
-quina hora és en {offset} segons a partir d'ara a la {location}
-quina hora és en {offset} segons a partir d'ara a sa {location}
-quina hora és en {offset} segons a partir d'ara a {location}
-quina hora és en {offset} segons a partir d'ara al {location}
-quina hora és en {offset} segons a partir d'ara en {location}
-quina hora és en {offset} segons a sa {location}
-quina hora és en {offset} segons a {location}
-quina hora és en {offset} segons al {location}
-quina hora és en {offset} segons des d'ara
-quina hora és en {offset} segons des d'ara a la {location}
-quina hora és en {offset} segons des d'ara a sa {location}
-quina hora és en {offset} segons des d'ara a {location}
-quina hora és en {offset} segons des d'ara al {location}
-quina hora és en {offset} segons des d'ara en {location}
-quina hora és en {offset} segons en {location}
-{offset} hora  quina hora serà
-{offset} hora  quina hora tindrem
-{offset} hora  quina hora és
-{offset} hora , quina hora serà
-{offset} hora , quina hora tindrem
-{offset} hora , quina hora és
-{offset} hora a partir d'ara quina hora serà
-{offset} hora a partir d'ara quina hora tindrem
-{offset} hora a partir d'ara quina hora és
-{offset} hora a partir d'ara, quina hora serà
-{offset} hora a partir d'ara, quina hora tindrem
-{offset} hora a partir d'ara, quina hora és
-{offset} hora des d'ara quina hora serà
-{offset} hora des d'ara quina hora tindrem
-{offset} hora des d'ara quina hora és
-{offset} hora des d'ara, quina hora serà
-{offset} hora des d'ara, quina hora tindrem
-{offset} hora des d'ara, quina hora és
-{offset} hora quina hora serà
-{offset} hora quina hora tindrem
-{offset} hora quina hora és
-{offset} hores  quina hora serà
-{offset} hores  quina hora tindrem
-{offset} hores  quina hora és
-{offset} hores , quina hora serà
-{offset} hores , quina hora tindrem
-{offset} hores , quina hora és
-{offset} hores a partir d'ara quina hora serà
-{offset} hores a partir d'ara quina hora tindrem
-{offset} hores a partir d'ara quina hora és
-{offset} hores a partir d'ara, quina hora serà
-{offset} hores a partir d'ara, quina hora tindrem
-{offset} hores a partir d'ara, quina hora és
-{offset} hores des d'ara quina hora serà
-{offset} hores des d'ara quina hora tindrem
-{offset} hores des d'ara quina hora és
-{offset} hores des d'ara, quina hora serà
-{offset} hores des d'ara, quina hora tindrem
-{offset} hores des d'ara, quina hora és
-{offset} hores quina hora serà
-{offset} hores quina hora tindrem
-{offset} hores quina hora és
-{offset} minut  quina hora serà
-{offset} minut  quina hora tindrem
-{offset} minut  quina hora és
-{offset} minut , quina hora serà
-{offset} minut , quina hora tindrem
-{offset} minut , quina hora és
-{offset} minut a partir d'ara quina hora serà
-{offset} minut a partir d'ara quina hora tindrem
-{offset} minut a partir d'ara quina hora és
-{offset} minut a partir d'ara, quina hora serà
-{offset} minut a partir d'ara, quina hora tindrem
-{offset} minut a partir d'ara, quina hora és
-{offset} minut des d'ara quina hora serà
-{offset} minut des d'ara quina hora tindrem
-{offset} minut des d'ara quina hora és
-{offset} minut des d'ara, quina hora serà
-{offset} minut des d'ara, quina hora tindrem
-{offset} minut des d'ara, quina hora és
-{offset} minut quina hora serà
-{offset} minut quina hora serà  a sa {location}
-{offset} minut quina hora serà a la {location}
-{offset} minut quina hora serà a {location}
-{offset} minut quina hora serà al {location}
-{offset} minut quina hora serà as {location}
-{offset} minut quina hora serà en {location}
-{offset} minut quina hora tindrem
-{offset} minut quina hora tindrem  a sa {location}
-{offset} minut quina hora tindrem a la {location}
-{offset} minut quina hora tindrem a {location}
-{offset} minut quina hora tindrem al {location}
-{offset} minut quina hora tindrem as {location}
-{offset} minut quina hora tindrem en {location}
-{offset} minut quina hora és
-{offset} minut quina hora és  a sa {location}
-{offset} minut quina hora és a la {location}
-{offset} minut quina hora és a {location}
-{offset} minut quina hora és al {location}
-{offset} minut quina hora és as {location}
-{offset} minut quina hora és en {location}
-{offset} minuts  quina hora serà
-{offset} minuts  quina hora tindrem
-{offset} minuts  quina hora és
-{offset} minuts , quina hora serà
-{offset} minuts , quina hora tindrem
-{offset} minuts , quina hora és
-{offset} minuts a partir d'ara quina hora serà
-{offset} minuts a partir d'ara quina hora tindrem
-{offset} minuts a partir d'ara quina hora és
-{offset} minuts a partir d'ara, quina hora serà
-{offset} minuts a partir d'ara, quina hora tindrem
-{offset} minuts a partir d'ara, quina hora és
-{offset} minuts des d'ara quina hora serà
-{offset} minuts des d'ara quina hora tindrem
-{offset} minuts des d'ara quina hora és
-{offset} minuts des d'ara, quina hora serà
-{offset} minuts des d'ara, quina hora tindrem
-{offset} minuts des d'ara, quina hora és
-{offset} minuts quina hora serà
-{offset} minuts quina hora serà  a sa {location}
-{offset} minuts quina hora serà a la {location}
-{offset} minuts quina hora serà a {location}
-{offset} minuts quina hora serà al {location}
-{offset} minuts quina hora serà as {location}
-{offset} minuts quina hora serà en {location}
-{offset} minuts quina hora tindrem
-{offset} minuts quina hora tindrem  a sa {location}
-{offset} minuts quina hora tindrem a la {location}
-{offset} minuts quina hora tindrem a {location}
-{offset} minuts quina hora tindrem al {location}
-{offset} minuts quina hora tindrem as {location}
-{offset} minuts quina hora tindrem en {location}
-{offset} minuts quina hora és
-{offset} minuts quina hora és  a sa {location}
-{offset} minuts quina hora és a la {location}
-{offset} minuts quina hora és a {location}
-{offset} minuts quina hora és al {location}
-{offset} minuts quina hora és as {location}
-{offset} minuts quina hora és en {location}
-{offset} segon  quina hora serà
-{offset} segon  quina hora tindrem
-{offset} segon  quina hora és
-{offset} segon , quina hora serà
-{offset} segon , quina hora tindrem
-{offset} segon , quina hora és
-{offset} segon a partir d'ara quina hora serà
-{offset} segon a partir d'ara quina hora tindrem
-{offset} segon a partir d'ara quina hora és
-{offset} segon a partir d'ara, quina hora serà
-{offset} segon a partir d'ara, quina hora tindrem
-{offset} segon a partir d'ara, quina hora és
-{offset} segon des d'ara quina hora serà
-{offset} segon des d'ara quina hora tindrem
-{offset} segon des d'ara quina hora és
-{offset} segon des d'ara, quina hora serà
-{offset} segon des d'ara, quina hora tindrem
-{offset} segon des d'ara, quina hora és
-{offset} segon quina hora serà
-{offset} segon quina hora serà  a sa {location}
-{offset} segon quina hora serà a la {location}
-{offset} segon quina hora serà a {location}
-{offset} segon quina hora serà al {location}
-{offset} segon quina hora serà as {location}
-{offset} segon quina hora serà en {location}
-{offset} segon quina hora tindrem
-{offset} segon quina hora tindrem  a sa {location}
-{offset} segon quina hora tindrem a la {location}
-{offset} segon quina hora tindrem a {location}
-{offset} segon quina hora tindrem al {location}
-{offset} segon quina hora tindrem as {location}
-{offset} segon quina hora tindrem en {location}
-{offset} segon quina hora és
-{offset} segon quina hora és  a sa {location}
-{offset} segon quina hora és a la {location}
-{offset} segon quina hora és a {location}
-{offset} segon quina hora és al {location}
-{offset} segon quina hora és as {location}
-{offset} segon quina hora és en {location}
-{offset} segons  quina hora serà
-{offset} segons  quina hora tindrem
-{offset} segons  quina hora és
-{offset} segons , quina hora serà
-{offset} segons , quina hora tindrem
-{offset} segons , quina hora és
-{offset} segons a partir d'ara quina hora serà
-{offset} segons a partir d'ara quina hora tindrem
-{offset} segons a partir d'ara quina hora és
-{offset} segons a partir d'ara, quina hora serà
-{offset} segons a partir d'ara, quina hora tindrem
-{offset} segons a partir d'ara, quina hora és
-{offset} segons des d'ara quina hora serà
-{offset} segons des d'ara quina hora tindrem
-{offset} segons des d'ara quina hora és
-{offset} segons des d'ara, quina hora serà
-{offset} segons des d'ara, quina hora tindrem
-{offset} segons des d'ara, quina hora és
-{offset} segons quina hora serà
-{offset} segons quina hora serà  a sa {location}
-{offset} segons quina hora serà a la {location}
-{offset} segons quina hora serà a {location}
-{offset} segons quina hora serà al {location}
-{offset} segons quina hora serà as {location}
-{offset} segons quina hora serà en {location}
-{offset} segons quina hora tindrem
-{offset} segons quina hora tindrem  a sa {location}
-{offset} segons quina hora tindrem a la {location}
-{offset} segons quina hora tindrem a {location}
-{offset} segons quina hora tindrem al {location}
-{offset} segons quina hora tindrem as {location}
-{offset} segons quina hora tindrem en {location}
-{offset} segons quina hora és
-{offset} segons quina hora és  a sa {location}
-{offset} segons quina hora és a la {location}
-{offset} segons quina hora és a {location}
-{offset} segons quina hora és al {location}
-{offset} segons quina hora és as {location}
-{offset} segons quina hora és en {location}
+a quina hora serà {offset} hores
+a quina hora serà {offset} hores  a {location}
+a quina hora serà {offset} hores a partir d'ara
+a quina hora serà {offset} hores a partir d'ara a {location}
+a quina hora serà {offset} minuts
+a quina hora serà {offset} minuts  a {location}
+a quina hora serà {offset} minuts a partir d'ara
+a quina hora serà {offset} minuts a partir d'ara a {location}
+a quina hora serà {offset} segons
+a quina hora serà {offset} segons  a {location}
+a quina hora serà {offset} segons a partir d'ara
+a quina hora serà {offset} segons a partir d'ara a {location}
+a quina hora és {offset} hores
+a quina hora és {offset} hores  a {location}
+a quina hora és {offset} hores a partir d'ara
+a quina hora és {offset} hores a partir d'ara a {location}
+a quina hora és {offset} minuts
+a quina hora és {offset} minuts  a {location}
+a quina hora és {offset} minuts a partir d'ara
+a quina hora és {offset} minuts a partir d'ara a {location}
+a quina hora és {offset} segons
+a quina hora és {offset} segons  a {location}
+a quina hora és {offset} segons a partir d'ara
+a quina hora és {offset} segons a partir d'ara a {location}
+a {offset} hora  quina hora serà
+a {offset} hora  quina hora serà a {location}
+a {offset} hora a partir d'ara quina hora serà
+a {offset} hora a partir d'ara quina hora serà a {location}
+a {offset} horaes  quina hora serà
+a {offset} horaes  quina hora serà a {location}
+a {offset} horaes a partir d'ara quina hora serà
+a {offset} horaes a partir d'ara quina hora serà a {location}
+a {offset} minut  quina hora serà
+a {offset} minut  quina hora serà a {location}
+a {offset} minut a partir d'ara quina hora serà
+a {offset} minut a partir d'ara quina hora serà a {location}
+a {offset} minuts  quina hora serà
+a {offset} minuts  quina hora serà a {location}
+a {offset} minuts a partir d'ara quina hora serà
+a {offset} minuts a partir d'ara quina hora serà a {location}
+a {offset} segon  quina hora serà
+a {offset} segon  quina hora serà a {location}
+a {offset} segon a partir d'ara quina hora serà
+a {offset} segon a partir d'ara quina hora serà a {location}
+a {offset} segons  quina hora serà
+a {offset} segons  quina hora serà a {location}
+a {offset} segons a partir d'ara quina hora serà
+a {offset} segons a partir d'ara quina hora serà a {location}
+quan serà {offset} hores
+quan serà {offset} hores  a {location}
+quan serà {offset} hores a partir d'ara
+quan serà {offset} hores a partir d'ara a {location}
+quan serà {offset} minuts
+quan serà {offset} minuts  a {location}
+quan serà {offset} minuts a partir d'ara
+quan serà {offset} minuts a partir d'ara a {location}
+quan serà {offset} segons
+quan serà {offset} segons  a {location}
+quan serà {offset} segons a partir d'ara
+quan serà {offset} segons a partir d'ara a {location}
+quan és {offset} hores
+quan és {offset} hores  a {location}
+quan és {offset} hores a partir d'ara
+quan és {offset} hores a partir d'ara a {location}
+quan és {offset} minuts
+quan és {offset} minuts  a {location}
+quan és {offset} minuts a partir d'ara
+quan és {offset} minuts a partir d'ara a {location}
+quan és {offset} segons
+quan és {offset} segons  a {location}
+quan és {offset} segons a partir d'ara
+quan és {offset} segons a partir d'ara a {location}
+quina hora es mostrarà a {offset} hora
+quina hora es mostrarà a {offset} hora a {location}
+quina hora es mostrarà a {offset} horaes
+quina hora es mostrarà a {offset} horaes a {location}
+quina hora es mostrarà a {offset} minut
+quina hora es mostrarà a {offset} minut a {location}
+quina hora es mostrarà a {offset} minuts
+quina hora es mostrarà a {offset} minuts a {location}
+quina hora es mostrarà a {offset} segon
+quina hora es mostrarà a {offset} segon a {location}
+quina hora es mostrarà a {offset} segons
+quina hora es mostrarà a {offset} segons a {location}
+quina hora es mostrarà després de {offset} hora
+quina hora es mostrarà després de {offset} hora a {location}
+quina hora es mostrarà després de {offset} horaes
+quina hora es mostrarà després de {offset} horaes a {location}
+quina hora es mostrarà després de {offset} minut
+quina hora es mostrarà després de {offset} minut a {location}
+quina hora es mostrarà després de {offset} minuts
+quina hora es mostrarà després de {offset} minuts a {location}
+quina hora es mostrarà després de {offset} segon
+quina hora es mostrarà després de {offset} segon a {location}
+quina hora es mostrarà després de {offset} segons
+quina hora es mostrarà després de {offset} segons a {location}
+quina hora es mostrarà si espero a {offset} hora
+quina hora es mostrarà si espero a {offset} hora a {location}
+quina hora es mostrarà si espero a {offset} horaes
+quina hora es mostrarà si espero a {offset} horaes a {location}
+quina hora es mostrarà si espero a {offset} minut
+quina hora es mostrarà si espero a {offset} minut a {location}
+quina hora es mostrarà si espero a {offset} minuts
+quina hora es mostrarà si espero a {offset} minuts a {location}
+quina hora es mostrarà si espero a {offset} segon
+quina hora es mostrarà si espero a {offset} segon a {location}
+quina hora es mostrarà si espero a {offset} segons
+quina hora es mostrarà si espero a {offset} segons a {location}
+quina hora serà a {offset} hora
+quina hora serà a {offset} hora a {location}
+quina hora serà a {offset} horaes
+quina hora serà a {offset} horaes a {location}
+quina hora serà a {offset} minut
+quina hora serà a {offset} minut a {location}
+quina hora serà a {offset} minuts
+quina hora serà a {offset} minuts a {location}
+quina hora serà a {offset} segon
+quina hora serà a {offset} segon a {location}
+quina hora serà a {offset} segons
+quina hora serà a {offset} segons a {location}
+quina hora serà després de {offset} hora
+quina hora serà després de {offset} hora a {location}
+quina hora serà després de {offset} horaes
+quina hora serà després de {offset} horaes a {location}
+quina hora serà després de {offset} minut
+quina hora serà després de {offset} minut a {location}
+quina hora serà després de {offset} minuts
+quina hora serà després de {offset} minuts a {location}
+quina hora serà després de {offset} segon
+quina hora serà després de {offset} segon a {location}
+quina hora serà després de {offset} segons
+quina hora serà després de {offset} segons a {location}
+quina hora serà si espero a {offset} hora
+quina hora serà si espero a {offset} hora a {location}
+quina hora serà si espero a {offset} horaes
+quina hora serà si espero a {offset} horaes a {location}
+quina hora serà si espero a {offset} minut
+quina hora serà si espero a {offset} minut a {location}
+quina hora serà si espero a {offset} minuts
+quina hora serà si espero a {offset} minuts a {location}
+quina hora serà si espero a {offset} segon
+quina hora serà si espero a {offset} segon a {location}
+quina hora serà si espero a {offset} segons
+quina hora serà si espero a {offset} segons a {location}
+quina hora serà si espero {offset} hora
+quina hora serà si espero {offset} hora a {location}
+quina hora serà si espero {offset} horaes
+quina hora serà si espero {offset} horaes a {location}
+quina hora serà si espero {offset} minut
+quina hora serà si espero {offset} minut a {location}
+quina hora serà si espero {offset} minuts
+quina hora serà si espero {offset} minuts a {location}
+quina hora serà si espero {offset} segon
+quina hora serà si espero {offset} segon a {location}
+quina hora serà si espero {offset} segons
+quina hora serà si espero {offset} segons a {location}
+quina hora serà si passo {offset} hora
+quina hora serà si passo {offset} hora a {location}
+quina hora serà si passo {offset} horaes
+quina hora serà si passo {offset} horaes a {location}
+quina hora serà si passo {offset} minut
+quina hora serà si passo {offset} minut a {location}
+quina hora serà si passo {offset} minuts
+quina hora serà si passo {offset} minuts a {location}
+quina hora serà si passo {offset} segon
+quina hora serà si passo {offset} segon a {location}
+quina hora serà si passo {offset} segons
+quina hora serà si passo {offset} segons a {location}
+quina hora és a {offset} hora
+quina hora és a {offset} hora a {location}
+quina hora és a {offset} horaes
+quina hora és a {offset} horaes a {location}
+quina hora és a {offset} minut
+quina hora és a {offset} minut a {location}
+quina hora és a {offset} minuts
+quina hora és a {offset} minuts a {location}
+quina hora és a {offset} segon
+quina hora és a {offset} segon a {location}
+quina hora és a {offset} segons
+quina hora és a {offset} segons a {location}
+quina hora és després de {offset} hora
+quina hora és després de {offset} hora a {location}
+quina hora és després de {offset} horaes
+quina hora és després de {offset} horaes a {location}
+quina hora és després de {offset} minut
+quina hora és després de {offset} minut a {location}
+quina hora és després de {offset} minuts
+quina hora és després de {offset} minuts a {location}
+quina hora és després de {offset} segon
+quina hora és després de {offset} segon a {location}
+quina hora és després de {offset} segons
+quina hora és després de {offset} segons a {location}
+quina hora és si espero a {offset} hora
+quina hora és si espero a {offset} hora a {location}
+quina hora és si espero a {offset} horaes
+quina hora és si espero a {offset} horaes a {location}
+quina hora és si espero a {offset} minut
+quina hora és si espero a {offset} minut a {location}
+quina hora és si espero a {offset} minuts
+quina hora és si espero a {offset} minuts a {location}
+quina hora és si espero a {offset} segon
+quina hora és si espero a {offset} segon a {location}
+quina hora és si espero a {offset} segons
+quina hora és si espero a {offset} segons a {location}
+què dirà el rellotge a {offset} hora
+què dirà el rellotge a {offset} hora a {location}
+què dirà el rellotge a {offset} horaes
+què dirà el rellotge a {offset} horaes a {location}
+què dirà el rellotge a {offset} minut
+què dirà el rellotge a {offset} minut a {location}
+què dirà el rellotge a {offset} minuts
+què dirà el rellotge a {offset} minuts a {location}
+què dirà el rellotge a {offset} segon
+què dirà el rellotge a {offset} segon a {location}
+què dirà el rellotge a {offset} segons
+què dirà el rellotge a {offset} segons a {location}
+què dirà el rellotge després de {offset} hora
+què dirà el rellotge després de {offset} hora a {location}
+què dirà el rellotge després de {offset} horaes
+què dirà el rellotge després de {offset} horaes a {location}
+què dirà el rellotge després de {offset} minut
+què dirà el rellotge després de {offset} minut a {location}
+què dirà el rellotge després de {offset} minuts
+què dirà el rellotge després de {offset} minuts a {location}
+què dirà el rellotge després de {offset} segon
+què dirà el rellotge després de {offset} segon a {location}
+què dirà el rellotge després de {offset} segons
+què dirà el rellotge després de {offset} segons a {location}
+què dirà el rellotge si espero a {offset} hora
+què dirà el rellotge si espero a {offset} hora a {location}
+què dirà el rellotge si espero a {offset} horaes
+què dirà el rellotge si espero a {offset} horaes a {location}
+què dirà el rellotge si espero a {offset} minut
+què dirà el rellotge si espero a {offset} minut a {location}
+què dirà el rellotge si espero a {offset} minuts
+què dirà el rellotge si espero a {offset} minuts a {location}
+què dirà el rellotge si espero a {offset} segon
+què dirà el rellotge si espero a {offset} segon a {location}
+què dirà el rellotge si espero a {offset} segons
+què dirà el rellotge si espero a {offset} segons a {location}
