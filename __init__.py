@@ -179,9 +179,15 @@ class TimeSkill(OVOSSkill):
         }.get(language, {})
 
         utt = utt.lower()
-        for weekday, index in weekday_map.items():
-            if re.search(rf"\b{weekday}\b", utt):
-                return index, weekday
+        if weekday_map:
+            names = "|".join(map(re.escape, weekday_map))
+            match = re.search(
+                rf"\btombe(?:-t-il)?\s+un\s+(?P<weekday>{names})\b",
+                utt
+            )
+            if match:
+                weekday = match.group("weekday")
+                return weekday_map[weekday], weekday
         return None
 
     @staticmethod
@@ -317,7 +323,7 @@ class TimeSkill(OVOSSkill):
         return dt
 
     def get_spoken_time(self, location: str = None, force_ampm=False,
-                        anchor_date: datetime.datetime = None) -> str:
+                        anchor_date: datetime.datetime = None) -> Optional[str]:
         """Get a human-readable spoken version of the current time.
 
         Args:
@@ -329,6 +335,8 @@ class TimeSkill(OVOSSkill):
             str: A spoken-friendly representation of the time.
         """
         dt = self.get_datetime(location, anchor_date)
+        if not dt:
+            return None
 
         # speak AM/PM when talking about somewhere else
         say_am_pm = bool(location) or force_ampm
@@ -341,7 +349,7 @@ class TimeSkill(OVOSSkill):
         return s
 
     def get_display_time(self, location: str = None, force_ampm=False,
-                         anchor_date: datetime.datetime = None) -> str:
+                         anchor_date: datetime.datetime = None) -> Optional[str]:
         """Get a display-friendly version of the current time.
 
         Args:
@@ -353,6 +361,8 @@ class TimeSkill(OVOSSkill):
             str: A string representing the display time.
         """
         dt = self.get_datetime(location, anchor_date)
+        if not dt:
+            return None
         # speak AM/PM when talking about somewhere else
         say_am_pm = bool(location) or force_ampm
         return nice_time(dt, lang=self.lang,
@@ -384,18 +394,19 @@ class TimeSkill(OVOSSkill):
 
     ######################################################################
     # Time queries / display
-    def speak_time(self, dialog: str, location: str = None):
+    def speak_time(self, dialog: str, location: str = None,
+                   anchor_date: datetime.datetime = None):
         """Speak the current time. Optionally at a location
         speaks an error if timezone for requested location could not be detected"""
         if location:
-            current_time = self.get_spoken_time(location)
+            current_time = self.get_spoken_time(location, anchor_date=anchor_date)
             if not current_time:
                 self.speak_dialog("time.tz.not.found", {"location": location})
                 return
-            time_string = self.get_display_time(location)
+            time_string = self.get_display_time(location, anchor_date=anchor_date)
         else:
-            current_time = self.get_spoken_time()
-            time_string = self.get_display_time()
+            current_time = self.get_spoken_time(anchor_date=anchor_date)
+            time_string = self.get_display_time(anchor_date=anchor_date)
 
         # speak it
         self.speak_dialog(dialog, {"time": current_time})
@@ -424,7 +435,7 @@ class TimeSkill(OVOSSkill):
         location = message.data.get("location") or self._extract_location(utt)
 
         # speak it
-        self.speak_time("time.future", location=location)
+        self.speak_time("time.future", location=location, anchor_date=dt)
 
     ######################################################################
     # Date queries
@@ -587,19 +598,29 @@ class TimeSkill(OVOSSkill):
 
     @intent_handler("date.future.weekend.intent")
     def handle_date_future_weekend(self, message):
-        # Strip year off nice_date as request is inherently close
-        # Don't pass `now` to `nice_date` as a
-        # request on Friday will return "tomorrow"
         """
         Handles queries about the upcoming weekend's dates.
         
         Determines the dates for the next Saturday and Sunday, formats them for speech, and responds with a dialog containing both dates.
         """
         now = self.get_datetime()
-        dt = extract_datetime('this saturday', anchorDate=now, lang='en-us')[0]
-        saturday_date = ', '.join(nice_date(dt, lang=self.lang).split(', ')[:2])
-        dt = extract_datetime('this sunday', anchorDate=now, lang='en-us')[0]
-        sunday_date = ', '.join(nice_date(dt, lang=self.lang).split(', ')[:2])
+        utt = message.data.get("utterance", "").lower()
+        weekday = now.weekday()
+
+        if weekday <= 5:
+            saturday_dt = now + datetime.timedelta(days=5 - weekday)
+        else:
+            saturday_dt = now - datetime.timedelta(days=1)
+
+        current_weekend = any(
+            phrase in utt for phrase in ("ce week-end", "ce weekend", "ce week end")
+        )
+        if not current_weekend and weekday >= 5:
+            saturday_dt += datetime.timedelta(days=7)
+
+        sunday_dt = saturday_dt + datetime.timedelta(days=1)
+        saturday_date = ', '.join(nice_date(saturday_dt, lang=self.lang).split(', ')[:2])
+        sunday_date = ', '.join(nice_date(sunday_dt, lang=self.lang).split(', ')[:2])
         self.speak_dialog('date.future.weekend', {
             'saturday_date': saturday_date,
             'sunday_date': sunday_date
