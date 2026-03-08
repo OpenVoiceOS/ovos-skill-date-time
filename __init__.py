@@ -57,6 +57,28 @@ def speakable_timezone(tz):
 class TimeSkill(OVOSSkill):
     """A skill for interacting with date and time information."""
 
+    AMBIGUOUS_LOCATIONS = {
+        "australie",
+        "bresil",
+        "brésil",
+        "canada",
+        "espagne",
+        "indonesie",
+        "indonésie",
+        "mexique",
+        "nouvelle-zelande",
+        "nouvelle-zélande",
+        "russie",
+        "usa",
+        "etats-unis",
+        "états-unis",
+        "les usa",
+        "les etats-unis",
+        "les états-unis",
+        "les etats-unis d'amerique",
+        "les états-unis d'amérique"
+    }
+
     @classproperty
     def runtime_requirements(self):
         """this skill does not need internet"""
@@ -156,13 +178,18 @@ class TimeSkill(OVOSSkill):
                     pat = pat.strip()
                     if pat and pat[0] == "#":
                         continue
-                    res = re.search(pat, utt)
+                    res = re.search(pat, utt, flags=re.IGNORECASE)
                     if res:
                         try:
-                            return res.group("Location")
+                            return res.group("Location").strip(" \t,;:.!?")
                         except IndexError:
                             pass
         return None
+
+    @classmethod
+    def _is_ambiguous_location(cls, location_string: str) -> bool:
+        """Return True when a location name spans multiple timezones."""
+        return location_string.strip().lower() in cls.AMBIGUOUS_LOCATIONS
 
     def _extract_requested_weekday(self, utt: str):
         language = self.lang.split("-")[0].lower()
@@ -289,6 +316,8 @@ class TimeSkill(OVOSSkill):
         Returns:
             datetime.tzinfo: The timezone object if resolved, else None.
         """
+        if self._is_ambiguous_location(location_string):
+            return None
         timezone = self._get_timezone_from_builtins(location_string)
         if not timezone:
             timezone = self._get_timezone_from_table(location_string)
