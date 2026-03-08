@@ -1,5 +1,5 @@
 {
     "location.rx": [
-        "\\b(\u00e0|dans|pour) (?P<Location>.*)"
+        "\\b(\u00e0|au|aux|dans|en|pour) (?P<Location>.*)"
     ]
 }

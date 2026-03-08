@@ -5,29 +5,30 @@
         "{date}"
     ],
     "/dialog/date.future.weekend.dialog": [
-        "le prochain weekend sera de {saturday_date} \u00e0 {sunday_date}"
+        "Le prochain week-end ira du {saturday_date} au {sunday_date}.",
+        "Le prochain week-end sera du {saturday_date} au {sunday_date}."
     ],
     "/dialog/date.last.weekend.dialog": [
-        "le weekend dernier \u00e9tait de {saturday_date} \u00e0 {sunday_date}"
+        "Le week-end dernier allait du {saturday_date} au {sunday_date}.",
+        "Le week-end dernier, c'\u00e9tait du {saturday_date} au {sunday_date}."
     ],
     "/dialog/date.not.found.dialog": [
         "Je n'ai pas pu trouver cette date pour vous."
     ],
     "/dialog/date.relative.future.dialog": [
-        "C'est le {date}, dans {num_days} jours",
-        "Le {date} sera dans {num_days} \u00e0 partir de maintenant",
-        "On sera le {date}, dans {num_days}",
-        "{date}, le {num_days}"
+        "Ce sera le {date}, dans {num_days}.",
+        "Nous serons le {date} dans {num_days}.",
+        "Le {date}, c'est dans {num_days}."
     ],
     "/dialog/date.relative.past.dialog": [
-        "C'\u00e9tait en {date}, il y a {num_days}",
-        "c'\u00e9tait en {date}, il y a {num_days} jours"
+        "C'\u00e9tait le {date}, il y a {num_days}.",
+        "Le {date}, c'\u00e9tait il y a {num_days}."
     ],
     "/dialog/day.current.dialog": [
         "Aujourd'hui, on est le {day}",
+        "Aujourd'hui, nous sommes le {day}",
         "Nous sommes le {day}",
-        "On est le {day}",
-        "{day}"
+        "On est le {day}"
     ],
     "/dialog/did.you.mean.timezone.dialog": [
         "S'agit-il du fuseau {zone_name} ?"
@@ -76,5 +77,35 @@
         "Nous sommes actuellement en {year}",
         "Nous sommes en {year}",
         "{year}"
+    ],
+    "/dialog/leap.year.current.yes.dialog": [
+        "Oui, {year} est une ann\u00e9e bissextile."
+    ],
+    "/dialog/leap.year.current.no.dialog": [
+        "Non, {year} n'est pas une ann\u00e9e bissextile."
+    ],
+    "/dialog/leap.year.next.yes.dialog": [
+        "Oui, {year} sera une ann\u00e9e bissextile."
+    ],
+    "/dialog/leap.year.next.no.dialog": [
+        "Non, {year} ne sera pas une ann\u00e9e bissextile."
+    ],
+    "/dialog/leap.year.either.yes.dialog": [
+        "Oui, {year} est bien une ann\u00e9e bissextile."
+    ],
+    "/dialog/leap.year.either.no.dialog": [
+        "Non. La prochaine ann\u00e9e bissextile sera {year}."
+    ],
+    "/dialog/weekday.matches.date.future.yes.dialog": [
+        "Oui, le {date} tombera bien un {weekday}."
+    ],
+    "/dialog/weekday.matches.date.future.no.dialog": [
+        "Non, le {date} tombera un {actual_weekday}."
+    ],
+    "/dialog/weekday.matches.date.past.yes.dialog": [
+        "Oui, le {date}, c'\u00e9tait bien un {weekday}."
+    ],
+    "/dialog/weekday.matches.date.past.no.dialog": [
+        "Non, le {date}, c'\u00e9tait un {actual_weekday}."
     ]
 }

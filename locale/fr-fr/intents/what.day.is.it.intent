@@ -1,10 +1,19 @@
 on est le combien
 on est le combien aujourd'hui
 on est le combien à {location}
+on est le combien en {location}
+on est le combien au {location}
+on est le combien aux {location}
+on est le combien dans {location}
 nous sommes le combien
 quel jour du mois sommes-nous
 quel jour du mois est-ce
 quel est le jour du mois
+quel est le jour du mois à {location}
+quel est le jour du mois en {location}
+quel est le jour du mois au {location}
+quel est le jour du mois aux {location}
+quel est le jour du mois dans {location}
 quel est le jour du mois aujourd'hui
 quel est le quantième du mois
 quantième du mois
