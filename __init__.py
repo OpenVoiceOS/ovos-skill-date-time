@@ -234,6 +234,19 @@ class TimeSkill(OVOSSkill):
         return None
 
     @staticmethod
+    def _strip_requested_weekday_phrase(utt: str, weekday) -> str:
+        """Remove the explicit weekday check phrase before parsing the date."""
+        if not utt or weekday is None:
+            return utt
+        _, expected_name = weekday
+        return re.sub(
+            rf"\btombe(?:-t-il)?\s+un\s+{re.escape(expected_name)}\b",
+            "",
+            utt,
+            flags=re.IGNORECASE
+        ).strip(" \t,;:.!?")
+
+    @staticmethod
     def _get_timezone_from_builtins(location_string: str) -> Optional[datetime.tzinfo]:
         """Attempt to resolve a timezone from a location name using geocoding.
 
@@ -607,7 +620,10 @@ class TimeSkill(OVOSSkill):
         now = self.get_datetime()  # session aware
         utterance = message.data.get("utterance", "")
         weekday = self._extract_requested_weekday(utterance)
-        dt, _ = extract_datetime(message.data.get("date") or utterance,
+        date_text = message.data.get("date")
+        if not date_text:
+            date_text = self._strip_requested_weekday_phrase(utterance, weekday)
+        dt, _ = extract_datetime(date_text or utterance,
                                  anchorDate=now, lang=self.lang) or (None, None)
         if not dt or weekday is None:
             self.speak_dialog("extract.date.error")
