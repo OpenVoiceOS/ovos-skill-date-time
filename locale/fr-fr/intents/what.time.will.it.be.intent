@@ -1,12 +1,28 @@
-quand sera-t-il {offset} heures
-quand sera-t-il {offset} heures  à {location}
-quand sera-t-il {offset} heures à partir de maintenant
-quand sera-t-il {offset} heures à partir de maintenant à {location}
-quand sera-t-il {offset} minutes
-quand sera-t-il {offset} minutes  à {location}
-quand sera-t-il {offset} minutes à partir de maintenant
-quand sera-t-il {offset} minutes à partir de maintenant à {location}
-quand sera-t-il {offset} secondes
-quand sera-t-il {offset} secondes  à {location}
-quand sera-t-il {offset} secondes à partir de maintenant
-quand sera-t-il {offset} secondes à partir de maintenant à {location}
+dans {offset} heure quelle heure sera-t-il
+dans {offset} heure quelle heure sera-t-il à {location}
+dans {offset} heures quelle heure sera-t-il
+dans {offset} heures quelle heure sera-t-il à {location}
+dans {offset} minute quelle heure sera-t-il
+dans {offset} minute quelle heure sera-t-il à {location}
+dans {offset} minutes quelle heure sera-t-il
+dans {offset} minutes quelle heure sera-t-il à {location}
+dans {offset} seconde quelle heure sera-t-il
+dans {offset} seconde quelle heure sera-t-il à {location}
+dans {offset} secondes quelle heure sera-t-il
+dans {offset} secondes quelle heure sera-t-il à {location}
+après {offset} heure quelle heure sera-t-il
+après {offset} heure quelle heure sera-t-il à {location}
+après {offset} heures quelle heure sera-t-il
+après {offset} heures quelle heure sera-t-il à {location}
+après {offset} minute quelle heure sera-t-il
+après {offset} minute quelle heure sera-t-il à {location}
+après {offset} minutes quelle heure sera-t-il
+après {offset} minutes quelle heure sera-t-il à {location}
+après {offset} seconde quelle heure sera-t-il
+après {offset} seconde quelle heure sera-t-il à {location}
+après {offset} secondes quelle heure sera-t-il
+après {offset} secondes quelle heure sera-t-il à {location}
+si j'attends {offset} heures quelle heure sera-t-il
+si j'attends {offset} heures quelle heure sera-t-il à {location}
+si j'attends {offset} minutes quelle heure sera-t-il
+si j'attends {offset} minutes quelle heure sera-t-il à {location}

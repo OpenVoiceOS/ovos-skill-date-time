@@ -1,0 +1,21 @@
+quel jour tombe {date}
+quel jour de la semaine tombe {date}
+quel jour est {date}
+quel jour de la semaine est {date}
+quel jour de la semaine était {date}
+quel jour était {date}
+{date} tombe quel jour
+{date} c'était quel jour
+peux-tu me dire quel jour tombe {date}
+peux-tu me dire quel jour de la semaine est {date}
+dis-moi quel jour tombe {date}
+dis-moi quel jour de la semaine était {date}
+est-ce que {date} tombe un lundi
+est-ce que {date} tombe un mardi
+est-ce que {date} tombe un mercredi
+est-ce que {date} tombe un jeudi
+est-ce que {date} tombe un vendredi
+est-ce que {date} tombe un samedi
+est-ce que {date} tombe un dimanche
+le {date} tombe quel jour
+quel est le jour de la semaine du {date}

@@ -1,83 +1,80 @@
 {
-  "/dialog/date.relative.future.dialog": [
-    "Le {date} sera dans {num_days} à partir de maintenant",
-    "On sera le {date}, dans {num_days}",
-    "C'est le {date}, dans {num_days} jours",
-    "{date}, le {num_days}"
-  ],
-  "/dialog/date.future.weekend.dialog": [
-    "le prochain weekend sera de {saturday_date} à {sunday_date}"
-  ],
-  "/dialog/date.not.found.dialog": [
-    "Je n'ai pas pu trouver cette date pour vous."
-  ],
-  "/dialog/date.last.weekend.dialog": [
-    "le weekend dernier était de {saturday_date} à {sunday_date}"
-  ],
-  "/dialog/time.future.dialog": [
-    "{time}",
-    "Il sera {time}"
-  ],
-  "/dialog/next.leap.year.dialog": [
-    "la prochaine année bissextile est en {year}"
-  ],
-  "/dialog/date.relative.past.dialog": [
-    "c'était en {date}, il y a {num_days} jours",
-    "C'était en {date}, il y a {num_days}"
-  ],
-  "/dialog/did.you.mean.timezone.dialog": [
-    "S'agit-il du fuseau {zone_name} ?"
-  ],
-  "/dialog/date.dialog": [
-    "{date}",
-    "{date}",
-    "C'est le {date}",
-    "On est le {date}"
-  ],
-  "/dialog/time.tz.not.found.dialog": [
-    "Je ne peux pas trouver le fuseau horaire pour {location}"
-  ],
-  "/dialog/time.current.dialog": [
-    "{time}",
-    "{time}",
-    "Il est {time}",
-    "Il est {time}",
-    "Il est actuellement {time}"
-  ],
-  "/dialog/day.current.dialog": [
-    "{day}",
-    "Nous sommes {day}",
-    "Aujourd'hui c'est {day}",
-    "Le jour actuel est {day}",
-    "C'est {day} aujourd'hui"
-  ],
-  "/dialog/weekday.current.dialog": [
-    "Aujourd'hui, c'est {weekday}",
-    "Le jour de la semaine actuel est {weekday}",
-    "aujourd'hui nous somme {weekday}",
-    "Nous somme {weekday}"
-  ],
-  "/dialog/weekday.at.date.future.dialog": [
-    "le {date} ce sera {weekday}"
-  ],
-  "/dialog/weekday.at.date.past.dialog": [
-    "le {date} c'était {weekday}"
-  ],
-  "/dialog/extract.date.error.dialog": [
-    "Je n'ai pas compris à quelle date vous faites référence."
-  ],
-  "/dialog/month.current.dialog": [
-    "{month}",
-    "Nous sommes au mois de {month}",
-    "Le mois actuel est {month}",
-    "Le mois en cours est {month}",
-    "Nous sommes en {month}"
-  ],
-  "/dialog/year.current.dialog": [
-    "{year}",
-    "Nous sommes en {year}",
-    "L'année actuelle est {year}",
-    "L'année en cours est {year}",
-    "Nous sommes actuellement en {year}"
-  ]
+    "/dialog/date.dialog": [
+        "C'est le {date}",
+        "On est le {date}",
+        "{date}"
+    ],
+    "/dialog/date.future.weekend.dialog": [
+        "le prochain weekend sera de {saturday_date} \u00e0 {sunday_date}"
+    ],
+    "/dialog/date.last.weekend.dialog": [
+        "le weekend dernier \u00e9tait de {saturday_date} \u00e0 {sunday_date}"
+    ],
+    "/dialog/date.not.found.dialog": [
+        "Je n'ai pas pu trouver cette date pour vous."
+    ],
+    "/dialog/date.relative.future.dialog": [
+        "C'est le {date}, dans {num_days} jours",
+        "Le {date} sera dans {num_days} \u00e0 partir de maintenant",
+        "On sera le {date}, dans {num_days}",
+        "{date}, le {num_days}"
+    ],
+    "/dialog/date.relative.past.dialog": [
+        "C'\u00e9tait en {date}, il y a {num_days}",
+        "c'\u00e9tait en {date}, il y a {num_days} jours"
+    ],
+    "/dialog/day.current.dialog": [
+        "Aujourd'hui, on est le {day}",
+        "Nous sommes le {day}",
+        "On est le {day}",
+        "{day}"
+    ],
+    "/dialog/did.you.mean.timezone.dialog": [
+        "S'agit-il du fuseau {zone_name} ?"
+    ],
+    "/dialog/extract.date.error.dialog": [
+        "Je n'ai pas compris \u00e0 quelle date vous faites r\u00e9f\u00e9rence."
+    ],
+    "/dialog/month.current.dialog": [
+        "Le mois actuel est {month}",
+        "Le mois en cours est {month}",
+        "Nous sommes au mois de {month}",
+        "Nous sommes en {month}",
+        "{month}"
+    ],
+    "/dialog/next.leap.year.dialog": [
+        "La prochaine ann\u00e9e bissextile est {year}",
+        "La prochaine ann\u00e9e bissextile sera {year}"
+    ],
+    "/dialog/time.current.dialog": [
+        "Il est actuellement {time}",
+        "Il est {time}",
+        "{time}"
+    ],
+    "/dialog/time.future.dialog": [
+        "Il sera {time}",
+        "{time}"
+    ],
+    "/dialog/time.tz.not.found.dialog": [
+        "Je ne peux pas trouver le fuseau horaire pour {location}"
+    ],
+    "/dialog/weekday.at.date.future.dialog": [
+        "le {date} ce sera {weekday}"
+    ],
+    "/dialog/weekday.at.date.past.dialog": [
+        "le {date} c'\u00e9tait {weekday}"
+    ],
+    "/dialog/weekday.current.dialog": [
+        "Aujourd'hui, c'est {weekday}",
+        "Aujourd'hui, nous sommes {weekday}",
+        "Nous sommes {weekday}",
+        "C'est {weekday}"
+    ],
+    "/dialog/year.current.dialog": [
+        "L'ann\u00e9e actuelle est {year}",
+        "L'ann\u00e9e en cours est {year}",
+        "Nous sommes actuellement en {year}",
+        "Nous sommes en {year}",
+        "{year}"
+    ]
 }

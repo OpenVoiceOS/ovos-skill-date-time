@@ -1,27 +1,26 @@
-avez-vous l'heure
-avez-vous l'heure actuelle
-heure actuelle
-l'heure
-l'heure  s'il te plaît
-l'heure  s'il vous plaît
-l'heure actuellement
-l'heure actuellement s'il te plaît
-l'heure actuellement s'il vous plaît
-l'heure maintenant
-l'heure maintenant s'il te plaît
-l'heure maintenant s'il vous plaît
-l'heure tout de suite
-l'heure tout de suite s'il te plaît
-l'heure tout de suite s'il vous plaît
 quelle heure est-il
-quelle heure est-il  s'il te plaît
-quelle heure est-il  s'il vous plaît
-quelle heure est-il actuellement
-quelle heure est-il actuellement s'il te plaît
-quelle heure est-il actuellement s'il vous plaît
+quelle heure est-il à {location}
 quelle heure est-il maintenant
-quelle heure est-il maintenant s'il te plaît
-quelle heure est-il maintenant s'il vous plaît
-quelle heure est-il tout de suite
-quelle heure est-il tout de suite s'il te plaît
-quelle heure est-il tout de suite s'il vous plaît
+quelle heure est-il maintenant à {location}
+quelle heure est-il en ce moment
+quelle heure est-il en ce moment à {location}
+quelle heure est-il actuellement
+quelle heure est-il actuellement à {location}
+il est quelle heure
+il est quelle heure à {location}
+tu as l'heure
+tu as l'heure à {location}
+donne-moi l'heure
+donne-moi l'heure à {location}
+dis-moi l'heure
+dis-moi l'heure à {location}
+peux-tu me dire l'heure
+peux-tu me dire l'heure à {location}
+peux-tu me donner l'heure
+peux-tu me donner l'heure à {location}
+j'ai besoin de l'heure
+j'ai besoin de l'heure à {location}
+l'heure actuelle
+l'heure actuelle à {location}
+l'heure du moment
+l'heure du moment à {location}

@@ -1,5 +1,4 @@
-Aujourd'hui c'est {day}
-C'est {day} aujourd'hui
-Le jour actuel est {day}
-Nous sommes {day}
+Aujourd'hui, on est le {day}
+Nous sommes le {day}
+On est le {day}
 {day}
