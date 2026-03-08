@@ -267,12 +267,7 @@
         "combien d'heures reste-t-il avant {date}",
         "il y a combien de temps c'\u00e9tait {date}",
         "il y a combien de jours c'\u00e9tait {date}",
-        "c'\u00e9tait il y a combien de temps {date}",
-        "quand est {date}",
-        "c'est quand {date}",
-        "quand aura lieu {date}",
-        "quand \u00e9tait {date}",
-        "\u00e0 quelle date est {date}"
+        "c'\u00e9tait il y a combien de temps {date}"
     ],
     "/intents/weekday.for.date.intent": [
         "quel jour tombe {date}",

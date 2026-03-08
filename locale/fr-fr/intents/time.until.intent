@@ -1,4 +1,3 @@
-c'est quand {date}
 c'était il y a combien de temps {date}
 combien d'heures avant {date}
 combien d'heures reste-t-il avant {date}
@@ -14,7 +13,3 @@ dans combien de temps est {date}
 dans combien de temps sera {date}
 il y a combien de jours c'était {date}
 il y a combien de temps c'était {date}
-quand aura lieu {date}
-quand est {date}
-quand était {date}
-à quelle date est {date}
