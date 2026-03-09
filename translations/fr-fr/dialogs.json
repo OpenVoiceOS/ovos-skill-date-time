@@ -90,16 +90,22 @@
         "C'est {weekday}"
     ],
     "/dialog/weekday.matches.date.future.no.dialog": [
-        "Non, le {date} tombera un {actual_weekday}, pas un {weekday}."
+        "Non, {date}, ce sera {actual_weekday}, pas {weekday}."
     ],
     "/dialog/weekday.matches.date.future.yes.dialog": [
-        "Oui, le {date} tombera un {weekday}."
+        "Oui, {date}, ce sera {weekday}."
     ],
     "/dialog/weekday.matches.date.past.no.dialog": [
-        "Non, le {date} tombait un {actual_weekday}, pas un {weekday}."
+        "Non, {date}, c'était {actual_weekday}, pas {weekday}."
     ],
     "/dialog/weekday.matches.date.past.yes.dialog": [
-        "Oui, le {date} tombait bien un {weekday}."
+        "Oui, {date}, c'était bien {weekday}."
+    ],
+    "/dialog/weekday.matches.date.today.no.dialog": [
+        "Non, {date}, c'est {actual_weekday}, pas {weekday}."
+    ],
+    "/dialog/weekday.matches.date.today.yes.dialog": [
+        "Oui, {date}, c'est {weekday}."
     ],
     "/dialog/year.current.dialog": [
         "L'ann\u00e9e actuelle est {year}",

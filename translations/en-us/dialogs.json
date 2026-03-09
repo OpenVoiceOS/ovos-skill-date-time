@@ -109,6 +109,12 @@
   ],
   "/dialog/weekday.matches.date.past.yes.dialog": [
     "Yes, {date} was {weekday}."
+  ],
+  "/dialog/weekday.matches.date.today.no.dialog": [
+    "No, {date} is {actual_weekday}, not {weekday}."
+  ],
+  "/dialog/weekday.matches.date.today.yes.dialog": [
+    "Yes, {date} is {weekday}."
   ]
 
 }

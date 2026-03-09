@@ -251,7 +251,7 @@ class TimeSkill(OVOSSkill):
                 rf"\bwill\b.*?\bbe\s+(?P<phrase>(?:on\s+)?(?:a|an)\s+(?P<weekday>{names}))\b",
             ],
             "fr": [
-                rf"\b(?P<phrase>tombe(?:-t-il)?\s+un\s+(?P<weekday>{names}))\b",
+                rf"\b(?P<phrase>(?:tombe(?:-t-il)?|tombait(?:-il)?|tombera(?:-t-il)?|tomberait(?:-il)?)\s+un\s+(?P<weekday>{names}))\b",
             ]
         }.get(language, [])
 
@@ -684,11 +684,17 @@ class TimeSkill(OVOSSkill):
             "weekday": expected_name,
             "actual_weekday": nice_weekday(dt, lang=self.lang)
         }
-        if dt.date() >= now.date():
+        if dt.date() > now.date():
             dialog = (
                 "weekday.matches.date.future.yes"
                 if dt.weekday() == expected_weekday
                 else "weekday.matches.date.future.no"
+            )
+        elif dt.date() == now.date():
+            dialog = (
+                "weekday.matches.date.today.yes"
+                if dt.weekday() == expected_weekday
+                else "weekday.matches.date.today.no"
             )
         else:
             dialog = (
