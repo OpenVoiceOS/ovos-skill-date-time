@@ -79,6 +79,36 @@
     "This year is {year}",
     "The current year is {year}",
     "We're in {year} right now"
+  ],
+  "/dialog/leap.year.current.no.dialog": [
+    "No, {year} is not a leap year."
+  ],
+  "/dialog/leap.year.current.yes.dialog": [
+    "Yes, {year} is a leap year."
+  ],
+  "/dialog/leap.year.either.no.dialog": [
+    "No. The next leap year after that will be {year}."
+  ],
+  "/dialog/leap.year.either.yes.dialog": [
+    "Yes, {year} is a leap year."
+  ],
+  "/dialog/leap.year.next.no.dialog": [
+    "No, {year} will not be a leap year."
+  ],
+  "/dialog/leap.year.next.yes.dialog": [
+    "Yes, {year} will be a leap year."
+  ],
+  "/dialog/weekday.matches.date.future.no.dialog": [
+    "No, {date} will be {actual_weekday}, not {weekday}."
+  ],
+  "/dialog/weekday.matches.date.future.yes.dialog": [
+    "Yes, {date} will be {weekday}."
+  ],
+  "/dialog/weekday.matches.date.past.no.dialog": [
+    "No, {date} was {actual_weekday}, not {weekday}."
+  ],
+  "/dialog/weekday.matches.date.past.yes.dialog": [
+    "Yes, {date} was {weekday}."
   ]
 
 }

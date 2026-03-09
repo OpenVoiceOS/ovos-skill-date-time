@@ -36,6 +36,24 @@
     "/dialog/extract.date.error.dialog": [
         "Je n'ai pas compris \u00e0 quelle date vous faites r\u00e9f\u00e9rence."
     ],
+    "/dialog/leap.year.current.no.dialog": [
+        "Non, {year} n'est pas une ann\u00e9e bissextile."
+    ],
+    "/dialog/leap.year.current.yes.dialog": [
+        "Oui, {year} est une ann\u00e9e bissextile."
+    ],
+    "/dialog/leap.year.either.no.dialog": [
+        "Non. La prochaine ann\u00e9e bissextile apr\u00e8s cela sera {year}."
+    ],
+    "/dialog/leap.year.either.yes.dialog": [
+        "Oui, {year} est une ann\u00e9e bissextile."
+    ],
+    "/dialog/leap.year.next.no.dialog": [
+        "Non, {year} ne sera pas une ann\u00e9e bissextile."
+    ],
+    "/dialog/leap.year.next.yes.dialog": [
+        "Oui, {year} sera une ann\u00e9e bissextile."
+    ],
     "/dialog/month.current.dialog": [
         "Le mois actuel est {month}",
         "Le mois en cours est {month}",
@@ -70,6 +88,18 @@
         "Aujourd'hui, nous sommes {weekday}",
         "Nous sommes {weekday}",
         "C'est {weekday}"
+    ],
+    "/dialog/weekday.matches.date.future.no.dialog": [
+        "Non, le {date} tombera un {actual_weekday}, pas un {weekday}."
+    ],
+    "/dialog/weekday.matches.date.future.yes.dialog": [
+        "Oui, le {date} tombera un {weekday}."
+    ],
+    "/dialog/weekday.matches.date.past.no.dialog": [
+        "Non, le {date} tombait un {actual_weekday}, pas un {weekday}."
+    ],
+    "/dialog/weekday.matches.date.past.yes.dialog": [
+        "Oui, le {date} tombait bien un {weekday}."
     ],
     "/dialog/year.current.dialog": [
         "L'ann\u00e9e actuelle est {year}",

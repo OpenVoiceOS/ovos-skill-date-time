@@ -17,6 +17,32 @@
         "dis-moi les dates du week-end dernier",
         "peux-tu me dire quand \u00e9tait le week-end dernier"
     ],
+    "/intents/is.leap.year.intent": [
+        "cette année est-elle bissextile",
+        "cette année est-elle bissextile ou l'année prochaine",
+        "cette année est-elle bissextile ou la prochaine",
+        "est-ce que cette année est bissextile",
+        "est-ce que cette année est bissextile ou l'année prochaine",
+        "est-ce que cette année est bissextile ou la prochaine",
+        "est-ce que l'année prochaine est bissextile",
+        "l'année prochaine est-elle bissextile"
+    ],
+    "/intents/weekday.matches.date.intent": [
+        "est-ce que {date} tombe un dimanche",
+        "est-ce que {date} tombe un jeudi",
+        "est-ce que {date} tombe un lundi",
+        "est-ce que {date} tombe un mardi",
+        "est-ce que {date} tombe un mercredi",
+        "est-ce que {date} tombe un samedi",
+        "est-ce que {date} tombe un vendredi",
+        "le {date} tombe-t-il un dimanche",
+        "le {date} tombe-t-il un jeudi",
+        "le {date} tombe-t-il un lundi",
+        "le {date} tombe-t-il un mardi",
+        "le {date} tombe-t-il un mercredi",
+        "le {date} tombe-t-il un samedi",
+        "le {date} tombe-t-il un vendredi"
+    ],
     "/intents/what.time.is.it.intent": [
         "quelle heure est-il",
         "quelle heure est-il \u00e0 {location}",

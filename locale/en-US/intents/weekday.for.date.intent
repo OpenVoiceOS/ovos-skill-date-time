@@ -32,20 +32,6 @@ do you know which day {date} is
 do you know which day {date} was
 do you know which weekday {date} is
 do you know which weekday {date} was
-is {date}  a Friday
-is {date}  a Monday
-is {date}  a Saturday
-is {date}  a Sunday
-is {date}  a Thursday
-is {date}  a Tuesday
-is {date}  a Wednesday
-is {date} on a Friday
-is {date} on a Monday
-is {date} on a Saturday
-is {date} on a Sunday
-is {date} on a Thursday
-is {date} on a Tuesday
-is {date} on a Wednesday
 on what day does {date} fall on
 on what day is {date}
 on what day of the week does {date} fall on
@@ -78,20 +64,6 @@ tell me what day {date} is
 tell me what day {date} was
 tell me what weekday {date} is
 tell me what weekday {date} was
-was {date}  a Friday
-was {date}  a Monday
-was {date}  a Saturday
-was {date}  a Sunday
-was {date}  a Thursday
-was {date}  a Tuesday
-was {date}  a Wednesday
-was {date} on a Friday
-was {date} on a Monday
-was {date} on a Saturday
-was {date} on a Sunday
-was {date} on a Thursday
-was {date} on a Tuesday
-was {date} on a Wednesday
 what day does {date} fall on
 what day is {date}
 what day of the week does {date} fall on
