@@ -1,5 +1,5 @@
 {
-  "location.rx": [
-    "\\b(à|dans|pour) (?P<Location>.*)"
-  ]
+    "location.rx": [
+        "\\b(\u00e0|au|aux|dans|pour)\\s+(?P<Location>[^,;:.!?]+?)(?=\\s*[,;:.!?]|$)"
+    ]
 }

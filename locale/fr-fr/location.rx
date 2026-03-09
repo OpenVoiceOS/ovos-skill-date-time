@@ -1,1 +1,1 @@
-\b(à|dans|pour) (?P<Location>.*)
+\b(à|au|aux|dans|pour)\s+(?P<Location>[^,;:.!?]+?)(?=\s*[,;:.!?]|$)

@@ -1,2 +1,2 @@
-C'était en {date}, il y a {num_days}
-c'était en {date}, il y a {num_days} jours
+C'était le {date}, il y a {num_days} jours.
+Le {date}, c'était il y a {num_days} jours.
