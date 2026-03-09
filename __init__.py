@@ -56,34 +56,6 @@ def speakable_timezone(tz):
 class TimeSkill(OVOSSkill):
     """A skill for interacting with date and time information."""
 
-    AMBIGUOUS_LOCATIONS = {
-        "australie",
-        "bresil",
-        "brésil",
-        "canada",
-        "espagne",
-        "indonesie",
-        "indonésie",
-        "mexique",
-        "nouvelle-zelande",
-        "nouvelle-zélande",
-        "russie",
-        "usa",
-        "etats-unis",
-        "états-unis",
-        "les usa",
-        "les etats-unis",
-        "les états-unis",
-        "les etats-unis d'amerique",
-        "les états-unis d'amérique"
-    }
-    NON_LOCATION_PHRASES = {
-        "ce moment",
-        "ce moment-ci",
-        "ce moment la",
-        "ce moment-là"
-    }
-
     @classproperty
     def runtime_requirements(self):
         """this skill does not need internet"""
@@ -165,6 +137,22 @@ class TimeSkill(OVOSSkill):
         """
         return self.time_format == 'full'
 
+    @staticmethod
+    def _normalize_phrase(text: str) -> str:
+        """Normalize phrases for case-insensitive locale resource matching."""
+        return text.strip(" \t,;:.!?").casefold()
+
+    def _load_locale_phrase_set(self, name: str):
+        """Load a locale phrase list once and return a normalized set."""
+        cache_key = f"{name}.list.normalized"
+        if cache_key not in self.resources.static:
+            self.resources.static[cache_key] = {
+                self._normalize_phrase(phrase)
+                for phrase in self.resources.load_list_file(name)
+                if phrase.strip()
+            }
+        return self.resources.static[cache_key]
+
     ######################################################################
     # parsing
     def _extract_location(self, utt: str) -> str:
@@ -191,20 +179,32 @@ class TimeSkill(OVOSSkill):
                             pass
         return None
 
-    @classmethod
-    def _is_ambiguous_location(cls, location_string: str) -> bool:
-        """Return True when a location name spans multiple timezones."""
-        return location_string.strip().lower() in cls.AMBIGUOUS_LOCATIONS
+    def _is_ambiguous_location(self, location_string: str) -> bool:
+        """Return True when a locale marks a location name as timezone-ambiguous."""
+        return (
+            self._normalize_phrase(location_string)
+            in self._load_locale_phrase_set("ambiguous_locations")
+        )
 
-    @classmethod
-    def _sanitize_location(cls, location_string: Optional[str]) -> Optional[str]:
-        """Discard French adverbial phrases accidentally captured as locations."""
+    def _sanitize_location(self, location_string: Optional[str]) -> Optional[str]:
+        """Discard locale-specific phrases accidentally captured as locations."""
         if not location_string:
             return None
         cleaned = location_string.strip(" \t,;:.!?")
-        if cleaned.lower() in cls.NON_LOCATION_PHRASES:
+        if (
+            self._normalize_phrase(cleaned)
+            in self._load_locale_phrase_set("non_location_phrases")
+        ):
             return None
         return cleaned
+
+    def _mentions_current_weekend(self, utterance: str) -> bool:
+        """Check whether the active locale explicitly asked for the current weekend."""
+        current_weekend_phrases = self._load_locale_phrase_set("current_weekend_phrases")
+        if not current_weekend_phrases:
+            return False
+        normalized_utterance = utterance.casefold()
+        return any(phrase in normalized_utterance for phrase in current_weekend_phrases)
 
     @staticmethod
     def _get_timezone_from_builtins(location_string: str) -> Optional[datetime.tzinfo]:
@@ -609,10 +609,7 @@ class TimeSkill(OVOSSkill):
         else:
             saturday_dt = now - datetime.timedelta(days=1)
 
-        current_weekend = any(
-            phrase in utt for phrase in ("ce week-end", "ce weekend", "ce week end")
-        )
-        if not current_weekend and weekday >= 5:
+        if weekday >= 5 and not self._mentions_current_weekend(utt):
             saturday_dt += datetime.timedelta(days=7)
 
         sunday_dt = saturday_dt + datetime.timedelta(days=1)
