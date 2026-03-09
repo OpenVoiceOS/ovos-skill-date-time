@@ -1,3 +1,3 @@
-Ce sera le {date}, dans {num_days}.
-Le {date}, c'est dans {num_days}.
-Nous serons le {date} dans {num_days}.
+Ce sera le {date}, dans {num_days} jours.
+Le {date}, c'est dans {num_days} jours.
+Nous serons le {date} dans {num_days} jours.

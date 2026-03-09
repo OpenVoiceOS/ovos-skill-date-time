@@ -16,13 +16,13 @@
         "Je n'ai pas pu trouver cette date pour vous."
     ],
     "/dialog/date.relative.future.dialog": [
-        "Ce sera le {date}, dans {num_days}.",
-        "Nous serons le {date} dans {num_days}.",
-        "Le {date}, c'est dans {num_days}."
+        "Ce sera le {date}, dans {num_days} jours.",
+        "Nous serons le {date} dans {num_days} jours.",
+        "Le {date}, c'est dans {num_days} jours."
     ],
     "/dialog/date.relative.past.dialog": [
-        "C'\u00e9tait le {date}, il y a {num_days}.",
-        "Le {date}, c'\u00e9tait il y a {num_days}."
+        "C'\u00e9tait le {date}, il y a {num_days} jours.",
+        "Le {date}, c'\u00e9tait il y a {num_days} jours."
     ],
     "/dialog/day.current.dialog": [
         "Aujourd'hui, on est le {day}",
