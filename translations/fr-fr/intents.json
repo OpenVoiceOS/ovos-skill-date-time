@@ -382,31 +382,5 @@
         "ann\u00e9e actuelle",
         "ann\u00e9e en cours",
         "en quelle ann\u00e9e est-on"
-    ],
-    "/intents/is.leap.year.intent": [
-        "est-ce que cette ann\u00e9e est bissextile",
-        "cette ann\u00e9e est-elle bissextile",
-        "est-ce que l'ann\u00e9e prochaine est bissextile",
-        "l'ann\u00e9e prochaine est-elle bissextile",
-        "est-ce que cette ann\u00e9e est bissextile ou la prochaine",
-        "est-ce que cette ann\u00e9e est bissextile ou l'ann\u00e9e prochaine",
-        "cette ann\u00e9e est-elle bissextile ou la prochaine",
-        "cette ann\u00e9e est-elle bissextile ou l'ann\u00e9e prochaine"
-    ],
-    "/intents/weekday.matches.date.intent": [
-        "est-ce que {date} tombe un lundi",
-        "est-ce que {date} tombe un mardi",
-        "est-ce que {date} tombe un mercredi",
-        "est-ce que {date} tombe un jeudi",
-        "est-ce que {date} tombe un vendredi",
-        "est-ce que {date} tombe un samedi",
-        "est-ce que {date} tombe un dimanche",
-        "le {date} tombe-t-il un lundi",
-        "le {date} tombe-t-il un mardi",
-        "le {date} tombe-t-il un mercredi",
-        "le {date} tombe-t-il un jeudi",
-        "le {date} tombe-t-il un vendredi",
-        "le {date} tombe-t-il un samedi",
-        "le {date} tombe-t-il un dimanche"
     ]
 }

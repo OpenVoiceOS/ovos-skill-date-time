@@ -77,35 +77,5 @@
         "Nous sommes actuellement en {year}",
         "Nous sommes en {year}",
         "{year}"
-    ],
-    "/dialog/leap.year.current.yes.dialog": [
-        "Oui, {year} est une ann\u00e9e bissextile."
-    ],
-    "/dialog/leap.year.current.no.dialog": [
-        "Non, {year} n'est pas une ann\u00e9e bissextile."
-    ],
-    "/dialog/leap.year.next.yes.dialog": [
-        "Oui, {year} sera une ann\u00e9e bissextile."
-    ],
-    "/dialog/leap.year.next.no.dialog": [
-        "Non, {year} ne sera pas une ann\u00e9e bissextile."
-    ],
-    "/dialog/leap.year.either.yes.dialog": [
-        "Oui, {year} est bien une ann\u00e9e bissextile."
-    ],
-    "/dialog/leap.year.either.no.dialog": [
-        "Non. La prochaine ann\u00e9e bissextile sera {year}."
-    ],
-    "/dialog/weekday.matches.date.future.yes.dialog": [
-        "Oui, le {date} tombera bien un {weekday}."
-    ],
-    "/dialog/weekday.matches.date.future.no.dialog": [
-        "Non, le {date} tombera un {actual_weekday}."
-    ],
-    "/dialog/weekday.matches.date.past.yes.dialog": [
-        "Oui, le {date}, c'\u00e9tait bien un {weekday}."
-    ],
-    "/dialog/weekday.matches.date.past.no.dialog": [
-        "Non, le {date}, c'\u00e9tait un {actual_weekday}."
     ]
 }

@@ -11,7 +11,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-import calendar
 import datetime
 import os
 import re
@@ -206,45 +205,6 @@ class TimeSkill(OVOSSkill):
         if cleaned.lower() in cls.NON_LOCATION_PHRASES:
             return None
         return cleaned
-
-    def _extract_requested_weekday(self, utt: str):
-        language = self.lang.split("-")[0].lower()
-        weekday_map = {
-            "fr": {
-                "lundi": 0,
-                "mardi": 1,
-                "mercredi": 2,
-                "jeudi": 3,
-                "vendredi": 4,
-                "samedi": 5,
-                "dimanche": 6,
-            }
-        }.get(language, {})
-
-        utt = utt.lower()
-        if weekday_map:
-            names = "|".join(map(re.escape, weekday_map))
-            match = re.search(
-                rf"\btombe(?:-t-il)?\s+un\s+(?P<weekday>{names})\b",
-                utt
-            )
-            if match:
-                weekday = match.group("weekday")
-                return weekday_map[weekday], weekday
-        return None
-
-    @staticmethod
-    def _strip_requested_weekday_phrase(utt: str, weekday) -> str:
-        """Remove the explicit weekday check phrase before parsing the date."""
-        if not utt or weekday is None:
-            return utt
-        _, expected_name = weekday
-        return re.sub(
-            rf"\btombe(?:-t-il)?\s+un\s+{re.escape(expected_name)}\b",
-            "",
-            utt,
-            flags=re.IGNORECASE
-        ).strip(" \t,;:.!?")
 
     @staticmethod
     def _get_timezone_from_builtins(location_string: str) -> Optional[datetime.tzinfo]:
@@ -615,40 +575,6 @@ class TimeSkill(OVOSSkill):
                 "date": nice_date(dt, lang=self.lang, now=now),
                 "weekday": nice_weekday(dt, lang=self.lang)})
 
-    @intent_handler("weekday.matches.date.intent")
-    def handle_weekday_match(self, message):
-        now = self.get_datetime()  # session aware
-        utterance = message.data.get("utterance", "")
-        weekday = self._extract_requested_weekday(utterance)
-        date_text = message.data.get("date")
-        if not date_text:
-            date_text = self._strip_requested_weekday_phrase(utterance, weekday)
-        dt, _ = extract_datetime(date_text or utterance,
-                                 anchorDate=now, lang=self.lang) or (None, None)
-        if not dt or weekday is None:
-            self.speak_dialog("extract.date.error")
-            return
-
-        expected_weekday, expected_name = weekday
-        data = {
-            "date": nice_date(dt, lang=self.lang, now=now),
-            "weekday": expected_name,
-            "actual_weekday": nice_weekday(dt, lang=self.lang)
-        }
-        if dt.date() >= now.date():
-            dialog = (
-                "weekday.matches.date.future.yes"
-                if dt.weekday() == expected_weekday
-                else "weekday.matches.date.future.no"
-            )
-        else:
-            dialog = (
-                "weekday.matches.date.past.yes"
-                if dt.weekday() == expected_weekday
-                else "weekday.matches.date.past.no"
-            )
-        self.speak_dialog(dialog, data)
-
     @intent_handler("what.month.is.it.intent")
     def handle_current_month(self, message):
         """
@@ -733,52 +659,6 @@ class TimeSkill(OVOSSkill):
         year = now.year if now <= leap_date else now.year + 1
         next_leap_year = get_next_leap_year(year)
         self.speak_dialog('next.leap.year', {'year': next_leap_year})
-
-    @intent_handler("is.leap.year.intent")
-    def handle_is_leap_year(self, message):
-        utterance = message.data.get("utterance", "").lower()
-        now = self.get_datetime()
-        current_year = now.year
-        next_year = current_year + 1
-
-        asks_either = any(phrase in utterance for phrase in (
-            "ou la prochaine",
-            "ou l'année prochaine",
-            "ou l'an prochain",
-            "ou la suivante"
-        ))
-        asks_next_year = any(phrase in utterance for phrase in (
-            "année prochaine",
-            "an prochain"
-        )) and not asks_either
-
-        if asks_either:
-            if calendar.isleap(current_year):
-                self.speak_dialog("leap.year.either.yes",
-                                  {"year": current_year})
-            elif calendar.isleap(next_year):
-                self.speak_dialog("leap.year.either.yes",
-                                  {"year": next_year})
-            else:
-                self.speak_dialog("leap.year.either.no",
-                                  {"year": get_next_leap_year(next_year + 1)})
-            return
-
-        if asks_next_year:
-            dialog = (
-                "leap.year.next.yes"
-                if calendar.isleap(next_year)
-                else "leap.year.next.no"
-            )
-            self.speak_dialog(dialog, {"year": next_year})
-            return
-
-        dialog = (
-            "leap.year.current.yes"
-            if calendar.isleap(current_year)
-            else "leap.year.current.no"
-        )
-        self.speak_dialog(dialog, {"year": current_year})
 
     ######################################################################
     # GUI / Faceplate
