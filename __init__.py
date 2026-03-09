@@ -651,13 +651,14 @@ class TimeSkill(OVOSSkill):
                                  anchorDate=now, lang=self.lang) or (None, None)
         if not dt:
             self.speak_dialog("extract.date.error")
+            return
+
+        if dt >= now:
+            dialog = "weekday.at.date.future"
         else:
-            if dt >= now:
-                dialog = "weekday.at.date.future"
-            else:
-                dialog = "weekday.at.date.past"
-            # TODO - "today" should never trigger this intent, but if it does,
-            #  should we handle it better? nice_date will return "today" in that case
+            dialog = "weekday.at.date.past"
+        # TODO - "today" should never trigger this intent, but if it does,
+        #  should we handle it better? nice_date will return "today" in that case
         self.speak_dialog(dialog, {
                 "date": nice_date(dt, lang=self.lang, now=now),
                 "weekday": nice_weekday(dt, lang=self.lang)})
