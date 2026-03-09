@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.6a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.6a4) (2026-03-09)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.6a3...1.1.6a4)
+
+**Merged pull requests:**
+
+- Add missing and incomplete French date-time translations [\#183](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/183) ([goldyfruit](https://github.com/goldyfruit))
+
+## [1.1.6a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.6a3) (2026-01-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.6a2...1.1.6a3)
+
 ## [1.1.6a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.6a2) (2026-01-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.6a1...1.1.6a2)
