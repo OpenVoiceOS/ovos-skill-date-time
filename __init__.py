@@ -56,6 +56,34 @@ def speakable_timezone(tz):
 class TimeSkill(OVOSSkill):
     """A skill for interacting with date and time information."""
 
+    AMBIGUOUS_LOCATIONS = {
+        "australie",
+        "bresil",
+        "brésil",
+        "canada",
+        "espagne",
+        "indonesie",
+        "indonésie",
+        "mexique",
+        "nouvelle-zelande",
+        "nouvelle-zélande",
+        "russie",
+        "usa",
+        "etats-unis",
+        "états-unis",
+        "les usa",
+        "les etats-unis",
+        "les états-unis",
+        "les etats-unis d'amerique",
+        "les états-unis d'amérique"
+    }
+    NON_LOCATION_PHRASES = {
+        "ce moment",
+        "ce moment-ci",
+        "ce moment la",
+        "ce moment-là"
+    }
+
     @classproperty
     def runtime_requirements(self):
         """this skill does not need internet"""
@@ -155,13 +183,28 @@ class TimeSkill(OVOSSkill):
                     pat = pat.strip()
                     if pat and pat[0] == "#":
                         continue
-                    res = re.search(pat, utt)
+                    res = re.search(pat, utt, flags=re.IGNORECASE)
                     if res:
                         try:
-                            return res.group("Location")
+                            return res.group("Location").strip(" \t,;:.!?")
                         except IndexError:
                             pass
         return None
+
+    @classmethod
+    def _is_ambiguous_location(cls, location_string: str) -> bool:
+        """Return True when a location name spans multiple timezones."""
+        return location_string.strip().lower() in cls.AMBIGUOUS_LOCATIONS
+
+    @classmethod
+    def _sanitize_location(cls, location_string: Optional[str]) -> Optional[str]:
+        """Discard French adverbial phrases accidentally captured as locations."""
+        if not location_string:
+            return None
+        cleaned = location_string.strip(" \t,;:.!?")
+        if cleaned.lower() in cls.NON_LOCATION_PHRASES:
+            return None
+        return cleaned
 
     @staticmethod
     def _get_timezone_from_builtins(location_string: str) -> Optional[datetime.tzinfo]:
@@ -262,6 +305,8 @@ class TimeSkill(OVOSSkill):
         Returns:
             datetime.tzinfo: The timezone object if resolved, else None.
         """
+        if self._is_ambiguous_location(location_string):
+            return None
         timezone = self._get_timezone_from_builtins(location_string)
         if not timezone:
             timezone = self._get_timezone_from_table(location_string)
@@ -282,6 +327,7 @@ class TimeSkill(OVOSSkill):
         Returns:
             Optional[datetime.datetime]: The localized datetime, or None if timezone cannot be resolved.
         """
+        location = self._sanitize_location(location)
         if location:
             tz = self.get_timezone_in_location(location)
             if not tz:
@@ -296,7 +342,7 @@ class TimeSkill(OVOSSkill):
         return dt
 
     def get_spoken_time(self, location: str = None, force_ampm=False,
-                        anchor_date: datetime.datetime = None) -> str:
+                        anchor_date: datetime.datetime = None) -> Optional[str]:
         """Get a human-readable spoken version of the current time.
 
         Args:
@@ -308,6 +354,8 @@ class TimeSkill(OVOSSkill):
             str: A spoken-friendly representation of the time.
         """
         dt = self.get_datetime(location, anchor_date)
+        if not dt:
+            return None
 
         # speak AM/PM when talking about somewhere else
         say_am_pm = bool(location) or force_ampm
@@ -320,7 +368,7 @@ class TimeSkill(OVOSSkill):
         return s
 
     def get_display_time(self, location: str = None, force_ampm=False,
-                         anchor_date: datetime.datetime = None) -> str:
+                         anchor_date: datetime.datetime = None) -> Optional[str]:
         """Get a display-friendly version of the current time.
 
         Args:
@@ -332,6 +380,8 @@ class TimeSkill(OVOSSkill):
             str: A string representing the display time.
         """
         dt = self.get_datetime(location, anchor_date)
+        if not dt:
+            return None
         # speak AM/PM when talking about somewhere else
         say_am_pm = bool(location) or force_ampm
         return nice_time(dt, lang=self.lang,
@@ -363,18 +413,20 @@ class TimeSkill(OVOSSkill):
 
     ######################################################################
     # Time queries / display
-    def speak_time(self, dialog: str, location: str = None):
+    def speak_time(self, dialog: str, location: str = None,
+                   anchor_date: datetime.datetime = None):
         """Speak the current time. Optionally at a location
         speaks an error if timezone for requested location could not be detected"""
+        location = self._sanitize_location(location)
         if location:
-            current_time = self.get_spoken_time(location)
+            current_time = self.get_spoken_time(location, anchor_date=anchor_date)
             if not current_time:
                 self.speak_dialog("time.tz.not.found", {"location": location})
                 return
-            time_string = self.get_display_time(location)
+            time_string = self.get_display_time(location, anchor_date=anchor_date)
         else:
-            current_time = self.get_spoken_time()
-            time_string = self.get_display_time()
+            current_time = self.get_spoken_time(anchor_date=anchor_date)
+            time_string = self.get_display_time(anchor_date=anchor_date)
 
         # speak it
         self.speak_dialog(dialog, {"time": current_time})
@@ -386,7 +438,9 @@ class TimeSkill(OVOSSkill):
     def handle_query_time(self, message):
         """Handle queries about the current time."""
         utt = message.data.get('utterance', "")
-        location = message.data.get("location") or self._extract_location(utt)
+        location = self._sanitize_location(
+            message.data.get("location") or self._extract_location(utt)
+        )
         # speak it
         self.speak_time("time.current", location=location)
 
@@ -400,10 +454,12 @@ class TimeSkill(OVOSSkill):
             self.handle_query_time(message)
             return
 
-        location = message.data.get("location") or self._extract_location(utt)
+        location = self._sanitize_location(
+            message.data.get("location") or self._extract_location(utt)
+        )
 
         # speak it
-        self.speak_time("time.future", location=location)
+        self.speak_time("time.future", location=location, anchor_date=dt)
 
     ######################################################################
     # Date queries
@@ -418,7 +474,9 @@ class TimeSkill(OVOSSkill):
             dt = now
 
         # handle questions ~ "what is the day in sydney"
-        location_string = message.data.get("location") or self._extract_location(utt)
+        location_string = self._sanitize_location(
+            message.data.get("location") or self._extract_location(utt)
+        )
 
         if location_string:
             dt = self.get_datetime(location_string, anchor_date=dt)
@@ -470,7 +528,14 @@ class TimeSkill(OVOSSkill):
         Args:
             message: The message object triggering the intent.
         """
-        now = self.get_datetime()  # session aware
+        utt = message.data.get("utterance", "")
+        location = self._sanitize_location(
+            message.data.get("location") or self._extract_location(utt)
+        )
+        now = self.get_datetime(location)
+        if location and not now:
+            self.speak_dialog("time.tz.not.found", {"location": location})
+            return
         self.speak_dialog("day.current",
                           {"day": nice_day(now, lang=self.lang)})
 
@@ -530,19 +595,29 @@ class TimeSkill(OVOSSkill):
 
     @intent_handler("date.future.weekend.intent")
     def handle_date_future_weekend(self, message):
-        # Strip year off nice_date as request is inherently close
-        # Don't pass `now` to `nice_date` as a
-        # request on Friday will return "tomorrow"
         """
         Handles queries about the upcoming weekend's dates.
         
         Determines the dates for the next Saturday and Sunday, formats them for speech, and responds with a dialog containing both dates.
         """
         now = self.get_datetime()
-        dt = extract_datetime('this saturday', anchorDate=now, lang='en-us')[0]
-        saturday_date = ', '.join(nice_date(dt, lang=self.lang).split(', ')[:2])
-        dt = extract_datetime('this sunday', anchorDate=now, lang='en-us')[0]
-        sunday_date = ', '.join(nice_date(dt, lang=self.lang).split(', ')[:2])
+        utt = message.data.get("utterance", "").lower()
+        weekday = now.weekday()
+
+        if weekday <= 5:
+            saturday_dt = now + datetime.timedelta(days=5 - weekday)
+        else:
+            saturday_dt = now - datetime.timedelta(days=1)
+
+        current_weekend = any(
+            phrase in utt for phrase in ("ce week-end", "ce weekend", "ce week end")
+        )
+        if not current_weekend and weekday >= 5:
+            saturday_dt += datetime.timedelta(days=7)
+
+        sunday_dt = saturday_dt + datetime.timedelta(days=1)
+        saturday_date = ', '.join(nice_date(saturday_dt, lang=self.lang).split(', ')[:2])
+        sunday_date = ', '.join(nice_date(sunday_dt, lang=self.lang).split(', ')[:2])
         self.speak_dialog('date.future.weekend', {
             'saturday_date': saturday_date,
             'sunday_date': sunday_date
