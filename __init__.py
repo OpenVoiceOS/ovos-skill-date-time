@@ -217,43 +217,39 @@ class TimeSkill(OVOSSkill):
         normalized_utterance = utterance.casefold()
         return any(phrase in normalized_utterance for phrase in current_weekend_phrases)
 
+    def _load_cached_list(self, name: str):
+        """Load and cache a locale list resource."""
+        cache_key = f"{name}.list"
+        if cache_key not in self.resources.static:
+            self.resources.static[cache_key] = self.resources.load_list_file(name)
+        return self.resources.static[cache_key]
+
+    def _load_weekday_match_map(self):
+        """Load the locale weekday map for weekday-match parsing."""
+        cache_key = "weekday.match.weekdays.value"
+        if cache_key not in self.resources.static:
+            weekday_map = {}
+            for name, value in self.resources.load_named_value_file(
+                "weekday.match.weekdays"
+            ).items():
+                try:
+                    weekday_map[name.lower()] = int(value)
+                except (TypeError, ValueError):
+                    continue
+            self.resources.static[cache_key] = weekday_map
+        return self.resources.static[cache_key]
+
     def _extract_requested_weekday(self, utt: str):
         """Extract the weekday requested by yes/no weekday-check intents."""
-        language = self.lang.split("-")[0].lower()
-        weekday_map = {
-            "en": {
-                "monday": 0,
-                "tuesday": 1,
-                "wednesday": 2,
-                "thursday": 3,
-                "friday": 4,
-                "saturday": 5,
-                "sunday": 6,
-            },
-            "fr": {
-                "lundi": 0,
-                "mardi": 1,
-                "mercredi": 2,
-                "jeudi": 3,
-                "vendredi": 4,
-                "samedi": 5,
-                "dimanche": 6,
-            }
-        }.get(language, {})
+        weekday_map = self._load_weekday_match_map()
         if not utt or not weekday_map:
             return None
 
         names = "|".join(map(re.escape, weekday_map))
-        patterns = {
-            "en": [
-                rf"\b(?:is|was)\b.*?\b(?P<phrase>(?:on\s+)?(?:a|an)\s+(?P<weekday>{names}))\b",
-                rf"\bdoes\b.*?\b(?P<phrase>fall\s+(?:on\s+)?(?:a|an)\s+(?P<weekday>{names}))\b",
-                rf"\bwill\b.*?\bbe\s+(?P<phrase>(?:on\s+)?(?:a|an)\s+(?P<weekday>{names}))\b",
-            ],
-            "fr": [
-                rf"\b(?P<phrase>(?:tombe(?:-t-il)?|tombait(?:-il)?|tombera(?:-t-il)?|tomberait(?:-il)?)\s+un\s+(?P<weekday>{names}))\b",
-            ]
-        }.get(language, [])
+        patterns = [
+            pattern.replace("__WEEKDAY_NAMES__", names)
+            for pattern in self._load_cached_list("weekday.match.patterns")
+        ]
 
         normalized = utt.lower()
         for pattern in patterns:
@@ -270,31 +266,18 @@ class TimeSkill(OVOSSkill):
 
         _, _, phrase = weekday
         cleaned = re.sub(re.escape(phrase), "", utt, flags=re.IGNORECASE)
-        if self.lang.split("-")[0].lower() == "en":
-            cleaned = re.sub(r"^\s*(?:does|is|was|will)\s+", "", cleaned,
-                             flags=re.IGNORECASE)
-            cleaned = re.sub(r"\b(?:fall|be)\s*$", "", cleaned,
-                             flags=re.IGNORECASE)
+        for pattern in self._load_cached_list("weekday.match.strip_prefixes"):
+            cleaned = re.sub(pattern, "", cleaned, flags=re.IGNORECASE)
+        for pattern in self._load_cached_list("weekday.match.strip_suffixes"):
+            cleaned = re.sub(pattern, "", cleaned, flags=re.IGNORECASE)
         return cleaned.strip(" \t,;:.!?")
 
     def _get_leap_year_query_scope(self, utterance: str) -> str:
         """Return whether the user asked about the current, next, or either year."""
-        language = self.lang.split("-")[0].lower()
         utterance = utterance.lower()
 
-        either_phrases = {
-            "en": ("or next", "or the next one"),
-            "fr": (
-                "ou la prochaine",
-                "ou l'année prochaine",
-                "ou l'an prochain",
-                "ou la suivante",
-            )
-        }.get(language, ())
-        next_year_phrases = {
-            "en": ("next year",),
-            "fr": ("année prochaine", "an prochain")
-        }.get(language, ())
+        either_phrases = self._load_cached_list("leap.year.scope.either_phrases")
+        next_year_phrases = self._load_cached_list("leap.year.scope.next_phrases")
 
         if any(phrase in utterance for phrase in either_phrases):
             return "either"
