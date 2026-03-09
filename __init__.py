@@ -219,14 +219,14 @@ class TimeSkill(OVOSSkill):
 
     def _load_cached_list(self, name: str):
         """Load and cache a locale list resource."""
-        cache_key = f"{name}.list"
+        cache_key = f"{self.lang}:{name}.list"
         if cache_key not in self.resources.static:
             self.resources.static[cache_key] = self.resources.load_list_file(name)
         return self.resources.static[cache_key]
 
     def _load_weekday_match_map(self):
         """Load the locale weekday map for weekday-match parsing."""
-        cache_key = "weekday.match.weekdays.value"
+        cache_key = f"{self.lang}:weekday.match.weekdays.value"
         if cache_key not in self.resources.static:
             weekday_map = {}
             for name, value in self.resources.load_named_value_file(
