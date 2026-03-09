@@ -1,0 +1,1 @@
+\b(?P<phrase>(?:tombe(?:-t-il)?|tombait(?:-il)?|tombera(?:-t-il)?|tomberait(?:-il)?)\s+un\s+(?P<weekday>__WEEKDAY_NAMES__))\b

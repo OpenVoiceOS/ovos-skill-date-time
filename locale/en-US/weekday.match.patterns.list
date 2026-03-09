@@ -1,0 +1,3 @@
+\b(?:is|was)\b.*?\b(?P<phrase>(?:on\s+)?(?:a|an)\s+(?P<weekday>__WEEKDAY_NAMES__))\b
+\bdoes\b.*?\b(?P<phrase>fall\s+(?:on\s+)?(?:a|an)\s+(?P<weekday>__WEEKDAY_NAMES__))\b
+\bwill\b.*?\bbe\s+(?P<phrase>(?:on\s+)?(?:a|an)\s+(?P<weekday>__WEEKDAY_NAMES__))\b
