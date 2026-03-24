@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.7a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.7a1) (2026-03-24)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.6a4...1.1.7a1)
+
+**Merged pull requests:**
+
+- fix: rename bare lang code locale directories [\#190](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/190) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [1.1.6a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.6a4) (2026-03-09)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.6a3...1.1.6a4)
