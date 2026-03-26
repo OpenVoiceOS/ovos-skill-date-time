@@ -1,4 +1,6 @@
-#
-##
-###
-####
+che ora sarà tra {offset} minuti
+che ora sarà tra {offset} minuti a {location}
+che ora sarà tra {offset} minuti in {location}
+che ora sarà tra {offset} minuto
+che ora sarà tra {offset} minuto a {location}
+che ora sarà tra {offset} minuto in {location}
