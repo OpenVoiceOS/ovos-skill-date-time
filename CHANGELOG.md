@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.8a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a2) (2026-03-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a1...1.1.8a2)
+
+**Merged pull requests:**
+
+- translate\(it-IT\): update next.leap.year.intent [\#202](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/202) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(it-IT\): update month.current.dialog [\#201](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/201) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [1.1.8a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a1) (2026-03-24)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.7a1...1.1.8a1)
