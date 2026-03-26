@@ -1,6 +1,1 @@
-(puoi dirmi|fammi sapere|dimmi) quando (è|sarà) il prossimo anno (bisestile|con 366 giorni|con trecentosessantasei giorni|con il 29 febbraio|con un giorno in più)?
-(l'anno prossimo|il prossimo anno) (è|sarà) (bisestile|con 366 giorni|con trecentosessantasei giorni|con il 29 febbraio|con un giorno in più)?
-quest'anno è bisestile?
-(quando (sarà|succede|avviene|arriva|si verifica)) il prossimo anno (bisestile|con 366 giorni|con trecentosessantasei giorni|con il 29 febbraio|con un giorno in più)?
-(quando (cade|si verifica|avverrà|ci sarà)) (di nuovo|ancora) (il|) 29 febbraio?
-quando (è|sarà) il prossimo anno (bisestile|con 366 giorni|con trecentosessantasei giorni|con il 29 febbraio|con un giorno in più)
+il prossimo anno bisestile sarà il {year}
