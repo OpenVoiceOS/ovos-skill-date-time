@@ -1,0 +1,8 @@
+{
+  "skill_id": "ovos-skill-date-time.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-date-time",
+  "name": "تاریخ و زمان",
+  "description": "فهمیدن زمان، تاریخ و روز هفته",
+  "examples": [],
+  "tags": []
+}
