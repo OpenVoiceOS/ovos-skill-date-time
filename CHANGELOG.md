@@ -1,5 +1,37 @@
 # Changelog
 
+## [1.1.8a10](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a10) (2026-03-29)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a8...1.1.8a10)
+
+**Merged pull requests:**
+
+- translate\(fa-IR\): update what.year.is.it.intent [\#219](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/219) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(fa-IR\): update extract.date.error.dialog [\#216](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/216) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(fa-IR\): update skill.json [\#215](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/215) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.1.8a8](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a8) (2026-03-29)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a9...1.1.8a8)
+
+**Merged pull requests:**
+
+- translate\(fa-IR\): update what.weekday.is.it.intent [\#220](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/220) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.1.8a9](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a9) (2026-03-29)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a7...1.1.8a9)
+
+**Merged pull requests:**
+
+- translate\(fa-IR\): update year.current.dialog [\#218](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/218) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(fa-IR\): update time.tz.not.found.dialog [\#217](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/217) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- translate\(fa-IR\): update current\_date.intent [\#214](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/214) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.1.8a7](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a7) (2026-03-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a6...1.1.8a7)
+
 ## [1.1.8a6](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a6) (2026-03-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a5...1.1.8a6)
