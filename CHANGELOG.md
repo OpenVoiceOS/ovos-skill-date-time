@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.8a17](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a17) (2026-04-03)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a16...1.1.8a17)
+
+**Merged pull requests:**
+
+- translate\(nl-NL\): update current\_date.intent [\#231](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/231) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [1.1.8a16](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a16) (2026-04-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a15...1.1.8a16)
@@ -29,19 +37,19 @@
 
 ## [1.1.8a13](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a13) (2026-03-29)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a12...1.1.8a13)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a11...1.1.8a13)
 
 **Merged pull requests:**
 
 - Add locale resources for location disambiguation and date phrasing [\#186](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/186) ([goldyfruit](https://github.com/goldyfruit))
 
-## [1.1.8a12](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a12) (2026-03-29)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a11...1.1.8a12)
-
 ## [1.1.8a11](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a11) (2026-03-29)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a10...1.1.8a11)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a12...1.1.8a11)
+
+## [1.1.8a12](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a12) (2026-03-29)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a10...1.1.8a12)
 
 ## [1.1.8a10](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a10) (2026-03-29)
 
