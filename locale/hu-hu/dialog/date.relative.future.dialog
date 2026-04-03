@@ -1,0 +1,4 @@
+Ez a {date}, a {num_days}-ben
+Ez {date}, {num_days} mostantól kezdve
+{date}, in {num_days}
+{date}, {num_days} mostantól

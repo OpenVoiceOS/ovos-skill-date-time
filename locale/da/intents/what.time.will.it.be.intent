@@ -1,0 +1,336 @@
+hvad er klokken efter {offset} minut
+hvad er klokken efter {offset} minut i {location}
+hvad er klokken efter {offset} minuter
+hvad er klokken efter {offset} minuter i {location}
+hvad er klokken efter {offset} sekund
+hvad er klokken efter {offset} sekund i {location}
+hvad er klokken efter {offset} sekunder
+hvad er klokken efter {offset} sekunder i {location}
+hvad er klokken efter {offset} time
+hvad er klokken efter {offset} time i {location}
+hvad er klokken efter {offset} timeer
+hvad er klokken efter {offset} timeer i {location}
+hvad er klokken hvis jeg venter {offset} minut
+hvad er klokken hvis jeg venter {offset} minut i {location}
+hvad er klokken hvis jeg venter {offset} minuter
+hvad er klokken hvis jeg venter {offset} minuter i {location}
+hvad er klokken hvis jeg venter {offset} sekund
+hvad er klokken hvis jeg venter {offset} sekund i {location}
+hvad er klokken hvis jeg venter {offset} sekunder
+hvad er klokken hvis jeg venter {offset} sekunder i {location}
+hvad er klokken hvis jeg venter {offset} time
+hvad er klokken hvis jeg venter {offset} time i {location}
+hvad er klokken hvis jeg venter {offset} timeer
+hvad er klokken hvis jeg venter {offset} timeer i {location}
+hvad er klokken i {offset} minut
+hvad er klokken i {offset} minut i {location}
+hvad er klokken i {offset} minuter
+hvad er klokken i {offset} minuter i {location}
+hvad er klokken i {offset} sekund
+hvad er klokken i {offset} sekund i {location}
+hvad er klokken i {offset} sekunder
+hvad er klokken i {offset} sekunder i {location}
+hvad er klokken i {offset} time
+hvad er klokken i {offset} time i {location}
+hvad er klokken i {offset} timeer
+hvad er klokken i {offset} timeer i {location}
+hvad tid er det {offset} minutter
+hvad tid er det {offset} minutter  i {location}
+hvad tid er det {offset} minutter fra nu
+hvad tid er det {offset} minutter fra nu i {location}
+hvad tid er det {offset} sekunder
+hvad tid er det {offset} sekunder  i {location}
+hvad tid er det {offset} sekunder fra nu
+hvad tid er det {offset} sekunder fra nu i {location}
+hvad tid er det {offset} timer
+hvad tid er det {offset} timer  i {location}
+hvad tid er det {offset} timer fra nu
+hvad tid er det {offset} timer fra nu i {location}
+hvad tid vil det blive efter {offset} minut
+hvad tid vil det blive efter {offset} minut i {location}
+hvad tid vil det blive efter {offset} minuter
+hvad tid vil det blive efter {offset} minuter i {location}
+hvad tid vil det blive efter {offset} sekund
+hvad tid vil det blive efter {offset} sekund i {location}
+hvad tid vil det blive efter {offset} sekunder
+hvad tid vil det blive efter {offset} sekunder i {location}
+hvad tid vil det blive efter {offset} time
+hvad tid vil det blive efter {offset} time i {location}
+hvad tid vil det blive efter {offset} timeer
+hvad tid vil det blive efter {offset} timeer i {location}
+hvad tid vil det blive hvis jeg venter {offset} minut
+hvad tid vil det blive hvis jeg venter {offset} minut i {location}
+hvad tid vil det blive hvis jeg venter {offset} minuter
+hvad tid vil det blive hvis jeg venter {offset} minuter i {location}
+hvad tid vil det blive hvis jeg venter {offset} sekund
+hvad tid vil det blive hvis jeg venter {offset} sekund i {location}
+hvad tid vil det blive hvis jeg venter {offset} sekunder
+hvad tid vil det blive hvis jeg venter {offset} sekunder i {location}
+hvad tid vil det blive hvis jeg venter {offset} time
+hvad tid vil det blive hvis jeg venter {offset} time i {location}
+hvad tid vil det blive hvis jeg venter {offset} timeer
+hvad tid vil det blive hvis jeg venter {offset} timeer i {location}
+hvad tid vil det blive om {offset} minut
+hvad tid vil det blive om {offset} minut i {location}
+hvad tid vil det blive om {offset} minuter
+hvad tid vil det blive om {offset} minuter i {location}
+hvad tid vil det blive om {offset} sekund
+hvad tid vil det blive om {offset} sekund i {location}
+hvad tid vil det blive om {offset} sekunder
+hvad tid vil det blive om {offset} sekunder i {location}
+hvad tid vil det blive om {offset} time
+hvad tid vil det blive om {offset} time i {location}
+hvad tid vil det blive om {offset} timeer
+hvad tid vil det blive om {offset} timeer i {location}
+hvad tid vil det vises efter {offset} minut
+hvad tid vil det vises efter {offset} minut i {location}
+hvad tid vil det vises efter {offset} minuter
+hvad tid vil det vises efter {offset} minuter i {location}
+hvad tid vil det vises efter {offset} sekund
+hvad tid vil det vises efter {offset} sekund i {location}
+hvad tid vil det vises efter {offset} sekunder
+hvad tid vil det vises efter {offset} sekunder i {location}
+hvad tid vil det vises efter {offset} time
+hvad tid vil det vises efter {offset} time i {location}
+hvad tid vil det vises efter {offset} timeer
+hvad tid vil det vises efter {offset} timeer i {location}
+hvad tid vil det vises hvis jeg venter {offset} minut
+hvad tid vil det vises hvis jeg venter {offset} minut i {location}
+hvad tid vil det vises hvis jeg venter {offset} minuter
+hvad tid vil det vises hvis jeg venter {offset} minuter i {location}
+hvad tid vil det vises hvis jeg venter {offset} sekund
+hvad tid vil det vises hvis jeg venter {offset} sekund i {location}
+hvad tid vil det vises hvis jeg venter {offset} sekunder
+hvad tid vil det vises hvis jeg venter {offset} sekunder i {location}
+hvad tid vil det vises hvis jeg venter {offset} time
+hvad tid vil det vises hvis jeg venter {offset} time i {location}
+hvad tid vil det vises hvis jeg venter {offset} timeer
+hvad tid vil det vises hvis jeg venter {offset} timeer i {location}
+hvad tid vil det vises om {offset} minut
+hvad tid vil det vises om {offset} minut i {location}
+hvad tid vil det vises om {offset} minuter
+hvad tid vil det vises om {offset} minuter i {location}
+hvad tid vil det vises om {offset} sekund
+hvad tid vil det vises om {offset} sekund i {location}
+hvad tid vil det vises om {offset} sekunder
+hvad tid vil det vises om {offset} sekunder i {location}
+hvad tid vil det vises om {offset} time
+hvad tid vil det vises om {offset} time i {location}
+hvad tid vil det vises om {offset} timeer
+hvad tid vil det vises om {offset} timeer i {location}
+hvad tid vil det være {offset} minutter
+hvad tid vil det være {offset} minutter  i {location}
+hvad tid vil det være {offset} minutter fra nu
+hvad tid vil det være {offset} minutter fra nu i {location}
+hvad tid vil det være {offset} sekunder
+hvad tid vil det være {offset} sekunder  i {location}
+hvad tid vil det være {offset} sekunder fra nu
+hvad tid vil det være {offset} sekunder fra nu i {location}
+hvad tid vil det være {offset} timer
+hvad tid vil det være {offset} timer  i {location}
+hvad tid vil det være {offset} timer fra nu
+hvad tid vil det være {offset} timer fra nu i {location}
+hvad tid vil det være, hvis jeg bruger {offset} minut
+hvad tid vil det være, hvis jeg bruger {offset} minut i {location}
+hvad tid vil det være, hvis jeg bruger {offset} minuter
+hvad tid vil det være, hvis jeg bruger {offset} minuter i {location}
+hvad tid vil det være, hvis jeg bruger {offset} sekund
+hvad tid vil det være, hvis jeg bruger {offset} sekund i {location}
+hvad tid vil det være, hvis jeg bruger {offset} sekunder
+hvad tid vil det være, hvis jeg bruger {offset} sekunder i {location}
+hvad tid vil det være, hvis jeg bruger {offset} time
+hvad tid vil det være, hvis jeg bruger {offset} time i {location}
+hvad tid vil det være, hvis jeg bruger {offset} timeer
+hvad tid vil det være, hvis jeg bruger {offset} timeer i {location}
+hvad tid vil det være, hvis jeg venter {offset} minut
+hvad tid vil det være, hvis jeg venter {offset} minut i {location}
+hvad tid vil det være, hvis jeg venter {offset} minuter
+hvad tid vil det være, hvis jeg venter {offset} minuter i {location}
+hvad tid vil det være, hvis jeg venter {offset} sekund
+hvad tid vil det være, hvis jeg venter {offset} sekund i {location}
+hvad tid vil det være, hvis jeg venter {offset} sekunder
+hvad tid vil det være, hvis jeg venter {offset} sekunder i {location}
+hvad tid vil det være, hvis jeg venter {offset} time
+hvad tid vil det være, hvis jeg venter {offset} time i {location}
+hvad tid vil det være, hvis jeg venter {offset} timeer
+hvad tid vil det være, hvis jeg venter {offset} timeer i {location}
+hvad vil uret vise efter {offset} minut
+hvad vil uret vise efter {offset} minut i {location}
+hvad vil uret vise efter {offset} minuter
+hvad vil uret vise efter {offset} minuter i {location}
+hvad vil uret vise efter {offset} sekund
+hvad vil uret vise efter {offset} sekund i {location}
+hvad vil uret vise efter {offset} sekunder
+hvad vil uret vise efter {offset} sekunder i {location}
+hvad vil uret vise efter {offset} time
+hvad vil uret vise efter {offset} time i {location}
+hvad vil uret vise efter {offset} timeer
+hvad vil uret vise efter {offset} timeer i {location}
+hvad vil uret vise hvis jeg venter {offset} minut
+hvad vil uret vise hvis jeg venter {offset} minut i {location}
+hvad vil uret vise hvis jeg venter {offset} minuter
+hvad vil uret vise hvis jeg venter {offset} minuter i {location}
+hvad vil uret vise hvis jeg venter {offset} sekund
+hvad vil uret vise hvis jeg venter {offset} sekund i {location}
+hvad vil uret vise hvis jeg venter {offset} sekunder
+hvad vil uret vise hvis jeg venter {offset} sekunder i {location}
+hvad vil uret vise hvis jeg venter {offset} time
+hvad vil uret vise hvis jeg venter {offset} time i {location}
+hvad vil uret vise hvis jeg venter {offset} timeer
+hvad vil uret vise hvis jeg venter {offset} timeer i {location}
+hvad vil uret vise i {offset} minut
+hvad vil uret vise i {offset} minut i {location}
+hvad vil uret vise i {offset} minuter
+hvad vil uret vise i {offset} minuter i {location}
+hvad vil uret vise i {offset} sekund
+hvad vil uret vise i {offset} sekund i {location}
+hvad vil uret vise i {offset} sekunder
+hvad vil uret vise i {offset} sekunder i {location}
+hvad vil uret vise i {offset} time
+hvad vil uret vise i {offset} time i {location}
+hvad vil uret vise i {offset} timeer
+hvad vil uret vise i {offset} timeer i {location}
+hvornår er det {offset} minutter
+hvornår er det {offset} minutter  i {location}
+hvornår er det {offset} minutter fra nu
+hvornår er det {offset} minutter fra nu i {location}
+hvornår er det {offset} sekunder
+hvornår er det {offset} sekunder  i {location}
+hvornår er det {offset} sekunder fra nu
+hvornår er det {offset} sekunder fra nu i {location}
+hvornår er det {offset} timer
+hvornår er det {offset} timer  i {location}
+hvornår er det {offset} timer fra nu
+hvornår er det {offset} timer fra nu i {location}
+hvornår tid vil det blive efter {offset} minut
+hvornår tid vil det blive efter {offset} minut i {location}
+hvornår tid vil det blive efter {offset} minuter
+hvornår tid vil det blive efter {offset} minuter i {location}
+hvornår tid vil det blive efter {offset} sekund
+hvornår tid vil det blive efter {offset} sekund i {location}
+hvornår tid vil det blive efter {offset} sekunder
+hvornår tid vil det blive efter {offset} sekunder i {location}
+hvornår tid vil det blive efter {offset} time
+hvornår tid vil det blive efter {offset} time i {location}
+hvornår tid vil det blive efter {offset} timeer
+hvornår tid vil det blive efter {offset} timeer i {location}
+hvornår tid vil det blive hvis jeg venter {offset} minut
+hvornår tid vil det blive hvis jeg venter {offset} minut i {location}
+hvornår tid vil det blive hvis jeg venter {offset} minuter
+hvornår tid vil det blive hvis jeg venter {offset} minuter i {location}
+hvornår tid vil det blive hvis jeg venter {offset} sekund
+hvornår tid vil det blive hvis jeg venter {offset} sekund i {location}
+hvornår tid vil det blive hvis jeg venter {offset} sekunder
+hvornår tid vil det blive hvis jeg venter {offset} sekunder i {location}
+hvornår tid vil det blive hvis jeg venter {offset} time
+hvornår tid vil det blive hvis jeg venter {offset} time i {location}
+hvornår tid vil det blive hvis jeg venter {offset} timeer
+hvornår tid vil det blive hvis jeg venter {offset} timeer i {location}
+hvornår tid vil det blive om {offset} minut
+hvornår tid vil det blive om {offset} minut i {location}
+hvornår tid vil det blive om {offset} minuter
+hvornår tid vil det blive om {offset} minuter i {location}
+hvornår tid vil det blive om {offset} sekund
+hvornår tid vil det blive om {offset} sekund i {location}
+hvornår tid vil det blive om {offset} sekunder
+hvornår tid vil det blive om {offset} sekunder i {location}
+hvornår tid vil det blive om {offset} time
+hvornår tid vil det blive om {offset} time i {location}
+hvornår tid vil det blive om {offset} timeer
+hvornår tid vil det blive om {offset} timeer i {location}
+hvornår tid vil det vises efter {offset} minut
+hvornår tid vil det vises efter {offset} minut i {location}
+hvornår tid vil det vises efter {offset} minuter
+hvornår tid vil det vises efter {offset} minuter i {location}
+hvornår tid vil det vises efter {offset} sekund
+hvornår tid vil det vises efter {offset} sekund i {location}
+hvornår tid vil det vises efter {offset} sekunder
+hvornår tid vil det vises efter {offset} sekunder i {location}
+hvornår tid vil det vises efter {offset} time
+hvornår tid vil det vises efter {offset} time i {location}
+hvornår tid vil det vises efter {offset} timeer
+hvornår tid vil det vises efter {offset} timeer i {location}
+hvornår tid vil det vises hvis jeg venter {offset} minut
+hvornår tid vil det vises hvis jeg venter {offset} minut i {location}
+hvornår tid vil det vises hvis jeg venter {offset} minuter
+hvornår tid vil det vises hvis jeg venter {offset} minuter i {location}
+hvornår tid vil det vises hvis jeg venter {offset} sekund
+hvornår tid vil det vises hvis jeg venter {offset} sekund i {location}
+hvornår tid vil det vises hvis jeg venter {offset} sekunder
+hvornår tid vil det vises hvis jeg venter {offset} sekunder i {location}
+hvornår tid vil det vises hvis jeg venter {offset} time
+hvornår tid vil det vises hvis jeg venter {offset} time i {location}
+hvornår tid vil det vises hvis jeg venter {offset} timeer
+hvornår tid vil det vises hvis jeg venter {offset} timeer i {location}
+hvornår tid vil det vises om {offset} minut
+hvornår tid vil det vises om {offset} minut i {location}
+hvornår tid vil det vises om {offset} minuter
+hvornår tid vil det vises om {offset} minuter i {location}
+hvornår tid vil det vises om {offset} sekund
+hvornår tid vil det vises om {offset} sekund i {location}
+hvornår tid vil det vises om {offset} sekunder
+hvornår tid vil det vises om {offset} sekunder i {location}
+hvornår tid vil det vises om {offset} time
+hvornår tid vil det vises om {offset} time i {location}
+hvornår tid vil det vises om {offset} timeer
+hvornår tid vil det vises om {offset} timeer i {location}
+hvornår vil det være {offset} minutter
+hvornår vil det være {offset} minutter  i {location}
+hvornår vil det være {offset} minutter fra nu
+hvornår vil det være {offset} minutter fra nu i {location}
+hvornår vil det være {offset} sekunder
+hvornår vil det være {offset} sekunder  i {location}
+hvornår vil det være {offset} sekunder fra nu
+hvornår vil det være {offset} sekunder fra nu i {location}
+hvornår vil det være {offset} timer
+hvornår vil det være {offset} timer  i {location}
+hvornår vil det være {offset} timer fra nu
+hvornår vil det være {offset} timer fra nu i {location}
+hvornår vil det være, hvis jeg bruger {offset} minut
+hvornår vil det være, hvis jeg bruger {offset} minut i {location}
+hvornår vil det være, hvis jeg bruger {offset} minuter
+hvornår vil det være, hvis jeg bruger {offset} minuter i {location}
+hvornår vil det være, hvis jeg bruger {offset} sekund
+hvornår vil det være, hvis jeg bruger {offset} sekund i {location}
+hvornår vil det være, hvis jeg bruger {offset} sekunder
+hvornår vil det være, hvis jeg bruger {offset} sekunder i {location}
+hvornår vil det være, hvis jeg bruger {offset} time
+hvornår vil det være, hvis jeg bruger {offset} time i {location}
+hvornår vil det være, hvis jeg bruger {offset} timeer
+hvornår vil det være, hvis jeg bruger {offset} timeer i {location}
+hvornår vil det være, hvis jeg venter {offset} minut
+hvornår vil det være, hvis jeg venter {offset} minut i {location}
+hvornår vil det være, hvis jeg venter {offset} minuter
+hvornår vil det være, hvis jeg venter {offset} minuter i {location}
+hvornår vil det være, hvis jeg venter {offset} sekund
+hvornår vil det være, hvis jeg venter {offset} sekund i {location}
+hvornår vil det være, hvis jeg venter {offset} sekunder
+hvornår vil det være, hvis jeg venter {offset} sekunder i {location}
+hvornår vil det være, hvis jeg venter {offset} time
+hvornår vil det være, hvis jeg venter {offset} time i {location}
+hvornår vil det være, hvis jeg venter {offset} timeer
+hvornår vil det være, hvis jeg venter {offset} timeer i {location}
+om {offset} minut  hvad klokken bliver det bliver
+om {offset} minut  hvad klokken bliver det bliver på {location}
+om {offset} minut fra nu hvad klokken bliver det bliver
+om {offset} minut fra nu hvad klokken bliver det bliver på {location}
+om {offset} minuter  hvad klokken bliver det bliver
+om {offset} minuter  hvad klokken bliver det bliver på {location}
+om {offset} minuter fra nu hvad klokken bliver det bliver
+om {offset} minuter fra nu hvad klokken bliver det bliver på {location}
+om {offset} sekund  hvad klokken bliver det bliver
+om {offset} sekund  hvad klokken bliver det bliver på {location}
+om {offset} sekund fra nu hvad klokken bliver det bliver
+om {offset} sekund fra nu hvad klokken bliver det bliver på {location}
+om {offset} sekunder  hvad klokken bliver det bliver
+om {offset} sekunder  hvad klokken bliver det bliver på {location}
+om {offset} sekunder fra nu hvad klokken bliver det bliver
+om {offset} sekunder fra nu hvad klokken bliver det bliver på {location}
+om {offset} time  hvad klokken bliver det bliver
+om {offset} time  hvad klokken bliver det bliver på {location}
+om {offset} time fra nu hvad klokken bliver det bliver
+om {offset} time fra nu hvad klokken bliver det bliver på {location}
+om {offset} timeer  hvad klokken bliver det bliver
+om {offset} timeer  hvad klokken bliver det bliver på {location}
+om {offset} timeer fra nu hvad klokken bliver det bliver
+om {offset} timeer fra nu hvad klokken bliver det bliver på {location}

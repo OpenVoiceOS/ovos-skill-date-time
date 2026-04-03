@@ -1,0 +1,34 @@
+hány óra lesz {offset} perc múlva {location}-ben
+hány óra lesz {offset} perc múlva {location}-ben {offset} perc múlva
+hány óra lesz {offset} óra múlva {location}-ben
+hány óra lesz {offset} órakor {location} órakor
+hány óra múlva lesz {offset} óra
+hány óra múlva lesz {offset} óra múlva
+mennyi idő múlva lesz {offset} másodperc múlva
+mennyi idő múlva lesz {offset} perc múlva
+mennyi lesz az idő {offset} másodperc múlva
+mennyi lesz az idő {offset} másodperc múlva {location}-ben
+mennyi lesz az idő {offset} másodpercben {location}-ben
+mennyi lesz az idő {offset} perc múlva
+mikor lesz ez {offset} másodperc múlva
+mikor lesz ez {offset} másodperc múlva {location}-ben
+mikor lesz ez {offset} perc múlva
+mikor lesz ez {offset} óra múlva
+mikor lesz {offset} másodperc
+mikor lesz {offset} másodperc {location}-ben {location}
+mikor lesz {offset} perc
+mikor lesz {offset} perc mától {location}-ben {offset} perc múlva
+mikor lesz {offset} perc {location}-ben {offset} percben
+mikor lesz {offset} óra
+mikor lesz {offset} óra mától {location}-ben {offset} óra múlva
+mikor lesz {offset} óra {location}-ben {offset} óra
+mikor van ez {offset} másodperc
+mikor van ez {offset} másodperc múlva
+mikor van ez {offset} perc
+mikor van ez {offset} perc múlva
+mikor van ez {offset} óra
+mikor van ez {offset} óra múlva
+mikor van {offset} másodperc múlva {location}-ben
+mikor van {offset} másodperc {location}-ben
+mikor van {offset} perc {location}-ben
+mikor van {offset} óra {location}-ben

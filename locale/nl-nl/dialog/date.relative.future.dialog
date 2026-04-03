@@ -1,0 +1,4 @@
+Het is {date}, over {num_days}
+Het is {date}, {num_days} vanaf nu
+{date}, is {num_days} vanaf heden
+{date}, over {num_days}

@@ -1,0 +1,4 @@
+Det bliver {date}, om {num_days}
+det er {date}, om {num_days}
+{date}, om {num_days}
+{date}, {num_days} fra nu

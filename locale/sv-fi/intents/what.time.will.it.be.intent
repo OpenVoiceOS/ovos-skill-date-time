@@ -1,0 +1,30 @@
+kuinka paljon kello on {offset} sekuntia {location}:ssä
+kun se on {offset} minuutin kuluttua {location}:ssä.
+kun se on {offset} minuuttia {location}:ssä
+kun se on {offset} sekunnin kuluttua {location}:ssä
+kun se on {offset} sekuntia {location}
+kun se on {offset} tuntia {location}
+mihin aikaan se on {offset} tuntia
+milloin se on {offset} minuutin kuluttua tästä hetkestä
+milloin se on {offset} minuutin kuluttua {location}:ssä
+milloin se on {offset} minuuttia
+milloin se on {offset} minuuttia tästä hetkestä
+milloin se on {offset} minuuttia {location}:ssä
+milloin se on {offset} sekunnin kuluttua {location}:ssä?
+milloin se on {offset} sekuntia
+milloin se on {offset} sekuntia tästä hetkestä
+milloin se on {offset} sekuntia {location}:ssä
+milloin se on {offset} tunnin kuluttua {location}:ssä.
+milloin se on {offset} tuntia
+milloin se on {offset} tuntia tästä hetkestä
+milloin se on {offset} tuntia {location}:ssä
+mitä kello on {offset} minuutin kuluttua
+mitä kello on {offset} minuuttia {location}:ssä?
+mitä kello on {offset} sekuntia
+mitä kello on {offset} tunnin kuluttua tästä hetkestä?
+mitä kello on {offset} tuntia {location}:ssä?
+paljonko kello on {offset} minuutin kuluttua tästä hetkestä?
+paljonko kello on {offset} minuutin kuluttua {location}:ssä.
+paljonko kello on {offset} sekunnin kuluttua tästä hetkestä?
+paljonko kello on {offset} sekunnin kuluttua {location}:ssä.
+paljonko kello on {offset} tunnin kuluttua {location}:ssä?

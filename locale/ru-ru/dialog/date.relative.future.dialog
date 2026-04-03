@@ -1,0 +1,4 @@
+{date}, {num_days} с этого момента
+{date}, в {num_days}
+Теперь это {date}, {num_days}.
+Это {date}, в {num_days}

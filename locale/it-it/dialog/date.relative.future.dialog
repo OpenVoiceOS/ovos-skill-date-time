@@ -1,0 +1,4 @@
+tra {num_days} giorni sarà il {date}
+{date}, tra {num_days} giorni
+{date}, {num_days} giorni da oggi
+{num_days} giorni da oggi sarà il {date}

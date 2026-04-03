@@ -1,0 +1,420 @@
+in {offset} hour  what time will it be
+in {offset} hour  what time will it be in {location}
+in {offset} hour  what time will it become
+in {offset} hour  what time will it become in {location}
+in {offset} hour from now what time will it be
+in {offset} hour from now what time will it be in {location}
+in {offset} hour from now what time will it become
+in {offset} hour from now what time will it become in {location}
+in {offset} hours  what time will it be
+in {offset} hours  what time will it be in {location}
+in {offset} hours  what time will it become
+in {offset} hours  what time will it become in {location}
+in {offset} hours from now what time will it be
+in {offset} hours from now what time will it be in {location}
+in {offset} hours from now what time will it become
+in {offset} hours from now what time will it become in {location}
+in {offset} minute  what time will it be
+in {offset} minute  what time will it be in {location}
+in {offset} minute  what time will it become
+in {offset} minute  what time will it become in {location}
+in {offset} minute from now what time will it be
+in {offset} minute from now what time will it be in {location}
+in {offset} minute from now what time will it become
+in {offset} minute from now what time will it become in {location}
+in {offset} minutes  what time will it be
+in {offset} minutes  what time will it be in {location}
+in {offset} minutes  what time will it become
+in {offset} minutes  what time will it become in {location}
+in {offset} minutes from now what time will it be
+in {offset} minutes from now what time will it be in {location}
+in {offset} minutes from now what time will it become
+in {offset} minutes from now what time will it become in {location}
+in {offset} second  what time will it be
+in {offset} second  what time will it be in {location}
+in {offset} second  what time will it become
+in {offset} second  what time will it become in {location}
+in {offset} second from now what time will it be
+in {offset} second from now what time will it be in {location}
+in {offset} second from now what time will it become
+in {offset} second from now what time will it become in {location}
+in {offset} seconds  what time will it be
+in {offset} seconds  what time will it be in {location}
+in {offset} seconds  what time will it become
+in {offset} seconds  what time will it become in {location}
+in {offset} seconds from now what time will it be
+in {offset} seconds from now what time will it be in {location}
+in {offset} seconds from now what time will it become
+in {offset} seconds from now what time will it become in {location}
+what time is it after {offset} hour
+what time is it after {offset} hour in {location}
+what time is it after {offset} hours
+what time is it after {offset} hours in {location}
+what time is it after {offset} minute
+what time is it after {offset} minute in {location}
+what time is it after {offset} minutes
+what time is it after {offset} minutes in {location}
+what time is it after {offset} second
+what time is it after {offset} second in {location}
+what time is it after {offset} seconds
+what time is it after {offset} seconds in {location}
+what time is it if I wait {offset} hour
+what time is it if I wait {offset} hour in {location}
+what time is it if I wait {offset} hours
+what time is it if I wait {offset} hours in {location}
+what time is it if I wait {offset} minute
+what time is it if I wait {offset} minute in {location}
+what time is it if I wait {offset} minutes
+what time is it if I wait {offset} minutes in {location}
+what time is it if I wait {offset} second
+what time is it if I wait {offset} second in {location}
+what time is it if I wait {offset} seconds
+what time is it if I wait {offset} seconds in {location}
+what time is it in {offset} hour
+what time is it in {offset} hour in {location}
+what time is it in {offset} hours
+what time is it in {offset} hours in {location}
+what time is it in {offset} minute
+what time is it in {offset} minute in {location}
+what time is it in {offset} minutes
+what time is it in {offset} minutes in {location}
+what time is it in {offset} second
+what time is it in {offset} second in {location}
+what time is it in {offset} seconds
+what time is it in {offset} seconds in {location}
+what time is it {offset} hours
+what time is it {offset} hours  in {location}
+what time is it {offset} hours from now
+what time is it {offset} hours from now in {location}
+what time is it {offset} minutes
+what time is it {offset} minutes  in {location}
+what time is it {offset} minutes from now
+what time is it {offset} minutes from now in {location}
+what time is it {offset} seconds
+what time is it {offset} seconds  in {location}
+what time is it {offset} seconds from now
+what time is it {offset} seconds from now in {location}
+what time will it be after {offset} hour
+what time will it be after {offset} hour in {location}
+what time will it be after {offset} hours
+what time will it be after {offset} hours in {location}
+what time will it be after {offset} minute
+what time will it be after {offset} minute in {location}
+what time will it be after {offset} minutes
+what time will it be after {offset} minutes in {location}
+what time will it be after {offset} second
+what time will it be after {offset} second in {location}
+what time will it be after {offset} seconds
+what time will it be after {offset} seconds in {location}
+what time will it be if I spend {offset} hour
+what time will it be if I spend {offset} hour in {location}
+what time will it be if I spend {offset} hours
+what time will it be if I spend {offset} hours in {location}
+what time will it be if I spend {offset} minute
+what time will it be if I spend {offset} minute in {location}
+what time will it be if I spend {offset} minutes
+what time will it be if I spend {offset} minutes in {location}
+what time will it be if I spend {offset} second
+what time will it be if I spend {offset} second in {location}
+what time will it be if I spend {offset} seconds
+what time will it be if I spend {offset} seconds in {location}
+what time will it be if I wait {offset} hour
+what time will it be if I wait {offset} hour in {location}
+what time will it be if I wait {offset} hours
+what time will it be if I wait {offset} hours in {location}
+what time will it be if I wait {offset} minute
+what time will it be if I wait {offset} minute in {location}
+what time will it be if I wait {offset} minutes
+what time will it be if I wait {offset} minutes in {location}
+what time will it be if I wait {offset} second
+what time will it be if I wait {offset} second in {location}
+what time will it be if I wait {offset} seconds
+what time will it be if I wait {offset} seconds in {location}
+what time will it be in {offset} hour
+what time will it be in {offset} hour in {location}
+what time will it be in {offset} hours
+what time will it be in {offset} hours in {location}
+what time will it be in {offset} minute
+what time will it be in {offset} minute in {location}
+what time will it be in {offset} minutes
+what time will it be in {offset} minutes in {location}
+what time will it be in {offset} second
+what time will it be in {offset} second in {location}
+what time will it be in {offset} seconds
+what time will it be in {offset} seconds in {location}
+what time will it be {offset} hours
+what time will it be {offset} hours  in {location}
+what time will it be {offset} hours from now
+what time will it be {offset} hours from now in {location}
+what time will it be {offset} minutes
+what time will it be {offset} minutes  in {location}
+what time will it be {offset} minutes from now
+what time will it be {offset} minutes from now in {location}
+what time will it be {offset} seconds
+what time will it be {offset} seconds  in {location}
+what time will it be {offset} seconds from now
+what time will it be {offset} seconds from now in {location}
+what time will it become after {offset} hour
+what time will it become after {offset} hour in {location}
+what time will it become after {offset} hours
+what time will it become after {offset} hours in {location}
+what time will it become after {offset} minute
+what time will it become after {offset} minute in {location}
+what time will it become after {offset} minutes
+what time will it become after {offset} minutes in {location}
+what time will it become after {offset} second
+what time will it become after {offset} second in {location}
+what time will it become after {offset} seconds
+what time will it become after {offset} seconds in {location}
+what time will it become if I wait {offset} hour
+what time will it become if I wait {offset} hour in {location}
+what time will it become if I wait {offset} hours
+what time will it become if I wait {offset} hours in {location}
+what time will it become if I wait {offset} minute
+what time will it become if I wait {offset} minute in {location}
+what time will it become if I wait {offset} minutes
+what time will it become if I wait {offset} minutes in {location}
+what time will it become if I wait {offset} second
+what time will it become if I wait {offset} second in {location}
+what time will it become if I wait {offset} seconds
+what time will it become if I wait {offset} seconds in {location}
+what time will it become in {offset} hour
+what time will it become in {offset} hour in {location}
+what time will it become in {offset} hours
+what time will it become in {offset} hours in {location}
+what time will it become in {offset} minute
+what time will it become in {offset} minute in {location}
+what time will it become in {offset} minutes
+what time will it become in {offset} minutes in {location}
+what time will it become in {offset} second
+what time will it become in {offset} second in {location}
+what time will it become in {offset} seconds
+what time will it become in {offset} seconds in {location}
+what time will it show after {offset} hour
+what time will it show after {offset} hour in {location}
+what time will it show after {offset} hours
+what time will it show after {offset} hours in {location}
+what time will it show after {offset} minute
+what time will it show after {offset} minute in {location}
+what time will it show after {offset} minutes
+what time will it show after {offset} minutes in {location}
+what time will it show after {offset} second
+what time will it show after {offset} second in {location}
+what time will it show after {offset} seconds
+what time will it show after {offset} seconds in {location}
+what time will it show if I wait {offset} hour
+what time will it show if I wait {offset} hour in {location}
+what time will it show if I wait {offset} hours
+what time will it show if I wait {offset} hours in {location}
+what time will it show if I wait {offset} minute
+what time will it show if I wait {offset} minute in {location}
+what time will it show if I wait {offset} minutes
+what time will it show if I wait {offset} minutes in {location}
+what time will it show if I wait {offset} second
+what time will it show if I wait {offset} second in {location}
+what time will it show if I wait {offset} seconds
+what time will it show if I wait {offset} seconds in {location}
+what time will it show in {offset} hour
+what time will it show in {offset} hour in {location}
+what time will it show in {offset} hours
+what time will it show in {offset} hours in {location}
+what time will it show in {offset} minute
+what time will it show in {offset} minute in {location}
+what time will it show in {offset} minutes
+what time will it show in {offset} minutes in {location}
+what time will it show in {offset} second
+what time will it show in {offset} second in {location}
+what time will it show in {offset} seconds
+what time will it show in {offset} seconds in {location}
+what will the clock say after {offset} hour
+what will the clock say after {offset} hour in {location}
+what will the clock say after {offset} hours
+what will the clock say after {offset} hours in {location}
+what will the clock say after {offset} minute
+what will the clock say after {offset} minute in {location}
+what will the clock say after {offset} minutes
+what will the clock say after {offset} minutes in {location}
+what will the clock say after {offset} second
+what will the clock say after {offset} second in {location}
+what will the clock say after {offset} seconds
+what will the clock say after {offset} seconds in {location}
+what will the clock say if I wait {offset} hour
+what will the clock say if I wait {offset} hour in {location}
+what will the clock say if I wait {offset} hours
+what will the clock say if I wait {offset} hours in {location}
+what will the clock say if I wait {offset} minute
+what will the clock say if I wait {offset} minute in {location}
+what will the clock say if I wait {offset} minutes
+what will the clock say if I wait {offset} minutes in {location}
+what will the clock say if I wait {offset} second
+what will the clock say if I wait {offset} second in {location}
+what will the clock say if I wait {offset} seconds
+what will the clock say if I wait {offset} seconds in {location}
+what will the clock say in {offset} hour
+what will the clock say in {offset} hour in {location}
+what will the clock say in {offset} hours
+what will the clock say in {offset} hours in {location}
+what will the clock say in {offset} minute
+what will the clock say in {offset} minute in {location}
+what will the clock say in {offset} minutes
+what will the clock say in {offset} minutes in {location}
+what will the clock say in {offset} second
+what will the clock say in {offset} second in {location}
+what will the clock say in {offset} seconds
+what will the clock say in {offset} seconds in {location}
+when is it {offset} hours
+when is it {offset} hours  in {location}
+when is it {offset} hours from now
+when is it {offset} hours from now in {location}
+when is it {offset} minutes
+when is it {offset} minutes  in {location}
+when is it {offset} minutes from now
+when is it {offset} minutes from now in {location}
+when is it {offset} seconds
+when is it {offset} seconds  in {location}
+when is it {offset} seconds from now
+when is it {offset} seconds from now in {location}
+when time will it be after {offset} hour
+when time will it be after {offset} hour in {location}
+when time will it be after {offset} hours
+when time will it be after {offset} hours in {location}
+when time will it be after {offset} minute
+when time will it be after {offset} minute in {location}
+when time will it be after {offset} minutes
+when time will it be after {offset} minutes in {location}
+when time will it be after {offset} second
+when time will it be after {offset} second in {location}
+when time will it be after {offset} seconds
+when time will it be after {offset} seconds in {location}
+when time will it be if I wait {offset} hour
+when time will it be if I wait {offset} hour in {location}
+when time will it be if I wait {offset} hours
+when time will it be if I wait {offset} hours in {location}
+when time will it be if I wait {offset} minute
+when time will it be if I wait {offset} minute in {location}
+when time will it be if I wait {offset} minutes
+when time will it be if I wait {offset} minutes in {location}
+when time will it be if I wait {offset} second
+when time will it be if I wait {offset} second in {location}
+when time will it be if I wait {offset} seconds
+when time will it be if I wait {offset} seconds in {location}
+when time will it be in {offset} hour
+when time will it be in {offset} hour in {location}
+when time will it be in {offset} hours
+when time will it be in {offset} hours in {location}
+when time will it be in {offset} minute
+when time will it be in {offset} minute in {location}
+when time will it be in {offset} minutes
+when time will it be in {offset} minutes in {location}
+when time will it be in {offset} second
+when time will it be in {offset} second in {location}
+when time will it be in {offset} seconds
+when time will it be in {offset} seconds in {location}
+when time will it become after {offset} hour
+when time will it become after {offset} hour in {location}
+when time will it become after {offset} hours
+when time will it become after {offset} hours in {location}
+when time will it become after {offset} minute
+when time will it become after {offset} minute in {location}
+when time will it become after {offset} minutes
+when time will it become after {offset} minutes in {location}
+when time will it become after {offset} second
+when time will it become after {offset} second in {location}
+when time will it become after {offset} seconds
+when time will it become after {offset} seconds in {location}
+when time will it become if I wait {offset} hour
+when time will it become if I wait {offset} hour in {location}
+when time will it become if I wait {offset} hours
+when time will it become if I wait {offset} hours in {location}
+when time will it become if I wait {offset} minute
+when time will it become if I wait {offset} minute in {location}
+when time will it become if I wait {offset} minutes
+when time will it become if I wait {offset} minutes in {location}
+when time will it become if I wait {offset} second
+when time will it become if I wait {offset} second in {location}
+when time will it become if I wait {offset} seconds
+when time will it become if I wait {offset} seconds in {location}
+when time will it become in {offset} hour
+when time will it become in {offset} hour in {location}
+when time will it become in {offset} hours
+when time will it become in {offset} hours in {location}
+when time will it become in {offset} minute
+when time will it become in {offset} minute in {location}
+when time will it become in {offset} minutes
+when time will it become in {offset} minutes in {location}
+when time will it become in {offset} second
+when time will it become in {offset} second in {location}
+when time will it become in {offset} seconds
+when time will it become in {offset} seconds in {location}
+when time will it show after {offset} hour
+when time will it show after {offset} hour in {location}
+when time will it show after {offset} hours
+when time will it show after {offset} hours in {location}
+when time will it show after {offset} minute
+when time will it show after {offset} minute in {location}
+when time will it show after {offset} minutes
+when time will it show after {offset} minutes in {location}
+when time will it show after {offset} second
+when time will it show after {offset} second in {location}
+when time will it show after {offset} seconds
+when time will it show after {offset} seconds in {location}
+when time will it show if I wait {offset} hour
+when time will it show if I wait {offset} hour in {location}
+when time will it show if I wait {offset} hours
+when time will it show if I wait {offset} hours in {location}
+when time will it show if I wait {offset} minute
+when time will it show if I wait {offset} minute in {location}
+when time will it show if I wait {offset} minutes
+when time will it show if I wait {offset} minutes in {location}
+when time will it show if I wait {offset} second
+when time will it show if I wait {offset} second in {location}
+when time will it show if I wait {offset} seconds
+when time will it show if I wait {offset} seconds in {location}
+when time will it show in {offset} hour
+when time will it show in {offset} hour in {location}
+when time will it show in {offset} hours
+when time will it show in {offset} hours in {location}
+when time will it show in {offset} minute
+when time will it show in {offset} minute in {location}
+when time will it show in {offset} minutes
+when time will it show in {offset} minutes in {location}
+when time will it show in {offset} second
+when time will it show in {offset} second in {location}
+when time will it show in {offset} seconds
+when time will it show in {offset} seconds in {location}
+when will it be if I spend {offset} hour
+when will it be if I spend {offset} hour in {location}
+when will it be if I spend {offset} hours
+when will it be if I spend {offset} hours in {location}
+when will it be if I spend {offset} minute
+when will it be if I spend {offset} minute in {location}
+when will it be if I spend {offset} minutes
+when will it be if I spend {offset} minutes in {location}
+when will it be if I spend {offset} second
+when will it be if I spend {offset} second in {location}
+when will it be if I spend {offset} seconds
+when will it be if I spend {offset} seconds in {location}
+when will it be if I wait {offset} hour
+when will it be if I wait {offset} hour in {location}
+when will it be if I wait {offset} hours
+when will it be if I wait {offset} hours in {location}
+when will it be if I wait {offset} minute
+when will it be if I wait {offset} minute in {location}
+when will it be if I wait {offset} minutes
+when will it be if I wait {offset} minutes in {location}
+when will it be if I wait {offset} second
+when will it be if I wait {offset} second in {location}
+when will it be if I wait {offset} seconds
+when will it be if I wait {offset} seconds in {location}
+when will it be {offset} hours
+when will it be {offset} hours  in {location}
+when will it be {offset} hours from now
+when will it be {offset} hours from now in {location}
+when will it be {offset} minutes
+when will it be {offset} minutes  in {location}
+when will it be {offset} minutes from now
+when will it be {offset} minutes from now in {location}
+when will it be {offset} seconds
+when will it be {offset} seconds  in {location}
+when will it be {offset} seconds from now
+when will it be {offset} seconds from now in {location}

@@ -1,0 +1,408 @@
+em {deslocamento} hora  que horas serão
+em {deslocamento} hora  que horas serão em {location}
+em {deslocamento} hora a partir de agora que horas serão
+em {deslocamento} hora a partir de agora que horas serão em {location}
+em {deslocamento} horas  que horas serão
+em {deslocamento} horas  que horas serão em {location}
+em {deslocamento} horas a partir de agora que horas serão
+em {deslocamento} horas a partir de agora que horas serão em {location}
+em {deslocamento} minuto  que horas serão
+em {deslocamento} minuto  que horas serão em {location}
+em {deslocamento} minuto a partir de agora que horas serão
+em {deslocamento} minuto a partir de agora que horas serão em {location}
+em {deslocamento} minutos  que horas serão
+em {deslocamento} minutos  que horas serão em {location}
+em {deslocamento} minutos a partir de agora que horas serão
+em {deslocamento} minutos a partir de agora que horas serão em {location}
+em {deslocamento} segundo  que horas serão
+em {deslocamento} segundo  que horas serão em {location}
+em {deslocamento} segundo a partir de agora que horas serão
+em {deslocamento} segundo a partir de agora que horas serão em {location}
+em {deslocamento} segundos  que horas serão
+em {deslocamento} segundos  que horas serão em {location}
+em {deslocamento} segundos a partir de agora que horas serão
+em {deslocamento} segundos a partir de agora que horas serão em {location}
+o que o relógio dirá  depois {deslocamento} hora
+o que o relógio dirá  depois {deslocamento} hora em {location}
+o que o relógio dirá  depois {deslocamento} horas
+o que o relógio dirá  depois {deslocamento} horas em {location}
+o que o relógio dirá  depois {deslocamento} minuto
+o que o relógio dirá  depois {deslocamento} minuto em {location}
+o que o relógio dirá  depois {deslocamento} minutos
+o que o relógio dirá  depois {deslocamento} minutos em {location}
+o que o relógio dirá  depois {deslocamento} segundo
+o que o relógio dirá  depois {deslocamento} segundo em {location}
+o que o relógio dirá  depois {deslocamento} segundos
+o que o relógio dirá  depois {deslocamento} segundos em {location}
+o que o relógio dirá  se eu esperar  {deslocamento} hora
+o que o relógio dirá  se eu esperar  {deslocamento} hora em {location}
+o que o relógio dirá  se eu esperar  {deslocamento} horas
+o que o relógio dirá  se eu esperar  {deslocamento} horas em {location}
+o que o relógio dirá  se eu esperar  {deslocamento} minuto
+o que o relógio dirá  se eu esperar  {deslocamento} minuto em {location}
+o que o relógio dirá  se eu esperar  {deslocamento} minutos
+o que o relógio dirá  se eu esperar  {deslocamento} minutos em {location}
+o que o relógio dirá  se eu esperar  {deslocamento} segundo
+o que o relógio dirá  se eu esperar  {deslocamento} segundo em {location}
+o que o relógio dirá  se eu esperar  {deslocamento} segundos
+o que o relógio dirá  se eu esperar  {deslocamento} segundos em {location}
+o que o relógio dirá em  {deslocamento} hora
+o que o relógio dirá em  {deslocamento} hora em {location}
+o que o relógio dirá em  {deslocamento} horas
+o que o relógio dirá em  {deslocamento} horas em {location}
+o que o relógio dirá em  {deslocamento} minuto
+o que o relógio dirá em  {deslocamento} minuto em {location}
+o que o relógio dirá em  {deslocamento} minutos
+o que o relógio dirá em  {deslocamento} minutos em {location}
+o que o relógio dirá em  {deslocamento} segundo
+o que o relógio dirá em  {deslocamento} segundo em {location}
+o que o relógio dirá em  {deslocamento} segundos
+o que o relógio dirá em  {deslocamento} segundos em {location}
+quando horas isso mostrar depois de {deslocamento} hora
+quando horas isso mostrar depois de {deslocamento} hora em {location}
+quando horas isso mostrar depois de {deslocamento} horas
+quando horas isso mostrar depois de {deslocamento} horas em {location}
+quando horas isso mostrar depois de {deslocamento} minuto
+quando horas isso mostrar depois de {deslocamento} minuto em {location}
+quando horas isso mostrar depois de {deslocamento} minutos
+quando horas isso mostrar depois de {deslocamento} minutos em {location}
+quando horas isso mostrar depois de {deslocamento} segundo
+quando horas isso mostrar depois de {deslocamento} segundo em {location}
+quando horas isso mostrar depois de {deslocamento} segundos
+quando horas isso mostrar depois de {deslocamento} segundos em {location}
+quando horas isso mostrar em {deslocamento} hora
+quando horas isso mostrar em {deslocamento} hora em {location}
+quando horas isso mostrar em {deslocamento} horas
+quando horas isso mostrar em {deslocamento} horas em {location}
+quando horas isso mostrar em {deslocamento} minuto
+quando horas isso mostrar em {deslocamento} minuto em {location}
+quando horas isso mostrar em {deslocamento} minutos
+quando horas isso mostrar em {deslocamento} minutos em {location}
+quando horas isso mostrar em {deslocamento} segundo
+quando horas isso mostrar em {deslocamento} segundo em {location}
+quando horas isso mostrar em {deslocamento} segundos
+quando horas isso mostrar em {deslocamento} segundos em {location}
+quando horas isso mostrar se eu esperar {deslocamento} hora
+quando horas isso mostrar se eu esperar {deslocamento} hora em {location}
+quando horas isso mostrar se eu esperar {deslocamento} horas
+quando horas isso mostrar se eu esperar {deslocamento} horas em {location}
+quando horas isso mostrar se eu esperar {deslocamento} minuto
+quando horas isso mostrar se eu esperar {deslocamento} minuto em {location}
+quando horas isso mostrar se eu esperar {deslocamento} minutos
+quando horas isso mostrar se eu esperar {deslocamento} minutos em {location}
+quando horas isso mostrar se eu esperar {deslocamento} segundo
+quando horas isso mostrar se eu esperar {deslocamento} segundo em {location}
+quando horas isso mostrar se eu esperar {deslocamento} segundos
+quando horas isso mostrar se eu esperar {deslocamento} segundos em {location}
+quando horas isso será depois de {deslocamento} hora
+quando horas isso será depois de {deslocamento} hora em {location}
+quando horas isso será depois de {deslocamento} horas
+quando horas isso será depois de {deslocamento} horas em {location}
+quando horas isso será depois de {deslocamento} minuto
+quando horas isso será depois de {deslocamento} minuto em {location}
+quando horas isso será depois de {deslocamento} minutos
+quando horas isso será depois de {deslocamento} minutos em {location}
+quando horas isso será depois de {deslocamento} segundo
+quando horas isso será depois de {deslocamento} segundo em {location}
+quando horas isso será depois de {deslocamento} segundos
+quando horas isso será depois de {deslocamento} segundos em {location}
+quando horas isso será em {deslocamento} hora
+quando horas isso será em {deslocamento} hora em {location}
+quando horas isso será em {deslocamento} horas
+quando horas isso será em {deslocamento} horas em {location}
+quando horas isso será em {deslocamento} minuto
+quando horas isso será em {deslocamento} minuto em {location}
+quando horas isso será em {deslocamento} minutos
+quando horas isso será em {deslocamento} minutos em {location}
+quando horas isso será em {deslocamento} segundo
+quando horas isso será em {deslocamento} segundo em {location}
+quando horas isso será em {deslocamento} segundos
+quando horas isso será em {deslocamento} segundos em {location}
+quando horas isso será se eu esperar {deslocamento} hora
+quando horas isso será se eu esperar {deslocamento} hora em {location}
+quando horas isso será se eu esperar {deslocamento} horas
+quando horas isso será se eu esperar {deslocamento} horas em {location}
+quando horas isso será se eu esperar {deslocamento} minuto
+quando horas isso será se eu esperar {deslocamento} minuto em {location}
+quando horas isso será se eu esperar {deslocamento} minutos
+quando horas isso será se eu esperar {deslocamento} minutos em {location}
+quando horas isso será se eu esperar {deslocamento} segundo
+quando horas isso será se eu esperar {deslocamento} segundo em {location}
+quando horas isso será se eu esperar {deslocamento} segundos
+quando horas isso será se eu esperar {deslocamento} segundos em {location}
+quando horas isso tornar-se-á depois de {deslocamento} hora
+quando horas isso tornar-se-á depois de {deslocamento} hora em {location}
+quando horas isso tornar-se-á depois de {deslocamento} horas
+quando horas isso tornar-se-á depois de {deslocamento} horas em {location}
+quando horas isso tornar-se-á depois de {deslocamento} minuto
+quando horas isso tornar-se-á depois de {deslocamento} minuto em {location}
+quando horas isso tornar-se-á depois de {deslocamento} minutos
+quando horas isso tornar-se-á depois de {deslocamento} minutos em {location}
+quando horas isso tornar-se-á depois de {deslocamento} segundo
+quando horas isso tornar-se-á depois de {deslocamento} segundo em {location}
+quando horas isso tornar-se-á depois de {deslocamento} segundos
+quando horas isso tornar-se-á depois de {deslocamento} segundos em {location}
+quando horas isso tornar-se-á em {deslocamento} hora
+quando horas isso tornar-se-á em {deslocamento} hora em {location}
+quando horas isso tornar-se-á em {deslocamento} horas
+quando horas isso tornar-se-á em {deslocamento} horas em {location}
+quando horas isso tornar-se-á em {deslocamento} minuto
+quando horas isso tornar-se-á em {deslocamento} minuto em {location}
+quando horas isso tornar-se-á em {deslocamento} minutos
+quando horas isso tornar-se-á em {deslocamento} minutos em {location}
+quando horas isso tornar-se-á em {deslocamento} segundo
+quando horas isso tornar-se-á em {deslocamento} segundo em {location}
+quando horas isso tornar-se-á em {deslocamento} segundos
+quando horas isso tornar-se-á em {deslocamento} segundos em {location}
+quando horas isso tornar-se-á se eu esperar {deslocamento} hora
+quando horas isso tornar-se-á se eu esperar {deslocamento} hora em {location}
+quando horas isso tornar-se-á se eu esperar {deslocamento} horas
+quando horas isso tornar-se-á se eu esperar {deslocamento} horas em {location}
+quando horas isso tornar-se-á se eu esperar {deslocamento} minuto
+quando horas isso tornar-se-á se eu esperar {deslocamento} minuto em {location}
+quando horas isso tornar-se-á se eu esperar {deslocamento} minutos
+quando horas isso tornar-se-á se eu esperar {deslocamento} minutos em {location}
+quando horas isso tornar-se-á se eu esperar {deslocamento} segundo
+quando horas isso tornar-se-á se eu esperar {deslocamento} segundo em {location}
+quando horas isso tornar-se-á se eu esperar {deslocamento} segundos
+quando horas isso tornar-se-á se eu esperar {deslocamento} segundos em {location}
+quando será {deslocamento} horas
+quando será {deslocamento} horas  em {location}
+quando será {deslocamento} horas a partir de agora
+quando será {deslocamento} horas a partir de agora em {location}
+quando será {deslocamento} minutos
+quando será {deslocamento} minutos  em {location}
+quando será {deslocamento} minutos a partir de agora
+quando será {deslocamento} minutos a partir de agora em {location}
+quando será {deslocamento} segundos
+quando será {deslocamento} segundos  em {location}
+quando será {deslocamento} segundos a partir de agora
+quando será {deslocamento} segundos a partir de agora em {location}
+quando serão se eu esperar {deslocamento} hora
+quando serão se eu esperar {deslocamento} hora em {location}
+quando serão se eu esperar {deslocamento} horas
+quando serão se eu esperar {deslocamento} horas em {location}
+quando serão se eu esperar {deslocamento} minuto
+quando serão se eu esperar {deslocamento} minuto em {location}
+quando serão se eu esperar {deslocamento} minutos
+quando serão se eu esperar {deslocamento} minutos em {location}
+quando serão se eu esperar {deslocamento} segundo
+quando serão se eu esperar {deslocamento} segundo em {location}
+quando serão se eu esperar {deslocamento} segundos
+quando serão se eu esperar {deslocamento} segundos em {location}
+quando serão se eu gastar {deslocamento} hora
+quando serão se eu gastar {deslocamento} hora em {location}
+quando serão se eu gastar {deslocamento} horas
+quando serão se eu gastar {deslocamento} horas em {location}
+quando serão se eu gastar {deslocamento} minuto
+quando serão se eu gastar {deslocamento} minuto em {location}
+quando serão se eu gastar {deslocamento} minutos
+quando serão se eu gastar {deslocamento} minutos em {location}
+quando serão se eu gastar {deslocamento} segundo
+quando serão se eu gastar {deslocamento} segundo em {location}
+quando serão se eu gastar {deslocamento} segundos
+quando serão se eu gastar {deslocamento} segundos em {location}
+quando é {deslocamento} horas
+quando é {deslocamento} horas  em {location}
+quando é {deslocamento} horas a partir de agora
+quando é {deslocamento} horas a partir de agora em {location}
+quando é {deslocamento} minutos
+quando é {deslocamento} minutos  em {location}
+quando é {deslocamento} minutos a partir de agora
+quando é {deslocamento} minutos a partir de agora em {location}
+quando é {deslocamento} segundos
+quando é {deslocamento} segundos  em {location}
+quando é {deslocamento} segundos a partir de agora
+quando é {deslocamento} segundos a partir de agora em {location}
+que horas isso mostrar depois de {deslocamento} hora
+que horas isso mostrar depois de {deslocamento} hora em {location}
+que horas isso mostrar depois de {deslocamento} horas
+que horas isso mostrar depois de {deslocamento} horas em {location}
+que horas isso mostrar depois de {deslocamento} minuto
+que horas isso mostrar depois de {deslocamento} minuto em {location}
+que horas isso mostrar depois de {deslocamento} minutos
+que horas isso mostrar depois de {deslocamento} minutos em {location}
+que horas isso mostrar depois de {deslocamento} segundo
+que horas isso mostrar depois de {deslocamento} segundo em {location}
+que horas isso mostrar depois de {deslocamento} segundos
+que horas isso mostrar depois de {deslocamento} segundos em {location}
+que horas isso mostrar em {deslocamento} hora
+que horas isso mostrar em {deslocamento} hora em {location}
+que horas isso mostrar em {deslocamento} horas
+que horas isso mostrar em {deslocamento} horas em {location}
+que horas isso mostrar em {deslocamento} minuto
+que horas isso mostrar em {deslocamento} minuto em {location}
+que horas isso mostrar em {deslocamento} minutos
+que horas isso mostrar em {deslocamento} minutos em {location}
+que horas isso mostrar em {deslocamento} segundo
+que horas isso mostrar em {deslocamento} segundo em {location}
+que horas isso mostrar em {deslocamento} segundos
+que horas isso mostrar em {deslocamento} segundos em {location}
+que horas isso mostrar se eu esperar {deslocamento} hora
+que horas isso mostrar se eu esperar {deslocamento} hora em {location}
+que horas isso mostrar se eu esperar {deslocamento} horas
+que horas isso mostrar se eu esperar {deslocamento} horas em {location}
+que horas isso mostrar se eu esperar {deslocamento} minuto
+que horas isso mostrar se eu esperar {deslocamento} minuto em {location}
+que horas isso mostrar se eu esperar {deslocamento} minutos
+que horas isso mostrar se eu esperar {deslocamento} minutos em {location}
+que horas isso mostrar se eu esperar {deslocamento} segundo
+que horas isso mostrar se eu esperar {deslocamento} segundo em {location}
+que horas isso mostrar se eu esperar {deslocamento} segundos
+que horas isso mostrar se eu esperar {deslocamento} segundos em {location}
+que horas isso será depois de {deslocamento} hora
+que horas isso será depois de {deslocamento} hora em {location}
+que horas isso será depois de {deslocamento} horas
+que horas isso será depois de {deslocamento} horas em {location}
+que horas isso será depois de {deslocamento} minuto
+que horas isso será depois de {deslocamento} minuto em {location}
+que horas isso será depois de {deslocamento} minutos
+que horas isso será depois de {deslocamento} minutos em {location}
+que horas isso será depois de {deslocamento} segundo
+que horas isso será depois de {deslocamento} segundo em {location}
+que horas isso será depois de {deslocamento} segundos
+que horas isso será depois de {deslocamento} segundos em {location}
+que horas isso será em {deslocamento} hora
+que horas isso será em {deslocamento} hora em {location}
+que horas isso será em {deslocamento} horas
+que horas isso será em {deslocamento} horas em {location}
+que horas isso será em {deslocamento} minuto
+que horas isso será em {deslocamento} minuto em {location}
+que horas isso será em {deslocamento} minutos
+que horas isso será em {deslocamento} minutos em {location}
+que horas isso será em {deslocamento} segundo
+que horas isso será em {deslocamento} segundo em {location}
+que horas isso será em {deslocamento} segundos
+que horas isso será em {deslocamento} segundos em {location}
+que horas isso será se eu esperar {deslocamento} hora
+que horas isso será se eu esperar {deslocamento} hora em {location}
+que horas isso será se eu esperar {deslocamento} horas
+que horas isso será se eu esperar {deslocamento} horas em {location}
+que horas isso será se eu esperar {deslocamento} minuto
+que horas isso será se eu esperar {deslocamento} minuto em {location}
+que horas isso será se eu esperar {deslocamento} minutos
+que horas isso será se eu esperar {deslocamento} minutos em {location}
+que horas isso será se eu esperar {deslocamento} segundo
+que horas isso será se eu esperar {deslocamento} segundo em {location}
+que horas isso será se eu esperar {deslocamento} segundos
+que horas isso será se eu esperar {deslocamento} segundos em {location}
+que horas isso tornar-se-á depois de {deslocamento} hora
+que horas isso tornar-se-á depois de {deslocamento} hora em {location}
+que horas isso tornar-se-á depois de {deslocamento} horas
+que horas isso tornar-se-á depois de {deslocamento} horas em {location}
+que horas isso tornar-se-á depois de {deslocamento} minuto
+que horas isso tornar-se-á depois de {deslocamento} minuto em {location}
+que horas isso tornar-se-á depois de {deslocamento} minutos
+que horas isso tornar-se-á depois de {deslocamento} minutos em {location}
+que horas isso tornar-se-á depois de {deslocamento} segundo
+que horas isso tornar-se-á depois de {deslocamento} segundo em {location}
+que horas isso tornar-se-á depois de {deslocamento} segundos
+que horas isso tornar-se-á depois de {deslocamento} segundos em {location}
+que horas isso tornar-se-á em {deslocamento} hora
+que horas isso tornar-se-á em {deslocamento} hora em {location}
+que horas isso tornar-se-á em {deslocamento} horas
+que horas isso tornar-se-á em {deslocamento} horas em {location}
+que horas isso tornar-se-á em {deslocamento} minuto
+que horas isso tornar-se-á em {deslocamento} minuto em {location}
+que horas isso tornar-se-á em {deslocamento} minutos
+que horas isso tornar-se-á em {deslocamento} minutos em {location}
+que horas isso tornar-se-á em {deslocamento} segundo
+que horas isso tornar-se-á em {deslocamento} segundo em {location}
+que horas isso tornar-se-á em {deslocamento} segundos
+que horas isso tornar-se-á em {deslocamento} segundos em {location}
+que horas isso tornar-se-á se eu esperar {deslocamento} hora
+que horas isso tornar-se-á se eu esperar {deslocamento} hora em {location}
+que horas isso tornar-se-á se eu esperar {deslocamento} horas
+que horas isso tornar-se-á se eu esperar {deslocamento} horas em {location}
+que horas isso tornar-se-á se eu esperar {deslocamento} minuto
+que horas isso tornar-se-á se eu esperar {deslocamento} minuto em {location}
+que horas isso tornar-se-á se eu esperar {deslocamento} minutos
+que horas isso tornar-se-á se eu esperar {deslocamento} minutos em {location}
+que horas isso tornar-se-á se eu esperar {deslocamento} segundo
+que horas isso tornar-se-á se eu esperar {deslocamento} segundo em {location}
+que horas isso tornar-se-á se eu esperar {deslocamento} segundos
+que horas isso tornar-se-á se eu esperar {deslocamento} segundos em {location}
+que horas será {deslocamento} horas
+que horas será {deslocamento} horas  em {location}
+que horas será {deslocamento} horas a partir de agora
+que horas será {deslocamento} horas a partir de agora em {location}
+que horas será {deslocamento} minutos
+que horas será {deslocamento} minutos  em {location}
+que horas será {deslocamento} minutos a partir de agora
+que horas será {deslocamento} minutos a partir de agora em {location}
+que horas será {deslocamento} segundos
+que horas será {deslocamento} segundos  em {location}
+que horas será {deslocamento} segundos a partir de agora
+que horas será {deslocamento} segundos a partir de agora em {location}
+que horas serão se eu esperar {deslocamento} hora
+que horas serão se eu esperar {deslocamento} hora em {location}
+que horas serão se eu esperar {deslocamento} horas
+que horas serão se eu esperar {deslocamento} horas em {location}
+que horas serão se eu esperar {deslocamento} minuto
+que horas serão se eu esperar {deslocamento} minuto em {location}
+que horas serão se eu esperar {deslocamento} minutos
+que horas serão se eu esperar {deslocamento} minutos em {location}
+que horas serão se eu esperar {deslocamento} segundo
+que horas serão se eu esperar {deslocamento} segundo em {location}
+que horas serão se eu esperar {deslocamento} segundos
+que horas serão se eu esperar {deslocamento} segundos em {location}
+que horas serão se eu gastar {deslocamento} hora
+que horas serão se eu gastar {deslocamento} hora em {location}
+que horas serão se eu gastar {deslocamento} horas
+que horas serão se eu gastar {deslocamento} horas em {location}
+que horas serão se eu gastar {deslocamento} minuto
+que horas serão se eu gastar {deslocamento} minuto em {location}
+que horas serão se eu gastar {deslocamento} minutos
+que horas serão se eu gastar {deslocamento} minutos em {location}
+que horas serão se eu gastar {deslocamento} segundo
+que horas serão se eu gastar {deslocamento} segundo em {location}
+que horas serão se eu gastar {deslocamento} segundos
+que horas serão se eu gastar {deslocamento} segundos em {location}
+que horas são   depois {deslocamento} hora
+que horas são   depois {deslocamento} hora em {location}
+que horas são   depois {deslocamento} horas
+que horas são   depois {deslocamento} horas em {location}
+que horas são   depois {deslocamento} minuto
+que horas são   depois {deslocamento} minuto em {location}
+que horas são   depois {deslocamento} minutos
+que horas são   depois {deslocamento} minutos em {location}
+que horas são   depois {deslocamento} segundo
+que horas são   depois {deslocamento} segundo em {location}
+que horas são   depois {deslocamento} segundos
+que horas são   depois {deslocamento} segundos em {location}
+que horas são   se eu esperar  {deslocamento} hora
+que horas são   se eu esperar  {deslocamento} hora em {location}
+que horas são   se eu esperar  {deslocamento} horas
+que horas são   se eu esperar  {deslocamento} horas em {location}
+que horas são   se eu esperar  {deslocamento} minuto
+que horas são   se eu esperar  {deslocamento} minuto em {location}
+que horas são   se eu esperar  {deslocamento} minutos
+que horas são   se eu esperar  {deslocamento} minutos em {location}
+que horas são   se eu esperar  {deslocamento} segundo
+que horas são   se eu esperar  {deslocamento} segundo em {location}
+que horas são   se eu esperar  {deslocamento} segundos
+que horas são   se eu esperar  {deslocamento} segundos em {location}
+que horas são  em  {deslocamento} hora
+que horas são  em  {deslocamento} hora em {location}
+que horas são  em  {deslocamento} horas
+que horas são  em  {deslocamento} horas em {location}
+que horas são  em  {deslocamento} minuto
+que horas são  em  {deslocamento} minuto em {location}
+que horas são  em  {deslocamento} minutos
+que horas são  em  {deslocamento} minutos em {location}
+que horas são  em  {deslocamento} segundo
+que horas são  em  {deslocamento} segundo em {location}
+que horas são  em  {deslocamento} segundos
+que horas são  em  {deslocamento} segundos em {location}
+que horas é {deslocamento} horas
+que horas é {deslocamento} horas  em {location}
+que horas é {deslocamento} horas a partir de agora
+que horas é {deslocamento} horas a partir de agora em {location}
+que horas é {deslocamento} minutos
+que horas é {deslocamento} minutos  em {location}
+que horas é {deslocamento} minutos a partir de agora
+que horas é {deslocamento} minutos a partir de agora em {location}
+que horas é {deslocamento} segundos
+que horas é {deslocamento} segundos  em {location}
+que horas é {deslocamento} segundos a partir de agora
+que horas é {deslocamento} segundos a partir de agora em {location}

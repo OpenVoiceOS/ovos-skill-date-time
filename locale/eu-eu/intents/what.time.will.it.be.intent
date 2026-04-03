@@ -1,0 +1,35 @@
+noiz da hemendik {offset} minutu
+noiz da hemendik {offset} minutu leku honetan: {location}
+noiz da hemendik {offset} ordu
+noiz da hemendik {offset} ordu leku honetan: {location}
+noiz da hemendik {offset} segundo
+noiz da hemendik {offset} segundo leku honetan: {location}
+noiz da {offset} minutu
+noiz da {offset} minutu leku honetan: {location}
+noiz da {offset} ordu
+noiz da {offset} ordu leku honetan: {location}
+noiz da {offset} segundo
+noiz da {offset} segundo leku honetan: {location}
+noiz izango da hemendik {offset} minutu
+noiz izango da hemendik {offset} minutu leku honetan: {location}
+noiz izango da hemendik {offset} ordu
+noiz izango da hemendik {offset} segundo
+noiz izango da hemendik {offset} segundo leku honetan: {location}
+noiz izango da {offset} minutu
+noiz izango da {offset} minutu leku honetan: {location}
+noiz izango da {offset} ordu
+noiz izango da {offset} ordu leku honetan: {location}
+noiz izango da {offset} segundo
+noiz izango da {offset} segundo leku honetan: {location}
+zer ordu izango da hemendik {offset} minutura
+zer ordu izango da hemendik {offset} minutura leku honetan: {location}
+zer ordu izango da hemendik {offset} ordura
+zer ordu izango da hemendik {offset} ordura leku honetan: {location}
+zer ordu izango da hemendik {offset} segundora
+zer ordu izango da hemendik {offset} segundora leku honetan: {location}
+zer ordu izango da {offset} minutura
+zer ordu izango da {offset} minutura leku honetan: {location}
+zer ordu izango da {offset} ordura
+zer ordu izango da {offset} ordura leku honetan: {location}
+zer ordu izango da {offset} segundora
+zer ordu izango da {offset} segundora leku honetan: {location}
