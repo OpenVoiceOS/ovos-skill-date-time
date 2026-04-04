@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.10a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.10a1) (2026-04-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.9a2...1.1.10a1)
+
+**Merged pull requests:**
+
+- fix\(i18n\): normalize locale folders to canonical BCP-47 [\#238](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/238) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [1.1.9a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.9a2) (2026-04-04)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.9a1...1.1.9a2)
