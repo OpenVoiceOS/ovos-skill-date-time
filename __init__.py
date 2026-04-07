@@ -198,6 +198,16 @@ class TimeSkill(OVOSSkill):
             return None
         return cleaned
 
+    def _resolve_location(self,
+                          location_string: Optional[str] = None,
+                          utterance: str = "") -> Optional[str]:
+        """Resolve a sanitized location from an explicit slot or from the utterance."""
+        if location_string:
+            return self._sanitize_location(location_string)
+        if utterance:
+            return self._sanitize_location(self._extract_location(utterance))
+        return None
+
     def _mentions_current_weekend(self, utterance: str) -> bool:
         """Check whether the active locale explicitly asked for the current weekend."""
         current_weekend_phrases = self._load_locale_phrase_set("current_weekend_phrases")
@@ -327,7 +337,6 @@ class TimeSkill(OVOSSkill):
         Returns:
             Optional[datetime.datetime]: The localized datetime, or None if timezone cannot be resolved.
         """
-        location = self._sanitize_location(location)
         if location:
             tz = self.get_timezone_in_location(location)
             if not tz:
@@ -417,7 +426,6 @@ class TimeSkill(OVOSSkill):
                    anchor_date: datetime.datetime = None):
         """Speak the current time. Optionally at a location
         speaks an error if timezone for requested location could not be detected"""
-        location = self._sanitize_location(location)
         if location:
             current_time = self.get_spoken_time(location, anchor_date=anchor_date)
             if not current_time:
@@ -432,15 +440,14 @@ class TimeSkill(OVOSSkill):
         self.speak_dialog(dialog, {"time": current_time})
 
         # and briefly show the time
-        self.show_time(time_string)
+        if time_string:
+            self.show_time(time_string)
 
     @intent_handler("what.time.is.it.intent")
     def handle_query_time(self, message):
         """Handle queries about the current time."""
         utt = message.data.get('utterance', "")
-        location = self._sanitize_location(
-            message.data.get("location") or self._extract_location(utt)
-        )
+        location = self._resolve_location(message.data.get("location"), utt)
         # speak it
         self.speak_time("time.current", location=location)
 
@@ -454,9 +461,7 @@ class TimeSkill(OVOSSkill):
             self.handle_query_time(message)
             return
 
-        location = self._sanitize_location(
-            message.data.get("location") or self._extract_location(utt)
-        )
+        location = self._resolve_location(message.data.get("location"), utt)
 
         # speak it
         self.speak_time("time.future", location=location, anchor_date=dt)
@@ -474,9 +479,7 @@ class TimeSkill(OVOSSkill):
             dt = now
 
         # handle questions ~ "what is the day in sydney"
-        location_string = self._sanitize_location(
-            message.data.get("location") or self._extract_location(utt)
-        )
+        location_string = self._resolve_location(message.data.get("location"), utt)
 
         if location_string:
             dt = self.get_datetime(location_string, anchor_date=dt)
@@ -529,9 +532,7 @@ class TimeSkill(OVOSSkill):
             message: The message object triggering the intent.
         """
         utt = message.data.get("utterance", "")
-        location = self._sanitize_location(
-            message.data.get("location") or self._extract_location(utt)
-        )
+        location = self._resolve_location(message.data.get("location"), utt)
         now = self.get_datetime(location)
         if location and not now:
             self.speak_dialog("time.tz.not.found", {"location": location})
@@ -604,6 +605,8 @@ class TimeSkill(OVOSSkill):
         utt = message.data.get("utterance", "").lower()
         weekday = now.weekday()
 
+        # On Saturday/Sunday, default to the upcoming weekend unless the user
+        # explicitly asked for the current weekend in this locale.
         if weekday <= 5:
             saturday_dt = now + datetime.timedelta(days=5 - weekday)
         else:
