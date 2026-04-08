@@ -143,5 +143,14 @@
     "aujourd'hui",
     "demain",
     "hier"
+  ],
+  "weekday.entity": [
+    "lundi",
+    "mardi",
+    "mercredi",
+    "jeudi",
+    "vendredi",
+    "samedi",
+    "dimanche"
   ]
 }

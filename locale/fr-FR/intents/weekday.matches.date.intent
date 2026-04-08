@@ -1,14 +1,4 @@
-est-ce que {date} tombe un dimanche
-est-ce que {date} tombe un jeudi
-est-ce que {date} tombe un lundi
-est-ce que {date} tombe un mardi
-est-ce que {date} tombe un mercredi
-est-ce que {date} tombe un samedi
-est-ce que {date} tombe un vendredi
-le {date} tombe-t-il un dimanche
-le {date} tombe-t-il un jeudi
-le {date} tombe-t-il un lundi
-le {date} tombe-t-il un mardi
-le {date} tombe-t-il un mercredi
-le {date} tombe-t-il un samedi
-le {date} tombe-t-il un vendredi
+est-ce que {date} tombe un {weekday}
+le {date} tombe-t-il un {weekday}
+le {date} tombait-il un {weekday}
+le {date} tombera-t-il un {weekday}

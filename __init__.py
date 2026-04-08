@@ -217,71 +217,45 @@ class TimeSkill(OVOSSkill):
         normalized_utterance = utterance.casefold()
         return any(phrase in normalized_utterance for phrase in current_weekend_phrases)
 
-    def _load_cached_list(self, name: str):
-        """Load and cache a locale list resource."""
-        cache_key = f"{self.lang}:{name}.list"
+    def _load_cached_entity(self, name: str):
+        """Load and cache a locale entity resource."""
+        cache_key = f"{self.lang}:{name}.entity"
         if cache_key not in self.resources.static:
-            self.resources.static[cache_key] = self.resources.load_list_file(name)
+            values = []
+            entity_file = self.find_resource(f"{name}.entity", "vocab")
+            if entity_file:
+                with open(entity_file, encoding="utf-8") as f:
+                    for line in f:
+                        line = line.strip()
+                        if line and not line.startswith("#"):
+                            values.append(line)
+            self.resources.static[cache_key] = values
         return self.resources.static[cache_key]
 
-    def _load_weekday_match_map(self):
-        """Load the locale weekday map for weekday-match parsing."""
-        cache_key = f"{self.lang}:weekday.match.weekdays.value"
-        if cache_key not in self.resources.static:
-            weekday_map = {}
-            for name, value in self.resources.load_named_value_file(
-                "weekday.match.weekdays"
-            ).items():
-                try:
-                    weekday_map[name.lower()] = int(value)
-                except (TypeError, ValueError):
-                    continue
-            self.resources.static[cache_key] = weekday_map
-        return self.resources.static[cache_key]
-
-    def _extract_requested_weekday(self, utt: str):
-        """Extract the weekday requested by yes/no weekday-check intents."""
-        weekday_map = self._load_weekday_match_map()
-        if not utt or not weekday_map:
+    def _get_requested_weekday(self, message):
+        """Extract the requested weekday from intent-matched entities."""
+        weekday_name = (message.data.get("weekday") or "").strip().lower()
+        if not weekday_name:
             return None
 
-        names = "|".join(map(re.escape, weekday_map))
-        patterns = [
-            pattern.replace("__WEEKDAY_NAMES__", names)
-            for pattern in self._load_cached_list("weekday.match.patterns")
-        ]
+        weekdays = [day.lower() for day in self._load_cached_entity("weekday")]
+        try:
+            weekday_index = weekdays.index(weekday_name)
+        except ValueError:
+            return None
+        return weekday_index, self._render_weekday(weekday_index)
 
-        normalized = utt.lower()
-        for pattern in patterns:
-            match = re.search(pattern, normalized)
-            if match:
-                weekday = match.group("weekday")
-                return weekday_map[weekday], weekday, match.group("phrase")
-        return None
-
-    def _strip_requested_weekday_phrase(self, utt: str, weekday) -> str:
-        """Remove the weekday-check wording before date parsing."""
-        if not utt or weekday is None:
-            return utt
-
-        _, _, phrase = weekday
-        cleaned = re.sub(re.escape(phrase), "", utt, flags=re.IGNORECASE)
-        for pattern in self._load_cached_list("weekday.match.strip_prefixes"):
-            cleaned = re.sub(pattern, "", cleaned, flags=re.IGNORECASE)
-        for pattern in self._load_cached_list("weekday.match.strip_suffixes"):
-            cleaned = re.sub(pattern, "", cleaned, flags=re.IGNORECASE)
-        return cleaned.strip(" \t,;:.!?")
+    def _render_weekday(self, weekday_index: int) -> str:
+        """Render a localized weekday from a weekday index."""
+        reference_monday = datetime.datetime(2024, 1, 1)
+        return nice_weekday(reference_monday + datetime.timedelta(days=weekday_index),
+                            lang=self.lang)
 
     def _get_leap_year_query_scope(self, utterance: str) -> str:
         """Return whether the user asked about the current, next, or either year."""
-        utterance = utterance.lower()
-
-        either_phrases = self._load_cached_list("leap.year.scope.either_phrases")
-        next_year_phrases = self._load_cached_list("leap.year.scope.next_phrases")
-
-        if any(phrase in utterance for phrase in either_phrases):
+        if self.voc_match(utterance, "leap.year.scope.either", lang=self.lang):
             return "either"
-        if any(phrase in utterance for phrase in next_year_phrases):
+        if self.voc_match(utterance, "leap.year.scope.next", lang=self.lang):
             return "next"
         return "current"
 
@@ -543,7 +517,7 @@ class TimeSkill(OVOSSkill):
         now = self.get_datetime()  # session aware
         try:
             dt, utt = extract_datetime(utt, anchorDate=now, lang=self.lang) or (now, utt)
-        except Exception as e:
+        except Exception:
             self.log.exception(f"failed to extract date from '{utt}'")
             dt = now
 
@@ -651,18 +625,14 @@ class TimeSkill(OVOSSkill):
         """Handle yes/no questions about whether a date matches a weekday."""
         now = self.get_datetime()  # session aware
         utterance = message.data.get("utterance", "")
-        weekday = self._extract_requested_weekday(utterance)
-        date_text = message.data.get("date")
-        if not date_text:
-            date_text = self._strip_requested_weekday_phrase(utterance, weekday)
-
-        dt, _ = extract_datetime(date_text or utterance,
+        weekday = self._get_requested_weekday(message)
+        dt, _ = extract_datetime(message.data.get("date") or utterance,
                                  anchorDate=now, lang=self.lang) or (None, None)
         if not dt or weekday is None:
             self.speak_dialog("extract.date.error")
             return
 
-        expected_weekday, expected_name, _ = weekday
+        expected_weekday, expected_name = weekday
         data = {
             "date": nice_date(dt, lang=self.lang, now=now),
             "weekday": expected_name,

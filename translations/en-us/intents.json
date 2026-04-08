@@ -68,9 +68,12 @@
     "[(I want to|do you) know] (which|what) (day|day of the week|weekday) {date} (was|is)"
   ],
   "/intents/weekday.matches.date.intent": [
-    "(was|is) {date} [on] a (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)",
-    "does {date} fall on a (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)",
-    "will {date} be on a (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)"
+    "does {date} fall on a {weekday}",
+    "is {date} a {weekday}",
+    "is {date} on a {weekday}",
+    "was {date} a {weekday}",
+    "was {date} on a {weekday}",
+    "will {date} be on a {weekday}"
   ],
   "/intents/what.weekday.is.it.intent": [
     "(which|what) (day of the week|weekday) is (it|today)",
