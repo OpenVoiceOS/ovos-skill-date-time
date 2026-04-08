@@ -764,20 +764,19 @@ class TimeSkill(OVOSSkill):
             return
 
         if scope == "next":
-            dialog = (
-                "leap.year.next.yes"
-                if calendar.isleap(next_year)
-                else "leap.year.next.no"
-            )
-            self.speak_dialog(dialog, {"year": next_year})
+            if calendar.isleap(next_year):
+                self.speak_dialog("leap.year.next.yes", {"year": next_year})
+            else:
+                self.speak_dialog("leap.year.next.no",
+                                  {"year": get_next_leap_year(next_year)})
             return
 
-        dialog = (
-            "leap.year.current.yes"
-            if calendar.isleap(current_year)
-            else "leap.year.current.no"
-        )
-        self.speak_dialog(dialog, {"year": current_year})
+        if calendar.isleap(current_year):
+            self.speak_dialog("leap.year.current.yes",
+                              {"year": current_year})
+        else:
+            self.speak_dialog("leap.year.current.no",
+                              {"year": get_next_leap_year(current_year)})
 
     ######################################################################
     # GUI / Faceplate
