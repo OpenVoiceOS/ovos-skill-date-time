@@ -29,6 +29,7 @@ from ovos_utils.process_utils import RuntimeRequirements
 from ovos_utils.time import now_local, get_next_leap_year
 from ovos_utterance_normalizer import UtteranceNormalizerPlugin
 from ovos_workshop.decorators import intent_handler
+from ovos_workshop.resource_files import ResourceFile
 from ovos_workshop.skills import OVOSSkill
 from timezonefinder import TimezoneFinder
 
@@ -221,10 +222,10 @@ class TimeSkill(OVOSSkill):
         """Load and cache a locale entity resource."""
         cache_key = f"{self.lang}:{name}.entity"
         if cache_key not in self.resources.static:
+            entity_resource = ResourceFile(self.resources.types.entity, name)
             values = []
-            entity_file = self.find_resource(f"{name}.entity", "vocab")
-            if entity_file:
-                with open(entity_file, encoding="utf-8") as f:
+            if entity_resource.file_path:
+                with open(entity_resource.file_path, encoding="utf-8") as f:
                     for line in f:
                         line = line.strip()
                         if line and not line.startswith("#"):
