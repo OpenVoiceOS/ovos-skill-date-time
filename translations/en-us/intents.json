@@ -9,9 +9,11 @@
     "when will we (have|get|see) [a] leap year again",
     "when is (February 29th|Feb 29) happening (again|next)",
     "(what|when) is the next year that has (February 29th|366 days|an extra day [in February])",
-    "is (next year|this year) a leap year",
-    "is this year a leap year or (next|the next one)",
     "(what|which) year is the next leap year"
+  ],
+  "/intents/is.leap.year.intent": [
+    "is (next year|this year) a leap year",
+    "is this year a leap year or (next|the next one)"
   ],
   "/intents/time.until.intent": [
     "how (long|much time|much longer) (is left|do we have) (before|until) {date}",
@@ -59,12 +61,19 @@
     "(which|what) (day of the week|weekday) (was|is) {date}",
     "(do you know|[can you] tell me) the (day of the week|weekday) for {date}",
     "what’s the (day of the week|weekday) for {date}",
-    "(was|is) {date} [on] a (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)",
     "[on] (what|which) (day|day of the week|weekday) does {date} fall on",
     "[on] (what|which) (day|day of the week|weekday) (was|will it be on) {date}",
     "[on] (what|which) (day|day of the week|weekday) (was|is) {date}",
     "[can you] tell me what (day|day of the week|weekday) {date} (was|is)",
     "[(I want to|do you) know] (which|what) (day|day of the week|weekday) {date} (was|is)"
+  ],
+  "/intents/weekday.matches.date.intent": [
+    "does {date} fall on a {weekday}",
+    "is {date} a {weekday}",
+    "is {date} on a {weekday}",
+    "was {date} a {weekday}",
+    "was {date} on a {weekday}",
+    "will {date} be on a {weekday}"
   ],
   "/intents/what.weekday.is.it.intent": [
     "(which|what) (day of the week|weekday) is (it|today)",

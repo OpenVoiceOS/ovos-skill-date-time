@@ -165,5 +165,14 @@
     "Friday",
     "Saturday",
     "Sunday"
+  ],
+  "weekday.entity": [
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday",
+    "saturday",
+    "sunday"
   ]
 }

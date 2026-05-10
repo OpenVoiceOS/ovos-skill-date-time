@@ -11,6 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+import calendar
 import datetime
 import os
 import re
@@ -28,6 +29,7 @@ from ovos_utils.process_utils import RuntimeRequirements
 from ovos_utils.time import now_local, get_next_leap_year
 from ovos_utterance_normalizer import UtteranceNormalizerPlugin
 from ovos_workshop.decorators import intent_handler
+from ovos_workshop.resource_files import ResourceFile
 from ovos_workshop.skills import OVOSSkill
 from timezonefinder import TimezoneFinder
 
@@ -215,6 +217,48 @@ class TimeSkill(OVOSSkill):
             return False
         normalized_utterance = utterance.casefold()
         return any(phrase in normalized_utterance for phrase in current_weekend_phrases)
+
+    def _load_cached_entity(self, name: str):
+        """Load and cache a locale entity resource."""
+        cache_key = f"{self.lang}:{name}.entity"
+        if cache_key not in self.resources.static:
+            entity_resource = ResourceFile(self.resources.types.entity, name)
+            values = []
+            if entity_resource.file_path:
+                with open(entity_resource.file_path, encoding="utf-8") as f:
+                    for line in f:
+                        line = line.strip()
+                        if line and not line.startswith("#"):
+                            values.append(line)
+            self.resources.static[cache_key] = values
+        return self.resources.static[cache_key]
+
+    def _get_requested_weekday(self, message):
+        """Extract the requested weekday from intent-matched entities."""
+        weekday_name = (message.data.get("weekday") or "").strip().lower()
+        if not weekday_name:
+            return None
+
+        weekdays = [day.lower() for day in self._load_cached_entity("weekday")]
+        try:
+            weekday_index = weekdays.index(weekday_name)
+        except ValueError:
+            return None
+        return weekday_index, self._render_weekday(weekday_index)
+
+    def _render_weekday(self, weekday_index: int) -> str:
+        """Render a localized weekday from a weekday index."""
+        reference_monday = datetime.datetime(2024, 1, 1)
+        return nice_weekday(reference_monday + datetime.timedelta(days=weekday_index),
+                            lang=self.lang)
+
+    def _get_leap_year_query_scope(self, utterance: str) -> str:
+        """Return whether the user asked about the current, next, or either year."""
+        if self.voc_match(utterance, "leap.year.scope.either", lang=self.lang):
+            return "either"
+        if self.voc_match(utterance, "leap.year.scope.next", lang=self.lang):
+            return "next"
+        return "current"
 
     @staticmethod
     def _get_timezone_from_builtins(location_string: str) -> Optional[datetime.tzinfo]:
@@ -474,7 +518,7 @@ class TimeSkill(OVOSSkill):
         now = self.get_datetime()  # session aware
         try:
             dt, utt = extract_datetime(utt, anchorDate=now, lang=self.lang) or (now, utt)
-        except Exception as e:
+        except Exception:
             self.log.exception(f"failed to extract date from '{utt}'")
             dt = now
 
@@ -565,16 +609,55 @@ class TimeSkill(OVOSSkill):
                                  anchorDate=now, lang=self.lang) or (None, None)
         if not dt:
             self.speak_dialog("extract.date.error")
+            return
+
+        if dt >= now:
+            dialog = "weekday.at.date.future"
         else:
-            if dt >= now:
-                dialog = "weekday.at.date.future"
-            else:
-                dialog = "weekday.at.date.past"
-            # TODO - "today" should never trigger this intent, but if it does,
-            #  should we handle it better? nice_date will return "today" in that case
-            self.speak_dialog(dialog, {
+            dialog = "weekday.at.date.past"
+        # TODO - "today" should never trigger this intent, but if it does,
+        #  should we handle it better? nice_date will return "today" in that case
+        self.speak_dialog(dialog, {
                 "date": nice_date(dt, lang=self.lang, now=now),
                 "weekday": nice_weekday(dt, lang=self.lang)})
+
+    @intent_handler("weekday.matches.date.intent")
+    def handle_weekday_match(self, message):
+        """Handle yes/no questions about whether a date matches a weekday."""
+        now = self.get_datetime()  # session aware
+        utterance = message.data.get("utterance", "")
+        weekday = self._get_requested_weekday(message)
+        dt, _ = extract_datetime(message.data.get("date") or utterance,
+                                 anchorDate=now, lang=self.lang) or (None, None)
+        if not dt or weekday is None:
+            self.speak_dialog("extract.date.error")
+            return
+
+        expected_weekday, expected_name = weekday
+        data = {
+            "date": nice_date(dt, lang=self.lang, now=now),
+            "weekday": expected_name,
+            "actual_weekday": nice_weekday(dt, lang=self.lang)
+        }
+        if dt.date() > now.date():
+            dialog = (
+                "weekday.matches.date.future.yes"
+                if dt.weekday() == expected_weekday
+                else "weekday.matches.date.future.no"
+            )
+        elif dt.date() == now.date():
+            dialog = (
+                "weekday.matches.date.today.yes"
+                if dt.weekday() == expected_weekday
+                else "weekday.matches.date.today.no"
+            )
+        else:
+            dialog = (
+                "weekday.matches.date.past.yes"
+                if dt.weekday() == expected_weekday
+                else "weekday.matches.date.past.no"
+            )
+        self.speak_dialog(dialog, data)
 
     @intent_handler("what.month.is.it.intent")
     def handle_current_month(self, message):
@@ -659,6 +742,42 @@ class TimeSkill(OVOSSkill):
         year = now.year if now <= leap_date else now.year + 1
         next_leap_year = get_next_leap_year(year)
         self.speak_dialog('next.leap.year', {'year': next_leap_year})
+
+    @intent_handler("is.leap.year.intent")
+    def handle_is_leap_year(self, message):
+        """Handle yes/no questions about leap years."""
+        utterance = message.data.get("utterance", "")
+        now = self.get_datetime()
+        current_year = now.year
+        next_year = current_year + 1
+        scope = self._get_leap_year_query_scope(utterance)
+
+        if scope == "either":
+            if calendar.isleap(current_year):
+                self.speak_dialog("leap.year.either.yes",
+                                  {"year": current_year})
+            elif calendar.isleap(next_year):
+                self.speak_dialog("leap.year.either.yes",
+                                  {"year": next_year})
+            else:
+                self.speak_dialog("leap.year.either.no",
+                                  {"year": get_next_leap_year(next_year + 1)})
+            return
+
+        if scope == "next":
+            if calendar.isleap(next_year):
+                self.speak_dialog("leap.year.next.yes", {"year": next_year})
+            else:
+                self.speak_dialog("leap.year.next.no",
+                                  {"year": get_next_leap_year(next_year)})
+            return
+
+        if calendar.isleap(current_year):
+            self.speak_dialog("leap.year.current.yes",
+                              {"year": current_year})
+        else:
+            self.speak_dialog("leap.year.current.no",
+                              {"year": get_next_leap_year(current_year)})
 
     ######################################################################
     # GUI / Faceplate
