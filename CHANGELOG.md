@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.10a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.10a4) (2026-05-10)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.10a3...1.1.10a4)
+
+**Merged pull requests:**
+
+- Split leap-year and weekday-match intents [\#184](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/184) ([goldyfruit](https://github.com/goldyfruit))
+
 ## [1.1.10a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.10a3) (2026-05-10)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.10a2...1.1.10a3)
