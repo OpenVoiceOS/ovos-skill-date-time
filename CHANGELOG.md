@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.11a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.11a1) (2026-06-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.10a4...1.1.11a1)
+
+**Merged pull requests:**
+
+- fix\(deps\): allow ovos-workshop 9.x \(widen \<9.0.0 -\> \<10.0.0\) [\#245](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/245) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [1.1.10a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.10a4) (2026-05-10)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.10a3...1.1.10a4)
