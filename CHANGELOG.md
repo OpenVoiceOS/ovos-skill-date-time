@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.12a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.12a1) (2026-07-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.11a3...1.1.12a1)
+
+**Merged pull requests:**
+
+- fix: repair malformed intent templates across translations [\#251](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/251) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [1.1.11a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.11a3) (2026-07-11)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.11a2...1.1.11a3)
@@ -109,19 +117,19 @@
 
 ## [1.1.8a13](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a13) (2026-03-29)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a12...1.1.8a13)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a11...1.1.8a13)
 
 **Merged pull requests:**
 
 - Add locale resources for location disambiguation and date phrasing [\#186](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/186) ([goldyfruit](https://github.com/goldyfruit))
 
-## [1.1.8a12](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a12) (2026-03-29)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a11...1.1.8a12)
-
 ## [1.1.8a11](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a11) (2026-03-29)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a10...1.1.8a11)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a12...1.1.8a11)
+
+## [1.1.8a12](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a12) (2026-03-29)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a10...1.1.8a12)
 
 ## [1.1.8a10](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a10) (2026-03-29)
 
@@ -520,10 +528,6 @@
 ## [0.4.16a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.16a1) (2025-04-11)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.15a1...0.4.16a1)
-
-**Merged pull requests:**
-
-- fix: catalan matching [\#124](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/124) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.4.15a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.15a1) (2025-03-29)
 
