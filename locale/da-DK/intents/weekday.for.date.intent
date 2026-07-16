@@ -1,122 +1,122 @@
 Hvad er ugedag for {date}
-Jeg vil gerne vide hvad dag {dato} er
-Jeg vil gerne vide hvad dag {dato} var
-Jeg vil gerne vide hvad hverdag {dato} er
-Jeg vil gerne vide hvad hverdag {dato} var
-Jeg vil gerne vide hvad ugedag {dato} er
-Jeg vil gerne vide hvad ugedag {dato} var
-Jeg vil gerne vide hvilken dag {dato} er
-Jeg vil gerne vide hvilken dag {dato} var
-Jeg vil gerne vide hvilken hverdag {dato} er
-Jeg vil gerne vide hvilken hverdag {dato} var
-Jeg vil gerne vide hvilken ugedag {dato} er
-Jeg vil gerne vide hvilken ugedag {dato} var
-er {dato}  en fredag
-er {dato}  en lørdag
-er {dato}  en mandag
-er {dato}  en onsdag
-er {dato}  en søndag
-er {dato}  en tirsdag
-er {dato}  en torsdag
-er {dato} på en fredag
-er {dato} på en lørdag
-er {dato} på en mandag
-er {dato} på en onsdag
-er {dato} på en søndag
-er {dato} på en tirsdag
-er {dato} på en torsdag
-fortælle mig hvilken dag {dato} er
-fortælle mig hvilken dag {dato} var
-fortælle mig hvilken hverdag {dato} er
-fortælle mig hvilken hverdag {dato} var
-fortælle mig hvilken ugedag {dato} er
-fortælle mig hvilken ugedag {dato} var
-fortælle mig ugedagen for {dato}
-hvad dag er {dato}
-hvad dag var {dato}
-hvad dag vil det være på {dato}
-hvad dag {dato} er
-hvad dag {dato} var
-hvad hverdag er {dato}
-hvad hverdag var {dato}
-hvad hverdag vil det være på {dato}
-hvad hverdag {dato} er
-hvad hverdag {dato} var
-hvad ugedag er {dato}
-hvad ugedag var {dato}
-hvad ugedag vil det være på {dato}
-hvad ugedag {dato} er
-hvad ugedag {dato} var
-hvilken dag er {dato}
-hvilken dag falder {dato} på
-hvilken dag i ugen falder {dato} på
-hvilken dag var {dato}
-hvilken dag vil det være på {dato}
-hvilken dag {dato} er
-hvilken dag {dato} var
-hvilken hverdag er {dato}
-hvilken hverdag falder {dato} på
-hvilken hverdag var {dato}
-hvilken hverdag vil det være på {dato}
-hvilken hverdag {dato} er
-hvilken hverdag {dato} var
-hvilken ugedag er {dato}
-hvilken ugedag var {dato}
-hvilken ugedag vil det være på {dato}
-hvilken ugedag {dato} er
-hvilken ugedag {dato} var
-kan du fortælle mig hvilken dag {dato} er
-kan du fortælle mig hvilken dag {dato} var
-kan du fortælle mig hvilken hverdag {dato} er
-kan du fortælle mig hvilken hverdag {dato} var
-kan du fortælle mig hvilken ugedag {dato} er
-kan du fortælle mig hvilken ugedag {dato} var
-kan du fortælle mig ugedagen for {dato}
-på hvad dag er {dato}
-på hvad dag var {dato}
-på hvad dag vil det være på {dato}
-på hvad hverdag er {dato}
-på hvad hverdag var {dato}
-på hvad hverdag vil det være på {dato}
-på hvad ugedag er {dato}
-på hvad ugedag var {dato}
-på hvad ugedag vil det være på {dato}
-på hvilken dag er {dato}
-på hvilken dag falder {dato} på
-på hvilken dag i ugen falder {dato} på
-på hvilken dag var {dato}
-på hvilken dag vil det være på {dato}
-på hvilken hverdag er {dato}
-på hvilken hverdag falder {dato} på
-på hvilken hverdag var {dato}
-på hvilken hverdag vil det være på {dato}
-på hvilken ugedag er {dato}
-på hvilken ugedag var {dato}
-på hvilken ugedag vil det være på {dato}
-var {dato}  en fredag
-var {dato}  en lørdag
-var {dato}  en mandag
-var {dato}  en onsdag
-var {dato}  en søndag
-var {dato}  en tirsdag
-var {dato}  en torsdag
-var {dato} på en fredag
-var {dato} på en lørdag
-var {dato} på en mandag
-var {dato} på en onsdag
-var {dato} på en søndag
-var {dato} på en tirsdag
-var {dato} på en torsdag
-ved du ugedagen for {dato}
-ved du vide hvad dag {dato} er
-ved du vide hvad dag {dato} var
-ved du vide hvad hverdag {dato} er
-ved du vide hvad hverdag {dato} var
-ved du vide hvad ugedag {dato} er
-ved du vide hvad ugedag {dato} var
-ved du vide hvilken dag {dato} er
-ved du vide hvilken dag {dato} var
-ved du vide hvilken hverdag {dato} er
-ved du vide hvilken hverdag {dato} var
-ved du vide hvilken ugedag {dato} er
-ved du vide hvilken ugedag {dato} var
+Jeg vil gerne vide hvad dag {date} er
+Jeg vil gerne vide hvad dag {date} var
+Jeg vil gerne vide hvad hverdag {date} er
+Jeg vil gerne vide hvad hverdag {date} var
+Jeg vil gerne vide hvad ugedag {date} er
+Jeg vil gerne vide hvad ugedag {date} var
+Jeg vil gerne vide hvilken dag {date} er
+Jeg vil gerne vide hvilken dag {date} var
+Jeg vil gerne vide hvilken hverdag {date} er
+Jeg vil gerne vide hvilken hverdag {date} var
+Jeg vil gerne vide hvilken ugedag {date} er
+Jeg vil gerne vide hvilken ugedag {date} var
+er {date}  en fredag
+er {date}  en lørdag
+er {date}  en mandag
+er {date}  en onsdag
+er {date}  en søndag
+er {date}  en tirsdag
+er {date}  en torsdag
+er {date} på en fredag
+er {date} på en lørdag
+er {date} på en mandag
+er {date} på en onsdag
+er {date} på en søndag
+er {date} på en tirsdag
+er {date} på en torsdag
+fortælle mig hvilken dag {date} er
+fortælle mig hvilken dag {date} var
+fortælle mig hvilken hverdag {date} er
+fortælle mig hvilken hverdag {date} var
+fortælle mig hvilken ugedag {date} er
+fortælle mig hvilken ugedag {date} var
+fortælle mig ugedagen for {date}
+hvad dag er {date}
+hvad dag var {date}
+hvad dag vil det være på {date}
+hvad dag {date} er
+hvad dag {date} var
+hvad hverdag er {date}
+hvad hverdag var {date}
+hvad hverdag vil det være på {date}
+hvad hverdag {date} er
+hvad hverdag {date} var
+hvad ugedag er {date}
+hvad ugedag var {date}
+hvad ugedag vil det være på {date}
+hvad ugedag {date} er
+hvad ugedag {date} var
+hvilken dag er {date}
+hvilken dag falder {date} på
+hvilken dag i ugen falder {date} på
+hvilken dag var {date}
+hvilken dag vil det være på {date}
+hvilken dag {date} er
+hvilken dag {date} var
+hvilken hverdag er {date}
+hvilken hverdag falder {date} på
+hvilken hverdag var {date}
+hvilken hverdag vil det være på {date}
+hvilken hverdag {date} er
+hvilken hverdag {date} var
+hvilken ugedag er {date}
+hvilken ugedag var {date}
+hvilken ugedag vil det være på {date}
+hvilken ugedag {date} er
+hvilken ugedag {date} var
+kan du fortælle mig hvilken dag {date} er
+kan du fortælle mig hvilken dag {date} var
+kan du fortælle mig hvilken hverdag {date} er
+kan du fortælle mig hvilken hverdag {date} var
+kan du fortælle mig hvilken ugedag {date} er
+kan du fortælle mig hvilken ugedag {date} var
+kan du fortælle mig ugedagen for {date}
+på hvad dag er {date}
+på hvad dag var {date}
+på hvad dag vil det være på {date}
+på hvad hverdag er {date}
+på hvad hverdag var {date}
+på hvad hverdag vil det være på {date}
+på hvad ugedag er {date}
+på hvad ugedag var {date}
+på hvad ugedag vil det være på {date}
+på hvilken dag er {date}
+på hvilken dag falder {date} på
+på hvilken dag i ugen falder {date} på
+på hvilken dag var {date}
+på hvilken dag vil det være på {date}
+på hvilken hverdag er {date}
+på hvilken hverdag falder {date} på
+på hvilken hverdag var {date}
+på hvilken hverdag vil det være på {date}
+på hvilken ugedag er {date}
+på hvilken ugedag var {date}
+på hvilken ugedag vil det være på {date}
+var {date}  en fredag
+var {date}  en lørdag
+var {date}  en mandag
+var {date}  en onsdag
+var {date}  en søndag
+var {date}  en tirsdag
+var {date}  en torsdag
+var {date} på en fredag
+var {date} på en lørdag
+var {date} på en mandag
+var {date} på en onsdag
+var {date} på en søndag
+var {date} på en tirsdag
+var {date} på en torsdag
+ved du ugedagen for {date}
+ved du vide hvad dag {date} er
+ved du vide hvad dag {date} var
+ved du vide hvad hverdag {date} er
+ved du vide hvad hverdag {date} var
+ved du vide hvad ugedag {date} er
+ved du vide hvad ugedag {date} var
+ved du vide hvilken dag {date} er
+ved du vide hvilken dag {date} var
+ved du vide hvilken hverdag {date} er
+ved du vide hvilken hverdag {date} var
+ved du vide hvilken ugedag {date} er
+ved du vide hvilken ugedag {date} var

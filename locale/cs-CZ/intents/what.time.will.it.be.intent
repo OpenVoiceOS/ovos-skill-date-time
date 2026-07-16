@@ -250,24 +250,24 @@ jaký je čas za {offset} sekundy
 jaký je čas za {offset} sekundy  v {location}
 jaký je čas za {offset} sekundy od teď
 jaký je čas za {offset} sekundy od teď v {location}
-jaký čas  v {location}  {offset} hodin
-jaký čas  v {location}  {offset} hodin od teď
-jaký čas  v {location}  {offset} hodinu
-jaký čas  v {location}  {offset} hodinu od teď
-jaký čas  v {location}  {offset} hodiny
-jaký čas  v {location}  {offset} hodiny od teď
-jaký čas  v {location}  {offset} minut
-jaký čas  v {location}  {offset} minut od teď
-jaký čas  v {location}  {offset} minutu
-jaký čas  v {location}  {offset} minutu od teď
-jaký čas  v {location}  {offset} minuty
-jaký čas  v {location}  {offset} minuty od teď
-jaký čas  v {location}  {offset} sekund
-jaký čas  v {location}  {offset} sekund od teď
-jaký čas  v {location}  {offset} sekundu
-jaký čas  v {location}  {offset} sekundu od teď
-jaký čas  v {location}  {offset} sekundy
-jaký čas  v {location}  {offset} sekundy od teď
+jaký čas  v {location} za {offset} hodin
+jaký čas  v {location} za {offset} hodin od teď
+jaký čas  v {location} za {offset} hodinu
+jaký čas  v {location} za {offset} hodinu od teď
+jaký čas  v {location} za {offset} hodiny
+jaký čas  v {location} za {offset} hodiny od teď
+jaký čas  v {location} za {offset} minut
+jaký čas  v {location} za {offset} minut od teď
+jaký čas  v {location} za {offset} minutu
+jaký čas  v {location} za {offset} minutu od teď
+jaký čas  v {location} za {offset} minuty
+jaký čas  v {location} za {offset} minuty od teď
+jaký čas  v {location} za {offset} sekund
+jaký čas  v {location} za {offset} sekund od teď
+jaký čas  v {location} za {offset} sekundu
+jaký čas  v {location} za {offset} sekundu od teď
+jaký čas  v {location} za {offset} sekundy
+jaký čas  v {location} za {offset} sekundy od teď
 jaký čas  v {location} za {offset} hodin
 jaký čas  v {location} za {offset} hodin od teď
 jaký čas  v {location} za {offset} hodinu
@@ -322,24 +322,24 @@ jaký čas bude  {offset} sekundy
 jaký čas bude  {offset} sekundy  v {location}
 jaký čas bude  {offset} sekundy od teď
 jaký čas bude  {offset} sekundy od teď v {location}
-jaký čas bude v {location}  {offset} hodin
-jaký čas bude v {location}  {offset} hodin od teď
-jaký čas bude v {location}  {offset} hodinu
-jaký čas bude v {location}  {offset} hodinu od teď
-jaký čas bude v {location}  {offset} hodiny
-jaký čas bude v {location}  {offset} hodiny od teď
-jaký čas bude v {location}  {offset} minut
-jaký čas bude v {location}  {offset} minut od teď
-jaký čas bude v {location}  {offset} minutu
-jaký čas bude v {location}  {offset} minutu od teď
-jaký čas bude v {location}  {offset} minuty
-jaký čas bude v {location}  {offset} minuty od teď
-jaký čas bude v {location}  {offset} sekund
-jaký čas bude v {location}  {offset} sekund od teď
-jaký čas bude v {location}  {offset} sekundu
-jaký čas bude v {location}  {offset} sekundu od teď
-jaký čas bude v {location}  {offset} sekundy
-jaký čas bude v {location}  {offset} sekundy od teď
+jaký čas bude v {location} za {offset} hodin
+jaký čas bude v {location} za {offset} hodin od teď
+jaký čas bude v {location} za {offset} hodinu
+jaký čas bude v {location} za {offset} hodinu od teď
+jaký čas bude v {location} za {offset} hodiny
+jaký čas bude v {location} za {offset} hodiny od teď
+jaký čas bude v {location} za {offset} minut
+jaký čas bude v {location} za {offset} minut od teď
+jaký čas bude v {location} za {offset} minutu
+jaký čas bude v {location} za {offset} minutu od teď
+jaký čas bude v {location} za {offset} minuty
+jaký čas bude v {location} za {offset} minuty od teď
+jaký čas bude v {location} za {offset} sekund
+jaký čas bude v {location} za {offset} sekund od teď
+jaký čas bude v {location} za {offset} sekundu
+jaký čas bude v {location} za {offset} sekundu od teď
+jaký čas bude v {location} za {offset} sekundy
+jaký čas bude v {location} za {offset} sekundy od teď
 jaký čas bude v {location} za {offset} hodin
 jaký čas bude v {location} za {offset} hodin od teď
 jaký čas bude v {location} za {offset} hodinu
@@ -412,24 +412,6 @@ kdy bude {offset} sekundu  v {location}
 kdy bude {offset} sekundu od teď v {location}
 kdy bude {offset} sekundy  v {location}
 kdy bude {offset} sekundy od teď v {location}
-kdy bude {offset} {offset} hodin
-kdy bude {offset} {offset} hodin od teď
-kdy bude {offset} {offset} hodinu
-kdy bude {offset} {offset} hodinu od teď
-kdy bude {offset} {offset} hodiny
-kdy bude {offset} {offset} hodiny od teď
-kdy bude {offset} {offset} minut
-kdy bude {offset} {offset} minut od teď
-kdy bude {offset} {offset} minutu
-kdy bude {offset} {offset} minutu od teď
-kdy bude {offset} {offset} minuty
-kdy bude {offset} {offset} minuty od teď
-kdy bude {offset} {offset} sekund
-kdy bude {offset} {offset} sekund od teď
-kdy bude {offset} {offset} sekundu
-kdy bude {offset} {offset} sekundu od teď
-kdy bude {offset} {offset} sekundy
-kdy bude {offset} {offset} sekundy od teď
 kdy je {offset} hodin  v {location}
 kdy je {offset} hodin od teď v {location}
 kdy je {offset} hodinu  v {location}
@@ -448,42 +430,6 @@ kdy je {offset} sekundu  v {location}
 kdy je {offset} sekundu od teď v {location}
 kdy je {offset} sekundy  v {location}
 kdy je {offset} sekundy od teď v {location}
-kdy je {offset} {offset} hodin
-kdy je {offset} {offset} hodin od teď
-kdy je {offset} {offset} hodinu
-kdy je {offset} {offset} hodinu od teď
-kdy je {offset} {offset} hodiny
-kdy je {offset} {offset} hodiny od teď
-kdy je {offset} {offset} minut
-kdy je {offset} {offset} minut od teď
-kdy je {offset} {offset} minutu
-kdy je {offset} {offset} minutu od teď
-kdy je {offset} {offset} minuty
-kdy je {offset} {offset} minuty od teď
-kdy je {offset} {offset} sekund
-kdy je {offset} {offset} sekund od teď
-kdy je {offset} {offset} sekundu
-kdy je {offset} {offset} sekundu od teď
-kdy je {offset} {offset} sekundy
-kdy je {offset} {offset} sekundy od teď
-kolik hodin  v {location}  {offset} hodin
-kolik hodin  v {location}  {offset} hodin od teď
-kolik hodin  v {location}  {offset} hodinu
-kolik hodin  v {location}  {offset} hodinu od teď
-kolik hodin  v {location}  {offset} hodiny
-kolik hodin  v {location}  {offset} hodiny od teď
-kolik hodin  v {location}  {offset} minut
-kolik hodin  v {location}  {offset} minut od teď
-kolik hodin  v {location}  {offset} minutu
-kolik hodin  v {location}  {offset} minutu od teď
-kolik hodin  v {location}  {offset} minuty
-kolik hodin  v {location}  {offset} minuty od teď
-kolik hodin  v {location}  {offset} sekund
-kolik hodin  v {location}  {offset} sekund od teď
-kolik hodin  v {location}  {offset} sekundu
-kolik hodin  v {location}  {offset} sekundu od teď
-kolik hodin  v {location}  {offset} sekundy
-kolik hodin  v {location}  {offset} sekundy od teď
 kolik hodin  v {location} za {offset} hodin
 kolik hodin  v {location} za {offset} hodin od teď
 kolik hodin  v {location} za {offset} hodinu
@@ -502,24 +448,42 @@ kolik hodin  v {location} za {offset} sekundu
 kolik hodin  v {location} za {offset} sekundu od teď
 kolik hodin  v {location} za {offset} sekundy
 kolik hodin  v {location} za {offset} sekundy od teď
-kolik hodin bude v {location}  {offset} hodin
-kolik hodin bude v {location}  {offset} hodin od teď
-kolik hodin bude v {location}  {offset} hodinu
-kolik hodin bude v {location}  {offset} hodinu od teď
-kolik hodin bude v {location}  {offset} hodiny
-kolik hodin bude v {location}  {offset} hodiny od teď
-kolik hodin bude v {location}  {offset} minut
-kolik hodin bude v {location}  {offset} minut od teď
-kolik hodin bude v {location}  {offset} minutu
-kolik hodin bude v {location}  {offset} minutu od teď
-kolik hodin bude v {location}  {offset} minuty
-kolik hodin bude v {location}  {offset} minuty od teď
-kolik hodin bude v {location}  {offset} sekund
-kolik hodin bude v {location}  {offset} sekund od teď
-kolik hodin bude v {location}  {offset} sekundu
-kolik hodin bude v {location}  {offset} sekundu od teď
-kolik hodin bude v {location}  {offset} sekundy
-kolik hodin bude v {location}  {offset} sekundy od teď
+kolik hodin  v {location} za {offset} hodin
+kolik hodin  v {location} za {offset} hodin od teď
+kolik hodin  v {location} za {offset} hodinu
+kolik hodin  v {location} za {offset} hodinu od teď
+kolik hodin  v {location} za {offset} hodiny
+kolik hodin  v {location} za {offset} hodiny od teď
+kolik hodin  v {location} za {offset} minut
+kolik hodin  v {location} za {offset} minut od teď
+kolik hodin  v {location} za {offset} minutu
+kolik hodin  v {location} za {offset} minutu od teď
+kolik hodin  v {location} za {offset} minuty
+kolik hodin  v {location} za {offset} minuty od teď
+kolik hodin  v {location} za {offset} sekund
+kolik hodin  v {location} za {offset} sekund od teď
+kolik hodin  v {location} za {offset} sekundu
+kolik hodin  v {location} za {offset} sekundu od teď
+kolik hodin  v {location} za {offset} sekundy
+kolik hodin  v {location} za {offset} sekundy od teď
+kolik hodin bude v {location} za {offset} hodin
+kolik hodin bude v {location} za {offset} hodin od teď
+kolik hodin bude v {location} za {offset} hodinu
+kolik hodin bude v {location} za {offset} hodinu od teď
+kolik hodin bude v {location} za {offset} hodiny
+kolik hodin bude v {location} za {offset} hodiny od teď
+kolik hodin bude v {location} za {offset} minut
+kolik hodin bude v {location} za {offset} minut od teď
+kolik hodin bude v {location} za {offset} minutu
+kolik hodin bude v {location} za {offset} minutu od teď
+kolik hodin bude v {location} za {offset} minuty
+kolik hodin bude v {location} za {offset} minuty od teď
+kolik hodin bude v {location} za {offset} sekund
+kolik hodin bude v {location} za {offset} sekund od teď
+kolik hodin bude v {location} za {offset} sekundu
+kolik hodin bude v {location} za {offset} sekundu od teď
+kolik hodin bude v {location} za {offset} sekundy
+kolik hodin bude v {location} za {offset} sekundy od teď
 kolik hodin bude v {location} za {offset} hodin
 kolik hodin bude v {location} za {offset} hodin od teď
 kolik hodin bude v {location} za {offset} hodinu

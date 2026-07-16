@@ -6,24 +6,24 @@ Eu gostaria de saber que dia da semana era {date}
 Eu gostaria de saber que dia da semana é {date}
 Eu gostaria de saber que dia era {date}
 Eu gostaria de saber que dia é {date}
-em qual dia da semana era {data}
+em qual dia da semana era {date}
 em qual dia da semana foi o {date}
 em qual dia da semana será o {date}
 em qual dia da semana {date} cai
-em qual dia da semana é {data}
-em qual dia era {data}
+em qual dia da semana é {date}
+em qual dia era {date}
 em qual dia foi o {date}
 em qual dia será o {date}
 em qual dia {date} cai
-em qual dia é {data}
-em que dia da semana era {data}
+em qual dia é {date}
+em que dia da semana era {date}
 em que dia da semana foi o {date}
 em que dia da semana será o {date}
-em que dia da semana é {data}
-em que dia era {data}
+em que dia da semana é {date}
+em que dia era {date}
 em que dia foi o {date}
 em que dia será o {date}
-em que dia é {data}
+em que dia é {date}
 era {date}  uma domingo
 era {date}  uma quarta-feira
 era {date}  uma quinta-feira
@@ -43,32 +43,32 @@ pode me dizer qual dia da semana era o {date}
 pode me dizer qual dia da semana é o {date}
 pode me dizer qual dia era o {date}
 pode me dizer qual dia é o {date}
-qual dia da semana era {data}
+qual dia da semana era {date}
 qual dia da semana era {date}
 qual dia da semana foi o {date}
 qual dia da semana será o {date}
 qual dia da semana {date} cai
-qual dia da semana é {data}
 qual dia da semana é {date}
-qual dia era {data}
+qual dia da semana é {date}
+qual dia era {date}
 qual dia era {date}
 qual dia foi o {date}
 qual dia será o {date}
 qual dia {date} cai
-qual dia é {data}
+qual dia é {date}
 qual dia é {date}
 qual é o dia da semana para {date}
-que dia da semana era {data}
+que dia da semana era {date}
 que dia da semana era {date}
 que dia da semana foi o {date}
 que dia da semana será o {date}
-que dia da semana é {data}
 que dia da semana é {date}
-que dia era {data}
+que dia da semana é {date}
+que dia era {date}
 que dia era {date}
 que dia foi o {date}
 que dia será o {date}
-que dia é {data}
+que dia é {date}
 que dia é {date}
 você sabe o dia da semana para {date}
 você sabe qual dia da semana era {date}

@@ -84,7 +84,7 @@ setup(
     packages=[SKILL_PKG],
     include_package_data=True,
     install_requires=get_requirements("requirements.txt"),
-    extras_require={'test': ['ovoscope>=1.5.0a1', 'padacioso>=1.1.1a1']},
+    extras_require={'test': ['ovoscope>=1.5.0a1', 'padacioso>=1.1.1a1', 'ovos-spec-tools>=1.5.0a1']},
     keywords='ovos skill plugin',
     entry_points={'ovos.plugin.skill': PLUGIN_ENTRY_POINT}
 )

@@ -1,23 +1,23 @@
-Ich möchte was Tag {Datum} ist
-Ich möchte was Tag {Datum} war
-Ich möchte was Wochentag {Datum} ist
-Ich möchte was Wochentag {Datum} war
-Ich möchte welcher Tag {Datum} ist
-Ich möchte welcher Tag {Datum} war
-Ich möchte welcher Wochentag {Datum} ist
-Ich möchte welcher Wochentag {Datum} war
-an was Tag ist {Datum}
-an was Tag war {Datum}
-an was Tag wird es sein an {Datum}
-an was Wochentag ist {Datum}
-an was Wochentag war {Datum}
-an was Wochentag wird es sein an {Datum}
-an welchem Tag ist {Datum}
-an welchem Tag war {Datum}
-an welchem Tag wird es sein an {Datum}
-an welchem Wochentag ist {Datum}
-an welchem Wochentag war {Datum}
-an welchem Wochentag wird es sein an {Datum}
+Ich möchte was Tag {date} ist
+Ich möchte was Tag {date} war
+Ich möchte was Wochentag {date} ist
+Ich möchte was Wochentag {date} war
+Ich möchte welcher Tag {date} ist
+Ich möchte welcher Tag {date} war
+Ich möchte welcher Wochentag {date} ist
+Ich möchte welcher Wochentag {date} war
+an was Tag ist {date}
+an was Tag war {date}
+an was Tag wird es sein an {date}
+an was Wochentag ist {date}
+an was Wochentag war {date}
+an was Wochentag wird es sein an {date}
+an welchem Tag ist {date}
+an welchem Tag war {date}
+an welchem Tag wird es sein an {date}
+an welchem Wochentag ist {date}
+an welchem Wochentag war {date}
+an welchem Wochentag wird es sein an {date}
 auf welchen Tag fällt der{date}
 auf welchen Tag fällt {date}
 auf welchen Wochentag fällt der{date}
@@ -37,15 +37,15 @@ ist {date} an einem Montag
 ist {date} an einem Samstag
 ist {date} an einem Sonntag
 kannst du mir sagen den Wochentag für {date}
-kannst du mir sagen, welcher Tag {Datum} ist
-kannst du mir sagen, welcher Tag {Datum} war
-kannst du mir sagen, welcher Wochentag {Datum} ist
-kannst du mir sagen, welcher Wochentag {Datum} war
+kannst du mir sagen, welcher Tag {date} ist
+kannst du mir sagen, welcher Tag {date} war
+kannst du mir sagen, welcher Wochentag {date} ist
+kannst du mir sagen, welcher Wochentag {date} war
 mir sagen den Wochentag für {date}
-mir sagen, welcher Tag {Datum} ist
-mir sagen, welcher Tag {Datum} war
-mir sagen, welcher Wochentag {Datum} ist
-mir sagen, welcher Wochentag {Datum} war
+mir sagen, welcher Tag {date} ist
+mir sagen, welcher Tag {date} war
+mir sagen, welcher Wochentag {date} ist
+mir sagen, welcher Wochentag {date} war
 war {date}  einem Dienstag
 war {date}  einem Donnerstag
 war {date}  einem Freitag
@@ -60,39 +60,39 @@ war {date} an einem Mittwoch
 war {date} an einem Montag
 war {date} an einem Samstag
 war {date} an einem Sonntag
-was Tag ist {Datum}
-was Tag war {Datum}
-was Tag wird es sein an {Datum}
-was Tag {Datum} ist
-was Tag {Datum} war
-was Wochentag ist {Datum}
-was Wochentag war {Datum}
-was Wochentag wird es sein an {Datum}
-was Wochentag {Datum} ist
-was Wochentag {Datum} war
+was Tag ist {date}
+was Tag war {date}
+was Tag wird es sein an {date}
+was Tag {date} ist
+was Tag {date} war
+was Wochentag ist {date}
+was Wochentag war {date}
+was Wochentag wird es sein an {date}
+was Wochentag {date} ist
+was Wochentag {date} war
 was ist der Wochentag für {date}
 weißt du den Wochentag für {date}
-weißt du was Tag {Datum} ist
-weißt du was Tag {Datum} war
-weißt du was Wochentag {Datum} ist
-weißt du was Wochentag {Datum} war
-weißt du welcher Tag {Datum} ist
-weißt du welcher Tag {Datum} war
-weißt du welcher Wochentag {Datum} ist
-weißt du welcher Wochentag {Datum} war
-welchem Tag ist {Datum}
-welchem Tag war {Datum}
-welchem Tag wird es sein an {Datum}
-welchem Wochentag ist {Datum}
-welchem Wochentag war {Datum}
-welchem Wochentag wird es sein an {Datum}
+weißt du was Tag {date} ist
+weißt du was Tag {date} war
+weißt du was Wochentag {date} ist
+weißt du was Wochentag {date} war
+weißt du welcher Tag {date} ist
+weißt du welcher Tag {date} war
+weißt du welcher Wochentag {date} ist
+weißt du welcher Wochentag {date} war
+welchem Tag ist {date}
+welchem Tag war {date}
+welchem Tag wird es sein an {date}
+welchem Wochentag ist {date}
+welchem Wochentag war {date}
+welchem Wochentag wird es sein an {date}
 welchen Tag fällt der{date}
 welchen Tag fällt {date}
 welchen Wochentag fällt der{date}
 welchen Wochentag fällt {date}
-welcher Tag {Datum} ist
-welcher Tag {Datum} war
-welcher Wochentag ist {Datum}
-welcher Wochentag war {Datum}
-welcher Wochentag {Datum} ist
-welcher Wochentag {Datum} war
+welcher Tag {date} ist
+welcher Tag {date} war
+welcher Wochentag ist {date}
+welcher Wochentag war {date}
+welcher Wochentag {date} ist
+welcher Wochentag {date} war

@@ -6,14 +6,14 @@ dime o día da semana do {date}
 dime o día da semana para o {date}
 dime o día de semana do {date}
 dime o día de semana para o {date}
-dime que día da semana foi  {data}
-dime que día da semana foi o {data}
-dime que día da semana é  {data}
-dime que día da semana é o {data}
-dime que día de semana foi  {data}
-dime que día de semana foi o {data}
-dime que día de semana é  {data}
-dime que día de semana é o {data}
+dime que día da semana foi  {date}
+dime que día da semana foi o {date}
+dime que día da semana é  {date}
+dime que día da semana é o {date}
+dime que día de semana foi  {date}
+dime que día de semana foi o {date}
+dime que día de semana é  {date}
+dime que día de semana é o {date}
 en que día da semana cae  {date}
 en que día da semana cae o {date}
 en que día de semana cae  {date}
@@ -50,58 +50,58 @@ pódesme dicir o día da semana do {date}
 pódesme dicir o día da semana para o {date}
 pódesme dicir o día de semana do {date}
 pódesme dicir o día de semana para o {date}
-pódesme dicir que día da semana foi  {data}
-pódesme dicir que día da semana foi o {data}
-pódesme dicir que día da semana é  {data}
-pódesme dicir que día da semana é o {data}
-pódesme dicir que día de semana foi  {data}
-pódesme dicir que día de semana foi o {data}
-pódesme dicir que día de semana é  {data}
-pódesme dicir que día de semana é o {data}
+pódesme dicir que día da semana foi  {date}
+pódesme dicir que día da semana foi o {date}
+pódesme dicir que día da semana é  {date}
+pódesme dicir que día da semana é o {date}
+pódesme dicir que día de semana foi  {date}
+pódesme dicir que día de semana foi o {date}
+pódesme dicir que día de semana é  {date}
+pódesme dicir que día de semana é o {date}
 que día da semana era  {date}
 que día da semana era o {date}
-que día da semana foi  {data}
 que día da semana foi  {date}
-que día da semana foi o {data}
+que día da semana foi  {date}
+que día da semana foi o {date}
 que día da semana foi o {date}
 que día da semana vai ser  {date}
 que día da semana vai ser o {date}
-que día da semana é  {data}
 que día da semana é  {date}
-que día da semana é o {data}
+que día da semana é  {date}
+que día da semana é o {date}
 que día da semana é o {date}
 que día de semana era  {date}
 que día de semana era o {date}
-que día de semana foi  {data}
 que día de semana foi  {date}
-que día de semana foi o {data}
+que día de semana foi  {date}
+que día de semana foi o {date}
 que día de semana foi o {date}
 que día de semana vai ser  {date}
 que día de semana vai ser o {date}
-que día de semana é  {data}
 que día de semana é  {date}
-que día de semana é o {data}
+que día de semana é  {date}
 que día de semana é o {date}
-quero saber que día da semana foi  {data}
-quero saber que día da semana foi o {data}
-quero saber que día da semana é  {data}
-quero saber que día da semana é o {data}
-quero saber que día de semana foi  {data}
-quero saber que día de semana foi o {data}
-quero saber que día de semana é  {data}
-quero saber que día de semana é o {data}
+que día de semana é o {date}
+quero saber que día da semana foi  {date}
+quero saber que día da semana foi o {date}
+quero saber que día da semana é  {date}
+quero saber que día da semana é o {date}
+quero saber que día de semana foi  {date}
+quero saber que día de semana foi o {date}
+quero saber que día de semana é  {date}
+quero saber que día de semana é o {date}
 sabes o día da semana do {date}
 sabes o día da semana para o {date}
 sabes o día de semana do {date}
 sabes o día de semana para o {date}
-sabes que día da semana foi  {data}
-sabes que día da semana foi o {data}
-sabes que día da semana é  {data}
-sabes que día da semana é o {data}
-sabes que día de semana foi  {data}
-sabes que día de semana foi o {data}
-sabes que día de semana é  {data}
-sabes que día de semana é o {data}
+sabes que día da semana foi  {date}
+sabes que día da semana foi o {date}
+sabes que día da semana é  {date}
+sabes que día da semana é o {date}
+sabes que día de semana foi  {date}
+sabes que día de semana foi o {date}
+sabes que día de semana é  {date}
+sabes que día de semana é o {date}
 {date} foi  domingo
 {date} foi  luns
 {date} foi  martes

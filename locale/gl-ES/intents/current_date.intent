@@ -12,7 +12,7 @@ cal día, mes e ano é en {location}
 cal día, mes e ano é hoxe
 cal é a data completa
 cal é a data completa actual
-cal é a data completa actual en {localización}
+cal é a data completa actual en {location}
 cal é a data completa con ano de
 cal é a data completa con ano de en {location}
 cal é a data completa con ano de hoxe
@@ -22,12 +22,12 @@ cal é a data completa con ano é hoxe
 cal é a data completa de
 cal é a data completa de en {location}
 cal é a data completa de hoxe
-cal é a data completa de hoxe en {localización}
+cal é a data completa de hoxe en {location}
 cal é a data completa de hoxe, incluíndo o ano
 cal é a data completa en {location}
 cal é a data completa hoxe
 cal é a data completa neste momento
-cal é a data completa neste momento en {localización}
+cal é a data completa neste momento en {location}
 cal é a data completa é
 cal é a data completa é en {location}
 cal é a data completa é hoxe
@@ -59,8 +59,8 @@ dime a data completa de hoxe
 dime a data de hoxe
 dime a data de hoxe en {location}
 dime a data do calendario
-dime a data do calendario en {localización}
-dime a data en {localización}
+dime a data do calendario en {location}
+dime a data en {location}
 dime o día e mes
 dime o día, mes e ano
 dáme a data
@@ -68,12 +68,12 @@ dáme a data completa
 dáme a data completa de hoxe
 dáme a data completa de hoxe en {location}
 dáme a data do calendario
-dáme a data do calendario en {localización}
-dáme a data en {localización}
+dáme a data do calendario en {location}
+dáme a data en {location}
 móstrame a data
 móstrame a data do calendario
-móstrame a data do calendario en {localización}
-móstrame a data en {localización}
+móstrame a data do calendario en {location}
+móstrame a data en {location}
 necesito saber a data
 necesito saber a data en {location}
 necesito saber a data hoxe
