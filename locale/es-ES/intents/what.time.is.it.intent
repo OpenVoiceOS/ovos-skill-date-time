@@ -118,8 +118,8 @@ tiempo correcto ahora en {location}
 ¿tienes? la hora actual en {location}
 ¿ya es mañana ?
 ¿ya es mañana en {location}?
-¿ya es mediodía|medianoche|la una|las dos|las tres|las cuatro|las cinco|las seis|las siete|las ocho|las nueve|las diez|las once|las doce)
-¿ya es mediodía|medianoche|la una|las dos|las tres|las cuatro|las cinco|las seis|las siete|las ocho|las nueve|las diez|las once|las doce) en {location}?
+¿ya es (mediodía|medianoche|la una|las dos|las tres|las cuatro|las cinco|las seis|las siete|las ocho|las nueve|las diez|las once|las doce)
+¿ya es (mediodía|medianoche|la una|las dos|las tres|las cuatro|las cinco|las seis|las siete|las ocho|las nueve|las diez|las once|las doce) en {location}?
 ¿ya es noche ?
 ¿ya es noche en {location}?
 ¿ya es tarde ?

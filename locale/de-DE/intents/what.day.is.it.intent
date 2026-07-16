@@ -15,7 +15,7 @@ was ist der Tag des Monats heute
 was ist der Tag des Monats in {location}
 welcher Tag  ist es
 welcher Tag  ist es heute
-welcher Tag  ist es in {Ort}
+welcher Tag  ist es in {location}
 welcher Tag  ist heute
 welcher Tag  ist heute
 Was für ein Tag ist heute
@@ -27,7 +27,7 @@ welcher Tag  ist in {location}
 Was für ein Tag ist in {location}
 welcher Tag des Kalenders ist es
 welcher Tag des Kalenders ist es heute
-welcher Tag des Kalenders ist es in {Ort}
+welcher Tag des Kalenders ist es in {location}
 welcher Tag des Kalenders ist heute
 welcher Tag des Kalenders ist heute
 Was für ein Tag ist heute
@@ -39,7 +39,7 @@ welcher Tag des Kalenders ist in {location}
 Was für ein Tag ist in {location}
 welcher Tag des Monats ist es
 welcher Tag des Monats ist es heute
-welcher Tag des Monats ist es in {Ort}
+welcher Tag des Monats ist es in {location}
 welcher Tag des Monats ist heute
 welcher Tag des Monats ist heute
 Was für ein Tag ist heute

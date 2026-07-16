@@ -1,47 +1,47 @@
 in wie vielen Tagen ist {date}
-wann  ist {Datum}
-wann  wird es sein {Datum}
-wann genau ist {Datum}
-wann genau wird es sein {Datum}
-wann ist das letzte {Datum}
-wann ist das nächste {Datum}
-wann ist das vorherige {Datum}
-wann ist {Datum}
-wann war das letzte {Datum}
-wann war das nächste {Datum}
-wann war das vorherige {Datum}
-wann war {Datum}
-wie lange bleibt bis {Datum}
-wie lange bleibt vor {Datum}
-wie lange haben wir bis {Datum}
-wie lange haben wir vor {Datum}
+wann  ist {date}
+wann  wird es sein {date}
+wann genau ist {date}
+wann genau wird es sein {date}
+wann ist das letzte {date}
+wann ist das nächste {date}
+wann ist das vorherige {date}
+wann ist {date}
+wann war das letzte {date}
+wann war das nächste {date}
+wann war das vorherige {date}
+wann war {date}
+wie lange bleibt bis {date}
+wie lange bleibt vor {date}
+wie lange haben wir bis {date}
+wie lange haben wir vor {date}
 wie lange ist es bis {date}
 wie lange ist {date} her
-wie viel Zeit  bleibt  bis {Datum}
-wie viel Zeit  bleibt vor  {Datum}
-wie viel Zeit bleibt   bis {Datum}
-wie viel Zeit bleibt  vor  {Datum}
-wie viel Zeit bleibt bis {Datum}
-wie viel Zeit bleibt vor {Datum}
-wie viel Zeit haben wir bis {Datum}
-wie viel Zeit haben wir vor {Datum}
-wie viel länger bleibt bis {Datum}
-wie viel länger bleibt vor {Datum}
-wie viel länger haben wir bis {Datum}
-wie viel länger haben wir vor {Datum}
-wie viele Stunden  verbleibend bis {Datum}
-wie viele Stunden  verbleibend vor {Datum}
-wie viele Stunden sind noch  bis {Datum}
-wie viele Stunden sind noch  vor {Datum}
-wie viele Tage  verbleibend bis {Datum}
-wie viele Tage  verbleibend vor {Datum}
+wie viel Zeit  bleibt  bis {date}
+wie viel Zeit  bleibt vor  {date}
+wie viel Zeit bleibt   bis {date}
+wie viel Zeit bleibt  vor  {date}
+wie viel Zeit bleibt bis {date}
+wie viel Zeit bleibt vor {date}
+wie viel Zeit haben wir bis {date}
+wie viel Zeit haben wir vor {date}
+wie viel länger bleibt bis {date}
+wie viel länger bleibt vor {date}
+wie viel länger haben wir bis {date}
+wie viel länger haben wir vor {date}
+wie viele Stunden  verbleibend bis {date}
+wie viele Stunden  verbleibend vor {date}
+wie viele Stunden sind noch  bis {date}
+wie viele Stunden sind noch  vor {date}
+wie viele Tage  verbleibend bis {date}
+wie viele Tage  verbleibend vor {date}
 wie viele Tage ist {date} her
-wie viele Tage sind noch  bis {Datum}
-wie viele Tage sind noch  vor {Datum}
-wie viele Wochen  verbleibend bis {Datum}
-wie viele Wochen  verbleibend vor {Datum}
-wie viele Wochen sind noch  bis {Datum}
-wie viele Wochen sind noch  vor {Datum}
+wie viele Tage sind noch  bis {date}
+wie viele Tage sind noch  vor {date}
+wie viele Wochen  verbleibend bis {date}
+wie viele Wochen  verbleibend vor {date}
+wie viele Wochen sind noch  bis {date}
+wie viele Wochen sind noch  vor {date}
 wie weit ab ist {date}
 wie weit ab ist {date} von heute
 wie weit ab ist {date} von jetzt
