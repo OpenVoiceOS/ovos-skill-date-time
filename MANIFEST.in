@@ -2,4 +2,7 @@ recursive-include locale *
 recursive-include res *
 recursive-include gui *
 include *.json
-include *.txt
+include version.py
+include *.md
+global-exclude __pycache__
+global-exclude *.py[cod]
