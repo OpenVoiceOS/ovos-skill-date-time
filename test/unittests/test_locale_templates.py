@@ -14,7 +14,7 @@ from ovos_spec_tools.expansion import expand
 LOCALE_DIR = Path(join(dirname(dirname(dirname(__file__))), "locale"))
 TEMPLATE_SUFFIXES = (".intent", ".voc", ".entity")
 # slot names the intent handlers read from message.data
-CANONICAL_SLOTS = {"location", "offset", "date", "weekday"}
+CANONICAL_SLOTS = {"location", "offset", "date", "weekday", "month"}
 
 
 def iter_template_lines():

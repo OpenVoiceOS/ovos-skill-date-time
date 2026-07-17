@@ -1,0 +1,3 @@
+{month} has {num_days} days
+there are {num_days} days in {month}
+{month} is {num_days} days long

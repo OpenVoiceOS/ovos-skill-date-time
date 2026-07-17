@@ -2,8 +2,8 @@
 
 Each case feeds an utterance through a MiniCroft stack and asserts it routes
 to the expected ``.intent`` handler. Coverage spans the current-time query
-(bare and with a ``{location}`` slot) and the current-date/day/month/year
-queries.
+(bare and with a ``{location}`` slot), the current-date/day/month/year queries
+and the days-in-month query with a ``{month}`` slot.
 
 Run: pytest test/end2end/ -v
 """
@@ -111,3 +111,13 @@ class TestCurrentYear(_IntentRoutingMixin, TestCase):
 
     def test_what_year_is_it(self):
         self._assert_intent("what year is it", "what.year.is.it.intent")
+
+
+class TestDaysInMonth(_IntentRoutingMixin, TestCase):
+    """days_in_month.intent"""
+
+    def test_how_many_days_in_february(self):
+        self._assert_intent("how many days in february", "days_in_month.intent")
+
+    def test_how_many_days_does_march_have(self):
+        self._assert_intent("how many days does march have", "days_in_month.intent")
