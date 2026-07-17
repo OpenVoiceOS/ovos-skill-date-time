@@ -1,5 +1,0 @@
-{
-    "location.rx": [
-        "\\b(em|dentro|para) (?P<Location>.*)"
-    ]
-}
