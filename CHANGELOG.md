@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.13a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.13a1) (2026-07-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.12a1...1.1.13a1)
+
+**Merged pull requests:**
+
+- fix: rename entry-point group to opm.skill [\#253](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/253) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [1.1.12a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.12a1) (2026-07-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.11a3...1.1.12a1)
@@ -520,10 +528,6 @@
 ## [0.4.16](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.16) (2025-04-11)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.16a1...0.4.16)
-
-**Merged pull requests:**
-
-- Release 0.4.16a1 [\#125](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/125) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [0.4.16a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.16a1) (2025-04-11)
 
