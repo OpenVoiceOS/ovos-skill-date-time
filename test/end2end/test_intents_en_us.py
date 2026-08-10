@@ -26,12 +26,21 @@ PIPELINE = [
 ]
 
 
-class _IntentRoutingMixin:
-    """Shared MiniCroft setup for padacioso intent routing."""
+class TestIntentRouting(TestCase):
+    """Shared MiniCroft boot for all padacioso intent-routing checks.
+
+    All cases share ONE MiniCroft boot rather than one boot per intent
+    (as previously split across TestQueryTime/TestCurrentDate/etc.). Each
+    boot trains a full padatious/padacioso container and starts the whole
+    skill/intent-service stack, which is real CPU work; a CI runner with a
+    handful of these booting concurrently or back-to-back can blow past any
+    reasonable per-test deadline. Merging into a single boot cuts that cost
+    proportionally to the number of classes removed.
+    """
 
     @classmethod
     def setUpClass(cls):
-        cls.minicroft = get_minicroft([SKILL_ID])
+        cls.minicroft = get_minicroft([SKILL_ID], max_wait=150)
 
     @classmethod
     def tearDownClass(cls):
@@ -39,7 +48,14 @@ class _IntentRoutingMixin:
             cls.minicroft.stop()
 
     def _assert_intent(self, utterance: str, intent_file: str):
-        intent_msg_type = f"{SKILL_ID}:{intent_file}"
+        # ovos_workshop.intents strips a trailing ".intent" suffix off the
+        # registered intent name before it ever reaches the bus, so the
+        # dispatched message type never carries ".intent" -- see the matching
+        # comment in test_golden_utterances.py._assert_intent for the full
+        # explanation (same bug, same fix, both files historically built
+        # this event name off the raw ".intent"-suffixed argument).
+        intent_name = intent_file[:-len(".intent")] if intent_file.endswith(".intent") else intent_file
+        intent_msg_type = f"{SKILL_ID}:{intent_name}"
         matched = []
         handler = lambda msg: matched.append(msg)
         self.minicroft.bus.on(intent_msg_type, handler)
@@ -55,7 +71,7 @@ class _IntentRoutingMixin:
             # Under parallel CI load a freshly booted minicroft may not have
             # finished registering intents when the first utterance fires, so
             # re-emit until the intent routes or the deadline elapses.
-            deadline = time.monotonic() + 30
+            deadline = time.monotonic() + 45
             while not matched and time.monotonic() < deadline:
                 self.minicroft.bus.emit(message)
                 waited = time.monotonic() + 5
@@ -69,9 +85,7 @@ class _IntentRoutingMixin:
         )
 
 
-class TestQueryTime(_IntentRoutingMixin, TestCase):
-    """what.time.is.it.intent"""
-
+    # --- what.time.is.it.intent ---
     def test_what_time_is_it(self):
         self._assert_intent("what time is it", "what.time.is.it.intent")
 
@@ -81,33 +95,21 @@ class TestQueryTime(_IntentRoutingMixin, TestCase):
     def test_what_time_is_it_in_location(self):
         self._assert_intent("current time in tokyo", "what.time.is.it.intent")
 
-
-class TestCurrentDate(_IntentRoutingMixin, TestCase):
-    """current_date.intent"""
-
+    # --- current_date.intent ---
     def test_what_date_is_it(self):
         self._assert_intent("what date is it", "current_date.intent")
 
     def test_tell_me_the_date(self):
         self._assert_intent("tell me the date", "current_date.intent")
 
-
-class TestCurrentDay(_IntentRoutingMixin, TestCase):
-    """what.day.is.it.intent"""
-
+    # --- what.day.is.it.intent ---
     def test_what_day_is_it(self):
         self._assert_intent("what day is it", "what.day.is.it.intent")
 
-
-class TestCurrentMonth(_IntentRoutingMixin, TestCase):
-    """what.month.is.it.intent"""
-
+    # --- what.month.is.it.intent ---
     def test_what_month_is_it(self):
         self._assert_intent("what month is it", "what.month.is.it.intent")
 
-
-class TestCurrentYear(_IntentRoutingMixin, TestCase):
-    """what.year.is.it.intent"""
-
+    # --- what.year.is.it.intent ---
     def test_what_year_is_it(self):
         self._assert_intent("what year is it", "what.year.is.it.intent")

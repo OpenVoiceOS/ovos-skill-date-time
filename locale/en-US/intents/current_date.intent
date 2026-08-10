@@ -25,8 +25,8 @@ give me the day and month
 give me the day, month, and year
 give me the full date
 give me the full date with year
-give me today's  date
-give me today's  date in {location}
+give me today's date
+give me today's date in {location}
 give me today's complete date
 give me today's complete date in {location}
 give me today's full date
@@ -55,11 +55,11 @@ tell me today’s date
 tell me today’s date in {location}
 tell me today’s full date
 today’s calendar date
-today’s calendar date  please
+today’s calendar date please
 today’s calendar date in {location}
 today’s calendar date in {location} please
 today’s exact date
-today’s exact date  please
+today’s exact date please
 today’s exact date in {location}
 today’s exact date in {location} please
 what date including month and year is it
@@ -85,8 +85,8 @@ what full date is it today
 what full date with year is it
 what full date with year is it in {location}
 what full date with year is it today
-what is the  date
-what is the  date in {location}
+what is the date
+what is the date in {location}
 what is the complete date
 what is the current date
 what is the current date in {location}
