@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.14a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.14a3) (2026-08-11)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.14a2...1.1.14a3)
+
+**Merged pull requests:**
+
+- test: golden-utterance e2e coverage [\#260](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/260) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [1.1.14a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.14a2) (2026-08-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.14a1...1.1.14a2)
@@ -516,7 +524,6 @@
 **Merged pull requests:**
 
 - Release 0.4.18a1 [\#131](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/131) ([github-actions[bot]](https://github.com/apps/github-actions))
-- gl/translate [\#130](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/130) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [0.4.17](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.17) (2025-05-14)
 
