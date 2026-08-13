@@ -1,6 +1,4 @@
 does {date} fall on a {weekday}
-is {date} a {weekday}
 is {date} on a {weekday}
-was {date} a {weekday}
 was {date} on a {weekday}
 will {date} be on a {weekday}
