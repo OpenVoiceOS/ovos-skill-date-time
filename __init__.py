@@ -761,7 +761,7 @@ class TimeSkill(OVOSSkill):
                                   {"year": next_year})
             else:
                 self.speak_dialog("leap.year.either.no",
-                                  {"year": get_next_leap_year(next_year + 1)})
+                                  {"year": get_next_leap_year(next_year)})
             return
 
         if scope == "next":
@@ -769,7 +769,7 @@ class TimeSkill(OVOSSkill):
                 self.speak_dialog("leap.year.next.yes", {"year": next_year})
             else:
                 self.speak_dialog("leap.year.next.no",
-                                  {"year": get_next_leap_year(next_year)})
+                                  {"year": next_year})
             return
 
         if calendar.isleap(current_year):
@@ -777,7 +777,7 @@ class TimeSkill(OVOSSkill):
                               {"year": current_year})
         else:
             self.speak_dialog("leap.year.current.no",
-                              {"year": get_next_leap_year(current_year)})
+                              {"year": current_year})
 
     ######################################################################
     # GUI / Faceplate
