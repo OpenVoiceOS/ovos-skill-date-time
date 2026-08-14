@@ -81,6 +81,11 @@ class TimeSkill(OVOSSkill):
         """
         date_time_format.cache(self.lang)
         self._schedule_hour_chime()
+        # constrain the {location}/{date}/{weekday}/{offset} slots to the
+        # values shipped in locale/*/*.entity - without this they were
+        # unconstrained wildcards accepting any garbage utterance
+        for entity in ("location", "date", "weekday", "offset"):
+            self.register_entity_file(f"{entity}.entity")
 
     def _handle_play_hour_chime(self, message: Message):
         """Play the hourly chime audio and re-schedule the next chime event.
