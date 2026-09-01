@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.1a1) (2026-09-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.0a2...1.2.1a1)
+
+**Merged pull requests:**
+
+- fix: it-IT offset.entity holds slot values, not intent sentences [\#284](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/284) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [1.2.0a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.0a2) (2026-09-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.0a1...1.2.0a2)
@@ -18,19 +26,19 @@
 
 ## [1.1.17a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.17a1) (2026-08-26)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a2...1.1.17a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a3...1.1.17a1)
 
 **Merged pull requests:**
 
 - fix: rename bare lang code locale directories [\#277](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/277) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 
-## [1.1.16a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a2) (2026-08-25)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a3...1.1.16a2)
-
 ## [1.1.16a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a3) (2026-08-25)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a1...1.1.16a3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a2...1.1.16a3)
+
+## [1.1.16a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a2) (2026-08-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a1...1.1.16a2)
 
 **Merged pull requests:**
 
@@ -505,10 +513,6 @@
 ## [1.1.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.0a1) (2025-05-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.0.0a2...1.1.0a1)
-
-**Merged pull requests:**
-
-- feat: weekday for date intent [\#144](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/144) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [1.0.0a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.0.0a2) (2025-05-16)
 
