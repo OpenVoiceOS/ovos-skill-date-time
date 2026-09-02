@@ -34,7 +34,13 @@ class TestIntentRoutingItIt(TestCase):
             cls.minicroft.stop()
 
     def _assert_intent(self, utterance: str, intent_file: str):
-        intent_msg_type = f"{SKILL_ID}:{intent_file}"
+        # ovos_workshop.intents strips a trailing ".intent" suffix off the
+        # registered intent name before it ever reaches the bus, so the
+        # dispatched message type never carries ".intent" -- see the matching
+        # comment in test_intents_en_us.py._assert_intent for the full
+        # explanation (same bug, same fix).
+        intent_name = intent_file[:-len(".intent")] if intent_file.endswith(".intent") else intent_file
+        intent_msg_type = f"{SKILL_ID}:{intent_name}"
         matched = []
         handler = lambda msg: matched.append(msg)
         self.minicroft.bus.on(intent_msg_type, handler)
