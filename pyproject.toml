@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-skill-date-time"
+dynamic = ["version"]
+description = "ovos date and time skill"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "OpenVoiceOS", email = "jarbasai@mailfence.com"}
+]
+keywords = ["ovos", "skill", "plugin"]
+dependencies = [
+    "pytz>=2025.2",
+    "tzlocal>=5.3.1",
+    "timezonefinder>=6.5.9",
+    "geocoder~=1.38",
+    "ovos-utils>=0.8.1",
+    "ovos-workshop>=0.0.16,<10.0.0",
+    "ovos-date-parser>=0.0.1,<1.0.0",
+    "ovos-utterance-normalizer>=0.0.1,<1.0.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "ovoscope>=1.5.0,<2.0.0",
+    "pytest",
+    "pytest-json-report",
+    "padacioso>=0.1.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/OpenVoiceOS/ovos-skill-date-time"
+
+[project.entry-points."opm.skill"]
+"ovos-skill-date-time.openvoiceos" = "ovos_skill_date_time:TimeSkill"
+
+[tool.setuptools]
+packages = ["ovos_skill_date_time"]
+
+[tool.setuptools.package-dir]
+ovos_skill_date_time = ""
+
+[tool.setuptools.dynamic]
+version = {attr = "ovos_skill_date_time.version.__version__"}
+
+[tool.setuptools.package-data]
+ovos_skill_date_time = [
+    "*.json",
+    "locale/**/*",
+    "gui/**/*",
+    "res/**/*",
+]
