@@ -22,13 +22,6 @@ auf welchen Tag fällt der{date}
 auf welchen Tag fällt {date}
 auf welchen Wochentag fällt der{date}
 auf welchen Wochentag fällt {date}
-ist {date}  einem Dienstag
-ist {date}  einem Donnerstag
-ist {date}  einem Freitag
-ist {date}  einem Mittwoch
-ist {date}  einem Montag
-ist {date}  einem Samstag
-ist {date}  einem Sonntag
 ist {date} an einem Dienstag
 ist {date} an einem Donnerstag
 ist {date} an einem Freitag
@@ -46,13 +39,6 @@ mir sagen, welcher Tag {date} ist
 mir sagen, welcher Tag {date} war
 mir sagen, welcher Wochentag {date} ist
 mir sagen, welcher Wochentag {date} war
-war {date}  einem Dienstag
-war {date}  einem Donnerstag
-war {date}  einem Freitag
-war {date}  einem Mittwoch
-war {date}  einem Montag
-war {date}  einem Samstag
-war {date}  einem Sonntag
 war {date} an einem Dienstag
 war {date} an einem Donnerstag
 war {date} an einem Freitag

@@ -1,5 +1,3 @@
-Giv mig dagens  dato
-Giv mig dagens  dato i {location}
 Giv mig dagens fulde dato
 Giv mig dagens fulde dato i {location}
 Giv mig dagens komplette dato
@@ -16,11 +14,9 @@ Jeg vil gerne vide datoen i {location}
 Ved du, hvad datoen er
 Ved du, hvad datoen er i {location}
 dagens kalender dato
-dagens kalender dato  venligst
 dagens kalender dato i {location}
 dagens kalender dato i {location} venligst
 dagens nøjagtige dato
-dagens nøjagtige dato  venligst
 dagens nøjagtige dato i {location}
 dagens nøjagtige dato i {location} venligst
 fortæl mig dag og måned
@@ -62,8 +58,6 @@ hvad er dagens fuld dato med år
 hvad er dagens fulde dato
 hvad er dagens fulde dato i {location}
 hvad er dagens fuldstændige dato
-hvad er den  dato
-hvad er den  dato i {location}
 hvad er den fulde dato
 hvad er den fulde dato i dag
 hvad er den fulde dato i {location}

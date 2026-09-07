@@ -23,11 +23,9 @@ dime la fecha del calendario
 dime la fecha del calendario en {location}
 dime la fecha en {location}
 fecha de hoy del calendario
-fecha de hoy del calendario  por favor
 fecha de hoy del calendario en {location}
 fecha de hoy del calendario en {location} por favor
 fecha de hoy exacta
-fecha de hoy exacta  por favor
 fecha de hoy exacta en {location}
 fecha de hoy exacta en {location} por favor
 me gustaria saber la fecha
@@ -37,9 +35,6 @@ muéstrame la fecha del calendario
 muéstrame la fecha del calendario en {location}
 muéstrame la fecha en {location}
 necesito saber la fecha
-necesito saber la fecha  actual
-necesito saber la fecha  de hoy
-necesito saber la fecha  en {location}
 necesito saber la fecha del calendario
 necesito saber la fecha del calendario actual
 necesito saber la fecha del calendario de hoy
@@ -48,8 +43,6 @@ quiero saber la fecha
 quiero saber la fecha en {location}
 ¿conoces qué fecha es ?
 ¿conoces qué fecha es en {location}?
-¿cuál es la fecha  ?
-¿cuál es la fecha  en {location}?
 ¿cuál es la fecha actual ?
 ¿cuál es la fecha actual en {location}?
 ¿cuál es la fecha completa ?

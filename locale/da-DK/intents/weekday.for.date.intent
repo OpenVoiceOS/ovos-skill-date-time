@@ -11,13 +11,6 @@ Jeg vil gerne vide hvilken hverdag {date} er
 Jeg vil gerne vide hvilken hverdag {date} var
 Jeg vil gerne vide hvilken ugedag {date} er
 Jeg vil gerne vide hvilken ugedag {date} var
-er {date}  en fredag
-er {date}  en lørdag
-er {date}  en mandag
-er {date}  en onsdag
-er {date}  en søndag
-er {date}  en tirsdag
-er {date}  en torsdag
 er {date} på en fredag
 er {date} på en lørdag
 er {date} på en mandag
@@ -93,13 +86,6 @@ på hvilken hverdag vil det være på {date}
 på hvilken ugedag er {date}
 på hvilken ugedag var {date}
 på hvilken ugedag vil det være på {date}
-var {date}  en fredag
-var {date}  en lørdag
-var {date}  en mandag
-var {date}  en onsdag
-var {date}  en søndag
-var {date}  en tirsdag
-var {date}  en torsdag
 var {date} på en fredag
 var {date} på en lørdag
 var {date} på en mandag
