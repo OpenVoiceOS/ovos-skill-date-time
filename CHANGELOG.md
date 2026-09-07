@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.4a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.4a1) (2026-09-07)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.3a1...1.2.4a1)
+
+**Merged pull requests:**
+
+- fix: move the Kabyle date dialog out of the unreachable locale/kab-DZ [\#296](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/296) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [1.2.3a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.3a1) (2026-09-07)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.2a3...1.2.3a1)
@@ -345,10 +353,6 @@
 ## [1.1.7a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.7a1) (2026-03-24)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.6a4...1.1.7a1)
-
-**Merged pull requests:**
-
-- fix: rename bare lang code locale directories [\#190](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/190) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 
 ## [1.1.6a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.6a4) (2026-03-09)
 
