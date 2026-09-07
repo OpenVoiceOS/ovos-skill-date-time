@@ -1,0 +1,4 @@
+Ye {date}, en {num_days}
+Ye {date}, {num_days} a partir d'agora
+{date}, en {num_days}
+{date}, {num_days} a partir d'agora

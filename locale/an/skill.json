@@ -1,0 +1,22 @@
+{
+  "skill_id": "ovos-skill-date-time.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-date-time",
+  "name": " Calendata y hora",
+  "description": "Información sobre la hora, la calendata y lo día d'a semana",
+  "examples": [
+    "¿Qué hora ye?",
+    "Di-me lo día d'a semana",
+    "¿Cuantos días faltan pa lo 24 de chunyo?",
+    "¿Que día ye?",
+    "Di-me la hora",
+    "¿Cuán ye lo día d'o libro?",
+    "¿Qué hora ye en París?"
+  ],
+  "tags": [
+    "reloch",
+    "calendata",
+    "hora",
+    "consulta",
+    "información"
+  ]
+}
