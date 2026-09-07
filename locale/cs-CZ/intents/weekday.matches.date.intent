@@ -1,0 +1,4 @@
+je {date} v {weekday} [prosím]
+bude {date} v {weekday}
+připadá {date} na {weekday}
+byl {date} v {weekday}
