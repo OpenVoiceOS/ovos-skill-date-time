@@ -1,0 +1,4 @@
+osuuko {date} päivälle {weekday} [kiitos]
+onko {date} päivä {weekday}
+oliko {date} päivä {weekday}
+tuleeko {date} olemaan {weekday}

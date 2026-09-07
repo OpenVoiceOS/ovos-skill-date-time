@@ -1,0 +1,4 @@
+выпадает ли {date} на {weekday} [пожалуйста]
+является ли {date} днём {weekday}
+был ли {date} днём {weekday}
+будет ли {date} днём {weekday}

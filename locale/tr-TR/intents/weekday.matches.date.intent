@@ -1,0 +1,4 @@
+{date} bir {weekday} mi [lütfen]
+{date} günü {weekday} gününe denk geliyor mu
+{date} günü {weekday} müydü
+{date} günü {weekday} olacak mı
