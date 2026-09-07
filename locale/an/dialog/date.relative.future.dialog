@@ -1,4 +1,4 @@
-Ye {date}, en {num_days}
-Ye {date}, {num_days} a partir d'agora
+Será {date} en {num_days}
+Será {date} d'aquí a {num_days}
 {date}, en {num_days}
-{date}, {num_days} a partir d'agora
+{date}, d'aquí a {num_days}
