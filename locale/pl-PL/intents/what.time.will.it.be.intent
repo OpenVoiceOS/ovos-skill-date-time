@@ -3082,18 +3082,6 @@ w {location} jaka będzie czas za {offset} sekund
 w {location} jaka będzie czas za {offset} sekund od teraz
 w {location} jaka będzie czas za {offset} sekundy
 w {location} jaka będzie czas za {offset} sekundy od teraz
-w {location} jaka będzie czas  {offset} godzin
-w {location} jaka będzie czas  {offset} godzin od teraz
-w {location} jaka będzie czas  {offset} godziny
-w {location} jaka będzie czas  {offset} godziny od teraz
-w {location} jaka będzie czas  {offset} minut
-w {location} jaka będzie czas  {offset} minut od teraz
-w {location} jaka będzie czas  {offset} minuty
-w {location} jaka będzie czas  {offset} minuty od teraz
-w {location} jaka będzie czas  {offset} sekund
-w {location} jaka będzie czas  {offset} sekund od teraz
-w {location} jaka będzie czas  {offset} sekundy
-w {location} jaka będzie czas  {offset} sekundy od teraz
 w {location} jaka będzie czas za {offset} godzin
 w {location} jaka będzie czas za {offset} godzin od teraz
 w {location} jaka będzie czas za {offset} godziny
@@ -3118,18 +3106,6 @@ w {location} jaka będzie godzina za {offset} sekund
 w {location} jaka będzie godzina za {offset} sekund od teraz
 w {location} jaka będzie godzina za {offset} sekundy
 w {location} jaka będzie godzina za {offset} sekundy od teraz
-w {location} jaka będzie godzina  {offset} godzin
-w {location} jaka będzie godzina  {offset} godzin od teraz
-w {location} jaka będzie godzina  {offset} godziny
-w {location} jaka będzie godzina  {offset} godziny od teraz
-w {location} jaka będzie godzina  {offset} minut
-w {location} jaka będzie godzina  {offset} minut od teraz
-w {location} jaka będzie godzina  {offset} minuty
-w {location} jaka będzie godzina  {offset} minuty od teraz
-w {location} jaka będzie godzina  {offset} sekund
-w {location} jaka będzie godzina  {offset} sekund od teraz
-w {location} jaka będzie godzina  {offset} sekundy
-w {location} jaka będzie godzina  {offset} sekundy od teraz
 w {location} jaka będzie godzina za {offset} godzin
 w {location} jaka będzie godzina za {offset} godzin od teraz
 w {location} jaka będzie godzina za {offset} godziny
@@ -3154,18 +3130,6 @@ w {location} jaka jest czas za {offset} sekund
 w {location} jaka jest czas za {offset} sekund od teraz
 w {location} jaka jest czas za {offset} sekundy
 w {location} jaka jest czas za {offset} sekundy od teraz
-w {location} jaka jest czas  {offset} godzin
-w {location} jaka jest czas  {offset} godzin od teraz
-w {location} jaka jest czas  {offset} godziny
-w {location} jaka jest czas  {offset} godziny od teraz
-w {location} jaka jest czas  {offset} minut
-w {location} jaka jest czas  {offset} minut od teraz
-w {location} jaka jest czas  {offset} minuty
-w {location} jaka jest czas  {offset} minuty od teraz
-w {location} jaka jest czas  {offset} sekund
-w {location} jaka jest czas  {offset} sekund od teraz
-w {location} jaka jest czas  {offset} sekundy
-w {location} jaka jest czas  {offset} sekundy od teraz
 w {location} jaka jest czas za {offset} godzin
 w {location} jaka jest czas za {offset} godzin od teraz
 w {location} jaka jest czas za {offset} godziny
@@ -3190,18 +3154,6 @@ w {location} jaka jest godzina za {offset} sekund
 w {location} jaka jest godzina za {offset} sekund od teraz
 w {location} jaka jest godzina za {offset} sekundy
 w {location} jaka jest godzina za {offset} sekundy od teraz
-w {location} jaka jest godzina  {offset} godzin
-w {location} jaka jest godzina  {offset} godzin od teraz
-w {location} jaka jest godzina  {offset} godziny
-w {location} jaka jest godzina  {offset} godziny od teraz
-w {location} jaka jest godzina  {offset} minut
-w {location} jaka jest godzina  {offset} minut od teraz
-w {location} jaka jest godzina  {offset} minuty
-w {location} jaka jest godzina  {offset} minuty od teraz
-w {location} jaka jest godzina  {offset} sekund
-w {location} jaka jest godzina  {offset} sekund od teraz
-w {location} jaka jest godzina  {offset} sekundy
-w {location} jaka jest godzina  {offset} sekundy od teraz
 w {location} jaka jest godzina za {offset} godzin
 w {location} jaka jest godzina za {offset} godzin od teraz
 w {location} jaka jest godzina za {offset} godziny
@@ -3226,18 +3178,6 @@ w {location} jaki będzie czas za {offset} sekund
 w {location} jaki będzie czas za {offset} sekund od teraz
 w {location} jaki będzie czas za {offset} sekundy
 w {location} jaki będzie czas za {offset} sekundy od teraz
-w {location} jaki będzie czas  {offset} godzin
-w {location} jaki będzie czas  {offset} godzin od teraz
-w {location} jaki będzie czas  {offset} godziny
-w {location} jaki będzie czas  {offset} godziny od teraz
-w {location} jaki będzie czas  {offset} minut
-w {location} jaki będzie czas  {offset} minut od teraz
-w {location} jaki będzie czas  {offset} minuty
-w {location} jaki będzie czas  {offset} minuty od teraz
-w {location} jaki będzie czas  {offset} sekund
-w {location} jaki będzie czas  {offset} sekund od teraz
-w {location} jaki będzie czas  {offset} sekundy
-w {location} jaki będzie czas  {offset} sekundy od teraz
 w {location} jaki będzie czas za {offset} godzin
 w {location} jaki będzie czas za {offset} godzin od teraz
 w {location} jaki będzie czas za {offset} godziny
@@ -3262,18 +3202,6 @@ w {location} jaki będzie godzina za {offset} sekund
 w {location} jaki będzie godzina za {offset} sekund od teraz
 w {location} jaki będzie godzina za {offset} sekundy
 w {location} jaki będzie godzina za {offset} sekundy od teraz
-w {location} jaki będzie godzina  {offset} godzin
-w {location} jaki będzie godzina  {offset} godzin od teraz
-w {location} jaki będzie godzina  {offset} godziny
-w {location} jaki będzie godzina  {offset} godziny od teraz
-w {location} jaki będzie godzina  {offset} minut
-w {location} jaki będzie godzina  {offset} minut od teraz
-w {location} jaki będzie godzina  {offset} minuty
-w {location} jaki będzie godzina  {offset} minuty od teraz
-w {location} jaki będzie godzina  {offset} sekund
-w {location} jaki będzie godzina  {offset} sekund od teraz
-w {location} jaki będzie godzina  {offset} sekundy
-w {location} jaki będzie godzina  {offset} sekundy od teraz
 w {location} jaki będzie godzina za {offset} godzin
 w {location} jaki będzie godzina za {offset} godzin od teraz
 w {location} jaki będzie godzina za {offset} godziny
@@ -3298,18 +3226,6 @@ w {location} jaki jest czas za {offset} sekund
 w {location} jaki jest czas za {offset} sekund od teraz
 w {location} jaki jest czas za {offset} sekundy
 w {location} jaki jest czas za {offset} sekundy od teraz
-w {location} jaki jest czas  {offset} godzin
-w {location} jaki jest czas  {offset} godzin od teraz
-w {location} jaki jest czas  {offset} godziny
-w {location} jaki jest czas  {offset} godziny od teraz
-w {location} jaki jest czas  {offset} minut
-w {location} jaki jest czas  {offset} minut od teraz
-w {location} jaki jest czas  {offset} minuty
-w {location} jaki jest czas  {offset} minuty od teraz
-w {location} jaki jest czas  {offset} sekund
-w {location} jaki jest czas  {offset} sekund od teraz
-w {location} jaki jest czas  {offset} sekundy
-w {location} jaki jest czas  {offset} sekundy od teraz
 w {location} jaki jest czas za {offset} godzin
 w {location} jaki jest czas za {offset} godzin od teraz
 w {location} jaki jest czas za {offset} godziny
@@ -3334,18 +3250,6 @@ w {location} jaki jest godzina za {offset} sekund
 w {location} jaki jest godzina za {offset} sekund od teraz
 w {location} jaki jest godzina za {offset} sekundy
 w {location} jaki jest godzina za {offset} sekundy od teraz
-w {location} jaki jest godzina  {offset} godzin
-w {location} jaki jest godzina  {offset} godzin od teraz
-w {location} jaki jest godzina  {offset} godziny
-w {location} jaki jest godzina  {offset} godziny od teraz
-w {location} jaki jest godzina  {offset} minut
-w {location} jaki jest godzina  {offset} minut od teraz
-w {location} jaki jest godzina  {offset} minuty
-w {location} jaki jest godzina  {offset} minuty od teraz
-w {location} jaki jest godzina  {offset} sekund
-w {location} jaki jest godzina  {offset} sekund od teraz
-w {location} jaki jest godzina  {offset} sekundy
-w {location} jaki jest godzina  {offset} sekundy od teraz
 w {location} jaki jest godzina za {offset} godzin
 w {location} jaki jest godzina za {offset} godzin od teraz
 w {location} jaki jest godzina za {offset} godziny
@@ -3370,18 +3274,6 @@ w {location} która będzie czas za {offset} sekund
 w {location} która będzie czas za {offset} sekund od teraz
 w {location} która będzie czas za {offset} sekundy
 w {location} która będzie czas za {offset} sekundy od teraz
-w {location} która będzie czas  {offset} godzin
-w {location} która będzie czas  {offset} godzin od teraz
-w {location} która będzie czas  {offset} godziny
-w {location} która będzie czas  {offset} godziny od teraz
-w {location} która będzie czas  {offset} minut
-w {location} która będzie czas  {offset} minut od teraz
-w {location} która będzie czas  {offset} minuty
-w {location} która będzie czas  {offset} minuty od teraz
-w {location} która będzie czas  {offset} sekund
-w {location} która będzie czas  {offset} sekund od teraz
-w {location} która będzie czas  {offset} sekundy
-w {location} która będzie czas  {offset} sekundy od teraz
 w {location} która będzie czas za {offset} godzin
 w {location} która będzie czas za {offset} godzin od teraz
 w {location} która będzie czas za {offset} godziny
@@ -3406,18 +3298,6 @@ w {location} która będzie godzina za {offset} sekund
 w {location} która będzie godzina za {offset} sekund od teraz
 w {location} która będzie godzina za {offset} sekundy
 w {location} która będzie godzina za {offset} sekundy od teraz
-w {location} która będzie godzina  {offset} godzin
-w {location} która będzie godzina  {offset} godzin od teraz
-w {location} która będzie godzina  {offset} godziny
-w {location} która będzie godzina  {offset} godziny od teraz
-w {location} która będzie godzina  {offset} minut
-w {location} która będzie godzina  {offset} minut od teraz
-w {location} która będzie godzina  {offset} minuty
-w {location} która będzie godzina  {offset} minuty od teraz
-w {location} która będzie godzina  {offset} sekund
-w {location} która będzie godzina  {offset} sekund od teraz
-w {location} która będzie godzina  {offset} sekundy
-w {location} która będzie godzina  {offset} sekundy od teraz
 w {location} która będzie godzina za {offset} godzin
 w {location} która będzie godzina za {offset} godzin od teraz
 w {location} która będzie godzina za {offset} godziny
@@ -3442,18 +3322,6 @@ w {location} która jest czas za {offset} sekund
 w {location} która jest czas za {offset} sekund od teraz
 w {location} która jest czas za {offset} sekundy
 w {location} która jest czas za {offset} sekundy od teraz
-w {location} która jest czas  {offset} godzin
-w {location} która jest czas  {offset} godzin od teraz
-w {location} która jest czas  {offset} godziny
-w {location} która jest czas  {offset} godziny od teraz
-w {location} która jest czas  {offset} minut
-w {location} która jest czas  {offset} minut od teraz
-w {location} która jest czas  {offset} minuty
-w {location} która jest czas  {offset} minuty od teraz
-w {location} która jest czas  {offset} sekund
-w {location} która jest czas  {offset} sekund od teraz
-w {location} która jest czas  {offset} sekundy
-w {location} która jest czas  {offset} sekundy od teraz
 w {location} która jest czas za {offset} godzin
 w {location} która jest czas za {offset} godzin od teraz
 w {location} która jest czas za {offset} godziny
@@ -3478,18 +3346,6 @@ w {location} która jest godzina za {offset} sekund
 w {location} która jest godzina za {offset} sekund od teraz
 w {location} która jest godzina za {offset} sekundy
 w {location} która jest godzina za {offset} sekundy od teraz
-w {location} która jest godzina  {offset} godzin
-w {location} która jest godzina  {offset} godzin od teraz
-w {location} która jest godzina  {offset} godziny
-w {location} która jest godzina  {offset} godziny od teraz
-w {location} która jest godzina  {offset} minut
-w {location} która jest godzina  {offset} minut od teraz
-w {location} która jest godzina  {offset} minuty
-w {location} która jest godzina  {offset} minuty od teraz
-w {location} która jest godzina  {offset} sekund
-w {location} która jest godzina  {offset} sekund od teraz
-w {location} która jest godzina  {offset} sekundy
-w {location} która jest godzina  {offset} sekundy od teraz
 w {location} która jest godzina za {offset} godzin
 w {location} która jest godzina za {offset} godzin od teraz
 w {location} która jest godzina za {offset} godziny
@@ -3514,18 +3370,6 @@ we {location} jaka będzie czas za {offset} sekund
 we {location} jaka będzie czas za {offset} sekund od teraz
 we {location} jaka będzie czas za {offset} sekundy
 we {location} jaka będzie czas za {offset} sekundy od teraz
-we {location} jaka będzie czas  {offset} godzin
-we {location} jaka będzie czas  {offset} godzin od teraz
-we {location} jaka będzie czas  {offset} godziny
-we {location} jaka będzie czas  {offset} godziny od teraz
-we {location} jaka będzie czas  {offset} minut
-we {location} jaka będzie czas  {offset} minut od teraz
-we {location} jaka będzie czas  {offset} minuty
-we {location} jaka będzie czas  {offset} minuty od teraz
-we {location} jaka będzie czas  {offset} sekund
-we {location} jaka będzie czas  {offset} sekund od teraz
-we {location} jaka będzie czas  {offset} sekundy
-we {location} jaka będzie czas  {offset} sekundy od teraz
 we {location} jaka będzie czas za {offset} godzin
 we {location} jaka będzie czas za {offset} godzin od teraz
 we {location} jaka będzie czas za {offset} godziny
@@ -3550,18 +3394,6 @@ we {location} jaka będzie godzina za {offset} sekund
 we {location} jaka będzie godzina za {offset} sekund od teraz
 we {location} jaka będzie godzina za {offset} sekundy
 we {location} jaka będzie godzina za {offset} sekundy od teraz
-we {location} jaka będzie godzina  {offset} godzin
-we {location} jaka będzie godzina  {offset} godzin od teraz
-we {location} jaka będzie godzina  {offset} godziny
-we {location} jaka będzie godzina  {offset} godziny od teraz
-we {location} jaka będzie godzina  {offset} minut
-we {location} jaka będzie godzina  {offset} minut od teraz
-we {location} jaka będzie godzina  {offset} minuty
-we {location} jaka będzie godzina  {offset} minuty od teraz
-we {location} jaka będzie godzina  {offset} sekund
-we {location} jaka będzie godzina  {offset} sekund od teraz
-we {location} jaka będzie godzina  {offset} sekundy
-we {location} jaka będzie godzina  {offset} sekundy od teraz
 we {location} jaka będzie godzina za {offset} godzin
 we {location} jaka będzie godzina za {offset} godzin od teraz
 we {location} jaka będzie godzina za {offset} godziny
@@ -3586,18 +3418,6 @@ we {location} jaka jest czas za {offset} sekund
 we {location} jaka jest czas za {offset} sekund od teraz
 we {location} jaka jest czas za {offset} sekundy
 we {location} jaka jest czas za {offset} sekundy od teraz
-we {location} jaka jest czas  {offset} godzin
-we {location} jaka jest czas  {offset} godzin od teraz
-we {location} jaka jest czas  {offset} godziny
-we {location} jaka jest czas  {offset} godziny od teraz
-we {location} jaka jest czas  {offset} minut
-we {location} jaka jest czas  {offset} minut od teraz
-we {location} jaka jest czas  {offset} minuty
-we {location} jaka jest czas  {offset} minuty od teraz
-we {location} jaka jest czas  {offset} sekund
-we {location} jaka jest czas  {offset} sekund od teraz
-we {location} jaka jest czas  {offset} sekundy
-we {location} jaka jest czas  {offset} sekundy od teraz
 we {location} jaka jest czas za {offset} godzin
 we {location} jaka jest czas za {offset} godzin od teraz
 we {location} jaka jest czas za {offset} godziny
@@ -3622,18 +3442,6 @@ we {location} jaka jest godzina za {offset} sekund
 we {location} jaka jest godzina za {offset} sekund od teraz
 we {location} jaka jest godzina za {offset} sekundy
 we {location} jaka jest godzina za {offset} sekundy od teraz
-we {location} jaka jest godzina  {offset} godzin
-we {location} jaka jest godzina  {offset} godzin od teraz
-we {location} jaka jest godzina  {offset} godziny
-we {location} jaka jest godzina  {offset} godziny od teraz
-we {location} jaka jest godzina  {offset} minut
-we {location} jaka jest godzina  {offset} minut od teraz
-we {location} jaka jest godzina  {offset} minuty
-we {location} jaka jest godzina  {offset} minuty od teraz
-we {location} jaka jest godzina  {offset} sekund
-we {location} jaka jest godzina  {offset} sekund od teraz
-we {location} jaka jest godzina  {offset} sekundy
-we {location} jaka jest godzina  {offset} sekundy od teraz
 we {location} jaka jest godzina za {offset} godzin
 we {location} jaka jest godzina za {offset} godzin od teraz
 we {location} jaka jest godzina za {offset} godziny
@@ -3658,18 +3466,6 @@ we {location} jaki będzie czas za {offset} sekund
 we {location} jaki będzie czas za {offset} sekund od teraz
 we {location} jaki będzie czas za {offset} sekundy
 we {location} jaki będzie czas za {offset} sekundy od teraz
-we {location} jaki będzie czas  {offset} godzin
-we {location} jaki będzie czas  {offset} godzin od teraz
-we {location} jaki będzie czas  {offset} godziny
-we {location} jaki będzie czas  {offset} godziny od teraz
-we {location} jaki będzie czas  {offset} minut
-we {location} jaki będzie czas  {offset} minut od teraz
-we {location} jaki będzie czas  {offset} minuty
-we {location} jaki będzie czas  {offset} minuty od teraz
-we {location} jaki będzie czas  {offset} sekund
-we {location} jaki będzie czas  {offset} sekund od teraz
-we {location} jaki będzie czas  {offset} sekundy
-we {location} jaki będzie czas  {offset} sekundy od teraz
 we {location} jaki będzie czas za {offset} godzin
 we {location} jaki będzie czas za {offset} godzin od teraz
 we {location} jaki będzie czas za {offset} godziny
@@ -3694,18 +3490,6 @@ we {location} jaki będzie godzina za {offset} sekund
 we {location} jaki będzie godzina za {offset} sekund od teraz
 we {location} jaki będzie godzina za {offset} sekundy
 we {location} jaki będzie godzina za {offset} sekundy od teraz
-we {location} jaki będzie godzina  {offset} godzin
-we {location} jaki będzie godzina  {offset} godzin od teraz
-we {location} jaki będzie godzina  {offset} godziny
-we {location} jaki będzie godzina  {offset} godziny od teraz
-we {location} jaki będzie godzina  {offset} minut
-we {location} jaki będzie godzina  {offset} minut od teraz
-we {location} jaki będzie godzina  {offset} minuty
-we {location} jaki będzie godzina  {offset} minuty od teraz
-we {location} jaki będzie godzina  {offset} sekund
-we {location} jaki będzie godzina  {offset} sekund od teraz
-we {location} jaki będzie godzina  {offset} sekundy
-we {location} jaki będzie godzina  {offset} sekundy od teraz
 we {location} jaki będzie godzina za {offset} godzin
 we {location} jaki będzie godzina za {offset} godzin od teraz
 we {location} jaki będzie godzina za {offset} godziny
@@ -3730,18 +3514,6 @@ we {location} jaki jest czas za {offset} sekund
 we {location} jaki jest czas za {offset} sekund od teraz
 we {location} jaki jest czas za {offset} sekundy
 we {location} jaki jest czas za {offset} sekundy od teraz
-we {location} jaki jest czas  {offset} godzin
-we {location} jaki jest czas  {offset} godzin od teraz
-we {location} jaki jest czas  {offset} godziny
-we {location} jaki jest czas  {offset} godziny od teraz
-we {location} jaki jest czas  {offset} minut
-we {location} jaki jest czas  {offset} minut od teraz
-we {location} jaki jest czas  {offset} minuty
-we {location} jaki jest czas  {offset} minuty od teraz
-we {location} jaki jest czas  {offset} sekund
-we {location} jaki jest czas  {offset} sekund od teraz
-we {location} jaki jest czas  {offset} sekundy
-we {location} jaki jest czas  {offset} sekundy od teraz
 we {location} jaki jest czas za {offset} godzin
 we {location} jaki jest czas za {offset} godzin od teraz
 we {location} jaki jest czas za {offset} godziny
@@ -3766,18 +3538,6 @@ we {location} jaki jest godzina za {offset} sekund
 we {location} jaki jest godzina za {offset} sekund od teraz
 we {location} jaki jest godzina za {offset} sekundy
 we {location} jaki jest godzina za {offset} sekundy od teraz
-we {location} jaki jest godzina  {offset} godzin
-we {location} jaki jest godzina  {offset} godzin od teraz
-we {location} jaki jest godzina  {offset} godziny
-we {location} jaki jest godzina  {offset} godziny od teraz
-we {location} jaki jest godzina  {offset} minut
-we {location} jaki jest godzina  {offset} minut od teraz
-we {location} jaki jest godzina  {offset} minuty
-we {location} jaki jest godzina  {offset} minuty od teraz
-we {location} jaki jest godzina  {offset} sekund
-we {location} jaki jest godzina  {offset} sekund od teraz
-we {location} jaki jest godzina  {offset} sekundy
-we {location} jaki jest godzina  {offset} sekundy od teraz
 we {location} jaki jest godzina za {offset} godzin
 we {location} jaki jest godzina za {offset} godzin od teraz
 we {location} jaki jest godzina za {offset} godziny
@@ -3802,18 +3562,6 @@ we {location} która będzie czas za {offset} sekund
 we {location} która będzie czas za {offset} sekund od teraz
 we {location} która będzie czas za {offset} sekundy
 we {location} która będzie czas za {offset} sekundy od teraz
-we {location} która będzie czas  {offset} godzin
-we {location} która będzie czas  {offset} godzin od teraz
-we {location} która będzie czas  {offset} godziny
-we {location} która będzie czas  {offset} godziny od teraz
-we {location} która będzie czas  {offset} minut
-we {location} która będzie czas  {offset} minut od teraz
-we {location} która będzie czas  {offset} minuty
-we {location} która będzie czas  {offset} minuty od teraz
-we {location} która będzie czas  {offset} sekund
-we {location} która będzie czas  {offset} sekund od teraz
-we {location} która będzie czas  {offset} sekundy
-we {location} która będzie czas  {offset} sekundy od teraz
 we {location} która będzie czas za {offset} godzin
 we {location} która będzie czas za {offset} godzin od teraz
 we {location} która będzie czas za {offset} godziny
@@ -3838,18 +3586,6 @@ we {location} która będzie godzina za {offset} sekund
 we {location} która będzie godzina za {offset} sekund od teraz
 we {location} która będzie godzina za {offset} sekundy
 we {location} która będzie godzina za {offset} sekundy od teraz
-we {location} która będzie godzina  {offset} godzin
-we {location} która będzie godzina  {offset} godzin od teraz
-we {location} która będzie godzina  {offset} godziny
-we {location} która będzie godzina  {offset} godziny od teraz
-we {location} która będzie godzina  {offset} minut
-we {location} która będzie godzina  {offset} minut od teraz
-we {location} która będzie godzina  {offset} minuty
-we {location} która będzie godzina  {offset} minuty od teraz
-we {location} która będzie godzina  {offset} sekund
-we {location} która będzie godzina  {offset} sekund od teraz
-we {location} która będzie godzina  {offset} sekundy
-we {location} która będzie godzina  {offset} sekundy od teraz
 we {location} która będzie godzina za {offset} godzin
 we {location} która będzie godzina za {offset} godzin od teraz
 we {location} która będzie godzina za {offset} godziny
@@ -3874,18 +3610,6 @@ we {location} która jest czas za {offset} sekund
 we {location} która jest czas za {offset} sekund od teraz
 we {location} która jest czas za {offset} sekundy
 we {location} która jest czas za {offset} sekundy od teraz
-we {location} która jest czas  {offset} godzin
-we {location} która jest czas  {offset} godzin od teraz
-we {location} która jest czas  {offset} godziny
-we {location} która jest czas  {offset} godziny od teraz
-we {location} która jest czas  {offset} minut
-we {location} która jest czas  {offset} minut od teraz
-we {location} która jest czas  {offset} minuty
-we {location} która jest czas  {offset} minuty od teraz
-we {location} która jest czas  {offset} sekund
-we {location} która jest czas  {offset} sekund od teraz
-we {location} która jest czas  {offset} sekundy
-we {location} która jest czas  {offset} sekundy od teraz
 we {location} która jest czas za {offset} godzin
 we {location} która jest czas za {offset} godzin od teraz
 we {location} która jest czas za {offset} godziny
@@ -3910,18 +3634,6 @@ we {location} która jest godzina za {offset} sekund
 we {location} która jest godzina za {offset} sekund od teraz
 we {location} która jest godzina za {offset} sekundy
 we {location} która jest godzina za {offset} sekundy od teraz
-we {location} która jest godzina  {offset} godzin
-we {location} która jest godzina  {offset} godzin od teraz
-we {location} która jest godzina  {offset} godziny
-we {location} która jest godzina  {offset} godziny od teraz
-we {location} która jest godzina  {offset} minut
-we {location} która jest godzina  {offset} minut od teraz
-we {location} która jest godzina  {offset} minuty
-we {location} która jest godzina  {offset} minuty od teraz
-we {location} która jest godzina  {offset} sekund
-we {location} która jest godzina  {offset} sekund od teraz
-we {location} która jest godzina  {offset} sekundy
-we {location} która jest godzina  {offset} sekundy od teraz
 we {location} która jest godzina za {offset} godzin
 we {location} która jest godzina za {offset} godzin od teraz
 we {location} która jest godzina za {offset} godziny

@@ -28,8 +28,6 @@ hvor meget tid er der tilbage før {date}
 hvor meget tid er der tilbage indtil {date}
 hvor meget tid har vi før {date}
 hvor meget tid har vi indtil {date}
-hvornår  er {date}
-hvornår  vil det være {date}
 hvornår er den forrige {date}
 hvornår er den næste {date}
 hvornår er den sidste {date}
