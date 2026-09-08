@@ -1,8 +1,6 @@
-di-me qué día d'a semana d'o calandario ye hue .
-di-me qué día d'a semana d'o calandario ye hue en {location}.
-di-me qué día d'a semana d'o mes ye hue .
-di-me qué día d'a semana d'o mes ye hue en {location}.
-me podrías decir lo día ?
+di-me qué día d'a semana ye hue?
+di-me qué día d'a semana ye hue en {location}?
+me podrías decir qué día ye?
 me podrías decir lo día d'o calandario?
 me podrías decir lo día d'o mes?
 me puez decir lo día ?
@@ -15,4 +13,4 @@ qué día d'o mes ye en {location}?
 qué día d'o mes ye hue en {location}?
 qué día d'o mes ye hue?
 qué día ye hue d'o calandario en {location}?
-qué día ye hue d'o mes en {location}?
+qué día d'o mes ye hue en {location}?

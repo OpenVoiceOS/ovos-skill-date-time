@@ -1,15 +1,15 @@
 a qué distancia ye {date} ?
 a qué distancia ye {date} d'agora?
 a qué distancia ye {date} de hue?
-cuán concretament ye {date}?
-cuán concretament será {date}?
-cuán yera l'anterior {date}?
-cuán yera lo siguient {date}?
-cuán yera lo zaguera {date}?
-cuán yera l'anterior {date}?
-cuán yera la siguient {date}?
-cuán yera la zaguera {date}?
-cuán yera {date}?
+cuán ye concretament {date}?
+cuán será concretament {date}?
+cuán estió l'anterior {date}?
+cuán estió lo siguient {date}?
+cuán estió lo zaguera {date}?
+cuán estió l'anterior {date}?
+cuán estió la siguient {date}?
+cuán estió la zaguera {date}?
+cuán estió {date}?
 cuán ye l'anterior {date}?
 cuán ye lo siguient {date}?
 cuán ye lo zaguera {date}?
@@ -17,20 +17,11 @@ cuán ye l'anterior {date}?
 cuán ye la siguient {date}?
 cuán ye la zaguera {date}?
 cuán ye {date}?
-cuán exactament ye {date}?
-cuán exactament será {date}?
-cuántas días quedan dinantes {date}?
+cuán ye exactament {date}?
+cuán será exactament {date}?
 cuántas días quedan dica {date}?
-cuántas días restan dinantes {date}?
-cuántas días restan dica {date}?
-cuántas horas quedan dinantes {date}?
 cuántas horas quedan dica {date}?
-cuántas horas restan dinantes {date}?
-cuántas horas restan dica {date}?
-cuántas semanas quedan dinantes {date}?
 cuántas semanas quedan dica {date}?
-cuántas semanas restan dinantes {date}?
-cuántas semanas restan dica {date}?
 cuánto falta pa {date}?
 cuánto queda pa {date}?
 cuánto tiempo falta antes de {date}?
@@ -43,6 +34,9 @@ cuánto tiempo tenemos antes de {date}?
 cuántos días dende agora faltan pa {date}?
 cuántos días dende agora quedan pa {date}?
 cuántos días han pasau dende {date}?
-cómo de luen ye {date} ?
-cómo de luen ye {date} d'agora?
-cómo de luen ye {date} de hue?
+cómo de luent ye {date} ?
+cómo de luent ye {date} d'agora?
+cómo de luent ye {date} de hue?
+cómo de leixos ye {date} ?
+cómo de leixos ye {date} d'agora?
+cómo de leixos ye {date} de hue?

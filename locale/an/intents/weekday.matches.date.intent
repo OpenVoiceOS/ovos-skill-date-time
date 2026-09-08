@@ -1,4 +1,4 @@
-caye {date} en {weekday} [por favor]
-ye {date} un {weekday}
-estió {date} un {weekday}
-será {date} un {weekday}
+caye {date} en {weekday}?
+ye {date} un {weekday}?
+estió {date} un {weekday}?
+será {date} un {weekday}?
