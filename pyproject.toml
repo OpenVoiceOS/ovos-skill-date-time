@@ -29,6 +29,7 @@ test = [
     "pytest",
     "pytest-json-report",
     "padacioso>=0.1.1",
+    "tomli; python_version<'3.11'",
 ]
 
 [project.urls]
@@ -39,6 +40,7 @@ Homepage = "https://github.com/OpenVoiceOS/ovos-skill-date-time"
 
 [tool.setuptools]
 packages = ["ovos_skill_date_time"]
+license-files = ["LICENSE", "NOTICE"]
 
 [tool.setuptools.package-dir]
 ovos_skill_date_time = ""

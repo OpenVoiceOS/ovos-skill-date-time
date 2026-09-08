@@ -4,5 +4,6 @@ recursive-include gui *
 include *.json
 include version.py
 include *.md
+include NOTICE
 global-exclude __pycache__
 global-exclude *.py[cod]
