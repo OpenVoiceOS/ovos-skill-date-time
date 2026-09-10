@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.3.0a2) (2026-09-10)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.3.0a1...1.3.0a2)
+
+**Merged pull requests:**
+
+- docs: credit the ODbL timezone boundary data [\#302](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/302) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [1.3.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.3.0a1) (2026-09-08)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.5a1...1.3.0a1)
@@ -341,8 +349,6 @@
 
 - translate\(it-IT\): update extract.date.error.dialog [\#200](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/200) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 - translate\(it-IT\): update day.current.dialog [\#198](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/198) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
-- translate\(it-IT\): update date.relative.future.dialog [\#197](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/197) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
-- translate\(it-IT\): update date.not.found.dialog [\#196](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/196) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 
 ## [1.1.8a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a2) (2026-03-26)
 
