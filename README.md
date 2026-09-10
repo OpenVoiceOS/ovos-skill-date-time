@@ -46,6 +46,14 @@ Below is an example configuration file with explanations for each option.
 - [casio-watch.wav by @Pablobd](https://freesound.org/people/Pablobd/sounds/492481/) under the [CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/)
 - [clock-chime.mp3 by @ecfike](https://pixabay.com/sound-effects/clock-chime-88027/) under the [Pixabay Content License](https://pixabay.com/service/license-summary/)
 - Original skill by Mycroft AI (@MycroftAI)
+- Timezone boundaries from [timezonefinder-data](https://github.com/jannikmi/timezonefinder), built from [timezone-boundary-builder](https://github.com/evansiroky/timezone-boundary-builder) on [OpenStreetMap](https://www.openstreetmap.org/copyright) data, under the [Open Database License (ODbL) v1.0](https://opendatacommons.org/licenses/odbl/1-0/)
+
+Resolving a timezone from coordinates queries that database through the
+`timezonefinder` package, which installs it unmodified. The ODbL asks for the
+attribution above, and its share-alike clause covers a derivative of the
+database: anyone who alters the bundled boundary data and passes it on must
+offer the altered database under the ODbL as well. Using the skill, and
+building on the skill's own Apache-2.0 code, carries no such obligation.
 
 ## Category
 **Daily**
