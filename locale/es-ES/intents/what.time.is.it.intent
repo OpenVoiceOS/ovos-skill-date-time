@@ -54,33 +54,33 @@ te agradecería que me dijeras la hora actual
 te agradecería que me dijeras la hora actual en {location}
 tiempo correcto ahora
 tiempo correcto ahora en {location}
-¿es posible obtener? la hora actual
-¿es posible obtener? la hora actual en {location}
-¿podrías darme? la hora actual
-¿podrías darme? la hora actual en {location}
-¿puedes avisarme de? la hora actual
-¿puedes avisarme de? la hora actual en {location}
-¿puedes darme? la hora actual
-¿puedes darme? la hora actual en {location}
-¿puedes decirme? la hora actual
-¿puedes decirme? la hora actual en {location}
-¿puedo saber? la hora actual
-¿puedo saber? la hora actual en {location}
-¿qué hora es actualmente ?
-¿qué hora es actualmente en {location}?
-¿qué hora es en el momento ?
-¿qué hora es en el momento en {location}?
-¿qué hora es en el presente ?
-¿qué hora es en el presente en {location}?
-¿sabes? la hora actual
-¿sabes? la hora actual en {location}
-¿tienes? la hora actual
-¿tienes? la hora actual en {location}
-¿ya es mañana ?
-¿ya es mañana en {location}?
-¿ya es (mediodía|medianoche|la una|las dos|las tres|las cuatro|las cinco|las seis|las siete|las ocho|las nueve|las diez|las once|las doce)
-¿ya es (mediodía|medianoche|la una|las dos|las tres|las cuatro|las cinco|las seis|las siete|las ocho|las nueve|las diez|las once|las doce) en {location}?
-¿ya es noche ?
-¿ya es noche en {location}?
-¿ya es tarde ?
-¿ya es tarde en {location}?
+es posible obtener? la hora actual
+es posible obtener? la hora actual en {location}
+podrías darme? la hora actual
+podrías darme? la hora actual en {location}
+puedes avisarme de? la hora actual
+puedes avisarme de? la hora actual en {location}
+puedes darme? la hora actual
+puedes darme? la hora actual en {location}
+puedes decirme? la hora actual
+puedes decirme? la hora actual en {location}
+puedo saber? la hora actual
+puedo saber? la hora actual en {location}
+qué hora es actualmente 
+qué hora es actualmente en {location}
+qué hora es en el momento 
+qué hora es en el momento en {location}
+qué hora es en el presente 
+qué hora es en el presente en {location}
+sabes? la hora actual
+sabes? la hora actual en {location}
+tienes? la hora actual
+tienes? la hora actual en {location}
+ya es mañana 
+ya es mañana en {location}
+ya es (mediodía|medianoche|la una|las dos|las tres|las cuatro|las cinco|las seis|las siete|las ocho|las nueve|las diez|las once|las doce)
+ya es (mediodía|medianoche|la una|las dos|las tres|las cuatro|las cinco|las seis|las siete|las ocho|las nueve|las diez|las once|las doce) en {location}
+ya es noche 
+ya es noche en {location}
+ya es tarde 
+ya es tarde en {location}
