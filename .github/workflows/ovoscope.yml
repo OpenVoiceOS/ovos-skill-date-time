@@ -1,0 +1,47 @@
+name: Skill End-to-End Tests (ovoscope)
+
+on:
+  pull_request:
+    branches: [dev, master, main]
+  workflow_dispatch:
+
+jobs:
+  ovoscope:
+    uses: OpenVoiceOS/gh-automations/.github/workflows/ovoscope.yml@dev
+    secrets: inherit
+    with:
+      python_version: '3.11'
+      install_extras: 'test'
+      test_path: 'test/end2end/'
+      # Round 3 root cause (NOT padatious/CPU, see below): both e2e test
+      # files built their bus-event listener as
+      # f"{SKILL_ID}:{intent_file}" using the RAW ".intent"-suffixed
+      # intent_label/intent_file argument, but ovos_workshop.intents strips
+      # a trailing ".intent" off the registered name before the event is
+      # ever emitted -- so the listener was registered for an event that
+      # literally never fires, on EVERY row, deterministically, regardless
+      # of environment or CPU load. CI logs' "correct IntentHandlerMatch
+      # sometimes appearing but the watch loop missing them" was this bug
+      # verbatim: the match succeeded and was logged every retry, the
+      # listener just had the wrong name. Fixed in _assert_intent in both
+      # test/end2end/test_golden_utterances.py and
+      # test/end2end/test_intents_en_us.py by stripping ".intent" before
+      # building the event name. Reproduced 100% locally once isolated from
+      # other system load (earlier "not reproducible locally" reports were
+      # false negatives from a quiet/underloaded box, not evidence the bug
+      # was CI-only).
+      #
+      # require_padatious was previously left false because the golden-row
+      # and intent-routing suites pin session.pipeline to padacioso-only
+      # stages (see PIPELINE in both those files), so padatious match() was
+      # never invoked there. test_gpu_overmatch_regression.py (added
+      # alongside this change) DOES need the real ovos-padatious pipeline
+      # plugin -- it reproduces/guards a padatious-high over-match defect
+      # in weekday.matches.date.intent -- so padatious now has to be
+      # installed for this job.
+      require_padatious: true
+      # The 45s/row deadline exhaustion was a downstream symptom of the
+      # never-firing listener above (it retried until the deadline on every
+      # row), not of worker concurrency. With the listener fixed, serial
+      # execution is no longer needed to make the suite reliable.
+      pytest_workers: '2'

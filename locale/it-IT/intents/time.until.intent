@@ -1,0 +1,7 @@
+quant(o (tempo|) manca|i giorni mancano) a {date} (da adesso|da oggi|)
+(quando|quanti giorni fa) (è stato|era|fu) (il|) {date}
+quant(o (tempo|) manca|i giorni mancano|e ore mancano|e settimane mancano) (prima di|fino a) {date}
+quando (è|sarà) (esattamente|precisamente|) {date}
+quando (è|sarà|era|fu) l'(ultimo|ultima) {date}
+quando (è|sarà|era|fu) (il|la) (prossimo|prossima|successivo|successiva) {date}
+quando (è|sarà|era|fu) (il|la) (precedente|passato|scorso|passata|scorsa) {date}

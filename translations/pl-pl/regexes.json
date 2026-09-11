@@ -1,5 +1,0 @@
-{
-    "location.rx": [
-        "\\b(dla|w) (?P<Location>.*)"
-    ]
-}

@@ -1,0 +1,12 @@
+# Future-time queries, e.g. "what time will it be in 5 minutes",
+# "in 2 hours what time will it be", "what time is it after ten seconds".
+# {offset} anchors the number for the engine; the handler re-parses the whole
+# utterance to extract the exact duration, so any number/unit phrasing is caught.
+in {offset} (hour|minute|second)[s] [from now] what time will it (be|become|show) [in {location}]
+what time (is it|will it be|will it become|will it show) (in|after) {offset} (hour|minute|second)[s] [from now] [in {location}]
+what time (is it|will it be|will it become|will it show) if i (wait|spend) {offset} (hour|minute|second)[s] [in {location}]
+what time (is it|will it be) {offset} (hour|minute|second)[s] [from now] [in {location}]
+what will the clock say (in|after|if i wait) {offset} (hour|minute|second)[s] [in {location}]
+when (is it|will it be) {offset} (hour|minute|second)[s] [from now] [in {location}]
+when will it be if i (wait|spend) {offset} (hour|minute|second)[s] [in {location}]
+when time will it (be|become|show) (in|after|if i wait) {offset} (hour|minute|second)[s] [in {location}]
