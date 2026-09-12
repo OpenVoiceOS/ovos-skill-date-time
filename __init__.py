@@ -394,13 +394,12 @@ class TimeSkill(OVOSSkill):
             dt = now_local(tz)
         return dt
 
-    def get_spoken_time(self, location: str = None, force_ampm=False,
+    def get_spoken_time(self, location: str = None,
                         anchor_date: datetime.datetime = None) -> Optional[str]:
         """Get a human-readable spoken version of the current time.
 
         Args:
             location (str, optional): Location for timezone conversion.
-            force_ampm (bool, optional): Whether to force AM/PM mode even if using 24-hour format.
             anchor_date (datetime.datetime, optional): Specific time to use instead of now.
 
         Returns:
@@ -410,23 +409,19 @@ class TimeSkill(OVOSSkill):
         if not dt:
             return None
 
-        # speak AM/PM when talking about somewhere else
-        say_am_pm = bool(location) or force_ampm
-
         s = nice_time(dt, lang=self.lang, speech=True,
-                      use_24hour=self.use_24hour, use_ampm=say_am_pm)
+                      use_24hour=self.use_24hour, use_ampm=not self.use_24hour)
         # HACK: Mimic 2 has a bug with saying "AM".  Work around it for now.
-        if say_am_pm:
+        if not self.use_24hour:
             s = s.replace("AM", "A.M.")
         return s
 
-    def get_display_time(self, location: str = None, force_ampm=False,
+    def get_display_time(self, location: str = None,
                          anchor_date: datetime.datetime = None) -> Optional[str]:
         """Get a display-friendly version of the current time.
 
         Args:
             location (str, optional): Location for timezone conversion.
-            force_ampm (bool, optional): Whether to display time in AM/PM format.
             anchor_date (datetime.datetime, optional): Specific time to use instead of now.
 
         Returns:
@@ -435,12 +430,10 @@ class TimeSkill(OVOSSkill):
         dt = self.get_datetime(location, anchor_date)
         if not dt:
             return None
-        # speak AM/PM when talking about somewhere else
-        say_am_pm = bool(location) or force_ampm
         return nice_time(dt, lang=self.lang,
                          speech=False,
                          use_24hour=self.use_24hour,  # session aware
-                         use_ampm=say_am_pm)
+                         use_ampm=not self.use_24hour)
 
     def get_display_date(self, location: str = None,
                          anchor_date: datetime.datetime = None) -> str:
