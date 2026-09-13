@@ -85,15 +85,15 @@ class TestIntentRouting(TestCase):
         )
 
 
-    # --- what.time.is.it.intent ---
+    # --- what_time_is_it.intent ---
     def test_what_time_is_it(self):
-        self._assert_intent("what time is it", "what.time.is.it.intent")
+        self._assert_intent("what time is it", "what_time_is_it.intent")
 
     def test_whats_the_time(self):
-        self._assert_intent("what's the time now", "what.time.is.it.intent")
+        self._assert_intent("what's the time now", "what_time_is_it.intent")
 
     def test_what_time_is_it_in_location(self):
-        self._assert_intent("current time in tokyo", "what.time.is.it.intent")
+        self._assert_intent("current time in tokyo", "what_time_is_it.intent")
 
     # --- current_date.intent ---
     def test_what_date_is_it(self):
@@ -102,14 +102,14 @@ class TestIntentRouting(TestCase):
     def test_tell_me_the_date(self):
         self._assert_intent("tell me the date", "current_date.intent")
 
-    # --- what.day.is.it.intent ---
+    # --- what_day_is_it.intent ---
     def test_what_day_is_it(self):
-        self._assert_intent("what day is it", "what.day.is.it.intent")
+        self._assert_intent("what day is it", "what_day_is_it.intent")
 
-    # --- what.month.is.it.intent ---
+    # --- what_month_is_it.intent ---
     def test_what_month_is_it(self):
-        self._assert_intent("what month is it", "what.month.is.it.intent")
+        self._assert_intent("what month is it", "what_month_is_it.intent")
 
-    # --- what.year.is.it.intent ---
+    # --- what_year_is_it.intent ---
     def test_what_year_is_it(self):
-        self._assert_intent("what year is it", "what.year.is.it.intent")
+        self._assert_intent("what year is it", "what_year_is_it.intent")
