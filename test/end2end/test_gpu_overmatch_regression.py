@@ -1,7 +1,7 @@
 """Regression test: date-time must not steal "is there a gpu in your
 system" from ovos-skill-diagnostics under the REAL default pipeline.
 
-Root cause (pre-fix): ``locale/en-US/intents/weekday.matches.date.intent``
+Root cause (pre-fix): ``locale/en-US/intents/weekday_matches_date.intent``
 carried two bare, unqualified samples --
 
     is {date} a {weekday}
@@ -25,7 +25,7 @@ This test boots a two-skill MiniCroft (date-time + diagnostics) under the
 REAL OVOS default pipeline (see
 /home/miro/AgentWorkspaces/ovos/core/ovos-config/ovos_config/mycroft.conf
 lines ~218-231 -- NOT ovoscope's broader DEFAULT_TEST_PIPELINE constant) and
-asserts date-time's weekday.matches.date intent no longer claims the
+asserts date-time's weekday_matches_date intent no longer claims the
 utterance.
 
 Run: pytest test/end2end/test_gpu_overmatch_regression.py -v --timeout=150
@@ -42,7 +42,7 @@ from ovoscope import get_minicroft
 
 INTENT_FILE = os.path.join(
     os.path.dirname(__file__), "..", "..",
-    "locale", "en-US", "intents", "weekday.matches.date.intent")
+    "locale", "en-US", "intents", "weekday_matches_date.intent")
 
 DATE_TIME_SKILL_ID = "ovos-skill-date-time.openvoiceos"
 DIAGNOSTICS_SKILL_ID = "ovos-skill-diagnostics.openvoiceos"
@@ -71,15 +71,15 @@ REAL_DEFAULT_PIPELINE = [
 
 UTTERANCE = "is there a gpu in your system"
 
-# date-time's own weekday.matches.date intent event, the thing that used to
+# date-time's own weekday_matches_date intent event, the thing that used to
 # fire (falsely) for this utterance.
-DATE_TIME_EVENT = f"{DATE_TIME_SKILL_ID}:weekday.matches.date"
+DATE_TIME_EVENT = f"{DATE_TIME_SKILL_ID}:weekday_matches_date"
 
 
 class TestGpuOvermatchEngineLevel(TestCase):
     """Fast, deterministic root-cause proof at the padatious-engine level
     (no MiniCroft boot): before the fix, "is there a gpu in your system"
-    scores confidence 1.0 against weekday.matches.date (a bare "is {date}
+    scores confidence 1.0 against weekday_matches_date (a bare "is {date}
     a {weekday}" sample structurally matches it token-for-token); after
     dropping the two bare unqualified samples, confidence drops to ~0.52,
     well below what any padatious-high tier treats as a winning match.
@@ -99,7 +99,7 @@ class TestGpuOvermatchEngineLevel(TestCase):
             data = c.calc_intent("is there a gpu in your system")
             self.assertLess(
                 data.conf, 0.8,
-                f"weekday.matches.date still near-perfectly matches the "
+                f"weekday_matches_date still near-perfectly matches the "
                 f"GPU utterance (conf={data.conf}); over-general sample(s) "
                 f"not fully removed")
 

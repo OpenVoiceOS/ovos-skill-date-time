@@ -1,4 +1,4 @@
-"""Regression test for the is.leap.year.intent dialog-data bug.
+"""Regression test for the is_leap_year.intent dialog-data bug.
 
 Bug: when the queried year was NOT a leap year, the "no" dialogs were fed
 ``get_next_leap_year(...)`` instead of the actually-queried year, so e.g.
@@ -37,7 +37,7 @@ class TestLeapYearDialog(unittest.TestCase):
         now = datetime.datetime(2025, 6, 1)
         speak_dialog = self._run("is this year a leap year", now)
         speak_dialog.assert_called_once_with(
-            "leap.year.current.no", {"year": 2025}
+            "leap_year_current_no", {"year": 2025}
         )
 
     def test_leap_current_year_still_speaks_positive_dialog(self):
@@ -45,7 +45,7 @@ class TestLeapYearDialog(unittest.TestCase):
         now = datetime.datetime(2024, 6, 1)
         speak_dialog = self._run("is this year a leap year", now)
         speak_dialog.assert_called_once_with(
-            "leap.year.current.yes", {"year": 2024}
+            "leap_year_current_yes", {"year": 2024}
         )
 
     def test_non_leap_next_year_speaks_queried_year(self):
@@ -54,7 +54,7 @@ class TestLeapYearDialog(unittest.TestCase):
         now = datetime.datetime(2025, 6, 1)
         speak_dialog = self._run("is next year a leap year", now)
         speak_dialog.assert_called_once_with(
-            "leap.year.next.no", {"year": 2026}
+            "leap_year_next_no", {"year": 2026}
         )
 
     def test_leap_next_year_still_speaks_positive_dialog(self):
@@ -62,7 +62,7 @@ class TestLeapYearDialog(unittest.TestCase):
         now = datetime.datetime(2023, 6, 1)
         speak_dialog = self._run("is next year a leap year", now)
         speak_dialog.assert_called_once_with(
-            "leap.year.next.yes", {"year": 2024}
+            "leap_year_next_yes", {"year": 2024}
         )
 
     def test_non_leap_either_scope_names_the_true_next_leap_year(self):
@@ -74,7 +74,7 @@ class TestLeapYearDialog(unittest.TestCase):
         now = datetime.datetime(2026, 6, 1)
         speak_dialog = self._run("is this year a leap year or next", now)
         speak_dialog.assert_called_once_with(
-            "leap.year.either.no", {"year": 2028}
+            "leap_year_either_no", {"year": 2028}
         )
 
 

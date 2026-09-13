@@ -45,10 +45,10 @@ GOLDEN_ROWS = [
 #
 # - "is next year a leap year" / "is this year a leap year" / "is this year
 #   a leap year or next" were vendored into golden_utterances.jsonl with the
-#   WRONG label (next.leap.year.intent / handle_query_next_leap_year). The
+#   WRONG label (next_leap_year.intent / handle_query_next_leap_year). The
 #   canonical source corpus
 #   (/home/miro/AgentWorkspaces/knowledge/datasets/ovoscope/test_dataset.jsonl)
-#   actually labels all three against is.leap.year.intent /
+#   actually labels all three against is_leap_year.intent /
 #   handle_is_leap_year, matching the skill's real (and correct) behavior.
 #   Re-vendored with the correct label; these now pass as ordinary rows.
 # - "in something hour what time will it be" (+3 variants) were xfailed as
