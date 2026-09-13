@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.0a1) (2026-09-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.3.2a1...1.4.0a1)
+
+**Merged pull requests:**
+
+- feat\(locale\): parity for ovos-skill-date-time \(10 locales\) [\#312](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/312) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.3.2a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.3.2a1) (2026-09-13)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.3.1a1...1.3.2a1)
@@ -363,10 +371,6 @@
 ## [1.1.8a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a2) (2026-03-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a1...1.1.8a2)
-
-**Merged pull requests:**
-
-- translate\(it-IT\): update next.leap.year.intent [\#202](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/202) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 
 ## [1.1.8a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a1) (2026-03-24)
 
