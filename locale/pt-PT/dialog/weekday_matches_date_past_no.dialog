@@ -1,1 +1,1 @@
-Não, {date} era {actual_weekday}, não {weekday}.
+Não, {date} foi {actual_weekday}, não {weekday}.

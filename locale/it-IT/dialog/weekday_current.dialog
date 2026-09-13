@@ -1,4 +1,4 @@
 È {weekday}
-E '{weekday} oggi
-L'attuale giorno feriale è {weekday}
+È {weekday} oggi
+Il giorno della settimana attuale è {weekday}
 Oggi è {weekday}
