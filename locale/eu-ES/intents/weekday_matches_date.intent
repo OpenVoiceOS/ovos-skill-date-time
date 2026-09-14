@@ -1,0 +1,4 @@
+{date} data {weekday}(e)a al da [mesedez]
+erortzen al da {date} eguna {weekday}(e)an
+izango al da {date} eguna {weekday}(e)a
+izan al zen {date} eguna {weekday}(e)a
