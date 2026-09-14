@@ -1,8 +1,7 @@
 """End-to-end intent-routing test for ovos-skill-date-time (it-IT).
 
-Covers the offset query "che ora sarà tra {offset} minuti", which relies on
-locale/it-IT/offset.entity holding numeric slot VALUES for {offset} rather
-than intent sentences.
+Covers the offset query "che ora sarà tra {number:offset} minuti". The slot is
+typed (OVOS-INTENT-1 5.6); there is no offset.entity.
 
 Run: pytest test/end2end/ -v
 """
