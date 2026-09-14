@@ -6,10 +6,15 @@ key) and the intent tests still pass, because they only check routing.
 
 This test reads the dialog keys from the skill code with ``ast``:
 
-- the literal first argument of ``speak_dialog``, ``speak_time`` and
-  ``get_response``;
+- the literal dialog argument of every call in ``SPEAK_CALLS``, given
+  by position or by keyword (``speak_dialog(key="month_current")``);
 - every string literal assigned to a variable that one of those calls
-  receives as its first argument (``dialog = "a" if x else "b"``).
+  receives as that argument (``dialog = "a" if x else "b"``).
+
+A name that any assignment builds at run time (an f-string, a ``+``
+concatenation, a ``+=``) is never read as a key. The call is listed in
+``unresolved`` instead, so the failure says "built at run time" and not
+"no dialog file".
 
 It then checks each key in every shipped locale, in two ways: the file
 ``<key>.dialog`` exists, and the skill's own dialog renderer does not give
@@ -30,8 +35,16 @@ ROOT = Path(__file__).resolve().parents[2]
 LOCALE_DIR = ROOT / "locale"
 SKILL_CODE = ROOT / "__init__.py"
 SKILL_ID = "ovos-skill-date-time.openvoiceos"
-SPEAK_CALLS = {"speak_dialog", "speak_time", "get_response",
-               "ask_yesno", "ask_selection"}
+# Call name -> (index of the positional dialog argument, keyword names
+# that carry the same argument). ``ask_selection`` takes the options first
+# and the dialog second.
+SPEAK_CALLS = {
+    "speak_dialog": (0, ("key",)),
+    "speak_time": (0, ("key",)),
+    "get_response": (0, ("dialog",)),
+    "ask_yesno": (0, ("prompt",)),
+    "ask_selection": (1, ("dialog",)),
+}
 
 # Dialog keys that a locale does not ship yet. A handler in these locales
 # speaks the raw key. Remove a key here when its translation lands.
@@ -214,16 +227,40 @@ def _call_name(node):
     return None
 
 
-def _string_constants(node):
-    return {n.value for n in ast.walk(node)
-            if isinstance(n, ast.Constant) and isinstance(n.value, str)}
+def _literal_values(node):
+    """Return the string constants ``node`` can give, or ``None``.
+
+    ``None`` means the value is built at run time. Only a string constant
+    and a conditional expression of string constants are literal.
+    """
+    if isinstance(node, ast.Constant) and isinstance(node.value, str):
+        return {node.value}
+    if isinstance(node, ast.IfExp):
+        body = _literal_values(node.body)
+        orelse = _literal_values(node.orelse)
+        if body is None or orelse is None:
+            return None
+        return body | orelse
+    return None
+
+
+def _dialog_argument(node, name):
+    """Return the dialog argument node of a call, or ``None``."""
+    index, keywords = SPEAK_CALLS[name]
+    if len(node.args) > index:
+        return node.args[index]
+    for keyword in node.keywords:
+        if keyword.arg in keywords:
+            return keyword.value
+    return None
 
 
 def spoken_dialog_keys(code):
     """Return (keys, unresolved) for the skill code.
 
-    ``unresolved`` names each call whose first argument is not a literal
-    and not a local variable with string literal assignments.
+    ``unresolved`` names each call whose dialog argument is absent, is
+    not a literal, and is not a local variable that only string literals
+    assign.
     """
     keys, unresolved = set(), []
     tree = ast.parse(code)
@@ -231,29 +268,44 @@ def spoken_dialog_keys(code):
         if not isinstance(func, (ast.FunctionDef, ast.AsyncFunctionDef)):
             continue
         params = {a.arg for a in func.args.args + func.args.kwonlyargs}
-        assigned = {}
+        assigned, runtime = {}, set()
         for node in ast.walk(func):
             if isinstance(node, ast.Assign):
-                for target in node.targets:
-                    if isinstance(target, ast.Name):
-                        assigned.setdefault(target.id, set()).update(
-                            _string_constants(node.value))
-        for node in ast.walk(func):
-            if not (isinstance(node, ast.Call)
-                    and _call_name(node) in SPEAK_CALLS and node.args):
+                targets, value = node.targets, node.value
+            elif isinstance(node, ast.AnnAssign):
+                targets, value = [node.target], node.value
+            elif isinstance(node, ast.AugAssign):
+                # "name += ..." always builds the value at run time
+                targets, value = [node.target], None
+            else:
                 continue
-            first = node.args[0]
-            if isinstance(first, ast.Constant) and isinstance(first.value, str):
-                keys.add(first.value)
-            elif isinstance(first, ast.Name) and assigned.get(first.id):
-                keys.update(assigned[first.id])
-            elif isinstance(first, ast.Name) and first.id in params \
+            values = None if value is None else _literal_values(value)
+            for target in targets:
+                if not isinstance(target, ast.Name):
+                    continue
+                if values is None:
+                    runtime.add(target.id)
+                else:
+                    assigned.setdefault(target.id, set()).update(values)
+        for node in ast.walk(func):
+            name = _call_name(node) if isinstance(node, ast.Call) else None
+            if name not in SPEAK_CALLS:
+                continue
+            where = f"{func.name}:{node.lineno}"
+            argument = _dialog_argument(node, name)
+            literal = None if argument is None else _literal_values(argument)
+            if literal is not None:
+                keys.update(literal)
+            elif isinstance(argument, ast.Name) and argument.id not in runtime \
+                    and assigned.get(argument.id):
+                keys.update(assigned[argument.id])
+            elif isinstance(argument, ast.Name) and argument.id in params \
                     and func.name in SPEAK_CALLS:
                 # a speak helper that forwards its own parameter; the
                 # callers supply the literal
                 continue
             else:
-                unresolved.append(f"{func.name}:{node.lineno}")
+                unresolved.append(where)
     return keys, unresolved
 
 
@@ -289,6 +341,53 @@ class TestSpokenDialogKeysStatic(unittest.TestCase):
     def test_every_dialog_argument_is_resolvable(self):
         self.assertEqual(self.unresolved, [],
                          "dialog names built at run time; list them by hand")
+
+    def test_a_run_time_name_is_unresolved_not_a_fragment(self):
+        # positive control first: the same shape with constants resolves
+        literal = """
+def handle_month(self, message):
+    dialog = "month_current" if message else "month_next"
+    self.speak_dialog(dialog)
+"""
+        keys, unresolved = spoken_dialog_keys(literal)
+        self.assertEqual(keys, {"month_current", "month_next"})
+        self.assertEqual(unresolved, [])
+        # an f-string, a "+" and a "+=" each give no key and one entry
+        for value in ('f"month_{when}"',
+                      '"month_" + when',
+                      '"month_"\n    dialog += when'):
+            code = f"""
+def handle_month(self, when):
+    dialog = {value}
+    self.speak_dialog(dialog)
+"""
+            keys, unresolved = spoken_dialog_keys(code)
+            self.assertEqual(keys, set(), value)
+            self.assertEqual(len(unresolved), 1, value)
+            self.assertTrue(unresolved[0].startswith("handle_month:"), value)
+
+    def test_a_keyword_dialog_argument_is_read(self):
+        code = """
+def handle_month(self, message):
+    self.speak_dialog(key="month_current")
+    self.get_response(dialog="did_you_mean_timezone")
+    self.ask_yesno(prompt="leap_year_current_no")
+    self.ask_selection(options, dialog="next_leap_year")
+"""
+        keys, unresolved = spoken_dialog_keys(code)
+        self.assertEqual(keys, {"month_current", "did_you_mean_timezone",
+                                "leap_year_current_no", "next_leap_year"})
+        self.assertEqual(unresolved, [])
+
+    def test_a_call_with_no_dialog_argument_is_unresolved(self):
+        # negative control: the call is listed, never skipped in silence
+        code = """
+def handle_month(self, **kwargs):
+    self.speak_dialog(**kwargs)
+"""
+        keys, unresolved = spoken_dialog_keys(code)
+        self.assertEqual(keys, set())
+        self.assertEqual(unresolved, ["handle_month:3"])
 
     def test_known_gaps_name_real_locales_and_keys(self):
         locales = set(shipped_locales())
