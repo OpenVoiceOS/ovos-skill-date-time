@@ -320,8 +320,8 @@ class TestSpokenDialogKeysRender(unittest.TestCase):
             cls._saved[var] = os.environ.get(var)
             os.environ[var] = os.path.join(cls._xdg.name, var.lower())
 
-        from ovos_utils.messagebus import FakeBus
         from ovos_skill_date_time import TimeSkill
+        from ovos_utils.messagebus import FakeBus
 
         cls.skill = TimeSkill()
         cls.skill._startup(FakeBus(), SKILL_ID)
