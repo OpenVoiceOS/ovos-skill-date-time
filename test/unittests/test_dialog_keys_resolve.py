@@ -30,7 +30,8 @@ ROOT = Path(__file__).resolve().parents[2]
 LOCALE_DIR = ROOT / "locale"
 SKILL_CODE = ROOT / "__init__.py"
 SKILL_ID = "ovos-skill-date-time.openvoiceos"
-SPEAK_CALLS = {"speak_dialog", "speak_time", "get_response"}
+SPEAK_CALLS = {"speak_dialog", "speak_time", "get_response",
+               "ask_yesno", "ask_selection"}
 
 # Dialog keys that a locale does not ship yet. A handler in these locales
 # speaks the raw key. Remove a key here when its translation lands.
@@ -98,6 +99,7 @@ KNOWN_GAPS = {
     "kab": (
         "date_future_weekend",
         "date_last_weekend",
+        "did_you_mean_timezone",
         "extract_date_error",
         "leap_year_current_no",
         "leap_year_current_yes",
