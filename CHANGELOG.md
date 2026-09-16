@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.4a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.4a3) (2026-09-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.4a2...1.4.4a3)
+
+**Merged pull requests:**
+
+- translate\(kab\): update timezone.value [\#323](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/323) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [1.4.4a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.4a2) (2026-09-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.4a1...1.4.4a2)
