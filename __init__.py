@@ -302,8 +302,12 @@ class TimeSkill(OVOSSkill):
         timezones = self.resources.load_named_value_file("timezone.value", ',')
         for timezone in timezones:
             if location_string.lower() == timezone.lower():
-                # assumes translation is correct
-                return pytz.timezone(timezones[timezone].strip())
+                try:
+                    return pytz.timezone(timezones[timezone].strip())
+                except pytz.UnknownTimeZoneError:
+                    LOG.error(f"timezone.value maps {timezone!r} to "
+                              f"{timezones[timezone].strip()!r}, which pytz does not know")
+                    return None
         return None
 
     def _get_timezone_from_fuzzymatch(self, location_string: str) -> Optional[datetime.tzinfo]:
