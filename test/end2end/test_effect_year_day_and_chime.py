@@ -5,11 +5,11 @@ utterance routed to the expected ``.intent`` handler -- a handler that
 matched and then spoke nothing would still pass. This suite drives the same
 real MiniCroft bus and asserts the actual consequence:
 
-- "what year is it" (en-US) must speak the ``year.current`` dialog with the
+- "what year is it" (en-US) must speak the ``year_current`` dialog with the
   actual current year, computed by the test with ``nice_year`` and not read
   back from the skill.
 - "che giorno del mese è oggi" (it-IT, ``what.day.is.it.intent``) must speak
-  the ``day.current`` dialog with exactly today's rendered day, exercising
+  the ``day_current`` dialog with exactly today's rendered day, exercising
   the skill's it-IT locale -- a default en-US boot only registers en-US intents.
 
 Both expectations use ``ovos_utils.time.now_local()``, the configured-timezone
@@ -69,8 +69,8 @@ def test_current_year_speaks_actual_year_en_us():
     try:
         speak = _speak_dialog(mc, "what year is it", "en-US", "e2e-year-en")
         meta = speak.data["meta"]
-        assert meta["dialog"] == "year.current", (
-            f"expected year.current, got {meta['dialog']!r}"
+        assert meta["dialog"] == "year_current", (
+            f"expected year_current, got {meta['dialog']!r}"
         )
         expected_year = nice_year(now_local(), lang="en-US")
         assert meta["data"]["year"] == expected_year, (
@@ -87,8 +87,8 @@ def test_current_day_of_month_it_it():
             mc, "che giorno del mese è oggi", "it-IT", "e2e-day-it"
         )
         meta = speak.data["meta"]
-        assert meta["dialog"] == "day.current", (
-            f"expected day.current, got {meta['dialog']!r}"
+        assert meta["dialog"] == "day_current", (
+            f"expected day_current, got {meta['dialog']!r}"
         )
         expected_day = nice_day(now_local(), lang="it-IT")
         assert meta["data"]["day"] == expected_day, (
