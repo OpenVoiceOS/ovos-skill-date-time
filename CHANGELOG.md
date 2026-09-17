@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.4a6](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.4a6) (2026-09-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.4a5...1.4.4a6)
+
+**Merged pull requests:**
+
+- test: golden utterances for every locale [\#342](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/342) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.4.4a5](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.4a5) (2026-09-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.4a4...1.4.4a5)
@@ -203,19 +211,19 @@
 
 ## [1.1.17a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.17a1) (2026-08-26)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a2...1.1.17a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a3...1.1.17a1)
 
 **Merged pull requests:**
 
 - fix: rename bare lang code locale directories [\#277](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/277) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 
-## [1.1.16a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a2) (2026-08-25)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a3...1.1.16a2)
-
 ## [1.1.16a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a3) (2026-08-25)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a1...1.1.16a3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a2...1.1.16a3)
+
+## [1.1.16a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a2) (2026-08-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a1...1.1.16a2)
 
 **Merged pull requests:**
 
@@ -361,17 +369,9 @@
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a15...1.1.8a16)
 
-**Merged pull requests:**
-
-- translate\(fa-IR\): update month.current.dialog [\#227](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/227) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
-
 ## [1.1.8a15](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a15) (2026-04-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a14...1.1.8a15)
-
-**Merged pull requests:**
-
-- translate\(fa-IR\): update offset.entity [\#228](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/228) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 
 ## [1.1.8a14](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a14) (2026-04-01)
 
