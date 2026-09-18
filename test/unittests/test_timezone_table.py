@@ -62,3 +62,58 @@ class TestTimezoneTable(unittest.TestCase):
             self.skill.handle_query_time(Message("test", {"utterance": "what time is it in Nowhere land",
                                                           "location": "Nowhere land"}))
         self.assertEqual(spoken, ["time_tz_not_found"])
+
+
+class TestEveryLocaleTimezoneTable(unittest.TestCase):
+    """Every locale's table resolves, and every id is one en-US uses, or a
+    listed extra with the offset its name promises.
+
+    Before this test 20 languages mapped their word for China to Etc/GMT+8
+    (UTC-8, the POSIX sign), 21 kept the removed US/Pacific-New, fr-FR held
+    translated ids (Etats-Unis/Centre), cs-CZ translated "Etc" into "atd",
+    and fa-IR carried no id at all. A translated locale names the same
+    places as en-US, so its ids come from the en-US set; a locale that adds
+    a place lists it in EXTRA with the offset the name promises.
+    """
+
+    UTC_JAN = datetime.datetime(2026, 1, 1, tzinfo=pytz.utc)
+    UTC_JUL = datetime.datetime(2026, 7, 1, tzinfo=pytz.utc)
+    HOUR = datetime.timedelta(hours=1)
+    # {lang: {id: (january offset, july offset)}}
+    EXTRA = {
+        "cs-CZ": {"CET": (HOUR, 2 * HOUR)},
+        "pl-PL": {"Etc/GMT-1": (HOUR, HOUR), "Etc/GMT-2": (2 * HOUR, 2 * HOUR)},
+    }
+
+    @staticmethod
+    def _rows(path):
+        rows = []
+        for line in path.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line and not line.startswith("#"):
+                name, _, tz = line.rpartition(",")
+                rows.append((name.strip(), tz.strip()))
+        return rows
+
+    def _offsets(self, tz_name):
+        tz = pytz.timezone(tz_name)
+        return (self.UTC_JAN.astimezone(tz).utcoffset(), self.UTC_JUL.astimezone(tz).utcoffset())
+
+    def test_every_row_of_every_locale_resolves_to_an_en_us_id_or_a_listed_extra(self):
+        locale = ROOT / "locale"
+        en_ids = {tz for _, tz in self._rows(locale / "en-US" / "timezone.value")}
+        for path in sorted(locale.glob("*/timezone.value")):
+            lang = path.parent.name
+            rows = self._rows(path)
+            with self.subTest(lang=lang):
+                self.assertGreater(len(rows), 5, f"{lang} table is empty or short")
+                for name, tz in rows:
+                    with self.subTest(lang=lang, name=name):
+                        self.assertTrue(tz, f"{lang}: {name!r} carries no timezone id")
+                        got = self._offsets(tz)  # UnknownTimeZoneError on a bad id
+                        if tz in en_ids:
+                            continue
+                        self.assertIn(tz, self.EXTRA.get(lang, {}),
+                                      f"{lang}: {name!r} -> {tz!r} is not an en-US id and not a listed extra")
+                        self.assertEqual(got, self.EXTRA[lang][tz],
+                                         f"{lang}: {name!r} -> {tz} does not carry the offset its name promises")
