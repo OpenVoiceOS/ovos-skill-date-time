@@ -361,10 +361,6 @@
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a16...1.1.8a17)
 
-**Merged pull requests:**
-
-- translate\(nl-NL\): update current\_date.intent [\#231](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/231) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
-
 ## [1.1.8a16](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a16) (2026-04-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a15...1.1.8a16)
