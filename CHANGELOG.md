@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.7.0a1) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.6.1a1...1.7.0a1)
+
+**Merged pull requests:**
+
+- feat\(locale\): fill nl-NL, pt-PT, pt-BR, sv-FI, cs-CZ, hu-HU, pl-PL, ru-RU, tr-TR and fa-IR gaps against en-US [\#350](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/350) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.6.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.6.1a1) (2026-09-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.6.0a1...1.6.1a1)
@@ -243,19 +251,19 @@
 
 ## [1.1.17a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.17a1) (2026-08-26)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a3...1.1.17a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a2...1.1.17a1)
 
 **Merged pull requests:**
 
 - fix: rename bare lang code locale directories [\#277](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/277) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 
-## [1.1.16a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a3) (2026-08-25)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a2...1.1.16a3)
-
 ## [1.1.16a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a2) (2026-08-25)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a1...1.1.16a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a3...1.1.16a2)
+
+## [1.1.16a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a3) (2026-08-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a1...1.1.16a3)
 
 **Merged pull requests:**
 
@@ -360,10 +368,6 @@
 ## [1.1.10a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.10a2) (2026-04-09)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.10a1...1.1.10a2)
-
-**Merged pull requests:**
-
-- chore\(ovos-skill-date-time\): allow ovos-workshop\<9.0.0 [\#240](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/240) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [1.1.10a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.10a1) (2026-04-04)
 
