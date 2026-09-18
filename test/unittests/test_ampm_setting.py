@@ -13,6 +13,11 @@ from ovos_skill_date_time import TimeSkill
 # pinned UTC timezone) and evening in Asia/Tokyo (UTC+9) -- deterministic
 # AM/PM regardless of the real wall-clock time the suite runs at.
 _ANCHOR_UTC = datetime.datetime(2024, 6, 15, 9, 0, tzinfo=pytz.utc)
+# The same day in the afternoon, so the local (no-location) 12-hour case can
+# assert p.m. the way the morning case asserts a.m. Without it the only p.m.
+# assertion in this file goes through a location, and a regression that broke
+# p.m. for the local clock alone would pass.
+_ANCHOR_UTC_PM = datetime.datetime(2024, 6, 15, 15, 0, tzinfo=pytz.utc)
 
 
 class TestAmpmSetting(unittest.TestCase):
@@ -41,6 +46,12 @@ class TestAmpmSetting(unittest.TestCase):
         self.assertFalse(self.skill.use_24hour)
         self.assertIn("a.m.", self.skill.get_spoken_time(anchor_date=_ANCHOR_UTC))
         self.assertIn("AM", self.skill.get_display_time(anchor_date=_ANCHOR_UTC))
+
+    def test_12h_local_time_says_pm_in_the_afternoon(self):
+        SessionManager.get().time_format = "half"
+        self.assertFalse(self.skill.use_24hour)
+        self.assertIn("p.m.", self.skill.get_spoken_time(anchor_date=_ANCHOR_UTC_PM))
+        self.assertIn("PM", self.skill.get_display_time(anchor_date=_ANCHOR_UTC_PM))
 
     def test_24h_local_time_says_no_ampm(self):
         SessionManager.get().time_format = "full"
