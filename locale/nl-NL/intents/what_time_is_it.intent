@@ -1,11 +1,13 @@
-Geef mij de huidige tijd.
-Heb je de tijd voor me?
-Hoe laat is het bij jou?
-Hoe laat is het nu, als u het niet erg vindt?
+Geef mij de huidige tijd
+Heb je de tijd voor me
+Hoe laat is het bij jou
+Hoe laat is het nu, als u het niet erg vindt
 Hoe laat is het nu?
-Hoe laat is het op dit moment?
-Hoe laat is het volgens jouw klok?
-Hoe laat is het?
+Hoe laat is het op dit moment
+Hoe laat is het volgens jouw klok
+Hoe laat is het
+hoe laat is het
+hoe laat is het in {location}
 Hoe laat leven we
 Ik ben benieuwd naar de tijd
 Ik ben benieuwd, hoe laat is het?
@@ -61,7 +63,11 @@ tijd alstublieft
 tijd nu alstublieft
 vertel me hoe laat het is
 wat is de huidige tijd
+wat is de huidige tijd in {location}
+wat is de tijd
+wat is de tijd in {location}
 wat zegt de klok
 wat zegt de klok nu?
 wat zegt de klok?
 weet je hoe laat het is
+weet je hoe laat het is in {location}
