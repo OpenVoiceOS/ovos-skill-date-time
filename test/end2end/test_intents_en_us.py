@@ -86,7 +86,7 @@ _LOCAL_DT = FROZEN_UTC.astimezone(pytz.timezone(PINNED_TZ))
 # Expected values, one per intent, each computed by ovos_date_parser against
 # the frozen/pinned datetime with the exact arguments the handler itself
 # passes (see __init__.py: handle_query_time -> nice_time(..., use_24hour=
-# False, use_ampm=False) when no location slot; handle_current_date ->
+# False, use_ampm=True) when no location slot; handle_current_date ->
 # nice_date(dt, lang); handle_current_day -> nice_day(now, lang);
 # handle_current_month -> nice_month(now, lang); handle_current_year ->
 # nice_year(now, lang)). Using the same well-tested formatting library the
@@ -97,28 +97,31 @@ _LOCAL_DT = FROZEN_UTC.astimezone(pytz.timezone(PINNED_TZ))
 # dialog family fails these checks even though ovos_date_parser itself is
 # never in question.
 _EFFECTS = {
-    "what.time.is.it.intent": {
-        "dialog": "time.current",
+    "what_time_is_it.intent": {
+        "dialog": "time_current",
         "slot": "time",
-        "value": nice_time(_LOCAL_DT, lang=LANG, speech=True, use_24hour=False, use_ampm=False),
+        # The 12-hour clock speaks the meridiem: dev's own
+        # test_12h_local_time_says_ampm asserts "a.m." is in the spoken time,
+        # and this row is the same clock at 12:30 in the afternoon.
+        "value": nice_time(_LOCAL_DT, lang=LANG, speech=True, use_24hour=False, use_ampm=True),
     },
     "current_date.intent": {
         "dialog": "date",
         "slot": "date",
         "value": nice_date(_LOCAL_DT, lang=LANG),
     },
-    "what.day.is.it.intent": {
-        "dialog": "day.current",
+    "what_day_is_it.intent": {
+        "dialog": "day_current",
         "slot": "day",
         "value": nice_day(_LOCAL_DT, lang=LANG),
     },
-    "what.month.is.it.intent": {
-        "dialog": "month.current",
+    "what_month_is_it.intent": {
+        "dialog": "month_current",
         "slot": "month",
         "value": nice_month(_LOCAL_DT, lang=LANG),
     },
-    "what.year.is.it.intent": {
-        "dialog": "year.current",
+    "what_year_is_it.intent": {
+        "dialog": "year_current",
         "slot": "year",
         "value": nice_year(_LOCAL_DT, lang=LANG),
     },
@@ -255,18 +258,18 @@ class TestIntentRouting(TestCase):
             f"(frozen {_LOCAL_DT.isoformat()} in {PINNED_TZ}), got {spoken!r}",
         )
 
-    # --- what.time.is.it.intent ---
+    # --- what_time_is_it.intent ---
     def test_what_time_is_it(self):
-        self._assert_intent("what time is it", "what.time.is.it.intent")
+        self._assert_intent("what time is it", "what_time_is_it.intent")
 
     def test_whats_the_time(self):
-        self._assert_intent("what's the time now", "what.time.is.it.intent")
+        self._assert_intent("what's the time now", "what_time_is_it.intent")
 
     def test_what_time_is_it_in_location(self):
-        self._assert_intent("current time in tokyo", "what.time.is.it.intent")
+        self._assert_intent("current time in tokyo", "what_time_is_it.intent")
 
     def test_what_time_is_it_effect(self):
-        self._assert_effect("what time is it", "what.time.is.it.intent")
+        self._assert_effect("what time is it", "what_time_is_it.intent")
 
     # --- current_date.intent ---
     def test_what_date_is_it(self):
@@ -278,23 +281,23 @@ class TestIntentRouting(TestCase):
     def test_what_date_is_it_effect(self):
         self._assert_effect("what date is it", "current_date.intent")
 
-    # --- what.day.is.it.intent ---
+    # --- what_day_is_it.intent ---
     def test_what_day_is_it(self):
-        self._assert_intent("what day is it", "what.day.is.it.intent")
+        self._assert_intent("what day is it", "what_day_is_it.intent")
 
     def test_what_day_is_it_effect(self):
-        self._assert_effect("what day is it", "what.day.is.it.intent")
+        self._assert_effect("what day is it", "what_day_is_it.intent")
 
-    # --- what.month.is.it.intent ---
+    # --- what_month_is_it.intent ---
     def test_what_month_is_it(self):
-        self._assert_intent("what month is it", "what.month.is.it.intent")
+        self._assert_intent("what month is it", "what_month_is_it.intent")
 
     def test_what_month_is_it_effect(self):
-        self._assert_effect("what month is it", "what.month.is.it.intent")
+        self._assert_effect("what month is it", "what_month_is_it.intent")
 
-    # --- what.year.is.it.intent ---
+    # --- what_year_is_it.intent ---
     def test_what_year_is_it(self):
-        self._assert_intent("what year is it", "what.year.is.it.intent")
+        self._assert_intent("what year is it", "what_year_is_it.intent")
 
     def test_what_year_is_it_effect(self):
-        self._assert_effect("what year is it", "what.year.is.it.intent")
+        self._assert_effect("what year is it", "what_year_is_it.intent")

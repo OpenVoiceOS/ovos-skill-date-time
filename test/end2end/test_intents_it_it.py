@@ -66,8 +66,8 @@ class TestIntentRoutingItIt(TestCase):
             f"{utterance!r} did not route to {intent_file}",
         )
 
-    # --- what.time.will.it.be.intent ---
+    # --- what_time_will_it_be.intent ---
     def test_che_ora_sara_tra_10_minuti(self):
         self._assert_intent(
-            "che ora sarà tra 10 minuti", "what.time.will.it.be.intent"
+            "che ora sarà tra 10 minuti", "what_time_will_it_be.intent"
         )

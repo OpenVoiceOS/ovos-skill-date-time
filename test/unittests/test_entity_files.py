@@ -25,3 +25,22 @@ class TestEntityFilesHoldValuesNotSentences(unittest.TestCase):
                     elif line[-1] in ".?!":
                         offenders.append(f"{path}:{lineno}: {line!r} (ends in sentence punctuation)")
         self.assertFalse(offenders, "\n".join(offenders))
+
+
+class TestEntityFilesHaveSamples(unittest.TestCase):
+    """ovos-workshop reads a ``#`` line as a comment. A ``.entity`` file with
+    only comment or blank lines has no samples, and the entity is not
+    registered: "not registering entity ... it has no valid samples".
+    """
+
+    def test_every_entity_file_has_a_sample_line(self):
+        paths = sorted(glob.glob(join(_LOCALE_DIR, "*", "*.entity")))
+        self.assertTrue(paths, f"no .entity file found under {_LOCALE_DIR}")
+        empty = []
+        for path in paths:
+            with open(path, encoding="utf-8") as f:
+                samples = [line for line in f
+                           if line.strip() and not line.lstrip().startswith("#")]
+            if not samples:
+                empty.append(path)
+        self.assertFalse(empty, "\n".join(empty))

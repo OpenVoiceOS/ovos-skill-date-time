@@ -37,7 +37,7 @@ jobs:
       # never invoked there. test_gpu_overmatch_regression.py (added
       # alongside this change) DOES need the real ovos-padatious pipeline
       # plugin -- it reproduces/guards a padatious-high over-match defect
-      # in weekday.matches.date.intent -- so padatious now has to be
+      # in weekday_matches_date.intent -- so padatious now has to be
       # installed for this job.
       require_padatious: true
       # The 45s/row deadline exhaustion was a downstream symptom of the
