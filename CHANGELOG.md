@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.0a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.7.0a3) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.7.0a2...1.7.0a3)
+
+**Merged pull requests:**
+
+- test: assert spoken effects, not just routing, in date-time e2e suite [\#306](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/306) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.7.0a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.7.0a2) (2026-09-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.7.0a1...1.7.0a2)
@@ -259,19 +267,19 @@
 
 ## [1.1.17a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.17a1) (2026-08-26)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a3...1.1.17a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a2...1.1.17a1)
 
 **Merged pull requests:**
 
 - fix: rename bare lang code locale directories [\#277](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/277) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 
-## [1.1.16a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a3) (2026-08-25)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a2...1.1.16a3)
-
 ## [1.1.16a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a2) (2026-08-25)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a1...1.1.16a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a3...1.1.16a2)
+
+## [1.1.16a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a3) (2026-08-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a1...1.1.16a3)
 
 **Merged pull requests:**
 
@@ -353,17 +361,9 @@
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.11a1...1.1.11a2)
 
-**Merged pull requests:**
-
-- chore: add ovoscope end2end intent-routing tests [\#244](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/244) ([JarbasAl](https://github.com/JarbasAl))
-
 ## [1.1.11a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.11a1) (2026-06-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.10a4...1.1.11a1)
-
-**Merged pull requests:**
-
-- fix\(deps\): allow ovos-workshop 9.x \(widen \<9.0.0 -\> \<10.0.0\) [\#245](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/245) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [1.1.10a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.10a4) (2026-05-10)
 
