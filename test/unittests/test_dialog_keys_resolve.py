@@ -49,6 +49,28 @@ SPEAK_CALLS = {
 # Dialog keys that a locale does not ship yet. A handler in these locales
 # speaks the raw key. Remove a key here when its translation lands.
 KNOWN_GAPS = {
+    "kab": (
+        "date_future_weekend",
+        "date_last_weekend",
+        "did_you_mean_timezone",
+        "extract_date_error",
+        "leap_year_current_no",
+        "leap_year_current_yes",
+        "leap_year_either_no",
+        "leap_year_either_yes",
+        "leap_year_next_no",
+        "leap_year_next_yes",
+        "month_current",
+        "next_leap_year",
+        "time_current",
+        "time_future",
+        "time_tz_not_found",
+        "weekday_at_date_future",
+        "weekday_at_date_past",
+        "weekday_current",
+        "weekday_matches_date_past_no",
+        "weekday_matches_date_past_yes",
+    ),
     "sv-FI": (
         "day_current",
         "extract_date_error",
