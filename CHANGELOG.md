@@ -1,14 +1,5 @@
 # Changelog
 
-## [1.7.2a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.7.2a1) (2026-09-19)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.7.1a1...1.7.2a1)
-
-**Merged pull requests:**
-
-- feat\(locale\): add the kab did\_you\_mean\_timezone dialog [\#357](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/357) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
-- fix\(locale\): translate the ru-RU and tr-TR timezone.value names [\#356](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/356) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
-
 ## [1.7.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.7.1a1) (2026-09-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.7.0a3...1.7.1a1)
