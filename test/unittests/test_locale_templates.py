@@ -52,7 +52,9 @@ class TestLocaleTemplates(TestCase):
             if path.suffix != ".intent":
                 continue
             for slot in re.findall(r"\{([^{}]+)\}", line):
-                if slot.strip() not in CANONICAL_SLOTS:
+                # OVOS-INTENT-1 3.4: {number:offset} declares the slot `offset`;
+                # the type travels separately in `slot_types`
+                if slot.strip().split(":")[-1] not in CANONICAL_SLOTS:
                     rel = path.relative_to(LOCALE_DIR)
                     failures.append(f"{rel}:{lineno}: {{{slot}}}")
         self.assertEqual(failures, [],

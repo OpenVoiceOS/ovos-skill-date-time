@@ -13,5 +13,5 @@ jobs:
       python_version: '3.11'
       coverage_source: 'ovos_skill_date_time'
       test_path: 'test/unittests/'
-      install_extras: ''
+      install_extras: 'test'
       min_coverage: 0

@@ -497,6 +497,15 @@ class TimeSkill(OVOSSkill):
         normalizer = UtteranceNormalizerPlugin.get_normalizer(self.lang)
         utt = normalizer.normalize(message.data["utterance"])
 
+        # {number:offset} (OVOS-INTENT-1 5.6): the typed-slot map carries the
+        # number. None says nothing about why (no map, no parser for the
+        # language, nothing said), so ask for the offset instead of guessing.
+        if self.typed_slot(message, "offset") is None:
+            response = self.get_response("ask_offset")
+            if not response:
+                return
+            utt = normalizer.normalize(response)
+
         dt, utt = extract_datetime(utt, lang=self.lang) or (None, None)
         if not dt:
             self.handle_query_time(message)
