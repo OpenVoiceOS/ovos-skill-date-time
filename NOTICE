@@ -1,0 +1,34 @@
+ovos-skill-date-time
+Copyright the OpenVoiceOS contributors
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Timezone boundary data
+----------------------
+
+This skill resolves a timezone from coordinates using the `timezonefinder`
+package, which obtains its boundary database from the separate
+`timezonefinder-data` distribution:
+
+    https://github.com/jannikmi/timezonefinder
+
+That database is built by the timezone-boundary-builder project from
+OpenStreetMap data:
+
+    https://github.com/evansiroky/timezone-boundary-builder
+    https://www.openstreetmap.org/copyright
+
+It is licensed under the Open Database License (ODbL) v1.0:
+
+    https://opendatacommons.org/licenses/odbl/1-0/
+
+This distribution contains none of that database. `timezonefinder-data` is an
+ordinary dependency: pip installs it from its own package, which carries the
+data and the ODbL terms, and the skill queries it in place, unmodified. The
+credit above is given because the ODbL asks for attribution wherever the data
+travels, and because the terms have been accepted for this dependency rather
+than merely tolerated.
+
+The ODbL's share-alike clause binds a derivative of the database. Anyone who
+alters the boundary data and passes it on must offer the altered database under
+the ODbL. Using this skill, or building on its Apache-2.0 code, creates no such
+obligation.
