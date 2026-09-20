@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.8.1a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.8.1a2) (2026-09-20)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.8.1a1...1.8.1a2)
+
+**Merged pull requests:**
+
+- translate\(nl-NL\): update current\_date.intent [\#364](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/364) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [1.8.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.8.1a1) (2026-09-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.8.0a1...1.8.1a1)
@@ -355,11 +363,6 @@
 ## [1.1.14a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.14a2) (2026-08-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.14a1...1.1.14a2)
-
-**Merged pull requests:**
-
-- docs: rewrite README in Simplified Technical English [\#258](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/258) ([JarbasAl](https://github.com/JarbasAl))
-- fix\(da-DK\): add two entirely missing features \(leap year, weekday matches date\) [\#257](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/257) ([andlo](https://github.com/andlo))
 
 ## [1.1.14a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.14a1) (2026-07-17)
 
