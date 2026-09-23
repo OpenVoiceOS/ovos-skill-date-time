@@ -494,15 +494,20 @@ class TimeSkill(OVOSSkill):
         utt = normalizer.normalize(message.data["utterance"])
 
         # {number:offset} (OVOS-INTENT-1 5.6): the typed-slot map carries the
-        # number. None says nothing about why (no map, no parser for the
-        # language, nothing said), so ask for the offset instead of guessing.
-        if self.typed_slot(message, "offset") is None:
+        # number, and a pipeline MAY ignore the hint entirely, so `None` says
+        # nothing about why (no map, no parser for the language, nothing
+        # said). The words are the one source every engine leaves intact:
+        # parse them first, and ask only when they hold no offset. Asking on
+        # `None` alone turned a working answer into a question on any engine
+        # that computes no map.
+        dt, utt = extract_datetime(utt, lang=self.lang) or (None, None)
+        if not dt and self.typed_slot(message, "offset") is None:
             response = self.get_response("ask_offset")
             if not response:
                 return
-            utt = normalizer.normalize(response)
+            dt, utt = extract_datetime(normalizer.normalize(response),
+                                       lang=self.lang) or (None, None)
 
-        dt, utt = extract_datetime(utt, lang=self.lang) or (None, None)
         if not dt:
             self.handle_query_time(message)
             return

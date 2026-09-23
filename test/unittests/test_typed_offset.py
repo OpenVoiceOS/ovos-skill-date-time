@@ -90,11 +90,28 @@ class TestHandlerReadsTheTypedSlot(unittest.TestCase):
                                {"utterance": UTTERANCE, "offset": "ten",
                                 "lang": LANG}, {})
 
-    def test_no_typed_value_asks_for_the_offset(self):
+    def test_no_typed_value_still_answers_from_the_words(self):
+        """OVOS-INTENT-1 §5.6 lets an engine ignore the typed-slot hint, so
+        `None` says nothing about whether the user named an offset. The
+        words are the one source every engine leaves intact: an utterance
+        that carries a duration is answered from it, with no question."""
+        with mock.patch.object(self.skill, "typed_slot", return_value=None), \
+                mock.patch.object(self.skill, "get_response") as ask, \
+                mock.patch.object(self.skill, "_resolve_location", return_value=None), \
+                mock.patch.object(self.skill, "speak_time") as speak:
+            self.skill.handle_query_future_time(self.message)
+        ask.assert_not_called()
+        self.assertEqual(speak.call_args.args[0], "time_future")
+
+    def test_an_utterance_with_no_offset_asks(self):
+        """The prompt is kept for the case worth prompting for: nothing in
+        the words to parse, and no typed value either."""
+        message = Message(f"{SKILL_ID}:what_time_will_it_be",
+                          {"utterance": "what time will it be", "lang": LANG}, {})
         with mock.patch.object(self.skill, "typed_slot", return_value=None), \
                 mock.patch.object(self.skill, "get_response", return_value=None) as ask, \
                 mock.patch.object(self.skill, "speak_time") as speak:
-            self.skill.handle_query_future_time(self.message)
+            self.skill.handle_query_future_time(message)
         ask.assert_called_once_with("ask_offset")
         speak.assert_not_called()
 
