@@ -1,11 +1,11 @@
-# Aquesta és una llista traduïble de valors i zones horàries
-China, Etc/GMT+8
-Kansas City, US/Central
-Zona horària central, US/Central
-Hora central, US/Central
-Hora del Pacífic, US/Pacific-New
-Zona horària del Pacífic, US/Pacific-New
-Hora oriental, US/Eastern
-Zona horària de l'est, US/Eastern
-Costa est, US/Eastern
-Zona horària de la costa est, US/Eastern
+# Это переводимый список названий и часовых поясов
+Китай, Asia/Shanghai
+Канзас-Сити, US/Central
+Центральный часовой пояс, US/Central
+Центральное время, US/Central
+Тихоокеанское время, America/Los_Angeles
+Тихоокеанский часовой пояс, America/Los_Angeles
+Восточное время, US/Eastern
+Восточный часовой пояс, US/Eastern
+Восточное побережье, US/Eastern
+Часовой пояс восточного побережья, US/Eastern

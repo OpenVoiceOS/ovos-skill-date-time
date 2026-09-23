@@ -1,11 +1,11 @@
-# Aquesta és una llista traduïble de valors i zones horàries
-China, Etc/GMT+8
+# Bu, çevrilebilir bir yer adı ve saat dilimi listesidir
+Çin, Asia/Shanghai
 Kansas City, US/Central
-Zona horària central, US/Central
-Hora central, US/Central
-Hora del Pacífic, US/Pacific-New
-Zona horària del Pacífic, US/Pacific-New
-Hora oriental, US/Eastern
-Zona horària de l'est, US/Eastern
-Costa est, US/Eastern
-Zona horària de la costa est, US/Eastern
+Merkez saat dilimi, US/Central
+Merkez saati, US/Central
+Pasifik saati, America/Los_Angeles
+Pasifik saat dilimi, America/Los_Angeles
+Doğu saati, US/Eastern
+Doğu saat dilimi, US/Eastern
+Doğu kıyısı, US/Eastern
+Doğu kıyısı saat dilimi, US/Eastern
