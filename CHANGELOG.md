@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.9.1a1) (2026-09-23)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.9.0a1...1.9.1a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): drop the bare {slot} line \#350 copied into six locales [\#367](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/367) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.9.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.9.0a1) (2026-09-23)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.8.1a2...1.9.0a1)
@@ -320,19 +328,19 @@
 
 ## [1.1.17a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.17a1) (2026-08-26)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a3...1.1.17a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a2...1.1.17a1)
 
 **Merged pull requests:**
 
 - fix: rename bare lang code locale directories [\#277](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/277) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 
-## [1.1.16a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a3) (2026-08-25)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a2...1.1.16a3)
-
 ## [1.1.16a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a2) (2026-08-25)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a1...1.1.16a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a3...1.1.16a2)
+
+## [1.1.16a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a3) (2026-08-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a1...1.1.16a3)
 
 **Merged pull requests:**
 
@@ -355,10 +363,6 @@
 ## [1.1.15a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.15a1) (2026-08-13)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.14a3...1.1.15a1)
-
-**Merged pull requests:**
-
-- fix: weekday.matches.date over-matches GPU-existence questions [\#262](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/262) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [1.1.14a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.14a3) (2026-08-11)
 
