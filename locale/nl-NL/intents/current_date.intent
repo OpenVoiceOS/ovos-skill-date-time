@@ -15,7 +15,7 @@ datum vandaag [alsjeblieft]
 datum in {location} [alsjeblieft]
 huidige datum [in {location}]
 exacte datum [vandaag]
-toon de (huidige | exacte) datum (in {location})
+toon de (huidige | exacte) datum in {location}
 laat de datum [van vandaag] zien [in {location}]
 geef de datum (van vandaag | in {location})
 wat staat er [vandaag] op de kalender [in {location}]
