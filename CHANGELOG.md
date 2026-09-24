@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.1a1) (2026-09-24)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.0a1...1.10.1a1)
+
+**Merged pull requests:**
+
+- fix\(kab\): the date intent takes a location, and the timezone list has its header [\#370](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/370) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.10.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.0a1) (2026-09-23)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.9.1a1...1.10.0a1)
@@ -363,10 +371,6 @@
 ## [1.1.16a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a1) (2026-08-13)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.15a1...1.1.16a1)
-
-**Merged pull requests:**
-
-- fix: negative leap-year dialogs name the queried year [\#265](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/265) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [1.1.15a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.15a1) (2026-08-13)
 
