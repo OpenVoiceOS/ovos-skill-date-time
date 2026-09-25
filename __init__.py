@@ -164,30 +164,6 @@ class TimeSkill(OVOSSkill):
 
     ######################################################################
     # parsing
-    def _extract_location(self, utt: str) -> str:
-        """Extract a location name from a spoken utterance using regex patterns.
-
-        Args:
-            utt (str): The user utterance.
-
-        Returns:
-            str: Extracted location if matched, otherwise None.
-        """
-        rx_file = self.find_resource('location.rx', 'regex')
-        if rx_file:
-            with open(rx_file) as f:
-                for pat in f.read().splitlines():
-                    pat = pat.strip()
-                    if pat and pat[0] == "#":
-                        continue
-                    res = re.search(pat, utt, flags=re.IGNORECASE)
-                    if res:
-                        try:
-                            return res.group("Location").strip(" \t,;:.!?")
-                        except IndexError:
-                            pass
-        return None
-
     def _is_ambiguous_location(self, location_string: str) -> bool:
         """Return True when a locale marks a location name as timezone-ambiguous."""
         return (
@@ -208,14 +184,17 @@ class TimeSkill(OVOSSkill):
         return cleaned
 
     def _resolve_location(self,
-                          location_string: Optional[str] = None,
-                          utterance: str = "") -> Optional[str]:
-        """Resolve a sanitized location from an explicit slot or from the utterance."""
-        if location_string:
-            return self._sanitize_location(location_string)
-        if utterance:
-            return self._sanitize_location(self._extract_location(utterance))
-        return None
+                          location_string: Optional[str] = None) -> Optional[str]:
+        """Resolve a sanitized location from the intent's {location} slot.
+
+        The slot is the only source. The skill used to fall back on a
+        per-locale `location.rx`, which ovos-workshop deprecates. That file
+        also could not work in every locale it shipped: the cs-CZ patterns
+        named English prepositions and malformed the named group, and the
+        hu-HU alternation let a match carry no `Location` group, which
+        raised AttributeError inside the handler.
+        """
+        return self._sanitize_location(location_string)
 
     def _mentions_current_weekend(self, utterance: str) -> bool:
         """Check whether the active locale explicitly asked for the current weekend."""
@@ -494,8 +473,7 @@ class TimeSkill(OVOSSkill):
     @intent_handler("what_time_is_it.intent")
     def handle_query_time(self, message):
         """Handle queries about the current time."""
-        utt = message.data.get('utterance', "")
-        location = self._resolve_location(message.data.get("location"), utt)
+        location = self._resolve_location(message.data.get("location"))
         # speak it
         self.speak_time("time_current", location=location)
 
@@ -523,7 +501,7 @@ class TimeSkill(OVOSSkill):
             self.handle_query_time(message)
             return
 
-        location = self._resolve_location(message.data.get("location"), utt)
+        location = self._resolve_location(message.data.get("location"))
 
         # speak it
         self.speak_time("time_future", location=location, anchor_date=dt)
@@ -541,7 +519,7 @@ class TimeSkill(OVOSSkill):
             dt = now
 
         # handle questions ~ "what is the day in sydney"
-        location_string = self._resolve_location(message.data.get("location"), utt)
+        location_string = self._resolve_location(message.data.get("location"))
 
         if location_string:
             dt = self.get_datetime(location_string, anchor_date=dt)
@@ -593,8 +571,7 @@ class TimeSkill(OVOSSkill):
         Args:
             message: The message object triggering the intent.
         """
-        utt = message.data.get("utterance", "")
-        location = self._resolve_location(message.data.get("location"), utt)
+        location = self._resolve_location(message.data.get("location"))
         now = self.get_datetime(location)
         if location and not now:
             self.speak_dialog("time_tz_not_found", {"location": location})
