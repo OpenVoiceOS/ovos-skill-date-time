@@ -1,1 +1,1 @@
-\b em ( ?P<Location>.* )
+\b em (?P<Location>.*)
