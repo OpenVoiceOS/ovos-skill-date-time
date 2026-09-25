@@ -1,3 +1,6 @@
+# Two lines below read 'timtimer', which joins 'tim' to 'timer' and is not a
+# Danish word, so those two lines match nothing. The 'timer' line is added
+# above each. Both are unvouched: no Danish speaker has read this file.
 hvad er klokken om {number:offset} minut
 hvad er klokken om {number:offset} minut i {location}
 hvad er klokken om {number:offset} minut op {location}
@@ -12,5 +15,7 @@ hvad er klokken om {number:offset} sekunder i {location}
 hvad er klokken om {number:offset} sekunder op {location}
 hvad er klokken om {number:offset} time
 hvad er klokken om {number:offset} timer
+hvad er klokken om {number:offset} timer i {location}
 hvad er klokken om {number:offset} timtimer i {location}
+hvad er klokken om {number:offset} timer op {location}
 hvad er klokken om {number:offset} timtimer op {location}

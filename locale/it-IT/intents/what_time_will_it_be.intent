@@ -1,3 +1,7 @@
+# Four lines below join the noun to the preposition: 'oraa', 'orain', 'orea'
+# and 'orein'. Those are not Italian words, so those four lines match nothing.
+# The separated line is added above each. Both are unvouched: no Italian
+# speaker has read this file.
 che ora sarà tra {number:offset} minuti
 che ora sarà tra {number:offset} minuti a {location}
 che ora sarà tra {number:offset} minuti in {location}
@@ -5,10 +9,14 @@ che ora sarà tra {number:offset} minuto
 che ora sarà tra {number:offset} minuto a {location}
 che ora sarà tra {number:offset} minuto in {location}
 che ora sarà tra {number:offset} ora
+che ora sarà tra {number:offset} ora a {location}
 che ora sarà tra {number:offset} oraa {location}
+che ora sarà tra {number:offset} ora in {location}
 che ora sarà tra {number:offset} orain {location}
 che ora sarà tra {number:offset} ore
+che ora sarà tra {number:offset} ore a {location}
 che ora sarà tra {number:offset} orea {location}
+che ora sarà tra {number:offset} ore in {location}
 che ora sarà tra {number:offset} orein {location}
 che ora sarà tra {number:offset} secondi
 che ora sarà tra {number:offset} secondi a {location}
