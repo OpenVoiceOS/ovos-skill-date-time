@@ -1,1 +1,4 @@
-(?P<Location>.*)en|n
+# Basque marks place with the inessive suffix -n / -en, so the location is the
+# word the suffix is attached to, not the text before it. Unvouched: eu-ES has
+# no reviewer of record.
+\b(?P<Location>\w+?)(en|n)\b

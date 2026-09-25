@@ -81,7 +81,9 @@ class TestEveryLocaleTimezoneTable(unittest.TestCase):
     HOUR = datetime.timedelta(hours=1)
     # {lang: {id: (january offset, july offset)}}
     EXTRA = {
-        "cs-CZ": {"CET": (HOUR, 2 * HOUR)},
+        "cs-CZ": {"CET": (HOUR, 2 * HOUR),
+                  "Europe/Prague": (HOUR, 2 * HOUR),
+                  "Europe/Bratislava": (HOUR, 2 * HOUR)},
         "pl-PL": {"Etc/GMT-1": (HOUR, HOUR), "Etc/GMT-2": (2 * HOUR, 2 * HOUR)},
     }
 
