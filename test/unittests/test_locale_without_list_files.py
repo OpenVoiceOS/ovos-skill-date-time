@@ -5,10 +5,10 @@ locale has no such file. `_load_locale_phrase_set` iterated that return
 value directly, so the first located query in such a locale raised
 TypeError inside the intent handler and the skill spoke `skill.error`.
 
-Six of the 22 locales ship none of the three files this skill reads
-(cs-CZ, fa-IR, hu-HU, pl-PL, ru-RU), and tr-TR ships only one of them.
-Adding the files is a localization task. Surviving their absence is this
-skill's.
+Five of the 22 locales ship none of the three files this skill reads
+(cs-CZ, fa-IR, hu-HU, pl-PL, ru-RU) and tr-TR ships one of the three, so
+six lack at least one file and sixteen are complete. Adding the files is a
+localization task. Surviving their absence is this skill's.
 """
 import unittest
 

@@ -150,10 +150,11 @@ class TimeSkill(OVOSSkill):
         `load_list_file` returns None, not an empty list, when the locale
         ships no such `.list` file. Iterating that raised TypeError inside
         the intent handler, so a located query in one of those locales
-        spoke `skill.error` instead of answering. Six of the 22 locales
-        ship none of these files, so the empty set is the normal case
-        there, not a defect: an empty set means the locale marks no phrase,
-        which is what the callers already handle.
+        spoke `skill.error` instead of answering. Five of the 22 locales
+        ship none of these files and a sixth ships one of the three, so the
+        empty set is the normal case there, not a defect: an empty set means
+        the locale marks no phrase, which is what the callers already
+        handle.
         """
         cache_key = f"{name}.list.normalized"
         if cache_key not in self.resources.static:
