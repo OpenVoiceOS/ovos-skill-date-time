@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.6a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.6a3) (2026-09-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.6a2...1.10.6a3)
+
+**Merged pull requests:**
+
+- refactor: the location slot replaces location.rx in every locale [\#384](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/384) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.10.6a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.6a2) (2026-09-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.6a1...1.10.6a2)
@@ -377,10 +385,6 @@
 ## [1.2.0a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.0a2) (2026-09-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.0a1...1.2.0a2)
-
-**Merged pull requests:**
-
-- translate\(kab\): update date.entity [\#282](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/282) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 
 ## [1.2.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.0a1) (2026-08-30)
 
