@@ -5,10 +5,9 @@ locale has no such file. `_load_locale_phrase_set` iterated that return
 value directly, so the first located query in such a locale raised
 TypeError inside the intent handler and the skill spoke `skill.error`.
 
-Five of the 22 locales ship none of the three files this skill reads
-(cs-CZ, fa-IR, hu-HU, pl-PL, ru-RU) and tr-TR ships one of the three, so
-six lack at least one file and sixteen are complete. Adding the files is a
-localization task. Surviving their absence is this skill's.
+Adding the files to a locale is a localization task. Surviving their
+absence is this skill's, because a user can set a language the skill
+ships no locale for at all.
 """
 import unittest
 
@@ -18,9 +17,8 @@ from ovos_skill_date_time import TimeSkill
 
 SKILL_ID = "ovos-skill-date-time.openvoiceos"
 
-#: cs-CZ ships no ambiguous_locations.list, no non_location_phrases.list
-#: and no current_weekend_phrases.list.
-LOCALE_WITHOUT_LISTS = "cs-CZ"
+#: The skill ships no `locale/ja-JP`, so every list file is absent there.
+LOCALE_WITHOUT_LISTS = "ja-JP"
 #: en-US ships all three, and is the positive control: the same helper must
 #: return a populated set there, or "it returned an empty set" would prove
 #: nothing.
@@ -59,7 +57,7 @@ class TestALocaleWithoutListFilesStillAnswers(unittest.TestCase):
         skill = self._skill(LOCALE_WITHOUT_LISTS)
         self.assertEqual(skill._resolve_location("Praha"), "Praha")
         self.assertFalse(skill._is_ambiguous_location("Praha"))
-        self.assertFalse(skill._mentions_current_weekend("jaké je dnes datum"))
+        self.assertFalse(skill._mentions_current_weekend("what day is it"))
 
     def test_the_control_locale_still_marks_its_ambiguous_names(self):
         # The second control: the fallback must not turn a locale that HAS
