@@ -142,126 +142,6 @@ godziny od teraz która jest czas we {location}
 godziny od teraz która jest godzina
 godziny od teraz która jest godzina w {location}
 godziny od teraz która jest godzina we {location}
-jaka będzie czas za {number:offset} godzin
-jaka będzie czas za {number:offset} godzin od teraz
-jaka będzie czas za {number:offset} godzin od teraz w {location}
-jaka będzie czas za {number:offset} godzin od teraz we {location}
-jaka będzie czas za {number:offset} godzin w {location}
-jaka będzie czas za {number:offset} godzin we {location}
-jaka będzie czas za {number:offset} godziny
-jaka będzie czas za {number:offset} godziny od teraz
-jaka będzie czas za {number:offset} godziny od teraz w {location}
-jaka będzie czas za {number:offset} godziny od teraz we {location}
-jaka będzie czas za {number:offset} godziny w {location}
-jaka będzie czas za {number:offset} godziny we {location}
-jaka będzie czas za {number:offset} minut
-jaka będzie czas za {number:offset} minut od teraz
-jaka będzie czas za {number:offset} minut od teraz w {location}
-jaka będzie czas za {number:offset} minut od teraz we {location}
-jaka będzie czas za {number:offset} minut w {location}
-jaka będzie czas za {number:offset} minut we {location}
-jaka będzie czas za {number:offset} minuty
-jaka będzie czas za {number:offset} minuty od teraz
-jaka będzie czas za {number:offset} minuty od teraz w {location}
-jaka będzie czas za {number:offset} minuty od teraz we {location}
-jaka będzie czas za {number:offset} minuty w {location}
-jaka będzie czas za {number:offset} minuty we {location}
-jaka będzie czas za {number:offset} sekund
-jaka będzie czas za {number:offset} sekund od teraz
-jaka będzie czas za {number:offset} sekund od teraz w {location}
-jaka będzie czas za {number:offset} sekund od teraz we {location}
-jaka będzie czas za {number:offset} sekund w {location}
-jaka będzie czas za {number:offset} sekund we {location}
-jaka będzie czas za {number:offset} sekundy
-jaka będzie czas za {number:offset} sekundy od teraz
-jaka będzie czas za {number:offset} sekundy od teraz w {location}
-jaka będzie czas za {number:offset} sekundy od teraz we {location}
-jaka będzie czas za {number:offset} sekundy w {location}
-jaka będzie czas za {number:offset} sekundy we {location}
-jaka będzie czas w {location} za {number:offset} godzin
-jaka będzie czas w {location} za {number:offset} godzin od teraz
-jaka będzie czas w {location} za {number:offset} godziny
-jaka będzie czas w {location} za {number:offset} godziny od teraz
-jaka będzie czas w {location} za {number:offset} minut
-jaka będzie czas w {location} za {number:offset} minut od teraz
-jaka będzie czas w {location} za {number:offset} minuty
-jaka będzie czas w {location} za {number:offset} minuty od teraz
-jaka będzie czas w {location} za {number:offset} sekund
-jaka będzie czas w {location} za {number:offset} sekund od teraz
-jaka będzie czas w {location} za {number:offset} sekundy
-jaka będzie czas w {location} za {number:offset} sekundy od teraz
-jaka będzie czas w {location} za {number:offset} godzin
-jaka będzie czas w {location} za {number:offset} godzin od teraz
-jaka będzie czas w {location} za {number:offset} godziny
-jaka będzie czas w {location} za {number:offset} godziny od teraz
-jaka będzie czas w {location} za {number:offset} minut
-jaka będzie czas w {location} za {number:offset} minut od teraz
-jaka będzie czas w {location} za {number:offset} minuty
-jaka będzie czas w {location} za {number:offset} minuty od teraz
-jaka będzie czas w {location} za {number:offset} sekund
-jaka będzie czas w {location} za {number:offset} sekund od teraz
-jaka będzie czas w {location} za {number:offset} sekundy
-jaka będzie czas w {location} za {number:offset} sekundy od teraz
-jaka będzie czas we {location} za {number:offset} godzin
-jaka będzie czas we {location} za {number:offset} godzin od teraz
-jaka będzie czas we {location} za {number:offset} godziny
-jaka będzie czas we {location} za {number:offset} godziny od teraz
-jaka będzie czas we {location} za {number:offset} minut
-jaka będzie czas we {location} za {number:offset} minut od teraz
-jaka będzie czas we {location} za {number:offset} minuty
-jaka będzie czas we {location} za {number:offset} minuty od teraz
-jaka będzie czas we {location} za {number:offset} sekund
-jaka będzie czas we {location} za {number:offset} sekund od teraz
-jaka będzie czas we {location} za {number:offset} sekundy
-jaka będzie czas we {location} za {number:offset} sekundy od teraz
-jaka będzie czas we {location} za {number:offset} godzin
-jaka będzie czas we {location} za {number:offset} godzin od teraz
-jaka będzie czas we {location} za {number:offset} godziny
-jaka będzie czas we {location} za {number:offset} godziny od teraz
-jaka będzie czas we {location} za {number:offset} minut
-jaka będzie czas we {location} za {number:offset} minut od teraz
-jaka będzie czas we {location} za {number:offset} minuty
-jaka będzie czas we {location} za {number:offset} minuty od teraz
-jaka będzie czas we {location} za {number:offset} sekund
-jaka będzie czas we {location} za {number:offset} sekund od teraz
-jaka będzie czas we {location} za {number:offset} sekundy
-jaka będzie czas we {location} za {number:offset} sekundy od teraz
-jaka będzie czas za {number:offset} godzin
-jaka będzie czas za {number:offset} godzin od teraz
-jaka będzie czas za {number:offset} godzin od teraz w {location}
-jaka będzie czas za {number:offset} godzin od teraz we {location}
-jaka będzie czas za {number:offset} godzin w {location}
-jaka będzie czas za {number:offset} godzin we {location}
-jaka będzie czas za {number:offset} godziny
-jaka będzie czas za {number:offset} godziny od teraz
-jaka będzie czas za {number:offset} godziny od teraz w {location}
-jaka będzie czas za {number:offset} godziny od teraz we {location}
-jaka będzie czas za {number:offset} godziny w {location}
-jaka będzie czas za {number:offset} godziny we {location}
-jaka będzie czas za {number:offset} minut
-jaka będzie czas za {number:offset} minut od teraz
-jaka będzie czas za {number:offset} minut od teraz w {location}
-jaka będzie czas za {number:offset} minut od teraz we {location}
-jaka będzie czas za {number:offset} minut w {location}
-jaka będzie czas za {number:offset} minut we {location}
-jaka będzie czas za {number:offset} minuty
-jaka będzie czas za {number:offset} minuty od teraz
-jaka będzie czas za {number:offset} minuty od teraz w {location}
-jaka będzie czas za {number:offset} minuty od teraz we {location}
-jaka będzie czas za {number:offset} minuty w {location}
-jaka będzie czas za {number:offset} minuty we {location}
-jaka będzie czas za {number:offset} sekund
-jaka będzie czas za {number:offset} sekund od teraz
-jaka będzie czas za {number:offset} sekund od teraz w {location}
-jaka będzie czas za {number:offset} sekund od teraz we {location}
-jaka będzie czas za {number:offset} sekund w {location}
-jaka będzie czas za {number:offset} sekund we {location}
-jaka będzie czas za {number:offset} sekundy
-jaka będzie czas za {number:offset} sekundy od teraz
-jaka będzie czas za {number:offset} sekundy od teraz w {location}
-jaka będzie czas za {number:offset} sekundy od teraz we {location}
-jaka będzie czas za {number:offset} sekundy w {location}
-jaka będzie czas za {number:offset} sekundy we {location}
 jaka będzie godzina za {number:offset} godzin
 jaka będzie godzina za {number:offset} godzin od teraz
 jaka będzie godzina za {number:offset} godzin od teraz w {location}
@@ -310,18 +190,6 @@ jaka będzie godzina w {location} za {number:offset} sekund
 jaka będzie godzina w {location} za {number:offset} sekund od teraz
 jaka będzie godzina w {location} za {number:offset} sekundy
 jaka będzie godzina w {location} za {number:offset} sekundy od teraz
-jaka będzie godzina w {location} za {number:offset} godzin
-jaka będzie godzina w {location} za {number:offset} godzin od teraz
-jaka będzie godzina w {location} za {number:offset} godziny
-jaka będzie godzina w {location} za {number:offset} godziny od teraz
-jaka będzie godzina w {location} za {number:offset} minut
-jaka będzie godzina w {location} za {number:offset} minut od teraz
-jaka będzie godzina w {location} za {number:offset} minuty
-jaka będzie godzina w {location} za {number:offset} minuty od teraz
-jaka będzie godzina w {location} za {number:offset} sekund
-jaka będzie godzina w {location} za {number:offset} sekund od teraz
-jaka będzie godzina w {location} za {number:offset} sekundy
-jaka będzie godzina w {location} za {number:offset} sekundy od teraz
 jaka będzie godzina we {location} za {number:offset} godzin
 jaka będzie godzina we {location} za {number:offset} godzin od teraz
 jaka będzie godzina we {location} za {number:offset} godziny
@@ -334,90 +202,6 @@ jaka będzie godzina we {location} za {number:offset} sekund
 jaka będzie godzina we {location} za {number:offset} sekund od teraz
 jaka będzie godzina we {location} za {number:offset} sekundy
 jaka będzie godzina we {location} za {number:offset} sekundy od teraz
-jaka będzie godzina we {location} za {number:offset} godzin
-jaka będzie godzina we {location} za {number:offset} godzin od teraz
-jaka będzie godzina we {location} za {number:offset} godziny
-jaka będzie godzina we {location} za {number:offset} godziny od teraz
-jaka będzie godzina we {location} za {number:offset} minut
-jaka będzie godzina we {location} za {number:offset} minut od teraz
-jaka będzie godzina we {location} za {number:offset} minuty
-jaka będzie godzina we {location} za {number:offset} minuty od teraz
-jaka będzie godzina we {location} za {number:offset} sekund
-jaka będzie godzina we {location} za {number:offset} sekund od teraz
-jaka będzie godzina we {location} za {number:offset} sekundy
-jaka będzie godzina we {location} za {number:offset} sekundy od teraz
-jaka będzie godzina za {number:offset} godzin
-jaka będzie godzina za {number:offset} godzin od teraz
-jaka będzie godzina za {number:offset} godzin od teraz w {location}
-jaka będzie godzina za {number:offset} godzin od teraz we {location}
-jaka będzie godzina za {number:offset} godzin w {location}
-jaka będzie godzina za {number:offset} godzin we {location}
-jaka będzie godzina za {number:offset} godziny
-jaka będzie godzina za {number:offset} godziny od teraz
-jaka będzie godzina za {number:offset} godziny od teraz w {location}
-jaka będzie godzina za {number:offset} godziny od teraz we {location}
-jaka będzie godzina za {number:offset} godziny w {location}
-jaka będzie godzina za {number:offset} godziny we {location}
-jaka będzie godzina za {number:offset} minut
-jaka będzie godzina za {number:offset} minut od teraz
-jaka będzie godzina za {number:offset} minut od teraz w {location}
-jaka będzie godzina za {number:offset} minut od teraz we {location}
-jaka będzie godzina za {number:offset} minut w {location}
-jaka będzie godzina za {number:offset} minut we {location}
-jaka będzie godzina za {number:offset} minuty
-jaka będzie godzina za {number:offset} minuty od teraz
-jaka będzie godzina za {number:offset} minuty od teraz w {location}
-jaka będzie godzina za {number:offset} minuty od teraz we {location}
-jaka będzie godzina za {number:offset} minuty w {location}
-jaka będzie godzina za {number:offset} minuty we {location}
-jaka będzie godzina za {number:offset} sekund
-jaka będzie godzina za {number:offset} sekund od teraz
-jaka będzie godzina za {number:offset} sekund od teraz w {location}
-jaka będzie godzina za {number:offset} sekund od teraz we {location}
-jaka będzie godzina za {number:offset} sekund w {location}
-jaka będzie godzina za {number:offset} sekund we {location}
-jaka będzie godzina za {number:offset} sekundy
-jaka będzie godzina za {number:offset} sekundy od teraz
-jaka będzie godzina za {number:offset} sekundy od teraz w {location}
-jaka będzie godzina za {number:offset} sekundy od teraz we {location}
-jaka będzie godzina za {number:offset} sekundy w {location}
-jaka będzie godzina za {number:offset} sekundy we {location}
-jaka czas będzie za {number:offset} godzin
-jaka czas będzie za {number:offset} godzin od teraz
-jaka czas będzie za {number:offset} godzin od teraz w {location}
-jaka czas będzie za {number:offset} godzin od teraz we {location}
-jaka czas będzie za {number:offset} godzin w {location}
-jaka czas będzie za {number:offset} godzin we {location}
-jaka czas będzie za {number:offset} godziny
-jaka czas będzie za {number:offset} godziny od teraz
-jaka czas będzie za {number:offset} godziny od teraz w {location}
-jaka czas będzie za {number:offset} godziny od teraz we {location}
-jaka czas będzie za {number:offset} godziny w {location}
-jaka czas będzie za {number:offset} godziny we {location}
-jaka czas będzie za {number:offset} minut
-jaka czas będzie za {number:offset} minut od teraz
-jaka czas będzie za {number:offset} minut od teraz w {location}
-jaka czas będzie za {number:offset} minut od teraz we {location}
-jaka czas będzie za {number:offset} minut w {location}
-jaka czas będzie za {number:offset} minut we {location}
-jaka czas będzie za {number:offset} minuty
-jaka czas będzie za {number:offset} minuty od teraz
-jaka czas będzie za {number:offset} minuty od teraz w {location}
-jaka czas będzie za {number:offset} minuty od teraz we {location}
-jaka czas będzie za {number:offset} minuty w {location}
-jaka czas będzie za {number:offset} minuty we {location}
-jaka czas będzie za {number:offset} sekund
-jaka czas będzie za {number:offset} sekund od teraz
-jaka czas będzie za {number:offset} sekund od teraz w {location}
-jaka czas będzie za {number:offset} sekund od teraz we {location}
-jaka czas będzie za {number:offset} sekund w {location}
-jaka czas będzie za {number:offset} sekund we {location}
-jaka czas będzie za {number:offset} sekundy
-jaka czas będzie za {number:offset} sekundy od teraz
-jaka czas będzie za {number:offset} sekundy od teraz w {location}
-jaka czas będzie za {number:offset} sekundy od teraz we {location}
-jaka czas będzie za {number:offset} sekundy w {location}
-jaka czas będzie za {number:offset} sekundy we {location}
 jaka czas będzie za {number:offset} godzin
 jaka czas będzie za {number:offset} godzin od teraz
 jaka czas będzie za {number:offset} godzin od teraz w {location}
@@ -490,78 +274,6 @@ jaka czas jest za {number:offset} sekundy od teraz w {location}
 jaka czas jest za {number:offset} sekundy od teraz we {location}
 jaka czas jest za {number:offset} sekundy w {location}
 jaka czas jest za {number:offset} sekundy we {location}
-jaka czas jest za {number:offset} godzin
-jaka czas jest za {number:offset} godzin od teraz
-jaka czas jest za {number:offset} godzin od teraz w {location}
-jaka czas jest za {number:offset} godzin od teraz we {location}
-jaka czas jest za {number:offset} godzin w {location}
-jaka czas jest za {number:offset} godzin we {location}
-jaka czas jest za {number:offset} godziny
-jaka czas jest za {number:offset} godziny od teraz
-jaka czas jest za {number:offset} godziny od teraz w {location}
-jaka czas jest za {number:offset} godziny od teraz we {location}
-jaka czas jest za {number:offset} godziny w {location}
-jaka czas jest za {number:offset} godziny we {location}
-jaka czas jest za {number:offset} minut
-jaka czas jest za {number:offset} minut od teraz
-jaka czas jest za {number:offset} minut od teraz w {location}
-jaka czas jest za {number:offset} minut od teraz we {location}
-jaka czas jest za {number:offset} minut w {location}
-jaka czas jest za {number:offset} minut we {location}
-jaka czas jest za {number:offset} minuty
-jaka czas jest za {number:offset} minuty od teraz
-jaka czas jest za {number:offset} minuty od teraz w {location}
-jaka czas jest za {number:offset} minuty od teraz we {location}
-jaka czas jest za {number:offset} minuty w {location}
-jaka czas jest za {number:offset} minuty we {location}
-jaka czas jest za {number:offset} sekund
-jaka czas jest za {number:offset} sekund od teraz
-jaka czas jest za {number:offset} sekund od teraz w {location}
-jaka czas jest za {number:offset} sekund od teraz we {location}
-jaka czas jest za {number:offset} sekund w {location}
-jaka czas jest za {number:offset} sekund we {location}
-jaka czas jest za {number:offset} sekundy
-jaka czas jest za {number:offset} sekundy od teraz
-jaka czas jest za {number:offset} sekundy od teraz w {location}
-jaka czas jest za {number:offset} sekundy od teraz we {location}
-jaka czas jest za {number:offset} sekundy w {location}
-jaka czas jest za {number:offset} sekundy we {location}
-jaka godzina będzie za {number:offset} godzin
-jaka godzina będzie za {number:offset} godzin od teraz
-jaka godzina będzie za {number:offset} godzin od teraz w {location}
-jaka godzina będzie za {number:offset} godzin od teraz we {location}
-jaka godzina będzie za {number:offset} godzin w {location}
-jaka godzina będzie za {number:offset} godzin we {location}
-jaka godzina będzie za {number:offset} godziny
-jaka godzina będzie za {number:offset} godziny od teraz
-jaka godzina będzie za {number:offset} godziny od teraz w {location}
-jaka godzina będzie za {number:offset} godziny od teraz we {location}
-jaka godzina będzie za {number:offset} godziny w {location}
-jaka godzina będzie za {number:offset} godziny we {location}
-jaka godzina będzie za {number:offset} minut
-jaka godzina będzie za {number:offset} minut od teraz
-jaka godzina będzie za {number:offset} minut od teraz w {location}
-jaka godzina będzie za {number:offset} minut od teraz we {location}
-jaka godzina będzie za {number:offset} minut w {location}
-jaka godzina będzie za {number:offset} minut we {location}
-jaka godzina będzie za {number:offset} minuty
-jaka godzina będzie za {number:offset} minuty od teraz
-jaka godzina będzie za {number:offset} minuty od teraz w {location}
-jaka godzina będzie za {number:offset} minuty od teraz we {location}
-jaka godzina będzie za {number:offset} minuty w {location}
-jaka godzina będzie za {number:offset} minuty we {location}
-jaka godzina będzie za {number:offset} sekund
-jaka godzina będzie za {number:offset} sekund od teraz
-jaka godzina będzie za {number:offset} sekund od teraz w {location}
-jaka godzina będzie za {number:offset} sekund od teraz we {location}
-jaka godzina będzie za {number:offset} sekund w {location}
-jaka godzina będzie za {number:offset} sekund we {location}
-jaka godzina będzie za {number:offset} sekundy
-jaka godzina będzie za {number:offset} sekundy od teraz
-jaka godzina będzie za {number:offset} sekundy od teraz w {location}
-jaka godzina będzie za {number:offset} sekundy od teraz we {location}
-jaka godzina będzie za {number:offset} sekundy w {location}
-jaka godzina będzie za {number:offset} sekundy we {location}
 jaka godzina będzie za {number:offset} godzin
 jaka godzina będzie za {number:offset} godzin od teraz
 jaka godzina będzie za {number:offset} godzin od teraz w {location}
@@ -634,162 +346,6 @@ jaka godzina jest za {number:offset} sekundy od teraz w {location}
 jaka godzina jest za {number:offset} sekundy od teraz we {location}
 jaka godzina jest za {number:offset} sekundy w {location}
 jaka godzina jest za {number:offset} sekundy we {location}
-jaka godzina jest za {number:offset} godzin
-jaka godzina jest za {number:offset} godzin od teraz
-jaka godzina jest za {number:offset} godzin od teraz w {location}
-jaka godzina jest za {number:offset} godzin od teraz we {location}
-jaka godzina jest za {number:offset} godzin w {location}
-jaka godzina jest za {number:offset} godzin we {location}
-jaka godzina jest za {number:offset} godziny
-jaka godzina jest za {number:offset} godziny od teraz
-jaka godzina jest za {number:offset} godziny od teraz w {location}
-jaka godzina jest za {number:offset} godziny od teraz we {location}
-jaka godzina jest za {number:offset} godziny w {location}
-jaka godzina jest za {number:offset} godziny we {location}
-jaka godzina jest za {number:offset} minut
-jaka godzina jest za {number:offset} minut od teraz
-jaka godzina jest za {number:offset} minut od teraz w {location}
-jaka godzina jest za {number:offset} minut od teraz we {location}
-jaka godzina jest za {number:offset} minut w {location}
-jaka godzina jest za {number:offset} minut we {location}
-jaka godzina jest za {number:offset} minuty
-jaka godzina jest za {number:offset} minuty od teraz
-jaka godzina jest za {number:offset} minuty od teraz w {location}
-jaka godzina jest za {number:offset} minuty od teraz we {location}
-jaka godzina jest za {number:offset} minuty w {location}
-jaka godzina jest za {number:offset} minuty we {location}
-jaka godzina jest za {number:offset} sekund
-jaka godzina jest za {number:offset} sekund od teraz
-jaka godzina jest za {number:offset} sekund od teraz w {location}
-jaka godzina jest za {number:offset} sekund od teraz we {location}
-jaka godzina jest za {number:offset} sekund w {location}
-jaka godzina jest za {number:offset} sekund we {location}
-jaka godzina jest za {number:offset} sekundy
-jaka godzina jest za {number:offset} sekundy od teraz
-jaka godzina jest za {number:offset} sekundy od teraz w {location}
-jaka godzina jest za {number:offset} sekundy od teraz we {location}
-jaka godzina jest za {number:offset} sekundy w {location}
-jaka godzina jest za {number:offset} sekundy we {location}
-jaka jest czas za {number:offset} godzin
-jaka jest czas za {number:offset} godzin od teraz
-jaka jest czas za {number:offset} godzin od teraz w {location}
-jaka jest czas za {number:offset} godzin od teraz we {location}
-jaka jest czas za {number:offset} godzin w {location}
-jaka jest czas za {number:offset} godzin we {location}
-jaka jest czas za {number:offset} godziny
-jaka jest czas za {number:offset} godziny od teraz
-jaka jest czas za {number:offset} godziny od teraz w {location}
-jaka jest czas za {number:offset} godziny od teraz we {location}
-jaka jest czas za {number:offset} godziny w {location}
-jaka jest czas za {number:offset} godziny we {location}
-jaka jest czas za {number:offset} minut
-jaka jest czas za {number:offset} minut od teraz
-jaka jest czas za {number:offset} minut od teraz w {location}
-jaka jest czas za {number:offset} minut od teraz we {location}
-jaka jest czas za {number:offset} minut w {location}
-jaka jest czas za {number:offset} minut we {location}
-jaka jest czas za {number:offset} minuty
-jaka jest czas za {number:offset} minuty od teraz
-jaka jest czas za {number:offset} minuty od teraz w {location}
-jaka jest czas za {number:offset} minuty od teraz we {location}
-jaka jest czas za {number:offset} minuty w {location}
-jaka jest czas za {number:offset} minuty we {location}
-jaka jest czas za {number:offset} sekund
-jaka jest czas za {number:offset} sekund od teraz
-jaka jest czas za {number:offset} sekund od teraz w {location}
-jaka jest czas za {number:offset} sekund od teraz we {location}
-jaka jest czas za {number:offset} sekund w {location}
-jaka jest czas za {number:offset} sekund we {location}
-jaka jest czas za {number:offset} sekundy
-jaka jest czas za {number:offset} sekundy od teraz
-jaka jest czas za {number:offset} sekundy od teraz w {location}
-jaka jest czas za {number:offset} sekundy od teraz we {location}
-jaka jest czas za {number:offset} sekundy w {location}
-jaka jest czas za {number:offset} sekundy we {location}
-jaka jest czas w {location} za {number:offset} godzin
-jaka jest czas w {location} za {number:offset} godzin od teraz
-jaka jest czas w {location} za {number:offset} godziny
-jaka jest czas w {location} za {number:offset} godziny od teraz
-jaka jest czas w {location} za {number:offset} minut
-jaka jest czas w {location} za {number:offset} minut od teraz
-jaka jest czas w {location} za {number:offset} minuty
-jaka jest czas w {location} za {number:offset} minuty od teraz
-jaka jest czas w {location} za {number:offset} sekund
-jaka jest czas w {location} za {number:offset} sekund od teraz
-jaka jest czas w {location} za {number:offset} sekundy
-jaka jest czas w {location} za {number:offset} sekundy od teraz
-jaka jest czas w {location} za {number:offset} godzin
-jaka jest czas w {location} za {number:offset} godzin od teraz
-jaka jest czas w {location} za {number:offset} godziny
-jaka jest czas w {location} za {number:offset} godziny od teraz
-jaka jest czas w {location} za {number:offset} minut
-jaka jest czas w {location} za {number:offset} minut od teraz
-jaka jest czas w {location} za {number:offset} minuty
-jaka jest czas w {location} za {number:offset} minuty od teraz
-jaka jest czas w {location} za {number:offset} sekund
-jaka jest czas w {location} za {number:offset} sekund od teraz
-jaka jest czas w {location} za {number:offset} sekundy
-jaka jest czas w {location} za {number:offset} sekundy od teraz
-jaka jest czas we {location} za {number:offset} godzin
-jaka jest czas we {location} za {number:offset} godzin od teraz
-jaka jest czas we {location} za {number:offset} godziny
-jaka jest czas we {location} za {number:offset} godziny od teraz
-jaka jest czas we {location} za {number:offset} minut
-jaka jest czas we {location} za {number:offset} minut od teraz
-jaka jest czas we {location} za {number:offset} minuty
-jaka jest czas we {location} za {number:offset} minuty od teraz
-jaka jest czas we {location} za {number:offset} sekund
-jaka jest czas we {location} za {number:offset} sekund od teraz
-jaka jest czas we {location} za {number:offset} sekundy
-jaka jest czas we {location} za {number:offset} sekundy od teraz
-jaka jest czas we {location} za {number:offset} godzin
-jaka jest czas we {location} za {number:offset} godzin od teraz
-jaka jest czas we {location} za {number:offset} godziny
-jaka jest czas we {location} za {number:offset} godziny od teraz
-jaka jest czas we {location} za {number:offset} minut
-jaka jest czas we {location} za {number:offset} minut od teraz
-jaka jest czas we {location} za {number:offset} minuty
-jaka jest czas we {location} za {number:offset} minuty od teraz
-jaka jest czas we {location} za {number:offset} sekund
-jaka jest czas we {location} za {number:offset} sekund od teraz
-jaka jest czas we {location} za {number:offset} sekundy
-jaka jest czas we {location} za {number:offset} sekundy od teraz
-jaka jest czas za {number:offset} godzin
-jaka jest czas za {number:offset} godzin od teraz
-jaka jest czas za {number:offset} godzin od teraz w {location}
-jaka jest czas za {number:offset} godzin od teraz we {location}
-jaka jest czas za {number:offset} godzin w {location}
-jaka jest czas za {number:offset} godzin we {location}
-jaka jest czas za {number:offset} godziny
-jaka jest czas za {number:offset} godziny od teraz
-jaka jest czas za {number:offset} godziny od teraz w {location}
-jaka jest czas za {number:offset} godziny od teraz we {location}
-jaka jest czas za {number:offset} godziny w {location}
-jaka jest czas za {number:offset} godziny we {location}
-jaka jest czas za {number:offset} minut
-jaka jest czas za {number:offset} minut od teraz
-jaka jest czas za {number:offset} minut od teraz w {location}
-jaka jest czas za {number:offset} minut od teraz we {location}
-jaka jest czas za {number:offset} minut w {location}
-jaka jest czas za {number:offset} minut we {location}
-jaka jest czas za {number:offset} minuty
-jaka jest czas za {number:offset} minuty od teraz
-jaka jest czas za {number:offset} minuty od teraz w {location}
-jaka jest czas za {number:offset} minuty od teraz we {location}
-jaka jest czas za {number:offset} minuty w {location}
-jaka jest czas za {number:offset} minuty we {location}
-jaka jest czas za {number:offset} sekund
-jaka jest czas za {number:offset} sekund od teraz
-jaka jest czas za {number:offset} sekund od teraz w {location}
-jaka jest czas za {number:offset} sekund od teraz we {location}
-jaka jest czas za {number:offset} sekund w {location}
-jaka jest czas za {number:offset} sekund we {location}
-jaka jest czas za {number:offset} sekundy
-jaka jest czas za {number:offset} sekundy od teraz
-jaka jest czas za {number:offset} sekundy od teraz w {location}
-jaka jest czas za {number:offset} sekundy od teraz we {location}
-jaka jest czas za {number:offset} sekundy w {location}
-jaka jest czas za {number:offset} sekundy we {location}
 jaka jest godzina za {number:offset} godzin
 jaka jest godzina za {number:offset} godzin od teraz
 jaka jest godzina za {number:offset} godzin od teraz w {location}
@@ -838,18 +394,6 @@ jaka jest godzina w {location} za {number:offset} sekund
 jaka jest godzina w {location} za {number:offset} sekund od teraz
 jaka jest godzina w {location} za {number:offset} sekundy
 jaka jest godzina w {location} za {number:offset} sekundy od teraz
-jaka jest godzina w {location} za {number:offset} godzin
-jaka jest godzina w {location} za {number:offset} godzin od teraz
-jaka jest godzina w {location} za {number:offset} godziny
-jaka jest godzina w {location} za {number:offset} godziny od teraz
-jaka jest godzina w {location} za {number:offset} minut
-jaka jest godzina w {location} za {number:offset} minut od teraz
-jaka jest godzina w {location} za {number:offset} minuty
-jaka jest godzina w {location} za {number:offset} minuty od teraz
-jaka jest godzina w {location} za {number:offset} sekund
-jaka jest godzina w {location} za {number:offset} sekund od teraz
-jaka jest godzina w {location} za {number:offset} sekundy
-jaka jest godzina w {location} za {number:offset} sekundy od teraz
 jaka jest godzina we {location} za {number:offset} godzin
 jaka jest godzina we {location} za {number:offset} godzin od teraz
 jaka jest godzina we {location} za {number:offset} godziny
@@ -862,54 +406,6 @@ jaka jest godzina we {location} za {number:offset} sekund
 jaka jest godzina we {location} za {number:offset} sekund od teraz
 jaka jest godzina we {location} za {number:offset} sekundy
 jaka jest godzina we {location} za {number:offset} sekundy od teraz
-jaka jest godzina we {location} za {number:offset} godzin
-jaka jest godzina we {location} za {number:offset} godzin od teraz
-jaka jest godzina we {location} za {number:offset} godziny
-jaka jest godzina we {location} za {number:offset} godziny od teraz
-jaka jest godzina we {location} za {number:offset} minut
-jaka jest godzina we {location} za {number:offset} minut od teraz
-jaka jest godzina we {location} za {number:offset} minuty
-jaka jest godzina we {location} za {number:offset} minuty od teraz
-jaka jest godzina we {location} za {number:offset} sekund
-jaka jest godzina we {location} za {number:offset} sekund od teraz
-jaka jest godzina we {location} za {number:offset} sekundy
-jaka jest godzina we {location} za {number:offset} sekundy od teraz
-jaka jest godzina za {number:offset} godzin
-jaka jest godzina za {number:offset} godzin od teraz
-jaka jest godzina za {number:offset} godzin od teraz w {location}
-jaka jest godzina za {number:offset} godzin od teraz we {location}
-jaka jest godzina za {number:offset} godzin w {location}
-jaka jest godzina za {number:offset} godzin we {location}
-jaka jest godzina za {number:offset} godziny
-jaka jest godzina za {number:offset} godziny od teraz
-jaka jest godzina za {number:offset} godziny od teraz w {location}
-jaka jest godzina za {number:offset} godziny od teraz we {location}
-jaka jest godzina za {number:offset} godziny w {location}
-jaka jest godzina za {number:offset} godziny we {location}
-jaka jest godzina za {number:offset} minut
-jaka jest godzina za {number:offset} minut od teraz
-jaka jest godzina za {number:offset} minut od teraz w {location}
-jaka jest godzina za {number:offset} minut od teraz we {location}
-jaka jest godzina za {number:offset} minut w {location}
-jaka jest godzina za {number:offset} minut we {location}
-jaka jest godzina za {number:offset} minuty
-jaka jest godzina za {number:offset} minuty od teraz
-jaka jest godzina za {number:offset} minuty od teraz w {location}
-jaka jest godzina za {number:offset} minuty od teraz we {location}
-jaka jest godzina za {number:offset} minuty w {location}
-jaka jest godzina za {number:offset} minuty we {location}
-jaka jest godzina za {number:offset} sekund
-jaka jest godzina za {number:offset} sekund od teraz
-jaka jest godzina za {number:offset} sekund od teraz w {location}
-jaka jest godzina za {number:offset} sekund od teraz we {location}
-jaka jest godzina za {number:offset} sekund w {location}
-jaka jest godzina za {number:offset} sekund we {location}
-jaka jest godzina za {number:offset} sekundy
-jaka jest godzina za {number:offset} sekundy od teraz
-jaka jest godzina za {number:offset} sekundy od teraz w {location}
-jaka jest godzina za {number:offset} sekundy od teraz we {location}
-jaka jest godzina za {number:offset} sekundy w {location}
-jaka jest godzina za {number:offset} sekundy we {location}
 jaki będzie czas za {number:offset} godzin
 jaki będzie czas za {number:offset} godzin od teraz
 jaki będzie czas za {number:offset} godzin od teraz w {location}
@@ -958,18 +454,6 @@ jaki będzie czas w {location} za {number:offset} sekund
 jaki będzie czas w {location} za {number:offset} sekund od teraz
 jaki będzie czas w {location} za {number:offset} sekundy
 jaki będzie czas w {location} za {number:offset} sekundy od teraz
-jaki będzie czas w {location} za {number:offset} godzin
-jaki będzie czas w {location} za {number:offset} godzin od teraz
-jaki będzie czas w {location} za {number:offset} godziny
-jaki będzie czas w {location} za {number:offset} godziny od teraz
-jaki będzie czas w {location} za {number:offset} minut
-jaki będzie czas w {location} za {number:offset} minut od teraz
-jaki będzie czas w {location} za {number:offset} minuty
-jaki będzie czas w {location} za {number:offset} minuty od teraz
-jaki będzie czas w {location} za {number:offset} sekund
-jaki będzie czas w {location} za {number:offset} sekund od teraz
-jaki będzie czas w {location} za {number:offset} sekundy
-jaki będzie czas w {location} za {number:offset} sekundy od teraz
 jaki będzie czas we {location} za {number:offset} godzin
 jaki będzie czas we {location} za {number:offset} godzin od teraz
 jaki będzie czas we {location} za {number:offset} godziny
@@ -982,210 +466,6 @@ jaki będzie czas we {location} za {number:offset} sekund
 jaki będzie czas we {location} za {number:offset} sekund od teraz
 jaki będzie czas we {location} za {number:offset} sekundy
 jaki będzie czas we {location} za {number:offset} sekundy od teraz
-jaki będzie czas we {location} za {number:offset} godzin
-jaki będzie czas we {location} za {number:offset} godzin od teraz
-jaki będzie czas we {location} za {number:offset} godziny
-jaki będzie czas we {location} za {number:offset} godziny od teraz
-jaki będzie czas we {location} za {number:offset} minut
-jaki będzie czas we {location} za {number:offset} minut od teraz
-jaki będzie czas we {location} za {number:offset} minuty
-jaki będzie czas we {location} za {number:offset} minuty od teraz
-jaki będzie czas we {location} za {number:offset} sekund
-jaki będzie czas we {location} za {number:offset} sekund od teraz
-jaki będzie czas we {location} za {number:offset} sekundy
-jaki będzie czas we {location} za {number:offset} sekundy od teraz
-jaki będzie czas za {number:offset} godzin
-jaki będzie czas za {number:offset} godzin od teraz
-jaki będzie czas za {number:offset} godzin od teraz w {location}
-jaki będzie czas za {number:offset} godzin od teraz we {location}
-jaki będzie czas za {number:offset} godzin w {location}
-jaki będzie czas za {number:offset} godzin we {location}
-jaki będzie czas za {number:offset} godziny
-jaki będzie czas za {number:offset} godziny od teraz
-jaki będzie czas za {number:offset} godziny od teraz w {location}
-jaki będzie czas za {number:offset} godziny od teraz we {location}
-jaki będzie czas za {number:offset} godziny w {location}
-jaki będzie czas za {number:offset} godziny we {location}
-jaki będzie czas za {number:offset} minut
-jaki będzie czas za {number:offset} minut od teraz
-jaki będzie czas za {number:offset} minut od teraz w {location}
-jaki będzie czas za {number:offset} minut od teraz we {location}
-jaki będzie czas za {number:offset} minut w {location}
-jaki będzie czas za {number:offset} minut we {location}
-jaki będzie czas za {number:offset} minuty
-jaki będzie czas za {number:offset} minuty od teraz
-jaki będzie czas za {number:offset} minuty od teraz w {location}
-jaki będzie czas za {number:offset} minuty od teraz we {location}
-jaki będzie czas za {number:offset} minuty w {location}
-jaki będzie czas za {number:offset} minuty we {location}
-jaki będzie czas za {number:offset} sekund
-jaki będzie czas za {number:offset} sekund od teraz
-jaki będzie czas za {number:offset} sekund od teraz w {location}
-jaki będzie czas za {number:offset} sekund od teraz we {location}
-jaki będzie czas za {number:offset} sekund w {location}
-jaki będzie czas za {number:offset} sekund we {location}
-jaki będzie czas za {number:offset} sekundy
-jaki będzie czas za {number:offset} sekundy od teraz
-jaki będzie czas za {number:offset} sekundy od teraz w {location}
-jaki będzie czas za {number:offset} sekundy od teraz we {location}
-jaki będzie czas za {number:offset} sekundy w {location}
-jaki będzie czas za {number:offset} sekundy we {location}
-jaki będzie godzina za {number:offset} godzin
-jaki będzie godzina za {number:offset} godzin od teraz
-jaki będzie godzina za {number:offset} godzin od teraz w {location}
-jaki będzie godzina za {number:offset} godzin od teraz we {location}
-jaki będzie godzina za {number:offset} godzin w {location}
-jaki będzie godzina za {number:offset} godzin we {location}
-jaki będzie godzina za {number:offset} godziny
-jaki będzie godzina za {number:offset} godziny od teraz
-jaki będzie godzina za {number:offset} godziny od teraz w {location}
-jaki będzie godzina za {number:offset} godziny od teraz we {location}
-jaki będzie godzina za {number:offset} godziny w {location}
-jaki będzie godzina za {number:offset} godziny we {location}
-jaki będzie godzina za {number:offset} minut
-jaki będzie godzina za {number:offset} minut od teraz
-jaki będzie godzina za {number:offset} minut od teraz w {location}
-jaki będzie godzina za {number:offset} minut od teraz we {location}
-jaki będzie godzina za {number:offset} minut w {location}
-jaki będzie godzina za {number:offset} minut we {location}
-jaki będzie godzina za {number:offset} minuty
-jaki będzie godzina za {number:offset} minuty od teraz
-jaki będzie godzina za {number:offset} minuty od teraz w {location}
-jaki będzie godzina za {number:offset} minuty od teraz we {location}
-jaki będzie godzina za {number:offset} minuty w {location}
-jaki będzie godzina za {number:offset} minuty we {location}
-jaki będzie godzina za {number:offset} sekund
-jaki będzie godzina za {number:offset} sekund od teraz
-jaki będzie godzina za {number:offset} sekund od teraz w {location}
-jaki będzie godzina za {number:offset} sekund od teraz we {location}
-jaki będzie godzina za {number:offset} sekund w {location}
-jaki będzie godzina za {number:offset} sekund we {location}
-jaki będzie godzina za {number:offset} sekundy
-jaki będzie godzina za {number:offset} sekundy od teraz
-jaki będzie godzina za {number:offset} sekundy od teraz w {location}
-jaki będzie godzina za {number:offset} sekundy od teraz we {location}
-jaki będzie godzina za {number:offset} sekundy w {location}
-jaki będzie godzina za {number:offset} sekundy we {location}
-jaki będzie godzina w {location} za {number:offset} godzin
-jaki będzie godzina w {location} za {number:offset} godzin od teraz
-jaki będzie godzina w {location} za {number:offset} godziny
-jaki będzie godzina w {location} za {number:offset} godziny od teraz
-jaki będzie godzina w {location} za {number:offset} minut
-jaki będzie godzina w {location} za {number:offset} minut od teraz
-jaki będzie godzina w {location} za {number:offset} minuty
-jaki będzie godzina w {location} za {number:offset} minuty od teraz
-jaki będzie godzina w {location} za {number:offset} sekund
-jaki będzie godzina w {location} za {number:offset} sekund od teraz
-jaki będzie godzina w {location} za {number:offset} sekundy
-jaki będzie godzina w {location} za {number:offset} sekundy od teraz
-jaki będzie godzina w {location} za {number:offset} godzin
-jaki będzie godzina w {location} za {number:offset} godzin od teraz
-jaki będzie godzina w {location} za {number:offset} godziny
-jaki będzie godzina w {location} za {number:offset} godziny od teraz
-jaki będzie godzina w {location} za {number:offset} minut
-jaki będzie godzina w {location} za {number:offset} minut od teraz
-jaki będzie godzina w {location} za {number:offset} minuty
-jaki będzie godzina w {location} za {number:offset} minuty od teraz
-jaki będzie godzina w {location} za {number:offset} sekund
-jaki będzie godzina w {location} za {number:offset} sekund od teraz
-jaki będzie godzina w {location} za {number:offset} sekundy
-jaki będzie godzina w {location} za {number:offset} sekundy od teraz
-jaki będzie godzina we {location} za {number:offset} godzin
-jaki będzie godzina we {location} za {number:offset} godzin od teraz
-jaki będzie godzina we {location} za {number:offset} godziny
-jaki będzie godzina we {location} za {number:offset} godziny od teraz
-jaki będzie godzina we {location} za {number:offset} minut
-jaki będzie godzina we {location} za {number:offset} minut od teraz
-jaki będzie godzina we {location} za {number:offset} minuty
-jaki będzie godzina we {location} za {number:offset} minuty od teraz
-jaki będzie godzina we {location} za {number:offset} sekund
-jaki będzie godzina we {location} za {number:offset} sekund od teraz
-jaki będzie godzina we {location} za {number:offset} sekundy
-jaki będzie godzina we {location} za {number:offset} sekundy od teraz
-jaki będzie godzina we {location} za {number:offset} godzin
-jaki będzie godzina we {location} za {number:offset} godzin od teraz
-jaki będzie godzina we {location} za {number:offset} godziny
-jaki będzie godzina we {location} za {number:offset} godziny od teraz
-jaki będzie godzina we {location} za {number:offset} minut
-jaki będzie godzina we {location} za {number:offset} minut od teraz
-jaki będzie godzina we {location} za {number:offset} minuty
-jaki będzie godzina we {location} za {number:offset} minuty od teraz
-jaki będzie godzina we {location} za {number:offset} sekund
-jaki będzie godzina we {location} za {number:offset} sekund od teraz
-jaki będzie godzina we {location} za {number:offset} sekundy
-jaki będzie godzina we {location} za {number:offset} sekundy od teraz
-jaki będzie godzina za {number:offset} godzin
-jaki będzie godzina za {number:offset} godzin od teraz
-jaki będzie godzina za {number:offset} godzin od teraz w {location}
-jaki będzie godzina za {number:offset} godzin od teraz we {location}
-jaki będzie godzina za {number:offset} godzin w {location}
-jaki będzie godzina za {number:offset} godzin we {location}
-jaki będzie godzina za {number:offset} godziny
-jaki będzie godzina za {number:offset} godziny od teraz
-jaki będzie godzina za {number:offset} godziny od teraz w {location}
-jaki będzie godzina za {number:offset} godziny od teraz we {location}
-jaki będzie godzina za {number:offset} godziny w {location}
-jaki będzie godzina za {number:offset} godziny we {location}
-jaki będzie godzina za {number:offset} minut
-jaki będzie godzina za {number:offset} minut od teraz
-jaki będzie godzina za {number:offset} minut od teraz w {location}
-jaki będzie godzina za {number:offset} minut od teraz we {location}
-jaki będzie godzina za {number:offset} minut w {location}
-jaki będzie godzina za {number:offset} minut we {location}
-jaki będzie godzina za {number:offset} minuty
-jaki będzie godzina za {number:offset} minuty od teraz
-jaki będzie godzina za {number:offset} minuty od teraz w {location}
-jaki będzie godzina za {number:offset} minuty od teraz we {location}
-jaki będzie godzina za {number:offset} minuty w {location}
-jaki będzie godzina za {number:offset} minuty we {location}
-jaki będzie godzina za {number:offset} sekund
-jaki będzie godzina za {number:offset} sekund od teraz
-jaki będzie godzina za {number:offset} sekund od teraz w {location}
-jaki będzie godzina za {number:offset} sekund od teraz we {location}
-jaki będzie godzina za {number:offset} sekund w {location}
-jaki będzie godzina za {number:offset} sekund we {location}
-jaki będzie godzina za {number:offset} sekundy
-jaki będzie godzina za {number:offset} sekundy od teraz
-jaki będzie godzina za {number:offset} sekundy od teraz w {location}
-jaki będzie godzina za {number:offset} sekundy od teraz we {location}
-jaki będzie godzina za {number:offset} sekundy w {location}
-jaki będzie godzina za {number:offset} sekundy we {location}
-jaki czas będzie za {number:offset} godzin
-jaki czas będzie za {number:offset} godzin od teraz
-jaki czas będzie za {number:offset} godzin od teraz w {location}
-jaki czas będzie za {number:offset} godzin od teraz we {location}
-jaki czas będzie za {number:offset} godzin w {location}
-jaki czas będzie za {number:offset} godzin we {location}
-jaki czas będzie za {number:offset} godziny
-jaki czas będzie za {number:offset} godziny od teraz
-jaki czas będzie za {number:offset} godziny od teraz w {location}
-jaki czas będzie za {number:offset} godziny od teraz we {location}
-jaki czas będzie za {number:offset} godziny w {location}
-jaki czas będzie za {number:offset} godziny we {location}
-jaki czas będzie za {number:offset} minut
-jaki czas będzie za {number:offset} minut od teraz
-jaki czas będzie za {number:offset} minut od teraz w {location}
-jaki czas będzie za {number:offset} minut od teraz we {location}
-jaki czas będzie za {number:offset} minut w {location}
-jaki czas będzie za {number:offset} minut we {location}
-jaki czas będzie za {number:offset} minuty
-jaki czas będzie za {number:offset} minuty od teraz
-jaki czas będzie za {number:offset} minuty od teraz w {location}
-jaki czas będzie za {number:offset} minuty od teraz we {location}
-jaki czas będzie za {number:offset} minuty w {location}
-jaki czas będzie za {number:offset} minuty we {location}
-jaki czas będzie za {number:offset} sekund
-jaki czas będzie za {number:offset} sekund od teraz
-jaki czas będzie za {number:offset} sekund od teraz w {location}
-jaki czas będzie za {number:offset} sekund od teraz we {location}
-jaki czas będzie za {number:offset} sekund w {location}
-jaki czas będzie za {number:offset} sekund we {location}
-jaki czas będzie za {number:offset} sekundy
-jaki czas będzie za {number:offset} sekundy od teraz
-jaki czas będzie za {number:offset} sekundy od teraz w {location}
-jaki czas będzie za {number:offset} sekundy od teraz we {location}
-jaki czas będzie za {number:offset} sekundy w {location}
-jaki czas będzie za {number:offset} sekundy we {location}
 jaki czas będzie za {number:offset} godzin
 jaki czas będzie za {number:offset} godzin od teraz
 jaki czas będzie za {number:offset} godzin od teraz w {location}
@@ -1258,42 +538,6 @@ jaki czas jest za {number:offset} sekundy od teraz w {location}
 jaki czas jest za {number:offset} sekundy od teraz we {location}
 jaki czas jest za {number:offset} sekundy w {location}
 jaki czas jest za {number:offset} sekundy we {location}
-jaki czas jest za {number:offset} godzin
-jaki czas jest za {number:offset} godzin od teraz
-jaki czas jest za {number:offset} godzin od teraz w {location}
-jaki czas jest za {number:offset} godzin od teraz we {location}
-jaki czas jest za {number:offset} godzin w {location}
-jaki czas jest za {number:offset} godzin we {location}
-jaki czas jest za {number:offset} godziny
-jaki czas jest za {number:offset} godziny od teraz
-jaki czas jest za {number:offset} godziny od teraz w {location}
-jaki czas jest za {number:offset} godziny od teraz we {location}
-jaki czas jest za {number:offset} godziny w {location}
-jaki czas jest za {number:offset} godziny we {location}
-jaki czas jest za {number:offset} minut
-jaki czas jest za {number:offset} minut od teraz
-jaki czas jest za {number:offset} minut od teraz w {location}
-jaki czas jest za {number:offset} minut od teraz we {location}
-jaki czas jest za {number:offset} minut w {location}
-jaki czas jest za {number:offset} minut we {location}
-jaki czas jest za {number:offset} minuty
-jaki czas jest za {number:offset} minuty od teraz
-jaki czas jest za {number:offset} minuty od teraz w {location}
-jaki czas jest za {number:offset} minuty od teraz we {location}
-jaki czas jest za {number:offset} minuty w {location}
-jaki czas jest za {number:offset} minuty we {location}
-jaki czas jest za {number:offset} sekund
-jaki czas jest za {number:offset} sekund od teraz
-jaki czas jest za {number:offset} sekund od teraz w {location}
-jaki czas jest za {number:offset} sekund od teraz we {location}
-jaki czas jest za {number:offset} sekund w {location}
-jaki czas jest za {number:offset} sekund we {location}
-jaki czas jest za {number:offset} sekundy
-jaki czas jest za {number:offset} sekundy od teraz
-jaki czas jest za {number:offset} sekundy od teraz w {location}
-jaki czas jest za {number:offset} sekundy od teraz we {location}
-jaki czas jest za {number:offset} sekundy w {location}
-jaki czas jest za {number:offset} sekundy we {location}
 jaki godzina będzie za {number:offset} godzin
 jaki godzina będzie za {number:offset} godzin od teraz
 jaki godzina będzie za {number:offset} godzin od teraz w {location}
@@ -1330,78 +574,6 @@ jaki godzina będzie za {number:offset} sekundy od teraz w {location}
 jaki godzina będzie za {number:offset} sekundy od teraz we {location}
 jaki godzina będzie za {number:offset} sekundy w {location}
 jaki godzina będzie za {number:offset} sekundy we {location}
-jaki godzina będzie za {number:offset} godzin
-jaki godzina będzie za {number:offset} godzin od teraz
-jaki godzina będzie za {number:offset} godzin od teraz w {location}
-jaki godzina będzie za {number:offset} godzin od teraz we {location}
-jaki godzina będzie za {number:offset} godzin w {location}
-jaki godzina będzie za {number:offset} godzin we {location}
-jaki godzina będzie za {number:offset} godziny
-jaki godzina będzie za {number:offset} godziny od teraz
-jaki godzina będzie za {number:offset} godziny od teraz w {location}
-jaki godzina będzie za {number:offset} godziny od teraz we {location}
-jaki godzina będzie za {number:offset} godziny w {location}
-jaki godzina będzie za {number:offset} godziny we {location}
-jaki godzina będzie za {number:offset} minut
-jaki godzina będzie za {number:offset} minut od teraz
-jaki godzina będzie za {number:offset} minut od teraz w {location}
-jaki godzina będzie za {number:offset} minut od teraz we {location}
-jaki godzina będzie za {number:offset} minut w {location}
-jaki godzina będzie za {number:offset} minut we {location}
-jaki godzina będzie za {number:offset} minuty
-jaki godzina będzie za {number:offset} minuty od teraz
-jaki godzina będzie za {number:offset} minuty od teraz w {location}
-jaki godzina będzie za {number:offset} minuty od teraz we {location}
-jaki godzina będzie za {number:offset} minuty w {location}
-jaki godzina będzie za {number:offset} minuty we {location}
-jaki godzina będzie za {number:offset} sekund
-jaki godzina będzie za {number:offset} sekund od teraz
-jaki godzina będzie za {number:offset} sekund od teraz w {location}
-jaki godzina będzie za {number:offset} sekund od teraz we {location}
-jaki godzina będzie za {number:offset} sekund w {location}
-jaki godzina będzie za {number:offset} sekund we {location}
-jaki godzina będzie za {number:offset} sekundy
-jaki godzina będzie za {number:offset} sekundy od teraz
-jaki godzina będzie za {number:offset} sekundy od teraz w {location}
-jaki godzina będzie za {number:offset} sekundy od teraz we {location}
-jaki godzina będzie za {number:offset} sekundy w {location}
-jaki godzina będzie za {number:offset} sekundy we {location}
-jaki godzina jest za {number:offset} godzin
-jaki godzina jest za {number:offset} godzin od teraz
-jaki godzina jest za {number:offset} godzin od teraz w {location}
-jaki godzina jest za {number:offset} godzin od teraz we {location}
-jaki godzina jest za {number:offset} godzin w {location}
-jaki godzina jest za {number:offset} godzin we {location}
-jaki godzina jest za {number:offset} godziny
-jaki godzina jest za {number:offset} godziny od teraz
-jaki godzina jest za {number:offset} godziny od teraz w {location}
-jaki godzina jest za {number:offset} godziny od teraz we {location}
-jaki godzina jest za {number:offset} godziny w {location}
-jaki godzina jest za {number:offset} godziny we {location}
-jaki godzina jest za {number:offset} minut
-jaki godzina jest za {number:offset} minut od teraz
-jaki godzina jest za {number:offset} minut od teraz w {location}
-jaki godzina jest za {number:offset} minut od teraz we {location}
-jaki godzina jest za {number:offset} minut w {location}
-jaki godzina jest za {number:offset} minut we {location}
-jaki godzina jest za {number:offset} minuty
-jaki godzina jest za {number:offset} minuty od teraz
-jaki godzina jest za {number:offset} minuty od teraz w {location}
-jaki godzina jest za {number:offset} minuty od teraz we {location}
-jaki godzina jest za {number:offset} minuty w {location}
-jaki godzina jest za {number:offset} minuty we {location}
-jaki godzina jest za {number:offset} sekund
-jaki godzina jest za {number:offset} sekund od teraz
-jaki godzina jest za {number:offset} sekund od teraz w {location}
-jaki godzina jest za {number:offset} sekund od teraz we {location}
-jaki godzina jest za {number:offset} sekund w {location}
-jaki godzina jest za {number:offset} sekund we {location}
-jaki godzina jest za {number:offset} sekundy
-jaki godzina jest za {number:offset} sekundy od teraz
-jaki godzina jest za {number:offset} sekundy od teraz w {location}
-jaki godzina jest za {number:offset} sekundy od teraz we {location}
-jaki godzina jest za {number:offset} sekundy w {location}
-jaki godzina jest za {number:offset} sekundy we {location}
 jaki godzina jest za {number:offset} godzin
 jaki godzina jest za {number:offset} godzin od teraz
 jaki godzina jest za {number:offset} godzin od teraz w {location}
@@ -1486,18 +658,6 @@ jaki jest czas w {location} za {number:offset} sekund
 jaki jest czas w {location} za {number:offset} sekund od teraz
 jaki jest czas w {location} za {number:offset} sekundy
 jaki jest czas w {location} za {number:offset} sekundy od teraz
-jaki jest czas w {location} za {number:offset} godzin
-jaki jest czas w {location} za {number:offset} godzin od teraz
-jaki jest czas w {location} za {number:offset} godziny
-jaki jest czas w {location} za {number:offset} godziny od teraz
-jaki jest czas w {location} za {number:offset} minut
-jaki jest czas w {location} za {number:offset} minut od teraz
-jaki jest czas w {location} za {number:offset} minuty
-jaki jest czas w {location} za {number:offset} minuty od teraz
-jaki jest czas w {location} za {number:offset} sekund
-jaki jest czas w {location} za {number:offset} sekund od teraz
-jaki jest czas w {location} za {number:offset} sekundy
-jaki jest czas w {location} za {number:offset} sekundy od teraz
 jaki jest czas we {location} za {number:offset} godzin
 jaki jest czas we {location} za {number:offset} godzin od teraz
 jaki jest czas we {location} za {number:offset} godziny
@@ -1510,174 +670,6 @@ jaki jest czas we {location} za {number:offset} sekund
 jaki jest czas we {location} za {number:offset} sekund od teraz
 jaki jest czas we {location} za {number:offset} sekundy
 jaki jest czas we {location} za {number:offset} sekundy od teraz
-jaki jest czas we {location} za {number:offset} godzin
-jaki jest czas we {location} za {number:offset} godzin od teraz
-jaki jest czas we {location} za {number:offset} godziny
-jaki jest czas we {location} za {number:offset} godziny od teraz
-jaki jest czas we {location} za {number:offset} minut
-jaki jest czas we {location} za {number:offset} minut od teraz
-jaki jest czas we {location} za {number:offset} minuty
-jaki jest czas we {location} za {number:offset} minuty od teraz
-jaki jest czas we {location} za {number:offset} sekund
-jaki jest czas we {location} za {number:offset} sekund od teraz
-jaki jest czas we {location} za {number:offset} sekundy
-jaki jest czas we {location} za {number:offset} sekundy od teraz
-jaki jest czas za {number:offset} godzin
-jaki jest czas za {number:offset} godzin od teraz
-jaki jest czas za {number:offset} godzin od teraz w {location}
-jaki jest czas za {number:offset} godzin od teraz we {location}
-jaki jest czas za {number:offset} godzin w {location}
-jaki jest czas za {number:offset} godzin we {location}
-jaki jest czas za {number:offset} godziny
-jaki jest czas za {number:offset} godziny od teraz
-jaki jest czas za {number:offset} godziny od teraz w {location}
-jaki jest czas za {number:offset} godziny od teraz we {location}
-jaki jest czas za {number:offset} godziny w {location}
-jaki jest czas za {number:offset} godziny we {location}
-jaki jest czas za {number:offset} minut
-jaki jest czas za {number:offset} minut od teraz
-jaki jest czas za {number:offset} minut od teraz w {location}
-jaki jest czas za {number:offset} minut od teraz we {location}
-jaki jest czas za {number:offset} minut w {location}
-jaki jest czas za {number:offset} minut we {location}
-jaki jest czas za {number:offset} minuty
-jaki jest czas za {number:offset} minuty od teraz
-jaki jest czas za {number:offset} minuty od teraz w {location}
-jaki jest czas za {number:offset} minuty od teraz we {location}
-jaki jest czas za {number:offset} minuty w {location}
-jaki jest czas za {number:offset} minuty we {location}
-jaki jest czas za {number:offset} sekund
-jaki jest czas za {number:offset} sekund od teraz
-jaki jest czas za {number:offset} sekund od teraz w {location}
-jaki jest czas za {number:offset} sekund od teraz we {location}
-jaki jest czas za {number:offset} sekund w {location}
-jaki jest czas za {number:offset} sekund we {location}
-jaki jest czas za {number:offset} sekundy
-jaki jest czas za {number:offset} sekundy od teraz
-jaki jest czas za {number:offset} sekundy od teraz w {location}
-jaki jest czas za {number:offset} sekundy od teraz we {location}
-jaki jest czas za {number:offset} sekundy w {location}
-jaki jest czas za {number:offset} sekundy we {location}
-jaki jest godzina za {number:offset} godzin
-jaki jest godzina za {number:offset} godzin od teraz
-jaki jest godzina za {number:offset} godzin od teraz w {location}
-jaki jest godzina za {number:offset} godzin od teraz we {location}
-jaki jest godzina za {number:offset} godzin w {location}
-jaki jest godzina za {number:offset} godzin we {location}
-jaki jest godzina za {number:offset} godziny
-jaki jest godzina za {number:offset} godziny od teraz
-jaki jest godzina za {number:offset} godziny od teraz w {location}
-jaki jest godzina za {number:offset} godziny od teraz we {location}
-jaki jest godzina za {number:offset} godziny w {location}
-jaki jest godzina za {number:offset} godziny we {location}
-jaki jest godzina za {number:offset} minut
-jaki jest godzina za {number:offset} minut od teraz
-jaki jest godzina za {number:offset} minut od teraz w {location}
-jaki jest godzina za {number:offset} minut od teraz we {location}
-jaki jest godzina za {number:offset} minut w {location}
-jaki jest godzina za {number:offset} minut we {location}
-jaki jest godzina za {number:offset} minuty
-jaki jest godzina za {number:offset} minuty od teraz
-jaki jest godzina za {number:offset} minuty od teraz w {location}
-jaki jest godzina za {number:offset} minuty od teraz we {location}
-jaki jest godzina za {number:offset} minuty w {location}
-jaki jest godzina za {number:offset} minuty we {location}
-jaki jest godzina za {number:offset} sekund
-jaki jest godzina za {number:offset} sekund od teraz
-jaki jest godzina za {number:offset} sekund od teraz w {location}
-jaki jest godzina za {number:offset} sekund od teraz we {location}
-jaki jest godzina za {number:offset} sekund w {location}
-jaki jest godzina za {number:offset} sekund we {location}
-jaki jest godzina za {number:offset} sekundy
-jaki jest godzina za {number:offset} sekundy od teraz
-jaki jest godzina za {number:offset} sekundy od teraz w {location}
-jaki jest godzina za {number:offset} sekundy od teraz we {location}
-jaki jest godzina za {number:offset} sekundy w {location}
-jaki jest godzina za {number:offset} sekundy we {location}
-jaki jest godzina w {location} za {number:offset} godzin
-jaki jest godzina w {location} za {number:offset} godzin od teraz
-jaki jest godzina w {location} za {number:offset} godziny
-jaki jest godzina w {location} za {number:offset} godziny od teraz
-jaki jest godzina w {location} za {number:offset} minut
-jaki jest godzina w {location} za {number:offset} minut od teraz
-jaki jest godzina w {location} za {number:offset} minuty
-jaki jest godzina w {location} za {number:offset} minuty od teraz
-jaki jest godzina w {location} za {number:offset} sekund
-jaki jest godzina w {location} za {number:offset} sekund od teraz
-jaki jest godzina w {location} za {number:offset} sekundy
-jaki jest godzina w {location} za {number:offset} sekundy od teraz
-jaki jest godzina w {location} za {number:offset} godzin
-jaki jest godzina w {location} za {number:offset} godzin od teraz
-jaki jest godzina w {location} za {number:offset} godziny
-jaki jest godzina w {location} za {number:offset} godziny od teraz
-jaki jest godzina w {location} za {number:offset} minut
-jaki jest godzina w {location} za {number:offset} minut od teraz
-jaki jest godzina w {location} za {number:offset} minuty
-jaki jest godzina w {location} za {number:offset} minuty od teraz
-jaki jest godzina w {location} za {number:offset} sekund
-jaki jest godzina w {location} za {number:offset} sekund od teraz
-jaki jest godzina w {location} za {number:offset} sekundy
-jaki jest godzina w {location} za {number:offset} sekundy od teraz
-jaki jest godzina we {location} za {number:offset} godzin
-jaki jest godzina we {location} za {number:offset} godzin od teraz
-jaki jest godzina we {location} za {number:offset} godziny
-jaki jest godzina we {location} za {number:offset} godziny od teraz
-jaki jest godzina we {location} za {number:offset} minut
-jaki jest godzina we {location} za {number:offset} minut od teraz
-jaki jest godzina we {location} za {number:offset} minuty
-jaki jest godzina we {location} za {number:offset} minuty od teraz
-jaki jest godzina we {location} za {number:offset} sekund
-jaki jest godzina we {location} za {number:offset} sekund od teraz
-jaki jest godzina we {location} za {number:offset} sekundy
-jaki jest godzina we {location} za {number:offset} sekundy od teraz
-jaki jest godzina we {location} za {number:offset} godzin
-jaki jest godzina we {location} za {number:offset} godzin od teraz
-jaki jest godzina we {location} za {number:offset} godziny
-jaki jest godzina we {location} za {number:offset} godziny od teraz
-jaki jest godzina we {location} za {number:offset} minut
-jaki jest godzina we {location} za {number:offset} minut od teraz
-jaki jest godzina we {location} za {number:offset} minuty
-jaki jest godzina we {location} za {number:offset} minuty od teraz
-jaki jest godzina we {location} za {number:offset} sekund
-jaki jest godzina we {location} za {number:offset} sekund od teraz
-jaki jest godzina we {location} za {number:offset} sekundy
-jaki jest godzina we {location} za {number:offset} sekundy od teraz
-jaki jest godzina za {number:offset} godzin
-jaki jest godzina za {number:offset} godzin od teraz
-jaki jest godzina za {number:offset} godzin od teraz w {location}
-jaki jest godzina za {number:offset} godzin od teraz we {location}
-jaki jest godzina za {number:offset} godzin w {location}
-jaki jest godzina za {number:offset} godzin we {location}
-jaki jest godzina za {number:offset} godziny
-jaki jest godzina za {number:offset} godziny od teraz
-jaki jest godzina za {number:offset} godziny od teraz w {location}
-jaki jest godzina za {number:offset} godziny od teraz we {location}
-jaki jest godzina za {number:offset} godziny w {location}
-jaki jest godzina za {number:offset} godziny we {location}
-jaki jest godzina za {number:offset} minut
-jaki jest godzina za {number:offset} minut od teraz
-jaki jest godzina za {number:offset} minut od teraz w {location}
-jaki jest godzina za {number:offset} minut od teraz we {location}
-jaki jest godzina za {number:offset} minut w {location}
-jaki jest godzina za {number:offset} minut we {location}
-jaki jest godzina za {number:offset} minuty
-jaki jest godzina za {number:offset} minuty od teraz
-jaki jest godzina za {number:offset} minuty od teraz w {location}
-jaki jest godzina za {number:offset} minuty od teraz we {location}
-jaki jest godzina za {number:offset} minuty w {location}
-jaki jest godzina za {number:offset} minuty we {location}
-jaki jest godzina za {number:offset} sekund
-jaki jest godzina za {number:offset} sekund od teraz
-jaki jest godzina za {number:offset} sekund od teraz w {location}
-jaki jest godzina za {number:offset} sekund od teraz we {location}
-jaki jest godzina za {number:offset} sekund w {location}
-jaki jest godzina za {number:offset} sekund we {location}
-jaki jest godzina za {number:offset} sekundy
-jaki jest godzina za {number:offset} sekundy od teraz
-jaki jest godzina za {number:offset} sekundy od teraz w {location}
-jaki jest godzina za {number:offset} sekundy od teraz we {location}
-jaki jest godzina za {number:offset} sekundy w {location}
-jaki jest godzina za {number:offset} sekundy we {location}
 kiedy minie {number:offset} godzin
 kiedy minie {number:offset} godzin od teraz
 kiedy minie {number:offset} godzin od teraz w {location}
@@ -1750,126 +742,6 @@ kiedy miną {number:offset} sekundy od teraz w {location}
 kiedy miną {number:offset} sekundy od teraz we {location}
 kiedy miną {number:offset} sekundy w {location}
 kiedy miną {number:offset} sekundy we {location}
-która będzie czas za {number:offset} godzin
-która będzie czas za {number:offset} godzin od teraz
-która będzie czas za {number:offset} godzin od teraz w {location}
-która będzie czas za {number:offset} godzin od teraz we {location}
-która będzie czas za {number:offset} godzin w {location}
-która będzie czas za {number:offset} godzin we {location}
-która będzie czas za {number:offset} godziny
-która będzie czas za {number:offset} godziny od teraz
-która będzie czas za {number:offset} godziny od teraz w {location}
-która będzie czas za {number:offset} godziny od teraz we {location}
-która będzie czas za {number:offset} godziny w {location}
-która będzie czas za {number:offset} godziny we {location}
-która będzie czas za {number:offset} minut
-która będzie czas za {number:offset} minut od teraz
-która będzie czas za {number:offset} minut od teraz w {location}
-która będzie czas za {number:offset} minut od teraz we {location}
-która będzie czas za {number:offset} minut w {location}
-która będzie czas za {number:offset} minut we {location}
-która będzie czas za {number:offset} minuty
-która będzie czas za {number:offset} minuty od teraz
-która będzie czas za {number:offset} minuty od teraz w {location}
-która będzie czas za {number:offset} minuty od teraz we {location}
-która będzie czas za {number:offset} minuty w {location}
-która będzie czas za {number:offset} minuty we {location}
-która będzie czas za {number:offset} sekund
-która będzie czas za {number:offset} sekund od teraz
-która będzie czas za {number:offset} sekund od teraz w {location}
-która będzie czas za {number:offset} sekund od teraz we {location}
-która będzie czas za {number:offset} sekund w {location}
-która będzie czas za {number:offset} sekund we {location}
-która będzie czas za {number:offset} sekundy
-która będzie czas za {number:offset} sekundy od teraz
-która będzie czas za {number:offset} sekundy od teraz w {location}
-która będzie czas za {number:offset} sekundy od teraz we {location}
-która będzie czas za {number:offset} sekundy w {location}
-która będzie czas za {number:offset} sekundy we {location}
-która będzie czas w {location} za {number:offset} godzin
-która będzie czas w {location} za {number:offset} godzin od teraz
-która będzie czas w {location} za {number:offset} godziny
-która będzie czas w {location} za {number:offset} godziny od teraz
-która będzie czas w {location} za {number:offset} minut
-która będzie czas w {location} za {number:offset} minut od teraz
-która będzie czas w {location} za {number:offset} minuty
-która będzie czas w {location} za {number:offset} minuty od teraz
-która będzie czas w {location} za {number:offset} sekund
-która będzie czas w {location} za {number:offset} sekund od teraz
-która będzie czas w {location} za {number:offset} sekundy
-która będzie czas w {location} za {number:offset} sekundy od teraz
-która będzie czas w {location} za {number:offset} godzin
-która będzie czas w {location} za {number:offset} godzin od teraz
-która będzie czas w {location} za {number:offset} godziny
-która będzie czas w {location} za {number:offset} godziny od teraz
-która będzie czas w {location} za {number:offset} minut
-która będzie czas w {location} za {number:offset} minut od teraz
-która będzie czas w {location} za {number:offset} minuty
-która będzie czas w {location} za {number:offset} minuty od teraz
-która będzie czas w {location} za {number:offset} sekund
-która będzie czas w {location} za {number:offset} sekund od teraz
-która będzie czas w {location} za {number:offset} sekundy
-która będzie czas w {location} za {number:offset} sekundy od teraz
-która będzie czas we {location} za {number:offset} godzin
-która będzie czas we {location} za {number:offset} godzin od teraz
-która będzie czas we {location} za {number:offset} godziny
-która będzie czas we {location} za {number:offset} godziny od teraz
-która będzie czas we {location} za {number:offset} minut
-która będzie czas we {location} za {number:offset} minut od teraz
-która będzie czas we {location} za {number:offset} minuty
-która będzie czas we {location} za {number:offset} minuty od teraz
-która będzie czas we {location} za {number:offset} sekund
-która będzie czas we {location} za {number:offset} sekund od teraz
-która będzie czas we {location} za {number:offset} sekundy
-która będzie czas we {location} za {number:offset} sekundy od teraz
-która będzie czas we {location} za {number:offset} godzin
-która będzie czas we {location} za {number:offset} godzin od teraz
-która będzie czas we {location} za {number:offset} godziny
-która będzie czas we {location} za {number:offset} godziny od teraz
-która będzie czas we {location} za {number:offset} minut
-która będzie czas we {location} za {number:offset} minut od teraz
-która będzie czas we {location} za {number:offset} minuty
-która będzie czas we {location} za {number:offset} minuty od teraz
-która będzie czas we {location} za {number:offset} sekund
-która będzie czas we {location} za {number:offset} sekund od teraz
-która będzie czas we {location} za {number:offset} sekundy
-która będzie czas we {location} za {number:offset} sekundy od teraz
-która będzie czas za {number:offset} godzin
-która będzie czas za {number:offset} godzin od teraz
-która będzie czas za {number:offset} godzin od teraz w {location}
-która będzie czas za {number:offset} godzin od teraz we {location}
-która będzie czas za {number:offset} godzin w {location}
-która będzie czas za {number:offset} godzin we {location}
-która będzie czas za {number:offset} godziny
-która będzie czas za {number:offset} godziny od teraz
-która będzie czas za {number:offset} godziny od teraz w {location}
-która będzie czas za {number:offset} godziny od teraz we {location}
-która będzie czas za {number:offset} godziny w {location}
-która będzie czas za {number:offset} godziny we {location}
-która będzie czas za {number:offset} minut
-która będzie czas za {number:offset} minut od teraz
-która będzie czas za {number:offset} minut od teraz w {location}
-która będzie czas za {number:offset} minut od teraz we {location}
-która będzie czas za {number:offset} minut w {location}
-która będzie czas za {number:offset} minut we {location}
-która będzie czas za {number:offset} minuty
-która będzie czas za {number:offset} minuty od teraz
-która będzie czas za {number:offset} minuty od teraz w {location}
-która będzie czas za {number:offset} minuty od teraz we {location}
-która będzie czas za {number:offset} minuty w {location}
-która będzie czas za {number:offset} minuty we {location}
-która będzie czas za {number:offset} sekund
-która będzie czas za {number:offset} sekund od teraz
-która będzie czas za {number:offset} sekund od teraz w {location}
-która będzie czas za {number:offset} sekund od teraz we {location}
-która będzie czas za {number:offset} sekund w {location}
-która będzie czas za {number:offset} sekund we {location}
-która będzie czas za {number:offset} sekundy
-która będzie czas za {number:offset} sekundy od teraz
-która będzie czas za {number:offset} sekundy od teraz w {location}
-która będzie czas za {number:offset} sekundy od teraz we {location}
-która będzie czas za {number:offset} sekundy w {location}
-która będzie czas za {number:offset} sekundy we {location}
 która będzie godzina za {number:offset} godzin
 która będzie godzina za {number:offset} godzin od teraz
 która będzie godzina za {number:offset} godzin od teraz w {location}
@@ -1918,18 +790,6 @@ która będzie godzina w {location} za {number:offset} sekund
 która będzie godzina w {location} za {number:offset} sekund od teraz
 która będzie godzina w {location} za {number:offset} sekundy
 która będzie godzina w {location} za {number:offset} sekundy od teraz
-która będzie godzina w {location} za {number:offset} godzin
-która będzie godzina w {location} za {number:offset} godzin od teraz
-która będzie godzina w {location} za {number:offset} godziny
-która będzie godzina w {location} za {number:offset} godziny od teraz
-która będzie godzina w {location} za {number:offset} minut
-która będzie godzina w {location} za {number:offset} minut od teraz
-która będzie godzina w {location} za {number:offset} minuty
-która będzie godzina w {location} za {number:offset} minuty od teraz
-która będzie godzina w {location} za {number:offset} sekund
-która będzie godzina w {location} za {number:offset} sekund od teraz
-która będzie godzina w {location} za {number:offset} sekundy
-która będzie godzina w {location} za {number:offset} sekundy od teraz
 która będzie godzina we {location} za {number:offset} godzin
 która będzie godzina we {location} za {number:offset} godzin od teraz
 która będzie godzina we {location} za {number:offset} godziny
@@ -1942,90 +802,6 @@ która będzie godzina we {location} za {number:offset} sekund
 która będzie godzina we {location} za {number:offset} sekund od teraz
 która będzie godzina we {location} za {number:offset} sekundy
 która będzie godzina we {location} za {number:offset} sekundy od teraz
-która będzie godzina we {location} za {number:offset} godzin
-która będzie godzina we {location} za {number:offset} godzin od teraz
-która będzie godzina we {location} za {number:offset} godziny
-która będzie godzina we {location} za {number:offset} godziny od teraz
-która będzie godzina we {location} za {number:offset} minut
-która będzie godzina we {location} za {number:offset} minut od teraz
-która będzie godzina we {location} za {number:offset} minuty
-która będzie godzina we {location} za {number:offset} minuty od teraz
-która będzie godzina we {location} za {number:offset} sekund
-która będzie godzina we {location} za {number:offset} sekund od teraz
-która będzie godzina we {location} za {number:offset} sekundy
-która będzie godzina we {location} za {number:offset} sekundy od teraz
-która będzie godzina za {number:offset} godzin
-która będzie godzina za {number:offset} godzin od teraz
-która będzie godzina za {number:offset} godzin od teraz w {location}
-która będzie godzina za {number:offset} godzin od teraz we {location}
-która będzie godzina za {number:offset} godzin w {location}
-która będzie godzina za {number:offset} godzin we {location}
-która będzie godzina za {number:offset} godziny
-która będzie godzina za {number:offset} godziny od teraz
-która będzie godzina za {number:offset} godziny od teraz w {location}
-która będzie godzina za {number:offset} godziny od teraz we {location}
-która będzie godzina za {number:offset} godziny w {location}
-która będzie godzina za {number:offset} godziny we {location}
-która będzie godzina za {number:offset} minut
-która będzie godzina za {number:offset} minut od teraz
-która będzie godzina za {number:offset} minut od teraz w {location}
-która będzie godzina za {number:offset} minut od teraz we {location}
-która będzie godzina za {number:offset} minut w {location}
-która będzie godzina za {number:offset} minut we {location}
-która będzie godzina za {number:offset} minuty
-która będzie godzina za {number:offset} minuty od teraz
-która będzie godzina za {number:offset} minuty od teraz w {location}
-która będzie godzina za {number:offset} minuty od teraz we {location}
-która będzie godzina za {number:offset} minuty w {location}
-która będzie godzina za {number:offset} minuty we {location}
-która będzie godzina za {number:offset} sekund
-która będzie godzina za {number:offset} sekund od teraz
-która będzie godzina za {number:offset} sekund od teraz w {location}
-która będzie godzina za {number:offset} sekund od teraz we {location}
-która będzie godzina za {number:offset} sekund w {location}
-która będzie godzina za {number:offset} sekund we {location}
-która będzie godzina za {number:offset} sekundy
-która będzie godzina za {number:offset} sekundy od teraz
-która będzie godzina za {number:offset} sekundy od teraz w {location}
-która będzie godzina za {number:offset} sekundy od teraz we {location}
-która będzie godzina za {number:offset} sekundy w {location}
-która będzie godzina za {number:offset} sekundy we {location}
-która czas będzie za {number:offset} godzin
-która czas będzie za {number:offset} godzin od teraz
-która czas będzie za {number:offset} godzin od teraz w {location}
-która czas będzie za {number:offset} godzin od teraz we {location}
-która czas będzie za {number:offset} godzin w {location}
-która czas będzie za {number:offset} godzin we {location}
-która czas będzie za {number:offset} godziny
-która czas będzie za {number:offset} godziny od teraz
-która czas będzie za {number:offset} godziny od teraz w {location}
-która czas będzie za {number:offset} godziny od teraz we {location}
-która czas będzie za {number:offset} godziny w {location}
-która czas będzie za {number:offset} godziny we {location}
-która czas będzie za {number:offset} minut
-która czas będzie za {number:offset} minut od teraz
-która czas będzie za {number:offset} minut od teraz w {location}
-która czas będzie za {number:offset} minut od teraz we {location}
-która czas będzie za {number:offset} minut w {location}
-która czas będzie za {number:offset} minut we {location}
-która czas będzie za {number:offset} minuty
-która czas będzie za {number:offset} minuty od teraz
-która czas będzie za {number:offset} minuty od teraz w {location}
-która czas będzie za {number:offset} minuty od teraz we {location}
-która czas będzie za {number:offset} minuty w {location}
-która czas będzie za {number:offset} minuty we {location}
-która czas będzie za {number:offset} sekund
-która czas będzie za {number:offset} sekund od teraz
-która czas będzie za {number:offset} sekund od teraz w {location}
-która czas będzie za {number:offset} sekund od teraz we {location}
-która czas będzie za {number:offset} sekund w {location}
-która czas będzie za {number:offset} sekund we {location}
-która czas będzie za {number:offset} sekundy
-która czas będzie za {number:offset} sekundy od teraz
-która czas będzie za {number:offset} sekundy od teraz w {location}
-która czas będzie za {number:offset} sekundy od teraz we {location}
-która czas będzie za {number:offset} sekundy w {location}
-która czas będzie za {number:offset} sekundy we {location}
 która czas będzie za {number:offset} godzin
 która czas będzie za {number:offset} godzin od teraz
 która czas będzie za {number:offset} godzin od teraz w {location}
@@ -2098,78 +874,6 @@ która czas jest za {number:offset} sekundy od teraz w {location}
 która czas jest za {number:offset} sekundy od teraz we {location}
 która czas jest za {number:offset} sekundy w {location}
 która czas jest za {number:offset} sekundy we {location}
-która czas jest za {number:offset} godzin
-która czas jest za {number:offset} godzin od teraz
-która czas jest za {number:offset} godzin od teraz w {location}
-która czas jest za {number:offset} godzin od teraz we {location}
-która czas jest za {number:offset} godzin w {location}
-która czas jest za {number:offset} godzin we {location}
-która czas jest za {number:offset} godziny
-która czas jest za {number:offset} godziny od teraz
-która czas jest za {number:offset} godziny od teraz w {location}
-która czas jest za {number:offset} godziny od teraz we {location}
-która czas jest za {number:offset} godziny w {location}
-która czas jest za {number:offset} godziny we {location}
-która czas jest za {number:offset} minut
-która czas jest za {number:offset} minut od teraz
-która czas jest za {number:offset} minut od teraz w {location}
-która czas jest za {number:offset} minut od teraz we {location}
-która czas jest za {number:offset} minut w {location}
-która czas jest za {number:offset} minut we {location}
-która czas jest za {number:offset} minuty
-która czas jest za {number:offset} minuty od teraz
-która czas jest za {number:offset} minuty od teraz w {location}
-która czas jest za {number:offset} minuty od teraz we {location}
-która czas jest za {number:offset} minuty w {location}
-która czas jest za {number:offset} minuty we {location}
-która czas jest za {number:offset} sekund
-która czas jest za {number:offset} sekund od teraz
-która czas jest za {number:offset} sekund od teraz w {location}
-która czas jest za {number:offset} sekund od teraz we {location}
-która czas jest za {number:offset} sekund w {location}
-która czas jest za {number:offset} sekund we {location}
-która czas jest za {number:offset} sekundy
-która czas jest za {number:offset} sekundy od teraz
-która czas jest za {number:offset} sekundy od teraz w {location}
-która czas jest za {number:offset} sekundy od teraz we {location}
-która czas jest za {number:offset} sekundy w {location}
-która czas jest za {number:offset} sekundy we {location}
-która godzina będzie za {number:offset} godzin
-która godzina będzie za {number:offset} godzin od teraz
-która godzina będzie za {number:offset} godzin od teraz w {location}
-która godzina będzie za {number:offset} godzin od teraz we {location}
-która godzina będzie za {number:offset} godzin w {location}
-która godzina będzie za {number:offset} godzin we {location}
-która godzina będzie za {number:offset} godziny
-która godzina będzie za {number:offset} godziny od teraz
-która godzina będzie za {number:offset} godziny od teraz w {location}
-która godzina będzie za {number:offset} godziny od teraz we {location}
-która godzina będzie za {number:offset} godziny w {location}
-która godzina będzie za {number:offset} godziny we {location}
-która godzina będzie za {number:offset} minut
-która godzina będzie za {number:offset} minut od teraz
-która godzina będzie za {number:offset} minut od teraz w {location}
-która godzina będzie za {number:offset} minut od teraz we {location}
-która godzina będzie za {number:offset} minut w {location}
-która godzina będzie za {number:offset} minut we {location}
-która godzina będzie za {number:offset} minuty
-która godzina będzie za {number:offset} minuty od teraz
-która godzina będzie za {number:offset} minuty od teraz w {location}
-która godzina będzie za {number:offset} minuty od teraz we {location}
-która godzina będzie za {number:offset} minuty w {location}
-która godzina będzie za {number:offset} minuty we {location}
-która godzina będzie za {number:offset} sekund
-która godzina będzie za {number:offset} sekund od teraz
-która godzina będzie za {number:offset} sekund od teraz w {location}
-która godzina będzie za {number:offset} sekund od teraz we {location}
-która godzina będzie za {number:offset} sekund w {location}
-która godzina będzie za {number:offset} sekund we {location}
-która godzina będzie za {number:offset} sekundy
-która godzina będzie za {number:offset} sekundy od teraz
-która godzina będzie za {number:offset} sekundy od teraz w {location}
-która godzina będzie za {number:offset} sekundy od teraz we {location}
-która godzina będzie za {number:offset} sekundy w {location}
-która godzina będzie za {number:offset} sekundy we {location}
 która godzina będzie za {number:offset} godzin
 która godzina będzie za {number:offset} godzin od teraz
 która godzina będzie za {number:offset} godzin od teraz w {location}
@@ -2242,162 +946,6 @@ która godzina jest za {number:offset} sekundy od teraz w {location}
 która godzina jest za {number:offset} sekundy od teraz we {location}
 która godzina jest za {number:offset} sekundy w {location}
 która godzina jest za {number:offset} sekundy we {location}
-która godzina jest za {number:offset} godzin
-która godzina jest za {number:offset} godzin od teraz
-która godzina jest za {number:offset} godzin od teraz w {location}
-która godzina jest za {number:offset} godzin od teraz we {location}
-która godzina jest za {number:offset} godzin w {location}
-która godzina jest za {number:offset} godzin we {location}
-która godzina jest za {number:offset} godziny
-która godzina jest za {number:offset} godziny od teraz
-która godzina jest za {number:offset} godziny od teraz w {location}
-która godzina jest za {number:offset} godziny od teraz we {location}
-która godzina jest za {number:offset} godziny w {location}
-która godzina jest za {number:offset} godziny we {location}
-która godzina jest za {number:offset} minut
-która godzina jest za {number:offset} minut od teraz
-która godzina jest za {number:offset} minut od teraz w {location}
-która godzina jest za {number:offset} minut od teraz we {location}
-która godzina jest za {number:offset} minut w {location}
-która godzina jest za {number:offset} minut we {location}
-która godzina jest za {number:offset} minuty
-która godzina jest za {number:offset} minuty od teraz
-która godzina jest za {number:offset} minuty od teraz w {location}
-która godzina jest za {number:offset} minuty od teraz we {location}
-która godzina jest za {number:offset} minuty w {location}
-która godzina jest za {number:offset} minuty we {location}
-która godzina jest za {number:offset} sekund
-która godzina jest za {number:offset} sekund od teraz
-która godzina jest za {number:offset} sekund od teraz w {location}
-która godzina jest za {number:offset} sekund od teraz we {location}
-która godzina jest za {number:offset} sekund w {location}
-która godzina jest za {number:offset} sekund we {location}
-która godzina jest za {number:offset} sekundy
-która godzina jest za {number:offset} sekundy od teraz
-która godzina jest za {number:offset} sekundy od teraz w {location}
-która godzina jest za {number:offset} sekundy od teraz we {location}
-która godzina jest za {number:offset} sekundy w {location}
-która godzina jest za {number:offset} sekundy we {location}
-która jest czas za {number:offset} godzin
-która jest czas za {number:offset} godzin od teraz
-która jest czas za {number:offset} godzin od teraz w {location}
-która jest czas za {number:offset} godzin od teraz we {location}
-która jest czas za {number:offset} godzin w {location}
-która jest czas za {number:offset} godzin we {location}
-która jest czas za {number:offset} godziny
-która jest czas za {number:offset} godziny od teraz
-która jest czas za {number:offset} godziny od teraz w {location}
-która jest czas za {number:offset} godziny od teraz we {location}
-która jest czas za {number:offset} godziny w {location}
-która jest czas za {number:offset} godziny we {location}
-która jest czas za {number:offset} minut
-która jest czas za {number:offset} minut od teraz
-która jest czas za {number:offset} minut od teraz w {location}
-która jest czas za {number:offset} minut od teraz we {location}
-która jest czas za {number:offset} minut w {location}
-która jest czas za {number:offset} minut we {location}
-która jest czas za {number:offset} minuty
-która jest czas za {number:offset} minuty od teraz
-która jest czas za {number:offset} minuty od teraz w {location}
-która jest czas za {number:offset} minuty od teraz we {location}
-która jest czas za {number:offset} minuty w {location}
-która jest czas za {number:offset} minuty we {location}
-która jest czas za {number:offset} sekund
-która jest czas za {number:offset} sekund od teraz
-która jest czas za {number:offset} sekund od teraz w {location}
-która jest czas za {number:offset} sekund od teraz we {location}
-która jest czas za {number:offset} sekund w {location}
-która jest czas za {number:offset} sekund we {location}
-która jest czas za {number:offset} sekundy
-która jest czas za {number:offset} sekundy od teraz
-która jest czas za {number:offset} sekundy od teraz w {location}
-która jest czas za {number:offset} sekundy od teraz we {location}
-która jest czas za {number:offset} sekundy w {location}
-która jest czas za {number:offset} sekundy we {location}
-która jest czas w {location} za {number:offset} godzin
-która jest czas w {location} za {number:offset} godzin od teraz
-która jest czas w {location} za {number:offset} godziny
-która jest czas w {location} za {number:offset} godziny od teraz
-która jest czas w {location} za {number:offset} minut
-która jest czas w {location} za {number:offset} minut od teraz
-która jest czas w {location} za {number:offset} minuty
-która jest czas w {location} za {number:offset} minuty od teraz
-która jest czas w {location} za {number:offset} sekund
-która jest czas w {location} za {number:offset} sekund od teraz
-która jest czas w {location} za {number:offset} sekundy
-która jest czas w {location} za {number:offset} sekundy od teraz
-która jest czas w {location} za {number:offset} godzin
-która jest czas w {location} za {number:offset} godzin od teraz
-która jest czas w {location} za {number:offset} godziny
-która jest czas w {location} za {number:offset} godziny od teraz
-która jest czas w {location} za {number:offset} minut
-która jest czas w {location} za {number:offset} minut od teraz
-która jest czas w {location} za {number:offset} minuty
-która jest czas w {location} za {number:offset} minuty od teraz
-która jest czas w {location} za {number:offset} sekund
-która jest czas w {location} za {number:offset} sekund od teraz
-która jest czas w {location} za {number:offset} sekundy
-która jest czas w {location} za {number:offset} sekundy od teraz
-która jest czas we {location} za {number:offset} godzin
-która jest czas we {location} za {number:offset} godzin od teraz
-która jest czas we {location} za {number:offset} godziny
-która jest czas we {location} za {number:offset} godziny od teraz
-która jest czas we {location} za {number:offset} minut
-która jest czas we {location} za {number:offset} minut od teraz
-która jest czas we {location} za {number:offset} minuty
-która jest czas we {location} za {number:offset} minuty od teraz
-która jest czas we {location} za {number:offset} sekund
-która jest czas we {location} za {number:offset} sekund od teraz
-która jest czas we {location} za {number:offset} sekundy
-która jest czas we {location} za {number:offset} sekundy od teraz
-która jest czas we {location} za {number:offset} godzin
-która jest czas we {location} za {number:offset} godzin od teraz
-która jest czas we {location} za {number:offset} godziny
-która jest czas we {location} za {number:offset} godziny od teraz
-która jest czas we {location} za {number:offset} minut
-która jest czas we {location} za {number:offset} minut od teraz
-która jest czas we {location} za {number:offset} minuty
-która jest czas we {location} za {number:offset} minuty od teraz
-która jest czas we {location} za {number:offset} sekund
-która jest czas we {location} za {number:offset} sekund od teraz
-która jest czas we {location} za {number:offset} sekundy
-która jest czas we {location} za {number:offset} sekundy od teraz
-która jest czas za {number:offset} godzin
-która jest czas za {number:offset} godzin od teraz
-która jest czas za {number:offset} godzin od teraz w {location}
-która jest czas za {number:offset} godzin od teraz we {location}
-która jest czas za {number:offset} godzin w {location}
-która jest czas za {number:offset} godzin we {location}
-która jest czas za {number:offset} godziny
-która jest czas za {number:offset} godziny od teraz
-która jest czas za {number:offset} godziny od teraz w {location}
-która jest czas za {number:offset} godziny od teraz we {location}
-która jest czas za {number:offset} godziny w {location}
-która jest czas za {number:offset} godziny we {location}
-która jest czas za {number:offset} minut
-która jest czas za {number:offset} minut od teraz
-która jest czas za {number:offset} minut od teraz w {location}
-która jest czas za {number:offset} minut od teraz we {location}
-która jest czas za {number:offset} minut w {location}
-która jest czas za {number:offset} minut we {location}
-która jest czas za {number:offset} minuty
-która jest czas za {number:offset} minuty od teraz
-która jest czas za {number:offset} minuty od teraz w {location}
-która jest czas za {number:offset} minuty od teraz we {location}
-która jest czas za {number:offset} minuty w {location}
-która jest czas za {number:offset} minuty we {location}
-która jest czas za {number:offset} sekund
-która jest czas za {number:offset} sekund od teraz
-która jest czas za {number:offset} sekund od teraz w {location}
-która jest czas za {number:offset} sekund od teraz we {location}
-która jest czas za {number:offset} sekund w {location}
-która jest czas za {number:offset} sekund we {location}
-która jest czas za {number:offset} sekundy
-która jest czas za {number:offset} sekundy od teraz
-która jest czas za {number:offset} sekundy od teraz w {location}
-która jest czas za {number:offset} sekundy od teraz we {location}
-która jest czas za {number:offset} sekundy w {location}
-która jest czas za {number:offset} sekundy we {location}
 która jest godzina za {number:offset} godzin
 która jest godzina za {number:offset} godzin od teraz
 która jest godzina za {number:offset} godzin od teraz w {location}
@@ -2446,18 +994,6 @@ która jest godzina w {location} za {number:offset} sekund
 która jest godzina w {location} za {number:offset} sekund od teraz
 która jest godzina w {location} za {number:offset} sekundy
 która jest godzina w {location} za {number:offset} sekundy od teraz
-która jest godzina w {location} za {number:offset} godzin
-która jest godzina w {location} za {number:offset} godzin od teraz
-która jest godzina w {location} za {number:offset} godziny
-która jest godzina w {location} za {number:offset} godziny od teraz
-która jest godzina w {location} za {number:offset} minut
-która jest godzina w {location} za {number:offset} minut od teraz
-która jest godzina w {location} za {number:offset} minuty
-która jest godzina w {location} za {number:offset} minuty od teraz
-która jest godzina w {location} za {number:offset} sekund
-która jest godzina w {location} za {number:offset} sekund od teraz
-która jest godzina w {location} za {number:offset} sekundy
-która jest godzina w {location} za {number:offset} sekundy od teraz
 która jest godzina we {location} za {number:offset} godzin
 która jest godzina we {location} za {number:offset} godzin od teraz
 która jest godzina we {location} za {number:offset} godziny
@@ -2470,54 +1006,6 @@ która jest godzina we {location} za {number:offset} sekund
 która jest godzina we {location} za {number:offset} sekund od teraz
 która jest godzina we {location} za {number:offset} sekundy
 która jest godzina we {location} za {number:offset} sekundy od teraz
-która jest godzina we {location} za {number:offset} godzin
-która jest godzina we {location} za {number:offset} godzin od teraz
-która jest godzina we {location} za {number:offset} godziny
-która jest godzina we {location} za {number:offset} godziny od teraz
-która jest godzina we {location} za {number:offset} minut
-która jest godzina we {location} za {number:offset} minut od teraz
-która jest godzina we {location} za {number:offset} minuty
-która jest godzina we {location} za {number:offset} minuty od teraz
-która jest godzina we {location} za {number:offset} sekund
-która jest godzina we {location} za {number:offset} sekund od teraz
-która jest godzina we {location} za {number:offset} sekundy
-która jest godzina we {location} za {number:offset} sekundy od teraz
-która jest godzina za {number:offset} godzin
-która jest godzina za {number:offset} godzin od teraz
-która jest godzina za {number:offset} godzin od teraz w {location}
-która jest godzina za {number:offset} godzin od teraz we {location}
-która jest godzina za {number:offset} godzin w {location}
-która jest godzina za {number:offset} godzin we {location}
-która jest godzina za {number:offset} godziny
-która jest godzina za {number:offset} godziny od teraz
-która jest godzina za {number:offset} godziny od teraz w {location}
-która jest godzina za {number:offset} godziny od teraz we {location}
-która jest godzina za {number:offset} godziny w {location}
-która jest godzina za {number:offset} godziny we {location}
-która jest godzina za {number:offset} minut
-która jest godzina za {number:offset} minut od teraz
-która jest godzina za {number:offset} minut od teraz w {location}
-która jest godzina za {number:offset} minut od teraz we {location}
-która jest godzina za {number:offset} minut w {location}
-która jest godzina za {number:offset} minut we {location}
-która jest godzina za {number:offset} minuty
-która jest godzina za {number:offset} minuty od teraz
-która jest godzina za {number:offset} minuty od teraz w {location}
-która jest godzina za {number:offset} minuty od teraz we {location}
-która jest godzina za {number:offset} minuty w {location}
-która jest godzina za {number:offset} minuty we {location}
-która jest godzina za {number:offset} sekund
-która jest godzina za {number:offset} sekund od teraz
-która jest godzina za {number:offset} sekund od teraz w {location}
-która jest godzina za {number:offset} sekund od teraz we {location}
-która jest godzina za {number:offset} sekund w {location}
-która jest godzina za {number:offset} sekund we {location}
-która jest godzina za {number:offset} sekundy
-która jest godzina za {number:offset} sekundy od teraz
-która jest godzina za {number:offset} sekundy od teraz w {location}
-która jest godzina za {number:offset} sekundy od teraz we {location}
-która jest godzina za {number:offset} sekundy w {location}
-która jest godzina za {number:offset} sekundy we {location}
 minut jaka będzie czas
 minut jaka będzie czas w {location}
 minut jaka będzie czas we {location}
@@ -2770,18 +1258,6 @@ podaj czas za {number:offset} sekundy od teraz w {location}
 podaj czas za {number:offset} sekundy od teraz we {location}
 podaj czas za {number:offset} sekundy w {location}
 podaj czas za {number:offset} sekundy we {location}
-podaj czas za {number:offset} godzin
-podaj czas za {number:offset} godzin od teraz
-podaj czas za {number:offset} godziny
-podaj czas za {number:offset} godziny od teraz
-podaj czas za {number:offset} minut
-podaj czas za {number:offset} minut od teraz
-podaj czas za {number:offset} minuty
-podaj czas za {number:offset} minuty od teraz
-podaj czas za {number:offset} sekund
-podaj czas za {number:offset} sekund od teraz
-podaj czas za {number:offset} sekundy
-podaj czas za {number:offset} sekundy od teraz
 podaj godzinę za {number:offset} godzin
 podaj godzinę za {number:offset} godzin od teraz
 podaj godzinę za {number:offset} godzin od teraz w {location}
@@ -2818,18 +1294,6 @@ podaj godzinę za {number:offset} sekundy od teraz w {location}
 podaj godzinę za {number:offset} sekundy od teraz we {location}
 podaj godzinę za {number:offset} sekundy w {location}
 podaj godzinę za {number:offset} sekundy we {location}
-podaj godzinę za {number:offset} godzin
-podaj godzinę za {number:offset} godzin od teraz
-podaj godzinę za {number:offset} godziny
-podaj godzinę za {number:offset} godziny od teraz
-podaj godzinę za {number:offset} minut
-podaj godzinę za {number:offset} minut od teraz
-podaj godzinę za {number:offset} minuty
-podaj godzinę za {number:offset} minuty od teraz
-podaj godzinę za {number:offset} sekund
-podaj godzinę za {number:offset} sekund od teraz
-podaj godzinę za {number:offset} sekundy
-podaj godzinę za {number:offset} sekundy od teraz
 powiedz czas za {number:offset} godzin
 powiedz czas za {number:offset} godzin od teraz
 powiedz czas za {number:offset} godzin od teraz w {location}
@@ -2866,18 +1330,6 @@ powiedz czas za {number:offset} sekundy od teraz w {location}
 powiedz czas za {number:offset} sekundy od teraz we {location}
 powiedz czas za {number:offset} sekundy w {location}
 powiedz czas za {number:offset} sekundy we {location}
-powiedz czas za {number:offset} godzin
-powiedz czas za {number:offset} godzin od teraz
-powiedz czas za {number:offset} godziny
-powiedz czas za {number:offset} godziny od teraz
-powiedz czas za {number:offset} minut
-powiedz czas za {number:offset} minut od teraz
-powiedz czas za {number:offset} minuty
-powiedz czas za {number:offset} minuty od teraz
-powiedz czas za {number:offset} sekund
-powiedz czas za {number:offset} sekund od teraz
-powiedz czas za {number:offset} sekundy
-powiedz czas za {number:offset} sekundy od teraz
 powiedz godzinę za {number:offset} godzin
 powiedz godzinę za {number:offset} godzin od teraz
 powiedz godzinę za {number:offset} godzin od teraz w {location}
@@ -2914,18 +1366,6 @@ powiedz godzinę za {number:offset} sekundy od teraz w {location}
 powiedz godzinę za {number:offset} sekundy od teraz we {location}
 powiedz godzinę za {number:offset} sekundy w {location}
 powiedz godzinę za {number:offset} sekundy we {location}
-powiedz godzinę za {number:offset} godzin
-powiedz godzinę za {number:offset} godzin od teraz
-powiedz godzinę za {number:offset} godziny
-powiedz godzinę za {number:offset} godziny od teraz
-powiedz godzinę za {number:offset} minut
-powiedz godzinę za {number:offset} minut od teraz
-powiedz godzinę za {number:offset} minuty
-powiedz godzinę za {number:offset} minuty od teraz
-powiedz godzinę za {number:offset} sekund
-powiedz godzinę za {number:offset} sekund od teraz
-powiedz godzinę za {number:offset} sekundy
-powiedz godzinę za {number:offset} sekundy od teraz
 sekund jaka będzie czas
 sekund jaka będzie czas w {location}
 sekund jaka będzie czas we {location}
@@ -3082,30 +1522,6 @@ w {location} jaka będzie czas za {number:offset} sekund
 w {location} jaka będzie czas za {number:offset} sekund od teraz
 w {location} jaka będzie czas za {number:offset} sekundy
 w {location} jaka będzie czas za {number:offset} sekundy od teraz
-w {location} jaka będzie czas za {number:offset} godzin
-w {location} jaka będzie czas za {number:offset} godzin od teraz
-w {location} jaka będzie czas za {number:offset} godziny
-w {location} jaka będzie czas za {number:offset} godziny od teraz
-w {location} jaka będzie czas za {number:offset} minut
-w {location} jaka będzie czas za {number:offset} minut od teraz
-w {location} jaka będzie czas za {number:offset} minuty
-w {location} jaka będzie czas za {number:offset} minuty od teraz
-w {location} jaka będzie czas za {number:offset} sekund
-w {location} jaka będzie czas za {number:offset} sekund od teraz
-w {location} jaka będzie czas za {number:offset} sekundy
-w {location} jaka będzie czas za {number:offset} sekundy od teraz
-w {location} jaka będzie godzina za {number:offset} godzin
-w {location} jaka będzie godzina za {number:offset} godzin od teraz
-w {location} jaka będzie godzina za {number:offset} godziny
-w {location} jaka będzie godzina za {number:offset} godziny od teraz
-w {location} jaka będzie godzina za {number:offset} minut
-w {location} jaka będzie godzina za {number:offset} minut od teraz
-w {location} jaka będzie godzina za {number:offset} minuty
-w {location} jaka będzie godzina za {number:offset} minuty od teraz
-w {location} jaka będzie godzina za {number:offset} sekund
-w {location} jaka będzie godzina za {number:offset} sekund od teraz
-w {location} jaka będzie godzina za {number:offset} sekundy
-w {location} jaka będzie godzina za {number:offset} sekundy od teraz
 w {location} jaka będzie godzina za {number:offset} godzin
 w {location} jaka będzie godzina za {number:offset} godzin od teraz
 w {location} jaka będzie godzina za {number:offset} godziny
@@ -3130,30 +1546,6 @@ w {location} jaka jest czas za {number:offset} sekund
 w {location} jaka jest czas za {number:offset} sekund od teraz
 w {location} jaka jest czas za {number:offset} sekundy
 w {location} jaka jest czas za {number:offset} sekundy od teraz
-w {location} jaka jest czas za {number:offset} godzin
-w {location} jaka jest czas za {number:offset} godzin od teraz
-w {location} jaka jest czas za {number:offset} godziny
-w {location} jaka jest czas za {number:offset} godziny od teraz
-w {location} jaka jest czas za {number:offset} minut
-w {location} jaka jest czas za {number:offset} minut od teraz
-w {location} jaka jest czas za {number:offset} minuty
-w {location} jaka jest czas za {number:offset} minuty od teraz
-w {location} jaka jest czas za {number:offset} sekund
-w {location} jaka jest czas za {number:offset} sekund od teraz
-w {location} jaka jest czas za {number:offset} sekundy
-w {location} jaka jest czas za {number:offset} sekundy od teraz
-w {location} jaka jest godzina za {number:offset} godzin
-w {location} jaka jest godzina za {number:offset} godzin od teraz
-w {location} jaka jest godzina za {number:offset} godziny
-w {location} jaka jest godzina za {number:offset} godziny od teraz
-w {location} jaka jest godzina za {number:offset} minut
-w {location} jaka jest godzina za {number:offset} minut od teraz
-w {location} jaka jest godzina za {number:offset} minuty
-w {location} jaka jest godzina za {number:offset} minuty od teraz
-w {location} jaka jest godzina za {number:offset} sekund
-w {location} jaka jest godzina za {number:offset} sekund od teraz
-w {location} jaka jest godzina za {number:offset} sekundy
-w {location} jaka jest godzina za {number:offset} sekundy od teraz
 w {location} jaka jest godzina za {number:offset} godzin
 w {location} jaka jest godzina za {number:offset} godzin od teraz
 w {location} jaka jest godzina za {number:offset} godziny
@@ -3178,30 +1570,6 @@ w {location} jaki będzie czas za {number:offset} sekund
 w {location} jaki będzie czas za {number:offset} sekund od teraz
 w {location} jaki będzie czas za {number:offset} sekundy
 w {location} jaki będzie czas za {number:offset} sekundy od teraz
-w {location} jaki będzie czas za {number:offset} godzin
-w {location} jaki będzie czas za {number:offset} godzin od teraz
-w {location} jaki będzie czas za {number:offset} godziny
-w {location} jaki będzie czas za {number:offset} godziny od teraz
-w {location} jaki będzie czas za {number:offset} minut
-w {location} jaki będzie czas za {number:offset} minut od teraz
-w {location} jaki będzie czas za {number:offset} minuty
-w {location} jaki będzie czas za {number:offset} minuty od teraz
-w {location} jaki będzie czas za {number:offset} sekund
-w {location} jaki będzie czas za {number:offset} sekund od teraz
-w {location} jaki będzie czas za {number:offset} sekundy
-w {location} jaki będzie czas za {number:offset} sekundy od teraz
-w {location} jaki będzie godzina za {number:offset} godzin
-w {location} jaki będzie godzina za {number:offset} godzin od teraz
-w {location} jaki będzie godzina za {number:offset} godziny
-w {location} jaki będzie godzina za {number:offset} godziny od teraz
-w {location} jaki będzie godzina za {number:offset} minut
-w {location} jaki będzie godzina za {number:offset} minut od teraz
-w {location} jaki będzie godzina za {number:offset} minuty
-w {location} jaki będzie godzina za {number:offset} minuty od teraz
-w {location} jaki będzie godzina za {number:offset} sekund
-w {location} jaki będzie godzina za {number:offset} sekund od teraz
-w {location} jaki będzie godzina za {number:offset} sekundy
-w {location} jaki będzie godzina za {number:offset} sekundy od teraz
 w {location} jaki będzie godzina za {number:offset} godzin
 w {location} jaki będzie godzina za {number:offset} godzin od teraz
 w {location} jaki będzie godzina za {number:offset} godziny
@@ -3226,30 +1594,6 @@ w {location} jaki jest czas za {number:offset} sekund
 w {location} jaki jest czas za {number:offset} sekund od teraz
 w {location} jaki jest czas za {number:offset} sekundy
 w {location} jaki jest czas za {number:offset} sekundy od teraz
-w {location} jaki jest czas za {number:offset} godzin
-w {location} jaki jest czas za {number:offset} godzin od teraz
-w {location} jaki jest czas za {number:offset} godziny
-w {location} jaki jest czas za {number:offset} godziny od teraz
-w {location} jaki jest czas za {number:offset} minut
-w {location} jaki jest czas za {number:offset} minut od teraz
-w {location} jaki jest czas za {number:offset} minuty
-w {location} jaki jest czas za {number:offset} minuty od teraz
-w {location} jaki jest czas za {number:offset} sekund
-w {location} jaki jest czas za {number:offset} sekund od teraz
-w {location} jaki jest czas za {number:offset} sekundy
-w {location} jaki jest czas za {number:offset} sekundy od teraz
-w {location} jaki jest godzina za {number:offset} godzin
-w {location} jaki jest godzina za {number:offset} godzin od teraz
-w {location} jaki jest godzina za {number:offset} godziny
-w {location} jaki jest godzina za {number:offset} godziny od teraz
-w {location} jaki jest godzina za {number:offset} minut
-w {location} jaki jest godzina za {number:offset} minut od teraz
-w {location} jaki jest godzina za {number:offset} minuty
-w {location} jaki jest godzina za {number:offset} minuty od teraz
-w {location} jaki jest godzina za {number:offset} sekund
-w {location} jaki jest godzina za {number:offset} sekund od teraz
-w {location} jaki jest godzina za {number:offset} sekundy
-w {location} jaki jest godzina za {number:offset} sekundy od teraz
 w {location} jaki jest godzina za {number:offset} godzin
 w {location} jaki jest godzina za {number:offset} godzin od teraz
 w {location} jaki jest godzina za {number:offset} godziny
@@ -3274,30 +1618,6 @@ w {location} która będzie czas za {number:offset} sekund
 w {location} która będzie czas za {number:offset} sekund od teraz
 w {location} która będzie czas za {number:offset} sekundy
 w {location} która będzie czas za {number:offset} sekundy od teraz
-w {location} która będzie czas za {number:offset} godzin
-w {location} która będzie czas za {number:offset} godzin od teraz
-w {location} która będzie czas za {number:offset} godziny
-w {location} która będzie czas za {number:offset} godziny od teraz
-w {location} która będzie czas za {number:offset} minut
-w {location} która będzie czas za {number:offset} minut od teraz
-w {location} która będzie czas za {number:offset} minuty
-w {location} która będzie czas za {number:offset} minuty od teraz
-w {location} która będzie czas za {number:offset} sekund
-w {location} która będzie czas za {number:offset} sekund od teraz
-w {location} która będzie czas za {number:offset} sekundy
-w {location} która będzie czas za {number:offset} sekundy od teraz
-w {location} która będzie godzina za {number:offset} godzin
-w {location} która będzie godzina za {number:offset} godzin od teraz
-w {location} która będzie godzina za {number:offset} godziny
-w {location} która będzie godzina za {number:offset} godziny od teraz
-w {location} która będzie godzina za {number:offset} minut
-w {location} która będzie godzina za {number:offset} minut od teraz
-w {location} która będzie godzina za {number:offset} minuty
-w {location} która będzie godzina za {number:offset} minuty od teraz
-w {location} która będzie godzina za {number:offset} sekund
-w {location} która będzie godzina za {number:offset} sekund od teraz
-w {location} która będzie godzina za {number:offset} sekundy
-w {location} która będzie godzina za {number:offset} sekundy od teraz
 w {location} która będzie godzina za {number:offset} godzin
 w {location} która będzie godzina za {number:offset} godzin od teraz
 w {location} która będzie godzina za {number:offset} godziny
@@ -3322,30 +1642,6 @@ w {location} która jest czas za {number:offset} sekund
 w {location} która jest czas za {number:offset} sekund od teraz
 w {location} która jest czas za {number:offset} sekundy
 w {location} która jest czas za {number:offset} sekundy od teraz
-w {location} która jest czas za {number:offset} godzin
-w {location} która jest czas za {number:offset} godzin od teraz
-w {location} która jest czas za {number:offset} godziny
-w {location} która jest czas za {number:offset} godziny od teraz
-w {location} która jest czas za {number:offset} minut
-w {location} która jest czas za {number:offset} minut od teraz
-w {location} która jest czas za {number:offset} minuty
-w {location} która jest czas za {number:offset} minuty od teraz
-w {location} która jest czas za {number:offset} sekund
-w {location} która jest czas za {number:offset} sekund od teraz
-w {location} która jest czas za {number:offset} sekundy
-w {location} która jest czas za {number:offset} sekundy od teraz
-w {location} która jest godzina za {number:offset} godzin
-w {location} która jest godzina za {number:offset} godzin od teraz
-w {location} która jest godzina za {number:offset} godziny
-w {location} która jest godzina za {number:offset} godziny od teraz
-w {location} która jest godzina za {number:offset} minut
-w {location} która jest godzina za {number:offset} minut od teraz
-w {location} która jest godzina za {number:offset} minuty
-w {location} która jest godzina za {number:offset} minuty od teraz
-w {location} która jest godzina za {number:offset} sekund
-w {location} która jest godzina za {number:offset} sekund od teraz
-w {location} która jest godzina za {number:offset} sekundy
-w {location} która jest godzina za {number:offset} sekundy od teraz
 w {location} która jest godzina za {number:offset} godzin
 w {location} która jest godzina za {number:offset} godzin od teraz
 w {location} która jest godzina za {number:offset} godziny
@@ -3370,30 +1666,6 @@ we {location} jaka będzie czas za {number:offset} sekund
 we {location} jaka będzie czas za {number:offset} sekund od teraz
 we {location} jaka będzie czas za {number:offset} sekundy
 we {location} jaka będzie czas za {number:offset} sekundy od teraz
-we {location} jaka będzie czas za {number:offset} godzin
-we {location} jaka będzie czas za {number:offset} godzin od teraz
-we {location} jaka będzie czas za {number:offset} godziny
-we {location} jaka będzie czas za {number:offset} godziny od teraz
-we {location} jaka będzie czas za {number:offset} minut
-we {location} jaka będzie czas za {number:offset} minut od teraz
-we {location} jaka będzie czas za {number:offset} minuty
-we {location} jaka będzie czas za {number:offset} minuty od teraz
-we {location} jaka będzie czas za {number:offset} sekund
-we {location} jaka będzie czas za {number:offset} sekund od teraz
-we {location} jaka będzie czas za {number:offset} sekundy
-we {location} jaka będzie czas za {number:offset} sekundy od teraz
-we {location} jaka będzie godzina za {number:offset} godzin
-we {location} jaka będzie godzina za {number:offset} godzin od teraz
-we {location} jaka będzie godzina za {number:offset} godziny
-we {location} jaka będzie godzina za {number:offset} godziny od teraz
-we {location} jaka będzie godzina za {number:offset} minut
-we {location} jaka będzie godzina za {number:offset} minut od teraz
-we {location} jaka będzie godzina za {number:offset} minuty
-we {location} jaka będzie godzina za {number:offset} minuty od teraz
-we {location} jaka będzie godzina za {number:offset} sekund
-we {location} jaka będzie godzina za {number:offset} sekund od teraz
-we {location} jaka będzie godzina za {number:offset} sekundy
-we {location} jaka będzie godzina za {number:offset} sekundy od teraz
 we {location} jaka będzie godzina za {number:offset} godzin
 we {location} jaka będzie godzina za {number:offset} godzin od teraz
 we {location} jaka będzie godzina za {number:offset} godziny
@@ -3418,30 +1690,6 @@ we {location} jaka jest czas za {number:offset} sekund
 we {location} jaka jest czas za {number:offset} sekund od teraz
 we {location} jaka jest czas za {number:offset} sekundy
 we {location} jaka jest czas za {number:offset} sekundy od teraz
-we {location} jaka jest czas za {number:offset} godzin
-we {location} jaka jest czas za {number:offset} godzin od teraz
-we {location} jaka jest czas za {number:offset} godziny
-we {location} jaka jest czas za {number:offset} godziny od teraz
-we {location} jaka jest czas za {number:offset} minut
-we {location} jaka jest czas za {number:offset} minut od teraz
-we {location} jaka jest czas za {number:offset} minuty
-we {location} jaka jest czas za {number:offset} minuty od teraz
-we {location} jaka jest czas za {number:offset} sekund
-we {location} jaka jest czas za {number:offset} sekund od teraz
-we {location} jaka jest czas za {number:offset} sekundy
-we {location} jaka jest czas za {number:offset} sekundy od teraz
-we {location} jaka jest godzina za {number:offset} godzin
-we {location} jaka jest godzina za {number:offset} godzin od teraz
-we {location} jaka jest godzina za {number:offset} godziny
-we {location} jaka jest godzina za {number:offset} godziny od teraz
-we {location} jaka jest godzina za {number:offset} minut
-we {location} jaka jest godzina za {number:offset} minut od teraz
-we {location} jaka jest godzina za {number:offset} minuty
-we {location} jaka jest godzina za {number:offset} minuty od teraz
-we {location} jaka jest godzina za {number:offset} sekund
-we {location} jaka jest godzina za {number:offset} sekund od teraz
-we {location} jaka jest godzina za {number:offset} sekundy
-we {location} jaka jest godzina za {number:offset} sekundy od teraz
 we {location} jaka jest godzina za {number:offset} godzin
 we {location} jaka jest godzina za {number:offset} godzin od teraz
 we {location} jaka jest godzina za {number:offset} godziny
@@ -3466,30 +1714,6 @@ we {location} jaki będzie czas za {number:offset} sekund
 we {location} jaki będzie czas za {number:offset} sekund od teraz
 we {location} jaki będzie czas za {number:offset} sekundy
 we {location} jaki będzie czas za {number:offset} sekundy od teraz
-we {location} jaki będzie czas za {number:offset} godzin
-we {location} jaki będzie czas za {number:offset} godzin od teraz
-we {location} jaki będzie czas za {number:offset} godziny
-we {location} jaki będzie czas za {number:offset} godziny od teraz
-we {location} jaki będzie czas za {number:offset} minut
-we {location} jaki będzie czas za {number:offset} minut od teraz
-we {location} jaki będzie czas za {number:offset} minuty
-we {location} jaki będzie czas za {number:offset} minuty od teraz
-we {location} jaki będzie czas za {number:offset} sekund
-we {location} jaki będzie czas za {number:offset} sekund od teraz
-we {location} jaki będzie czas za {number:offset} sekundy
-we {location} jaki będzie czas za {number:offset} sekundy od teraz
-we {location} jaki będzie godzina za {number:offset} godzin
-we {location} jaki będzie godzina za {number:offset} godzin od teraz
-we {location} jaki będzie godzina za {number:offset} godziny
-we {location} jaki będzie godzina za {number:offset} godziny od teraz
-we {location} jaki będzie godzina za {number:offset} minut
-we {location} jaki będzie godzina za {number:offset} minut od teraz
-we {location} jaki będzie godzina za {number:offset} minuty
-we {location} jaki będzie godzina za {number:offset} minuty od teraz
-we {location} jaki będzie godzina za {number:offset} sekund
-we {location} jaki będzie godzina za {number:offset} sekund od teraz
-we {location} jaki będzie godzina za {number:offset} sekundy
-we {location} jaki będzie godzina za {number:offset} sekundy od teraz
 we {location} jaki będzie godzina za {number:offset} godzin
 we {location} jaki będzie godzina za {number:offset} godzin od teraz
 we {location} jaki będzie godzina za {number:offset} godziny
@@ -3514,30 +1738,6 @@ we {location} jaki jest czas za {number:offset} sekund
 we {location} jaki jest czas za {number:offset} sekund od teraz
 we {location} jaki jest czas za {number:offset} sekundy
 we {location} jaki jest czas za {number:offset} sekundy od teraz
-we {location} jaki jest czas za {number:offset} godzin
-we {location} jaki jest czas za {number:offset} godzin od teraz
-we {location} jaki jest czas za {number:offset} godziny
-we {location} jaki jest czas za {number:offset} godziny od teraz
-we {location} jaki jest czas za {number:offset} minut
-we {location} jaki jest czas za {number:offset} minut od teraz
-we {location} jaki jest czas za {number:offset} minuty
-we {location} jaki jest czas za {number:offset} minuty od teraz
-we {location} jaki jest czas za {number:offset} sekund
-we {location} jaki jest czas za {number:offset} sekund od teraz
-we {location} jaki jest czas za {number:offset} sekundy
-we {location} jaki jest czas za {number:offset} sekundy od teraz
-we {location} jaki jest godzina za {number:offset} godzin
-we {location} jaki jest godzina za {number:offset} godzin od teraz
-we {location} jaki jest godzina za {number:offset} godziny
-we {location} jaki jest godzina za {number:offset} godziny od teraz
-we {location} jaki jest godzina za {number:offset} minut
-we {location} jaki jest godzina za {number:offset} minut od teraz
-we {location} jaki jest godzina za {number:offset} minuty
-we {location} jaki jest godzina za {number:offset} minuty od teraz
-we {location} jaki jest godzina za {number:offset} sekund
-we {location} jaki jest godzina za {number:offset} sekund od teraz
-we {location} jaki jest godzina za {number:offset} sekundy
-we {location} jaki jest godzina za {number:offset} sekundy od teraz
 we {location} jaki jest godzina za {number:offset} godzin
 we {location} jaki jest godzina za {number:offset} godzin od teraz
 we {location} jaki jest godzina za {number:offset} godziny
@@ -3562,30 +1762,6 @@ we {location} która będzie czas za {number:offset} sekund
 we {location} która będzie czas za {number:offset} sekund od teraz
 we {location} która będzie czas za {number:offset} sekundy
 we {location} która będzie czas za {number:offset} sekundy od teraz
-we {location} która będzie czas za {number:offset} godzin
-we {location} która będzie czas za {number:offset} godzin od teraz
-we {location} która będzie czas za {number:offset} godziny
-we {location} która będzie czas za {number:offset} godziny od teraz
-we {location} która będzie czas za {number:offset} minut
-we {location} która będzie czas za {number:offset} minut od teraz
-we {location} która będzie czas za {number:offset} minuty
-we {location} która będzie czas za {number:offset} minuty od teraz
-we {location} która będzie czas za {number:offset} sekund
-we {location} która będzie czas za {number:offset} sekund od teraz
-we {location} która będzie czas za {number:offset} sekundy
-we {location} która będzie czas za {number:offset} sekundy od teraz
-we {location} która będzie godzina za {number:offset} godzin
-we {location} która będzie godzina za {number:offset} godzin od teraz
-we {location} która będzie godzina za {number:offset} godziny
-we {location} która będzie godzina za {number:offset} godziny od teraz
-we {location} która będzie godzina za {number:offset} minut
-we {location} która będzie godzina za {number:offset} minut od teraz
-we {location} która będzie godzina za {number:offset} minuty
-we {location} która będzie godzina za {number:offset} minuty od teraz
-we {location} która będzie godzina za {number:offset} sekund
-we {location} która będzie godzina za {number:offset} sekund od teraz
-we {location} która będzie godzina za {number:offset} sekundy
-we {location} która będzie godzina za {number:offset} sekundy od teraz
 we {location} która będzie godzina za {number:offset} godzin
 we {location} która będzie godzina za {number:offset} godzin od teraz
 we {location} która będzie godzina za {number:offset} godziny
@@ -3610,30 +1786,6 @@ we {location} która jest czas za {number:offset} sekund
 we {location} która jest czas za {number:offset} sekund od teraz
 we {location} która jest czas za {number:offset} sekundy
 we {location} która jest czas za {number:offset} sekundy od teraz
-we {location} która jest czas za {number:offset} godzin
-we {location} która jest czas za {number:offset} godzin od teraz
-we {location} która jest czas za {number:offset} godziny
-we {location} która jest czas za {number:offset} godziny od teraz
-we {location} która jest czas za {number:offset} minut
-we {location} która jest czas za {number:offset} minut od teraz
-we {location} która jest czas za {number:offset} minuty
-we {location} która jest czas za {number:offset} minuty od teraz
-we {location} która jest czas za {number:offset} sekund
-we {location} która jest czas za {number:offset} sekund od teraz
-we {location} która jest czas za {number:offset} sekundy
-we {location} która jest czas za {number:offset} sekundy od teraz
-we {location} która jest godzina za {number:offset} godzin
-we {location} która jest godzina za {number:offset} godzin od teraz
-we {location} która jest godzina za {number:offset} godziny
-we {location} która jest godzina za {number:offset} godziny od teraz
-we {location} która jest godzina za {number:offset} minut
-we {location} która jest godzina za {number:offset} minut od teraz
-we {location} która jest godzina za {number:offset} minuty
-we {location} która jest godzina za {number:offset} minuty od teraz
-we {location} która jest godzina za {number:offset} sekund
-we {location} która jest godzina za {number:offset} sekund od teraz
-we {location} która jest godzina za {number:offset} sekundy
-we {location} która jest godzina za {number:offset} sekundy od teraz
 we {location} która jest godzina za {number:offset} godzin
 we {location} która jest godzina za {number:offset} godzin od teraz
 we {location} która jest godzina za {number:offset} godziny
