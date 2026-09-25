@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.6a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.6a2) (2026-09-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.6a1...1.10.6a2)
+
+**Merged pull requests:**
+
+- locale: machine translation for parity in six locales \(unvouched\) [\#382](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/382) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.10.6a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.6a1) (2026-09-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.5a1...1.10.6a1)
@@ -377,10 +385,6 @@
 ## [1.2.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.0a1) (2026-08-30)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.17a1...1.2.0a1)
-
-**Merged pull requests:**
-
-- feat: add Kabyle \(kab-DZ\) date dialog [\#279](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/279) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [1.1.17a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.17a1) (2026-08-26)
 
