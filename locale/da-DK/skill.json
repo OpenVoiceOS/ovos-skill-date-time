@@ -1,7 +1,7 @@
 {
   "skill_id": "ovos-skill-date-time.openvoiceos",
   "source": "https://github.com/OpenVoiceOS/ovos-skill-date-time",
-  "name": " Dato og tid",
+  "name": "Dato og tid",
   "description": "Få tid, dato, ugedag",
   "examples": [
     "Hvad er klokken?",

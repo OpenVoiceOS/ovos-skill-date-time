@@ -1,7 +1,7 @@
 {
   "skill_id": "ovos-skill-date-time.openvoiceos",
   "source": "https://github.com/OpenVoiceOS/ovos-skill-date-time",
-  "name": " Data i hora",
+  "name": "Data i hora",
   "description": "Obteniu l'hora, la data, el dia de la setmana",
   "examples": [
     "Quina hora és?",

@@ -1,7 +1,7 @@
 {
   "skill_id": "ovos-skill-date-time.openvoiceos",
   "source": "https://github.com/OpenVoiceOS/ovos-skill-date-time",
-  "name": " Fecha y hora",
+  "name": "Fecha y hora",
   "description": "Información sobre la hora, la fecha y el día de la semana",
   "examples": [
     "¿Qué hora es?",
