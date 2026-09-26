@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.6a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.6a4) (2026-09-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.6a3...1.10.6a4)
+
+**Merged pull requests:**
+
+- locale: machine translation for skill.json name and description \(unvouched\) [\#386](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/386) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.10.6a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.6a3) (2026-09-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.6a2...1.10.6a3)
@@ -377,10 +385,6 @@
 ## [1.2.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.1a1) (2026-09-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.0a2...1.2.1a1)
-
-**Merged pull requests:**
-
-- fix: it-IT offset.entity holds slot values, not intent sentences [\#284](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/284) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [1.2.0a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.0a2) (2026-09-01)
 
