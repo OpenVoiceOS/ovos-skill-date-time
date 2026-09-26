@@ -1,0 +1,84 @@
+après {number:offset} heure quelle heure sera-t-il
+après {number:offset} heure quelle heure sera-t-il au {location}
+après {number:offset} heure quelle heure sera-t-il aux {location}
+après {number:offset} heure quelle heure sera-t-il dans {location}
+après {number:offset} heure quelle heure sera-t-il en {location}
+après {number:offset} heure quelle heure sera-t-il à {location}
+après {number:offset} heures quelle heure sera-t-il
+après {number:offset} heures quelle heure sera-t-il au {location}
+après {number:offset} heures quelle heure sera-t-il aux {location}
+après {number:offset} heures quelle heure sera-t-il dans {location}
+après {number:offset} heures quelle heure sera-t-il en {location}
+après {number:offset} heures quelle heure sera-t-il à {location}
+après {number:offset} minute quelle heure sera-t-il
+après {number:offset} minute quelle heure sera-t-il au {location}
+après {number:offset} minute quelle heure sera-t-il aux {location}
+après {number:offset} minute quelle heure sera-t-il dans {location}
+après {number:offset} minute quelle heure sera-t-il en {location}
+après {number:offset} minute quelle heure sera-t-il à {location}
+après {number:offset} minutes quelle heure sera-t-il
+après {number:offset} minutes quelle heure sera-t-il au {location}
+après {number:offset} minutes quelle heure sera-t-il aux {location}
+après {number:offset} minutes quelle heure sera-t-il dans {location}
+après {number:offset} minutes quelle heure sera-t-il en {location}
+après {number:offset} minutes quelle heure sera-t-il à {location}
+après {number:offset} seconde quelle heure sera-t-il
+après {number:offset} seconde quelle heure sera-t-il au {location}
+après {number:offset} seconde quelle heure sera-t-il aux {location}
+après {number:offset} seconde quelle heure sera-t-il dans {location}
+après {number:offset} seconde quelle heure sera-t-il en {location}
+après {number:offset} seconde quelle heure sera-t-il à {location}
+après {number:offset} secondes quelle heure sera-t-il
+après {number:offset} secondes quelle heure sera-t-il au {location}
+après {number:offset} secondes quelle heure sera-t-il aux {location}
+après {number:offset} secondes quelle heure sera-t-il dans {location}
+après {number:offset} secondes quelle heure sera-t-il en {location}
+après {number:offset} secondes quelle heure sera-t-il à {location}
+dans {number:offset} heure quelle heure sera-t-il
+dans {number:offset} heure quelle heure sera-t-il au {location}
+dans {number:offset} heure quelle heure sera-t-il aux {location}
+dans {number:offset} heure quelle heure sera-t-il dans {location}
+dans {number:offset} heure quelle heure sera-t-il en {location}
+dans {number:offset} heure quelle heure sera-t-il à {location}
+dans {number:offset} heures quelle heure sera-t-il
+dans {number:offset} heures quelle heure sera-t-il au {location}
+dans {number:offset} heures quelle heure sera-t-il aux {location}
+dans {number:offset} heures quelle heure sera-t-il dans {location}
+dans {number:offset} heures quelle heure sera-t-il en {location}
+dans {number:offset} heures quelle heure sera-t-il à {location}
+dans {number:offset} minute quelle heure sera-t-il
+dans {number:offset} minute quelle heure sera-t-il au {location}
+dans {number:offset} minute quelle heure sera-t-il aux {location}
+dans {number:offset} minute quelle heure sera-t-il dans {location}
+dans {number:offset} minute quelle heure sera-t-il en {location}
+dans {number:offset} minute quelle heure sera-t-il à {location}
+dans {number:offset} minutes quelle heure sera-t-il
+dans {number:offset} minutes quelle heure sera-t-il au {location}
+dans {number:offset} minutes quelle heure sera-t-il aux {location}
+dans {number:offset} minutes quelle heure sera-t-il dans {location}
+dans {number:offset} minutes quelle heure sera-t-il en {location}
+dans {number:offset} minutes quelle heure sera-t-il à {location}
+dans {number:offset} seconde quelle heure sera-t-il
+dans {number:offset} seconde quelle heure sera-t-il au {location}
+dans {number:offset} seconde quelle heure sera-t-il aux {location}
+dans {number:offset} seconde quelle heure sera-t-il dans {location}
+dans {number:offset} seconde quelle heure sera-t-il en {location}
+dans {number:offset} seconde quelle heure sera-t-il à {location}
+dans {number:offset} secondes quelle heure sera-t-il
+dans {number:offset} secondes quelle heure sera-t-il au {location}
+dans {number:offset} secondes quelle heure sera-t-il aux {location}
+dans {number:offset} secondes quelle heure sera-t-il dans {location}
+dans {number:offset} secondes quelle heure sera-t-il en {location}
+dans {number:offset} secondes quelle heure sera-t-il à {location}
+si j'attends {number:offset} heures quelle heure sera-t-il
+si j'attends {number:offset} heures quelle heure sera-t-il au {location}
+si j'attends {number:offset} heures quelle heure sera-t-il aux {location}
+si j'attends {number:offset} heures quelle heure sera-t-il dans {location}
+si j'attends {number:offset} heures quelle heure sera-t-il en {location}
+si j'attends {number:offset} heures quelle heure sera-t-il à {location}
+si j'attends {number:offset} minutes quelle heure sera-t-il
+si j'attends {number:offset} minutes quelle heure sera-t-il au {location}
+si j'attends {number:offset} minutes quelle heure sera-t-il aux {location}
+si j'attends {number:offset} minutes quelle heure sera-t-il dans {location}
+si j'attends {number:offset} minutes quelle heure sera-t-il en {location}
+si j'attends {number:offset} minutes quelle heure sera-t-il à {location}

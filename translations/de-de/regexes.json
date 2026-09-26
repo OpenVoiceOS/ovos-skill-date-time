@@ -1,5 +1,0 @@
-{
-    "location.rx": [
-        "\\b(bei|in|f\u00fcr) (?P<Location>.*)"
-    ]
-}

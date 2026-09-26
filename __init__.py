@@ -11,6 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+import calendar
 import datetime
 import os
 import re
@@ -28,6 +29,7 @@ from ovos_utils.process_utils import RuntimeRequirements
 from ovos_utils.time import now_local, get_next_leap_year
 from ovos_utterance_normalizer import UtteranceNormalizerPlugin
 from ovos_workshop.decorators import intent_handler
+from ovos_workshop.resource_files import ResourceFile
 from ovos_workshop.skills import OVOSSkill
 from timezonefinder import TimezoneFinder
 
@@ -137,31 +139,112 @@ class TimeSkill(OVOSSkill):
         """
         return self.time_format == 'full'
 
+    @staticmethod
+    def _normalize_phrase(text: str) -> str:
+        """Normalize phrases for case-insensitive locale resource matching."""
+        return text.strip(" \t,;:.!?").casefold()
+
+    def _load_locale_phrase_set(self, name: str):
+        """Load a locale phrase list once and return a normalized set.
+
+        `load_list_file` returns None, not an empty list, when the locale
+        ships no such `.list` file. Iterating that raised TypeError inside
+        the intent handler, so a located query in such a locale spoke
+        `skill.error` instead of answering. An empty set means the locale
+        marks no phrase, which is what the callers already handle.
+        """
+        cache_key = f"{name}.list.normalized"
+        if cache_key not in self.resources.static:
+            self.resources.static[cache_key] = {
+                self._normalize_phrase(phrase)
+                for phrase in (self.resources.load_list_file(name) or [])
+                if phrase.strip()
+            }
+        return self.resources.static[cache_key]
+
     ######################################################################
     # parsing
-    def _extract_location(self, utt: str) -> str:
-        """Extract a location name from a spoken utterance using regex patterns.
+    def _is_ambiguous_location(self, location_string: str) -> bool:
+        """Return True when a locale marks a location name as timezone-ambiguous."""
+        return (
+            self._normalize_phrase(location_string)
+            in self._load_locale_phrase_set("ambiguous_locations")
+        )
 
-        Args:
-            utt (str): The user utterance.
+    def _sanitize_location(self, location_string: Optional[str]) -> Optional[str]:
+        """Discard locale-specific phrases accidentally captured as locations."""
+        if not location_string:
+            return None
+        cleaned = location_string.strip(" \t,;:.!?")
+        if (
+            self._normalize_phrase(cleaned)
+            in self._load_locale_phrase_set("non_location_phrases")
+        ):
+            return None
+        return cleaned
 
-        Returns:
-            str: Extracted location if matched, otherwise None.
+    def _resolve_location(self,
+                          location_string: Optional[str] = None) -> Optional[str]:
+        """Resolve a sanitized location from the intent's {location} slot.
+
+        The slot is the only source. The skill used to fall back on a
+        per-locale `location.rx`, which ovos-workshop deprecates. That file
+        also could not work in every locale it shipped: the cs-CZ patterns
+        named English prepositions and malformed the named group, and the
+        hu-HU alternation let a match carry no `Location` group, which
+        raised AttributeError inside the handler.
         """
-        rx_file = self.find_resource('location.rx', 'regex')
-        if rx_file:
-            with open(rx_file) as f:
-                for pat in f.read().splitlines():
-                    pat = pat.strip()
-                    if pat and pat[0] == "#":
-                        continue
-                    res = re.search(pat, utt)
-                    if res:
-                        try:
-                            return res.group("Location")
-                        except IndexError:
-                            pass
-        return None
+        return self._sanitize_location(location_string)
+
+    def _mentions_current_weekend(self, utterance: str) -> bool:
+        """Check whether the active locale explicitly asked for the current weekend."""
+        current_weekend_phrases = self._load_locale_phrase_set("current_weekend_phrases")
+        if not current_weekend_phrases:
+            return False
+        normalized_utterance = utterance.casefold()
+        return any(phrase in normalized_utterance for phrase in current_weekend_phrases)
+
+    def _load_cached_entity(self, name: str):
+        """Load and cache a locale entity resource."""
+        cache_key = f"{self.lang}:{name}.entity"
+        if cache_key not in self.resources.static:
+            entity_resource = ResourceFile(self.resources.types.entity, name)
+            values = []
+            if entity_resource.file_path:
+                with open(entity_resource.file_path, encoding="utf-8") as f:
+                    for line in f:
+                        line = line.strip()
+                        if line and not line.startswith("#"):
+                            values.append(line)
+            self.resources.static[cache_key] = values
+        return self.resources.static[cache_key]
+
+    def _get_requested_weekday(self, message):
+        """Extract the requested weekday from intent-matched entities."""
+        weekday_name = (message.data.get("weekday") or "").strip().lower()
+        if not weekday_name:
+            return None
+
+        weekdays = [day.lower() for day in self._load_cached_entity("weekday")]
+        try:
+            weekday_index = weekdays.index(weekday_name)
+        except ValueError:
+            return None
+        return weekday_index, self._render_weekday(weekday_index)
+
+    def _render_weekday(self, weekday_index: int) -> str:
+        """Render a localized weekday from a weekday index."""
+        reference_monday = datetime.datetime(2024, 1, 1)
+        return nice_weekday(reference_monday + datetime.timedelta(days=weekday_index),
+                            lang=self.lang)
+
+    def _get_leap_year_query_scope(self, utterance: str) -> str:
+        """Return whether the user asked about the current, next, or either year."""
+        if self.voc_match(utterance, "leap_year_scope_either", lang=self.lang):
+            return "either"
+        if self.voc_match(utterance, "leap_year_scope_next", lang=self.lang):
+            return "next"
+        return "current"
 
     @staticmethod
     def _get_timezone_from_builtins(location_string: str) -> Optional[datetime.tzinfo]:
@@ -205,8 +288,12 @@ class TimeSkill(OVOSSkill):
         timezones = self.resources.load_named_value_file("timezone.value", ',')
         for timezone in timezones:
             if location_string.lower() == timezone.lower():
-                # assumes translation is correct
-                return pytz.timezone(timezones[timezone].strip())
+                try:
+                    return pytz.timezone(timezones[timezone].strip())
+                except pytz.UnknownTimeZoneError:
+                    LOG.error(f"timezone.value maps {timezone!r} to "
+                              f"{timezones[timezone].strip()!r}, which pytz does not know")
+                    return None
         return None
 
     def _get_timezone_from_fuzzymatch(self, location_string: str) -> Optional[datetime.tzinfo]:
@@ -244,7 +331,7 @@ class TimeSkill(OVOSSkill):
             return pytz.timezone(best[1])
         elif best and best[0] > 0.3:
             say = speakable_timezone(best[1])
-            if self.ask_yesno("did.you.mean.timezone",
+            if self.ask_yesno("did_you_mean_timezone",
                               data={"zone_name": say}) == "yes":
                 return pytz.timezone(best[1])
         else:
@@ -262,6 +349,8 @@ class TimeSkill(OVOSSkill):
         Returns:
             datetime.tzinfo: The timezone object if resolved, else None.
         """
+        if self._is_ambiguous_location(location_string):
+            return None
         timezone = self._get_timezone_from_builtins(location_string)
         if not timezone:
             timezone = self._get_timezone_from_table(location_string)
@@ -295,49 +384,46 @@ class TimeSkill(OVOSSkill):
             dt = now_local(tz)
         return dt
 
-    def get_spoken_time(self, location: str = None, force_ampm=False,
-                        anchor_date: datetime.datetime = None) -> str:
+    def get_spoken_time(self, location: str = None,
+                        anchor_date: datetime.datetime = None) -> Optional[str]:
         """Get a human-readable spoken version of the current time.
 
         Args:
             location (str, optional): Location for timezone conversion.
-            force_ampm (bool, optional): Whether to force AM/PM mode even if using 24-hour format.
             anchor_date (datetime.datetime, optional): Specific time to use instead of now.
 
         Returns:
             str: A spoken-friendly representation of the time.
         """
         dt = self.get_datetime(location, anchor_date)
-
-        # speak AM/PM when talking about somewhere else
-        say_am_pm = bool(location) or force_ampm
+        if not dt:
+            return None
 
         s = nice_time(dt, lang=self.lang, speech=True,
-                      use_24hour=self.use_24hour, use_ampm=say_am_pm)
+                      use_24hour=self.use_24hour, use_ampm=not self.use_24hour)
         # HACK: Mimic 2 has a bug with saying "AM".  Work around it for now.
-        if say_am_pm:
+        if not self.use_24hour:
             s = s.replace("AM", "A.M.")
         return s
 
-    def get_display_time(self, location: str = None, force_ampm=False,
-                         anchor_date: datetime.datetime = None) -> str:
+    def get_display_time(self, location: str = None,
+                         anchor_date: datetime.datetime = None) -> Optional[str]:
         """Get a display-friendly version of the current time.
 
         Args:
             location (str, optional): Location for timezone conversion.
-            force_ampm (bool, optional): Whether to display time in AM/PM format.
             anchor_date (datetime.datetime, optional): Specific time to use instead of now.
 
         Returns:
             str: A string representing the display time.
         """
         dt = self.get_datetime(location, anchor_date)
-        # speak AM/PM when talking about somewhere else
-        say_am_pm = bool(location) or force_ampm
+        if not dt:
+            return None
         return nice_time(dt, lang=self.lang,
                          speech=False,
                          use_24hour=self.use_24hour,  # session aware
-                         use_ampm=say_am_pm)
+                         use_ampm=not self.use_24hour)
 
     def get_display_date(self, location: str = None,
                          anchor_date: datetime.datetime = None) -> str:
@@ -363,47 +449,62 @@ class TimeSkill(OVOSSkill):
 
     ######################################################################
     # Time queries / display
-    def speak_time(self, dialog: str, location: str = None):
+    def speak_time(self, dialog: str, location: str = None,
+                   anchor_date: datetime.datetime = None):
         """Speak the current time. Optionally at a location
         speaks an error if timezone for requested location could not be detected"""
         if location:
-            current_time = self.get_spoken_time(location)
+            current_time = self.get_spoken_time(location, anchor_date=anchor_date)
             if not current_time:
-                self.speak_dialog("time.tz.not.found", {"location": location})
+                self.speak_dialog("time_tz_not_found", {"location": location})
                 return
-            time_string = self.get_display_time(location)
+            time_string = self.get_display_time(location, anchor_date=anchor_date)
         else:
-            current_time = self.get_spoken_time()
-            time_string = self.get_display_time()
+            current_time = self.get_spoken_time(anchor_date=anchor_date)
+            time_string = self.get_display_time(anchor_date=anchor_date)
 
         # speak it
         self.speak_dialog(dialog, {"time": current_time})
 
         # and briefly show the time
-        self.show_time(time_string)
+        if time_string:
+            self.show_time(time_string)
 
-    @intent_handler("what.time.is.it.intent")
+    @intent_handler("what_time_is_it.intent")
     def handle_query_time(self, message):
         """Handle queries about the current time."""
-        utt = message.data.get('utterance', "")
-        location = message.data.get("location") or self._extract_location(utt)
+        location = self._resolve_location(message.data.get("location"))
         # speak it
-        self.speak_time("time.current", location=location)
+        self.speak_time("time_current", location=location)
 
-    @intent_handler("what.time.will.it.be.intent")
+    @intent_handler("what_time_will_it_be.intent")
     def handle_query_future_time(self, message):
         normalizer = UtteranceNormalizerPlugin.get_normalizer(self.lang)
         utt = normalizer.normalize(message.data["utterance"])
 
+        # {number:offset} (OVOS-INTENT-1 5.6): the typed-slot map carries the
+        # number, and a pipeline MAY ignore the hint entirely, so `None` says
+        # nothing about why (no map, no parser for the language, nothing
+        # said). The words are the one source every engine leaves intact:
+        # parse them first, and ask only when they hold no offset. Asking on
+        # `None` alone turned a working answer into a question on any engine
+        # that computes no map.
         dt, utt = extract_datetime(utt, lang=self.lang) or (None, None)
+        if not dt and self.typed_slot(message, "offset") is None:
+            response = self.get_response("ask_offset")
+            if not response:
+                return
+            dt, utt = extract_datetime(normalizer.normalize(response),
+                                       lang=self.lang) or (None, None)
+
         if not dt:
             self.handle_query_time(message)
             return
 
-        location = message.data.get("location") or self._extract_location(utt)
+        location = self._resolve_location(message.data.get("location"))
 
         # speak it
-        self.speak_time("time.future", location=location)
+        self.speak_time("time_future", location=location, anchor_date=dt)
 
     ######################################################################
     # Date queries
@@ -413,17 +514,17 @@ class TimeSkill(OVOSSkill):
         now = self.get_datetime()  # session aware
         try:
             dt, utt = extract_datetime(utt, anchorDate=now, lang=self.lang) or (now, utt)
-        except Exception as e:
+        except Exception:
             self.log.exception(f"failed to extract date from '{utt}'")
             dt = now
 
         # handle questions ~ "what is the day in sydney"
-        location_string = message.data.get("location") or self._extract_location(utt)
+        location_string = self._resolve_location(message.data.get("location"))
 
         if location_string:
             dt = self.get_datetime(location_string, anchor_date=dt)
             if not dt:
-                self.speak_dialog("time.tz.not.found",
+                self.speak_dialog("time_tz_not_found",
                                   {"location": location_string})
                 return  # failed in timezone lookup
 
@@ -440,13 +541,13 @@ class TimeSkill(OVOSSkill):
             num_days = (day_date - today_date).days
             if num_days >= 0:
                 speak_num_days = nice_duration(num_days * 86400, lang=self.lang)
-                self.speak_dialog("date.relative.future",
+                self.speak_dialog("date_relative_future",
                                   {"date": speak_date,
                                    "num_days": speak_num_days})
             else:
                 # if in the past, make positive before getting duration
                 speak_num_days = nice_duration(num_days * -86400, lang=self.lang)
-                self.speak_dialog("date.relative.past",
+                self.speak_dialog("date_relative_past",
                                   {"date": speak_date,
                                    "num_days": speak_num_days})
 
@@ -458,11 +559,11 @@ class TimeSkill(OVOSSkill):
         """Handle current date queries."""
         self.handle_query_date(message, response_type="simple")
 
-    @intent_handler("time.until.intent")
+    @intent_handler("time_until.intent")
     def handle_time_until(self, message):
         self.handle_query_date(message, response_type="relative")
 
-    @intent_handler("what.day.is.it.intent")
+    @intent_handler("what_day_is_it.intent")
     def handle_current_day(self, message):
         """
         Speaks the current day name using a localized dialog.
@@ -470,13 +571,17 @@ class TimeSkill(OVOSSkill):
         Args:
             message: The message object triggering the intent.
         """
-        now = self.get_datetime()  # session aware
-        self.speak_dialog("day.current",
+        location = self._resolve_location(message.data.get("location"))
+        now = self.get_datetime(location)
+        if location and not now:
+            self.speak_dialog("time_tz_not_found", {"location": location})
+            return
+        self.speak_dialog("day_current",
                           {"day": nice_day(now, lang=self.lang)})
 
-    # TODO - merge with weekday.for.date.intent
+    # TODO - merge with weekday_for_date.intent
     #  use voc_match or something to disambiguate
-    @intent_handler("what.weekday.is.it.intent")
+    @intent_handler("what_weekday_is_it.intent")
     def handle_current_weekday(self, message):
         """
         Handles queries about the current weekday and speaks the name of today's weekday.
@@ -484,10 +589,10 @@ class TimeSkill(OVOSSkill):
         Responds to user requests for the current weekday by retrieving the localized current date and speaking the corresponding weekday name.
         """
         now = self.get_datetime()  # session aware
-        self.speak_dialog("weekday.current",
+        self.speak_dialog("weekday_current",
                           {"weekday": nice_weekday(now, lang=self.lang)})
 
-    @intent_handler("weekday.for.date.intent")
+    @intent_handler("weekday_for_date.intent")
     def handle_weekday(self, message):
         """
         Handles queries about the weekday for a specific date.
@@ -498,19 +603,58 @@ class TimeSkill(OVOSSkill):
         dt, _ = extract_datetime(message.data.get("date") or message.data["utterance"],
                                  anchorDate=now, lang=self.lang) or (None, None)
         if not dt:
-            self.speak_dialog("extract.date.error")
+            self.speak_dialog("extract_date_error")
+            return
+
+        if dt >= now:
+            dialog = "weekday_at_date_future"
         else:
-            if dt >= now:
-                dialog = "weekday.at.date.future"
-            else:
-                dialog = "weekday.at.date.past"
-            # TODO - "today" should never trigger this intent, but if it does,
-            #  should we handle it better? nice_date will return "today" in that case
-            self.speak_dialog(dialog, {
+            dialog = "weekday_at_date_past"
+        # TODO - "today" should never trigger this intent, but if it does,
+        #  should we handle it better? nice_date will return "today" in that case
+        self.speak_dialog(dialog, {
                 "date": nice_date(dt, lang=self.lang, now=now),
                 "weekday": nice_weekday(dt, lang=self.lang)})
 
-    @intent_handler("what.month.is.it.intent")
+    @intent_handler("weekday_matches_date.intent")
+    def handle_weekday_match(self, message):
+        """Handle yes/no questions about whether a date matches a weekday."""
+        now = self.get_datetime()  # session aware
+        utterance = message.data.get("utterance", "")
+        weekday = self._get_requested_weekday(message)
+        dt, _ = extract_datetime(message.data.get("date") or utterance,
+                                 anchorDate=now, lang=self.lang) or (None, None)
+        if not dt or weekday is None:
+            self.speak_dialog("extract_date_error")
+            return
+
+        expected_weekday, expected_name = weekday
+        data = {
+            "date": nice_date(dt, lang=self.lang, now=now),
+            "weekday": expected_name,
+            "actual_weekday": nice_weekday(dt, lang=self.lang)
+        }
+        if dt.date() > now.date():
+            dialog = (
+                "weekday_matches_date_future_yes"
+                if dt.weekday() == expected_weekday
+                else "weekday_matches_date_future_no"
+            )
+        elif dt.date() == now.date():
+            dialog = (
+                "weekday_matches_date_today_yes"
+                if dt.weekday() == expected_weekday
+                else "weekday_matches_date_today_no"
+            )
+        else:
+            dialog = (
+                "weekday_matches_date_past_yes"
+                if dt.weekday() == expected_weekday
+                else "weekday_matches_date_past_no"
+            )
+        self.speak_dialog(dialog, data)
+
+    @intent_handler("what_month_is_it.intent")
     def handle_current_month(self, message):
         """
         Handles queries about the current month and speaks its name.
@@ -519,38 +663,47 @@ class TimeSkill(OVOSSkill):
             message: The message object containing the user's request.
         """
         now = self.get_datetime()  # session aware
-        self.speak_dialog("month.current",
+        self.speak_dialog("month_current",
                           {"month": nice_month(now, lang=self.lang)})
 
-    @intent_handler("what.year.is.it.intent")
+    @intent_handler("what_year_is_it.intent")
     def handle_current_year(self, message):
         now = self.get_datetime()  # session aware
-        self.speak_dialog("year.current",
+        self.speak_dialog("year_current",
                           {"year": nice_year(now, lang=self.lang)})
 
-    @intent_handler("date.future.weekend.intent")
+    @intent_handler("date_future_weekend.intent")
     def handle_date_future_weekend(self, message):
-        # Strip year off nice_date as request is inherently close
-        # Don't pass `now` to `nice_date` as a
-        # request on Friday will return "tomorrow"
         """
         Handles queries about the upcoming weekend's dates.
         
         Determines the dates for the next Saturday and Sunday, formats them for speech, and responds with a dialog containing both dates.
         """
         now = self.get_datetime()
-        dt = extract_datetime('this saturday', anchorDate=now, lang='en-us')[0]
-        saturday_date = ', '.join(nice_date(dt, lang=self.lang).split(', ')[:2])
-        dt = extract_datetime('this sunday', anchorDate=now, lang='en-us')[0]
-        sunday_date = ', '.join(nice_date(dt, lang=self.lang).split(', ')[:2])
-        self.speak_dialog('date.future.weekend', {
+        utt = message.data.get("utterance", "").lower()
+        weekday = now.weekday()
+
+        # On Saturday/Sunday, default to the upcoming weekend unless the user
+        # explicitly asked for the current weekend in this locale.
+        if weekday <= 5:
+            saturday_dt = now + datetime.timedelta(days=5 - weekday)
+        else:
+            saturday_dt = now - datetime.timedelta(days=1)
+
+        if weekday >= 5 and not self._mentions_current_weekend(utt):
+            saturday_dt += datetime.timedelta(days=7)
+
+        sunday_dt = saturday_dt + datetime.timedelta(days=1)
+        saturday_date = ', '.join(nice_date(saturday_dt, lang=self.lang).split(', ')[:2])
+        sunday_date = ', '.join(nice_date(sunday_dt, lang=self.lang).split(', ')[:2])
+        self.speak_dialog('date_future_weekend', {
             'saturday_date': saturday_date,
             'sunday_date': sunday_date
         })
 
-    # TODO - merge date.last.weekend.intent and date.future.weekend.intent handlers
+    # TODO - merge date_last_weekend.intent and date_future_weekend.intent handlers
     #  use voc_match or something to disambiguate
-    @intent_handler("date.last.weekend.intent")
+    @intent_handler("date_last_weekend.intent")
     def handle_date_last_weekend(self, message):
         # Strip year off nice_date as request is inherently close
         # Don't pass `now` to `nice_date` as a
@@ -567,12 +720,12 @@ class TimeSkill(OVOSSkill):
         dt = extract_datetime('last sunday',
                               anchorDate=now, lang='en-us')[0]
         sunday_date = ', '.join(nice_date(dt, lang=self.lang).split(', ')[:2])
-        self.speak_dialog('date.last.weekend', {
+        self.speak_dialog('date_last_weekend', {
             'saturday_date': saturday_date,
             'sunday_date': sunday_date
         })
 
-    @intent_handler("next.leap.year.intent")
+    @intent_handler("next_leap_year.intent")
     def handle_query_next_leap_year(self, message):
         """
         Handles the intent to provide the year of the next leap year.
@@ -583,7 +736,43 @@ class TimeSkill(OVOSSkill):
         leap_date = now_local().replace(month=2, day=28)
         year = now.year if now <= leap_date else now.year + 1
         next_leap_year = get_next_leap_year(year)
-        self.speak_dialog('next.leap.year', {'year': next_leap_year})
+        self.speak_dialog('next_leap_year', {'year': next_leap_year})
+
+    @intent_handler("is_leap_year.intent")
+    def handle_is_leap_year(self, message):
+        """Handle yes/no questions about leap years."""
+        utterance = message.data.get("utterance", "")
+        now = self.get_datetime()
+        current_year = now.year
+        next_year = current_year + 1
+        scope = self._get_leap_year_query_scope(utterance)
+
+        if scope == "either":
+            if calendar.isleap(current_year):
+                self.speak_dialog("leap_year_either_yes",
+                                  {"year": current_year})
+            elif calendar.isleap(next_year):
+                self.speak_dialog("leap_year_either_yes",
+                                  {"year": next_year})
+            else:
+                self.speak_dialog("leap_year_either_no",
+                                  {"year": get_next_leap_year(next_year)})
+            return
+
+        if scope == "next":
+            if calendar.isleap(next_year):
+                self.speak_dialog("leap_year_next_yes", {"year": next_year})
+            else:
+                self.speak_dialog("leap_year_next_no",
+                                  {"year": next_year})
+            return
+
+        if calendar.isleap(current_year):
+            self.speak_dialog("leap_year_current_yes",
+                              {"year": current_year})
+        else:
+            self.speak_dialog("leap_year_current_no",
+                              {"year": current_year})
 
     ######################################################################
     # GUI / Faceplate

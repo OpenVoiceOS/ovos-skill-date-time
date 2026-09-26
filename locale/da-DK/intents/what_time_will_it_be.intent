@@ -1,0 +1,16 @@
+hvad er klokken om {number:offset} minut
+hvad er klokken om {number:offset} minut i {location}
+hvad er klokken om {number:offset} minut op {location}
+hvad er klokken om {number:offset} minutter
+hvad er klokken om {number:offset} minutter i {location}
+hvad er klokken om {number:offset} minutter op {location}
+hvad er klokken om {number:offset} sekund
+hvad er klokken om {number:offset} sekund i {location}
+hvad er klokken om {number:offset} sekund op {location}
+hvad er klokken om {number:offset} sekunder
+hvad er klokken om {number:offset} sekunder i {location}
+hvad er klokken om {number:offset} sekunder op {location}
+hvad er klokken om {number:offset} time
+hvad er klokken om {number:offset} timer
+hvad er klokken om {number:offset} timtimer i {location}
+hvad er klokken om {number:offset} timtimer op {location}

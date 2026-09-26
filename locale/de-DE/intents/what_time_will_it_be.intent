@@ -1,0 +1,384 @@
+Wann ist es, wenn Ich verbringe {number:offset} Minute
+Wann ist es, wenn Ich verbringe {number:offset} Minute in {location}
+Wann ist es, wenn Ich verbringe {number:offset} Minuten
+Wann ist es, wenn Ich verbringe {number:offset} Minuten in {location}
+Wann ist es, wenn Ich verbringe {number:offset} Stunde
+Wann ist es, wenn Ich verbringe {number:offset} Stunde in {location}
+Wann ist es, wenn Ich verbringe {number:offset} Stunden
+Wann ist es, wenn Ich verbringe {number:offset} Stunden in {location}
+Wann ist es, wenn Ich verbringe {number:offset} Sekunde
+Wann ist es, wenn Ich verbringe {number:offset} Sekunde in {location}
+Wann ist es, wenn Ich verbringe {number:offset} Sekunden
+Wann ist es, wenn Ich verbringe {number:offset} Sekunden in {location}
+Wann ist es, wenn ich warte {number:offset} Minute
+Wann ist es, wenn ich warte {number:offset} Minute in {location}
+Wann ist es, wenn ich warte {number:offset} Minuten
+Wann ist es, wenn ich warte {number:offset} Minuten in {location}
+Wann ist es, wenn ich warte {number:offset} Stunde
+Wann ist es, wenn ich warte {number:offset} Stunde in {location}
+Wann ist es, wenn ich warte {number:offset} Stunden
+Wann ist es, wenn ich warte {number:offset} Stunden in {location}
+Wann ist es, wenn ich warte {number:offset} Sekunde
+Wann ist es, wenn ich warte {number:offset} Sekunde in {location}
+Wann ist es, wenn ich warte {number:offset} Sekunden
+Wann ist es, wenn ich warte {number:offset} Sekunden in {location}
+Wie spät ist es ist es, wenn Ich verbringe {number:offset} Minute
+Wie spät ist es ist es, wenn Ich verbringe {number:offset} Minute in {location}
+Wie spät ist es ist es, wenn Ich verbringe {number:offset} Minuten
+Wie spät ist es ist es, wenn Ich verbringe {number:offset} Minuten in {location}
+Wie spät ist es ist es, wenn Ich verbringe {number:offset} Stunde
+Wie spät ist es ist es, wenn Ich verbringe {number:offset} Stunde in {location}
+Wie spät ist es ist es, wenn Ich verbringe {number:offset} Stunden
+Wie spät ist es ist es, wenn Ich verbringe {number:offset} Stunden in {location}
+Wie spät ist es ist es, wenn Ich verbringe {number:offset} Sekunde
+Wie spät ist es ist es, wenn Ich verbringe {number:offset} Sekunde in {location}
+Wie spät ist es ist es, wenn Ich verbringe {number:offset} Sekunden
+Wie spät ist es ist es, wenn Ich verbringe {number:offset} Sekunden in {location}
+Wie spät ist es ist es, wenn ich warte {number:offset} Minute
+Wie spät ist es ist es, wenn ich warte {number:offset} Minute in {location}
+Wie spät ist es ist es, wenn ich warte {number:offset} Minuten
+Wie spät ist es ist es, wenn ich warte {number:offset} Minuten in {location}
+Wie spät ist es ist es, wenn ich warte {number:offset} Stunde
+Wie spät ist es ist es, wenn ich warte {number:offset} Stunde in {location}
+Wie spät ist es ist es, wenn ich warte {number:offset} Stunden
+Wie spät ist es ist es, wenn ich warte {number:offset} Stunden in {location}
+Wie spät ist es ist es, wenn ich warte {number:offset} Sekunde
+Wie spät ist es ist es, wenn ich warte {number:offset} Sekunde in {location}
+Wie spät ist es ist es, wenn ich warte {number:offset} Sekunden
+Wie spät ist es ist es, wenn ich warte {number:offset} Sekunden in {location}
+in {number:offset} Minute ab jetzt wie spät wird es in {location} sein
+in {number:offset} Minute ab jetzt wie spät wird es in {location} werden
+in {number:offset} Minuten ab jetzt wie spät wird es in {location} sein
+in {number:offset} Minuten ab jetzt wie spät wird es in {location} werden
+in {number:offset} Sekunde ab jetzt wie spät wird es in {location} sein
+in {number:offset} Sekunde ab jetzt wie spät wird es in {location} werden
+in {number:offset} Sekunden ab jetzt wie spät wird es in {location} sein
+in {number:offset} Sekunden ab jetzt wie spät wird es in {location} werden
+in {number:offset} Stunde ab jetzt wie spät wird es in {location} sein
+in {number:offset} Stunde ab jetzt wie spät wird es in {location} werden
+in {number:offset} Stunden ab jetzt wie spät wird es in {location} sein
+in {number:offset} Stunden ab jetzt wie spät wird es in {location} werden
+um wie viel Uhr ist es {number:offset} Minuten
+um wie viel Uhr ist es {number:offset} Minuten ab jetzt
+um wie viel Uhr ist es {number:offset} Minuten ab jetzt in {location}
+um wie viel Uhr ist es {number:offset} Sekunden
+um wie viel Uhr ist es {number:offset} Sekunden ab jetzt
+um wie viel Uhr ist es {number:offset} Sekunden ab jetzt in {location}
+um wie viel Uhr ist es {number:offset} Stunden
+um wie viel Uhr ist es {number:offset} Stunden ab jetzt
+um wie viel Uhr ist es {number:offset} Stunden ab jetzt in {location}
+um wie viel Uhr wird es sein {number:offset} Minuten
+um wie viel Uhr wird es sein {number:offset} Minuten ab jetzt
+um wie viel Uhr wird es sein {number:offset} Minuten ab jetzt in {location}
+um wie viel Uhr wird es sein {number:offset} Sekunden
+um wie viel Uhr wird es sein {number:offset} Sekunden ab jetzt
+um wie viel Uhr wird es sein {number:offset} Sekunden ab jetzt in {location}
+um wie viel Uhr wird es sein {number:offset} Stunden
+um wie viel Uhr wird es sein {number:offset} Stunden ab jetzt
+um wie viel Uhr wird es sein {number:offset} Stunden ab jetzt in {location}
+wann Zeit wird es sein in {number:offset} Minute
+wann Zeit wird es sein in {number:offset} Minute in {location}
+wann Zeit wird es sein in {number:offset} Minuten
+wann Zeit wird es sein in {number:offset} Minuten in {location}
+wann Zeit wird es sein in {number:offset} Sekunde
+wann Zeit wird es sein in {number:offset} Sekunde in {location}
+wann Zeit wird es sein in {number:offset} Sekunden
+wann Zeit wird es sein in {number:offset} Sekunden in {location}
+wann Zeit wird es sein in {number:offset} Stunde
+wann Zeit wird es sein in {number:offset} Stunde in {location}
+wann Zeit wird es sein in {number:offset} Stunden
+wann Zeit wird es sein in {number:offset} Stunden in {location}
+wann Zeit wird es sein nach {number:offset} Minute
+wann Zeit wird es sein nach {number:offset} Minute in {location}
+wann Zeit wird es sein nach {number:offset} Minuten
+wann Zeit wird es sein nach {number:offset} Minuten in {location}
+wann Zeit wird es sein nach {number:offset} Sekunde
+wann Zeit wird es sein nach {number:offset} Sekunde in {location}
+wann Zeit wird es sein nach {number:offset} Sekunden
+wann Zeit wird es sein nach {number:offset} Sekunden in {location}
+wann Zeit wird es sein nach {number:offset} Stunde
+wann Zeit wird es sein nach {number:offset} Stunde in {location}
+wann Zeit wird es sein nach {number:offset} Stunden
+wann Zeit wird es sein nach {number:offset} Stunden in {location}
+wann Zeit wird es sein wenn ich warte {number:offset} Minute
+wann Zeit wird es sein wenn ich warte {number:offset} Minute in {location}
+wann Zeit wird es sein wenn ich warte {number:offset} Minuten
+wann Zeit wird es sein wenn ich warte {number:offset} Minuten in {location}
+wann Zeit wird es sein wenn ich warte {number:offset} Sekunde
+wann Zeit wird es sein wenn ich warte {number:offset} Sekunde in {location}
+wann Zeit wird es sein wenn ich warte {number:offset} Sekunden
+wann Zeit wird es sein wenn ich warte {number:offset} Sekunden in {location}
+wann Zeit wird es sein wenn ich warte {number:offset} Stunde
+wann Zeit wird es sein wenn ich warte {number:offset} Stunde in {location}
+wann Zeit wird es sein wenn ich warte {number:offset} Stunden
+wann Zeit wird es sein wenn ich warte {number:offset} Stunden in {location}
+wann Zeit wird es werden in {number:offset} Minute
+wann Zeit wird es werden in {number:offset} Minute in {location}
+wann Zeit wird es werden in {number:offset} Minuten
+wann Zeit wird es werden in {number:offset} Minuten in {location}
+wann Zeit wird es werden in {number:offset} Sekunde
+wann Zeit wird es werden in {number:offset} Sekunde in {location}
+wann Zeit wird es werden in {number:offset} Sekunden
+wann Zeit wird es werden in {number:offset} Sekunden in {location}
+wann Zeit wird es werden in {number:offset} Stunde
+wann Zeit wird es werden in {number:offset} Stunde in {location}
+wann Zeit wird es werden in {number:offset} Stunden
+wann Zeit wird es werden in {number:offset} Stunden in {location}
+wann Zeit wird es werden nach {number:offset} Minute
+wann Zeit wird es werden nach {number:offset} Minute in {location}
+wann Zeit wird es werden nach {number:offset} Minuten
+wann Zeit wird es werden nach {number:offset} Minuten in {location}
+wann Zeit wird es werden nach {number:offset} Sekunde
+wann Zeit wird es werden nach {number:offset} Sekunde in {location}
+wann Zeit wird es werden nach {number:offset} Sekunden
+wann Zeit wird es werden nach {number:offset} Sekunden in {location}
+wann Zeit wird es werden nach {number:offset} Stunde
+wann Zeit wird es werden nach {number:offset} Stunde in {location}
+wann Zeit wird es werden nach {number:offset} Stunden
+wann Zeit wird es werden nach {number:offset} Stunden in {location}
+wann Zeit wird es werden wenn ich warte {number:offset} Minute
+wann Zeit wird es werden wenn ich warte {number:offset} Minute in {location}
+wann Zeit wird es werden wenn ich warte {number:offset} Minuten
+wann Zeit wird es werden wenn ich warte {number:offset} Minuten in {location}
+wann Zeit wird es werden wenn ich warte {number:offset} Sekunde
+wann Zeit wird es werden wenn ich warte {number:offset} Sekunde in {location}
+wann Zeit wird es werden wenn ich warte {number:offset} Sekunden
+wann Zeit wird es werden wenn ich warte {number:offset} Sekunden in {location}
+wann Zeit wird es werden wenn ich warte {number:offset} Stunde
+wann Zeit wird es werden wenn ich warte {number:offset} Stunde in {location}
+wann Zeit wird es werden wenn ich warte {number:offset} Stunden
+wann Zeit wird es werden wenn ich warte {number:offset} Stunden in {location}
+wann Zeit wird es zeigen in {number:offset} Minute
+wann Zeit wird es zeigen in {number:offset} Minute in {location}
+wann Zeit wird es zeigen in {number:offset} Minuten
+wann Zeit wird es zeigen in {number:offset} Minuten in {location}
+wann Zeit wird es zeigen in {number:offset} Sekunde
+wann Zeit wird es zeigen in {number:offset} Sekunde in {location}
+wann Zeit wird es zeigen in {number:offset} Sekunden
+wann Zeit wird es zeigen in {number:offset} Sekunden in {location}
+wann Zeit wird es zeigen in {number:offset} Stunde
+wann Zeit wird es zeigen in {number:offset} Stunde in {location}
+wann Zeit wird es zeigen in {number:offset} Stunden
+wann Zeit wird es zeigen in {number:offset} Stunden in {location}
+wann Zeit wird es zeigen nach {number:offset} Minute
+wann Zeit wird es zeigen nach {number:offset} Minute in {location}
+wann Zeit wird es zeigen nach {number:offset} Minuten
+wann Zeit wird es zeigen nach {number:offset} Minuten in {location}
+wann Zeit wird es zeigen nach {number:offset} Sekunde
+wann Zeit wird es zeigen nach {number:offset} Sekunde in {location}
+wann Zeit wird es zeigen nach {number:offset} Sekunden
+wann Zeit wird es zeigen nach {number:offset} Sekunden in {location}
+wann Zeit wird es zeigen nach {number:offset} Stunde
+wann Zeit wird es zeigen nach {number:offset} Stunde in {location}
+wann Zeit wird es zeigen nach {number:offset} Stunden
+wann Zeit wird es zeigen nach {number:offset} Stunden in {location}
+wann Zeit wird es zeigen wenn ich warte {number:offset} Minute
+wann Zeit wird es zeigen wenn ich warte {number:offset} Minute in {location}
+wann Zeit wird es zeigen wenn ich warte {number:offset} Minuten
+wann Zeit wird es zeigen wenn ich warte {number:offset} Minuten in {location}
+wann Zeit wird es zeigen wenn ich warte {number:offset} Sekunde
+wann Zeit wird es zeigen wenn ich warte {number:offset} Sekunde in {location}
+wann Zeit wird es zeigen wenn ich warte {number:offset} Sekunden
+wann Zeit wird es zeigen wenn ich warte {number:offset} Sekunden in {location}
+wann Zeit wird es zeigen wenn ich warte {number:offset} Stunde
+wann Zeit wird es zeigen wenn ich warte {number:offset} Stunde in {location}
+wann Zeit wird es zeigen wenn ich warte {number:offset} Stunden
+wann Zeit wird es zeigen wenn ich warte {number:offset} Stunden in {location}
+wann ist es {number:offset} Minuten
+wann ist es {number:offset} Minuten ab jetzt
+wann ist es {number:offset} Minuten ab jetzt in {location}
+wann ist es {number:offset} Sekunden
+wann ist es {number:offset} Sekunden ab jetzt
+wann ist es {number:offset} Sekunden ab jetzt in {location}
+wann ist es {number:offset} Stunden
+wann ist es {number:offset} Stunden ab jetzt
+wann ist es {number:offset} Stunden ab jetzt in {location}
+wann wird es sein {number:offset} Minuten
+wann wird es sein {number:offset} Minuten ab jetzt
+wann wird es sein {number:offset} Minuten ab jetzt in {location}
+wann wird es sein {number:offset} Sekunden
+wann wird es sein {number:offset} Sekunden ab jetzt
+wann wird es sein {number:offset} Sekunden ab jetzt in {location}
+wann wird es sein {number:offset} Stunden
+wann wird es sein {number:offset} Stunden ab jetzt
+wann wird es sein {number:offset} Stunden ab jetzt in {location}
+was wird die Uhr anzeigen nach {number:offset} Minute
+was wird die Uhr anzeigen nach {number:offset} Minute in {location}
+was wird die Uhr anzeigen nach {number:offset} Minuten
+was wird die Uhr anzeigen nach {number:offset} Minuten in {location}
+was wird die Uhr anzeigen nach {number:offset} Stunde
+was wird die Uhr anzeigen nach {number:offset} Stunde in {location}
+was wird die Uhr anzeigen nach {number:offset} Stunden
+was wird die Uhr anzeigen nach {number:offset} Stunden in {location}
+was wird die Uhr anzeigen nach {number:offset} Sekunde
+was wird die Uhr anzeigen nach {number:offset} Sekunde in {location}
+was wird die Uhr anzeigen nach {number:offset} Sekunden
+was wird die Uhr anzeigen nach {number:offset} Sekunden in {location}
+was wird die Uhr anzeigen wenn ich warte {number:offset} Minute
+was wird die Uhr anzeigen wenn ich warte {number:offset} Minute in {location}
+was wird die Uhr anzeigen wenn ich warte {number:offset} Minuten
+was wird die Uhr anzeigen wenn ich warte {number:offset} Minuten in {location}
+was wird die Uhr anzeigen wenn ich warte {number:offset} Stunde
+was wird die Uhr anzeigen wenn ich warte {number:offset} Stunde in {location}
+was wird die Uhr anzeigen wenn ich warte {number:offset} Stunden
+was wird die Uhr anzeigen wenn ich warte {number:offset} Stunden in {location}
+was wird die Uhr anzeigen wenn ich warte {number:offset} Sekunde
+was wird die Uhr anzeigen wenn ich warte {number:offset} Sekunde in {location}
+was wird die Uhr anzeigen wenn ich warte {number:offset} Sekunden
+was wird die Uhr anzeigen wenn ich warte {number:offset} Sekunden in {location}
+was wird die Uhr anzeigen in {number:offset} Minute
+was wird die Uhr anzeigen in {number:offset} Minute in {location}
+was wird die Uhr anzeigen in {number:offset} Minuten
+was wird die Uhr anzeigen in {number:offset} Minuten in {location}
+was wird die Uhr anzeigen in {number:offset} Stunde
+was wird die Uhr anzeigen in {number:offset} Stunde in {location}
+was wird die Uhr anzeigen in {number:offset} Stunden
+was wird die Uhr anzeigen in {number:offset} Stunden in {location}
+was wird die Uhr anzeigen in {number:offset} Sekunde
+was wird die Uhr anzeigen in {number:offset} Sekunde in {location}
+was wird die Uhr anzeigen in {number:offset} Sekunden
+was wird die Uhr anzeigen in {number:offset} Sekunden in {location}
+wie spät ist es nach {number:offset} Minute
+wie spät ist es nach {number:offset} Minute in {location}
+wie spät ist es nach {number:offset} Minuten
+wie spät ist es nach {number:offset} Minuten in {location}
+wie spät ist es nach {number:offset} Stunde
+wie spät ist es nach {number:offset} Stunde in {location}
+wie spät ist es nach {number:offset} Stunden
+wie spät ist es nach {number:offset} Stunden in {location}
+wie spät ist es nach {number:offset} Sekunde
+wie spät ist es nach {number:offset} Sekunde in {location}
+wie spät ist es nach {number:offset} Sekunden
+wie spät ist es nach {number:offset} Sekunden in {location}
+wie spät ist es wenn ich warte {number:offset} Minute
+wie spät ist es wenn ich warte {number:offset} Minute in {location}
+wie spät ist es wenn ich warte {number:offset} Minuten
+wie spät ist es wenn ich warte {number:offset} Minuten in {location}
+wie spät ist es wenn ich warte {number:offset} Stunde
+wie spät ist es wenn ich warte {number:offset} Stunde in {location}
+wie spät ist es wenn ich warte {number:offset} Stunden
+wie spät ist es wenn ich warte {number:offset} Stunden in {location}
+wie spät ist es wenn ich warte {number:offset} Sekunde
+wie spät ist es wenn ich warte {number:offset} Sekunde in {location}
+wie spät ist es wenn ich warte {number:offset} Sekunden
+wie spät ist es wenn ich warte {number:offset} Sekunden in {location}
+wie spät ist es in {number:offset} Minute
+wie spät ist es in {number:offset} Minute in {location}
+wie spät ist es in {number:offset} Minuten
+wie spät ist es in {number:offset} Minuten in {location}
+wie spät ist es in {number:offset} Stunde
+wie spät ist es in {number:offset} Stunde in {location}
+wie spät ist es in {number:offset} Stunden
+wie spät ist es in {number:offset} Stunden in {location}
+wie spät ist es in {number:offset} Sekunde
+wie spät ist es in {number:offset} Sekunde in {location}
+wie spät ist es in {number:offset} Sekunden
+wie spät ist es in {number:offset} Sekunden in {location}
+zu welcher Zeit wird es sein in {number:offset} Minute
+zu welcher Zeit wird es sein in {number:offset} Minute in {location}
+zu welcher Zeit wird es sein in {number:offset} Minuten
+zu welcher Zeit wird es sein in {number:offset} Minuten in {location}
+zu welcher Zeit wird es sein in {number:offset} Sekunde
+zu welcher Zeit wird es sein in {number:offset} Sekunde in {location}
+zu welcher Zeit wird es sein in {number:offset} Sekunden
+zu welcher Zeit wird es sein in {number:offset} Sekunden in {location}
+zu welcher Zeit wird es sein in {number:offset} Stunde
+zu welcher Zeit wird es sein in {number:offset} Stunde in {location}
+zu welcher Zeit wird es sein in {number:offset} Stunden
+zu welcher Zeit wird es sein in {number:offset} Stunden in {location}
+zu welcher Zeit wird es sein nach {number:offset} Minute
+zu welcher Zeit wird es sein nach {number:offset} Minute in {location}
+zu welcher Zeit wird es sein nach {number:offset} Minuten
+zu welcher Zeit wird es sein nach {number:offset} Minuten in {location}
+zu welcher Zeit wird es sein nach {number:offset} Sekunde
+zu welcher Zeit wird es sein nach {number:offset} Sekunde in {location}
+zu welcher Zeit wird es sein nach {number:offset} Sekunden
+zu welcher Zeit wird es sein nach {number:offset} Sekunden in {location}
+zu welcher Zeit wird es sein nach {number:offset} Stunde
+zu welcher Zeit wird es sein nach {number:offset} Stunde in {location}
+zu welcher Zeit wird es sein nach {number:offset} Stunden
+zu welcher Zeit wird es sein nach {number:offset} Stunden in {location}
+zu welcher Zeit wird es sein wenn ich warte {number:offset} Minute
+zu welcher Zeit wird es sein wenn ich warte {number:offset} Minute in {location}
+zu welcher Zeit wird es sein wenn ich warte {number:offset} Minuten
+zu welcher Zeit wird es sein wenn ich warte {number:offset} Minuten in {location}
+zu welcher Zeit wird es sein wenn ich warte {number:offset} Sekunde
+zu welcher Zeit wird es sein wenn ich warte {number:offset} Sekunde in {location}
+zu welcher Zeit wird es sein wenn ich warte {number:offset} Sekunden
+zu welcher Zeit wird es sein wenn ich warte {number:offset} Sekunden in {location}
+zu welcher Zeit wird es sein wenn ich warte {number:offset} Stunde
+zu welcher Zeit wird es sein wenn ich warte {number:offset} Stunde in {location}
+zu welcher Zeit wird es sein wenn ich warte {number:offset} Stunden
+zu welcher Zeit wird es sein wenn ich warte {number:offset} Stunden in {location}
+zu welcher Zeit wird es werden in {number:offset} Minute
+zu welcher Zeit wird es werden in {number:offset} Minute in {location}
+zu welcher Zeit wird es werden in {number:offset} Minuten
+zu welcher Zeit wird es werden in {number:offset} Minuten in {location}
+zu welcher Zeit wird es werden in {number:offset} Sekunde
+zu welcher Zeit wird es werden in {number:offset} Sekunde in {location}
+zu welcher Zeit wird es werden in {number:offset} Sekunden
+zu welcher Zeit wird es werden in {number:offset} Sekunden in {location}
+zu welcher Zeit wird es werden in {number:offset} Stunde
+zu welcher Zeit wird es werden in {number:offset} Stunde in {location}
+zu welcher Zeit wird es werden in {number:offset} Stunden
+zu welcher Zeit wird es werden in {number:offset} Stunden in {location}
+zu welcher Zeit wird es werden nach {number:offset} Minute
+zu welcher Zeit wird es werden nach {number:offset} Minute in {location}
+zu welcher Zeit wird es werden nach {number:offset} Minuten
+zu welcher Zeit wird es werden nach {number:offset} Minuten in {location}
+zu welcher Zeit wird es werden nach {number:offset} Sekunde
+zu welcher Zeit wird es werden nach {number:offset} Sekunde in {location}
+zu welcher Zeit wird es werden nach {number:offset} Sekunden
+zu welcher Zeit wird es werden nach {number:offset} Sekunden in {location}
+zu welcher Zeit wird es werden nach {number:offset} Stunde
+zu welcher Zeit wird es werden nach {number:offset} Stunde in {location}
+zu welcher Zeit wird es werden nach {number:offset} Stunden
+zu welcher Zeit wird es werden nach {number:offset} Stunden in {location}
+zu welcher Zeit wird es werden wenn ich warte {number:offset} Minute
+zu welcher Zeit wird es werden wenn ich warte {number:offset} Minute in {location}
+zu welcher Zeit wird es werden wenn ich warte {number:offset} Minuten
+zu welcher Zeit wird es werden wenn ich warte {number:offset} Minuten in {location}
+zu welcher Zeit wird es werden wenn ich warte {number:offset} Sekunde
+zu welcher Zeit wird es werden wenn ich warte {number:offset} Sekunde in {location}
+zu welcher Zeit wird es werden wenn ich warte {number:offset} Sekunden
+zu welcher Zeit wird es werden wenn ich warte {number:offset} Sekunden in {location}
+zu welcher Zeit wird es werden wenn ich warte {number:offset} Stunde
+zu welcher Zeit wird es werden wenn ich warte {number:offset} Stunde in {location}
+zu welcher Zeit wird es werden wenn ich warte {number:offset} Stunden
+zu welcher Zeit wird es werden wenn ich warte {number:offset} Stunden in {location}
+zu welcher Zeit wird es zeigen in {number:offset} Minute
+zu welcher Zeit wird es zeigen in {number:offset} Minute in {location}
+zu welcher Zeit wird es zeigen in {number:offset} Minuten
+zu welcher Zeit wird es zeigen in {number:offset} Minuten in {location}
+zu welcher Zeit wird es zeigen in {number:offset} Sekunde
+zu welcher Zeit wird es zeigen in {number:offset} Sekunde in {location}
+zu welcher Zeit wird es zeigen in {number:offset} Sekunden
+zu welcher Zeit wird es zeigen in {number:offset} Sekunden in {location}
+zu welcher Zeit wird es zeigen in {number:offset} Stunde
+zu welcher Zeit wird es zeigen in {number:offset} Stunde in {location}
+zu welcher Zeit wird es zeigen in {number:offset} Stunden
+zu welcher Zeit wird es zeigen in {number:offset} Stunden in {location}
+zu welcher Zeit wird es zeigen nach {number:offset} Minute
+zu welcher Zeit wird es zeigen nach {number:offset} Minute in {location}
+zu welcher Zeit wird es zeigen nach {number:offset} Minuten
+zu welcher Zeit wird es zeigen nach {number:offset} Minuten in {location}
+zu welcher Zeit wird es zeigen nach {number:offset} Sekunde
+zu welcher Zeit wird es zeigen nach {number:offset} Sekunde in {location}
+zu welcher Zeit wird es zeigen nach {number:offset} Sekunden
+zu welcher Zeit wird es zeigen nach {number:offset} Sekunden in {location}
+zu welcher Zeit wird es zeigen nach {number:offset} Stunde
+zu welcher Zeit wird es zeigen nach {number:offset} Stunde in {location}
+zu welcher Zeit wird es zeigen nach {number:offset} Stunden
+zu welcher Zeit wird es zeigen nach {number:offset} Stunden in {location}
+zu welcher Zeit wird es zeigen wenn ich warte {number:offset} Minute
+zu welcher Zeit wird es zeigen wenn ich warte {number:offset} Minute in {location}
+zu welcher Zeit wird es zeigen wenn ich warte {number:offset} Minuten
+zu welcher Zeit wird es zeigen wenn ich warte {number:offset} Minuten in {location}
+zu welcher Zeit wird es zeigen wenn ich warte {number:offset} Sekunde
+zu welcher Zeit wird es zeigen wenn ich warte {number:offset} Sekunde in {location}
+zu welcher Zeit wird es zeigen wenn ich warte {number:offset} Sekunden
+zu welcher Zeit wird es zeigen wenn ich warte {number:offset} Sekunden in {location}
+zu welcher Zeit wird es zeigen wenn ich warte {number:offset} Stunde
+zu welcher Zeit wird es zeigen wenn ich warte {number:offset} Stunde in {location}
+zu welcher Zeit wird es zeigen wenn ich warte {number:offset} Stunden
+zu welcher Zeit wird es zeigen wenn ich warte {number:offset} Stunden in {location}

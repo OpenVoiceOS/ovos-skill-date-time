@@ -1,0 +1,165 @@
+em {number:offset} hora a partir de agora que horas serão
+em {number:offset} hora a partir de agora que horas serão em {location}
+em {number:offset} horas a partir de agora que horas serão
+em {number:offset} horas a partir de agora que horas serão em {location}
+em {number:offset} minuto a partir de agora que horas serão
+em {number:offset} minuto a partir de agora que horas serão em {location}
+em {number:offset} minutos a partir de agora que horas serão
+em {number:offset} minutos a partir de agora que horas serão em {location}
+em {number:offset} segundo a partir de agora que horas serão
+em {number:offset} segundo a partir de agora que horas serão em {location}
+em {number:offset} segundos a partir de agora que horas serão
+em {number:offset} segundos a partir de agora que horas serão em {location}
+o que o relógio mostrará depois de {number:offset} hora
+o que o relógio mostrará depois de {number:offset} horas
+o que o relógio mostrará depois de {number:offset} minuto
+o que o relógio mostrará depois de {number:offset} minutos
+o que o relógio mostrará depois de {number:offset} segundo
+o que o relógio mostrará depois de {number:offset} segundos
+o que o relógio mostrará em {location} depois de {number:offset} hora
+o que o relógio mostrará em {location} depois de {number:offset} horas
+o que o relógio mostrará em {location} depois de {number:offset} minuto
+o que o relógio mostrará em {location} depois de {number:offset} minutos
+o que o relógio mostrará em {location} depois de {number:offset} segundo
+o que o relógio mostrará em {location} depois de {number:offset} segundos
+o que o relógio mostrará em {location} em {number:offset} hora
+o que o relógio mostrará em {location} em {number:offset} horas
+o que o relógio mostrará em {location} em {number:offset} minuto
+o que o relógio mostrará em {location} em {number:offset} minutos
+o que o relógio mostrará em {location} em {number:offset} segundo
+o que o relógio mostrará em {location} em {number:offset} segundos
+o que o relógio mostrará em {location} se eu esperar {number:offset} hora
+o que o relógio mostrará em {location} se eu esperar {number:offset} horas
+o que o relógio mostrará em {location} se eu esperar {number:offset} minuto
+o que o relógio mostrará em {location} se eu esperar {number:offset} minutos
+o que o relógio mostrará em {location} se eu esperar {number:offset} segundo
+o que o relógio mostrará em {location} se eu esperar {number:offset} segundos
+quando será em {location} depois de {number:offset} horas
+quando será em {location} depois de {number:offset} horas a partir de agora
+quando será em {location} depois de {number:offset} minutos
+quando será em {location} depois de {number:offset} minutos a partir de agora
+quando será em {location} depois de {number:offset} segundos
+quando será em {location} depois de {number:offset} segundos a partir de agora
+quando será em {location} se eu esperar {number:offset} hora
+quando será em {location} se eu esperar {number:offset} horas
+quando será em {location} se eu esperar {number:offset} minuto
+quando será em {location} se eu esperar {number:offset} minutos
+quando será em {location} se eu esperar {number:offset} segundo
+quando será em {location} se eu esperar {number:offset} segundos
+quando será em {location} se eu gastar {number:offset} hora
+quando será em {location} se eu gastar {number:offset} horas
+quando será em {location} se eu gastar {number:offset} minuto
+quando será em {location} se eu gastar {number:offset} minutos
+quando será em {location} se eu gastar {number:offset} segundo
+quando será em {location} se eu gastar {number:offset} segundos
+quando serão em {location} depois de {number:offset} horas
+quando serão em {location} depois de {number:offset} horas a partir de agora
+quando serão em {location} depois de {number:offset} minutos
+quando serão em {location} depois de {number:offset} minutos a partir de agora
+quando serão em {location} depois de {number:offset} segundos
+quando serão em {location} depois de {number:offset} segundos a partir de agora
+quando serão em {location} se eu esperar {number:offset} hora
+quando serão em {location} se eu esperar {number:offset} horas
+quando serão em {location} se eu esperar {number:offset} minuto
+quando serão em {location} se eu esperar {number:offset} minutos
+quando serão em {location} se eu esperar {number:offset} segundo
+quando serão em {location} se eu esperar {number:offset} segundos
+quando serão em {location} se eu gastar {number:offset} hora
+quando serão em {location} se eu gastar {number:offset} horas
+quando serão em {location} se eu gastar {number:offset} minuto
+quando serão em {location} se eu gastar {number:offset} minutos
+quando serão em {location} se eu gastar {number:offset} segundo
+quando serão em {location} se eu gastar {number:offset} segundos
+quando é em {location} depois de {number:offset} horas
+quando é em {location} depois de {number:offset} horas a partir de agora
+quando é em {location} depois de {number:offset} minutos
+quando é em {location} depois de {number:offset} minutos a partir de agora
+quando é em {location} depois de {number:offset} segundos
+quando é em {location} depois de {number:offset} segundos a partir de agora
+que horas será em {location} depois de {number:offset} horas
+que horas será em {location} depois de {number:offset} horas a partir de agora
+que horas será em {location} depois de {number:offset} minutos
+que horas será em {location} depois de {number:offset} minutos a partir de agora
+que horas será em {location} depois de {number:offset} segundos
+que horas será em {location} depois de {number:offset} segundos a partir de agora
+que horas será em {location} se eu esperar {number:offset} hora
+que horas será em {location} se eu esperar {number:offset} horas
+que horas será em {location} se eu esperar {number:offset} minuto
+que horas será em {location} se eu esperar {number:offset} minutos
+que horas será em {location} se eu esperar {number:offset} segundo
+que horas será em {location} se eu esperar {number:offset} segundos
+que horas será em {location} se eu gastar {number:offset} hora
+que horas será em {location} se eu gastar {number:offset} horas
+que horas será em {location} se eu gastar {number:offset} minuto
+que horas será em {location} se eu gastar {number:offset} minutos
+que horas será em {location} se eu gastar {number:offset} segundo
+que horas será em {location} se eu gastar {number:offset} segundos
+que horas serão depois de {number:offset} hora
+que horas serão depois de {number:offset} hora em {location}
+que horas serão depois de {number:offset} horas
+que horas serão depois de {number:offset} horas em {location}
+que horas serão depois de {number:offset} minuto
+que horas serão depois de {number:offset} minuto em {location}
+que horas serão depois de {number:offset} minutos
+que horas serão depois de {number:offset} minutos em {location}
+que horas serão depois de {number:offset} segundo
+que horas serão depois de {number:offset} segundo em {location}
+que horas serão depois de {number:offset} segundos
+que horas serão depois de {number:offset} segundos em {location}
+que horas serão em {location} depois de {number:offset} hora
+que horas serão em {location} depois de {number:offset} minuto
+que horas serão em {location} depois de {number:offset} segundo
+que horas serão em {location} depois de {number:offset} horas
+que horas serão em {location} depois de {number:offset} horas a partir de agora
+que horas serão em {location} depois de {number:offset} minutos
+que horas serão em {location} depois de {number:offset} minutos a partir de agora
+que horas serão em {location} depois de {number:offset} segundos
+que horas serão em {location} depois de {number:offset} segundos a partir de agora
+que horas serão em {location} em {number:offset} hora
+que horas serão em {location} em {number:offset} horas
+que horas serão em {location} em {number:offset} minuto
+que horas serão em {location} em {number:offset} minutos
+que horas serão em {location} em {number:offset} segundo
+que horas serão em {location} em {number:offset} segundos
+que horas serão em {location} se eu esperar {number:offset} hora
+que horas serão em {location} se eu esperar {number:offset} horas
+que horas serão em {location} se eu esperar {number:offset} minuto
+que horas serão em {location} se eu esperar {number:offset} minutos
+que horas serão em {location} se eu esperar {number:offset} segundo
+que horas serão em {location} se eu esperar {number:offset} segundos
+que horas serão em {location} se eu gastar {number:offset} hora
+que horas serão em {location} se eu gastar {number:offset} horas
+que horas serão em {location} se eu gastar {number:offset} minuto
+que horas serão em {location} se eu gastar {number:offset} minutos
+que horas serão em {location} se eu gastar {number:offset} segundo
+que horas serão em {location} se eu gastar {number:offset} segundos
+que horas serão em {number:offset} hora
+que horas serão em {number:offset} hora em {location}
+que horas serão em {number:offset} horas
+que horas serão em {number:offset} horas em {location}
+que horas serão em {number:offset} minuto
+que horas serão em {number:offset} minuto em {location}
+que horas serão em {number:offset} minutos
+que horas serão em {number:offset} minutos em {location}
+que horas serão em {number:offset} segundo
+que horas serão em {number:offset} segundo em {location}
+que horas serão em {number:offset} segundos
+que horas serão em {number:offset} segundos em {location}
+que horas serão se eu esperar {number:offset} hora
+que horas serão se eu esperar {number:offset} hora em {location}
+que horas serão se eu esperar {number:offset} horas
+que horas serão se eu esperar {number:offset} horas em {location}
+que horas serão se eu esperar {number:offset} minuto
+que horas serão se eu esperar {number:offset} minuto em {location}
+que horas serão se eu esperar {number:offset} minutos
+que horas serão se eu esperar {number:offset} minutos em {location}
+que horas serão se eu esperar {number:offset} segundo
+que horas serão se eu esperar {number:offset} segundo em {location}
+que horas serão se eu esperar {number:offset} segundos
+que horas serão se eu esperar {number:offset} segundos em {location}
+que horas é em {location} depois de {number:offset} horas
+que horas é em {location} depois de {number:offset} horas a partir de agora
+que horas é em {location} depois de {number:offset} minutos
+que horas é em {location} depois de {number:offset} minutos a partir de agora
+que horas é em {location} depois de {number:offset} segundos
+que horas é em {location} depois de {number:offset} segundos a partir de agora

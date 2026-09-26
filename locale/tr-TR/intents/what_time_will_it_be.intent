@@ -1,0 +1,12 @@
+Ne zaman {number:offset} dakika
+Ne zaman {number:offset} dakika şimdi {location}
+Ne zaman {number:offset} dakika şimdiden
+Ne zaman {number:offset} saat içinde {location}
+Ne zaman {number:offset} saatler
+Ne zaman {number:offset} saatler şimdiye kadar
+Ne zaman {number:offset} saniye
+Ne zaman {number:offset} saniyeler {location}
+Ne zaman {number:offset} saniyeler şimdi
+Ne zaman {number:offset} saniyeler şimdi {location}
+{number:offset} dakika içinde {location}
+Şu andan itibaren {number:offset} saatler şimdi {location}
