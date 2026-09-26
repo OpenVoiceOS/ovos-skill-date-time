@@ -2,5 +2,21 @@
   "skill_id": "ovos-skill-date-time.openvoiceos",
   "source": "https://github.com/OpenVoiceOS/ovos-skill-date-time",
   "name": "Datum a čas",
-  "description": "Získejte čas, datum, den v týdnu"
+  "description": "Získejte čas, datum, den v týdnu",
+  "examples": [
+    "Kolik je hodin?",
+    "Řekni mi, který je den v týdnu",
+    "Kolik dní zbývá do 4. července",
+    "Jaké je datum?",
+    "Ukaž mi čas",
+    "Na jaký den připadá Memorial Day 2020?",
+    "Kolik je hodin v Paříži?"
+  ],
+  "tags": [
+    "clock",
+    "date",
+    "time",
+    "query",
+    "information"
+  ]
 }
