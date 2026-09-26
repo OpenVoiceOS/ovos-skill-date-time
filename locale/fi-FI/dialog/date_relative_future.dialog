@@ -1,0 +1,4 @@
+Se on {date}, {num_days} tästä eteenpäin.
+Se on {date}, {num_days}:ssä
+{date}, in {num_days}
+{date}, {num_days} tästä lähtien

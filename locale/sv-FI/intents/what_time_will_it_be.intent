@@ -1,30 +1,19 @@
-kuinka paljon kello on {number:offset} sekuntia {location}:ssä
-kun se on {number:offset} minuutin kuluttua {location}:ssä.
-kun se on {number:offset} minuuttia {location}:ssä
-kun se on {number:offset} sekunnin kuluttua {location}:ssä
-kun se on {number:offset} sekuntia {location}
-kun se on {number:offset} tuntia {location}
-mihin aikaan se on {number:offset} tuntia
-milloin se on {number:offset} minuutin kuluttua tästä hetkestä
-milloin se on {number:offset} minuutin kuluttua {location}:ssä
-milloin se on {number:offset} minuuttia
-milloin se on {number:offset} minuuttia tästä hetkestä
-milloin se on {number:offset} minuuttia {location}:ssä
-milloin se on {number:offset} sekunnin kuluttua {location}:ssä?
-milloin se on {number:offset} sekuntia
-milloin se on {number:offset} sekuntia tästä hetkestä
-milloin se on {number:offset} sekuntia {location}:ssä
-milloin se on {number:offset} tunnin kuluttua {location}:ssä.
-milloin se on {number:offset} tuntia
-milloin se on {number:offset} tuntia tästä hetkestä
-milloin se on {number:offset} tuntia {location}:ssä
-mitä kello on {number:offset} minuutin kuluttua
-mitä kello on {number:offset} minuuttia {location}:ssä?
-mitä kello on {number:offset} sekuntia
-mitä kello on {number:offset} tunnin kuluttua tästä hetkestä?
-mitä kello on {number:offset} tuntia {location}:ssä?
-paljonko kello on {number:offset} minuutin kuluttua tästä hetkestä?
-paljonko kello on {number:offset} minuutin kuluttua {location}:ssä.
-paljonko kello on {number:offset} sekunnin kuluttua tästä hetkestä?
-paljonko kello on {number:offset} sekunnin kuluttua {location}:ssä.
-paljonko kello on {number:offset} tunnin kuluttua {location}:ssä?
+# unvouched: copied from sv-SE, awaiting a Finland-Swedish speaker
+vad är klockan om {number:offset} minut
+vad är klockan om {number:offset} minut i {location}
+vad är klockan om {number:offset} minut på {location}
+vad är klockan om {number:offset} minuter
+vad är klockan om {number:offset} minuter i {location}
+vad är klockan om {number:offset} minuter på {location}
+vad är klockan om {number:offset} sekund
+vad är klockan om {number:offset} sekund i {location}
+vad är klockan om {number:offset} sekund på {location}
+vad är klockan om {number:offset} sekunder
+vad är klockan om {number:offset} sekunder i {location}
+vad är klockan om {number:offset} sekunder på {location}
+vad är klockan om {number:offset} timmar
+vad är klockan om {number:offset} timmar i {location}
+vad är klockan om {number:offset} timmar på {location}
+vad är klockan om {number:offset} timme
+vad är klockan om {number:offset} timme i {location}
+vad är klockan om {number:offset} timme på {location}

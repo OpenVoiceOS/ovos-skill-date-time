@@ -1,4 +1,5 @@
-Se on {date}, {num_days} tästä eteenpäin.
-Se on {date}, {num_days}:ssä
-{date}, in {num_days}
-{date}, {num_days} tästä lähtien
+# unvouched: copied from sv-SE, awaiting a Finland-Swedish speaker
+Det kommer vara {date}, om {num_days}
+det är {date}, om {num_days}
+{date}, om {num_days}
+{date}, {num_days} från nu

@@ -1,2 +1,3 @@
-Se oli {date}, {num_days} sitten
-{date}, {num_days} sitten
+# unvouched: copied from sv-SE, awaiting a Finland-Swedish speaker
+Det var {date}, för {num_days} sedan
+{date}, för {num_days} sedan
