@@ -35,7 +35,7 @@ END2END_DIR = Path(__file__).parent
 LANGS = [
     "en-US", "an", "ca-ES", "cs-CZ", "da-DK", "de-DE", "es-ES", "eu-ES",
     "fa-IR", "fr-FR", "gl-ES", "hu-HU", "it-IT", "kab", "nl-NL", "pl-PL",
-    "pt-BR", "pt-PT", "ru-RU", "sv-FI", "sv-SE", "tr-TR",
+    "pt-BR", "pt-PT", "ru-RU", "fi-FI", "sv-FI", "sv-SE", "tr-TR",
 ]
 
 
