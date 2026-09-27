@@ -621,13 +621,13 @@ class TimeSkill(OVOSSkill):
         """Count the calendar days between two dates named in the utterance.
 
         The date extractor returns one date per text, so each date has its own
-        slot ({from_date}, {to_date}) and is extracted on its own. Both are
-        anchored at "now", and the answer is the absolute number of days, so
-        the order the dates are spoken in does not matter.
+        slot ({start}, {end}) and is extracted on its own. Both are anchored
+        at "now", and the answer is the absolute number of days, so the order
+        the dates are spoken in does not matter.
         """
         now = self.get_datetime()  # session aware
         dates = []
-        for slot in ("from_date", "to_date"):
+        for slot in ("start", "end"):
             text = message.data.get(slot)
             dt = None
             if text:

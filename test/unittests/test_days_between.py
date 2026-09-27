@@ -46,8 +46,8 @@ class TestDaysBetween(unittest.TestCase):
 
     def _ask(self, from_date, to_date, lang="en-US"):
         """Run the handler and return (dialog key, dialog data)."""
-        message = Message("days_between", {"from_date": from_date,
-                                           "to_date": to_date})
+        message = Message("days_between", {"start": from_date,
+                                           "end": to_date})
         with mock.patch.object(self.skill, "get_datetime", return_value=NOW), \
                 mock.patch.object(type(self.skill), "lang",
                                   new_callable=mock.PropertyMock,
