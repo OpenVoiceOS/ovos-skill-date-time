@@ -616,6 +616,42 @@ class TimeSkill(OVOSSkill):
                 "date": nice_date(dt, lang=self.lang, now=now),
                 "weekday": nice_weekday(dt, lang=self.lang)})
 
+    @intent_handler("days_between.intent")
+    def handle_days_between(self, message):
+        """Count the calendar days between two dates named in the utterance.
+
+        The date extractor returns one date per text, so each date has its own
+        slot ({from_date}, {to_date}) and is extracted on its own. Both are
+        anchored at "now", and the answer is the absolute number of days, so
+        the order the dates are spoken in does not matter.
+        """
+        now = self.get_datetime()  # session aware
+        dates = []
+        for slot in ("from_date", "to_date"):
+            text = message.data.get(slot)
+            dt = None
+            if text:
+                try:
+                    dt, _ = extract_datetime(text, anchorDate=now,
+                                             lang=self.lang) or (None, None)
+                except Exception:
+                    self.log.exception(f"failed to extract date from '{text}'")
+            if not dt:
+                self.speak_dialog("extract_date_error")
+                return
+            dates.append(dt)
+
+        start, end = dates
+        num_days = abs((end.date() - start.date()).days)
+        if num_days == 0:
+            self.speak_dialog("days_between_same", {
+                "date": nice_date(start, lang=self.lang, now=now)})
+            return
+        self.speak_dialog("days_between", {
+            "num_days": nice_duration(num_days * 86400, lang=self.lang).strip(),
+            "from_date": nice_date(start, lang=self.lang, now=now),
+            "to_date": nice_date(end, lang=self.lang, now=now)})
+
     @intent_handler("weekday_matches_date.intent")
     def handle_weekday_match(self, message):
         """Handle yes/no questions about whether a date matches a weekday."""

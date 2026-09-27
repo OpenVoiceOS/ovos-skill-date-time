@@ -1,0 +1,8 @@
+how many days (are there|is it) between {from_date} and {to_date}
+how many days between {from_date} and {to_date}
+how many days (are there|is it) from {from_date} (to|until) {to_date}
+how many days from {from_date} (to|until) {to_date}
+how long is it (from|between) {from_date} (to|until|and) {to_date}
+how far apart are {from_date} and {to_date}
+what is the number of days between {from_date} and {to_date}
+count the days (between|from) {from_date} (and|to|until) {to_date}

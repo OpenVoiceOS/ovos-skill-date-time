@@ -1,0 +1,8 @@
+hvor mange dage er der mellem {from_date} og {to_date}
+hvor mange dage mellem {from_date} og {to_date}
+hvor mange dage er der fra {from_date} til {to_date}
+hvor mange dage fra {from_date} til {to_date}
+hvor lang tid er der (mellem|fra) {from_date} (og|til) {to_date}
+hvor langt er der mellem {from_date} og {to_date}
+hvor langt ligger {from_date} og {to_date} fra hinanden
+tæl dagene (mellem|fra) {from_date} (og|til) {to_date}
