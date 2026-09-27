@@ -1,3 +1,11 @@
+Welches Datum haben wir heute
+Welches Datum haben wir heute in {location}
+Wie ist das Datum heute
+Wie ist das Datum heute in {location}
+Wie ist das Datum
+Wie ist das Datum in {location}
+Wie ist das aktuelle Datum
+Wie ist das aktuelle Datum in {location}
 Ich muss das Datum heute wissen.
 Ich muss das Datum in {location} wissen.
 Ich muss das Kalenderdatum heute wissen.
@@ -85,16 +93,16 @@ welches Datum ist es in {location}
 welches Datum ist heute
 welches Datum ist heute in {location}
 welches Datum ist heute, einschließlich der Jahreszahl
-welches aktuelle Datum ist
-welches aktuelle Datum ist in {location}
-welches aktuelle vollständige Datum ist
-welches aktuelle vollständige Datum ist in {location}
-welches gegenwärtige Datum ist
-welches gegenwärtige Datum ist in {location}
-welches gegenwärtige vollständige Datum ist
-welches gegenwärtige vollständige Datum ist in {location}
-welches heutige vollständige Datum ist
-welches heutige vollständige Datum ist in {location}
+welches aktuelle Datum ist es
+welches aktuelle Datum ist es in {location}
+welches aktuelle vollständige Datum ist es
+welches aktuelle vollständige Datum ist es in {location}
+welches gegenwärtige Datum ist es
+welches gegenwärtige Datum ist es in {location}
+welches gegenwärtige vollständige Datum ist es
+welches gegenwärtige vollständige Datum ist es in {location}
+welches heutige vollständige Datum ist es
+welches heutige vollständige Datum ist es in {location}
 zeig mir das Kalenderdatum
 zeig mir das Kalenderdatum in {location}
 zeig mir das Datum
