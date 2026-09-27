@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.8a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.8a1) (2026-09-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.7a2...1.10.8a1)
+
+**Merged pull requests:**
+
+- fix\(hu-HU\): match superessive place names in the located date and time intents [\#398](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/398) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.10.7a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.7a2) (2026-09-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.7a1...1.10.7a2)
@@ -377,10 +385,6 @@
 ## [1.2.3a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.3a1) (2026-09-07)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.2a3...1.2.3a1)
-
-**Merged pull requests:**
-
-- fix: ship every en-US intent in all locales [\#293](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/293) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [1.2.2a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.2a3) (2026-09-03)
 
