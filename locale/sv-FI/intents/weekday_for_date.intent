@@ -1,4 +1,5 @@
-mikä viikonpäivä on {date} [kiitos]
-minkä päivän kohdalle {date} osuu
-kerro mikä päivä {date} on
-mikä viikonpäivä {date} tulee olemaan
+# unvouched: copied from sv-SE, awaiting a Finland-Swedish speaker
+vilken veckodag är {date} [tack]
+vilken dag infaller {date} på
+säg mig vilken dag {date} är
+vilken veckodag kommer {date} att vara

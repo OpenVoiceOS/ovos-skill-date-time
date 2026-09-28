@@ -1,4 +1,5 @@
-kuinka paljon aikaa on jäljellä päivään {date} [kiitos]
-milloin on {date}
-kuinka monta päivää on jäljellä päivään {date}
-kuinka kaukana on {date}
+# unvouched: copied from sv-SE, awaiting a Finland-Swedish speaker
+hur mycket tid är kvar till {date} [tack]
+när är det {date}
+hur många dagar är kvar till {date}
+hur långt bort är {date}

@@ -1,5 +1,6 @@
-monesko päivä tänään on [kiitos]
-mikä kuukauden päivä tänään on
-kerro monesko päivä tänään on
-mikä on tämän päivän numero kuukaudessa
-mikä kuukauden päivä tänään on paikassa {location}
+# unvouched: copied from sv-SE, awaiting a Finland-Swedish speaker
+vilket datum är det idag [tack]
+vilken dag i månaden är det idag
+säg mig vilket datum det är idag
+vilken dag i månaden har vi idag
+vilken dag i månaden är det idag i {location}
