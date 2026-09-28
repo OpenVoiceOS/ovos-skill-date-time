@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.9a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a4) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a3...1.10.9a4)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update next\_leap\_year.intent [\#408](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/408) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [1.10.9a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a3) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a2...1.10.9a3)
@@ -377,10 +385,6 @@
 ## [1.3.0a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.3.0a2) (2026-09-10)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.3.0a1...1.3.0a2)
-
-**Merged pull requests:**
-
-- docs: credit the ODbL timezone boundary data [\#302](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/302) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [1.3.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.3.0a1) (2026-09-08)
 
