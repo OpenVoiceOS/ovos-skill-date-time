@@ -1,8 +1,8 @@
 # Changelog
 
-## [1.10.9a12](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a12) (2026-09-28)
+## [1.10.9a13](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a13) (2026-09-28)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a11...1.10.9a12)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a11...1.10.9a13)
 
 **Merged pull requests:**
 
@@ -220,10 +220,6 @@
 ## [1.9.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.9.0a1) (2026-09-23)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.8.1a2...1.9.0a1)
-
-**Merged pull requests:**
-
-- feat: take offset as a typed slot {number:offset}, remove offset.entity [\#320](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/320) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
 
 ## [1.8.1a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.8.1a2) (2026-09-20)
 
