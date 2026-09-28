@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.9a6](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a6) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a5...1.10.9a6)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update what\_weekday\_is\_it.intent [\#406](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/406) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [1.10.9a5](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a5) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a4...1.10.9a5)
@@ -217,10 +225,6 @@
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.7.0a2...1.7.0a3)
 
-**Merged pull requests:**
-
-- test: assert spoken effects, not just routing, in date-time e2e suite [\#306](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/306) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
-
 ## [1.7.0a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.7.0a2) (2026-09-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.7.0a1...1.7.0a2)
@@ -382,10 +386,6 @@
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.3.0a2...1.3.1a1)
 
-**Merged pull requests:**
-
-- fix: strip leading ¿/¡ from es-ES intent templates [\#305](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/305) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
-
 ## [1.3.0a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.3.0a2) (2026-09-10)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.3.0a1...1.3.0a2)
@@ -432,15 +432,15 @@
 
 ## [1.1.17a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.17a1) (2026-08-26)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a3...1.1.17a1)
-
-## [1.1.16a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a3) (2026-08-25)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a2...1.1.16a3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a2...1.1.17a1)
 
 ## [1.1.16a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a2) (2026-08-25)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a1...1.1.16a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a3...1.1.16a2)
+
+## [1.1.16a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a3) (2026-08-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a1...1.1.16a3)
 
 ## [1.1.16a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a1) (2026-08-13)
 
