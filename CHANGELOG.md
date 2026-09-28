@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.9a8](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a8) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a7...1.10.9a8)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update what\_time\_is\_it.intent [\#404](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/404) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [1.10.9a7](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a7) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a6...1.10.9a7)
@@ -381,10 +389,6 @@
 ## [1.3.2a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.3.2a1) (2026-09-13)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.3.1a1...1.3.2a1)
-
-**Merged pull requests:**
-
-- fix: lowercase-underscore resource base names \(OVOS-INTENT-2 §2\) [\#309](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/309) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
 
 ## [1.3.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.3.1a1) (2026-09-11)
 
