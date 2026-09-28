@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.10.10a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.10a2) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.10a1...1.10.10a2)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update time\_current.dialog [\#409](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/409) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.10.10a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.10a1) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a14...1.10.10a1)
+
+**Merged pull requests:**
+
+- fix\(da-DK,it-IT\): the offset lines that join a noun to its preposition [\#416](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/416) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.10.9a14](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a14) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a13...1.10.9a14)
