@@ -102,4 +102,6 @@ qué fecha, incluyendo mes y año, es hoy en {location}
 qué fecha, incluyendo mes, es hoy 
 qué fecha, incluyendo mes, es hoy en {location}
 sabes qué fecha es 
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Spanish speaker has read it.
 sabes qué fecha es en {location}
+Que día es

@@ -2,3 +2,5 @@ mikä on tämän päivän päivämäärä [kiitos]
 kerro tämän päivän päivämäärä
 mikä on tämän päivän päivämäärä paikassa {location}
 anna koko tämän päivän päivämäärä
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Finland Swedish speaker has read it.
+Vilket datum är det

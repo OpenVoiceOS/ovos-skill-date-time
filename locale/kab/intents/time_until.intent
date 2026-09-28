@@ -2,3 +2,5 @@ acḥal i d-yeqqim ar {date} [ma ulac aɣilif]
 melmi ara yili {date}
 acḥal n wussan i d-yeqqimen ar {date}
 acḥal n lweqt i d-yeqqimen ar {date}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Kabyle speaker has read it.
+Acḥal n wussan i d-yeqqimen ɣer {date}

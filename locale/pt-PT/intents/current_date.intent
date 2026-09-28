@@ -100,3 +100,5 @@ que dia, mês e ano é em {location}
 que dia, mês e ano é hoje
 sabe que data é
 sabe que data é em {location}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no European Portuguese speaker has read it.
+Qual é a data

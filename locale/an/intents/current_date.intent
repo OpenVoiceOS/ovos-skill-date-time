@@ -103,3 +103,5 @@ qué data, incluyindo lo mes, ye hue ?
 qué data, incluyindo lo mes, ye hue en {location}?
 sabes qué data ye ?
 sabes qué data ye en {location}?
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Aragonese speaker has read it.
+Que día ye

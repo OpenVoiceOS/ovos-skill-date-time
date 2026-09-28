@@ -42,3 +42,5 @@ wie weit ab ist {date} von jetzt
 wie weit weg ist {date}
 wie weit weg ist {date} von heute
 wie weit weg ist {date} von jetzt
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no German speaker has read it.
+Wie viele Tage bis zum {date}

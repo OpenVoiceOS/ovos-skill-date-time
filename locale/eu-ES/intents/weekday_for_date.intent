@@ -2,3 +2,5 @@ zein asteguna da {date} [mesedez]
 zein eguna da {date}
 esadazu zein asteguna den {date}
 zein asteguni dagokio {date}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Basque speaker has read it.
+Zein egunetan da 2020ko Oroitzapen Eguna

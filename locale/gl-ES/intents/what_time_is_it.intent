@@ -207,4 +207,7 @@ xa é pola tarde en {location}
 é posible saber a hora actual en {location}
 é posible saber da hora
 é posible saber da hora actual
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Galician speaker has read it.
 é posible saber da hora actual en {location}
+Que hora é en {location}
+Dime que hora é

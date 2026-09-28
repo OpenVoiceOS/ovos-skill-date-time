@@ -2,3 +2,5 @@ que dia da semana é {date} [por favor]
 em que dia cai {date}
 diz-me que dia é {date}
 que dia da semana será {date}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no European Portuguese speaker has read it.
+Que dia é o Dia Memorial de 2020
