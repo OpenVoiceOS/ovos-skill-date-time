@@ -1,0 +1,100 @@
+qué hora aparecerá después de {number:offset} hora 
+qué hora aparecerá después de {number:offset} hora en {location}
+qué hora aparecerá después de {number:offset} horas 
+qué hora aparecerá después de {number:offset} horas en {location}
+qué hora aparecerá después de {number:offset} minutos 
+qué hora aparecerá después de {number:offset} minutos en {location}
+qué hora aparecerá después de {number:offset} segundos 
+qué hora aparecerá después de {number:offset} segundos en {location}
+qué hora aparecerá si espero {number:offset} hora 
+qué hora aparecerá si espero {number:offset} hora en {location}
+qué hora aparecerá si espero {number:offset} horas 
+qué hora aparecerá si espero {number:offset} horas en {location}
+qué hora aparecerá si espero {number:offset} minutos 
+qué hora aparecerá si espero {number:offset} minutos en {location}
+qué hora aparecerá si espero {number:offset} segundos 
+qué hora aparecerá si espero {number:offset} segundos en {location}
+qué hora es después de {number:offset} hora 
+qué hora es después de {number:offset} hora en {location}
+qué hora es después de {number:offset} horas 
+qué hora es después de {number:offset} horas en {location}
+qué hora es después de {number:offset} minutos 
+qué hora es después de {number:offset} minutos en {location}
+qué hora es después de {number:offset} segundos 
+qué hora es después de {number:offset} segundos en {location}
+qué hora es en {number:offset} hora 
+qué hora es en {number:offset} hora en {location}
+qué hora es en {number:offset} horas 
+qué hora es en {number:offset} horas en {location}
+qué hora es en {number:offset} minutos 
+qué hora es en {number:offset} minutos en {location}
+qué hora es en {number:offset} segundos 
+qué hora es en {number:offset} segundos en {location}
+qué hora es si espero {number:offset} hora 
+qué hora es si espero {number:offset} hora en {location}
+qué hora es si espero {number:offset} horas 
+qué hora es si espero {number:offset} horas en {location}
+qué hora es si espero {number:offset} minutos 
+qué hora es si espero {number:offset} minutos en {location}
+qué hora es si espero {number:offset} segundos 
+qué hora es si espero {number:offset} segundos en {location}
+qué hora es {number:offset} horas desde ahora 
+qué hora es {number:offset} horas desde ahora en {location}
+qué hora es {number:offset} minutos desde ahora 
+qué hora es {number:offset} minutos desde ahora en {location}
+qué hora es {number:offset} segundos desde ahora 
+qué hora es {number:offset} segundos desde ahora en {location}
+qué hora será después de {number:offset} hora 
+qué hora será después de {number:offset} hora en {location}
+qué hora será después de {number:offset} horas 
+qué hora será después de {number:offset} horas en {location}
+qué hora será después de {number:offset} minutos 
+qué hora será después de {number:offset} minutos en {location}
+qué hora será después de {number:offset} segundos 
+qué hora será después de {number:offset} segundos en {location}
+qué hora será en {number:offset} hora a partir de ahora 
+qué hora será en {number:offset} hora a partir de ahora en {location}
+qué hora será en {number:offset} horas a partir de ahora 
+qué hora será en {number:offset} horas a partir de ahora en {location}
+qué hora será en {number:offset} minutos a partir de ahora 
+qué hora será en {number:offset} minutos a partir de ahora en {location}
+qué hora será en {number:offset} segundos a partir de ahora 
+qué hora será en {number:offset} segundos a partir de ahora en {location}
+qué hora será si espero {number:offset} hora 
+qué hora será si espero {number:offset} hora en {location}
+qué hora será si espero {number:offset} horas 
+qué hora será si espero {number:offset} horas en {location}
+qué hora será si espero {number:offset} minutos 
+qué hora será si espero {number:offset} minutos en {location}
+qué hora será si espero {number:offset} segundos 
+qué hora será si espero {number:offset} segundos en {location}
+qué hora será {number:offset} horas desde ahora 
+qué hora será {number:offset} horas desde ahora en {location}
+qué hora será {number:offset} minutos desde ahora 
+qué hora será {number:offset} minutos desde ahora en {location}
+qué hora será {number:offset} segundos desde ahora 
+qué hora será {number:offset} segundos desde ahora en {location}
+qué marcará el reloj después de {number:offset} hora 
+qué marcará el reloj después de {number:offset} hora en {location}
+qué marcará el reloj después de {number:offset} horas 
+qué marcará el reloj después de {number:offset} horas en {location}
+qué marcará el reloj después de {number:offset} minutos 
+qué marcará el reloj después de {number:offset} minutos en {location}
+qué marcará el reloj después de {number:offset} segundos 
+qué marcará el reloj después de {number:offset} segundos en {location}
+qué marcará el reloj en {number:offset} hora 
+qué marcará el reloj en {number:offset} hora en {location}
+qué marcará el reloj en {number:offset} horas 
+qué marcará el reloj en {number:offset} horas en {location}
+qué marcará el reloj en {number:offset} minutos 
+qué marcará el reloj en {number:offset} minutos en {location}
+qué marcará el reloj en {number:offset} segundos 
+qué marcará el reloj en {number:offset} segundos en {location}
+qué marcará el reloj si espero {number:offset} hora 
+qué marcará el reloj si espero {number:offset} hora en {location}
+qué marcará el reloj si espero {number:offset} horas 
+qué marcará el reloj si espero {number:offset} horas en {location}
+qué marcará el reloj si espero {number:offset} minutos 
+qué marcará el reloj si espero {number:offset} minutos en {location}
+qué marcará el reloj si espero {number:offset} segundos 
+qué marcará el reloj si espero {number:offset} segundos en {location}
