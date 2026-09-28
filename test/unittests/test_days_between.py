@@ -69,6 +69,18 @@ class TestDaysBetween(unittest.TestCase):
         self.assertEqual(key, "days_between")
         self.assertEqual(data["num_days"], "ninety six days")
 
+    def test_reversed_pair_fills_the_earlier_date_first(self):
+        # a directional template ("Fra {from_date} til {to_date}") must not
+        # state the span backwards when the later date is spoken first
+        _, forward = self._ask("march 1 2027", "june 5 2027")
+        key, data = self._ask("june 5 2027", "march 1 2027")
+        self.assertEqual(key, "days_between")
+        self.assertEqual(data["from_date"],
+                         "monday, march first, twenty twenty seven")
+        self.assertEqual(data["to_date"],
+                         "saturday, june fifth, twenty twenty seven")
+        self.assertEqual(data, forward)
+
     def test_across_new_year(self):
         key, data = self._ask("december 24 2026", "january 6 2027")
         self.assertEqual(key, "days_between")

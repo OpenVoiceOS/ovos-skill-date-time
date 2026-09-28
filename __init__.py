@@ -641,7 +641,7 @@ class TimeSkill(OVOSSkill):
                 return
             dates.append(dt)
 
-        start, end = dates
+        start, end = sorted(dates)
         num_days = abs((end.date() - start.date()).days)
         if num_days == 0:
             self.speak_dialog("days_between_same", {
