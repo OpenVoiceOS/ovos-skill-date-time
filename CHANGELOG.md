@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.10a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.10a4) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.10a3...1.10.10a4)
+
+**Merged pull requests:**
+
+- locale: draft es-CO from es-ES [\#436](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/436) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.10.10a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.10a3) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.10a2...1.10.10a3)
@@ -352,10 +360,6 @@
 ## [1.4.4a7](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.4a7) (2026-09-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.4a6...1.4.4a7)
-
-**Merged pull requests:**
-
-- chore\(locale\): drop date\_not\_found.dialog, a dialog no handler speaks [\#330](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/330) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
 
 ## [1.4.4a6](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.4a6) (2026-09-17)
 
