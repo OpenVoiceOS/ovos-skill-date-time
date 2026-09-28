@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.9a7](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a7) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a6...1.10.9a7)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update what\_time\_will\_it\_be.intent [\#405](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/405) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [1.10.9a6](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a6) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a5...1.10.9a6)
@@ -312,10 +320,6 @@
 ## [1.4.4a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.4a1) (2026-09-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.3a4...1.4.4a1)
-
-**Merged pull requests:**
-
-- fix: respect the 12/24h setting for location times [\#308](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/308) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
 
 ## [1.4.3a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.3a4) (2026-09-16)
 
