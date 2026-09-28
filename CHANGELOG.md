@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.9a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a2) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a1...1.10.9a2)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update weekday\_for\_date.intent [\#411](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/411) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [1.10.9a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a1) (2026-09-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.8a1...1.10.9a1)
@@ -369,10 +377,6 @@
 ## [1.3.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.3.0a1) (2026-09-08)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.5a1...1.3.0a1)
-
-**Merged pull requests:**
-
-- feat: Aragonese \(an\) locale [\#298](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/298) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [1.2.5a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.5a1) (2026-09-07)
 
