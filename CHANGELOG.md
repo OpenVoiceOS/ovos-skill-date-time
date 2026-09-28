@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.9a10](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a10) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a9...1.10.9a10)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update what\_day\_is\_it.intent [\#402](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/402) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
 ## [1.10.9a9](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a9) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a8...1.10.9a9)
@@ -377,10 +385,6 @@
 ## [1.4.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.1a1) (2026-09-13)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.0a1...1.4.1a1)
-
-**Merged pull requests:**
-
-- fix\(locale\): review corrections for sv-SE, it-IT, pt-PT, de-DE, ca-ES, gl-ES date-time dialogs [\#314](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/314) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
 
 ## [1.4.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.0a1) (2026-09-13)
 
