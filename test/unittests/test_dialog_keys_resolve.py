@@ -52,6 +52,13 @@ KNOWN_GAPS = {
     # no dialog line without adjacent slots; neither locale ships the intent
     "fa-IR": ("days_between",),
     "ru-RU": ("days_between",),
+    # fi-FI arrived as a locale directory (#390) six hours after days_between
+    # became a requirement of every shipped locale (#412), so it never had
+    # either file. It ships no days_between.intent either -- only da-DK and
+    # en-US do -- so no Finnish utterance reaches the handler and nothing is
+    # spoken as a raw key today. Finnish has no reviewer on record, so the
+    # honest entry is the gap, not an unvouched translation.
+    "fi-FI": ("days_between", "days_between_same"),
 }
 
 
