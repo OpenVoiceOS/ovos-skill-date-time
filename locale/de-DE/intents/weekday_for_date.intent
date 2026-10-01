@@ -19,17 +19,3 @@ Kannst du mir sagen welcher Wochentag {date} sein wird
 Weißt du welcher Wochentag {date} ist
 Weißt du welcher Wochentag {date} war
 Weißt du welcher Wochentag {date} sein wird
-Ist {date} ein Montag
-Ist {date} ein Dienstag
-Ist {date} ein Mittwoch
-Ist {date} ein Donnerstag
-Ist {date} ein Freitag
-Ist {date} ein Samstag
-Ist {date} ein Sonntag
-War {date} ein Montag
-War {date} ein Dienstag
-War {date} ein Mittwoch
-War {date} ein Donnerstag
-War {date} ein Freitag
-War {date} ein Samstag
-War {date} ein Sonntag
