@@ -1,0 +1,2 @@
+Der er {num_days} mellem {from_date} og {to_date}
+Fra {from_date} til {to_date} er der {num_days}

@@ -1,0 +1,216 @@
+a quina hora serà {number:offset} hores
+a quina hora serà {number:offset} hores a partir d'ara
+a quina hora serà {number:offset} hores a partir d'ara a {location}
+a quina hora serà {number:offset} minuts
+a quina hora serà {number:offset} minuts a partir d'ara
+a quina hora serà {number:offset} minuts a partir d'ara a {location}
+a quina hora serà {number:offset} segons
+a quina hora serà {number:offset} segons a partir d'ara
+a quina hora serà {number:offset} segons a partir d'ara a {location}
+a quina hora és {number:offset} hores
+a quina hora és {number:offset} hores a partir d'ara
+a quina hora és {number:offset} hores a partir d'ara a {location}
+a quina hora és {number:offset} minuts
+a quina hora és {number:offset} minuts a partir d'ara
+a quina hora és {number:offset} minuts a partir d'ara a {location}
+a quina hora és {number:offset} segons
+a quina hora és {number:offset} segons a partir d'ara
+a quina hora és {number:offset} segons a partir d'ara a {location}
+a {number:offset} hora a partir d'ara quina hora serà
+a {number:offset} hora a partir d'ara quina hora serà a {location}
+a {number:offset} horaes a partir d'ara quina hora serà
+a {number:offset} horaes a partir d'ara quina hora serà a {location}
+a {number:offset} minut a partir d'ara quina hora serà
+a {number:offset} minut a partir d'ara quina hora serà a {location}
+a {number:offset} minuts a partir d'ara quina hora serà
+a {number:offset} minuts a partir d'ara quina hora serà a {location}
+a {number:offset} segon a partir d'ara quina hora serà
+a {number:offset} segon a partir d'ara quina hora serà a {location}
+a {number:offset} segons a partir d'ara quina hora serà
+a {number:offset} segons a partir d'ara quina hora serà a {location}
+quan serà {number:offset} hores
+quan serà {number:offset} hores a partir d'ara
+quan serà {number:offset} hores a partir d'ara a {location}
+quan serà {number:offset} minuts
+quan serà {number:offset} minuts a partir d'ara
+quan serà {number:offset} minuts a partir d'ara a {location}
+quan serà {number:offset} segons
+quan serà {number:offset} segons a partir d'ara
+quan serà {number:offset} segons a partir d'ara a {location}
+quan és {number:offset} hores
+quan és {number:offset} hores a partir d'ara
+quan és {number:offset} hores a partir d'ara a {location}
+quan és {number:offset} minuts
+quan és {number:offset} minuts a partir d'ara
+quan és {number:offset} minuts a partir d'ara a {location}
+quan és {number:offset} segons
+quan és {number:offset} segons a partir d'ara
+quan és {number:offset} segons a partir d'ara a {location}
+quina hora es mostrarà a {number:offset} hora
+quina hora es mostrarà a {number:offset} hora a {location}
+quina hora es mostrarà a {number:offset} horaes
+quina hora es mostrarà a {number:offset} horaes a {location}
+quina hora es mostrarà a {number:offset} minut
+quina hora es mostrarà a {number:offset} minut a {location}
+quina hora es mostrarà a {number:offset} minuts
+quina hora es mostrarà a {number:offset} minuts a {location}
+quina hora es mostrarà a {number:offset} segon
+quina hora es mostrarà a {number:offset} segon a {location}
+quina hora es mostrarà a {number:offset} segons
+quina hora es mostrarà a {number:offset} segons a {location}
+quina hora es mostrarà després de {number:offset} hora
+quina hora es mostrarà després de {number:offset} hora a {location}
+quina hora es mostrarà després de {number:offset} horaes
+quina hora es mostrarà després de {number:offset} horaes a {location}
+quina hora es mostrarà després de {number:offset} minut
+quina hora es mostrarà després de {number:offset} minut a {location}
+quina hora es mostrarà després de {number:offset} minuts
+quina hora es mostrarà després de {number:offset} minuts a {location}
+quina hora es mostrarà després de {number:offset} segon
+quina hora es mostrarà després de {number:offset} segon a {location}
+quina hora es mostrarà després de {number:offset} segons
+quina hora es mostrarà després de {number:offset} segons a {location}
+quina hora es mostrarà si espero a {number:offset} hora
+quina hora es mostrarà si espero a {number:offset} hora a {location}
+quina hora es mostrarà si espero a {number:offset} horaes
+quina hora es mostrarà si espero a {number:offset} horaes a {location}
+quina hora es mostrarà si espero a {number:offset} minut
+quina hora es mostrarà si espero a {number:offset} minut a {location}
+quina hora es mostrarà si espero a {number:offset} minuts
+quina hora es mostrarà si espero a {number:offset} minuts a {location}
+quina hora es mostrarà si espero a {number:offset} segon
+quina hora es mostrarà si espero a {number:offset} segon a {location}
+quina hora es mostrarà si espero a {number:offset} segons
+quina hora es mostrarà si espero a {number:offset} segons a {location}
+quina hora serà a {number:offset} hora
+quina hora serà a {number:offset} hora a {location}
+quina hora serà a {number:offset} horaes
+quina hora serà a {number:offset} horaes a {location}
+quina hora serà a {number:offset} minut
+quina hora serà a {number:offset} minut a {location}
+quina hora serà a {number:offset} minuts
+quina hora serà a {number:offset} minuts a {location}
+quina hora serà a {number:offset} segon
+quina hora serà a {number:offset} segon a {location}
+quina hora serà a {number:offset} segons
+quina hora serà a {number:offset} segons a {location}
+quina hora serà després de {number:offset} hora
+quina hora serà després de {number:offset} hora a {location}
+quina hora serà després de {number:offset} horaes
+quina hora serà després de {number:offset} horaes a {location}
+quina hora serà després de {number:offset} minut
+quina hora serà després de {number:offset} minut a {location}
+quina hora serà després de {number:offset} minuts
+quina hora serà després de {number:offset} minuts a {location}
+quina hora serà després de {number:offset} segon
+quina hora serà després de {number:offset} segon a {location}
+quina hora serà després de {number:offset} segons
+quina hora serà després de {number:offset} segons a {location}
+quina hora serà si espero a {number:offset} hora
+quina hora serà si espero a {number:offset} hora a {location}
+quina hora serà si espero a {number:offset} horaes
+quina hora serà si espero a {number:offset} horaes a {location}
+quina hora serà si espero a {number:offset} minut
+quina hora serà si espero a {number:offset} minut a {location}
+quina hora serà si espero a {number:offset} minuts
+quina hora serà si espero a {number:offset} minuts a {location}
+quina hora serà si espero a {number:offset} segon
+quina hora serà si espero a {number:offset} segon a {location}
+quina hora serà si espero a {number:offset} segons
+quina hora serà si espero a {number:offset} segons a {location}
+quina hora serà si espero {number:offset} hora
+quina hora serà si espero {number:offset} hora a {location}
+quina hora serà si espero {number:offset} horaes
+quina hora serà si espero {number:offset} horaes a {location}
+quina hora serà si espero {number:offset} minut
+quina hora serà si espero {number:offset} minut a {location}
+quina hora serà si espero {number:offset} minuts
+quina hora serà si espero {number:offset} minuts a {location}
+quina hora serà si espero {number:offset} segon
+quina hora serà si espero {number:offset} segon a {location}
+quina hora serà si espero {number:offset} segons
+quina hora serà si espero {number:offset} segons a {location}
+quina hora serà si passo {number:offset} hora
+quina hora serà si passo {number:offset} hora a {location}
+quina hora serà si passo {number:offset} horaes
+quina hora serà si passo {number:offset} horaes a {location}
+quina hora serà si passo {number:offset} minut
+quina hora serà si passo {number:offset} minut a {location}
+quina hora serà si passo {number:offset} minuts
+quina hora serà si passo {number:offset} minuts a {location}
+quina hora serà si passo {number:offset} segon
+quina hora serà si passo {number:offset} segon a {location}
+quina hora serà si passo {number:offset} segons
+quina hora serà si passo {number:offset} segons a {location}
+quina hora és a {number:offset} hora
+quina hora és a {number:offset} hora a {location}
+quina hora és a {number:offset} horaes
+quina hora és a {number:offset} horaes a {location}
+quina hora és a {number:offset} minut
+quina hora és a {number:offset} minut a {location}
+quina hora és a {number:offset} minuts
+quina hora és a {number:offset} minuts a {location}
+quina hora és a {number:offset} segon
+quina hora és a {number:offset} segon a {location}
+quina hora és a {number:offset} segons
+quina hora és a {number:offset} segons a {location}
+quina hora és després de {number:offset} hora
+quina hora és després de {number:offset} hora a {location}
+quina hora és després de {number:offset} horaes
+quina hora és després de {number:offset} horaes a {location}
+quina hora és després de {number:offset} minut
+quina hora és després de {number:offset} minut a {location}
+quina hora és després de {number:offset} minuts
+quina hora és després de {number:offset} minuts a {location}
+quina hora és després de {number:offset} segon
+quina hora és després de {number:offset} segon a {location}
+quina hora és després de {number:offset} segons
+quina hora és després de {number:offset} segons a {location}
+quina hora és si espero a {number:offset} hora
+quina hora és si espero a {number:offset} hora a {location}
+quina hora és si espero a {number:offset} horaes
+quina hora és si espero a {number:offset} horaes a {location}
+quina hora és si espero a {number:offset} minut
+quina hora és si espero a {number:offset} minut a {location}
+quina hora és si espero a {number:offset} minuts
+quina hora és si espero a {number:offset} minuts a {location}
+quina hora és si espero a {number:offset} segon
+quina hora és si espero a {number:offset} segon a {location}
+quina hora és si espero a {number:offset} segons
+quina hora és si espero a {number:offset} segons a {location}
+què dirà el rellotge a {number:offset} hora
+què dirà el rellotge a {number:offset} hora a {location}
+què dirà el rellotge a {number:offset} horaes
+què dirà el rellotge a {number:offset} horaes a {location}
+què dirà el rellotge a {number:offset} minut
+què dirà el rellotge a {number:offset} minut a {location}
+què dirà el rellotge a {number:offset} minuts
+què dirà el rellotge a {number:offset} minuts a {location}
+què dirà el rellotge a {number:offset} segon
+què dirà el rellotge a {number:offset} segon a {location}
+què dirà el rellotge a {number:offset} segons
+què dirà el rellotge a {number:offset} segons a {location}
+què dirà el rellotge després de {number:offset} hora
+què dirà el rellotge després de {number:offset} hora a {location}
+què dirà el rellotge després de {number:offset} horaes
+què dirà el rellotge després de {number:offset} horaes a {location}
+què dirà el rellotge després de {number:offset} minut
+què dirà el rellotge després de {number:offset} minut a {location}
+què dirà el rellotge després de {number:offset} minuts
+què dirà el rellotge després de {number:offset} minuts a {location}
+què dirà el rellotge després de {number:offset} segon
+què dirà el rellotge després de {number:offset} segon a {location}
+què dirà el rellotge després de {number:offset} segons
+què dirà el rellotge després de {number:offset} segons a {location}
+què dirà el rellotge si espero a {number:offset} hora
+què dirà el rellotge si espero a {number:offset} hora a {location}
+què dirà el rellotge si espero a {number:offset} horaes
+què dirà el rellotge si espero a {number:offset} horaes a {location}
+què dirà el rellotge si espero a {number:offset} minut
+què dirà el rellotge si espero a {number:offset} minut a {location}
+què dirà el rellotge si espero a {number:offset} minuts
+què dirà el rellotge si espero a {number:offset} minuts a {location}
+què dirà el rellotge si espero a {number:offset} segon
+què dirà el rellotge si espero a {number:offset} segon a {location}
+què dirà el rellotge si espero a {number:offset} segons
+què dirà el rellotge si espero a {number:offset} segons a {location}

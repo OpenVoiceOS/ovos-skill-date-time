@@ -1,0 +1,19 @@
+# No Italian speaker has read this file. Every line is a machine draft.
+che ora sarà tra {number:offset} minuti
+che ora sarà tra {number:offset} minuti a {location}
+che ora sarà tra {number:offset} minuti in {location}
+che ora sarà tra {number:offset} minuto
+che ora sarà tra {number:offset} minuto a {location}
+che ora sarà tra {number:offset} minuto in {location}
+che ora sarà tra {number:offset} ora
+che ora sarà tra {number:offset} ora a {location}
+che ora sarà tra {number:offset} ora in {location}
+che ora sarà tra {number:offset} ore
+che ora sarà tra {number:offset} ore a {location}
+che ora sarà tra {number:offset} ore in {location}
+che ora sarà tra {number:offset} secondi
+che ora sarà tra {number:offset} secondi a {location}
+che ora sarà tra {number:offset} secondi in {location}
+che ora sarà tra {number:offset} secondo
+che ora sarà tra {number:offset} secondo a {location}
+che ora sarà tra {number:offset} secondo in {location}

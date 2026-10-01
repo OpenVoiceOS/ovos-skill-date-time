@@ -1,0 +1,32 @@
+Hoe laat is het over {number:offset} minuten?
+Hoe laat is het over {number:offset} uur vanaf nu?
+hoe laat is het over {number:offset} minuten
+hoe laat is het over {number:offset} minuten in {location}
+hoe laat is het over {number:offset} minuten vanaf nu in {location}
+hoe laat is het over {number:offset} seconden in {location}
+hoe laat is het over {number:offset} seconden vanaf nu in {location}
+hoe laat is het over {number:offset} uur vanaf nu in {location}
+hoe laat zal het zijn over {number:offset} seconden
+hoe laat zal het zijn over {number:offset} seconden vanaf nu
+hoe laat zal het zijn over {number:offset} uur
+hoe laat zal het zijn over {number:offset} uur in {location}
+wanneer is het {number:offset} minuten
+wanneer is het {number:offset} minuten in {location}
+wanneer is het {number:offset} minuten vanaf nu
+wanneer is het {number:offset} minuten vanaf nu in {location}
+wanneer is het {number:offset} seconden
+wanneer is het {number:offset} seconden in {location} vanaf nu
+wanneer is het {number:offset} seconden op {location}
+wanneer is het {number:offset} seconden op {location}
+wanneer is het {number:offset} seconden vanaf nu
+wanneer is het {number:offset} seconden vanaf nu in {location}
+wanneer is het {number:offset} seconden vanaf nu in {location}
+wanneer is het {number:offset} uur
+wanneer is het {number:offset} uur in {location}
+wanneer is het {number:offset} uur vanaf nu
+wanneer is het {number:offset} uur vanaf nu in {location}
+wanneer zal het {number:offset} seconden zijn in {location}
+wanneer zal het {number:offset} seconden zijn vanaf nu
+wanneer zal het {number:offset} uur zijn
+wanneer zijn het {number:offset} minuten in {location}
+wanneer zijn het {number:offset} seconden

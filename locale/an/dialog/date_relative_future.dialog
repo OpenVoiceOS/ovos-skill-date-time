@@ -1,0 +1,4 @@
+Será {date} en {num_days}
+Será {date} d'aquí a {num_days}
+{date}, en {num_days}
+{date}, d'aquí a {num_days}

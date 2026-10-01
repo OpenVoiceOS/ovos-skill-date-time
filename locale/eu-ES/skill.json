@@ -1,0 +1,22 @@
+{
+  "skill_id": "ovos-skill-date-time.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-date-time",
+  "name": "Data eta ordua",
+  "description": "Jakin ordua, data, asteko eguna",
+  "examples": [
+    "Zer ordu da?",
+    "Esadazu asteko eguna",
+    "Zenbat egun falta dira uztailaren 4a arte",
+    "Zein data da?",
+    "Erakutsi ordua",
+    "Zein egunetan da 2020ko Oroitzapen Eguna?",
+    "Zer ordu da Parisen?"
+  ],
+  "tags": [
+    "erlojua",
+    "data",
+    "ordua",
+    "kontsulta",
+    "informazioa"
+  ]
+}

@@ -1,0 +1,4 @@
+cau {date} en {weekday} [si us plau]
+és {date} de {weekday}
+va ser {date} de {weekday}
+serà {date} de {weekday}

@@ -1,0 +1,29 @@
+# This is a translatable list of values and timezones
+Čína, Asia/Shanghai
+Kansas City, US/Central
+Centrální časové pásmo, US/Central
+Centrální čas, US/Central
+Tichomořský čas, America/Los_Angeles
+Tichomořské časové pásmo, America/Los_Angeles
+Východní čas, US/Eastern
+Východní časové pásmo, US/Eastern
+Východní pobřeží, US/Eastern
+Časové pásmo východního pobřeží, US/Eastern
+Středoevropský čas, CET
+# Czech cities. A Czech speaker names a place in the locative after v or ve,
+# so the declined form is listed beside the nominative: "v Praze" is Praha.
+# Every line below is unvouched: cs-CZ has no reviewer of record.
+Praha, Europe/Prague
+Praze, Europe/Prague
+Brno, Europe/Prague
+Brně, Europe/Prague
+Ostrava, Europe/Prague
+Ostravě, Europe/Prague
+Plzeň, Europe/Prague
+Plzni, Europe/Prague
+Olomouc, Europe/Prague
+Olomouci, Europe/Prague
+Liberec, Europe/Prague
+Liberci, Europe/Prague
+Bratislava, Europe/Bratislava
+Bratislavě, Europe/Bratislava
