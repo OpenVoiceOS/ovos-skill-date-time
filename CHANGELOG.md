@@ -1,8 +1,20 @@
 # Changelog
 
+## [1.11.3a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.3a1) (2026-10-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.2a3...1.11.3a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): timezone.value keeps the English timezone names in five locales [\#454](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/454) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.11.2a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.2a3) (2026-10-01)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.2a1...1.11.2a3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.2a2...1.11.2a3)
+
+## [1.11.2a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.2a2) (2026-10-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.2a1...1.11.2a2)
 
 **Merged pull requests:**
 
@@ -367,17 +379,9 @@
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.7.0a1...1.7.0a2)
 
-**Merged pull requests:**
-
-- test: the local 12-hour clock says p.m. in the afternoon [\#349](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/349) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
-
 ## [1.7.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.7.0a1) (2026-09-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.6.1a1...1.7.0a1)
-
-**Merged pull requests:**
-
-- feat\(locale\): fill nl-NL, pt-PT, pt-BR, sv-FI, cs-CZ, hu-HU, pl-PL, ru-RU, tr-TR and fa-IR gaps against en-US [\#350](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/350) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
 
 ## [1.6.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.6.1a1) (2026-09-18)
 
@@ -501,15 +505,15 @@
 
 ## [1.1.17a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.17a1) (2026-08-26)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a3...1.1.17a1)
-
-## [1.1.16a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a3) (2026-08-25)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a2...1.1.16a3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a2...1.1.17a1)
 
 ## [1.1.16a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a2) (2026-08-25)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a1...1.1.16a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a3...1.1.16a2)
+
+## [1.1.16a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a3) (2026-08-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a1...1.1.16a3)
 
 ## [1.1.16a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a1) (2026-08-13)
 
@@ -593,15 +597,15 @@
 
 ## [1.1.8a13](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a13) (2026-03-29)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a11...1.1.8a13)
-
-## [1.1.8a11](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a11) (2026-03-29)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a12...1.1.8a11)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a12...1.1.8a13)
 
 ## [1.1.8a12](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a12) (2026-03-29)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a10...1.1.8a12)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a11...1.1.8a12)
+
+## [1.1.8a11](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a11) (2026-03-29)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a10...1.1.8a11)
 
 ## [1.1.8a10](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a10) (2026-03-29)
 
