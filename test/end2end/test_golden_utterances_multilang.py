@@ -32,11 +32,10 @@ PIPELINE = [
 
 END2END_DIR = Path(__file__).parent
 
-LANGS = [
-    "en-US", "an", "ca-ES", "cs-CZ", "da-DK", "de-DE", "es-ES", "eu-ES",
-    "fa-IR", "fr-FR", "gl-ES", "hu-HU", "it-IT", "kab", "nl-NL", "pl-PL",
-    "pt-BR", "pt-PT", "ru-RU", "fi-FI", "sv-FI", "sv-SE", "tr-TR",
-]
+LANGS = sorted(
+    p.stem.removeprefix("golden_utterances_")
+    for p in END2END_DIR.glob("golden_utterances_*.jsonl")
+)
 
 
 def _load_rows(lang):
@@ -47,10 +46,7 @@ def _load_rows(lang):
             line = line.strip()
             if not line:
                 continue
-            row = json.loads(line)
-            if row.get("needs_manual"):
-                continue
-            rows.append(row)
+            rows.append(json.loads(line))
     return rows
 
 
@@ -65,11 +61,6 @@ def _golden_id(row):
 
 
 GOLDEN_ROWS = [pytest.param(r, id=_golden_id(r)) for r in ALL_ROWS]
-
-# Real locale-content defects found and fixed in-place during this pass
-# (red-before/green-after verified), keyed by (lang, utterance):
-KNOWN_BUGS = {}
-
 
 @pytest.fixture(scope="module")
 def geocoder_stub():
@@ -129,9 +120,13 @@ def test_golden_utterance_multilang(minicroft_factory, row):
     mc = minicroft_factory(row["lang"])
     intent_msg_type = f"{SKILL_ID}:{row['intent_label']}"
     matched = _dispatch_and_wait(mc, row["utterance"], row["lang"], intent_msg_type)
-    bug_key = (row["lang"], row["utterance"])
-    if bug_key in KNOWN_BUGS and not matched:
-        pytest.xfail(reason=f"known-bug: {KNOWN_BUGS[bug_key]}")
     assert matched, (
         f"[{row['lang']}] {row['utterance']!r} did not route to {intent_msg_type}"
     )
+
+
+def test_every_shipping_locale_has_a_golden_file():
+    golden = {p.stem.split("_", 2)[2] for p in END2END_DIR.glob("golden_utterances_*.jsonl")}
+    locale_root = END2END_DIR.parents[1] / "locale"
+    shipping = {d.name for d in locale_root.iterdir() if d.is_dir() and any(d.rglob("*.intent"))}
+    assert golden == shipping, f"golden files {sorted(golden ^ shipping)} differ from shipping locales"

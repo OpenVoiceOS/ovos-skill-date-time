@@ -37,3 +37,6 @@
 {"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "cal é o ano actual", "lang": "gl-ES", "intent_label": "what_year_is_it", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "dime o ano actual", "lang": "gl-ES", "intent_label": "what_year_is_it", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "en que ano estamos neste momento", "lang": "gl-ES", "intent_label": "what_year_is_it", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "cae 15 de marzo en xoves por favor", "intent_label": "weekday_matches_date", "intent_type": "padacioso", "needs_manual": true, "lang": "gl-ES", "machine_generated": true}
+{"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "é 4 de xullo un xoves", "intent_label": "weekday_matches_date", "intent_type": "padacioso", "needs_manual": true, "lang": "gl-ES", "machine_generated": true}
+{"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "será Día da Mai un xoves", "intent_label": "weekday_matches_date", "intent_type": "padacioso", "needs_manual": true, "lang": "gl-ES", "machine_generated": true}
