@@ -33,10 +33,10 @@ from ovos_workshop.resource_files import ResourceFile
 from ovos_workshop.skills import OVOSSkill
 from timezonefinder import TimezoneFinder
 
-try:  # installed as the ovos_skill_date_time package
-    from .holidays_lookup import find_holiday, holiday_on, next_holiday
-except ImportError:  # loaded from the skill folder
-    from holidays_lookup import find_holiday, holiday_on, next_holiday
+try:
+    from chronologia import holidays_for
+except ImportError:  # pragma: no cover - comes with ovos-date-parser
+    holidays_for = None
 
 
 def speakable_timezone(tz):
@@ -513,45 +513,47 @@ class TimeSkill(OVOSSkill):
 
     ######################################################################
     # Holidays
+    #
+    # A holiday *name* in a date question ("when is christmas") is read by
+    # ovos-date-parser itself, through chronologia. The two questions below
+    # are about the calendar of the place the device is in, so they ask
+    # chronologia's civil holiday tables for that country directly.
     def _holiday_country(self) -> Optional[str]:
-        """ISO country code of the device's location (session aware)."""
+        """ISO country of the device's location (session aware), else the
+        region of the language ("da-DK" -> "DK")."""
         try:
-            return self.location["city"]["state"]["country"]["code"]
+            code = self.location["city"]["state"]["country"]["code"]
         except (KeyError, TypeError):
-            return None
+            code = None
+        if not code and "-" in (self.lang or ""):
+            code = self.lang.split("-")[-1]
+        return code.upper() if code and len(code) == 2 else None
 
-    def _holiday_date(self, text: str,
-                      now: datetime.datetime) -> Optional[datetime.datetime]:
-        """The next date of a holiday named in `text` ("christmas", "jul",
-        "easter"), as midnight in `now`'s timezone, or None.
-
-        ovos-date-parser does not know holiday names, so "when is christmas"
-        used to fall back to now and answer with today's date."""
-        found = find_holiday(text, self.lang, now.date(), self._holiday_country())
-        if not found:
-            return None
-        return now.replace(year=found[1].year, month=found[1].month, day=found[1].day,
-                           hour=0, minute=0, second=0, microsecond=0)
-
-    def _extract_date(self, text: str, now: datetime.datetime) -> Optional[datetime.datetime]:
-        """A holiday named in `text`, else whatever the date parser finds."""
-        holiday = self._holiday_date(text, now)
-        if holiday:
-            return holiday
+    def _holidays(self, year: int) -> list:
+        """[(date, spoken name)] of the civil holidays where the device is."""
+        country = self._holiday_country()
+        if not country or holidays_for is None:
+            return []
         try:
-            dt, _ = extract_datetime(text, anchorDate=now, lang=self.lang) or (None, None)
-        except Exception:
-            self.log.exception(f"failed to extract date from '{text}'")
-            dt = None
-        return dt
+            found = holidays_for(country, year)
+        except Exception:  # no holiday data for this jurisdiction
+            self.log.debug(f"chronologia has no holidays for '{country}'")
+            return []
+        base = (self.lang or "en").split("-")[0].lower()
+        out = []
+        for holiday in found:
+            start = holiday.span.start
+            name = (holiday.translations or {}).get(base) or holiday.name
+            out.append((datetime.date(start.year, start.month, start.day), name))
+        return out
 
     @intent_handler("is_holiday_today.intent")
     def handle_is_holiday_today(self, message):
         """"Is today a holiday", for the country the device is in."""
-        now = self.get_datetime()  # session aware
-        name = holiday_on(now.date(), self.lang, self._holiday_country())
-        if name:
-            self.speak_dialog("holiday_today", {"holiday": name})
+        today = self.get_datetime().date()  # session aware
+        names = [name for day, name in self._holidays(today.year) if day == today]
+        if names:
+            self.speak_dialog("holiday_today", {"holiday": names[0]})
         else:
             self.speak_dialog("holiday_not_today")
 
@@ -559,13 +561,16 @@ class TimeSkill(OVOSSkill):
     def handle_next_holiday(self, message):
         """"What is the next holiday", for the country the device is in."""
         now = self.get_datetime()  # session aware
-        found = next_holiday(now.date(), self.lang, self._holiday_country())
-        if not found:
+        today = now.date()
+        upcoming = sorted((day, name)
+                          for year in (today.year, today.year + 1)
+                          for day, name in self._holidays(year) if day > today)
+        if not upcoming:
             self.speak_dialog("extract_date_error")
             return
-        name, day = found
+        day, name = upcoming[0]
         dt = now.replace(year=day.year, month=day.month, day=day.day)
-        num_days = (day - now.date()).days
+        num_days = (day - today).days
         self.speak_dialog("next_holiday", {
             "holiday": name,
             "date": nice_date(dt, lang=self.lang, now=now),
@@ -577,15 +582,11 @@ class TimeSkill(OVOSSkill):
         """Handle queries about the current date."""
         utt = message.data.get('utterance', "").lower()
         now = self.get_datetime()  # session aware
-        holiday = self._holiday_date(utt, now)
-        if holiday:
-            dt = holiday
-        else:
-            try:
-                dt, utt = extract_datetime(utt, anchorDate=now, lang=self.lang) or (now, utt)
-            except Exception:
-                self.log.exception(f"failed to extract date from '{utt}'")
-                dt = now
+        try:
+            dt, utt = extract_datetime(utt, anchorDate=now, lang=self.lang) or (now, utt)
+        except Exception:
+            self.log.exception(f"failed to extract date from '{utt}'")
+            dt = now
 
         # handle questions ~ "what is the day in sydney"
         location_string = self._resolve_location(message.data.get("location"))
@@ -669,7 +670,8 @@ class TimeSkill(OVOSSkill):
         Extracts a date from the user's message and responds with the weekday name and a contextual dialog indicating whether the date is in the past or future. If no date can be extracted, speaks an error dialog.
         """
         now = self.get_datetime()  # session aware
-        dt = self._extract_date(message.data.get("date") or message.data["utterance"], now)
+        dt, _ = extract_datetime(message.data.get("date") or message.data["utterance"],
+                                 anchorDate=now, lang=self.lang) or (None, None)
         if not dt:
             self.speak_dialog("extract_date_error")
             return
@@ -697,7 +699,13 @@ class TimeSkill(OVOSSkill):
         dates = []
         for slot in ("start", "end"):
             text = message.data.get(slot)
-            dt = self._extract_date(text, now) if text else None
+            dt = None
+            if text:
+                try:
+                    dt, _ = extract_datetime(text, anchorDate=now,
+                                             lang=self.lang) or (None, None)
+                except Exception:
+                    self.log.exception(f"failed to extract date from '{text}'")
             if not dt:
                 self.speak_dialog("extract_date_error")
                 return

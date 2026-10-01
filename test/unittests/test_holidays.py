@@ -1,14 +1,16 @@
-"""Holiday names in date questions ("when is christmas", "hvornår er det jul",
-"how many days until easter") and the two holiday intents.
+"""Holiday names in date questions ("when is christmas", "how many days
+until easter") and the two holiday intents.
 
-ovos-date-parser does not know holiday names, so these questions used to
-fall back to "now" and were answered with today's date. The handlers are
-called directly with "now" pinned; the golden utterances cover routing.
+Holiday names are read by ovos-date-parser (through chronologia); these tests
+make sure the handlers answer with the holiday, not today. is_holiday_today
+and next_holiday read chronologia's civil holidays for the device's country.
+The handlers are called directly with "now" pinned; the golden utterances
+cover routing.
 """
 import os
 import tempfile
 import unittest
-from datetime import date, datetime
+from datetime import datetime
 from unittest import mock
 
 import pytz
@@ -16,44 +18,6 @@ from ovos_bus_client.message import Message
 
 SKILL_ID = "ovos-skill-date-time.openvoiceos"
 NOW = pytz.timezone("Europe/Copenhagen").localize(datetime(2026, 10, 1, 9, 0))
-
-
-class TestHolidayLookup(unittest.TestCase):
-
-    def setUp(self):
-        from ovos_skill_date_time.holidays_lookup import find_holiday
-        self.find = find_holiday
-
-    def test_spoken_names(self):
-        today = date(2026, 10, 1)
-        self.assertEqual(self.find("when is christmas", "en-US", today, "US"),
-                         ("Christmas Day", date(2026, 12, 25)))
-        self.assertEqual(self.find("how many days until easter", "en-US", today, "US")[1],
-                         date(2027, 3, 28))
-        self.assertEqual(self.find("hvornår er det jul", "da-DK", today, "DK"),
-                         ("Juledag", date(2026, 12, 25)))
-        self.assertEqual(self.find("wann ist weihnachten", "de-DE", today, "DE")[1], date(2026, 12, 25))
-
-    def test_the_librarys_own_name(self):
-        """not in holidays.json, said by its official name"""
-        self.assertEqual(self.find("hvornår er grundlovsdag", "da-DK", date(2026, 10, 1), "DK"),
-                         ("Grundlovsdag", date(2027, 6, 5)))
-
-    def test_language_region_when_the_location_country_lacks_it(self):
-        """a Danish device in the US still knows "jul"; an English one in Denmark "christmas" """
-        self.assertEqual(self.find("hvornår er det jul", "da-DK", date(2026, 10, 1), "US")[1],
-                         date(2026, 12, 25))
-        self.assertEqual(self.find("when is christmas", "en-US", date(2026, 10, 1), "DK")[1],
-                         date(2026, 12, 25))
-
-    def test_accents_do_not_matter(self):
-        """the intent parser hands over "noel" / "paske" as the {date} slot"""
-        self.assertEqual(self.find("noel", "fr-FR", date(2026, 10, 1), "FR")[1], date(2026, 12, 25))
-        self.assertEqual(self.find("paske", "da-DK", date(2026, 10, 1), "DK")[1], date(2027, 3, 28))
-
-    def test_not_a_holiday(self):
-        for text in ("when is my birthday", "when is friday", "what time is it", "how many days until june 3rd"):
-            self.assertIsNone(self.find(text, "en-US", date(2026, 10, 1), "US"), text)
 
 
 class TestHolidayHandlers(unittest.TestCase):
@@ -120,6 +84,19 @@ class TestHolidayHandlers(unittest.TestCase):
                          [("holiday_today", {"holiday": "Juledag"})])
         self.assertEqual(self._run(self.skill.handle_is_holiday_today, {}, lang="da-DK"),
                          [("holiday_not_today", None)])
+
+    def test_holiday_name_in_the_users_language(self):
+        """an English device in Denmark hears the English name when chronologia has one"""
+        christmas = NOW.replace(month=12, day=25)
+        [(key, data)] = self._run(self.skill.handle_is_holiday_today, {},
+                                  now=christmas, country="US", lang="en-US")
+        self.assertEqual((key, data["holiday"]), ("holiday_today", "Christmas Day"))
+
+    def test_no_holiday_data_for_the_country(self):
+        self.assertEqual(self._run(self.skill.handle_is_holiday_today, {}, country="XX"),
+                         [("holiday_not_today", None)])
+        self.assertEqual(self._run(self.skill.handle_next_holiday, {}, country="XX"),
+                         [("extract_date_error", None)])
 
     def test_next_holiday(self):
         [(key, data)] = self._run(self.skill.handle_next_holiday, {}, lang="da-DK")

@@ -51,7 +51,7 @@ SPEAK_CALLS = {
 KNOWN_GAPS = {
     # no dialog line without adjacent slots; neither locale ships the intent
     # holiday_*/next_holiday: is_holiday_today/next_holiday intents ship in
-    # en-US, da-DK, de-DE, es-ES, fr-FR only so far (holidays.json too)
+    # en-US, da-DK, de-DE, es-ES, fr-FR only so far
     "an": ("holiday_today", "holiday_not_today", "next_holiday",),
     "ca-ES": ("holiday_today", "holiday_not_today", "next_holiday",),
     "cs-CZ": ("holiday_today", "holiday_not_today", "next_holiday",),

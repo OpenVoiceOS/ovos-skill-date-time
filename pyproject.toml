@@ -19,10 +19,9 @@ dependencies = [
     "geocoder~=1.38",
     "ovos-utils>=0.8.1",
     "ovos-workshop>=9.7.0a1,<10.0.0",
-    "ovos-date-parser>=0.0.1,<1.0.0",
+    "ovos-date-parser>=0.33.1a1,<1.0.0",
+    "chronologia>=0.30.4a1",
     "ovos-utterance-normalizer>=0.0.1,<1.0.0",
-    "holidays>=0.50",
-    "python-dateutil>=2.8",
 ]
 
 [project.optional-dependencies]
