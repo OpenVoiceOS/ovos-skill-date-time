@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.11.2a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.2a2) (2026-10-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.2a1...1.11.2a2)
+
+**Merged pull requests:**
+
+- fix\(fi-FI\): add the days\_between and days\_between\_same dialogs [\#451](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/451) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+- fix\(fa-IR\): strip the terminal question mark from the intent templates [\#450](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/450) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.11.2a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.2a1) (2026-10-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.1a1...1.11.2a1)
