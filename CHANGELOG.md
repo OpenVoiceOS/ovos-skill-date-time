@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.11.4a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.4a1) (2026-10-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.3a2...1.11.4a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): drop six dead da-DK and it-IT offset lines [\#458](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/458) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.11.3a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.3a2) (2026-10-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.3a1...1.11.3a2)
@@ -374,10 +382,6 @@
 ## [1.7.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.7.1a1) (2026-09-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.7.0a3...1.7.1a1)
-
-**Merged pull requests:**
-
-- fix\(locale\): make every timezone.value entry resolve with the offset it promises [\#354](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/354) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
 
 ## [1.7.0a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.7.0a3) (2026-09-18)
 
