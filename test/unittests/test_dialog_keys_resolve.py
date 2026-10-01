@@ -50,8 +50,28 @@ SPEAK_CALLS = {
 # speaks the raw key. Remove a key here when its translation lands.
 KNOWN_GAPS = {
     # no dialog line without adjacent slots; neither locale ships the intent
-    "fa-IR": ("days_between",),
-    "ru-RU": ("days_between",),
+    # holiday_*/next_holiday: is_holiday_today/next_holiday intents ship in
+    # en-US, da-DK, de-DE, es-ES, fr-FR only so far (holidays.json too)
+    "an": ("holiday_today", "holiday_not_today", "next_holiday",),
+    "ca-ES": ("holiday_today", "holiday_not_today", "next_holiday",),
+    "cs-CZ": ("holiday_today", "holiday_not_today", "next_holiday",),
+    "es-CO": ("holiday_today", "holiday_not_today", "next_holiday",),
+    "eu-ES": ("holiday_today", "holiday_not_today", "next_holiday",),
+    "fa-IR": ("days_between", "holiday_today", "holiday_not_today", "next_holiday",),
+    # fi-FI: days_between did not come along when the Finnish files left sv-FI (#390)
+    "fi-FI": ("days_between", "days_between_same", "holiday_today", "holiday_not_today", "next_holiday",),
+    "gl-ES": ("holiday_today", "holiday_not_today", "next_holiday",),
+    "hu-HU": ("holiday_today", "holiday_not_today", "next_holiday",),
+    "it-IT": ("holiday_today", "holiday_not_today", "next_holiday",),
+    "kab": ("holiday_today", "holiday_not_today", "next_holiday",),
+    "nl-NL": ("holiday_today", "holiday_not_today", "next_holiday",),
+    "pl-PL": ("holiday_today", "holiday_not_today", "next_holiday",),
+    "pt-BR": ("holiday_today", "holiday_not_today", "next_holiday",),
+    "pt-PT": ("holiday_today", "holiday_not_today", "next_holiday",),
+    "ru-RU": ("days_between", "holiday_today", "holiday_not_today", "next_holiday",),
+    "sv-FI": ("holiday_today", "holiday_not_today", "next_holiday",),
+    "sv-SE": ("holiday_today", "holiday_not_today", "next_holiday",),
+    "tr-TR": ("holiday_today", "holiday_not_today", "next_holiday",),
 }
 
 

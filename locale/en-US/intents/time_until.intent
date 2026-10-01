@@ -52,3 +52,7 @@ when was the last {date}
 when was the next {date}
 when was the previous {date}
 when was {date}
+how many days until {date}
+how many days left until {date}
+how long until {date}
+how many weeks until {date}

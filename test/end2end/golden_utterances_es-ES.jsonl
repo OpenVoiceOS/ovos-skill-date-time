@@ -37,3 +37,6 @@
 {"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "Dime el año actual", "lang": "es-ES", "intent_label": "what_year_is_it", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "dime el año presente", "lang": "es-ES", "intent_label": "what_year_is_it", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "qué año es hoy", "lang": "es-ES", "intent_label": "what_year_is_it", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "cuándo es navidad", "lang": "es-ES", "intent_label": "time_until", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "es hoy festivo", "lang": "es-ES", "intent_label": "is_holiday_today", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
+{"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "cuál es el próximo festivo", "lang": "es-ES", "intent_label": "next_holiday", "intent_type": "padacioso", "needs_manual": false, "machine_generated": false}
