@@ -1,10 +1,11 @@
-Central time, US/Central
+# This is a translatable list of values and timezones
+Kina, Asia/Shanghai
 Kansas City, US/Central
-Pacific time zone, America/Los_Angeles
-Pacific time, America/Los_Angeles
-Eastern time, US/Eastern
-East coast time zone, US/Eastern
-Central time zone, US/Central
-Eastern time zone, US/Eastern
-East coast, US/Eastern
-China, Asia/Shanghai
+Nordamerikas Centrala tidzon, US/Central
+Nordamerikas Centrala tid, US/Central
+Västra amerikas tidszon, America/Los_Angeles
+västamerikansk tid, America/Los_Angeles
+Östra Amerikas tid, US/Eastern
+Amerikanska östkuststidszon, US/Eastern
+Amerikanska östkusten, US/Eastern
+Amerikanska östkustens tid, US/Eastern
