@@ -33,6 +33,11 @@ from ovos_workshop.resource_files import ResourceFile
 from ovos_workshop.skills import OVOSSkill
 from timezonefinder import TimezoneFinder
 
+try:
+    from chronologia import holidays_for
+except ImportError:  # pragma: no cover - comes with ovos-date-parser
+    holidays_for = None
+
 
 def speakable_timezone(tz):
     """Convert a timezone string to a more speakable form.
@@ -505,6 +510,71 @@ class TimeSkill(OVOSSkill):
 
         # speak it
         self.speak_time("time_future", location=location, anchor_date=dt)
+
+    ######################################################################
+    # Holidays
+    #
+    # A holiday *name* in a date question ("when is christmas") is read by
+    # ovos-date-parser itself, through chronologia. The two questions below
+    # are about the calendar of the place the device is in, so they ask
+    # chronologia's civil holiday tables for that country directly.
+    def _holiday_country(self) -> Optional[str]:
+        """ISO country of the device's location (session aware), else the
+        region of the language ("da-DK" -> "DK")."""
+        try:
+            code = self.location["city"]["state"]["country"]["code"]
+        except (KeyError, TypeError):
+            code = None
+        if not code and "-" in (self.lang or ""):
+            code = self.lang.split("-")[-1]
+        return code.upper() if code and len(code) == 2 else None
+
+    def _holidays(self, year: int) -> list:
+        """[(date, spoken name)] of the civil holidays where the device is."""
+        country = self._holiday_country()
+        if not country or holidays_for is None:
+            return []
+        try:
+            found = holidays_for(country, year)
+        except Exception:  # no holiday data for this jurisdiction
+            self.log.debug(f"chronologia has no holidays for '{country}'")
+            return []
+        base = (self.lang or "en").split("-")[0].lower()
+        out = []
+        for holiday in found:
+            start = holiday.span.start
+            name = (holiday.translations or {}).get(base) or holiday.name
+            out.append((datetime.date(start.year, start.month, start.day), name))
+        return out
+
+    @intent_handler("is_holiday_today.intent")
+    def handle_is_holiday_today(self, message):
+        """"Is today a holiday", for the country the device is in."""
+        today = self.get_datetime().date()  # session aware
+        names = [name for day, name in self._holidays(today.year) if day == today]
+        if names:
+            self.speak_dialog("holiday_today", {"holiday": names[0]})
+        else:
+            self.speak_dialog("holiday_not_today")
+
+    @intent_handler("next_holiday.intent")
+    def handle_next_holiday(self, message):
+        """"What is the next holiday", for the country the device is in."""
+        now = self.get_datetime()  # session aware
+        today = now.date()
+        upcoming = sorted((day, name)
+                          for year in (today.year, today.year + 1)
+                          for day, name in self._holidays(year) if day > today)
+        if not upcoming:
+            self.speak_dialog("extract_date_error")
+            return
+        day, name = upcoming[0]
+        dt = now.replace(year=day.year, month=day.month, day=day.day)
+        num_days = (day - today).days
+        self.speak_dialog("next_holiday", {
+            "holiday": name,
+            "date": nice_date(dt, lang=self.lang, now=now),
+            "num_days": nice_duration(num_days * 86400, lang=self.lang).strip()})
 
     ######################################################################
     # Date queries

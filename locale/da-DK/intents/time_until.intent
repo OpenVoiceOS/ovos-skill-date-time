@@ -38,3 +38,8 @@ hvornår var den forrige {date}
 hvornår var den næste {date}
 hvornår var den sidste {date}
 hvornår var {date}
+hvor mange dage er der til {date}
+hvor mange dage er der tilbage til {date}
+hvor lang tid er der til {date}
+hvor længe er der til {date}
+hvornår er det {date}
