@@ -37,3 +37,6 @@
 {"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "ano atual", "lang": "pt-BR", "intent_label": "what_year_is_it", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "qual ano é agora", "lang": "pt-BR", "intent_label": "what_year_is_it", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "qual é o ano presente hoje", "lang": "pt-BR", "intent_label": "what_year_is_it", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "cai 1º de janeiro em uma quinta-feira por favor", "intent_label": "weekday_matches_date", "intent_type": "padacioso", "needs_manual": true, "lang": "pt-BR", "machine_generated": true}
+{"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "é 31 de outubro numa quinta-feira", "intent_label": "weekday_matches_date", "intent_type": "padacioso", "needs_manual": true, "lang": "pt-BR", "machine_generated": true}
+{"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "será Dia de Ano Novo numa quinta-feira", "intent_label": "weekday_matches_date", "intent_type": "padacioso", "needs_manual": true, "lang": "pt-BR", "machine_generated": true}

@@ -37,3 +37,6 @@
 {"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "Dime el año actual", "lang": "es-ES", "intent_label": "what_year_is_it", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "dime el año presente", "lang": "es-ES", "intent_label": "what_year_is_it", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "qué año es hoy", "lang": "es-ES", "intent_label": "what_year_is_it", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "cae 15 de mayo en jueves por favor", "intent_label": "weekday_matches_date", "intent_type": "padacioso", "needs_manual": true, "lang": "es-ES", "machine_generated": true}
+{"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "es 4 de julio un jueves", "intent_label": "weekday_matches_date", "intent_type": "padacioso", "needs_manual": true, "lang": "es-ES", "machine_generated": true}
+{"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "será Día de San Valentín un jueves", "intent_label": "weekday_matches_date", "intent_type": "padacioso", "needs_manual": true, "lang": "es-ES", "machine_generated": true}
