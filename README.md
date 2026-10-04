@@ -15,6 +15,7 @@ This skill gets the local time or the time in major cities around the world. It 
 * "What's the date?"
 * "Tell me the day of the week"
 * "How many days until July 4th"
+* "How many days are there between March 1st and June 5th?"
 * "What day is Memorial Day 2020?"
 
 ## Configuration

@@ -1,6 +1,7 @@
-mikä viikonpäivä on {date} [kiitos]
-minkä päivän kohdalle {date} osuu
-kerro mikä päivä {date} on
-mikä viikonpäivä {date} tulee olemaan
+# unvouched: copied from sv-SE, awaiting a Finland-Swedish speaker
+vilken veckodag är {date} [tack]
+vilken dag infaller {date} på
+säg mig vilken dag {date} är
+vilken veckodag kommer {date} att vara
 # Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Finland Swedish speaker has read it.
 Vilken dag är minnesdagen 2020

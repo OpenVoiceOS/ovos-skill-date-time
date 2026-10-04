@@ -1,10 +1,11 @@
-Kansas City, US/Central
-East coast time zone, US/Eastern
-Eastern time zone, US/Eastern
-East coast, US/Eastern
-Central time, US/Central
-Pacific time zone, America/Los_Angeles
+# Esta é uma lista traduzível de valores e fusos horários
 China, Asia/Shanghai
-Central time zone, US/Central
-Pacific time, America/Los_Angeles
-Eastern time, US/Eastern
+Kansas City, US/Central
+Fuso horário central, US/Central
+Hora central, US/Central
+Hora do Pacífico, America/Los_Angeles
+Fuso horário do Pacífico, America/Los_Angeles
+Hora do Leste, US/Eastern
+Fuso horário do Leste, US/Eastern
+Costa leste, US/Eastern
+Fuso horário da costa leste, US/Eastern

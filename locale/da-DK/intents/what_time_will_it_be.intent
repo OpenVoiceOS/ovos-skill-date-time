@@ -1,3 +1,4 @@
+# No Danish speaker has read this file. Every line is a machine draft.
 hvad er klokken om {number:offset} minut
 hvad er klokken om {number:offset} minut i {location}
 hvad er klokken om {number:offset} minut op {location}
@@ -12,5 +13,5 @@ hvad er klokken om {number:offset} sekunder i {location}
 hvad er klokken om {number:offset} sekunder op {location}
 hvad er klokken om {number:offset} time
 hvad er klokken om {number:offset} timer
-hvad er klokken om {number:offset} timtimer i {location}
-hvad er klokken om {number:offset} timtimer op {location}
+hvad er klokken om {number:offset} timer i {location}
+hvad er klokken om {number:offset} timer op {location}

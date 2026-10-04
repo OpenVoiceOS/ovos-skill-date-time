@@ -1,86 +1,23 @@
-Ich möchte was Tag {date} ist
-Ich möchte was Tag {date} war
-Ich möchte was Wochentag {date} ist
-Ich möchte was Wochentag {date} war
-Ich möchte welcher Tag {date} ist
-Ich möchte welcher Tag {date} war
-Ich möchte welcher Wochentag {date} ist
-Ich möchte welcher Wochentag {date} war
-an was Tag ist {date}
-an was Tag war {date}
-an was Tag wird es sein an {date}
-an was Wochentag ist {date}
-an was Wochentag war {date}
-an was Wochentag wird es sein an {date}
-an welchem Tag ist {date}
-an welchem Tag war {date}
-an welchem Tag wird es sein an {date}
-an welchem Wochentag ist {date}
-an welchem Wochentag war {date}
-an welchem Wochentag wird es sein an {date}
-auf welchen Tag fällt der{date}
-auf welchen Tag fällt {date}
-auf welchen Wochentag fällt der{date}
-auf welchen Wochentag fällt {date}
-ist {date} an einem Dienstag
-ist {date} an einem Donnerstag
-ist {date} an einem Freitag
-ist {date} an einem Mittwoch
-ist {date} an einem Montag
-ist {date} an einem Samstag
-ist {date} an einem Sonntag
-kannst du mir sagen den Wochentag für {date}
-kannst du mir sagen, welcher Tag {date} ist
-kannst du mir sagen, welcher Tag {date} war
-kannst du mir sagen, welcher Wochentag {date} ist
-kannst du mir sagen, welcher Wochentag {date} war
-mir sagen den Wochentag für {date}
-mir sagen, welcher Tag {date} ist
-mir sagen, welcher Tag {date} war
-mir sagen, welcher Wochentag {date} ist
-mir sagen, welcher Wochentag {date} war
-war {date} an einem Dienstag
-war {date} an einem Donnerstag
-war {date} an einem Freitag
-war {date} an einem Mittwoch
-war {date} an einem Montag
-war {date} an einem Samstag
-war {date} an einem Sonntag
-was Tag ist {date}
-was Tag war {date}
-was Tag wird es sein an {date}
-was Tag {date} ist
-was Tag {date} war
-was Wochentag ist {date}
-was Wochentag war {date}
-was Wochentag wird es sein an {date}
-was Wochentag {date} ist
-was Wochentag {date} war
-was ist der Wochentag für {date}
-weißt du den Wochentag für {date}
-weißt du was Tag {date} ist
-weißt du was Tag {date} war
-weißt du was Wochentag {date} ist
-weißt du was Wochentag {date} war
-weißt du welcher Tag {date} ist
-weißt du welcher Tag {date} war
-weißt du welcher Wochentag {date} ist
-weißt du welcher Wochentag {date} war
-welchem Tag ist {date}
-welchem Tag war {date}
-welchem Tag wird es sein an {date}
-welchem Wochentag ist {date}
-welchem Wochentag war {date}
-welchem Wochentag wird es sein an {date}
-welchen Tag fällt der{date}
-welchen Tag fällt {date}
-welchen Wochentag fällt der{date}
-welchen Wochentag fällt {date}
-welcher Tag {date} ist
-welcher Tag {date} war
-welcher Wochentag ist {date}
-welcher Wochentag war {date}
-welcher Wochentag {date} ist
-welcher Wochentag {date} war
+Welcher Wochentag ist {date}
+Welcher Wochentag war {date}
+Welcher Wochentag wird {date} sein
+Welcher Tag ist {date}
+Welcher Tag war {date}
+Welcher Tag wird {date} sein
+Was für ein Wochentag ist {date}
+Was für ein Wochentag war {date}
+Was für ein Wochentag wird {date} sein
+Was ist der Wochentag für {date}
+Auf welchen Wochentag fällt {date}
+Auf welchen Tag fällt {date}
+An welchem Wochentag ist {date}
+An welchem Wochentag war {date}
+An welchem Wochentag wird {date} sein
+Kannst du mir sagen welcher Wochentag {date} ist
+Kannst du mir sagen welcher Wochentag {date} war
+Kannst du mir sagen welcher Wochentag {date} sein wird
+Weißt du welcher Wochentag {date} ist
+Weißt du welcher Wochentag {date} war
+Weißt du welcher Wochentag {date} sein wird
 # Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no German speaker has read it.
 Welcher Tag ist der Memorial Day 2020
