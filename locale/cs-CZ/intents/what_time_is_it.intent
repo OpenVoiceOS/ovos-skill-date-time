@@ -9,3 +9,7 @@ nynější čas prosím
 čas teď
 čas teď prosím
 jaký je čas v {location}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Czech speaker has read it.
+Kolik je hodin
+Ukaž mi čas
+Kolik je hodin v Paříži

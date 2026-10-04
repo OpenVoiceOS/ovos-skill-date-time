@@ -29,3 +29,5 @@ quão longe distante está {date} de hoje
 quão longe fora está {date}
 quão longe fora está {date} de agora
 quão longe fora está {date} de hoje
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no European Portuguese speaker has read it.
+Quantos dias faltam para {date}

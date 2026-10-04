@@ -13,3 +13,5 @@ Wie lange ist {date} her
 Wie viele Tage ist {date} her
 Wie weit ist {date} entfernt
 Wie weit ist {date} von heute entfernt
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no German speaker has read it.
+Wie viele Tage bis zum {date}

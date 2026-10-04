@@ -70,3 +70,5 @@ sabes que día de semana é o {date}
 {date} é un sábado
 {date} é un venres
 {date} é un xoves
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Galician speaker has read it.
+Que día é o martes de entroido de 2025

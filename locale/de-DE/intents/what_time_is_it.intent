@@ -91,3 +91,6 @@ Wie viel Uhr haben wir denn
 Wie viel Uhr haben wir denn jetzt
 Ist es schon spät
 Ist es schon spät in {location}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no German speaker has read it.
+wissen Sie die aktuelle Zeit in {location}
+Zeig mir die Zeit

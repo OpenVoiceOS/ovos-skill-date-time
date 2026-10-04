@@ -2,3 +2,5 @@ hoeveel tijd is er nog tot {date} [alsjeblieft]
 wanneer is het {date}
 hoeveel dagen zijn er nog tot {date}
 hoe lang duurt het nog tot {date}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Dutch speaker has read it.
+Hoeveel dagen tot {date}

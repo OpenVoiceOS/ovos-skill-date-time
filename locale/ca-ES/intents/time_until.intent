@@ -43,4 +43,6 @@ quants dies hi ha des d'ara fins a {date}?
 quin és el temps que falta abans de {date}
 quin és el temps que falta fins a {date}
 quin és el temps restant abans de {date}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Catalan speaker has read it.
 quin és el temps restant fins a {date}
+Quants dies falten per al 24 de juny

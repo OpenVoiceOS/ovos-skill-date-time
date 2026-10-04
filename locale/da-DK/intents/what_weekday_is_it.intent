@@ -27,4 +27,6 @@ hvilken ugedag er i dag
 kan du fortælle mig hverdagen
 kan du fortælle mig ugedagen
 ved du hverdagen
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Danish speaker has read it.
 ved du ugedagen
+Fortæl mig ugedagen

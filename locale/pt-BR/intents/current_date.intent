@@ -109,4 +109,6 @@ você pode me dizer a data atual em {location}
 você pode me dizer a data presente
 você pode me dizer a data presente em {location}
 você sabe que data é
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Brazilian Portuguese speaker has read it.
 você sabe que data é em {location}
+Qual é a data

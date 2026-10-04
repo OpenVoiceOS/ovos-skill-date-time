@@ -40,3 +40,5 @@ cómo de luent ye {date} de hue?
 cómo de leixos ye {date} ?
 cómo de leixos ye {date} d'agora?
 cómo de leixos ye {date} de hue?
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Aragonese speaker has read it.
+Cuántos días faltan pa lo 24 de chunyo

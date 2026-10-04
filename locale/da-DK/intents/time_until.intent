@@ -38,3 +38,5 @@ hvornår var den forrige {date}
 hvornår var den næste {date}
 hvornår var den sidste {date}
 hvornår var {date}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Danish speaker has read it.
+Hvor mange dage indtil {date}

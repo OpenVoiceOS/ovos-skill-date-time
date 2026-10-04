@@ -2,3 +2,5 @@ vilken veckodag är {date} [tack]
 vilken dag infaller {date} på
 säg mig vilken dag {date} är
 vilken veckodag kommer {date} att vara
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Swedish speaker has read it.
+Vilken dag är Memorial Day 2020

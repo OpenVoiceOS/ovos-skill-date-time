@@ -75,4 +75,6 @@ tu as l'heure au {location}
 tu as l'heure aux {location}
 tu as l'heure dans {location}
 tu as l'heure en {location}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no French speaker has read it.
 tu as l'heure à {location}
+Montre-moi l'heure

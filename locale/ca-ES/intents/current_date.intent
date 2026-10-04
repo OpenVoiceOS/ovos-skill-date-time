@@ -141,4 +141,6 @@ quina és la data present a {location}
 saps quina és la data ?
 saps quina és la data a {location}?
 vull saber la data
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Catalan speaker has read it.
 vull saber la data a {location}
+Quina data som

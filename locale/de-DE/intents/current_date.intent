@@ -121,3 +121,5 @@ zeig mir das Kalenderdatum
 zeig mir das Kalenderdatum in {location}
 zeig mir das Datum
 zeig mir das Datum in {location}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no German speaker has read it.
+Welches Datum haben wir

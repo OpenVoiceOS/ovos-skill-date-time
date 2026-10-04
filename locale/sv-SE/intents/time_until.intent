@@ -2,3 +2,5 @@ hur mycket tid är kvar till {date} [tack]
 när är det {date}
 hur många dagar är kvar till {date}
 hur långt bort är {date}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Swedish speaker has read it.
+Hur många dagar är det till den {date}

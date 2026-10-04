@@ -95,4 +95,8 @@ us agrairia si poguéssiu dir-me el/la/els/les hora/hores actual/s a {location}
 vull saber-ho el/la/els/les hora/hores actual/s
 vull saber-ho el/la/els/les hora/hores actual/s a {location}
 és possible obtenir el/la/els/les hora/hores actual/s
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Catalan speaker has read it.
 és possible obtenir el/la/els/les hora/hores actual/s a {location}
+Quina hora és
+Mostra'm l'hora
+Quina hora és a {location}

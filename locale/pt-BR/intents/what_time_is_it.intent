@@ -93,4 +93,7 @@ você sabe a hora atual em {location}
 você tem a hora atual
 você tem a hora atual em {location}
 é possível obter a hora atual
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Brazilian Portuguese speaker has read it.
 é possível obter a hora atual em {location}
+Mostre-me as horas
+Que horas são em {location}

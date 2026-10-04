@@ -102,3 +102,5 @@ sabes que data temos
 sabes que data temos en {location}
 sabes que data teñen
 sabes que data teñen en {location}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Galician speaker has read it.
+Que día é hoxe

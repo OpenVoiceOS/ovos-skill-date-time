@@ -41,3 +41,5 @@ kun je de datum van vandaag vertellen [voor {location}]
 zou je me de datum kunnen vertellen [in {location}]
 weet je [of] welke datum het vandaag is [in {location}]
 weet jij welke dag het vandaag is [in {location}]
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Dutch speaker has read it.
+Wat is de datum

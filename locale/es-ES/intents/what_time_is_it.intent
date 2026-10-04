@@ -84,3 +84,7 @@ ya es noche
 ya es noche en {location}
 ya es tarde 
 ya es tarde en {location}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Spanish speaker has read it.
+Qué hora es
+Dime la hora
+Qué hora es en {location}

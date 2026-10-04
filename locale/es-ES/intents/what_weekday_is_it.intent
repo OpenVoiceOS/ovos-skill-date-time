@@ -19,4 +19,6 @@ qué día de la semana es hoy
 qué día laborable es 
 qué día laborable es hoy
 sabes qué día de la semana es
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Spanish speaker has read it.
 sabes qué día laborable es
+Dime el día de la semana

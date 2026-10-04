@@ -92,3 +92,5 @@ vis mig datoen
 vis mig datoen i {location}
 vis mig kalenderdatoen
 vis mig kalenderdatoen i {location}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Danish speaker has read it.
+Hvad er datoen

@@ -46,3 +46,7 @@ ya ye de nueit ?
 ya ye de nueit en {location}?
 ya ye de tardes ?
 ya ye de tardes en {location}?
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Aragonese speaker has read it.
+Qué hora ye
+Di-me la hora
+Qué hora ye en {location}
