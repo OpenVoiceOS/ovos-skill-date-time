@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.11.5a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.5a1) (2026-10-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.4a1...1.11.5a1)
+
+**Merged pull requests:**
+
+- fix\(pt-PT\): drop 84 malformed what\_time\_is\_it.intent lines [\#460](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/460) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.11.4a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.4a1) (2026-10-01)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.3a2...1.11.4a1)
@@ -377,7 +385,6 @@
 **Merged pull requests:**
 
 - feat\(locale\): add the kab did\_you\_mean\_timezone dialog [\#357](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/357) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
-- fix\(locale\): translate the ru-RU and tr-TR timezone.value names [\#356](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/356) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
 
 ## [1.7.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.7.1a1) (2026-09-18)
 
