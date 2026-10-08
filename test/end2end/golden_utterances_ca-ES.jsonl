@@ -37,3 +37,6 @@
 {"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "diga'm l'any actual", "lang": "ca-ES", "intent_label": "what_year_is_it", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "en quin any estem", "lang": "ca-ES", "intent_label": "what_year_is_it", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
 {"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "quin és l'any present avui", "lang": "ca-ES", "intent_label": "what_year_is_it", "intent_type": "padacioso", "needs_manual": false, "machine_generated": true}
+{"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "cau 15 de març en dijous si us plau", "intent_label": "weekday_matches_date", "intent_type": "padacioso", "needs_manual": true, "lang": "ca-ES", "machine_generated": true}
+{"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "és 4 de juliol de dijous", "intent_label": "weekday_matches_date", "intent_type": "padacioso", "needs_manual": true, "lang": "ca-ES", "machine_generated": true}
+{"skill_id": "ovos-skill-date-time.openvoiceos", "utterance": "serà Dia del Pare de dijous", "intent_label": "weekday_matches_date", "intent_type": "padacioso", "needs_manual": true, "lang": "ca-ES", "machine_generated": true}
