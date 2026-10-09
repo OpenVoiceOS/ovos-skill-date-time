@@ -28,3 +28,9 @@ paljonko kello on {number:offset} minuutin kuluttua {location}:ssä.
 paljonko kello on {number:offset} sekunnin kuluttua tästä hetkestä?
 paljonko kello on {number:offset} sekunnin kuluttua {location}:ssä.
 paljonko kello on {number:offset} tunnin kuluttua {location}:ssä?
+kuinka paljon kello on {number:offset} (tunnin|minuutin) kuluttua
+paljonko kello on kohteessa {location} kun on kulunut {number:offset} tuntia
+kerro mitä kello on {number:offset} tunnin kuluttua
+paljonko kello on kun {number:offset} tuntia on kulunut
+laske mitä kello on {number:offset} tunnin päästä
+kerro kellonaika {number:offset} minuutin kuluttua

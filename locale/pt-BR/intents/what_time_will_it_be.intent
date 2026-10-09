@@ -163,3 +163,13 @@ que horas é em {location} depois de {number:offset} minutos
 que horas é em {location} depois de {number:offset} minutos a partir de agora
 que horas é em {location} depois de {number:offset} segundos
 que horas é em {location} depois de {number:offset} segundos a partir de agora
+que horas vão ser daqui a {number:offset} hora
+daqui a {number:offset} (horas|minutos) que horas serão
+me diz que horas vão ser daqui a {number:offset} (horas|minutos)
+que hora vai ser daqui a {number:offset} (horas|minutos)
+daqui a {number:offset} (horas|minutos) vai ser que horas
+que horas vão ser daqui a uma hora
+que horas vão ser daqui a duas horas
+que horas serão daqui a meia hora
+daqui a três horas que horas vão ser em {location}
+que horas vão ser daqui a dez minutos

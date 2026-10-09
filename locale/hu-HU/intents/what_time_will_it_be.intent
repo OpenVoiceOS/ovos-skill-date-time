@@ -26,3 +26,7 @@ mikor van {number:offset} másodperc múlva {location}-ben
 mikor van {number:offset} másodperc {location}-ben
 mikor van {number:offset} perc {location}-ben
 mikor van {number:offset} óra {location}-ben
+mennyi lesz az idő {number:offset} (óra|perc) múlva
+mondd meg mennyi lesz az idő {number:offset} perc elteltével
+hány órát mutat majd az óra {number:offset} óra múlva
+számold ki, hány óra lesz {number:offset} óra elteltével

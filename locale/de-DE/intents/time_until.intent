@@ -15,3 +15,9 @@ Wie weit ist {date} entfernt
 Wie weit ist {date} von heute entfernt
 # Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no German speaker has read it.
 Wie viele Tage bis zum {date}
+# No German speaker has read this file. Every line is a machine draft.
+wie viele Tage liegen zwischen {start} und {end}
+zähl die Tage zwischen {start} und {end}
+rechne die Tage von {start} bis {end} aus
+wie groß ist der Abstand in Tagen zwischen {start} und {end}
+berechne die Tage von {start} bis {end}

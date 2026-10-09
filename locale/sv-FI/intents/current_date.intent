@@ -1,7 +1,0 @@
-# unvouched: copied from sv-SE, awaiting a Finland-Swedish speaker
-vad är dagens datum [tack]
-säg mig dagens datum
-vad är dagens datum i {location}
-ge mig hela dagens datum
-# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Finland Swedish speaker has read it.
-Vilket datum är det

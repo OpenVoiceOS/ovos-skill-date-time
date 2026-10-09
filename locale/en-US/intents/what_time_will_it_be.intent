@@ -10,3 +10,18 @@ what will the clock say (in|after|if i wait) {number:offset} (hour|minute|second
 when (is it|will it be) {number:offset} (hour|minute|second)[s] [from now] [in {location}]
 when will it be if i (wait|spend) {number:offset} (hour|minute|second)[s] [in {location}]
 when time will it (be|become|show) (in|after|if i wait) {number:offset} (hour|minute|second)[s] [in {location}]
+what time is it going to be (in|after) {number:offset} (hour|minute|second)[s] [from now] [in {location}]
+what time will it be in {location} (in|after) {number:offset} (hour|minute|second)[s]
+{number:offset} (hour|minute|second)[s] from now what time will it be [in {location}]
+what time will it be in an hour
+what time will it be in a couple of hours
+what time will it be in a quarter of an hour
+what time will it be an hour from now
+what will the time be in an hour
+what time will it be in {location} in {number:offset} (hour|minute)[s]
+what time will it be {number:offset} (hour|minute)[s] from now in {location}
+tell me the time it will be {number:offset} hours later
+what will my clock show {number:offset} minutes later
+add {number:offset} hours to the current time
+work out the time {number:offset} hours ahead of now
+which time will the clock show after {number:offset} minutes have passed

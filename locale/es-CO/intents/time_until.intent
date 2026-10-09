@@ -46,3 +46,9 @@ cuántos días han pasado desde {date}
 cómo de lejos está {date} 
 cómo de lejos está {date} de ahora
 cómo de lejos está {date} de hoy
+# No Spanish speaker has read this file. Every line is a machine draft.
+cuántos días hay entre {start} y {end}
+cuántos días van de {start} a {end}
+cuenta los días entre {start} y {end}
+cuántos días pasan desde {start} hasta {end}
+calcula los días que hay de {start} a {end}

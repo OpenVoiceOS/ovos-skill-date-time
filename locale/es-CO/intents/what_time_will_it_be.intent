@@ -98,3 +98,6 @@ qué marcará el reloj si espero {number:offset} minutos
 qué marcará el reloj si espero {number:offset} minutos en {location}
 qué marcará el reloj si espero {number:offset} segundos 
 qué marcará el reloj si espero {number:offset} segundos en {location}
+dime la hora que será pasadas {number:offset} horas
+qué hora marcará el reloj luego de {number:offset} minutos
+calcula qué hora va a ser pasadas {number:offset} horas

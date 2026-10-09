@@ -17,3 +17,7 @@ che ora sarà tra {number:offset} secondi in {location}
 che ora sarà tra {number:offset} secondo
 che ora sarà tra {number:offset} secondo a {location}
 che ora sarà tra {number:offset} secondo in {location}
+che ora sarà tra {number:offset} (minuti|ore|secondi)
+che ora segnerà l'orologio dopo {number:offset} minuti
+calcola l'ora tra {number:offset} ore
+che orario sarà dopo {number:offset} minuti da adesso

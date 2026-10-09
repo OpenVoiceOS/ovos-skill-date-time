@@ -16,7 +16,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
 LOCALE = REPO / "locale"
-LOCATED_INTENTS = ("current_date", "what_day_is_it",
+LOCATED_INTENTS = ("what_day_is_it",
                    "what_time_is_it", "what_time_will_it_be")
 
 

@@ -2,3 +2,9 @@ zenbat denbora falta da {date} arte [mesedez]
 noiz da {date}
 zenbat egun falta dira {date} arte
 zenbat falta da {date} izateko
+# No Basque speaker has read this file. Every line is a machine draft.
+zenbat egun daude {start} eta {end} artean
+zenbat egun igarotzen dira {start} eta {end} bitartean
+kontatu {start} eta {end} arteko egunak
+zenbat egunek bereizten dituzte {start} eta {end}
+kalkulatu zenbat egun dauden {start} eta {end} artean

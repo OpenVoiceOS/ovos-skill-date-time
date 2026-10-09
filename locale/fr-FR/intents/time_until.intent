@@ -13,3 +13,9 @@ dans combien de temps est {date}
 dans combien de temps sera {date}
 il y a combien de jours c'était {date}
 il y a combien de temps c'était {date}
+# No French speaker has read this file. Every line is a machine draft.
+combien de jours y a-t-il entre {start} et {end}
+combien de jours entre {start} et {end}
+compte les jours entre {start} et {end}
+combien de jours séparent {start} de {end}
+calcule le nombre de jours du {start} au {end}

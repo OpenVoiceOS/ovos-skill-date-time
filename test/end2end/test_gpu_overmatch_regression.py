@@ -7,13 +7,13 @@ carried two bare, unqualified samples --
     is {date} a {weekday}
     was {date} a {weekday}
 
--- whose only fixed tokens are "is"/"was" + "a", four tokens total. Padatious
-scores structural overlap, not entity-membership; the fixed tokens "is"/"a"
-(or "was"/"a") land in exactly the right positions for "is there a gpu in
-your system" (is=is, {date}=there, a=a, {weekday}='gpu in your system'), so
-the template matched at ovos-padatious-pipeline-plugin-high confidence
-(> 0.95) and won the turn away from ovos-skill-diagnostics' query_gpu intent
--- even though neither slot's filler is a real date or weekday.
+-- whose only fixed tokens are "is"/"was" + "a", four tokens total. A
+template engine matches structure, not entity membership; the fixed tokens
+"is"/"a" (or "was"/"a") land in exactly the right positions for "is there a
+gpu in your system" (is=is, {date}=there, a=a, {weekday}='gpu in your
+system'), so the template matched at high-tier confidence and won the turn
+away from ovos-skill-diagnostics' query_gpu intent -- even though neither
+slot's filler is a real date or weekday.
 
 The fix drops those two bare lines, keeping only the "on"-qualified /
 "fall on" phrasings ("is {date} on a {weekday}", "was {date} on a
@@ -22,23 +22,20 @@ The fix drops those two bare lines, keeping only the "on"-qualified /
 system" style utterances.
 
 This test boots a two-skill MiniCroft (date-time + diagnostics) under the
-REAL OVOS default pipeline (see
-/home/miro/AgentWorkspaces/ovos/core/ovos-config/ovos_config/mycroft.conf
-lines ~218-231 -- NOT ovoscope's broader DEFAULT_TEST_PIPELINE constant) and
-asserts date-time's weekday_matches_date intent no longer claims the
-utterance.
+shape of the OVOS default pipeline, with the padacioso high tier in the
+template-engine slot, and asserts date-time's weekday_matches_date intent no
+longer claims the utterance.
 
 Run: pytest test/end2end/test_gpu_overmatch_regression.py -v --timeout=150
 """
 import os
-import tempfile
 import time
 from unittest import TestCase
 
-import pytest
 from ovos_bus_client.message import Message
 from ovos_bus_client.session import Session
 from ovoscope import get_minicroft
+from padacioso import IntentContainer
 
 INTENT_FILE = os.path.join(
     os.path.dirname(__file__), "..", "..",
@@ -48,19 +45,13 @@ DATE_TIME_SKILL_ID = "ovos-skill-date-time.openvoiceos"
 DIAGNOSTICS_SKILL_ID = "ovos-skill-diagnostics.openvoiceos"
 LANG = "en-US"
 
-# The non-media-plugin-dependent subset of the REAL default pipeline from
-# mycroft.conf (NOT ovoscope's broader DEFAULT_TEST_PIPELINE). The full real
-# default additionally includes ovos-ocp-pipeline-plugin-{high,medium} and
-# ovos-m2v-pipeline-high, but neither date-time nor diagnostics register any
-# OCP/media or model2vec intents for this utterance, and those plugins are
-# not installed as test dependencies of this repo's CI. What matters here --
-# and what this list preserves from the real default -- is the exclusion of
-# padatious-low / adapt-low / padacioso, present in ovoscope's broader test
-# constant but not in a real default OVOS install.
+# The non-media subset of the default pipeline from mycroft.conf, with the
+# padacioso high tier in the template-engine slot. Only high and medium tiers
+# run, so a low-confidence template match cannot claim the utterance.
 REAL_DEFAULT_PIPELINE = [
     "ovos-stop-pipeline-plugin-high",
     "ovos-converse-pipeline-plugin",
-    "ovos-padatious-pipeline-plugin-high",
+    "ovos-padacioso-pipeline-plugin-high",
     "ovos-adapt-pipeline-plugin-high",
     "ovos-fallback-pipeline-plugin-high",
     "ovos-stop-pipeline-plugin-medium",
@@ -77,31 +68,26 @@ DATE_TIME_EVENT = f"{DATE_TIME_SKILL_ID}:weekday_matches_date"
 
 
 class TestGpuOvermatchEngineLevel(TestCase):
-    """Fast, deterministic root-cause proof at the padatious-engine level
-    (no MiniCroft boot): before the fix, "is there a gpu in your system"
-    scores confidence 1.0 against weekday_matches_date (a bare "is {date}
-    a {weekday}" sample structurally matches it token-for-token); after
-    dropping the two bare unqualified samples, confidence drops to ~0.52,
-    well below what any padatious-high tier treats as a winning match.
+    """Fast, deterministic root-cause proof at the template-engine level
+    (no MiniCroft boot): a bare "is {date} a {weekday}" sample matches "is
+    there a gpu in your system" token for token, so padacioso returns it
+    with full confidence. With only the qualified samples, the utterance
+    does not match weekday_matches_date at a high-tier confidence.
     """
 
     def test_confidence_no_longer_near_perfect(self):
-        # not a declared test dependency of this repo (the padatious
-        # engine is normally reached only indirectly, via the
-        # ovos-padatious-pipeline-plugin entry point installed for the
-        # MiniCroft-based test below) -- skip gracefully rather than
-        # erroring test collection if it isn't importable in this env.
-        padatious = pytest.importorskip("ovos_padatious")
-        with tempfile.TemporaryDirectory() as cache:
-            c = padatious.IntentContainer(cache)
-            c.load_intent("weekday_matches_date", INTENT_FILE)
-            c.train()
-            data = c.calc_intent("is there a gpu in your system")
-            self.assertLess(
-                data.conf, 0.8,
-                f"weekday_matches_date still near-perfectly matches the "
-                f"GPU utterance (conf={data.conf}); over-general sample(s) "
-                f"not fully removed")
+        with open(INTENT_FILE, encoding="utf-8") as f:
+            samples = [line.strip() for line in f
+                       if line.strip() and not line.startswith("#")]
+        container = IntentContainer(fuzz=False)
+        container.add_intent("weekday_matches_date", samples)
+        data = container.calc_intent(UTTERANCE) or {}
+        conf = data.get("conf", 0.0) if data.get("name") else 0.0
+        self.assertLess(
+            conf, 0.8,
+            f"weekday_matches_date still near-perfectly matches the "
+            f"GPU utterance (conf={conf}); over-general sample(s) "
+            f"not fully removed")
 
 
 class TestGpuOvermatchRegression(TestCase):
@@ -132,7 +118,7 @@ class TestGpuOvermatchRegression(TestCase):
                 {"utterances": [UTTERANCE], "lang": LANG},
                 {"session": session.serialize()},
             )
-            # Give date-time's padatious matcher every chance to (wrongly)
+            # Give date-time's template matcher every chance to (wrongly)
             # fire: re-emit and settle repeatedly, same idiom as the other
             # end2end suites in this directory.
             deadline = time.monotonic() + 45

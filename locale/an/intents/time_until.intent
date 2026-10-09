@@ -6,14 +6,12 @@ cuán será concretament {date}?
 cuán estió l'anterior {date}?
 cuán estió lo siguient {date}?
 cuán estió lo zaguera {date}?
-cuán estió l'anterior {date}?
 cuán estió la siguient {date}?
 cuán estió la zaguera {date}?
 cuán estió {date}?
 cuán ye l'anterior {date}?
 cuán ye lo siguient {date}?
 cuán ye lo zaguera {date}?
-cuán ye l'anterior {date}?
 cuán ye la siguient {date}?
 cuán ye la zaguera {date}?
 cuán ye {date}?
@@ -42,3 +40,10 @@ cómo de leixos ye {date} d'agora?
 cómo de leixos ye {date} de hue?
 # Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Aragonese speaker has read it.
 Cuántos días faltan pa lo 24 de chunyo
+# No Aragonese speaker has read this file. Every line is a machine draft.
+cuántos días i hai entre {start} y {end}
+conta los días entre {start} y {end}
+quántos días pasan de {start} a {end}
+di-me la diferencia en días entre {start} y {end}
+quántos días de distancia i hai entre {start} y {end}
+de {start} a {end} quántos días son en total

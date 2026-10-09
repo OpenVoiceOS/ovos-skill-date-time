@@ -48,11 +48,7 @@ SPEAK_CALLS = {
 
 # Dialog keys that a locale does not ship yet. A handler in these locales
 # speaks the raw key. Remove a key here when its translation lands.
-KNOWN_GAPS = {
-    # no dialog line without adjacent slots; neither locale ships the intent
-    "fa-IR": ("days_between",),
-    "ru-RU": ("days_between",),
-}
+KNOWN_GAPS = {}
 
 
 def _call_name(node):

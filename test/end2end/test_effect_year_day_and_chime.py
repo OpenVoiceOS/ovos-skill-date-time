@@ -8,9 +8,9 @@ real MiniCroft bus and asserts the actual consequence:
 - "what year is it" (en-US) must speak the ``year_current`` dialog with the
   actual current year, computed by the test with ``nice_year`` and not read
   back from the skill.
-- "che giorno del mese è oggi" (it-IT, ``what.day.is.it.intent``) must speak
-  the ``day_current`` dialog with exactly today's rendered day, exercising
-  the skill's it-IT locale -- a default en-US boot only registers en-US intents.
+- "che giorno del mese è oggi" (it-IT, ``what_day_is_it.intent``) must speak
+  the ``date`` dialog with exactly today's rendered date and weekday,
+  exercising the skill's it-IT locale -- a default en-US boot only registers en-US intents.
 
 Both expectations use ``ovos_utils.time.now_local()``, the configured-timezone
 clock the handler renders with (``get_datetime`` -> ``now_local(tz)``). A naive
@@ -34,7 +34,7 @@ from ovos_bus_client.message import Message
 from ovos_bus_client.session import Session
 from ovos_bus_client.util.scheduled_events.legacy import pending_migration_path
 from ovos_bus_client.util.scheduled_events.store import default_store_path
-from ovos_date_parser import nice_day, nice_year
+from ovos_date_parser import nice_date, nice_year
 from ovos_utils.time import now_local
 from ovoscope import CaptureSession, get_minicroft
 
@@ -80,19 +80,19 @@ def test_current_year_speaks_actual_year_en_us():
         mc.stop()
 
 
-def test_current_day_of_month_it_it():
+def test_current_day_speaks_the_date_it_it():
     mc = get_minicroft([SKILL_ID], lang="it-IT", max_wait=150)
     try:
         speak = _speak_dialog(
             mc, "che giorno del mese è oggi", "it-IT", "e2e-day-it"
         )
         meta = speak.data["meta"]
-        assert meta["dialog"] == "day_current", (
-            f"expected day_current, got {meta['dialog']!r}"
+        assert meta["dialog"] == "date", (
+            f"expected date, got {meta['dialog']!r}"
         )
-        expected_day = nice_day(now_local(), lang="it-IT")
-        assert meta["data"]["day"] == expected_day, (
-            f"expected day {expected_day!r}, got {meta['data']!r}"
+        expected_date = nice_date(now_local(), lang="it-IT")
+        assert meta["data"]["date"] == expected_date, (
+            f"expected date {expected_date!r}, got {meta['data']!r}"
         )
     finally:
         mc.stop()

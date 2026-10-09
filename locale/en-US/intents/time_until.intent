@@ -47,8 +47,20 @@ when exactly will it be {date}
 when is the last {date}
 when is the next {date}
 when is the previous {date}
-when is {date}
 when was the last {date}
 when was the next {date}
 when was the previous {date}
 when was {date}
+how much longer must we wait for {date}
+how many days (are there|is it) between {start} and {end}
+how many days between {start} and {end}
+how many days (are there|is it) from {start} (to|until) {end}
+how many days from {start} (to|until) {end}
+how long is it between {start} and {end}
+how long is it from {start} (to|until) {end}
+how far apart are {start} and {end}
+what is the number of days between {start} and {end}
+count the days between {start} and {end}
+count the days from {start} (to|until) {end}
+tell me how many days are between {start} and {end}
+what's the gap in days between {start} and {end}

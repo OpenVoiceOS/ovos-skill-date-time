@@ -554,30 +554,40 @@ class TimeSkill(OVOSSkill):
         # and briefly show the date
         self.show_date(dt, location=location_string)
 
-    @intent_handler("current_date.intent")
-    def handle_current_date(self, message):
-        """Handle current date queries."""
-        self.handle_query_date(message, response_type="simple")
-
     @intent_handler("time_until.intent")
     def handle_time_until(self, message):
-        self.handle_query_date(message, response_type="relative")
+        """Answer how far away one date is, or how many days lie between two.
+
+        A request that names two dates fills the {start} and {end} slots and
+        gets the day count between them. A request that names one date gets
+        that date and its distance from today.
+        """
+        if "start" in message.data or "end" in message.data:
+            self._speak_days_between(message)
+        else:
+            self.handle_query_date(message, response_type="relative")
 
     @intent_handler("what_day_is_it.intent")
     def handle_current_day(self, message):
-        """
-        Speaks the current day name using a localized dialog.
-        
-        Args:
-            message: The message object triggering the intent.
+        """Speak today's date with its weekday, optionally at a {location}.
+
+        The answer is always today: a request such as "was ist heute für ein
+        Tag" names no other date, so the utterance is not parsed for one. A
+        language that ``nice_date`` cannot format gets the day through the
+        day_current dialog.
         """
         location = self._resolve_location(message.data.get("location"))
         now = self.get_datetime(location)
         if location and not now:
             self.speak_dialog("time_tz_not_found", {"location": location})
             return
-        self.speak_dialog("day_current",
-                          {"day": nice_day(now, lang=self.lang)})
+        try:
+            spoken = nice_date(now, lang=self.lang)
+        except KeyError:  # ovos-date-parser has no date format for the language
+            self.speak_dialog("day_current", {"day": nice_day(now, lang=self.lang)})
+        else:
+            self.speak_dialog("date", {"date": spoken})
+        self.show_date(now, location=location)
 
     # TODO - merge with weekday_for_date.intent
     #  use voc_match or something to disambiguate
@@ -616,8 +626,7 @@ class TimeSkill(OVOSSkill):
                 "date": nice_date(dt, lang=self.lang, now=now),
                 "weekday": nice_weekday(dt, lang=self.lang)})
 
-    @intent_handler("days_between.intent")
-    def handle_days_between(self, message):
+    def _speak_days_between(self, message):
         """Count the calendar days between two dates named in the utterance.
 
         The date extractor returns one date per text, so each date has its own

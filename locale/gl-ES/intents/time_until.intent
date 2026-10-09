@@ -62,3 +62,9 @@ cantos semanas faltan ata o {date}
 cantos semanas faltan para o {date}
 cantos semanas quedan ata o {date}
 cantos semanas quedan para o {date}
+# No Galician speaker has read this file. Every line is a machine draft.
+cantos días hai entre {start} e {end}
+cantos días van de {start} a {end}
+conta os días entre {start} e {end}
+cantos días separan {start} de {end}
+calcula os días que hai de {start} a {end}

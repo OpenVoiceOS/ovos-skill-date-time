@@ -2,3 +2,8 @@
 {date} ne zaman
 {date} tarihine kaç gün kaldı
 {date} ne kadar uzakta
+# No Turkish speaker has read this file. Every line is a machine draft.
+{start} ile {end} arasındaki günleri say
+{start} ile {end} arasında kaç günlük fark var
+{start} ile {end} arasındaki gün sayısını hesapla
+{start} ve {end} arasında kaç gün fark var

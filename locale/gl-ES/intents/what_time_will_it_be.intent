@@ -304,3 +304,6 @@ que marcará o reloxo se agardo {number:offset} segundo
 que marcará o reloxo se agardo {number:offset} segundo en {location}
 que marcará o reloxo se agardo {number:offset} segundos
 que marcará o reloxo se agardo {number:offset} segundos en {location}
+dime a hora que será pasadas {number:offset} horas
+que hora marcará o reloxo despois de {number:offset} minutos
+calcula que hora vai ser pasadas {number:offset} horas
