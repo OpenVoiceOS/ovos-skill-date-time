@@ -1,391 +1,894 @@
 # Changelog
 
-## [1.1.5a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.5a3) (2025-07-31)
+## [1.11.8a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.8a1) (2026-10-09)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.5a2...1.1.5a3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.7a2...1.11.8a1)
 
 **Merged pull requests:**
 
-- Complete addition of pt-BR [\#176](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/176) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- fix: one intent per date request, and an m2v golden gate for every locale [\#466](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/466) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.11.7a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.7a2) (2026-10-08)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.7a1...1.11.7a2)
+
+**Merged pull requests:**
+
+- test: golden utterances for every intent in every shipped locale [\#446](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/446) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.11.7a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.7a1) (2026-10-08)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.6a1...1.11.7a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): fold the stray kab-DZ date dialog into kab [\#463](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/463) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.11.6a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.6a1) (2026-10-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.5a1...1.11.6a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): every store example reaches an intent in all 18 locales [\#433](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/433) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.11.5a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.5a1) (2026-10-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.4a1...1.11.5a1)
+
+**Merged pull requests:**
+
+- fix\(pt-PT\): drop 84 malformed what\_time\_is\_it.intent lines [\#460](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/460) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.11.4a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.4a1) (2026-10-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.3a2...1.11.4a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): drop six dead da-DK and it-IT offset lines [\#458](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/458) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.11.3a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.3a2) (2026-10-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.3a1...1.11.3a2)
+
+**Merged pull requests:**
+
+- translate\(kab-DZ\): update date.dialog [\#456](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/456) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.11.3a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.3a1) (2026-10-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.2a3...1.11.3a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): timezone.value keeps the English timezone names in five locales [\#454](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/454) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.11.2a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.2a3) (2026-10-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.2a2...1.11.2a3)
+
+## [1.11.2a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.2a2) (2026-10-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.2a1...1.11.2a2)
+
+**Merged pull requests:**
+
+- fix\(fi-FI\): add the days\_between and days\_between\_same dialogs [\#451](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/451) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+- fix\(fa-IR\): strip the terminal question mark from the intent templates [\#450](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/450) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.11.2a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.2a1) (2026-10-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.1a1...1.11.2a1)
+
+**Merged pull requests:**
+
+- fix\(da-DK,de-DE\): drop yes/no weekday lines from weekday\_for\_date [\#447](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/447) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.11.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.1a1) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.0a3...1.11.1a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): split sv-FI, the Finnish files to fi-FI and Swedish stays [\#390](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/390) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.11.0a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.0a3) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.0a2...1.11.0a3)
+
+**Merged pull requests:**
+
+- test\(de-DE\): golden rows for the nine bare genitive future weekend forms [\#435](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/435) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+- feat: days\_between intent for the number of days between two dates [\#412](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/412) ([andlo](https://github.com/andlo))
+
+## [1.11.0a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.0a2) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.0a1...1.11.0a2)
+
+**Merged pull requests:**
+
+- test\(de-DE\): re-cut the 22 golden rows that quote removed intent lines [\#440](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/440) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.11.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.0a1) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.10a4...1.11.0a1)
+
+**Merged pull requests:**
+
+- feat\(locale\): de-DE current\_date, the six "?"-terminated forms as an addition [\#438](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/438) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.10a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.10a4) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.10a3...1.10.10a4)
+
+**Merged pull requests:**
+
+- locale: draft es-CO from es-ES [\#436](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/436) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.10a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.10a3) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.10a2...1.10.10a3)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): rewrite date\_future\_weekend.intent, keeping the bare genitive forms [\#415](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/415) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.10a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.10a2) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.10a1...1.10.10a2)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update time\_current.dialog [\#409](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/409) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.10.10a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.10a1) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a14...1.10.10a1)
+
+**Merged pull requests:**
+
+- fix\(da-DK,it-IT\): the offset lines that join a noun to its preposition [\#416](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/416) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.9a14](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a14) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a13...1.10.9a14)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update date\_future\_weekend.intent [\#395](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/395) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.10.9a13](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a13) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a12...1.10.9a13)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): the eight new current\_date phrasings from \#396 [\#414](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/414) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.9a12](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a12) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a11...1.10.9a12)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update date\_last\_weekend.intent [\#400](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/400) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.10.9a11](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a11) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a10...1.10.9a11)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update is\_leap\_year.intent [\#401](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/401) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.10.9a10](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a10) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a9...1.10.9a10)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update what\_day\_is\_it.intent [\#402](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/402) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.10.9a9](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a9) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a8...1.10.9a9)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update what\_month\_is\_it.intent [\#403](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/403) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.10.9a8](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a8) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a7...1.10.9a8)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update what\_time\_is\_it.intent [\#404](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/404) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.10.9a7](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a7) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a6...1.10.9a7)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update what\_time\_will\_it\_be.intent [\#405](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/405) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.10.9a6](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a6) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a5...1.10.9a6)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update what\_weekday\_is\_it.intent [\#406](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/406) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.10.9a5](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a5) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a4...1.10.9a5)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update what\_year\_is\_it.intent [\#407](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/407) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.10.9a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a4) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a3...1.10.9a4)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update next\_leap\_year.intent [\#408](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/408) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.10.9a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a3) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a2...1.10.9a3)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update time\_until.intent [\#410](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/410) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.10.9a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a2) (2026-09-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a1...1.10.9a2)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update weekday\_for\_date.intent [\#411](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/411) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.10.9a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a1) (2026-09-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.8a1...1.10.9a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): the pl-PL store examples and tags [\#413](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/413) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.8a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.8a1) (2026-09-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.7a2...1.10.8a1)
+
+**Merged pull requests:**
+
+- fix\(hu-HU\): match superessive place names in the located date and time intents [\#398](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/398) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.7a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.7a2) (2026-09-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.7a1...1.10.7a2)
+
+**Merged pull requests:**
+
+- translate\(de-DE\): update current\_date.intent [\#393](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/393) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+
+## [1.10.7a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.7a1) (2026-09-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.6a5...1.10.7a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): the store name carries no leading space [\#388](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/388) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.6a5](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.6a5) (2026-09-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.6a4...1.10.6a5)
+
+**Merged pull requests:**
+
+- locale\(cs-CZ\): the store name and description \(unvouched\) [\#387](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/387) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.6a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.6a4) (2026-09-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.6a3...1.10.6a4)
+
+**Merged pull requests:**
+
+- locale: machine translation for skill.json name and description \(unvouched\) [\#386](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/386) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.6a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.6a3) (2026-09-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.6a2...1.10.6a3)
+
+**Merged pull requests:**
+
+- refactor: the location slot replaces location.rx in every locale [\#384](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/384) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.6a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.6a2) (2026-09-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.6a1...1.10.6a2)
+
+**Merged pull requests:**
+
+- locale: machine translation for parity in six locales \(unvouched\) [\#382](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/382) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.6a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.6a1) (2026-09-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.5a1...1.10.6a1)
+
+**Merged pull requests:**
+
+- fix\(cs-CZ\): Czech place names resolve to a timezone [\#380](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/380) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.5a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.5a1) (2026-09-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.4a1...1.10.5a1)
+
+**Merged pull requests:**
+
+- fix: a locale with no .list file no longer raises on a located query [\#378](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/378) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.4a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.4a1) (2026-09-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.3a1...1.10.4a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): eleven locales can ask for the day and the time elsewhere [\#376](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/376) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.3a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.3a1) (2026-09-24)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.2a1...1.10.3a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): eu-ES and hu-HU intent groups expand both surface forms [\#372](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/372) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.2a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.2a1) (2026-09-24)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.1a1...1.10.2a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): spec-lint findings on dev [\#373](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/373) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.1a1) (2026-09-24)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.0a1...1.10.1a1)
+
+**Merged pull requests:**
+
+- fix\(kab\): the date intent takes a location, and the timezone list has its header [\#370](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/370) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.10.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.0a1) (2026-09-23)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.9.1a1...1.10.0a1)
+
+## [1.9.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.9.1a1) (2026-09-23)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.9.0a1...1.9.1a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): drop the bare {slot} line \#350 copied into six locales [\#367](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/367) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [1.9.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.9.0a1) (2026-09-23)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.8.1a2...1.9.0a1)
+
+## [1.8.1a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.8.1a2) (2026-09-20)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.8.1a1...1.8.1a2)
+
+## [1.8.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.8.1a1) (2026-09-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.8.0a1...1.8.1a1)
+
+## [1.8.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.8.0a1) (2026-09-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.7.2a2...1.8.0a1)
+
+## [1.7.2a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.7.2a2) (2026-09-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.7.2a1...1.7.2a2)
+
+## [1.7.2a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.7.2a1) (2026-09-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.7.1a1...1.7.2a1)
+
+## [1.7.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.7.1a1) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.7.0a3...1.7.1a1)
+
+## [1.7.0a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.7.0a3) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.7.0a2...1.7.0a3)
+
+## [1.7.0a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.7.0a2) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.7.0a1...1.7.0a2)
+
+## [1.7.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.7.0a1) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.6.1a1...1.7.0a1)
+
+## [1.6.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.6.1a1) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.6.0a1...1.6.1a1)
+
+## [1.6.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.6.0a1) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.5.0a1...1.6.0a1)
+
+## [1.5.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.5.0a1) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.4a7...1.5.0a1)
+
+## [1.4.4a7](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.4a7) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.4a6...1.4.4a7)
+
+## [1.4.4a6](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.4a6) (2026-09-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.4a5...1.4.4a6)
+
+## [1.4.4a5](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.4a5) (2026-09-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.4a4...1.4.4a5)
+
+## [1.4.4a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.4a4) (2026-09-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.4a3...1.4.4a4)
+
+## [1.4.4a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.4a3) (2026-09-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.4a2...1.4.4a3)
+
+## [1.4.4a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.4a2) (2026-09-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.4a1...1.4.4a2)
+
+## [1.4.4a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.4a1) (2026-09-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.3a4...1.4.4a1)
+
+## [1.4.3a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.3a4) (2026-09-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.3a3...1.4.3a4)
+
+## [1.4.3a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.3a3) (2026-09-14)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.3a2...1.4.3a3)
+
+## [1.4.3a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.3a2) (2026-09-14)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.3a1...1.4.3a2)
+
+## [1.4.3a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.3a1) (2026-09-14)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.2a1...1.4.3a1)
+
+## [1.4.2a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.2a1) (2026-09-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.1a1...1.4.2a1)
+
+## [1.4.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.1a1) (2026-09-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.4.0a1...1.4.1a1)
+
+## [1.4.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.4.0a1) (2026-09-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.3.2a1...1.4.0a1)
+
+## [1.3.2a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.3.2a1) (2026-09-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.3.1a1...1.3.2a1)
+
+## [1.3.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.3.1a1) (2026-09-11)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.3.0a2...1.3.1a1)
+
+## [1.3.0a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.3.0a2) (2026-09-10)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.3.0a1...1.3.0a2)
+
+## [1.3.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.3.0a1) (2026-09-08)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.5a1...1.3.0a1)
+
+## [1.2.5a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.5a1) (2026-09-07)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.4a1...1.2.5a1)
+
+## [1.2.4a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.4a1) (2026-09-07)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.3a1...1.2.4a1)
+
+## [1.2.3a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.3a1) (2026-09-07)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.2a3...1.2.3a1)
+
+## [1.2.2a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.2a3) (2026-09-03)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.2a2...1.2.2a3)
+
+## [1.2.2a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.2a2) (2026-09-03)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.2a1...1.2.2a2)
+
+## [1.2.2a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.2a1) (2026-09-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.1a1...1.2.2a1)
+
+## [1.2.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.1a1) (2026-09-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.0a2...1.2.1a1)
+
+## [1.2.0a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.0a2) (2026-09-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.2.0a1...1.2.0a2)
+
+## [1.2.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.2.0a1) (2026-08-30)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.17a1...1.2.0a1)
+
+## [1.1.17a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.17a1) (2026-08-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a2...1.1.17a1)
+
+## [1.1.16a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a2) (2026-08-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a3...1.1.16a2)
+
+## [1.1.16a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a3) (2026-08-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a1...1.1.16a3)
+
+## [1.1.16a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a1) (2026-08-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.15a1...1.1.16a1)
+
+## [1.1.15a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.15a1) (2026-08-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.14a3...1.1.15a1)
+
+## [1.1.14a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.14a3) (2026-08-11)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.14a2...1.1.14a3)
+
+## [1.1.14a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.14a2) (2026-08-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.14a1...1.1.14a2)
+
+## [1.1.14a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.14a1) (2026-07-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.13a1...1.1.14a1)
+
+## [1.1.13a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.13a1) (2026-07-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.12a1...1.1.13a1)
+
+## [1.1.12a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.12a1) (2026-07-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.11a3...1.1.12a1)
+
+## [1.1.11a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.11a3) (2026-07-11)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.11a2...1.1.11a3)
+
+## [1.1.11a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.11a2) (2026-07-03)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.11a1...1.1.11a2)
+
+## [1.1.11a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.11a1) (2026-06-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.10a4...1.1.11a1)
+
+## [1.1.10a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.10a4) (2026-05-10)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.10a3...1.1.10a4)
+
+## [1.1.10a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.10a3) (2026-05-10)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.10a2...1.1.10a3)
+
+## [1.1.10a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.10a2) (2026-04-09)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.10a1...1.1.10a2)
+
+## [1.1.10a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.10a1) (2026-04-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.9a2...1.1.10a1)
+
+## [1.1.9a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.9a2) (2026-04-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.9a1...1.1.9a2)
+
+## [1.1.9a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.9a1) (2026-04-03)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a17...1.1.9a1)
+
+## [1.1.8a17](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a17) (2026-04-03)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a16...1.1.8a17)
+
+## [1.1.8a16](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a16) (2026-04-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a15...1.1.8a16)
+
+## [1.1.8a15](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a15) (2026-04-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a14...1.1.8a15)
+
+## [1.1.8a14](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a14) (2026-04-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a13...1.1.8a14)
+
+## [1.1.8a13](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a13) (2026-03-29)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a11...1.1.8a13)
+
+## [1.1.8a11](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a11) (2026-03-29)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a12...1.1.8a11)
+
+## [1.1.8a12](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a12) (2026-03-29)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a10...1.1.8a12)
+
+## [1.1.8a10](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a10) (2026-03-29)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a8...1.1.8a10)
+
+## [1.1.8a8](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a8) (2026-03-29)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a9...1.1.8a8)
+
+## [1.1.8a9](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a9) (2026-03-29)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a7...1.1.8a9)
+
+## [1.1.8a7](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a7) (2026-03-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a6...1.1.8a7)
+
+## [1.1.8a6](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a6) (2026-03-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a5...1.1.8a6)
+
+## [1.1.8a5](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a5) (2026-03-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a3...1.1.8a5)
+
+## [1.1.8a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a3) (2026-03-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a4...1.1.8a3)
+
+## [1.1.8a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a4) (2026-03-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a2...1.1.8a4)
+
+## [1.1.8a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a2) (2026-03-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.8a1...1.1.8a2)
+
+## [1.1.8a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.8a1) (2026-03-24)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.7a1...1.1.8a1)
+
+## [1.1.7a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.7a1) (2026-03-24)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.6a4...1.1.7a1)
+
+## [1.1.6a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.6a4) (2026-03-09)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.6a3...1.1.6a4)
+
+## [1.1.6a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.6a3) (2026-01-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.6a2...1.1.6a3)
+
+## [1.1.6a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.6a2) (2026-01-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.6a1...1.1.6a2)
+
+## [1.1.6a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.6a1) (2025-08-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.5...1.1.6a1)
+
+## [1.1.5](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.5) (2025-07-31)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.5a3...1.1.5)
+
+## [1.1.5a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.5a3) (2025-07-31)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.5a2...1.1.5a3)
 
 ## [1.1.5a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.5a2) (2025-07-31)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.5a1...1.1.5a2)
 
-**Merged pull requests:**
-
-- Add pt-BR [\#175](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/175) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-- Add pt-BR [\#174](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/174) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
 ## [1.1.5a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.5a1) (2025-07-12)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.4...1.1.5a1)
-
-**Merged pull requests:**
-
-- adding missing German translations [\#172](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/172) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-- adding missing German translations [\#171](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/171) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [1.1.4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.4) (2025-06-13)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.4a1...1.1.4)
 
-**Merged pull requests:**
-
-- Release 1.1.4a1 [\#170](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/170) ([github-actions[bot]](https://github.com/apps/github-actions))
-
 ## [1.1.4a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.4a1) (2025-06-13)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.3...1.1.4a1)
-
-**Merged pull requests:**
-
-- Update requirements.txt [\#169](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/169) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [1.1.3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.3) (2025-06-08)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.3a1...1.1.3)
 
-**Merged pull requests:**
-
-- Release 1.1.3a1 [\#168](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/168) ([github-actions[bot]](https://github.com/apps/github-actions))
-
 ## [1.1.3a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.3a1) (2025-06-08)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.2...1.1.3a1)
-
-**Merged pull requests:**
-
-- fix: workshop 7.X.X [\#167](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/167) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [1.1.2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.2) (2025-06-08)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.2a2...1.1.2)
 
-**Merged pull requests:**
-
-- Release 1.1.2a2 [\#166](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/166) ([github-actions[bot]](https://github.com/apps/github-actions))
-
 ## [1.1.2a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.2a2) (2025-06-02)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.2a1...1.1.2a2)
-
-**Merged pull requests:**
-
-- gl/translate [\#165](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/165) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [1.1.2a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.2a1) (2025-05-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.1...1.1.2a1)
 
-**Closed issues:**
-
-- leap.year.intent results in an error [\#161](https://github.com/OpenVoiceOS/ovos-skill-date-time/issues/161)
-
-**Merged pull requests:**
-
-- Release 1.1.2a1 [\#164](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/164) ([github-actions[bot]](https://github.com/apps/github-actions))
-- fix: leap.year.intent [\#162](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/162) ([JarbasAl](https://github.com/JarbasAl))
-
 ## [1.1.1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.1) (2025-05-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.1a1...1.1.1)
-
-**Merged pull requests:**
-
-- Release 1.1.1a1 [\#160](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/160) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [1.1.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.1a1) (2025-05-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.0a7...1.1.1a1)
 
-**Merged pull requests:**
-
-- fix: add training data for entity extractors [\#159](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/159) ([JarbasAl](https://github.com/JarbasAl))
-
 ## [1.1.0a7](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.0a7) (2025-05-21)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.0a6...1.1.0a7)
-
-**Merged pull requests:**
-
-- Release 1.1.0a7 [\#158](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/158) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Missing French [\#157](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/157) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [1.1.0a6](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.0a6) (2025-05-20)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.0a5...1.1.0a6)
 
-**Merged pull requests:**
-
-- Release 1.1.0a6 [\#156](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/156) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Missing French [\#155](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/155) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
 ## [1.1.0a5](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.0a5) (2025-05-20)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.0a4...1.1.0a5)
-
-**Merged pull requests:**
-
-- Release 1.1.0a5 [\#154](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/154) ([github-actions[bot]](https://github.com/apps/github-actions))
-- da-dk/translate [\#153](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/153) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [1.1.0a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.0a4) (2025-05-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.0a2...1.1.0a4)
 
-**Merged pull requests:**
-
-- Missing French [\#150](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/150) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
 ## [1.1.0a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.0a2) (2025-05-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.0a1...1.1.0a2)
-
-**Merged pull requests:**
-
-- adding German translations for new intents [\#148](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/148) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [1.1.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.0a1) (2025-05-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.0.0a2...1.1.0a1)
 
-**Merged pull requests:**
-
-- feat: weekday for date intent [\#144](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/144) ([JarbasAl](https://github.com/JarbasAl))
-
 ## [1.0.0a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.0.0a2) (2025-05-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.0.0a1...1.0.0a2)
-
-**Merged pull requests:**
-
-- pt-pt/translate [\#142](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/142) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [1.0.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.0.0a1) (2025-05-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.21a1...1.0.0a1)
 
-**Breaking changes:**
-
-- refactor!: drop adapt in favor of padatious [\#140](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/140) ([JarbasAl](https://github.com/JarbasAl))
-
 ## [0.4.21a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.21a1) (2025-05-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.20...0.4.21a1)
-
-**Merged pull requests:**
-
-- fix: improve intents [\#138](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/138) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.4.20](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.20) (2025-05-15)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.20a1...0.4.20)
 
-**Merged pull requests:**
-
-- Release 0.4.20a1 [\#137](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/137) ([github-actions[bot]](https://github.com/apps/github-actions))
-
 ## [0.4.20a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.20a1) (2025-05-15)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.19a1...0.4.20a1)
-
-**Merged pull requests:**
-
-- fix: standardize urls / skill-id / pypi-name [\#136](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/136) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.4.19a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.19a1) (2025-05-15)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.18...0.4.19a1)
 
-**Merged pull requests:**
-
-- Release 0.4.19a1 [\#135](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/135) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Update Catalan strings [\#134](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/134) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
 ## [0.4.18](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.18) (2025-05-15)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.18a2...0.4.18)
-
-**Merged pull requests:**
-
-- Release 0.4.18a2 [\#133](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/133) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [0.4.18a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.18a2) (2025-05-15)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.18a1...0.4.18a2)
 
-**Merged pull requests:**
-
-- gl/translate [\#132](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/132) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
 ## [0.4.18a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.18a1) (2025-05-14)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.17...0.4.18a1)
-
-**Merged pull requests:**
-
-- Release 0.4.18a1 [\#131](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/131) ([github-actions[bot]](https://github.com/apps/github-actions))
-- gl/translate [\#130](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/130) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [0.4.17](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.17) (2025-05-14)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.17a2...0.4.17)
 
-**Merged pull requests:**
-
-- Release 0.4.17a2 [\#129](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/129) ([github-actions[bot]](https://github.com/apps/github-actions))
-
 ## [0.4.17a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.17a2) (2025-05-14)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.17a1...0.4.17a2)
-
-**Merged pull requests:**
-
-- gl/translate [\#128](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/128) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [0.4.17a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.17a1) (2025-04-11)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.16...0.4.17a1)
 
-**Merged pull requests:**
-
-- Release 0.4.17a1 [\#127](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/127) ([github-actions[bot]](https://github.com/apps/github-actions))
-- es-es/translate [\#126](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/126) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
 ## [0.4.16](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.16) (2025-04-11)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.16a1...0.4.16)
-
-**Merged pull requests:**
-
-- Release 0.4.16a1 [\#125](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/125) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [0.4.16a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.16a1) (2025-04-11)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.15a1...0.4.16a1)
 
-**Merged pull requests:**
-
-- fix: catalan matching [\#124](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/124) ([JarbasAl](https://github.com/JarbasAl))
-- es-es/translate [\#123](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/123) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-- Create skill.json [\#122](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/122) ([c-armentano](https://github.com/c-armentano))
-
 ## [0.4.15a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.15a1) (2025-03-29)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.14...0.4.15a1)
-
-**Merged pull requests:**
-
-- Release 0.4.15a1 [\#121](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/121) ([github-actions[bot]](https://github.com/apps/github-actions))
-- optimizing German translation for better usage [\#120](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/120) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [0.4.14](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.14) (2025-03-29)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.14a2...0.4.14)
 
-**Merged pull requests:**
-
-- Release 0.4.14a2 [\#119](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/119) ([github-actions[bot]](https://github.com/apps/github-actions))
-
 ## [0.4.14a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.14a2) (2025-03-29)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.14a1...0.4.14a2)
-
-**Merged pull requests:**
-
-- adding German translations for new intents [\#118](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/118) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-- adding German translations for new intents [\#117](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/117) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [0.4.14a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.14a1) (2025-03-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.13...0.4.14a1)
 
-**Merged pull requests:**
-
-- Release 0.4.14a1 [\#116](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/116) ([github-actions[bot]](https://github.com/apps/github-actions))
-- fix: disambiguate better between intents [\#115](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/115) ([JarbasAl](https://github.com/JarbasAl))
-
 ## [0.4.13](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.13) (2025-03-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.13a1...0.4.13)
-
-**Merged pull requests:**
-
-- Release 0.4.13a1 [\#114](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/114) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [0.4.13a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.13a1) (2025-03-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.12...0.4.13a1)
 
-**Merged pull requests:**
-
-- fix: catalan [\#113](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/113) ([JarbasAl](https://github.com/JarbasAl))
-
 ## [0.4.12](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.12) (2025-03-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.12a2...0.4.12)
-
-**Merged pull requests:**
-
-- Release 0.4.12a2 [\#112](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/112) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [0.4.12a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.12a2) (2025-03-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.12a1...0.4.12a2)
 
-**Merged pull requests:**
-
-- Intents [\#111](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/111) ([JarbasAl](https://github.com/JarbasAl))
-
 ## [0.4.12a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.12a1) (2025-03-26)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.11...0.4.12a1)
-
-**Merged pull requests:**
-
-- Release 0.4.12a1 [\#110](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/110) ([github-actions[bot]](https://github.com/apps/github-actions))
-- More intents [\#109](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/109) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.4.11](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.11) (2025-03-20)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.11a1...0.4.11)
 
-**Merged pull requests:**
-
-- Release 0.4.11a1 [\#108](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/108) ([github-actions[bot]](https://github.com/apps/github-actions))
-
 ## [0.4.11a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.11a1) (2025-03-20)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.10...0.4.11a1)
-
-**Merged pull requests:**
-
-- fix: improve translations [\#107](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/107) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.4.10](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.10) (2025-03-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.10a1...0.4.10)
 
-**Merged pull requests:**
-
-- Release 0.4.10a1 [\#106](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/106) ([github-actions[bot]](https://github.com/apps/github-actions))
-
 ## [0.4.10a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.10a1) (2025-03-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.9...0.4.10a1)
 
-**Merged pull requests:**
-
-- updating German translation [\#105](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/105) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
 ## [0.4.9](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.9) (2025-02-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.9a3...0.4.9)
-
-**Merged pull requests:**
-
-- Release 0.4.9a3 [\#104](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/104) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [0.4.9a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.9a3) (2025-02-27)
 
@@ -395,179 +898,85 @@
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.9a1...0.4.9a2)
 
-**Merged pull requests:**
-
-- Release 0.4.9a2 [\#103](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/103) ([github-actions[bot]](https://github.com/apps/github-actions))
-- nl-nl translations [\#102](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/102) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
 ## [0.4.9a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.9a1) (2025-02-09)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.8...0.4.9a1)
-
-**Merged pull requests:**
-
-- Release 0.4.9a1 [\#101](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/101) ([github-actions[bot]](https://github.com/apps/github-actions))
-- added italian translation [\#100](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/100) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [0.4.8](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.8) (2025-01-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.8a1...0.4.8)
 
-**Merged pull requests:**
-
-- Release 0.4.8a1 [\#99](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/99) ([github-actions[bot]](https://github.com/apps/github-actions))
-
 ## [0.4.8a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.8a1) (2025-01-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.7a2...0.4.8a1)
-
-**Merged pull requests:**
-
-- fix:catalan intents punctuation [\#98](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/98) ([JarbasAl](https://github.com/JarbasAl))
-- fix automations [\#97](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/97) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.4.7a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.7a2) (2024-12-29)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.7a1...0.4.7a2)
 
-**Closed issues:**
-
-- Strange voice behaviour [\#92](https://github.com/OpenVoiceOS/ovos-skill-date-time/issues/92)
-
-**Merged pull requests:**
-
-- Add Catalans strings [\#94](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/94) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-- adjusting German translation from joergz2 [\#93](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/93) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
 ## [0.4.7a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.7a1) (2024-12-04)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.6...0.4.7a1)
-
-**Merged pull requests:**
-
-- de-de/translate [\#91](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/91) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [0.4.6](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.6) (2024-12-02)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.6a1...0.4.6)
 
-**Merged pull requests:**
-
-- Release 0.4.6a1 [\#90](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/90) ([github-actions[bot]](https://github.com/apps/github-actions))
-
 ## [0.4.6a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.6a1) (2024-12-02)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.5...0.4.6a1)
-
-**Merged pull requests:**
-
-- import galician and basque translations [\#89](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/89) ([JarbasAl](https://github.com/JarbasAl))
 
 ## [0.4.5](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.5) (2024-12-02)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.5a2...0.4.5)
 
-**Merged pull requests:**
-
-- Release 0.4.5a2 [\#88](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/88) ([github-actions[bot]](https://github.com/apps/github-actions))
-
 ## [0.4.5a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.5a2) (2024-12-02)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.5a1...0.4.5a2)
-
-**Merged pull requests:**
-
-- import galician translations [\#87](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/87) ([JarbasAl](https://github.com/JarbasAl))
-- de-de/translate [\#86](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/86) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 ## [0.4.5a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.5a1) (2024-11-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.4...0.4.5a1)
 
-**Merged pull requests:**
-
-- da-dk/translate [\#85](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/85) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
 ## [0.4.4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.4) (2024-11-24)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.4a1...0.4.4)
-
-**Merged pull requests:**
-
-- Release 0.4.4a1 [\#84](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/84) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [0.4.4a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.4a1) (2024-11-24)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.3...0.4.4a1)
 
-**Merged pull requests:**
-
-- Add Catalan translation [\#83](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/83) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
 ## [0.4.3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.3) (2024-11-23)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.3a1...0.4.3)
-
-**Merged pull requests:**
-
-- Release 0.4.3a1 [\#82](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/82) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [0.4.3a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.3a1) (2024-11-23)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.2...0.4.3a1)
 
-**Merged pull requests:**
-
-- Add Catalan translation [\#81](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/81) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
 ## [0.4.2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.2) (2024-11-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.2a1...0.4.2)
-
-**Merged pull requests:**
-
-- Release 0.4.2a1 [\#80](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/80) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [0.4.2a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.2a1) (2024-11-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.1...0.4.2a1)
 
-**Merged pull requests:**
-
-- fix: long description type [\#79](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/79) ([JarbasAl](https://github.com/JarbasAl))
-
 ## [0.4.1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.1) (2024-11-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.1a2...0.4.1)
-
-**Merged pull requests:**
-
-- Release 0.4.1a2 [\#78](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/78) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [0.4.1a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.1a2) (2024-11-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.1a1...0.4.1a2)
 
-**Merged pull requests:**
-
-- fix:allow workshop 3.0.0 [\#77](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/77) ([JarbasAl](https://github.com/JarbasAl))
-- fix: skilljson [\#76](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/76) ([JarbasAl](https://github.com/JarbasAl))
-
 ## [0.4.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.1a1) (2024-11-12)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.0...0.4.1a1)
 
-**Merged pull requests:**
-
-- Added key word "welke" \("which"\) for "which day is it"\) [\#75](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/75) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-
 ## [0.4.0](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.0) (2024-11-12)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.4.0a1...0.4.0)
-
-**Merged pull requests:**
-
-- Release 0.4.0a1 [\#74](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/74) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [0.4.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.4.0a1) (2024-11-12)
 

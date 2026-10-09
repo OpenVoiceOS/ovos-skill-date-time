@@ -1,0 +1,22 @@
+{
+  "skill_id": "ovos-skill-date-time.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-date-time",
+  "name": "Data e ora",
+  "description": "Chiedi l'ora, la data, il giorno della settimana",
+  "examples": [
+    "Che ora è?",
+    "Che giorno è oggi",
+    "Quanti giorni mancano a 15 maggio",
+    "Qual'è la data di oggi",
+    "Che ore sono?",
+    "Che giorno della settimana è 15 maggio",
+    "Dammi l'ora a Parigi"
+  ],
+  "tags": [
+    "orologio",
+    "data",
+    "ora",
+    "domanda",
+    "informazione"
+  ]
+}

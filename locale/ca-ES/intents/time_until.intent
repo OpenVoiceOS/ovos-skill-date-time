@@ -1,0 +1,53 @@
+a quina distància està {date}
+a quina distància està {date} d'ara
+a quina distància està {date} d'avui
+com de lluny està {date}
+com de lluny està {date} d'ara
+com de lluny està {date} d'avui
+quan exactament serà {date}
+quan exactament és {date}
+quan va ser la anterior {date}
+quan va ser la següent {date}
+quan va ser la última {date}
+quan va ser {date}
+quan és la anterior {date}
+quan és la següent {date}
+quan és la última {date}
+quan és {date}
+quant de temps ens queda abans de {date}
+quant de temps ens queda fins a {date}
+quant de temps fa que va ser {date}
+quant de temps falta abans de {date}
+quant de temps falta fins a {date}
+quant de temps ha passat des de {date}
+quant de temps hi ha des d'ara fins a {date}
+quant és el temps que falta abans de {date}
+quant és el temps que falta fins a {date}
+quant és el temps restant abans de {date}
+quant és el temps restant fins a {date}
+quantes dies queden abans {date}
+quantes dies queden fins a {date}
+quantes dies resten abans {date}
+quantes dies resten fins a {date}
+quantes hores queden abans {date}
+quantes hores queden fins a {date}
+quantes hores resten abans {date}
+quantes hores resten fins a {date}
+quantes setmanes queden abans {date}
+quantes setmanes queden fins a {date}
+quantes setmanes resten abans {date}
+quantes setmanes resten fins a {date}
+quants dies fa que va ser {date}
+quants dies han passat des de {date}
+quants dies hi ha des d'ara fins a {date}?
+quin és el temps que falta abans de {date}
+quin és el temps que falta fins a {date}
+quin és el temps restant abans de {date}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Catalan speaker has read it.
+quin és el temps restant fins a {date}
+Quants dies falten per al 24 de juny
+# No Catalan speaker has read this file. Every line is a machine draft.
+quants dies hi ha entre {start} i {end}
+compta els dies entre {start} i {end}
+quants dies passen des de {start} fins a {end}
+calcula els dies que hi ha de {start} a {end}

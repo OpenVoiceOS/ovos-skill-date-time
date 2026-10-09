@@ -1,0 +1,12 @@
+quant(o (tempo|) manca|i giorni mancano) a {date} (da adesso|da oggi|)
+(quando|quanti giorni fa) (è stato|era|fu) (il|) {date}
+quant(o (tempo|) manca|i giorni mancano|e ore mancano|e settimane mancano) (prima di|fino a) {date}
+quando (è|sarà) (esattamente|precisamente|) {date}
+quando (è|sarà|era|fu) l'(ultimo|ultima) {date}
+quando (è|sarà|era|fu) (il|la) (prossimo|prossima|successivo|successiva) {date}
+quando (è|sarà|era|fu) (il|la) (precedente|passato|scorso|passata|scorsa) {date}
+# No Italian speaker has read this file. Every line is a machine draft.
+quanti giorni ci sono tra {start} e {end}
+quanti giorni passano da {start} a {end}
+conta i giorni tra {start} e {end}
+calcola i giorni da {start} a {end}

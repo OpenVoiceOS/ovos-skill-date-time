@@ -1,5 +1,0 @@
-{
-  "location.rx": [
-    "\\b(en|no|na|nos|nas|dentro de|dentro do|dentro da|dentro dos|dentro das|para) (?P<Location>.*)"
-  ]
-}
