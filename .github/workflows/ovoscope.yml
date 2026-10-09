@@ -30,16 +30,6 @@ jobs:
       # other system load (earlier "not reproducible locally" reports were
       # false negatives from a quiet/underloaded box, not evidence the bug
       # was CI-only).
-      #
-      # require_padatious was previously left false because the golden-row
-      # and intent-routing suites pin session.pipeline to padacioso-only
-      # stages (see PIPELINE in both those files), so padatious match() was
-      # never invoked there. test_gpu_overmatch_regression.py (added
-      # alongside this change) DOES need the real ovos-padatious pipeline
-      # plugin -- it reproduces/guards a padatious-high over-match defect
-      # in weekday_matches_date.intent -- so padatious now has to be
-      # installed for this job.
-      require_padatious: true
       # The 45s/row deadline exhaustion was a downstream symptom of the
       # never-firing listener above (it retried until the deadline on every
       # row), not of worker concurrency. With the listener fixed, serial

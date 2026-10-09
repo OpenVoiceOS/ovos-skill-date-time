@@ -30,3 +30,6 @@ wanneer zal het {number:offset} seconden zijn vanaf nu
 wanneer zal het {number:offset} uur zijn
 wanneer zijn het {number:offset} minuten in {location}
 wanneer zijn het {number:offset} seconden
+hoe laat zal het zijn na {number:offset} uur
+welke tijd geeft de klok aan over {number:offset} minuten
+reken uit hoe laat het over {number:offset} uur is

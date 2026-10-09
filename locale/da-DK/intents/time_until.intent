@@ -40,3 +40,20 @@ hvornår var den sidste {date}
 hvornår var {date}
 # Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Danish speaker has read it.
 Hvor mange dage indtil {date}
+hvor lang tid går der før vi når {date}
+hvor mange dage skal vi vente før {date}
+hvor længe skal jeg vente på at det bliver {date}
+fortæl mig hvor mange dage der mangler før {date}
+hvor mange dage er der (mellem|imellem) {start} og {end}
+hvor mange dage (mellem|imellem) {start} og {end}
+hvor mange dage er der fra {start} til {end}
+hvor mange dage fra {start} til {end}
+hvor mange dage går der fra {start} til {end}
+hvor mange dage går der (mellem|imellem) {start} og {end}
+hvor lang tid er der (mellem|imellem) {start} og {end}
+hvor lang tid er der fra {start} til {end}
+hvor langt er der (mellem|imellem) {start} og {end}
+tæl dagene (mellem|imellem) {start} og {end}
+tæl dagene fra {start} til {end}
+antal dage (mellem|imellem) {start} og {end}
+fortæl mig afstanden i dage fra {start} til {end}

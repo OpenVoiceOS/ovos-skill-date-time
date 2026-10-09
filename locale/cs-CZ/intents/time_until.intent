@@ -2,3 +2,8 @@ kolik času zbývá do {date} [prosím]
 za jak dlouho bude {date}
 kolik dní zbývá do {date}
 jak daleko je {date}
+# No Czech speaker has read this file. Every line is a machine draft.
+kolik dní je mezi {start} a {end}
+spočítej dny mezi {start} a {end}
+jak dlouho je to od {start} do {end}
+spočítej, kolik dní je od {start} do {end}

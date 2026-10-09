@@ -48,3 +48,9 @@ cómo de lejos está {date} de ahora
 # Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Spanish speaker has read it.
 cómo de lejos está {date} de hoy
 Cuantos días faltan para el 24 de junio
+# No Spanish speaker has read this file. Every line is a machine draft.
+cuántos días hay entre {start} y {end}
+cuántos días van de {start} a {end}
+cuenta los días entre {start} y {end}
+cuántos días pasan desde {start} hasta {end}
+calcula los días que hay de {start} a {end}

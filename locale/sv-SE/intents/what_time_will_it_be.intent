@@ -16,3 +16,7 @@ vad är klockan om {number:offset} timmar på {location}
 vad är klockan om {number:offset} timme
 vad är klockan om {number:offset} timme i {location}
 vad är klockan om {number:offset} timme på {location}
+vad är klockan om ett par timmar
+vad visar klockan efter {number:offset} timmar
+vilken tid är det om {number:offset} minuter
+räkna ut vad klockan är om {number:offset} timmar

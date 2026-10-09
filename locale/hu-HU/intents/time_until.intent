@@ -2,3 +2,8 @@ mennyi idő van hátra {date}-ig [kérlek]
 mikor lesz {date}
 hány nap van hátra {date}-ig
 mennyi van még {date}-ig
+# No Hungarian speaker has read this file. Every line is a machine draft.
+hány nap telik el {start} és {end} között
+számold meg a napokat {start} és {end} között
+hány nap választja el {start} és {end} napját
+számold ki a napokat {start} és {end} között

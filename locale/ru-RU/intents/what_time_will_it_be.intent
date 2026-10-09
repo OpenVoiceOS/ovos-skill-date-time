@@ -1,12 +1,17 @@
-когда это {number:offset} за считанные минуты
-когда это {number:offset} минут от этого в {location}
-когда это {number:offset} минуты
-когда это {number:offset} минуты в {location}
-когда это {number:offset} отныне
-когда это {number:offset} секунд
-когда это {number:offset} секунд в {location}
-когда это {number:offset} секунд от
-когда это {number:offset} секунд отныне в {location}
-когда это {number:offset} часы
-когда это {number:offset} часы в {location}
-когда это {number:offset} часы отныне в {location}
+который будет час через {number:offset} минуты
+который будет час в {location} через {number:offset} минут
+что будет на часах через {number:offset} минуты
+что будет на часах в {location} через {number:offset} минуты
+сколько будет на часах через {number:offset} минут
+который будет час через {number:offset} секунд
+который будет час в {location} через {number:offset} секунд
+что будет на часах через {number:offset} секунд
+что будет на часах в {location} через {number:offset} секунд
+что будет на часах через {number:offset} часа
+что будет на часах в {location} через {number:offset} часа
+который будет час в {location} через {number:offset} часов
+сколько времени будет через {number:offset} (минут|часа|часов)
+сколько времени будет в {location} через {number:offset} (минут|часа|часов)
+какое время будет через {number:offset} (минут|часа|часов)
+который час будет через {number:offset} (минут|часа|часов)
+который час будет через (два|три) часа

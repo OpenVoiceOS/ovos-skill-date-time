@@ -2,3 +2,8 @@
 چند روز تا {date} مانده
 {date} چه زمانی است
 چقدر زمان تا {date} باقی مانده
+# No Persian speaker has read this file. Every line is a machine draft.
+بین {start} و {end} چند روز فاصله است
+روزهای بین {start} و {end} را بشمار
+چند روز {start} را از {end} جدا می‌کند
+تعداد روزهای {start} تا {end} را حساب کن

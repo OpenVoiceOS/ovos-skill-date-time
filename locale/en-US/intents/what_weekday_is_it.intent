@@ -37,3 +37,6 @@ which day of the week is it
 which day of the week is today
 which weekday is it
 which weekday is today
+is today a (monday|tuesday|wednesday|thursday|friday|saturday|sunday)
+which weekday are we on today
+today is (monday|friday|saturday), right

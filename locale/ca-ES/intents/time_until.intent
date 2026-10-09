@@ -46,3 +46,8 @@ quin és el temps restant abans de {date}
 # Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Catalan speaker has read it.
 quin és el temps restant fins a {date}
 Quants dies falten per al 24 de juny
+# No Catalan speaker has read this file. Every line is a machine draft.
+quants dies hi ha entre {start} i {end}
+compta els dies entre {start} i {end}
+quants dies passen des de {start} fins a {end}
+calcula els dies que hi ha de {start} a {end}

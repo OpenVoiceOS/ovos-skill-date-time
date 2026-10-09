@@ -82,3 +82,10 @@ si j'attends {number:offset} minutes quelle heure sera-t-il aux {location}
 si j'attends {number:offset} minutes quelle heure sera-t-il dans {location}
 si j'attends {number:offset} minutes quelle heure sera-t-il en {location}
 si j'attends {number:offset} minutes quelle heure sera-t-il à {location}
+dans {number:offset} (heure|heures|minutes) quelle heure sera-t-il
+dans {number:offset} (heures|minutes) il sera quelle heure
+quelle heure sera-t-il dans {number:offset} (heure|heures|minutes) (en|à|au) {location}
+tu peux me dire quelle heure il sera dans {number:offset} heures
+quelle heure sera-t-il dans deux heures
+dans trois heures il sera quelle heure à {location}
+quelle heure il sera dans dix minutes

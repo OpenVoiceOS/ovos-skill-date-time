@@ -382,3 +382,7 @@ que horas é {number:offset} minutos a partir de agora em {location}
 que horas é {number:offset} segundos
 que horas é {number:offset} segundos a partir de agora
 que horas é {number:offset} segundos a partir de agora em {location}
+que horas marcará o relógio dentro de {number:offset} minutos
+que horas vão ser daqui a {number:offset} horas
+calcula que horas vão ser passadas {number:offset} horas
+que horas serão depois de passarem {number:offset} minutos

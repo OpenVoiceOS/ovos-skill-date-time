@@ -16,3 +16,5 @@ Welche Uhrzeit ist es wenn ich {number:offset} Minuten warte
 Wie spät ist es in {number:offset} Minuten bei mir
 Wie viel Uhr ist es in {number:offset} Minuten bei mir
 Welche Uhrzeit ist es in {number:offset} Minuten bei mir
+welche Uhrzeit haben wir nach {number:offset} Stunden
+sag mir die Uhrzeit in {number:offset} Minuten

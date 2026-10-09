@@ -30,15 +30,14 @@ def _typed(utterance, surface, value):
 
 
 def _bound(samples, utterance, surface, value, slot):
-    """The surface padatious binds for `slot`, with a map listing `surface`."""
-    from ovos_padatious.opm import PadatiousPipeline
-    pipeline = PadatiousPipeline(FakeBus(), {"instant_train": True})
+    """The surface padacioso binds for `slot`, with a map listing `surface`."""
+    from padacioso.opm import PadaciosoPipeline
+    pipeline = PadaciosoPipeline(FakeBus())
     data = {"name": f"{SKILL_ID}:what_time_will_it_be", "skill_id": SKILL_ID,
             "lang": LANG, "samples": [s for t in samples for s in expand(t)],
             "slot_types": declared_slot_types(samples)}
     pipeline.register_intent(Message("padatious:register_intent", data,
                                      {"skill_id": SKILL_ID}))
-    pipeline.train(Message("mycroft.skills.train", {}, {}))
     message = Message("recognizer_loop:utterance",
                       {"utterances": [utterance], "lang": LANG,
                        "typed_slots": _typed(utterance, surface, value)}, {})
@@ -55,7 +54,7 @@ def _engine():
                   "timer {number:amount} minutes"],
                  "set a timer for about twenty minutes", "twenty", 20, "amount")
     kind = {"twenty": "honouring", "about twenty": "degrading"}.get(got)
-    return kind, f"ovos-padatious {version('ovos-padatious')} ({kind}, control bound {got!r})"
+    return kind, f"padacioso {version('padacioso')} ({kind}, control bound {got!r})"
 
 
 class TestOffsetIsTyped(unittest.TestCase):

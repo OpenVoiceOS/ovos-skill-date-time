@@ -3,3 +3,10 @@ jaké je dnes číslo
 jaký je dnes den v měsíci
 kolikátého dneska je
 jaké je dnes číslo v {location}
+jaké je dnes datum [prosím]
+řekni mi dnešní datum
+jaké je dnes datum v {location}
+jaký je dnešní den, měsíc a rok
+můžeš mi říct dnešní datum
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Czech speaker has read it.
+Jaké je datum

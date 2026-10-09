@@ -4,3 +4,7 @@ acḥal n wussan i d-yeqqimen ar {date}
 acḥal n lweqt i d-yeqqimen ar {date}
 # Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Kabyle speaker has read it.
 Acḥal n wussan i d-yeqqimen ɣer {date}
+# No Kabyle speaker has read this file. Every line is a machine draft.
+acḥal n wussan i yellan gar {start} d {end}
+acḥal n wussan seg {start} ar {end}
+ini-yi-d amḍan n wussan seg {start} ar {end}

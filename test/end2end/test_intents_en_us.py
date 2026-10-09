@@ -23,7 +23,7 @@ from unittest import TestCase, mock
 import pytz
 from ovos_bus_client.message import Message
 from ovos_bus_client.session import Session
-from ovos_date_parser import nice_date, nice_day, nice_month, nice_time, nice_year
+from ovos_date_parser import nice_date, nice_month, nice_time, nice_year
 from ovoscope import get_minicroft
 
 SKILL_ID = "ovos-skill-date-time.openvoiceos"
@@ -86,8 +86,8 @@ _LOCAL_DT = FROZEN_UTC.astimezone(pytz.timezone(PINNED_TZ))
 # Expected values, one per intent, each computed by ovos_date_parser against
 # the frozen/pinned datetime with the exact arguments the handler itself
 # passes (see __init__.py: handle_query_time -> nice_time(..., use_24hour=
-# False, use_ampm=True) when no location slot; handle_current_date ->
-# nice_date(dt, lang); handle_current_day -> nice_day(now, lang);
+# False, use_ampm=True) when no location slot; handle_current_day ->
+# nice_date(dt, lang);
 # handle_current_month -> nice_month(now, lang); handle_current_year ->
 # nice_year(now, lang)). Using the same well-tested formatting library the
 # skill imports still verifies what the *skill* does on its own: that it
@@ -105,15 +105,10 @@ _EFFECTS = {
         # and this row is the same clock at 12:30 in the afternoon.
         "value": nice_time(_LOCAL_DT, lang=LANG, speech=True, use_24hour=False, use_ampm=True),
     },
-    "current_date.intent": {
+    "what_day_is_it.intent": {
         "dialog": "date",
         "slot": "date",
         "value": nice_date(_LOCAL_DT, lang=LANG),
-    },
-    "what_day_is_it.intent": {
-        "dialog": "day_current",
-        "slot": "day",
-        "value": nice_day(_LOCAL_DT, lang=LANG),
     },
     "what_month_is_it.intent": {
         "dialog": "month_current",
@@ -271,17 +266,16 @@ class TestIntentRouting(TestCase):
     def test_what_time_is_it_effect(self):
         self._assert_effect("what time is it", "what_time_is_it.intent")
 
-    # --- current_date.intent ---
+    # --- what_day_is_it.intent: day and date requests share one intent ---
     def test_what_date_is_it(self):
-        self._assert_intent("what date is it", "current_date.intent")
+        self._assert_intent("what date is it", "what_day_is_it.intent")
 
     def test_tell_me_the_date(self):
-        self._assert_intent("tell me the date", "current_date.intent")
+        self._assert_intent("tell me the date", "what_day_is_it.intent")
 
     def test_what_date_is_it_effect(self):
-        self._assert_effect("what date is it", "current_date.intent")
+        self._assert_effect("what date is it", "what_day_is_it.intent")
 
-    # --- what_day_is_it.intent ---
     def test_what_day_is_it(self):
         self._assert_intent("what day is it", "what_day_is_it.intent")
 

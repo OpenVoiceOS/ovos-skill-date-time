@@ -33,3 +33,8 @@ zer ordu izango da {number:offset} ordura
 zer ordu izango da {number:offset} ordura leku honetan: {location}
 zer ordu izango da {number:offset} segundora
 zer ordu izango da {number:offset} segundora leku honetan: {location}
+{number:offset} (minutu|ordu) barru zer ordu izango da
+zer ordu izango da {number:offset} (minutu|ordu) igarotzen direnean
+esadazu zer ordu izango den {number:offset} ordu igaro ondoren
+zer ordu markatuko du erlojuak {number:offset} minutu barru
+kalkulatu zer ordu izango den {number:offset} ordu geroago
