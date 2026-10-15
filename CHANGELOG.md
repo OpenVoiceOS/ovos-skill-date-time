@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.11.9a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.9a1) (2026-10-15)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.8a1...1.11.9a1)
+
+**Merged pull requests:**
+
+- fix: Polish future-time phrasings agree with their number [\#468](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/468) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [1.11.8a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.8a1) (2026-10-09)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.7a2...1.11.8a1)
