@@ -1,0 +1,66 @@
+diga'm quin dia de la setmana era {date}
+diga'm quin dia de la setmana és {date}
+diga'm quin dia era {date}
+diga'm quin dia feiner era {date}
+diga'm quin dia feiner és {date}
+diga'm quin dia és {date}
+em pots dir el dia de la setmana de {date}
+em pots dir el dia laborable de {date}
+em pots dir quin dia de la setmana era {date}
+em pots dir quin dia de la setmana és {date}
+em pots dir quin dia era {date}
+em pots dir quin dia feiner era {date}
+em pots dir quin dia feiner és {date}
+em pots dir quin dia és {date}
+em saps dir el dia de la setmana de {date}
+em saps dir el dia laborable de {date}
+en quin dia cau {date}
+en quin dia de la setmana cau {date}
+en quin dia de la setmana era {date}
+en quin dia de la setmana serà {date}
+en quin dia de la setmana és {date}
+en quin dia era {date}
+en quin dia feiner cau {date}
+en quin dia feiner era {date}
+en quin dia feiner serà {date}
+en quin dia feiner és {date}
+en quin dia serà {date}
+en quin dia és {date}
+era {date} un dijous
+era {date} un dilluns
+era {date} un dimarts
+era {date} un dimecres
+era {date} un dissabte
+era {date} un diumenge
+era {date} un divendres
+quin dia de la setmana era a {date}
+quin dia de la setmana era {date}
+quin dia de la setmana és a {date}
+quin dia de la setmana és {date}
+quin dia era {date}
+quin dia feiner era {date}
+quin dia feiner és {date}
+quin dia laborable era a {date}
+quin dia laborable és a {date}
+quin dia és {date}
+quin és el dia de la setmana de {date}
+quin és el dia laborable de {date}
+saps quin dia de la setmana era {date}
+saps quin dia de la setmana és {date}
+saps quin dia era {date}
+saps quin dia feiner era {date}
+saps quin dia feiner és {date}
+saps quin dia és {date}
+vull saber quin dia de la setmana era {date}
+vull saber quin dia de la setmana és {date}
+vull saber quin dia era {date}
+vull saber quin dia feiner era {date}
+vull saber quin dia feiner és {date}
+vull saber quin dia és {date}
+és {date} un dijous
+és {date} un dilluns
+és {date} un dimarts
+és {date} un dimecres
+és {date} un dissabte
+és {date} un diumenge
+és {date} un divendres

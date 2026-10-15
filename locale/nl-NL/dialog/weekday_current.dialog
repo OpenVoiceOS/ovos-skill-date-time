@@ -1,0 +1,4 @@
+Het is {weekday}
+Het is vandaag {weekday}
+De huidige weekdag is {weekday}
+Vandaag is {weekday}

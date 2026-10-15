@@ -1,0 +1,23 @@
+Welcher Wochentag ist {date}
+Welcher Wochentag war {date}
+Welcher Wochentag wird {date} sein
+Welcher Tag ist {date}
+Welcher Tag war {date}
+Welcher Tag wird {date} sein
+Was für ein Wochentag ist {date}
+Was für ein Wochentag war {date}
+Was für ein Wochentag wird {date} sein
+Was ist der Wochentag für {date}
+Auf welchen Wochentag fällt {date}
+Auf welchen Tag fällt {date}
+An welchem Wochentag ist {date}
+An welchem Wochentag war {date}
+An welchem Wochentag wird {date} sein
+Kannst du mir sagen welcher Wochentag {date} ist
+Kannst du mir sagen welcher Wochentag {date} war
+Kannst du mir sagen welcher Wochentag {date} sein wird
+Weißt du welcher Wochentag {date} ist
+Weißt du welcher Wochentag {date} war
+Weißt du welcher Wochentag {date} sein wird
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no German speaker has read it.
+Welcher Tag ist der Memorial Day 2020

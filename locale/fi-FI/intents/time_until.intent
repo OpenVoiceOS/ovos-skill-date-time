@@ -1,0 +1,8 @@
+kuinka paljon aikaa on jäljellä päivään {date} [kiitos]
+milloin on {date}
+kuinka monta päivää on jäljellä päivään {date}
+kuinka kaukana on {date}
+# No Finnish speaker has read this file. Every line is a machine draft.
+kuinka monta päivää on {start} ja {end} välissä
+laske päivät {start} ja {end} välillä
+laske päivien määrä {start} ja {end} välillä

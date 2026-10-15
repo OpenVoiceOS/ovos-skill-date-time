@@ -1,0 +1,39 @@
+há quanto tempo foi {date}
+há quantos dias foi {date}
+quando exatamente será {date}
+quando exatamente é {date}
+quando foi a anterior {date}
+quando foi a próxima {date}
+quando foi a última {date}
+quando foi {date}
+quando é a anterior {date}
+quando é a próxima {date}
+quando é a última {date}
+quando é {date}
+quantas dias restam antes {date}
+quantas dias restam até {date}
+quantas horas restam antes {date}
+quantas horas restam até {date}
+quantas semanas restam antes {date}
+quantas semanas restam até {date}
+quanto tempo ainda falta antes {date}
+quanto tempo ainda falta até {date}
+quanto tempo falta antes de {date}
+quanto tempo temos antes {date}
+quanto tempo temos até {date}
+quanto tempo vai demorar para {date}
+quantos dias a partir de agora é {date}
+quão longe distante está {date}
+quão longe distante está {date} de agora
+quão longe distante está {date} de hoje
+quão longe fora está {date}
+quão longe fora está {date} de agora
+quão longe fora está {date} de hoje
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no European Portuguese speaker has read it.
+Quantos dias faltam para {date}
+# No Portuguese speaker has read this file. Every line is a machine draft.
+quantos dias há entre {start} e {end}
+quantos dias vão de {start} a {end}
+conta os dias entre {start} e {end}
+quantos dias separam {start} de {end}
+calcula os dias de {start} até {end}
