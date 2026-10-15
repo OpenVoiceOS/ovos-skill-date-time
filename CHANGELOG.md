@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.11.10a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.10a1) (2026-10-15)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.9a1...1.11.10a1)
+
+**Merged pull requests:**
+
+- fix\(locale\): ca-ES elision and contraction in date and time phrasings [\#471](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/471) ([JarbasAl](https://github.com/JarbasAl))
+- fix\(locale\): ru-RU future-time phrasings agree with their number [\#470](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/470) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [1.11.9a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.9a1) (2026-10-15)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.8a1...1.11.9a1)
@@ -381,10 +390,6 @@
 ## [1.9.1a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.9.1a1) (2026-09-23)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.9.0a1...1.9.1a1)
-
-**Merged pull requests:**
-
-- fix\(locale\): drop the bare {slot} line \#350 copied into six locales [\#367](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/367) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
 
 ## [1.9.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.9.0a1) (2026-09-23)
 
