@@ -6,13 +6,13 @@ com de lluny està {date} d'ara
 com de lluny està {date} d'avui
 quan exactament serà {date}
 quan exactament és {date}
-quan va ser la anterior {date}
+quan va ser l'anterior {date}
 quan va ser la següent {date}
-quan va ser la última {date}
+quan va ser l'última {date}
 quan va ser {date}
-quan és la anterior {date}
+quan és l'anterior {date}
 quan és la següent {date}
-quan és la última {date}
+quan és l'última {date}
 quan és {date}
 quant de temps ens queda abans de {date}
 quant de temps ens queda fins a {date}
