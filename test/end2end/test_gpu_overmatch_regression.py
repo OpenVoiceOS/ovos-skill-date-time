@@ -1,7 +1,7 @@
 """Regression test: date-time must not steal "is there a gpu in your
 system" from ovos-skill-diagnostics under the REAL default pipeline.
 
-Root cause (pre-fix): ``locale/en-US/intents/weekday_matches_date.intent``
+Root cause (pre-fix): ``locale/en-US/intents/weekday_for_date.intent``
 carried two bare, unqualified samples --
 
     is {date} a {weekday}
@@ -23,7 +23,7 @@ system" style utterances.
 
 This test boots a two-skill MiniCroft (date-time + diagnostics) under the
 shape of the OVOS default pipeline, with the padacioso high tier in the
-template-engine slot, and asserts date-time's weekday_matches_date intent no
+template-engine slot, and asserts date-time's weekday_for_date intent no
 longer claims the utterance.
 
 Run: pytest test/end2end/test_gpu_overmatch_regression.py -v --timeout=150
@@ -39,7 +39,7 @@ from padacioso import IntentContainer
 
 INTENT_FILE = os.path.join(
     os.path.dirname(__file__), "..", "..",
-    "locale", "en-US", "intents", "weekday_matches_date.intent")
+    "locale", "en-US", "intents", "weekday_for_date.intent")
 
 DATE_TIME_SKILL_ID = "ovos-skill-date-time.openvoiceos"
 DIAGNOSTICS_SKILL_ID = "ovos-skill-diagnostics.openvoiceos"
@@ -62,9 +62,9 @@ REAL_DEFAULT_PIPELINE = [
 
 UTTERANCE = "is there a gpu in your system"
 
-# date-time's own weekday_matches_date intent event, the thing that used to
+# date-time's own weekday_for_date intent event, the thing that used to
 # fire (falsely) for this utterance.
-DATE_TIME_EVENT = f"{DATE_TIME_SKILL_ID}:weekday_matches_date"
+DATE_TIME_EVENT = f"{DATE_TIME_SKILL_ID}:weekday_for_date"
 
 
 class TestGpuOvermatchEngineLevel(TestCase):
@@ -72,7 +72,7 @@ class TestGpuOvermatchEngineLevel(TestCase):
     (no MiniCroft boot): a bare "is {date} a {weekday}" sample matches "is
     there a gpu in your system" token for token, so padacioso returns it
     with full confidence. With only the qualified samples, the utterance
-    does not match weekday_matches_date at a high-tier confidence.
+    does not match weekday_for_date at a high-tier confidence.
     """
 
     def test_confidence_no_longer_near_perfect(self):
@@ -80,12 +80,12 @@ class TestGpuOvermatchEngineLevel(TestCase):
             samples = [line.strip() for line in f
                        if line.strip() and not line.startswith("#")]
         container = IntentContainer(fuzz=False)
-        container.add_intent("weekday_matches_date", samples)
+        container.add_intent("weekday_for_date", samples)
         data = container.calc_intent(UTTERANCE) or {}
         conf = data.get("conf", 0.0) if data.get("name") else 0.0
         self.assertLess(
             conf, 0.8,
-            f"weekday_matches_date still near-perfectly matches the "
+            f"weekday_for_date still near-perfectly matches the "
             f"GPU utterance (conf={conf}); over-general sample(s) "
             f"not fully removed")
 

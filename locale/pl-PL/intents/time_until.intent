@@ -1,7 +1,7 @@
-ile czasu zostało do {date} [proszę]
-kiedy będzie {date}
-ile dni zostało do {date}
-jak daleko jest {date}
+ile czasu zostało do {date:date} [proszę]
+kiedy będzie {date:date}
+ile dni zostało do {date:date}
+jak daleko jest {date:date}
 # No Polish speaker has read this file. Every line is a machine draft.
 ile dni jest między {start} a {end}
 policz dni między {start} a {end}

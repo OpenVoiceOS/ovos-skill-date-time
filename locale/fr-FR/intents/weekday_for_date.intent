@@ -1,14 +1,42 @@
-dis-moi quel jour de la semaine était {date}
-dis-moi quel jour tombe {date}
-le {date} tombe quel jour
-peux-tu me dire quel jour de la semaine est {date}
-peux-tu me dire quel jour tombe {date}
-quel est le jour de la semaine du {date}
-quel jour de la semaine est {date}
-quel jour de la semaine tombe {date}
-quel jour de la semaine était {date}
-quel jour est {date}
-quel jour tombe {date}
-quel jour était {date}
-{date} c'était quel jour
-{date} tombe quel jour
+dis-moi quel jour de la semaine était {date:date}
+dis-moi quel jour tombe {date:date}
+le {date:date} tombe quel jour
+peux-tu me dire quel jour de la semaine est {date:date}
+peux-tu me dire quel jour tombe {date:date}
+quel est le jour de la semaine du {date:date}
+quel jour de la semaine est {date:date}
+quel jour de la semaine tombe {date:date}
+quel jour de la semaine était {date:date}
+quel jour est {date:date}
+quel jour tombe {date:date}
+quel jour était {date:date}
+{date:date} c'était quel jour
+{date:date} tombe quel jour
+c'est quel jour aujourd'hui
+dis-moi le jour de la semaine
+donne-moi le jour de la semaine
+est-ce dimanche aujourd'hui
+est-ce jeudi aujourd'hui
+est-ce lundi aujourd'hui
+est-ce mardi aujourd'hui
+est-ce mercredi aujourd'hui
+est-ce samedi aujourd'hui
+est-ce vendredi aujourd'hui
+nous sommes quel jour
+on est quel jour
+quel jour de la semaine est-on
+quel jour de la semaine sommes-nous
+quel jour on est
+quel jour sommes-nous aujourd'hui
+sommes-nous dimanche
+sommes-nous jeudi
+sommes-nous lundi
+sommes-nous mardi
+sommes-nous mercredi
+sommes-nous samedi
+sommes-nous vendredi
+aujourd'hui c'est quel jour
+est-ce que {date:date} tombe un {weekday}
+le {date:date} tombe-t-il un {weekday}
+le {date:date} tombait-il un {weekday}
+le {date:date} tombera-t-il un {weekday}

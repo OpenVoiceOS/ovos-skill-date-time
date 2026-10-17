@@ -1,4 +1,16 @@
-che giorno della settimana è {date} [per favore]
-in che giorno cade {date}
-dimmi che giorno è {date}
-che giorno sarà {date}
+che giorno della settimana è {date:date} [per favore]
+in che giorno cade {date:date}
+dimmi che giorno è {date:date}
+che giorno sarà {date:date}
+che giorno della settimana è oggi [per favore]
+che giorno è oggi
+in che giorno della settimana siamo
+dimmi che giorno della settimana è oggi
+in quale giorno della settimana ci troviamo
+che giorno è oggi della settimana
+oggi è lunedì o martedì o che giorno
+ricordami il giorno della settimana di oggi
+cade {date:date} di {weekday} [per favore]
+è {date:date} di {weekday}
+era {date:date} di {weekday}
+sarà {date:date} di {weekday}
