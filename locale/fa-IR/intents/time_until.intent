@@ -1,7 +1,7 @@
-چقدر تا {date} مانده است [لطفا]
-چند روز تا {date} مانده
-{date} چه زمانی است
-چقدر زمان تا {date} باقی مانده
+چقدر تا {date:date} مانده است [لطفا]
+چند روز تا {date:date} مانده
+{date:date} چه زمانی است
+چقدر زمان تا {date:date} باقی مانده
 # No Persian speaker has read this file. Every line is a machine draft.
 بین {start} و {end} چند روز فاصله است
 روزهای بین {start} و {end} را بشمار

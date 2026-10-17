@@ -1,7 +1,7 @@
-mennyi idő van hátra {date}-ig [kérlek]
-mikor lesz {date}
-hány nap van hátra {date}-ig
-mennyi van még {date}-ig
+mennyi idő van hátra {date:date}-ig [kérlek]
+mikor lesz {date:date}
+hány nap van hátra {date:date}-ig
+mennyi van még {date:date}-ig
 # No Hungarian speaker has read this file. Every line is a machine draft.
 hány nap telik el {start} és {end} között
 számold meg a napokat {start} és {end} között

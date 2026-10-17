@@ -219,18 +219,48 @@ class TimeSkill(OVOSSkill):
             self.resources.static[cache_key] = values
         return self.resources.static[cache_key]
 
-    def _get_requested_weekday(self, message):
-        """Extract the requested weekday from intent-matched entities."""
-        weekday_name = (message.data.get("weekday") or "").strip().lower()
-        if not weekday_name:
-            return None
+    def _get_named_weekday(self, utterance: str) -> Optional[int]:
+        """Return the index of the first weekday the utterance names."""
+        text = utterance.casefold()
+        for index, name in enumerate(self._load_cached_entity("weekday")):
+            if re.search(rf"(?<!\w){re.escape(name.casefold())}(?!\w)", text):
+                return index
+        return None
 
-        weekdays = [day.lower() for day in self._load_cached_entity("weekday")]
-        try:
-            weekday_index = weekdays.index(weekday_name)
-        except ValueError:
-            return None
-        return weekday_index, self._render_weekday(weekday_index)
+    def _is_yes_no_question(self, utterance: str) -> bool:
+        """Check whether the utterance opens or closes with a yes/no marker."""
+        words = utterance.casefold().split()
+        return any(self.voc_match(part, "yes_no_indicator", lang=self.lang)
+                   for part in (" ".join(words[:2]), " ".join(words[-1:])) if part)
+
+    def _get_requested_date(self, message, now, ignore: Optional[str] = None):
+        """Return the date a weekday request is about.
+
+        The ``date`` slot is tried first, then the whole utterance, because an
+        engine may bind no slot or a junk one. ``ignore`` is a word to blank out
+        first, such as the weekday a yes/no question names, which an engine may
+        capture inside the slot. A request that names no date is about today.
+        """
+        for text in (message.data.get("date"), message.data.get("utterance")):
+            if text and ignore:
+                text = re.sub(rf"(?<!\w){re.escape(ignore)}(?!\w)", " ", text,
+                              flags=re.IGNORECASE)
+            if not text:
+                continue
+            words = text.split()
+            # blanking the weekday can leave its article behind: "a week from
+            # today a"; shorter prefixes are tried until one parses
+            prefixes = range(len(words), 0, -1) if ignore else [len(words)]
+            for end in prefixes:
+                try:
+                    found = extract_datetime(" ".join(words[:end]),
+                                             anchorDate=now, lang=self.lang)
+                except Exception:
+                    self.log.exception(f"failed to extract date from '{text}'")
+                    break
+                if found and found[0]:
+                    return found[0]
+        return now
 
     def _render_weekday(self, weekday_index: int) -> str:
         """Render a localized weekday from a weekday index."""
@@ -589,42 +619,51 @@ class TimeSkill(OVOSSkill):
             self.speak_dialog("date", {"date": spoken})
         self.show_date(now, location=location)
 
-    # TODO - merge with weekday_for_date.intent
-    #  use voc_match or something to disambiguate
-    @intent_handler("what_weekday_is_it.intent")
-    def handle_current_weekday(self, message):
-        """
-        Handles queries about the current weekday and speaks the name of today's weekday.
-        
-        Responds to user requests for the current weekday by retrieving the localized current date and speaking the corresponding weekday name.
-        """
-        now = self.get_datetime()  # session aware
-        self.speak_dialog("weekday_current",
-                          {"weekday": nice_weekday(now, lang=self.lang)})
-
     @intent_handler("weekday_for_date.intent")
     def handle_weekday(self, message):
-        """
-        Handles queries about the weekday for a specific date.
-        
-        Extracts a date from the user's message and responds with the weekday name and a contextual dialog indicating whether the date is in the past or future. If no date can be extracted, speaks an error dialog.
+        """Speak the weekday of a date, or answer a yes/no weekday question.
+
+        A request that names no date is about today. A yes/no question that
+        names a weekday gets the yes/no dialogs.
         """
         now = self.get_datetime()  # session aware
-        dt, _ = extract_datetime(message.data.get("date") or message.data["utterance"],
-                                 anchorDate=now, lang=self.lang) or (None, None)
-        if not dt:
-            self.speak_dialog("extract_date_error")
+        utterance = message.data.get("utterance", "")
+        named = self._get_named_weekday(utterance)
+        if named is not None and self._is_yes_no_question(utterance):
+            ignore = self._load_cached_entity("weekday")[named]
+            dt = self._get_requested_date(message, now, ignore=ignore)
+            self._speak_weekday_match(dt, now, named)
             return
 
-        if dt >= now:
-            dialog = "weekday_at_date_future"
-        else:
-            dialog = "weekday_at_date_past"
-        # TODO - "today" should never trigger this intent, but if it does,
-        #  should we handle it better? nice_date will return "today" in that case
+        dt = self._get_requested_date(message, now)
+        if dt.date() == now.date():
+            self.speak_dialog("weekday_current",
+                              {"weekday": nice_weekday(now, lang=self.lang)})
+            return
+        dialog = ("weekday_at_date_future" if dt.date() > now.date()
+                  else "weekday_at_date_past")
         self.speak_dialog(dialog, {
-                "date": nice_date(dt, lang=self.lang, now=now),
-                "weekday": nice_weekday(dt, lang=self.lang)})
+            "date": nice_date(dt, lang=self.lang, now=now),
+            "weekday": nice_weekday(dt, lang=self.lang)})
+
+    def _speak_weekday_match(self, dt, now, expected_weekday: int):
+        """Answer whether a date falls on the weekday the user named."""
+        data = {
+            "date": nice_date(dt, lang=self.lang, now=now),
+            "weekday": self._render_weekday(expected_weekday),
+            "actual_weekday": nice_weekday(dt, lang=self.lang)
+        }
+        matches = dt.weekday() == expected_weekday
+        if dt.date() > now.date():
+            dialog = ("weekday_matches_date_future_yes" if matches
+                      else "weekday_matches_date_future_no")
+        elif dt.date() == now.date():
+            dialog = ("weekday_matches_date_today_yes" if matches
+                      else "weekday_matches_date_today_no")
+        else:
+            dialog = ("weekday_matches_date_past_yes" if matches
+                      else "weekday_matches_date_past_no")
+        self.speak_dialog(dialog, data)
 
     def _speak_days_between(self, message):
         """Count the calendar days between two dates named in the utterance.
@@ -660,44 +699,6 @@ class TimeSkill(OVOSSkill):
             "num_days": nice_duration(num_days * 86400, lang=self.lang).strip(),
             "from_date": nice_date(start, lang=self.lang, now=now),
             "to_date": nice_date(end, lang=self.lang, now=now)})
-
-    @intent_handler("weekday_matches_date.intent")
-    def handle_weekday_match(self, message):
-        """Handle yes/no questions about whether a date matches a weekday."""
-        now = self.get_datetime()  # session aware
-        utterance = message.data.get("utterance", "")
-        weekday = self._get_requested_weekday(message)
-        dt, _ = extract_datetime(message.data.get("date") or utterance,
-                                 anchorDate=now, lang=self.lang) or (None, None)
-        if not dt or weekday is None:
-            self.speak_dialog("extract_date_error")
-            return
-
-        expected_weekday, expected_name = weekday
-        data = {
-            "date": nice_date(dt, lang=self.lang, now=now),
-            "weekday": expected_name,
-            "actual_weekday": nice_weekday(dt, lang=self.lang)
-        }
-        if dt.date() > now.date():
-            dialog = (
-                "weekday_matches_date_future_yes"
-                if dt.weekday() == expected_weekday
-                else "weekday_matches_date_future_no"
-            )
-        elif dt.date() == now.date():
-            dialog = (
-                "weekday_matches_date_today_yes"
-                if dt.weekday() == expected_weekday
-                else "weekday_matches_date_today_no"
-            )
-        else:
-            dialog = (
-                "weekday_matches_date_past_yes"
-                if dt.weekday() == expected_weekday
-                else "weekday_matches_date_past_no"
-            )
-        self.speak_dialog(dialog, data)
 
     @intent_handler("what_month_is_it.intent")
     def handle_current_month(self, message):
