@@ -583,7 +583,7 @@ class TimeSkill(OVOSSkill):
             return
         try:
             spoken = nice_date(now, lang=self.lang)
-        except KeyError:  # ovos-date-parser has no date format for the language
+        except (KeyError, NotImplementedError):  # ovos-date-parser has no date format for the language
             self.speak_dialog("day_current", {"day": nice_day(now, lang=self.lang)})
         else:
             self.speak_dialog("date", {"date": spoken})

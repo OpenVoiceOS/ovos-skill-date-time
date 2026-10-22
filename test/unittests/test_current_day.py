@@ -77,11 +77,29 @@ class TestCurrentDay(unittest.TestCase):
         self.assertTrue(data["date"].startswith("Sonntag"), data)
         self.assertIn("September", data["date"])
 
-    def test_a_language_without_a_date_format_gets_the_day(self):
-        # ovos-date-parser formats no tr date; the day_current answer stays
-        key, data = self._ask("bugün günlerden ne", lang="tr-TR")
+    def test_a_language_the_parser_has_no_date_format_for_gets_the_day(self):
+        # "xx-XX" is no language: the real parser rejects it, nothing is mocked
+        key, data = self._ask("what day is it", lang="xx-XX")
         self.assertEqual(key, "day_current")
         self.assertEqual(data["day"], "27 September")
+
+    def test_either_error_of_the_parser_gets_the_day(self):
+        # ovos-date-parser raises KeyError today and NotImplementedError once
+        # it signals an unformattable language as nice_time does
+        for error in (KeyError("xx"),
+                      NotImplementedError("Unsupported language: xx")):
+            with self.subTest(error=type(error).__name__), \
+                    mock.patch("ovos_skill_date_time.nice_date",
+                               side_effect=error):
+                key, data = self._ask("what day is it")
+                self.assertEqual(key, "day_current")
+                self.assertEqual(data["day"], "27 September")
+
+    def test_another_error_of_the_parser_is_not_hidden(self):
+        with mock.patch("ovos_skill_date_time.nice_date",
+                        side_effect=ValueError("bad date")):
+            with self.assertRaises(ValueError):
+                self._ask("what day is it")
 
 
 if __name__ == "__main__":
