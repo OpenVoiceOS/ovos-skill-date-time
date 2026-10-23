@@ -1,8 +1,8 @@
 # Changelog
 
-## [1.11.14a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.14a1) (2026-10-23)
+## [1.12.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.12.0a1) (2026-10-23)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.13a1...1.11.14a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.13a1...1.12.0a1)
 
 **Merged pull requests:**
 
