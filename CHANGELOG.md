@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.11.14a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.14a1) (2026-10-23)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.13a1...1.11.14a1)
+
+**Merged pull requests:**
+
+- fix: fall back to day\_current when nice\_date raises NotImplementedError [\#477](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/477) ([JarbasAl](https://github.com/JarbasAl))
+- feat: merge the weekday intents into weekday\_for\_date [\#476](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/476) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [1.11.13a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.11.13a1) (2026-10-23)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.11.12a1...1.11.13a1)
@@ -377,10 +386,6 @@
 ## [1.10.4a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.4a1) (2026-09-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.3a1...1.10.4a1)
-
-**Merged pull requests:**
-
-- fix\(locale\): eleven locales can ask for the day and the time elsewhere [\#376](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/376) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
 
 ## [1.10.3a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.3a1) (2026-09-24)
 
