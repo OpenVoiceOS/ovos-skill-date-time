@@ -15,19 +15,21 @@ import calendar
 import datetime
 import os
 import re
-from typing import Optional
+import unicodedata
+from typing import Iterable, Optional
 
 import geocoder
 import pytz
 from ovos_bus_client.message import Message
 from ovos_date_parser import nice_time, extract_datetime, nice_date, nice_duration, date_time_format, nice_weekday, \
-    nice_month, nice_day, nice_year
+    nice_month, nice_day, nice_year, extract_holiday_date
 from ovos_utils import classproperty
 from ovos_utils.log import LOG
 from ovos_utils.parse import fuzzy_match
 from ovos_utils.process_utils import RuntimeRequirements
 from ovos_utils.time import now_local, get_next_leap_year
 from ovos_utterance_normalizer import UtteranceNormalizerPlugin
+from ovos_spec_tools.expansion import expand
 from ovos_workshop.decorators import intent_handler
 from ovos_workshop.resource_files import ResourceFile
 from ovos_workshop.skills import OVOSSkill
@@ -219,18 +221,194 @@ class TimeSkill(OVOSSkill):
             self.resources.static[cache_key] = values
         return self.resources.static[cache_key]
 
-    def _get_requested_weekday(self, message):
-        """Extract the requested weekday from intent-matched entities."""
-        weekday_name = (message.data.get("weekday") or "").strip().lower()
-        if not weekday_name:
-            return None
+    @staticmethod
+    def _fold(text: str) -> str:
+        """Casefold and strip accents, one character for one, so spans hold."""
+        return "".join(unicodedata.normalize("NFD", char)[0] for char in text.casefold())
 
-        weekdays = [day.lower() for day in self._load_cached_entity("weekday")]
-        try:
-            weekday_index = weekdays.index(weekday_name)
-        except ValueError:
-            return None
-        return weekday_index, self._render_weekday(weekday_index)
+    @classmethod
+    def _weekday_pattern(cls, name: str) -> str:
+        """Regex for a weekday name; the engine may split a hyphen off.
+
+        Persian writes a name like "yekshanbe" with a zero-width non-joiner
+        or a space between its letters, and the utterance normalizer turns
+        the joiner into a space, so either may sit between two Arabic letters.
+        """
+        hyphen = r"\s*-\s*"
+        words = []
+        for part in cls._fold(name).replace("\u200c", "").split("-"):
+            word = re.escape(part[:1])
+            for before, char in zip(part, part[1:]):
+                arabic = all(unicodedata.name(c, "").startswith("ARABIC") for c in (before, char))
+                word += ("[\u200c ]?" if arabic else "") + re.escape(char)
+            words.append(word)
+        return r"(?<!\w)" + hyphen.join(words) + r"(?!\w)"
+
+    def _blank_weekday_questions(self, text: str) -> str:
+        """Blank the phrases that ask for the weekday.
+
+        The locale lists them in weekday_question_phrases.list: a weekday's
+        name or the word "week" in them is part of the question, not a day or
+        a week the user names.
+        """
+        for phrase in sorted(self._load_locale_phrase_set("weekday_question_phrases"),
+                             key=len, reverse=True):
+            text = re.sub(rf"(?<!\w){re.escape(phrase)}(?!\w)",
+                          lambda match: " " * len(match.group()), text,
+                          flags=re.IGNORECASE)
+        return text
+
+    def _find_named_weekdays(self, utterance: str):
+        """Return the (index, span) of every weekday the utterance names.
+
+        Names match without accents: a speaker may leave them out of a name
+        the entity file spells with them.
+        """
+        folded = self._fold(self._blank_weekday_questions(utterance))
+        found = [(index, match.span())
+                 for index, name in enumerate(self._load_cached_entity("weekday"))
+                 for match in re.finditer(self._weekday_pattern(name), folded)]
+        # a name inside a longer name is not named: "shanbe" in "yek-shanbe"
+        return sorted(
+            (named for named in found
+             if not any(other != named and other[1][0] <= named[1][0]
+                        and named[1][1] <= other[1][1] for other in found)),
+            key=lambda named: named[1])
+
+    def _is_yes_no_question(self, utterance: str) -> bool:
+        """Check whether the utterance asks a yes/no question about a weekday.
+
+        A request that holds a question word ("what", "welcher") asks for a
+        weekday, whatever else it holds. Otherwise the question opens with a
+        yes/no word, or closes with one in a language that ends a question
+        with its marker.
+        """
+        if self.voc_match(utterance, "question_word", lang=self.lang):
+            return False
+        words = utterance.casefold().split()
+        if not words:
+            return False
+        return (self.voc_match(" ".join(words[:2]), "yes_no_indicator",
+                               lang=self.lang)
+                or self.voc_match(words[-1], "yes_no_closer", lang=self.lang))
+
+    def _parse_date(self, text: str, now):
+        """Return the first date in the text, or None.
+
+        The parser can leave a date expression half read when an article opens
+        it ("a week from today"). Each article that precedes another word is
+        also tried as the number 1, and the reading that leaves the least text
+        unread wins. An article that the request lines themselves put before
+        those two words ("the week is" of "what day of the week is it") is
+        request wording, not a number.
+        """
+        words = text.split()
+        request_triples = self._request_triples()
+        candidates = [text] + [
+            " ".join(words[:i] + ["1"] + words[i + 1:])
+            for i, word in enumerate(words[:-1])
+            if self.voc_match(word, "date_article", lang=self.lang)
+            and tuple((self._tokens(" ".join(words[i:i + 3])) + ["$"])[:3]) not in request_triples]
+        best = None
+        for candidate in candidates:
+            try:
+                found = extract_datetime(candidate, anchorDate=now,
+                                         lang=self.lang)
+            except Exception:
+                self.log.exception(f"failed to extract date from '{candidate}'")
+                continue
+            if found and found[0]:
+                unread = len((found[1] or "").split())
+                if best is None or unread < best[0]:
+                    best = (unread, found[0])
+        return best[1] if best else None
+
+    def _tokens(self, text: str) -> list:
+        text = text.replace("\u2019", "'")
+        return [token for token in map(self._normalize_phrase, text.split()) if token]
+
+    def _request_lines(self) -> list:
+        """The token lists of the weekday_for_date lines; a slot is one token."""
+        cache_key = f"{self.lang}:weekday_for_date.lines"
+        if cache_key not in self.resources.static:
+            lines = []
+            resource = ResourceFile(self.resources.types.intent, "weekday_for_date")
+            if resource.file_path:
+                with open(resource.file_path, encoding="utf-8") as f:
+                    for line in f:
+                        line = line.strip()
+                        if line and not line.startswith("#"):
+                            lines.extend(self._tokens(re.sub(r"\{[^}]*\}", " {} ", sentence))
+                                         for sentence in expand(line))
+            self.resources.static[cache_key] = lines
+        return self.resources.static[cache_key]
+
+    def _request_words(self) -> set:
+        """The words of the lines that hold no slot, without the weekday names."""
+        cache_key = f"{self.lang}:weekday_for_date.words"
+        if cache_key not in self.resources.static:
+            words = {token for line in self._request_lines() if "{}" not in line
+                     for token in line}
+            for name in self._load_cached_entity("weekday"):
+                words.difference_update(self._tokens(name.replace("-", " ")))
+            self.resources.static[cache_key] = words
+        return self.resources.static[cache_key]
+
+    def _request_triples(self) -> set:
+        """The runs of three neighbouring words in the lines, a slot excluded."""
+        cache_key = f"{self.lang}:weekday_for_date.triples"
+        if cache_key not in self.resources.static:
+            self.resources.static[cache_key] = {
+                triple for line in self._request_lines()
+                for triple in zip(line, line[1:] + ["$"], line[2:] + ["$", "$"]) if "{}" not in triple}
+        return self.resources.static[cache_key]
+
+    def _is_dateless_slot(self, slot: str) -> bool:
+        """Check whether a slot that does not parse holds only request words.
+
+        An engine may bind the tail of a slot-free line to the date slot
+        ("what weekday is it please" binds "it please"). Such a slot names no
+        date. "blorp" and "it in tokyo" hold words the slot-free lines lack.
+        """
+        slot_words = self._tokens(slot)
+        return bool(slot_words) and set(slot_words) <= self._request_words()
+
+    def _get_requested_date(self, message, now, ignore=None):
+        """Return the date a weekday request is about, or None.
+
+        A bound ``date`` slot is the date; a slot that does not parse is no
+        date, unless it holds only words of the slot-free request lines. A
+        request that binds no slot is read whole, and one that holds no date
+        is about today, unless it holds a number the parser cannot read. ``ignore``
+        holds the (start, end) spans of the weekdays the utterance names; the
+        engine may capture them inside the slot, so the whole utterance, with
+        those weekdays blanked, is read instead.
+        """
+        raw = message.data.get("utterance", "")
+        utterance = self._blank_weekday_questions(raw)
+        slot = message.data.get("date") or ""
+        if slot.casefold() in raw.casefold() and slot.casefold() not in utterance.casefold():
+            slot = ""  # the engine bound a phrase that asks for the weekday
+        slot = self._blank_weekday_questions(slot).strip()
+        if slot and all(self.voc_match(word, "date_article") for word in slot.split()):
+            slot = ""  # the engine bound a bare article, which the parser reads as the number 1
+        if ignore:
+            text = utterance.casefold()
+            for start, end in sorted(ignore, reverse=True):
+                text = f"{text[:start]} {text[end:]}"
+            return self._parse_date(text, now)
+        dt = self._parse_date(slot or utterance, now)
+        if dt:
+            return dt
+        if slot:
+            return now if self._is_dateless_slot(slot) else None
+        # a digit the parser could not read is a date it failed on, not a request for today
+        return None if re.search(r"\d", utterance) else now
+
+    def _get_named_holiday(self, utterance: str, now) -> Optional[datetime.datetime]:
+        """Return the next date of the holiday the utterance names, or None."""
+        found = extract_holiday_date(utterance, self.lang, ref_date=now.date())
+        return datetime.datetime.combine(found[0], now.timetz()) if found else None
 
     def _render_weekday(self, weekday_index: int) -> str:
         """Render a localized weekday from a weekday index."""
@@ -589,42 +767,86 @@ class TimeSkill(OVOSSkill):
             self.speak_dialog("date", {"date": spoken})
         self.show_date(now, location=location)
 
-    # TODO - merge with weekday_for_date.intent
-    #  use voc_match or something to disambiguate
-    @intent_handler("what_weekday_is_it.intent")
-    def handle_current_weekday(self, message):
-        """
-        Handles queries about the current weekday and speaks the name of today's weekday.
-        
-        Responds to user requests for the current weekday by retrieving the localized current date and speaking the corresponding weekday name.
-        """
-        now = self.get_datetime()  # session aware
-        self.speak_dialog("weekday_current",
-                          {"weekday": nice_weekday(now, lang=self.lang)})
-
     @intent_handler("weekday_for_date.intent")
     def handle_weekday(self, message):
-        """
-        Handles queries about the weekday for a specific date.
-        
-        Extracts a date from the user's message and responds with the weekday name and a contextual dialog indicating whether the date is in the past or future. If no date can be extracted, speaks an error dialog.
+        """Speak the weekday of a date, or answer a yes/no weekday question.
+
+        A request that names no date is about today. A yes/no question that
+        names a weekday gets the yes/no dialogs, and so does a request that
+        names a weekday and another day: a holiday, or a date with digits that
+        the text without the weekday reads as a day other than today, unless
+        the whole text reads as the weekday. Digits that the parser cannot
+        read in a yes/no question give the date error. A holiday the utterance names is the date, and the weekday it names is
+        the answer to check, not the date.
         """
         now = self.get_datetime()  # session aware
-        dt, _ = extract_datetime(message.data.get("date") or message.data["utterance"],
-                                 anchorDate=now, lang=self.lang) or (None, None)
-        if not dt:
+        utterance = message.data.get("utterance", "")
+        named = self._find_named_weekdays(utterance)
+        # several weekdays joined by "or" ask which one it is
+        choice = len({index for index, _ in named}) > 1 and self.voc_match(
+            utterance, "weekday_or", lang=self.lang)
+        holiday = self._get_named_holiday(utterance, now)
+        has_digits = bool(re.search(r"\d", utterance))
+        read = None
+        other = alone = None  # the date it names besides its weekday; the weekday read alone
+        if named and not choice:
+            index, span = named[-1]
+            other = holiday or self._get_requested_date(message, now, ignore=[span])
+            if holiday or self._is_yes_no_question(utterance):
+                if other is None and has_digits:
+                    self.speak_dialog("extract_date_error")
+                    return
+                self._speak_weekday_match(other or now, now, index)
+                return
+            alone = self._parse_date(utterance[slice(*span)], now)
+            # digits that move the whole text's date off the weekday's own are a date;
+            # a time or a year beside the weekday leave it there
+            if has_digits and other and other.date() != now.date():
+                whole = self._parse_date(self._blank_weekday_questions(utterance), now)
+                # a time beside the weekday is no date, whatever "last" or "next" moves
+                is_time = other.time() != datetime.time()
+                if not (is_time or (alone and whole and whole.date() == alone.date())):
+                    self._speak_weekday_match(other, now, index)
+                    return
+                read = whole
+
+        dt = holiday or read or self._get_requested_date(
+            message, now, ignore=[span for _, span in named] if choice else None)
+        if choice and dt is None and not has_digits:
+            dt = now
+        if has_digits and other is None and alone and dt and dt.date() == alone.date():
+            dt = None  # the digits are a date the parser could not read
+        if dt is None:
             self.speak_dialog("extract_date_error")
             return
-
-        if dt >= now:
-            dialog = "weekday_at_date_future"
-        else:
-            dialog = "weekday_at_date_past"
-        # TODO - "today" should never trigger this intent, but if it does,
-        #  should we handle it better? nice_date will return "today" in that case
+        if dt.date() == now.date():
+            self.speak_dialog("weekday_current",
+                              {"weekday": nice_weekday(now, lang=self.lang)})
+            return
+        dialog = ("weekday_at_date_future" if dt.date() > now.date()
+                  else "weekday_at_date_past")
         self.speak_dialog(dialog, {
-                "date": nice_date(dt, lang=self.lang, now=now),
-                "weekday": nice_weekday(dt, lang=self.lang)})
+            "date": nice_date(dt, lang=self.lang, now=now),
+            "weekday": nice_weekday(dt, lang=self.lang)})
+
+    def _speak_weekday_match(self, dt, now, expected_weekday: int):
+        """Answer whether a date falls on the weekday the user named."""
+        data = {
+            "date": nice_date(dt, lang=self.lang, now=now),
+            "weekday": self._render_weekday(expected_weekday),
+            "actual_weekday": nice_weekday(dt, lang=self.lang)
+        }
+        matches = dt.weekday() == expected_weekday
+        if dt.date() > now.date():
+            dialog = ("weekday_matches_date_future_yes" if matches
+                      else "weekday_matches_date_future_no")
+        elif dt.date() == now.date():
+            dialog = ("weekday_matches_date_today_yes" if matches
+                      else "weekday_matches_date_today_no")
+        else:
+            dialog = ("weekday_matches_date_past_yes" if matches
+                      else "weekday_matches_date_past_no")
+        self.speak_dialog(dialog, data)
 
     def _speak_days_between(self, message):
         """Count the calendar days between two dates named in the utterance.
@@ -660,44 +882,6 @@ class TimeSkill(OVOSSkill):
             "num_days": nice_duration(num_days * 86400, lang=self.lang).strip(),
             "from_date": nice_date(start, lang=self.lang, now=now),
             "to_date": nice_date(end, lang=self.lang, now=now)})
-
-    @intent_handler("weekday_matches_date.intent")
-    def handle_weekday_match(self, message):
-        """Handle yes/no questions about whether a date matches a weekday."""
-        now = self.get_datetime()  # session aware
-        utterance = message.data.get("utterance", "")
-        weekday = self._get_requested_weekday(message)
-        dt, _ = extract_datetime(message.data.get("date") or utterance,
-                                 anchorDate=now, lang=self.lang) or (None, None)
-        if not dt or weekday is None:
-            self.speak_dialog("extract_date_error")
-            return
-
-        expected_weekday, expected_name = weekday
-        data = {
-            "date": nice_date(dt, lang=self.lang, now=now),
-            "weekday": expected_name,
-            "actual_weekday": nice_weekday(dt, lang=self.lang)
-        }
-        if dt.date() > now.date():
-            dialog = (
-                "weekday_matches_date_future_yes"
-                if dt.weekday() == expected_weekday
-                else "weekday_matches_date_future_no"
-            )
-        elif dt.date() == now.date():
-            dialog = (
-                "weekday_matches_date_today_yes"
-                if dt.weekday() == expected_weekday
-                else "weekday_matches_date_today_no"
-            )
-        else:
-            dialog = (
-                "weekday_matches_date_past_yes"
-                if dt.weekday() == expected_weekday
-                else "weekday_matches_date_past_no"
-            )
-        self.speak_dialog(dialog, data)
 
     @intent_handler("what_month_is_it.intent")
     def handle_current_month(self, message):

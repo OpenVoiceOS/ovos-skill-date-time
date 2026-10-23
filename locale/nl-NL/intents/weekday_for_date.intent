@@ -1,4 +1,14 @@
-op welke dag van de week valt {date} [alsjeblieft]
-welke dag is {date}
-vertel me welke dag {date} is
-op welke weekdag valt {date}
+op welke dag van de week valt {date:date} [alsjeblieft]
+welke dag is {date:date}
+vertel me welke dag {date:date} is
+op welke weekdag valt {date:date}
+welke dag van de week is het vandaag [alsjeblieft]
+in welke weekdag zitten we
+vertel me welke dag van de week het is
+zeg me welke weekdag het vandaag is
+herinner me welke dag van de week het vandaag is
+valt {date:date} op een {weekday} [alsjeblieft]
+is {date:date} een {weekday}
+was {date:date} een {weekday}
+wordt {date:date} een {weekday}
+klopt het dat {date:date} op een {weekday} valt

@@ -1,9 +1,9 @@
-hoeveel tijd is er nog tot {date} [alsjeblieft]
-wanneer is het {date}
-hoeveel dagen zijn er nog tot {date}
-hoe lang duurt het nog tot {date}
+hoeveel tijd is er nog tot {date:date} [alsjeblieft]
+wanneer is het {date:date}
+hoeveel dagen zijn er nog tot {date:date}
+hoe lang duurt het nog tot {date:date}
 # Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Dutch speaker has read it.
-Hoeveel dagen tot {date}
+Hoeveel dagen tot {date:date}
 # No Dutch speaker has read this file. Every line is a machine draft.
 hoeveel dagen zitten er tussen {start} en {end}
 tel de dagen tussen {start} en {end}

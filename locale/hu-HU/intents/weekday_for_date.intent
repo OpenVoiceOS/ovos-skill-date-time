@@ -1,4 +1,14 @@
-milyen napra esik {date} [kérlek]
-melyik nap lesz {date}
-mondd meg, milyen napra esik {date}
-milyen hét napja {date}
+milyen napra esik {date:date} [kérlek]
+melyik nap lesz {date:date}
+mondd meg, milyen napra esik {date:date}
+milyen hét napja {date:date}
+milyen nap van ma [kérlek]
+a hét melyik napja van ma
+milyen napra esik ma
+mondd meg, milyen nap van ma
+ma milyen napja van a hétnek
+a hét melyik napján vagyunk
+{date:date} napja {weekday}ra esik [kérlek]
+{date:date} napja {weekday} lesz
+{date:date} napja {weekday} volt
+igaz-e hogy {date:date} napja {weekday}
