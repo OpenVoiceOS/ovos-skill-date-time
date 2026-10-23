@@ -1,50 +1,50 @@
-a quina distància està {date}
-a quina distància està {date} d'ara
-a quina distància està {date} d'avui
-com de lluny està {date}
-com de lluny està {date} d'ara
-com de lluny està {date} d'avui
-quan exactament serà {date}
-quan exactament és {date}
-quan va ser l'anterior {date}
-quan va ser la següent {date}
-quan va ser l'última {date}
-quan va ser {date}
-quan és l'anterior {date}
-quan és la següent {date}
-quan és l'última {date}
-quan és {date}
-quant de temps ens queda abans de {date}
-quant de temps ens queda fins a {date}
-quant de temps fa que va ser {date}
-quant de temps falta abans de {date}
-quant de temps falta fins a {date}
-quant de temps ha passat des de {date}
-quant de temps hi ha des d'ara fins a {date}
-quant és el temps que falta abans de {date}
-quant és el temps que falta fins a {date}
-quant és el temps restant abans de {date}
-quant és el temps restant fins a {date}
-quantes dies queden abans {date}
-quantes dies queden fins a {date}
-quantes dies resten abans {date}
-quantes dies resten fins a {date}
-quantes hores queden abans {date}
-quantes hores queden fins a {date}
-quantes hores resten abans {date}
-quantes hores resten fins a {date}
-quantes setmanes queden abans {date}
-quantes setmanes queden fins a {date}
-quantes setmanes resten abans {date}
-quantes setmanes resten fins a {date}
-quants dies fa que va ser {date}
-quants dies han passat des de {date}
-quants dies hi ha des d'ara fins a {date}?
-quin és el temps que falta abans de {date}
-quin és el temps que falta fins a {date}
-quin és el temps restant abans de {date}
+a quina distància està {date:date}
+a quina distància està {date:date} d'ara
+a quina distància està {date:date} d'avui
+com de lluny està {date:date}
+com de lluny està {date:date} d'ara
+com de lluny està {date:date} d'avui
+quan exactament serà {date:date}
+quan exactament és {date:date}
+quan va ser l'anterior {date:date}
+quan va ser la següent {date:date}
+quan va ser l'última {date:date}
+quan va ser {date:date}
+quan és l'anterior {date:date}
+quan és la següent {date:date}
+quan és l'última {date:date}
+quan és {date:date}
+quant de temps ens queda abans de {date:date}
+quant de temps ens queda fins a {date:date}
+quant de temps fa que va ser {date:date}
+quant de temps falta abans de {date:date}
+quant de temps falta fins a {date:date}
+quant de temps ha passat des de {date:date}
+quant de temps hi ha des d'ara fins a {date:date}
+quant és el temps que falta abans de {date:date}
+quant és el temps que falta fins a {date:date}
+quant és el temps restant abans de {date:date}
+quant és el temps restant fins a {date:date}
+quantes dies queden abans {date:date}
+quantes dies queden fins a {date:date}
+quantes dies resten abans {date:date}
+quantes dies resten fins a {date:date}
+quantes hores queden abans {date:date}
+quantes hores queden fins a {date:date}
+quantes hores resten abans {date:date}
+quantes hores resten fins a {date:date}
+quantes setmanes queden abans {date:date}
+quantes setmanes queden fins a {date:date}
+quantes setmanes resten abans {date:date}
+quantes setmanes resten fins a {date:date}
+quants dies fa que va ser {date:date}
+quants dies han passat des de {date:date}
+quants dies hi ha des d'ara fins a {date:date}?
+quin és el temps que falta abans de {date:date}
+quin és el temps que falta fins a {date:date}
+quin és el temps restant abans de {date:date}
 # Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Catalan speaker has read it.
-quin és el temps restant fins a {date}
+quin és el temps restant fins a {date:date}
 Quants dies falten per al 24 de juny
 # No Catalan speaker has read this file. Every line is a machine draft.
 quants dies hi ha entre {start} i {end}

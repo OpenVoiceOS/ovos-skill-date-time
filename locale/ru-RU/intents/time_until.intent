@@ -1,7 +1,7 @@
-сколько времени осталось до {date} [пожалуйста]
-когда будет {date}
-сколько дней осталось до {date}
-как далеко {date}
+сколько времени осталось до {date:date} [пожалуйста]
+когда будет {date:date}
+сколько дней осталось до {date:date}
+как далеко {date:date}
 # No Russian speaker has read this file. Every line is a machine draft.
 сколько дней проходит с {start} по {end}
 посчитай дни между {start} и {end}

@@ -45,11 +45,11 @@ MIN_MATCHED_ROWS_PER_INTENT = 1
 # keeps the floor above.
 GOLDEN_INTENT_GAPS = {
     ("fa-IR", "what_time_is_it"): "2 of 3 rows go to what_day_is_it, 1 to what_time_will_it_be",
-    ("fi-FI", "what_time_will_it_be"): "2 of 3 rows go to time_until, 1 to weekday_matches_date",
-    ("it-IT", "what_time_will_it_be"): "2 of 3 rows match nothing, 1 goes to weekday_matches_date",
+    ("fi-FI", "what_time_will_it_be"): "2 of 3 rows go to time_until, 1 to weekday_for_date",
+    ("it-IT", "what_time_will_it_be"): "2 of 3 rows match nothing, 1 goes to weekday_for_date",
     ("pl-PL", "what_time_is_it"): "3 of 3 rows go to what_time_will_it_be",
     ("pt-PT", "what_time_will_it_be"): "3 of 3 rows match nothing",
-    ("tr-TR", "what_time_will_it_be"): "1 of 3 rows goes to weekday_matches_date, 1 to time_until, "
+    ("tr-TR", "what_time_will_it_be"): "1 of 3 rows goes to weekday_for_date, 1 to time_until, "
                                        "1 to what_time_is_it",
 }
 END2END_DIR = Path(__file__).parent
@@ -59,6 +59,10 @@ NEGATIVE_ENGINE_GAPS = {
     "pl-PL": "m2v claims 4 to 5 of 12 pl-PL requests for other skills, each run, "
              "at varying intents of this skill",
 }
+# Negative rows the published m2v model always claims; it predates the
+# {date:date} templates. A listed row that stops being claimed fails the
+# locale, so the entry is removed after the retrain.
+NEGATIVE_REQUIRED_CLAIMS = {}
 # Negative rows that m2v claimed for this skill in two separate runs. A listed
 # claim is allowed, not required, so a row that flips between boots does not
 # fail the test. Any other claim fails the locale.
@@ -69,12 +73,12 @@ NEGATIVE_KNOWN_CLAIMS = {
     "nl-NL": {"hoeveel is twee plus twee": "time_until"},
     "pt-BR": {"quanto é dois mais dois": "time_until"},
     "pt-PT": {"quanto é dois mais dois": "time_until"},
-    "sv-FI": {"hur blir vädret i morgon": "weekday_matches_date",
-              "vad är två plus två": "weekday_matches_date",
-              "översätt god morgon till franska": "weekday_matches_date"},
-    "sv-SE": {"hur blir vädret i morgon": "weekday_matches_date",
-              "vad är två plus två": "weekday_matches_date",
-              "översätt god morgon till franska": "weekday_matches_date"},
+    "sv-FI": {"hur blir vädret i morgon": "weekday_for_date",
+              "vad är två plus två": "weekday_for_date",
+              "översätt god morgon till franska": "weekday_for_date"},
+    "sv-SE": {"hur blir vädret i morgon": "weekday_for_date",
+              "vad är två plus två": "weekday_for_date",
+              "översätt god morgon till franska": "weekday_for_date"},
 }
 
 
@@ -152,7 +156,8 @@ def test_golden_rows_match_their_intent(lang):
     for lang in sorted(NEGATIVES)
 ])
 def test_negative_rows_match_no_intent_of_this_skill(lang):
-    known = NEGATIVE_KNOWN_CLAIMS.get(lang, {})
+    required = NEGATIVE_REQUIRED_CLAIMS.get(lang, {})
+    known = {**NEGATIVE_KNOWN_CLAIMS.get(lang, {}), **required}
     minicroft = _boot(lang)
     try:
         claims = []
@@ -167,6 +172,10 @@ def test_negative_rows_match_no_intent_of_this_skill(lang):
     print(f"[{lang}] {len(claims)} of {len(NEGATIVES[lang])} negative rows claimed, "
           f"{len(unknown)} not in NEGATIVE_KNOWN_CLAIMS", *unknown, sep="\n  ")
     assert not unknown, f"[{lang}] negative rows matched this skill:\n  " + "\n  ".join(unknown)
+    unclaimed = [f"{utterance!r}: expected {intent}" for utterance, intent in required.items()
+                 if (utterance, intent) not in claims]
+    assert not unclaimed, (f"[{lang}] required negative claims no longer made, "
+                           "remove them after the retrain:\n  " + "\n  ".join(unclaimed))
 
 
 def test_every_shipping_locale_has_a_golden_file():

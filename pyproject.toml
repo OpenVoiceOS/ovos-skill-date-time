@@ -19,14 +19,15 @@ dependencies = [
     "geocoder~=1.38",
     "ovos-utils>=0.8.1",
     "ovos-workshop>=9.7.0a1,<10.0.0",
-    "ovos-date-parser>=0.0.1,<1.0.0",
+    "ovos-date-parser>=0.33.0a1,<1.0.0",
     "ovos-utterance-normalizer>=0.0.1,<1.0.0",
+    "ovos-spec-tools>=1.11.0a1",
 ]
 
 [project.optional-dependencies]
 test = [
     "ovoscope>=1.11.2a1,<2.0.0",
-    "ovos-m2v-pipeline>=0.32.0a1",
+    "ovos-m2v-pipeline>=0.37.1a1",
     "pytest",
     "pytest-json-report",
     "padacioso>=0.1.1",
