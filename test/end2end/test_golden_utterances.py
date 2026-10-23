@@ -63,11 +63,9 @@ NEGATIVE_ENGINE_GAPS = {
 # claim is allowed, not required, so a row that flips between boots does not
 # fail the test. Any other claim fails the locale.
 NEGATIVE_KNOWN_CLAIMS = {
-    "ca-ES": {"quin temps farà demà": "weekday_matches_date"},
     "es-ES": {"qué tiempo hará mañana": "weekday_for_date"},
     "fr-FR": {"combien font deux plus deux": "time_until"},
-    "it-IT": {"che tempo farà domani": "weekday_for_date",
-              "quanto fa due più due": "time_until"},
+    "it-IT": {"quanto fa due più due": "time_until"},
     "nl-NL": {"hoeveel is twee plus twee": "time_until"},
     "pt-BR": {"quanto é dois mais dois": "time_until"},
     "pt-PT": {"quanto é dois mais dois": "time_until"},
