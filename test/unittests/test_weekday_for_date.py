@@ -121,6 +121,15 @@ OTHER_DAY_QUESTIONS = [
     ("pt-PT", "31 de outubro calha a uma quinta-feira", date(2026, 10, 31), THURSDAY),
     # the Finnish name for the weekday is in the essive case, so no weekday is named
     ("fi-FI", "onko uudenvuodenaatto torstaina", date(2026, 12, 31), None),
+    # Father's Day is 19 March in Spain and Labour Day 1 May. The Basque name
+    # for the weekday is in the inessive case, so no weekday is named.
+    ("eu-ES", "asteko zein egunetan da Aitaren eguna", date(2027, 3, 19), None),
+    ("eu-ES", "Aitaren eguna ostegunean al da", date(2027, 3, 19), None),
+    ("eu-ES", "asteko zein egunetan da Langilearen eguna", date(2027, 5, 1), None),
+    # the bare "new year" is Nowruz, 1 Farvardin 1406: the March equinox falls
+    # at 20:25 UTC on 20 March 2027, 23:55 in Tehran, so the year starts on the 21st
+    ("fa-IR", "سال نو پنجشنبه میفته؟", date(2027, 3, 21), THURSDAY),
+    ("fa-IR", "سال نو چه روزی از هفته میفته", date(2027, 3, 21), None),
 ]
 
 # questions that name no other day and are about today
