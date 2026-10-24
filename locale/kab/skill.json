@@ -1,0 +1,22 @@
+{
+  "skill_id": "ovos-skill-date-time.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-date-time",
+  "name": "Azemz d ssaɛa",
+  "description": "Awi ssaɛa, azemz d wass n dduṛt",
+  "examples": [
+    "D acu-t ssaɛa tura?",
+    "Ini-yi-d ass n dduṛt",
+    "Acḥal n wussan i d-yeqqimen ɣer 4 yulyu",
+    "D acu-t wazemz n wass-a?",
+    "Sken-iyi-d ssaɛa",
+    "Anwa ass i d Yennayer 2027?",
+    "D acu-t ssaɛa tura di Pari?"
+  ],
+  "tags": [
+    "tamrilt",
+    "azemz",
+    "ssaɛa",
+    "asuter",
+    "talɣut"
+  ]
+}

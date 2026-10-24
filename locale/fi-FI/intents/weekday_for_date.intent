@@ -1,0 +1,13 @@
+mikä viikonpäivä on {date:date} [kiitos]
+minkä päivän kohdalle {date:date} osuu
+kerro mikä päivä {date:date} on
+mikä viikonpäivä {date:date} tulee olemaan
+mikä viikonpäivä tänään on [kiitos]
+mikä päivä tänään on
+missä viikonpäivässä olemme tänään
+kerro mikä viikonpäivä tänään on
+minkä viikonpäivän tänään elämme
+osuuko {date:date} päivälle {weekday} [kiitos]
+onko {date:date} päivä {weekday}
+oliko {date:date} päivä {weekday}
+tuleeko {date:date} olemaan {weekday}

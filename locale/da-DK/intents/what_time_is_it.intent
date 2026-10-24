@@ -1,0 +1,16 @@
+Hvad er klokken
+Hvad er klokken i {location}
+Hvad er klokken nu
+Hvad er klokken nu i {location}
+klokken lige nu
+klokken lige nu i {location}
+klokken lige nu tak
+klokken lige nu tak i {location}
+klokken nu
+klokken nu i {location}
+tid lige nu
+tid lige nu i {location}
+tid lige nu tak
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Danish speaker has read it.
+tid lige nu tak i {location}
+Vis mig tiden

@@ -1,0 +1,14 @@
+{number:offset} dakika sonra saat kaç
+{location} saatiyle {number:offset} dakika sonra saat kaç
+şimdiden {number:offset} dakika sonra saat kaç olur
+{location} için {number:offset} saat sonra saat kaç
+{number:offset} saat sonra saat kaç
+şu andan itibaren {number:offset} saat sonra saat kaç olacak
+{number:offset} saniye sonra saat kaç
+{location} için {number:offset} saniye sonra saat kaç
+şimdiden {number:offset} saniye sonra saat kaç olur
+{location} için şimdiden {number:offset} saniye sonra saat kaç olur
+{location} için {number:offset} dakika sonra saat kaç
+şu andan itibaren {number:offset} saat sonra {location} için saat kaç
+şu andan {number:offset} (saat|dakika) sonra saat kaç
+bir saat sonra saat kaç olur

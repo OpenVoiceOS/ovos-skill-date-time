@@ -1,0 +1,22 @@
+{
+  "skill_id": "ovos-skill-date-time.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-date-time",
+  "name": "Data i czas",
+  "description": "Sprawdzanie godziny, daty i dnia tygodnia.",
+  "examples": [
+    "Jaką mamy godzinę?",
+    "Jaki dzień tygodnia jest dzisiaj?",
+    "Jaka jest dzisiejsza data?",
+    "Którego dzisiaj mamy?",
+    "Podaj mi godzinę",
+    "Ile dni zostało do Bożego Narodzenia?",
+    "Aktualna godzina w Warszawie"
+  ],
+  "tags": [
+    "zegar",
+    "data",
+    "czas",
+    "zapytanie",
+    "informacja"
+  ]
+}

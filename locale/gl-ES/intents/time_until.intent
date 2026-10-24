@@ -1,0 +1,70 @@
+a canto tempo está {date:date}
+a canto tempo está {date:date} de agora
+a canto tempo está {date:date} de hoxe
+cando foi a pasada {date:date}
+cando foi a pasado {date:date}
+cando foi a próxima {date:date}
+cando foi a próximo {date:date}
+cando foi a última {date:date}
+cando foi a último {date:date}
+cando foi o pasada {date:date}
+cando foi o pasado {date:date}
+cando foi o próxima {date:date}
+cando foi o próximo {date:date}
+cando foi o última {date:date}
+cando foi o último {date:date}
+cando foi {date:date}
+cando será {date:date}
+cando será exactamente {date:date}
+cando é exactamente {date:date}
+cando é a pasada {date:date}
+cando é a pasado {date:date}
+cando é a próxima {date:date}
+cando é a próximo {date:date}
+cando é a última {date:date}
+cando é a último {date:date}
+cando é o pasada {date:date}
+cando é o pasado {date:date}
+cando é o próxima {date:date}
+cando é o próximo {date:date}
+cando é o última {date:date}
+cando é o último {date:date}
+cando é {date:date}
+cantas días faltan ata o {date:date}
+cantas días faltan para o {date:date}
+cantas días quedan ata o {date:date}
+cantas días quedan para o {date:date}
+cantas horas faltan ata o {date:date}
+cantas horas faltan para o {date:date}
+cantas horas quedan ata o {date:date}
+cantas horas quedan para o {date:date}
+cantas semanas faltan ata o {date:date}
+cantas semanas faltan para o {date:date}
+cantas semanas quedan ata o {date:date}
+cantas semanas quedan para o {date:date}
+canto tempo falta ata o {date:date}
+canto tempo falta para o {date:date}
+canto tempo hai desde agora a o {date:date}
+canto tempo hai desde agora ata o {date:date}
+canto tempo hai que foi {date:date}
+canto tempo queda ata o {date:date}
+canto tempo queda para o {date:date}
+cantos días faltan ata o {date:date}
+cantos días faltan para o {date:date}
+cantos días hai que foi o {date:date}
+cantos días quedan ata o {date:date}
+cantos días quedan para o {date:date}
+cantos horas faltan ata o {date:date}
+cantos horas faltan para o {date:date}
+cantos horas quedan ata o {date:date}
+cantos horas quedan para o {date:date}
+cantos semanas faltan ata o {date:date}
+cantos semanas faltan para o {date:date}
+cantos semanas quedan ata o {date:date}
+cantos semanas quedan para o {date:date}
+# No Galician speaker has read this file. Every line is a machine draft.
+cantos días hai entre {start} e {end}
+cantos días van de {start} a {end}
+conta os días entre {start} e {end}
+cantos días separan {start} de {end}
+calcula os días que hai de {start} a {end}
