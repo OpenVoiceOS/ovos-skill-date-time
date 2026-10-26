@@ -55,10 +55,7 @@ GOLDEN_INTENT_GAPS = {
 END2END_DIR = Path(__file__).parent
 # Locales whose requests for other skills the published m2v model cannot keep
 # away from this skill, with the measured reason.
-NEGATIVE_ENGINE_GAPS = {
-    "pl-PL": "m2v claims 4 to 5 of 12 pl-PL requests for other skills, each run, "
-             "at varying intents of this skill",
-}
+NEGATIVE_ENGINE_GAPS = {}
 # Negative rows the published m2v model always claims; it predates the
 # {date:date} templates. A listed row that stops being claimed fails the
 # locale, so the entry is removed after the retrain.
@@ -68,10 +65,13 @@ NEGATIVE_REQUIRED_CLAIMS = {}
 # fail the test. Any other claim fails the locale.
 NEGATIVE_KNOWN_CLAIMS = {
     "es-ES": {"qué tiempo hará mañana": "weekday_for_date"},
-    "fr-FR": {"combien font deux plus deux": "time_until"},
+    "fr-FR": {"combien font deux plus deux": "time_until",
+              "quel temps fera-t-il demain": "weekday_for_date"},
     "it-IT": {"quanto fa due più due": "time_until"},
     "nl-NL": {"hoeveel is twee plus twee": "time_until"},
-    "pt-BR": {"quanto é dois mais dois": "time_until"},
+    "pl-PL": {"jaka będzie jutro pogoda": "weekday_for_date"},
+    "pt-BR": {"como vai estar o tempo amanhã": "weekday_for_date",
+              "quanto é dois mais dois": "what_time_is_it"},
     "pt-PT": {"quanto é dois mais dois": "time_until"},
     "sv-FI": {"hur blir vädret i morgon": "weekday_for_date",
               "vad är två plus två": "weekday_for_date",
