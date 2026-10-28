@@ -36,21 +36,17 @@ from ovos_bus_client.util.scheduled_events.legacy import pending_migration_path
 from ovos_bus_client.util.scheduled_events.store import default_store_path
 from ovos_date_parser import nice_date, nice_year
 from ovos_utils.time import now_local
-from ovoscope import CaptureSession, get_minicroft
+from ovoscope import CaptureSession
+from ovoscope.routing import PIPELINE, TALLY, get_prototype_minicroft
 
 SKILL_ID = "ovos-skill-date-time.openvoiceos"
 
-PIPELINE = [
-    "ovos-padacioso-pipeline-plugin-high",
-    "ovos-padacioso-pipeline-plugin-medium",
-    "ovos-padacioso-pipeline-plugin-low",
-]
 
 
-def _speak_dialog(mc, utterance, lang, session_id):
+def _speak_dialog(mc, utterance, lang, session_id, intent):
     session = Session(session_id)
     session.lang = lang
-    session.pipeline = list(PIPELINE)
+    session.pipeline = PIPELINE
     msg = Message(
         "recognizer_loop:utterance",
         {"utterances": [utterance], "lang": lang},
@@ -59,15 +55,18 @@ def _speak_dialog(mc, utterance, lang, session_id):
     capture = CaptureSession(mc, eof_msgs=["ovos.utterance.handled"])
     capture.capture(msg, timeout=30)
     messages = capture.finish()
+    TALLY.assert_routed(utterance, f"{SKILL_ID}:{intent}",
+                        [m.msg_type for m in messages])
     speaks = [m for m in messages if m.msg_type in ("speak", "ovos.utterance.speak")]
     assert speaks, f"{utterance!r}: no speak message emitted, got {[m.msg_type for m in messages]!r}"
     return speaks[0]
 
 
 def test_current_year_speaks_actual_year_en_us():
-    mc = get_minicroft([SKILL_ID], max_wait=150)
+    mc = get_prototype_minicroft([SKILL_ID], lang="en-US", max_wait=150)
     try:
-        speak = _speak_dialog(mc, "what year is it", "en-US", "e2e-year-en")
+        speak = _speak_dialog(mc, "what year is it", "en-US", "e2e-year-en",
+                              "what_year_is_it")
         meta = speak.data["meta"]
         assert meta["dialog"] == "year_current", (
             f"expected year_current, got {meta['dialog']!r}"
@@ -81,10 +80,11 @@ def test_current_year_speaks_actual_year_en_us():
 
 
 def test_current_day_speaks_the_date_it_it():
-    mc = get_minicroft([SKILL_ID], lang="it-IT", max_wait=150)
+    mc = get_prototype_minicroft([SKILL_ID], lang="it-IT", max_wait=150)
     try:
         speak = _speak_dialog(
-            mc, "che giorno del mese è oggi", "it-IT", "e2e-day-it"
+            mc, "che giorno del mese è oggi", "it-IT", "e2e-day-it",
+            "what_day_is_it"
         )
         meta = speak.data["meta"]
         assert meta["dialog"] == "date", (
@@ -133,7 +133,8 @@ def test_hourly_chime_is_registered_with_a_live_scheduler_and_plays_audio():
     for stale in (default_store_path(), pending_migration_path()):
         if stale and os.path.isfile(stale):
             os.remove(stale)
-    mc = get_minicroft([SKILL_ID], max_wait=150, enable_event_scheduler=True)
+    mc = get_prototype_minicroft([SKILL_ID], lang="en-US", max_wait=150,
+                                 enable_event_scheduler=True)
     try:
         skill = mc.plugin_skills[SKILL_ID].instance
         skill.settings["play_hour_chime"] = True

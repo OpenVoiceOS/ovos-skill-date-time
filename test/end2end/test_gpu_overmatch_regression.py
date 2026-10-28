@@ -21,20 +21,18 @@ The fix drops those two bare lines, keeping only the "on"-qualified /
 {weekday}"), which do not structurally collide with "is there a gpu in your
 system" style utterances.
 
-This test boots a two-skill MiniCroft (date-time + diagnostics) under the
-shape of the OVOS default pipeline, with the padacioso high tier in the
-template-engine slot, and asserts date-time's weekday_for_date intent no
-longer claims the utterance.
+This test boots a two-skill MiniCroft (date-time + diagnostics) and asserts
+date-time's weekday_for_date intent does not claim the utterance.
 
 Run: pytest test/end2end/test_gpu_overmatch_regression.py -v --timeout=150
 """
 import os
-import time
 from unittest import TestCase
 
 from ovos_bus_client.message import Message
 from ovos_bus_client.session import Session
-from ovoscope import get_minicroft
+from ovoscope import CaptureSession
+from ovoscope.routing import PIPELINE, TALLY, get_prototype_minicroft
 from padacioso import IntentContainer
 
 INTENT_FILE = os.path.join(
@@ -44,21 +42,6 @@ INTENT_FILE = os.path.join(
 DATE_TIME_SKILL_ID = "ovos-skill-date-time.openvoiceos"
 DIAGNOSTICS_SKILL_ID = "ovos-skill-diagnostics.openvoiceos"
 LANG = "en-US"
-
-# The non-media subset of the default pipeline from mycroft.conf, with the
-# padacioso high tier in the template-engine slot. Only high and medium tiers
-# run, so a low-confidence template match cannot claim the utterance.
-REAL_DEFAULT_PIPELINE = [
-    "ovos-stop-pipeline-plugin-high",
-    "ovos-converse-pipeline-plugin",
-    "ovos-padacioso-pipeline-plugin-high",
-    "ovos-adapt-pipeline-plugin-high",
-    "ovos-fallback-pipeline-plugin-high",
-    "ovos-stop-pipeline-plugin-medium",
-    "ovos-adapt-pipeline-plugin-medium",
-    "ovos-fallback-pipeline-plugin-medium",
-    "ovos-fallback-pipeline-plugin-low",
-]
 
 UTTERANCE = "is there a gpu in your system"
 
@@ -95,10 +78,8 @@ class TestGpuOvermatchRegression(TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.minicroft = get_minicroft(
-            [DATE_TIME_SKILL_ID, DIAGNOSTICS_SKILL_ID], max_wait=150,
-            default_pipeline=REAL_DEFAULT_PIPELINE,
-        )
+        cls.minicroft = get_prototype_minicroft(
+            [DATE_TIME_SKILL_ID, DIAGNOSTICS_SKILL_ID], lang=LANG, max_wait=150)
 
     @classmethod
     def tearDownClass(cls):
@@ -106,34 +87,16 @@ class TestGpuOvermatchRegression(TestCase):
             cls.minicroft.stop()
 
     def test_date_time_does_not_claim_gpu_utterance(self):
-        matched = []
-        handler = lambda msg: matched.append(msg)
-        self.minicroft.bus.on(DATE_TIME_EVENT, handler)
-        try:
-            session = Session("e2e-gpu-overmatch-regression")
-            session.lang = LANG
-            session.pipeline = REAL_DEFAULT_PIPELINE
-            message = Message(
-                "recognizer_loop:utterance",
-                {"utterances": [UTTERANCE], "lang": LANG},
-                {"session": session.serialize()},
-            )
-            # Give date-time's template matcher every chance to (wrongly)
-            # fire: re-emit and settle repeatedly, same idiom as the other
-            # end2end suites in this directory.
-            deadline = time.monotonic() + 45
-            while time.monotonic() < deadline:
-                self.minicroft.bus.emit(message)
-                waited = time.monotonic() + 5
-                while time.monotonic() < waited:
-                    time.sleep(0.2)
-                if matched:
-                    break
-        finally:
-            self.minicroft.bus.remove(DATE_TIME_EVENT, handler)
-
-        self.assertFalse(
-            matched,
-            f"{UTTERANCE!r} unexpectedly routed to {DATE_TIME_EVENT} "
-            "(date-time is over-matching a diagnostics-owned utterance again)",
+        session = Session("e2e-gpu-overmatch-regression")
+        session.lang = LANG
+        session.pipeline = PIPELINE
+        message = Message(
+            "recognizer_loop:utterance",
+            {"utterances": [UTTERANCE], "lang": LANG},
+            {"session": session.serialize()},
         )
+        capture = CaptureSession(self.minicroft,
+                                 eof_msgs=["ovos.utterance.handled"])
+        capture.capture(message, timeout=30)
+        TALLY.assert_not_routed(UTTERANCE, [DATE_TIME_EVENT],
+                                [m.msg_type for m in capture.finish()])

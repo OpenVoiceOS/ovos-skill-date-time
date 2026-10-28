@@ -1,38 +1,26 @@
 """A request about today's weekday is answered for today, through the full stack.
 
-Each utterance goes through a MiniCroft, with the clock frozen to a Friday: on
-the padatious and adapt pipeline, and on the m2v prototype pipeline. The utterance
-normalizer and the intent engine run, so the handler gets the slots the engine
-binds. The answer is the weekday of today, or a yes or no about today: never
-the weekday of a later date.
+Each utterance goes through a MiniCroft, with the clock frozen to a Friday.
+The utterance normalizer and the intent engine run, so the handler gets the
+slots the engine binds. The answer is the weekday of today, or a yes or no
+about today: never the weekday of a later date.
 """
 import datetime
 import re
-import time
 from pathlib import Path
-from unittest import TestCase, mock
+from unittest import SkipTest, TestCase, mock
 
 import pytz
 from ovos_bus_client.message import Message
 from ovos_bus_client.session import Session
-from ovoscope import M2V_PUBLISHED_MODEL, get_m2v_minicroft, get_minicroft
-from ovoscope.golden_minicroft import warm_m2v_models
+from ovoscope import CaptureSession
+from ovoscope.routing import PIPELINE, TALLY, get_prototype_minicroft
 
 SKILL_ID = "ovos-skill-date-time.openvoiceos"
+WEEKDAY_FOR_DATE = f"{SKILL_ID}:weekday_for_date"
 LOCALE = Path(__file__).parent.parent.parent / "locale"
-CLASSIC_PIPELINE = [
-    "ovos-padatious-pipeline-plugin-high",
-    "ovos-adapt-pipeline-plugin-high",
-    "ovos-padatious-pipeline-plugin-medium",
-    "ovos-adapt-pipeline-plugin-medium",
-]
 TZ = "Europe/Lisbon"
 FRIDAY = pytz.UTC.localize(datetime.datetime(2024, 3, 15, 12, 0)).astimezone(pytz.timezone(TZ))
-M2V_PIPELINE = [
-    "ovos-m2v-prototype-pipeline-high",
-    "ovos-m2v-prototype-pipeline-medium",
-    "ovos-m2v-prototype-pipeline-low",
-]
 FRIDAY_INDEX = 4
 LANGS = ("en-US", "fr-FR", "es-ES", "ca-ES", "gl-ES", "fa-IR", "kab", "pt-BR", "pt-PT",
          "cs-CZ", "nl-NL", "pl-PL", "sv-SE", "da-DK")
@@ -94,46 +82,48 @@ def _is_line_of(spoken: str, lang: str, dialog: str) -> bool:
 
 class TodayWeekdayRequests:
 
-    pipeline = None
-
     @classmethod
     def tearDownClass(cls):
         cls.minicroft.stop()
 
     def _ask(self, lang, utterance) -> str:
-        spoken = []
-        handler = lambda msg: spoken.append(msg.data.get("utterance", ""))
-        self.minicroft.bus.on("speak", handler)
-        try:
-            session = Session(f"e2e-today-{lang}-{hash(utterance)}")
-            session.lang = lang
-            session.pipeline = self.pipeline
-            session.location["tz"] = TZ
-            message = Message("recognizer_loop:utterance",
-                              {"utterances": [utterance], "lang": lang},
-                              {"session": session.serialize(), "lang": lang})
-            with mock.patch("ovos_skill_date_time.now_local", side_effect=lambda tz=None: FRIDAY):
-                deadline = time.monotonic() + 45
-                while not spoken and time.monotonic() < deadline:
-                    self.minicroft.bus.emit(message)
-                    waited = time.monotonic() + 5
-                    while not spoken and time.monotonic() < waited:
-                        time.sleep(0.2)
-        finally:
-            self.minicroft.bus.remove("speak", handler)
+        """What the skill speaks for ``utterance``, after its route is recorded."""
+        session = Session(f"e2e-today-{lang}-{hash(utterance)}")
+        session.lang = lang
+        session.pipeline = PIPELINE
+        session.location["tz"] = TZ
+        message = Message("recognizer_loop:utterance",
+                          {"utterances": [utterance], "lang": lang},
+                          {"session": session.serialize(), "lang": lang})
+        capture = CaptureSession(self.minicroft, eof_msgs=["ovos.utterance.handled"])
+        with mock.patch("ovos_skill_date_time.now_local", side_effect=lambda tz=None: FRIDAY):
+            capture.capture(message, timeout=45)
+        messages = capture.finish()
+        TALLY.assert_routed(utterance, WEEKDAY_FOR_DATE, [m.msg_type for m in messages])
+        spoken = [m.data.get("utterance", "") for m in messages
+                  if m.msg_type in ("speak", "ovos.utterance.speak")]
         self.assertTrue(spoken, f"{lang} {utterance!r} was not answered")
         return spoken[0]
 
-    def test_each_request_is_answered_for_today(self):
+    def _wrong_answers(self, requests) -> list:
+        """The routed requests whose answer is not a line of their dialog."""
         wrong = []
-        for lang, utterance, weekday in REQUESTS:
-            expected = ("weekday_current" if weekday is None else
-                        "weekday_matches_date_today_yes" if weekday == FRIDAY_INDEX
-                        else "weekday_matches_date_today_no")
-            spoken = self._ask(lang, utterance)
-            if not _is_line_of(spoken, lang, expected):
-                wrong.append((lang, utterance, spoken, expected))
-        self.assertEqual(wrong, [])
+        for lang, utterance, dialog in requests:
+            try:
+                spoken = self._ask(lang, utterance)
+            except SkipTest:
+                continue  # a misroute, counted in the tally
+            if not _is_line_of(spoken, lang, dialog):
+                wrong.append((lang, utterance, spoken, dialog))
+        return wrong
+
+    def test_each_request_is_answered_for_today(self):
+        requests = [(lang, utterance,
+                     "weekday_current" if weekday is None else
+                     "weekday_matches_date_today_yes" if weekday == FRIDAY_INDEX
+                     else "weekday_matches_date_today_no")
+                    for lang, utterance, weekday in REQUESTS]
+        self.assertEqual(self._wrong_answers(requests), [])
 
     def test_a_named_date_is_not_moved_a_week(self):
         # 2024-10-31 is a Thursday
@@ -143,33 +133,16 @@ class TodayWeekdayRequests:
         self.assertIn("Thursday", spoken)
 
 
-class TestClassicPipeline(TodayWeekdayRequests, TestCase):
-    pipeline = CLASSIC_PIPELINE
-
-    @classmethod
-    def setUpClass(cls):
-        cls.minicroft = get_minicroft([SKILL_ID], lang="en-US",
-                                      secondary_langs=[lang for lang in LANGS if lang != "en-US"],
-                                      default_pipeline=CLASSIC_PIPELINE, max_wait=600)
-
-
 class TestM2vPipeline(TodayWeekdayRequests, TestCase):
-    pipeline = M2V_PIPELINE
 
     @classmethod
     def setUpClass(cls):
-        cls.minicroft = get_m2v_minicroft([SKILL_ID], model=M2V_PUBLISHED_MODEL, lang="en-US",
-                                          secondary_langs=[lang for lang in LANGS if lang != "en-US"],
-                                          classifier=False)
-        warm_m2v_models(cls.minicroft)
+        cls.minicroft = get_prototype_minicroft(
+            [SKILL_ID], lang="en-US",
+            secondary_langs=[lang for lang in LANGS if lang != "en-US"])
 
     def test_a_request_that_only_m2v_routes_is_answered_for_today(self):
-        wrong = []
-        for lang, utterance, dialog in M2V_ONLY_REQUESTS:
-            spoken = self._ask(lang, utterance)
-            if not _is_line_of(spoken, lang, dialog):
-                wrong.append((lang, utterance, spoken))
-        self.assertEqual(wrong, [])
+        self.assertEqual(self._wrong_answers(M2V_ONLY_REQUESTS), [])
 
     # the m2v engine binds no slot, so the parser alone reads the date
     def test_a_date_that_cannot_be_read_is_an_error(self):
