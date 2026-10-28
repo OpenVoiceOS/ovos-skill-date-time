@@ -16,7 +16,6 @@ speak call), and asserts the handler actually said that line.
 Run: pytest test/end2end/ -v
 """
 import datetime
-import time
 from pathlib import Path
 from unittest import TestCase, mock
 
@@ -24,19 +23,12 @@ import pytz
 from ovos_bus_client.message import Message
 from ovos_bus_client.session import Session
 from ovos_date_parser import nice_date, nice_month, nice_time, nice_year
-from ovoscope import get_minicroft
+from ovoscope import CaptureSession
+from ovoscope.routing import PIPELINE, TALLY, get_prototype_minicroft
 
 SKILL_ID = "ovos-skill-date-time.openvoiceos"
 LANG = "en-US"
 LOCALE_EN_US = Path(__file__).parent.parent.parent / "locale" / "en-US" / "dialog"
-
-# The intent files are padacioso samples. Exact expansions score in the -high
-# band while the slotted variants land lower, so register all three bands.
-PIPELINE = [
-    "ovos-padacioso-pipeline-plugin-high",
-    "ovos-padacioso-pipeline-plugin-medium",
-    "ovos-padacioso-pipeline-plugin-low",
-]
 
 # Every effect test pins this timezone on the Session explicitly, rather than
 # inheriting whatever timezone the test machine happens to run in. Pinned
@@ -150,101 +142,48 @@ class TestExpectedLinesDisjoint(TestCase):
 
 
 class TestIntentRouting(TestCase):
-    """Shared MiniCroft boot for all padacioso intent-routing and effect checks.
-
-    All cases share ONE MiniCroft boot rather than one boot per intent
-    (as previously split across TestQueryTime/TestCurrentDate/etc.). Each
-    boot trains a full padatious/padacioso container and starts the whole
-    skill/intent-service stack, which is real CPU work; a CI runner with a
-    handful of these booting concurrently or back-to-back can blow past any
-    reasonable per-test deadline. Merging into a single boot cuts that cost
-    proportionally to the number of classes removed.
-    """
+    """Shared MiniCroft boot for all intent-routing and effect checks."""
 
     @classmethod
     def setUpClass(cls):
-        cls.minicroft = get_minicroft([SKILL_ID], max_wait=150)
+        cls.minicroft = get_prototype_minicroft([SKILL_ID], lang=LANG, max_wait=150)
 
     @classmethod
     def tearDownClass(cls):
         if getattr(cls, "minicroft", None):
             cls.minicroft.stop()
 
-    def _assert_intent(self, utterance: str, intent_file: str):
-        # ovos_workshop.intents strips a trailing ".intent" suffix off the
-        # registered intent name before it ever reaches the bus, so the
-        # dispatched message type never carries ".intent" -- see the matching
-        # comment in test_golden_utterances.py._assert_intent for the full
-        # explanation (same bug, same fix, both files historically built
-        # this event name off the raw ".intent"-suffixed argument).
-        intent_name = intent_file[:-len(".intent")] if intent_file.endswith(".intent") else intent_file
-        intent_msg_type = f"{SKILL_ID}:{intent_name}"
-        matched = []
-        handler = lambda msg: matched.append(msg)
-        self.minicroft.bus.on(intent_msg_type, handler)
-        try:
-            session = Session(f"e2e-en_us-{intent_file}-{hash(utterance)}")
-            session.lang = LANG
-            session.pipeline = PIPELINE
-            message = Message(
-                "recognizer_loop:utterance",
-                {"utterances": [utterance], "lang": LANG},
-                {"session": session.serialize()},
-            )
-            # Under parallel CI load a freshly booted minicroft may not have
-            # finished registering intents when the first utterance fires, so
-            # re-emit until the intent routes or the deadline elapses.
-            deadline = time.monotonic() + 45
-            while not matched and time.monotonic() < deadline:
-                self.minicroft.bus.emit(message)
-                waited = time.monotonic() + 5
-                while not matched and time.monotonic() < waited:
-                    time.sleep(0.2)
-        finally:
-            self.minicroft.bus.remove(intent_msg_type, handler)
-        self.assertTrue(
-            matched,
-            f"{utterance!r} did not route to {intent_file}",
+    def _fire(self, utterance: str, session: Session):
+        session.lang = LANG
+        session.pipeline = PIPELINE
+        message = Message(
+            "recognizer_loop:utterance",
+            {"utterances": [utterance], "lang": LANG},
+            {"session": session.serialize()},
         )
+        capture = CaptureSession(self.minicroft,
+                                 eof_msgs=["ovos.utterance.handled"])
+        capture.capture(message, timeout=30)
+        return capture.finish()
+
+    def _assert_intent(self, utterance: str, intent_file: str):
+        session = Session(f"e2e-en_us-{intent_file}-{hash(utterance)}")
+        messages = self._fire(utterance, session)
+        TALLY.assert_routed(utterance, f"{SKILL_ID}:{intent_file}",
+                            [m.msg_type for m in messages])
 
     def _assert_effect(self, utterance: str, intent_file: str):
         """Assert routing AND that the frozen, pinned-timezone value was spoken."""
-        intent_name = intent_file[:-len(".intent")] if intent_file.endswith(".intent") else intent_file
-        intent_msg_type = f"{SKILL_ID}:{intent_name}"
-        matched = []
-        spoken = []
-        intent_handler_fn = lambda msg: matched.append(msg)
-        speak_handler_fn = lambda msg: spoken.append(msg.data.get("utterance", ""))
-        self.minicroft.bus.on(intent_msg_type, intent_handler_fn)
-        self.minicroft.bus.on("speak", speak_handler_fn)
-        try:
-            session = Session(f"e2e-en_us-effect-{intent_file}-{hash(utterance)}")
-            session.lang = LANG
-            session.pipeline = PIPELINE
-            # Session.timezone (OVOS-SESSION-1 §3.5) is a read-only view over
-            # session.location['tz']; that key is the one to set explicitly.
-            session.location["tz"] = PINNED_TZ
-            message = Message(
-                "recognizer_loop:utterance",
-                {"utterances": [utterance], "lang": LANG},
-                {"session": session.serialize()},
-            )
-            with mock.patch("ovos_skill_date_time.now_local", side_effect=_frozen_now_local):
-                deadline = time.monotonic() + 45
-                while not matched and time.monotonic() < deadline:
-                    self.minicroft.bus.emit(message)
-                    waited = time.monotonic() + 5
-                    while not matched and time.monotonic() < waited:
-                        time.sleep(0.2)
-                # the speak message follows the intent-handler message on the
-                # same thread; give it a brief settle window
-                settle_deadline = time.monotonic() + 3
-                while not spoken and time.monotonic() < settle_deadline:
-                    time.sleep(0.1)
-        finally:
-            self.minicroft.bus.remove(intent_msg_type, intent_handler_fn)
-            self.minicroft.bus.remove("speak", speak_handler_fn)
-        self.assertTrue(matched, f"{utterance!r} did not route to {intent_file}")
+        session = Session(f"e2e-en_us-effect-{intent_file}-{hash(utterance)}")
+        # Session.timezone (OVOS-SESSION-1 §3.5) is a read-only view over
+        # session.location['tz']; that key is the one to set explicitly.
+        session.location["tz"] = PINNED_TZ
+        with mock.patch("ovos_skill_date_time.now_local", side_effect=_frozen_now_local):
+            messages = self._fire(utterance, session)
+        TALLY.assert_routed(utterance, f"{SKILL_ID}:{intent_file}",
+                            [m.msg_type for m in messages])
+        spoken = [m.data.get("utterance", "") for m in messages
+                  if m.msg_type in ("speak", "ovos.utterance.speak")]
         self.assertTrue(spoken, f"expected a spoken response for {utterance!r}")
         expected_lines = _RENDERED[intent_file]
         self.assertTrue(
