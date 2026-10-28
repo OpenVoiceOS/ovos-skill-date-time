@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.12.0a4](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.12.0a4) (2026-10-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.12.0a3...1.12.0a4)
+
+**Merged pull requests:**
+
+- test: run the end2end suite on the m2v prototype pipeline [\#484](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/484) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.12.0a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.12.0a3) (2026-10-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.12.0a2...1.12.0a3)
@@ -375,10 +383,6 @@
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.6a2...1.10.6a3)
 
-**Merged pull requests:**
-
-- refactor: the location slot replaces location.rx in every locale [\#384](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/384) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
-
 ## [1.10.6a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.6a2) (2026-09-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.6a1...1.10.6a2)
@@ -577,15 +581,15 @@
 
 ## [1.1.17a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.17a1) (2026-08-26)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a2...1.1.17a1)
-
-## [1.1.16a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a2) (2026-08-25)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a3...1.1.16a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a3...1.1.17a1)
 
 ## [1.1.16a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a3) (2026-08-25)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a1...1.1.16a3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a2...1.1.16a3)
+
+## [1.1.16a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a2) (2026-08-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.1.16a1...1.1.16a2)
 
 ## [1.1.16a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.1.16a1) (2026-08-13)
 
@@ -1025,15 +1029,15 @@
 
 ## [0.3.9a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.3.9a1) (2024-11-11)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.3.8a2...0.3.9a1)
-
-## [0.3.8a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.3.8a2) (2024-11-10)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.3.8a3...0.3.8a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.3.8a3...0.3.9a1)
 
 ## [0.3.8a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.3.8a3) (2024-11-10)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.3.8a1...0.3.8a3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.3.8a2...0.3.8a3)
+
+## [0.3.8a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.3.8a2) (2024-11-10)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/0.3.8a1...0.3.8a2)
 
 ## [0.3.8a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/0.3.8a1) (2024-11-10)
 
