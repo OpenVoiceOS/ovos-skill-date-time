@@ -16,6 +16,7 @@ import datetime
 import os
 import re
 import unicodedata
+from pathlib import Path
 from typing import Iterable, Optional
 
 import geocoder
@@ -30,6 +31,7 @@ from ovos_utils.process_utils import RuntimeRequirements
 from ovos_utils.time import now_local, get_next_leap_year
 from ovos_utterance_normalizer import UtteranceNormalizerPlugin
 from ovos_spec_tools.expansion import expand
+from ovos_spec_tools.resources import find_lang_dir, read_resource_file
 from ovos_workshop.decorators import intent_handler
 from ovos_workshop.resource_files import ResourceFile
 from ovos_workshop.skills import OVOSSkill
@@ -147,21 +149,23 @@ class TimeSkill(OVOSSkill):
         return text.strip(" \t,;:.!?").casefold()
 
     def _load_locale_phrase_set(self, name: str):
-        """Load a locale phrase list once and return a normalized set.
+        """Load the phrases of a locale `<name>.intent` file once, normalized.
 
-        `load_list_file` returns None, not an empty list, when the locale
-        ships no such `.list` file. Iterating that raised TypeError inside
-        the intent handler, so a located query in such a locale spoke
-        `skill.error` instead of answering. An empty set means the locale
-        marks no phrase, which is what the callers already handle.
+        The file is a phrase store that no handler registers. An empty set
+        means the locale ships no such file, so it marks no phrase.
         """
-        cache_key = f"{name}.list.normalized"
+        cache_key = f"{name}.intent.normalized"
         if cache_key not in self.resources.static:
-            self.resources.static[cache_key] = {
-                self._normalize_phrase(phrase)
-                for phrase in (self.resources.load_list_file(name) or [])
-                if phrase.strip()
-            }
+            phrases = set()
+            lang_dir = find_lang_dir(
+                Path(self.resources.skill_directory) / "locale", self.lang)
+            path = lang_dir / f"{name}.intent" if lang_dir else None
+            if path and path.is_file():
+                for line in read_resource_file(path):
+                    phrases.update(self._normalize_phrase(phrase)
+                                   for phrase in expand(line))
+            phrases.discard("")
+            self.resources.static[cache_key] = phrases
         return self.resources.static[cache_key]
 
     ######################################################################
@@ -247,7 +251,7 @@ class TimeSkill(OVOSSkill):
     def _blank_weekday_questions(self, text: str) -> str:
         """Blank the phrases that ask for the weekday.
 
-        The locale lists them in weekday_question_phrases.list: a weekday's
+        The locale lists them in weekday_question_phrases.intent: a weekday's
         name or the word "week" in them is part of the question, not a day or
         a week the user names.
         """
