@@ -16,8 +16,9 @@ import datetime
 import os
 import re
 import unicodedata
+import zoneinfo
 from pathlib import Path
-from typing import Iterable, Optional
+from typing import Dict, Iterable, Optional
 
 import geocoder
 import pytz
@@ -458,6 +459,37 @@ class TimeSkill(OVOSSkill):
             pass
         return None
 
+    @staticmethod
+    def _timezone_voc_name(zone: str) -> str:
+        """Base name of the `.voc` file that lists the place names of a zone."""
+        return "timezone_" + zone.lower().replace("/", "_").replace("-", "_")
+
+    def _load_timezone_table(self) -> Dict[str, str]:
+        """Map each place name in the locale's `timezone_*.voc` files to its zone.
+
+        Each file lists the place names of one zone. The base name encodes the
+        zone, so the file names are mapped back through the IANA zone names.
+        """
+        cache_key = "timezone.voc.table"
+        if cache_key not in self.resources.static:
+            available = zoneinfo.available_timezones()
+            zones = {self._timezone_voc_name(zone): zone for zone in available}
+            if len(zones) != len(available):
+                raise RuntimeError("two IANA zones share a timezone .voc base name")
+            table = {}
+            lang_dir = find_lang_dir(
+                Path(self.resources.skill_directory) / "locale", self.lang)
+            for path in sorted(lang_dir.glob("timezone_*.voc")) if lang_dir else []:
+                zone = zones.get(path.stem)
+                if zone is None:
+                    LOG.error(f"{path.name} names no known IANA timezone")
+                    continue
+                for line in read_resource_file(path):
+                    for place in expand(line):
+                        table[place.strip()] = zone
+            self.resources.static[cache_key] = table
+        return self.resources.static[cache_key]
+
     def _get_timezone_from_table(self, location_string: str) -> Optional[datetime.tzinfo]:
         """Resolve timezone using a manually defined lookup table.
 
@@ -467,14 +499,13 @@ class TimeSkill(OVOSSkill):
         Returns:
             Optional[datetime.tzinfo]: The corresponding timezone, or None if not found.
         """
-        timezones = self.resources.load_named_value_file("timezone.value", ',')
-        for timezone in timezones:
-            if location_string.lower() == timezone.lower():
+        for place, zone in self._load_timezone_table().items():
+            if location_string.lower() == place.lower():
                 try:
-                    return pytz.timezone(timezones[timezone].strip())
+                    return pytz.timezone(zone)
                 except pytz.UnknownTimeZoneError:
-                    LOG.error(f"timezone.value maps {timezone!r} to "
-                              f"{timezones[timezone].strip()!r}, which pytz does not know")
+                    LOG.error(f"{self._timezone_voc_name(zone)}.voc holds {place!r}, "
+                              f"and {zone!r} is a zone pytz does not know")
                     return None
         return None
 
