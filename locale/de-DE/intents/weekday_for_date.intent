@@ -1,0 +1,55 @@
+Welcher Wochentag ist {date:date}
+Welcher Wochentag war {date:date}
+Welcher Wochentag wird {date:date} sein
+Welcher Tag ist {date:date}
+Welcher Tag war {date:date}
+Welcher Tag wird {date:date} sein
+Was für ein Wochentag ist {date:date}
+Was für ein Wochentag war {date:date}
+Was für ein Wochentag wird {date:date} sein
+Was ist der Wochentag für {date:date}
+Auf welchen Wochentag fällt {date:date}
+Auf welchen Tag fällt {date:date}
+An welchem Wochentag ist {date:date}
+An welchem Wochentag war {date:date}
+An welchem Wochentag wird {date:date} sein
+Kannst du mir sagen welcher Wochentag {date:date} ist
+Kannst du mir sagen welcher Wochentag {date:date} war
+Kannst du mir sagen welcher Wochentag {date:date} sein wird
+Weißt du welcher Wochentag {date:date} ist
+Weißt du welcher Wochentag {date:date} war
+Weißt du welcher Wochentag {date:date} sein wird
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no German speaker has read it.
+Welcher Tag ist der Memorial Day 2020
+Ist heute Montag
+Ist heute Dienstag
+Ist heute Mittwoch
+Ist heute Donnerstag
+Ist heute Freitag
+Ist heute Samstag
+Ist heute Sonntag
+Ist es Montag
+Ist es Dienstag
+Ist es Mittwoch
+Ist es Donnerstag
+Ist es Freitag
+Ist es Samstag
+Ist es Sonntag
+Welcher Wochentag ist heute
+Welcher Wochentag ist es heute
+Welcher Wochentag ist es
+Was ist heute für ein Wochentag
+Was ist heute der Wochentag
+Was für ein Wochentag ist heute
+Weißt du welcher Wochentag heute ist
+Kannst du mir sagen welcher Wochentag heute ist
+Sag mir den Wochentag
+welcher Wochentag ist es
+fällt {date:date} auf einen {weekday} [bitte]
+ist {date:date} ein {weekday}
+war {date:date} ein {weekday}
+wird {date:date} ein {weekday} sein
+sag mir ob der {date:date} auf einen {weekday} fällt
+stimmt es dass der {date:date} ein {weekday} ist
+kannst du prüfen ob {date:date} ein {weekday} war
+prüf mal ob {date:date} auf {weekday} fällt

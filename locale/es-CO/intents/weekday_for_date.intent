@@ -1,0 +1,85 @@
+era {date:date} en un domingo
+era {date:date} en un jueves
+era {date:date} en un lunes
+era {date:date} en un martes
+era {date:date} en un miércoles
+era {date:date} en un sábado
+era {date:date} en un viernes
+es {date:date} en un domingo
+es {date:date} en un jueves
+es {date:date} en un lunes
+es {date:date} en un martes
+es {date:date} en un miércoles
+es {date:date} en un sábado
+es {date:date} en un viernes
+quiero saber qué día de la semana es {date:date}
+quiero saber qué día de la semana es {date:date} ?
+quiero saber qué día de la semana fue {date:date}
+quiero saber qué día de la semana fue {date:date} ?
+quiero saber qué día laborable es {date:date}
+quiero saber qué día laborable es {date:date} ?
+quiero saber qué día laborable fue {date:date}
+quiero saber qué día laborable fue {date:date} ?
+cuál día de la semana era el {date:date}
+cuál día de la semana era en {date:date}
+cuál día de la semana es el {date:date}
+cuál día de la semana es en {date:date}
+cuál día laborable era el {date:date}
+cuál día laborable era en {date:date}
+cuál día laborable es el {date:date}
+cuál día laborable es en {date:date}
+dime qué día de la semana fue {date:date}
+dime qué día laborable fue {date:date}
+en qué día laborable será {date:date}
+en qué día de la semana cae {date:date}
+en qué día de la semana es {date:date}
+en qué día de la semana fue {date:date}
+en qué día de la semana será {date:date}
+en qué día laborable cae {date:date}
+en qué día laborable es {date:date}
+en qué día laborable fue {date:date}
+me podrías decir qué día de la semana es para {date:date}
+me puedes decir qué día de la semana fue {date:date}
+me puedes decir qué día laborable fue {date:date}
+qué día de la semana era el {date:date}
+qué día de la semana era en {date:date}
+qué día de la semana es el {date:date}
+qué día de la semana es en {date:date}
+qué día de la semana es {date:date}
+qué día laborable era el {date:date}
+qué día laborable era en {date:date}
+qué día laborable es el {date:date}
+qué día laborable es en {date:date}
+sabes qué día de la semana es para {date:date}
+sabes qué día de la semana es {date:date}
+sabes qué día de la semana fue {date:date}
+sabes qué día laborable es {date:date}
+sabes qué día laborable fue {date:date}
+hoy es Domingo
+hoy es Jueves
+hoy es Lunes
+hoy es Martes
+hoy es Miércoles
+hoy es Sábado
+hoy es Viernes
+hoy estamos Domingo
+hoy estamos Jueves
+hoy estamos Lunes
+hoy estamos Martes
+hoy estamos Miércoles
+hoy estamos Sábado
+hoy estamos Viernes
+me puedes decir qué día de la semana es
+me puedes decir qué día laborable es
+qué día de la semana es
+qué día de la semana es hoy
+qué día laborable es
+qué día laborable es hoy
+sabes qué día de la semana es
+sabes qué día laborable es
+dime qué día de la semana corresponde a hoy
+qué día de la semana cae hoy
+cae {date:date} en {weekday} [por favor]
+es {date:date} un {weekday}
+fue {date:date} un {weekday}
+será {date:date} un {weekday}

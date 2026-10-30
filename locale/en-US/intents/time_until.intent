@@ -1,0 +1,66 @@
+how far away is {date:date}
+how far away is {date:date} from now
+how far away is {date:date} from today
+how far off is {date:date}
+how far off is {date:date} from now
+how far off is {date:date} from today
+how long ago was {date:date}
+how long do we have before {date:date}
+how long do we have until {date:date}
+how long from now is {date:date}
+how long is left before {date:date}
+how long is left until {date:date}
+how many days ago was {date:date}
+how many days are left before {date:date}
+how many days are left until {date:date}
+how many days from now is {date:date}
+how many days remaining before {date:date}
+how many days remaining until {date:date}
+how many hours are left before {date:date}
+how many hours are left until {date:date}
+how many hours remaining before {date:date}
+how many hours remaining until {date:date}
+how many weeks are left before {date:date}
+how many weeks are left until {date:date}
+how many weeks remaining before {date:date}
+how many weeks remaining until {date:date}
+how much longer do we have before {date:date}
+how much longer do we have until {date:date}
+how much longer is left before {date:date}
+how much longer is left until {date:date}
+how much time do we have before {date:date}
+how much time do we have until {date:date}
+how much time is left before {date:date}
+how much time is left until {date:date}
+how much time left before {date:date}
+how much time left until {date:date}
+how much time remaining before {date:date}
+how much time remaining until {date:date}
+what's the time left before {date:date}
+what's the time left until {date:date}
+what's the time remaining before {date:date}
+what's the time remaining until {date:date}
+when is {date:date}
+when will it be {date:date}
+when exactly is {date:date}
+when exactly will it be {date:date}
+when is the last {date:date}
+when is the next {date:date}
+when is the previous {date:date}
+when was the last {date:date}
+when was the next {date:date}
+when was the previous {date:date}
+when was {date:date}
+how much longer must we wait for {date:date}
+how many days (are there|is it) between {start} and {end}
+how many days between {start} and {end}
+how many days (are there|is it) from {start} (to|until) {end}
+how many days from {start} (to|until) {end}
+how long is it between {start} and {end}
+how long is it from {start} (to|until) {end}
+how far apart are {start} and {end}
+what is the number of days between {start} and {end}
+count the days between {start} and {end}
+count the days from {start} (to|until) {end}
+tell me how many days are between {start} and {end}
+what's the gap in days between {start} and {end}

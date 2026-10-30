@@ -1,0 +1,20 @@
+zein asteguna da {date:date} [mesedez]
+zein eguna da {date:date}
+esadazu zein asteguna den {date:date}
+zein asteguni dagokio {date:date}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Basque speaker has read it.
+Zein egunetan da 2020ko Oroitzapen Eguna
+esadazu asteko zein egun izango den {date:date}
+asteko eguna zein da gaur
+zein asteegun da gaur
+zein asteegun gaude gaur
+zein eguna da astean
+Esadazu asteko eguna
+zein egun da gaur astean
+asteko zein egunetan gaude gaur
+esadazu asteko zein egun den gaur
+{date:date} data {weekday}a al da [mesedez]
+{date:date} data {weekday}ea al da [mesedez]
+erortzen al da {date:date} eguna {weekday}(e)an
+izango al da {date:date} eguna {weekday}(e)a
+izan al zen {date:date} eguna {weekday}(e)a

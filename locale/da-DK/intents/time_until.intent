@@ -1,0 +1,59 @@
+hvad tid er der tilbage før {date:date}
+hvad tid er der tilbage indtil {date:date}
+hvor lang er der tilbage før {date:date}
+hvor lang er der tilbage indtil {date:date}
+hvor lang har vi før {date:date}
+hvor lang har vi indtil {date:date}
+hvor lang tid fra nu er der {date:date}
+hvor langt fra er {date:date}
+hvor langt fra er {date:date} fra i dag
+hvor langt fra er {date:date} fra nu
+hvor langt væk er {date:date}
+hvor langt væk er {date:date} fra i dag
+hvor langt væk er {date:date} fra nu
+hvor længe siden var {date:date}
+hvor mange dage er der tilbage før {date:date}
+hvor mange dage er der tilbage indtil {date:date}
+hvor mange dage fra nu er der {date:date}
+hvor mange dage siden var {date:date}
+hvor mange timer er der tilbage før {date:date}
+hvor mange timer er der tilbage indtil {date:date}
+hvor mange uger er der tilbage før {date:date}
+hvor mange uger er der tilbage indtil {date:date}
+hvor meget længere er der tilbage før {date:date}
+hvor meget længere er der tilbage indtil {date:date}
+hvor meget længere har vi før {date:date}
+hvor meget længere har vi indtil {date:date}
+hvor meget tid er der tilbage før {date:date}
+hvor meget tid er der tilbage indtil {date:date}
+hvor meget tid har vi før {date:date}
+hvor meget tid har vi indtil {date:date}
+hvornår er den forrige {date:date}
+hvornår er den næste {date:date}
+hvornår er den sidste {date:date}
+hvornår er {date:date}
+hvornår præcis er {date:date}
+hvornår præcis vil det være {date:date}
+hvornår var den forrige {date:date}
+hvornår var den næste {date:date}
+hvornår var den sidste {date:date}
+hvornår var {date:date}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Danish speaker has read it.
+Hvor mange dage indtil {date:date}
+hvor lang tid går der før vi når {date:date}
+hvor mange dage skal vi vente før {date:date}
+hvor længe skal jeg vente på at det bliver {date:date}
+fortæl mig hvor mange dage der mangler før {date:date}
+hvor mange dage er der (mellem|imellem) {start} og {end}
+hvor mange dage (mellem|imellem) {start} og {end}
+hvor mange dage er der fra {start} til {end}
+hvor mange dage fra {start} til {end}
+hvor mange dage går der fra {start} til {end}
+hvor mange dage går der (mellem|imellem) {start} og {end}
+hvor lang tid er der (mellem|imellem) {start} og {end}
+hvor lang tid er der fra {start} til {end}
+hvor langt er der (mellem|imellem) {start} og {end}
+tæl dagene (mellem|imellem) {start} og {end}
+tæl dagene fra {start} til {end}
+antal dage (mellem|imellem) {start} og {end}
+fortæl mig afstanden i dage fra {start} til {end}
