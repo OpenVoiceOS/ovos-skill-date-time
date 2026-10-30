@@ -22,6 +22,7 @@ dependencies = [
     "ovos-date-parser>=0.35.4a1,<1.0.0",
     "ovos-utterance-normalizer>=0.0.1,<1.0.0",
     "ovos-spec-tools>=1.11.0a1",
+    "tzdata",
 ]
 
 [project.optional-dependencies]
