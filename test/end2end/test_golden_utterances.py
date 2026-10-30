@@ -1,5 +1,6 @@
 """Golden rows route to their intent on the m2v prototype pipeline, and
 negative rows reach no intent of this skill."""
+import ast
 import json
 from pathlib import Path
 
@@ -10,6 +11,24 @@ from ovoscope.routing import TALLY, get_prototype_minicroft
 SKILL_ID = "ovos-skill-date-time.openvoiceos"
 END2END_DIR = Path(__file__).parent
 LOCALE_ROOT = END2END_DIR.parents[1] / "locale"
+
+
+def _registered_intent_files():
+    """The intent files a handler registers, read from the @intent_handler decorators."""
+    tree = ast.parse((END2END_DIR.parents[1] / "__init__.py").read_text(encoding="utf-8"))
+    return {
+        call.args[0].value
+        for node in ast.walk(tree) if isinstance(node, ast.FunctionDef)
+        for call in node.decorator_list
+        if isinstance(call, ast.Call) and getattr(call.func, "id", None) == "intent_handler"
+    }
+
+
+def _registered_in(locale_dir):
+    return {p.name for p in locale_dir.rglob("*.intent")} & REGISTERED
+
+
+REGISTERED = _registered_intent_files()
 
 
 def _rows(prefix):
@@ -65,15 +84,15 @@ def test_negative_row_reaches_no_intent_of_the_skill(engine_for, row):
 
 def test_every_shipping_locale_has_a_golden_file():
     golden = {p.stem.split("_", 2)[2] for p in END2END_DIR.glob("golden_utterances_*.jsonl")}
-    shipping = {d.name for d in LOCALE_ROOT.iterdir() if d.is_dir() and any(d.rglob("*.intent"))}
+    shipping = {d.name for d in LOCALE_ROOT.iterdir() if d.is_dir() and _registered_in(d)}
     assert golden == shipping, f"golden files {sorted(golden ^ shipping)} differ from shipping locales"
 
 
 def test_every_en_us_intent_ships_in_every_locale():
-    reference = {p.name for p in (LOCALE_ROOT / "en-US").rglob("*.intent")}
+    reference = REGISTERED
     missing = {
-        d.name: sorted(reference - {p.name for p in d.rglob("*.intent")})
-        for d in sorted(LOCALE_ROOT.iterdir()) if d.is_dir() and any(d.rglob("*.intent"))
+        d.name: sorted(reference - _registered_in(d))
+        for d in sorted(LOCALE_ROOT.iterdir()) if d.is_dir() and _registered_in(d)
     }
     missing = {lang: names for lang, names in missing.items() if names}
     assert not missing, f"intent files of en-US missing from these locales: {missing}"
