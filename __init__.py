@@ -23,8 +23,8 @@ from typing import Dict, Iterable, Optional
 import geocoder
 import pytz
 from ovos_bus_client.message import Message
-from ovos_date_parser import nice_time, extract_datetime, nice_date, nice_duration, date_time_format, nice_weekday, \
-    nice_month, nice_day, nice_year, extract_holiday_date
+from ovos_date_parser import nice_time, extract_datetime, extract_duration, nice_date, nice_duration, \
+    date_time_format, nice_weekday, nice_month, nice_day, nice_year, extract_holiday_date
 from ovos_utils import classproperty
 from ovos_utils.log import LOG
 from ovos_utils.parse import fuzzy_match
@@ -707,8 +707,16 @@ class TimeSkill(OVOSSkill):
             response = self.get_response("ask_offset")
             if not response:
                 return
-            dt, utt = extract_datetime(normalizer.normalize(response),
-                                       lang=self.lang) or (None, None)
+            response = normalizer.normalize(response)
+            # the prompt asks for a length of time ("ten minutes"), and a
+            # length alone is not a date: read it as a duration from now
+            # first, and as a date only when it holds no duration.
+            offset, _ = extract_duration(response, lang=self.lang)
+            if offset:
+                dt = self.get_datetime() + offset
+            else:
+                dt, utt = extract_datetime(response,
+                                           lang=self.lang) or (None, None)
 
         if not dt:
             self.handle_query_time(message)
