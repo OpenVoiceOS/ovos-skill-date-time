@@ -535,11 +535,23 @@ class TestWeekdayForDate(unittest.TestCase):
                                 ("en-US", "is it true that 12/25/2024 is a friday"),
                                 ("en-US", "is 12/25/2024 going to be a monday"),
                                 ("en-US", "is 12/25/2024 a friday"),
-                                ("de-DE", "ist der 25.12.2024 ein mittwoch"),
                                 ("en-US", "is 12/25/2024 a monday or a tuesday")):
             for hour in (9, 12, 21):
                 key, _ = self._slotless(utterance, lang, self._thursday(hour))
                 self.assertEqual(key, "extract_date_error", (lang, utterance, hour))
+
+    def test_a_yes_no_question_about_a_dotted_german_date_is_answered(self):
+        day = date(2024, 12, 25)
+        self.assertEqual(day.weekday(), 2)  # a Wednesday
+        for hour in (9, 12, 21):
+            key, data = self._slotless("ist der 25.12.2024 ein mittwoch", "de-DE",
+                                       self._thursday(hour))
+            self.assertEqual(key, "weekday_matches_date_past_yes", hour)
+            self.assertEqual(data["actual_weekday"],
+                             nice_weekday(datetime.combine(day, time(12)), lang="de-DE"))
+            key, _ = self._slotless("ist der 25.12.2024 ein freitag", "de-DE",
+                                    self._thursday(hour))
+            self.assertEqual(key, "weekday_matches_date_past_no", hour)
 
     def _thursday(self, hour):
         thursday = NOW.tzinfo.localize(datetime(2026, 10, 22, hour, 0))
