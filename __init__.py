@@ -711,8 +711,11 @@ class TimeSkill(OVOSSkill):
             # the prompt asks for a length of time ("ten minutes"), and a
             # length alone is not a date: read it as a duration from now
             # first, and as a date only when it holds no duration.
-            offset, _ = extract_duration(response, lang=self.lang)
-            if offset:
+            # extract_duration returns a bare None for text the normalizer
+            # emptied ("?", " "), and a zero length is still a length
+            offset, _ = (extract_duration(response, lang=self.lang)
+                         or (None, response))
+            if offset is not None:
                 dt = self.get_datetime() + offset
             else:
                 dt, utt = extract_datetime(response,

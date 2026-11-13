@@ -84,5 +84,24 @@ class TestAnswerToTheOffsetPrompt(unittest.TestCase):
                           + datetime.timedelta(days=1)).date())
 
 
+    def test_a_zero_length_is_now(self):
+        """A zero length is a length, not midnight."""
+        self.assert_now_plus("en-US", "what time will it be", "0 minutes",
+                             datetime.timedelta(0))
+
+    def test_an_answer_the_normalizer_empties_speaks_the_time(self):
+        """"?" normalizes to "", where extract_duration returns a bare None;
+        the handler falls back to the current time instead of raising."""
+        message = Message(f"{SKILL_ID}:what_time_will_it_be",
+                          {"utterance": "what time will it be", "lang": "en-US"}, {})
+        with mock.patch.object(self.skill_class, "lang",
+                               new_callable=mock.PropertyMock,
+                               return_value="en-US"), \
+                mock.patch.object(self.skill, "typed_slot", return_value=None), \
+                mock.patch.object(self.skill, "get_response", return_value="?"), \
+                mock.patch.object(self.skill, "handle_query_time") as now_time:
+            self.skill.handle_query_future_time(message)
+        now_time.assert_called_once()
+
 if __name__ == "__main__":
     unittest.main()
