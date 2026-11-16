@@ -10,6 +10,7 @@ from unittest import mock
 
 from ovos_bus_client.message import Message
 from ovos_utils.fakebus import FakeBus
+from ovos_utils.time import now_local
 
 SKILL_ID = "ovos-skill-date-time.openvoiceos"
 
@@ -31,7 +32,7 @@ class TestFutureTimeWithPunctuation(unittest.TestCase):
                 mock.patch.object(self.skill, "typed_slot", return_value=None), \
                 mock.patch.object(self.skill, "_resolve_location", return_value=None), \
                 mock.patch.object(self.skill, "speak_time") as speak:
-            today = datetime.date.today()
+            today = now_local().date()
             self.skill.handle_query_future_time(message)
         speak.assert_called_once()
         self.assertEqual(speak.call_args.args[0], "time_future")
