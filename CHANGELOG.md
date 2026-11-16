@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.12.3a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.12.3a2) (2026-11-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.12.3a1...1.12.3a2)
+
+**Merged pull requests:**
+
+- fix: require ovos-date-parser\>=0.37.1a1 \(punctuation after a time\) [\#494](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/494) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.12.3a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.12.3a1) (2026-11-14)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.12.2a1...1.12.3a1)
