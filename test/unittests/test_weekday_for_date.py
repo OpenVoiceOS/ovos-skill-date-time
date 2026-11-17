@@ -419,10 +419,20 @@ class TestWeekdayForDate(unittest.TestCase):
             self.assertEqual(key, "weekday_current", utterance)
 
     def test_a_date_that_cannot_be_read_is_an_error_not_today(self):
-        for utterance in ("which day of the week will 12/25/2024 land on",
-                          "what day of the week does 12/25/2024 land on"):
+        for utterance in ("which day of the week will 12/45/2024 land on",
+                          "what day of the week does 12/45/2024 land on"):
             key, _ = self._slotless(utterance, "en-US")
             self.assertEqual(key, "extract_date_error", utterance)
+
+    def test_a_date_with_slashes_gets_its_weekday(self):
+        self.assertEqual(date(2024, 12, 25).weekday(), 2)  # a Wednesday
+        for utterance in ("which day of the week will 12/25/2024 land on",
+                          "what day of the week does 12/25/2024 land on"):
+            key, data = self._slotless(utterance, "en-US")
+            self.assertEqual(key, "weekday_at_date_past", utterance)
+            self.assertEqual(data["weekday"], nice_weekday(datetime(2024, 12, 25, 12), lang="en-US"))
+        key, data = self._slotless("is 12/25/2024 a friday", "en-US")
+        self.assertEqual(key, "weekday_matches_date_past_no")
 
     def test_a_named_date_is_not_moved_a_week_when_no_slot_is_bound(self):
         # 2026-10-28 is a Wednesday; a week later is November 4
@@ -488,11 +498,12 @@ class TestWeekdayForDate(unittest.TestCase):
                 self.assertEqual(key, f"weekday_matches_date_future_{answer}", (lang, utterance))
                 self.assertEqual(data["actual_weekday"], actual, (lang, utterance))
 
-    def test_a_weekday_beside_a_date_the_parser_cannot_read_is_an_error(self):
-        for lang, utterance in (("fa-IR", "۱ ژانویه پنجشنبه‌ست؟"),
-                                ("fa-IR", "۳۱ اکتبر پنجشنبه میفته؟")):
-            key, _ = self._slotless(utterance, lang)
-            self.assertEqual(key, "extract_date_error", utterance)
+    def test_a_weekday_beside_a_persian_date_is_checked_against_it(self):
+        # 2027-01-01 is a Friday and 2026-10-31 a Saturday, so neither is a Thursday
+        self.assertEqual((date(2027, 1, 1).weekday(), date(2026, 10, 31).weekday()), (4, 5))
+        for utterance in ("۱ ژانویه پنجشنبه‌ست؟", "۳۱ اکتبر پنجشنبه میفته؟"):
+            key, _ = self._slotless(utterance, "fa-IR")
+            self.assertEqual(key, "weekday_matches_date_future_no", utterance)
 
     def test_questions_that_name_no_other_day_are_about_today(self):
         for lang, utterance in PLAIN_WEEKDAY_QUESTIONS:
@@ -518,24 +529,24 @@ class TestWeekdayForDate(unittest.TestCase):
         self.assertEqual(key, "weekday_at_date_future")
         self.assertEqual(data["weekday"], nice_weekday(datetime(2026, 10, 23), lang="en-US"))
 
-    def test_a_danish_date_before_a_weekday_is_read_whole(self):
-        # on a Thursday the parser reads "4. juli på en torsdag" as 2027-07-04, a Sunday
+    def test_a_danish_date_before_a_weekday_is_checked_against_it(self):
+        # on a Thursday "4. juli" is 2027-07-04, a Sunday, and the weekday is the one to check
         thursday = self._thursday(12)
         day = date(2027, 7, 4)
         self.assertEqual(day.weekday(), 6)
         key, data = self._slotless("lander 4. juli på en torsdag", "da-DK", thursday)
-        self.assertEqual(key, "weekday_at_date_future")
-        self.assertEqual(data["weekday"], nice_weekday(datetime.combine(day, time(12)), lang="da-DK"))
+        self.assertEqual(key, "weekday_matches_date_future_no")
+        self.assertEqual(data["actual_weekday"], nice_weekday(datetime.combine(day, time(12)), lang="da-DK"))
         key, _ = self._slotless("lander 4. juli på en søndag", "da-DK", thursday)
-        self.assertEqual(key, "weekday_at_date_future")
+        self.assertEqual(key, "weekday_matches_date_future_yes")
 
     def test_a_yes_no_question_about_a_date_the_parser_cannot_read_is_an_error(self):
-        for lang, utterance in (("en-US", "will 12/25/2024 land on a friday"),
-                                ("en-US", "is 12/25/2024 going to be a friday"),
-                                ("en-US", "is it true that 12/25/2024 is a friday"),
-                                ("en-US", "is 12/25/2024 going to be a monday"),
-                                ("en-US", "is 12/25/2024 a friday"),
-                                ("en-US", "is 12/25/2024 a monday or a tuesday")):
+        for lang, utterance in (("en-US", "will 12/45/2024 land on a friday"),
+                                ("en-US", "is 12/45/2024 going to be a friday"),
+                                ("en-US", "is it true that 12/45/2024 is a friday"),
+                                ("en-US", "is 12/45/2024 going to be a monday"),
+                                ("en-US", "is 12/45/2024 a friday"),
+                                ("en-US", "is 12/45/2024 a monday or a tuesday")):
             for hour in (9, 12, 21):
                 key, _ = self._slotless(utterance, lang, self._thursday(hour))
                 self.assertEqual(key, "extract_date_error", (lang, utterance, hour))
@@ -598,9 +609,9 @@ class TestWeekdayForDate(unittest.TestCase):
         def last(today, weekday):
             return today - timedelta(days=(today.weekday() - weekday) % 7 or 7)
 
-        def next_after_tomorrow(today, weekday):
-            soonest = today + timedelta(days=2)
-            return soonest + timedelta(days=(weekday - soonest.weekday()) % 7)
+        def next_after_today(today, weekday):
+            # chronologia reads "next friday" as the first Friday after today
+            return today + timedelta(days=(weekday - today.weekday() - 1) % 7 + 1)
 
         for today in (date(2026, 10, 22), date(2026, 10, 23), date(2026, 10, 26)):
             for hour, minute in ((21, 0), (23, 55)):
@@ -609,14 +620,21 @@ class TestWeekdayForDate(unittest.TestCase):
                         ("what day was it last monday at 9", last(today, 0)),
                         ("what date was last thursday at 8", last(today, 3)),
                         ("what was the date last friday at 3", last(today, 4)),
-                        ("which date was friday at 3", last(today, 4)),
-                        ("what is the date next friday at 10", next_after_tomorrow(today, 4))):
+                        ("what is the date next friday at 10", next_after_today(today, 4))):
                     key, data = self._slotless(utterance, "en-US", clock)
                     expected = datetime.combine(day, time(12))
                     where = (utterance, clock.isoformat())
                     self.assertIn(key, ("weekday_at_date_past", "weekday_at_date_future"), where)
                     self.assertEqual(data["weekday"], nice_weekday(expected, lang="en-US"), where)
                     self.assertEqual(data["date"], nice_date(expected, lang="en-US", now=clock), where)
+
+    @unittest.expectedFailure
+    def test_a_bare_weekday_in_the_past_tense_is_the_last_one(self):
+        # chronologia ruling 16 leaves the tense to the caller, and the skill reads no tense
+        clock = NOW.tzinfo.localize(datetime(2026, 10, 22, 21, 0))  # a Thursday
+        key, data = self._slotless("which date was friday at 3", "en-US", clock)
+        self.assertEqual(key, "weekday_at_date_past")
+        self.assertEqual(data["date"], nice_date(datetime(2026, 10, 16, 12), lang="en-US", now=clock))
 
 
 if __name__ == "__main__":

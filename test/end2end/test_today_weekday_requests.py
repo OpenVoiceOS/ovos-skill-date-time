@@ -146,7 +146,7 @@ class TestM2vPipeline(TodayWeekdayRequests, TestCase):
 
     # the m2v engine binds no slot, so the parser alone reads the date
     def test_a_date_that_cannot_be_read_is_an_error(self):
-        for utterance in ("which day of the week will 12/25/2024 land on",
-                          "what day of the week does 12/25/2024 land on"):
+        for utterance in ("which day of the week will 12/45/2024 land on",
+                          "what day of the week does 12/45/2024 land on"):
             spoken = self._ask("en-US", utterance)
             self.assertTrue(_is_line_of(spoken, "en-US", "extract_date_error"), (utterance, spoken))
