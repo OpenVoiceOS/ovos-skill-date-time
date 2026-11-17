@@ -122,6 +122,15 @@ class TestChronologiaReading(unittest.TestCase):
                 found = self.skill._parse_date(text, NOW)
             self.assertEqual(found.replace(tzinfo=None), datetime(2027, 1, 1), (lang, text))
 
+    def test_a_date_in_another_season_takes_the_offset_of_its_own_date(self):
+        # Copenhagen keeps CEST (+02:00) on 17 October and CET (+01:00) on 1 January
+        clock, lang = self._patched("en-US", NOW)
+        with clock, lang:
+            found = self.skill._parse_date("january 1", NOW)
+        self.assertEqual(found.utcoffset(), timedelta(hours=1))
+        self.assertEqual(found.replace(tzinfo=None), datetime(2027, 1, 1))
+        self.assertEqual(NOW.utcoffset(), timedelta(hours=2))
+
 
 if __name__ == "__main__":
     unittest.main()
