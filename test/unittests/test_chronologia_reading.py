@@ -131,6 +131,50 @@ class TestChronologiaReading(unittest.TestCase):
         self.assertEqual(found.replace(tzinfo=None), datetime(2027, 1, 1))
         self.assertEqual(NOW.utcoffset(), timedelta(hours=2))
 
+    def test_a_clock_in_a_named_zone_is_converted_to_the_session_zone(self):
+        # 15:00 UTC on 17 October is 17:00 in Copenhagen (CEST, +02:00)
+        for lang, utterance in (("fr-FR", "quelle heure sera-t-il à 15 heures UTC"),
+                                ("pt-PT", "que horas serão às 15 horas UTC")):
+            clock, patched_lang = self._patched(lang, NOW)
+            with clock, patched_lang, mock.patch.object(self.skill, "speak_time") as speak, \
+                    mock.patch.object(self.skill, "get_response", return_value=None), \
+                    mock.patch.object(self.skill, "handle_query_time"):
+                self.skill.handle_query_future_time(Message("what_time_will_it_be",
+                                                            {"utterance": utterance}))
+            found = speak.call_args.kwargs["anchor_date"]
+            self.assertEqual(found, pytz.utc.localize(datetime(2026, 10, 17, 15)), utterance)
+            self.assertEqual(found.replace(tzinfo=None), datetime(2026, 10, 17, 17), utterance)
+
+    def _spoken_date(self, handler, intent, utterance):
+        """The dialog and its data, with each date spoken as its ISO instant."""
+        clock, lang = self._patched("en-US", NOW)
+        with clock, lang, mock.patch("ovos_skill_date_time.nice_date",
+                                     side_effect=lambda dt, lang, **_: dt.isoformat()), \
+                mock.patch.object(self.skill, "speak_dialog") as speak:
+            handler(Message(intent, {"utterance": utterance}))
+        return speak.call_args.args
+
+    def test_the_days_until_a_clock_in_a_named_zone(self):
+        # 09:00 UTC on 25 December is 10:00 in Copenhagen (CET, +01:00)
+        key, data = self._spoken_date(self.skill.handle_time_until, "time_until",
+                                      "how many days until december 25 at 9 am utc")
+        self.assertEqual(key, "date_relative_future")
+        self.assertEqual(data["date"], "2026-12-25T10:00:00+01:00")
+
+    def test_a_past_weekday_at_a_clock_in_a_named_zone(self):
+        # the Friday before Saturday 17 October is 16 October; 09:00 GMT is 11:00 CEST
+        key, data = self._spoken_date(self.skill.handle_query_date, "date",
+                                      "what date was friday at 9 am gmt")
+        self.assertEqual(key, "date")
+        self.assertEqual(data["date"], "2026-10-16T11:00:00+02:00")
+
+    def test_a_past_calendar_date_is_its_last_occurrence(self):
+        # 15 May 2026 lies before Saturday 17 October 2026; 15 May 2027 lies after it
+        for utterance, expected in (("what was the date on may 15", "2026-05-15T00:00:00+02:00"),
+                                    ("what is the date on may 15", "2027-05-15T00:00:00+02:00")):
+            key, data = self._spoken_date(self.skill.handle_query_date, "date", utterance)
+            self.assertEqual(data["date"], expected, utterance)
+
 
 if __name__ == "__main__":
     unittest.main()

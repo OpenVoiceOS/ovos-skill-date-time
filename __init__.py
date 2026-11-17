@@ -47,6 +47,17 @@ PAST_PERIODS = {
 }
 
 
+def wall_clock(moment, now):
+    """Return ``moment`` as a naive wall clock in the zone of ``now``.
+
+    chronologia gives a naive start, except for a clock with a zone word
+    ("9 am utc", "est", "-0500"), which it gives in that zone.
+    """
+    if moment is None or moment.tzinfo is None:
+        return moment
+    return moment.astimezone(now.tzinfo).replace(tzinfo=None)
+
+
 def speakable_timezone(tz):
     """Convert a timezone string to a more speakable form.
 
@@ -315,11 +326,12 @@ class TimeSkill(OVOSSkill):
         range starts at ``now``, and the date it names is the candidate that
         ends where the range ends.
 
-        chronologia reads a weekday, a date or a holiday as its next
-        occurrence and leaves the tense to the caller (ruling 16). In a
-        ``past`` sentence ("which date was friday at 3") such a reading that
-        is still to come is read again from the same day one period earlier,
-        which gives the last occurrence before today.
+        chronologia reads a weekday or a date as its next occurrence and
+        leaves the tense to the caller (ruling 16). In a ``past`` sentence
+        ("which date was friday at 3") such a reading that is still to come
+        is read again from the day after the same day one period earlier,
+        which gives the last occurrence before now. So "friday" said on a
+        Friday is today, at any hour (ruling 6).
         """
         naive_now = now.replace(tzinfo=None)
         try:
@@ -327,18 +339,20 @@ class TimeSkill(OVOSSkill):
             if found is None:
                 return None
             span = found.span
-            start = span.start_datetime
-            if start == naive_now or (past and start and start > naive_now):
+            start = wall_clock(span.start_datetime, now)
+            ahead = past and start is not None and start > naive_now
+            if start == naive_now or ahead:
                 candidates = extract_candidates(text, self.lang, now)
                 construction = candidates[0].construction if candidates else None
                 if construction == "open_range":
                     span = next((c.span for c in candidates[1:] if c.span.end == span.end),
                                 span)
-                elif past and construction in PAST_PERIODS:
-                    earlier = (now - PAST_PERIODS[construction]).replace(
-                        hour=0, minute=0, second=0, microsecond=0)
+                elif ahead and construction in PAST_PERIODS:
+                    day_after = now - PAST_PERIODS[construction] + datetime.timedelta(days=1)
+                    earlier = day_after.replace(hour=0, minute=0, second=0, microsecond=0)
                     found = extract_timespan(text, self.lang, earlier)
-                    if found and found.span.start_datetime and found.span.start_datetime < naive_now:
+                    before = wall_clock(found.span.start_datetime, now) if found else None
+                    if before and before < naive_now:
                         span = found.span
         except Exception:
             self.log.exception(f"failed to extract date from '{text}'")
@@ -351,13 +365,25 @@ class TimeSkill(OVOSSkill):
         The start of the span is the instant: midnight for a named day, the
         clock for a time, and the clock of ``now`` for a counted offset ("in
         three days"). chronologia reads the wall clock of ``now`` and drops
-        its zone, so the instant is localized in that zone, with the offset
-        of its own date. A date before year 1 has no ``datetime`` and is
-        None too.
+        its zone, so a naive instant is localized in that zone, with the
+        offset of its own date. An instant in the zone the text names ("9 am
+        utc") is converted to the zone of ``now``. A date before year 1 has
+        no ``datetime`` and is None too.
         """
         span = self._read_span(text, now, past)
         start = span.start_datetime if span else None
-        return now.tzinfo.localize(start) if start else None
+        if start is None:
+            return None
+        return start.astimezone(now.tzinfo) if start.tzinfo else now.tzinfo.localize(start)
+
+    def _is_past(self, utterance: str) -> bool:
+        """Return True when the utterance asks about the past.
+
+        A past marker ("was", pt "foi") is the past tense, unless a future
+        marker ("next", pt "próxima") names the direction itself.
+        """
+        return bool(self.voc_match(utterance, "past_marker", lang=self.lang)
+                    and not self.voc_match(utterance, "future_marker", lang=self.lang))
 
     def _tokens(self, text: str) -> list:
         text = text.replace("\u2019", "'")
@@ -419,7 +445,7 @@ class TimeSkill(OVOSSkill):
         those weekdays blanked, is read instead.
         """
         raw = message.data.get("utterance", "")
-        past = self.voc_match(raw, "past_marker", lang=self.lang)
+        past = self._is_past(raw)
         utterance = self._blank_weekday_questions(raw)
         slot = message.data.get("date") or ""
         if slot.casefold() in raw.casefold() and slot.casefold() not in utterance.casefold():
@@ -767,7 +793,7 @@ class TimeSkill(OVOSSkill):
         """Handle queries about the current date."""
         utt = message.data.get('utterance', "").lower()
         now = self.get_datetime()  # session aware
-        dt = self._parse_date(utt, now, self.voc_match(utt, "past_marker", lang=self.lang)) or now
+        dt = self._parse_date(utt, now, self._is_past(utt)) or now
 
         # handle questions ~ "what is the day in sydney"
         location_string = self._resolve_location(message.data.get("location"))
@@ -873,7 +899,7 @@ class TimeSkill(OVOSSkill):
                 self._speak_weekday_match(other or now, now, index)
                 return
             alone = self._parse_date(utterance[slice(*span)], now,
-                                     self.voc_match(utterance, "past_marker", lang=self.lang))
+                                     self._is_past(utterance))
             rest = self._read_span(self._text_without(utterance, [span]), now)
             if other and rest and rest.width == datetime.timedelta(days=1):
                 self._speak_weekday_match(other, now, index)

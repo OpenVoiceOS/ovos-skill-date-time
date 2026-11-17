@@ -609,6 +609,10 @@ class TestWeekdayForDate(unittest.TestCase):
         def last(today, weekday):
             return today - timedelta(days=(today.weekday() - weekday) % 7 or 7)
 
+        def latest(today, weekday):
+            # a weekday said in the past tense on that weekday is today (ruling 6)
+            return today - timedelta(days=(today.weekday() - weekday) % 7)
+
         def next_after_today(today, weekday):
             # chronologia reads "next friday" as the first Friday after today
             return today + timedelta(days=(weekday - today.weekday() - 1) % 7 + 1)
@@ -620,11 +624,14 @@ class TestWeekdayForDate(unittest.TestCase):
                         ("what day was it last monday at 9", last(today, 0)),
                         ("what date was last thursday at 8", last(today, 3)),
                         ("what was the date last friday at 3", last(today, 4)),
-                        ("which date was friday at 3", last(today, 4)),
+                        ("which date was friday at 3", latest(today, 4)),
                         ("what is the date next friday at 10", next_after_today(today, 4))):
                     key, data = self._slotless(utterance, "en-US", clock)
                     expected = datetime.combine(day, time(12))
                     where = (utterance, clock.isoformat())
+                    if day == today:
+                        self.assertEqual(key, "weekday_current", where)
+                        continue
                     self.assertIn(key, ("weekday_at_date_past", "weekday_at_date_future"), where)
                     self.assertEqual(data["weekday"], nice_weekday(expected, lang="en-US"), where)
                     self.assertEqual(data["date"], nice_date(expected, lang="en-US", now=clock), where)
@@ -649,6 +656,31 @@ class TestWeekdayForDate(unittest.TestCase):
                                 ("pt-PT", "que data é sexta-feira às 3")):
             key, data = self._slotless(utterance, lang, clock)
             self.assertEqual(key, "weekday_at_date_future", (lang, utterance))
+
+    def test_a_past_question_with_a_word_for_the_future_keeps_the_next_occurrence(self):
+        # the first Friday after Saturday 17 October is 23 October
+        friday = datetime(2026, 10, 23, 12)
+        for lang, utterance in (("en-US", "what date was next friday"),
+                                ("pt-PT", "que data foi a próxima sexta-feira")):
+            key, data = self._slotless(utterance, lang)
+            self.assertEqual(key, "weekday_at_date_future", (lang, utterance))
+            self.assertEqual(data["date"], nice_date(friday, lang=lang, now=NOW), (lang, utterance))
+
+    def test_a_past_question_about_todays_weekday_is_today_at_any_hour(self):
+        # 2026-10-23 is a Friday
+        for hour in (0, 13, 21):
+            clock = NOW.tzinfo.localize(datetime(2026, 10, 23, hour, 0))
+            self.assertEqual(clock.weekday(), 4)
+            for utterance in ("which date was friday", "which date was friday at 3"):
+                key, _ = self._slotless(utterance, "en-US", clock)
+                self.assertEqual(key, "weekday_current", (utterance, hour))
+
+    def test_a_weekday_at_a_clock_in_a_named_zone(self):
+        # Friday 23 October 09:00 EST (-05:00) is 16:00 CEST (+02:00), the same day in Copenhagen
+        friday = datetime(2026, 10, 23, 12)
+        key, data = self._slotless("what date is friday at 9 am est")
+        self.assertEqual(key, "weekday_at_date_future")
+        self.assertEqual(data["date"], nice_date(friday, lang="en-US", now=NOW))
 
 
 if __name__ == "__main__":
