@@ -23,7 +23,8 @@ from typing import Dict, Iterable, Optional
 import geocoder
 import pytz
 from ovos_bus_client.message import Message
-from ovos_date_parser import nice_time, extract_datetime, extract_duration, nice_date, nice_duration, \
+from chronologia import extract_candidates, extract_duration, extract_timespan
+from ovos_date_parser import nice_time, nice_date, nice_duration, \
     date_time_format, nice_weekday, nice_month, nice_day, nice_year, extract_holiday_date
 from ovos_utils import classproperty
 from ovos_utils.log import LOG
@@ -37,6 +38,24 @@ from ovos_workshop.decorators import intent_handler
 from ovos_workshop.resource_files import ResourceFile
 from ovos_workshop.skills import OVOSSkill
 from timezonefinder import TimezoneFinder
+
+# the chronologia constructions that recur, and how far back the last occurrence lies
+PAST_PERIODS = {
+    "weekday_ref": datetime.timedelta(days=7),
+    "calendar_date": datetime.timedelta(days=365),
+    "holiday_ref": datetime.timedelta(days=365),
+}
+
+
+def wall_clock(moment, now):
+    """Return ``moment`` as a naive wall clock in the zone of ``now``.
+
+    chronologia gives a naive start, except for a clock with a zone word
+    ("9 am utc", "est", "-0500"), which it gives in that zone.
+    """
+    if moment is None or moment.tzinfo is None:
+        return moment
+    return moment.astimezone(now.tzinfo).replace(tzinfo=None)
 
 
 def speakable_timezone(tz):
@@ -297,36 +316,74 @@ class TimeSkill(OVOSSkill):
                                lang=self.lang)
                 or self.voc_match(words[-1], "yes_no_closer", lang=self.lang))
 
-    def _parse_date(self, text: str, now):
-        """Return the first date in the text, or None.
+    def _read_span(self, text: str, now, past: bool = False):
+        """Return the span of the first date or time the text names, or None.
 
-        The parser can leave a date expression half read when an article opens
-        it ("a week from today"). Each article that precedes another word is
-        also tried as the number 1, and the reading that leaves the least text
-        unread wins. An article that the request lines themselves put before
-        those two words ("the week is" of "what day of the week is it") is
-        request wording, not a number.
+        extract_timespan gives the reading chronologia answers with. Its
+        ranked candidates also hold readings that it declines, such as a
+        part of an impossible date, so they are read only for an open range
+        that ends at a date ("until friday", fi "1. tammikuuta asti"). That
+        range starts at ``now``, and the date it names is the candidate that
+        ends where the range ends.
+
+        chronologia reads a weekday or a date as its next occurrence and
+        leaves the tense to the caller (ruling 16). In a ``past`` sentence
+        ("which date was friday at 3") such a reading that is still to come
+        is read again from the day after the same day one period earlier,
+        which gives the last occurrence before now. So "friday" said on a
+        Friday is today, at any hour (ruling 6).
         """
-        words = text.split()
-        request_triples = self._request_triples()
-        candidates = [text] + [
-            " ".join(words[:i] + ["1"] + words[i + 1:])
-            for i, word in enumerate(words[:-1])
-            if self.voc_match(word, "date_article", lang=self.lang)
-            and tuple((self._tokens(" ".join(words[i:i + 3])) + ["$"])[:3]) not in request_triples]
-        best = None
-        for candidate in candidates:
-            try:
-                found = extract_datetime(candidate, anchorDate=now,
-                                         lang=self.lang)
-            except Exception:
-                self.log.exception(f"failed to extract date from '{candidate}'")
-                continue
-            if found and found[0]:
-                unread = len((found[1] or "").split())
-                if best is None or unread < best[0]:
-                    best = (unread, found[0])
-        return best[1] if best else None
+        naive_now = now.replace(tzinfo=None)
+        try:
+            found = extract_timespan(text, self.lang, now)
+            if found is None:
+                return None
+            span = found.span
+            start = wall_clock(span.start_datetime, now)
+            ahead = past and start is not None and start > naive_now
+            if start == naive_now or ahead:
+                candidates = extract_candidates(text, self.lang, now)
+                construction = candidates[0].construction if candidates else None
+                if construction == "open_range":
+                    span = next((c.span for c in candidates[1:] if c.span.end == span.end),
+                                span)
+                elif ahead and construction in PAST_PERIODS:
+                    day_after = now - PAST_PERIODS[construction] + datetime.timedelta(days=1)
+                    earlier = day_after.replace(hour=0, minute=0, second=0, microsecond=0)
+                    found = extract_timespan(text, self.lang, earlier)
+                    before = wall_clock(found.span.start_datetime, now) if found else None
+                    if before and before < naive_now:
+                        span = found.span
+        except Exception:
+            self.log.exception(f"failed to extract date from '{text}'")
+            return None
+        return span
+
+    def _parse_date(self, text: str, now, past: bool = False) -> Optional[datetime.datetime]:
+        """Return the first date or time the text names, or None.
+
+        The start of the span is the instant: midnight for a named day, the
+        clock for a time, and the clock of ``now`` for a counted offset ("in
+        three days"). chronologia reads the wall clock of ``now`` and drops
+        its zone, so a naive instant is localized in that zone, with the
+        offset of its own date. An instant in the zone the text names ("9 am
+        utc") is converted to the zone of ``now``. A date before year 1 has
+        no ``datetime`` and is None too.
+        """
+        span = self._read_span(text, now, past)
+        start = span.start_datetime if span else None
+        if start is None:
+            return None
+        return start.astimezone(now.tzinfo) if start.tzinfo else now.tzinfo.localize(start)
+
+    def _is_past(self, utterance: str) -> bool:
+        """Return True when the utterance asks about the past.
+
+        A past marker ("was", pt "foi") is the past tense, unless a future
+        marker ("next", pt "próxima") names the direction itself.
+        """
+        return bool(self.voc_match(utterance, "past_marker", lang=self.lang)
+                    and not self.voc_match(utterance, "future_marker", lang=self.lang))
 
     def _tokens(self, text: str) -> list:
         text = text.replace("\u2019", "'")
@@ -359,15 +416,6 @@ class TimeSkill(OVOSSkill):
             self.resources.static[cache_key] = words
         return self.resources.static[cache_key]
 
-    def _request_triples(self) -> set:
-        """The runs of three neighbouring words in the lines, a slot excluded."""
-        cache_key = f"{self.lang}:weekday_for_date.triples"
-        if cache_key not in self.resources.static:
-            self.resources.static[cache_key] = {
-                triple for line in self._request_lines()
-                for triple in zip(line, line[1:] + ["$"], line[2:] + ["$", "$"]) if "{}" not in triple}
-        return self.resources.static[cache_key]
-
     def _is_dateless_slot(self, slot: str) -> bool:
         """Check whether a slot that does not parse holds only request words.
 
@@ -377,6 +425,13 @@ class TimeSkill(OVOSSkill):
         """
         slot_words = self._tokens(slot)
         return bool(slot_words) and set(slot_words) <= self._request_words()
+
+    def _text_without(self, utterance: str, spans) -> str:
+        """The utterance with its weekday questions and the (start, end) spans blanked."""
+        text = self._blank_weekday_questions(utterance).casefold()
+        for start, end in sorted(spans, reverse=True):
+            text = f"{text[:start]} {text[end:]}"
+        return text
 
     def _get_requested_date(self, message, now, ignore=None):
         """Return the date a weekday request is about, or None.
@@ -390,19 +445,17 @@ class TimeSkill(OVOSSkill):
         those weekdays blanked, is read instead.
         """
         raw = message.data.get("utterance", "")
+        past = self._is_past(raw)
         utterance = self._blank_weekday_questions(raw)
         slot = message.data.get("date") or ""
         if slot.casefold() in raw.casefold() and slot.casefold() not in utterance.casefold():
             slot = ""  # the engine bound a phrase that asks for the weekday
         slot = self._blank_weekday_questions(slot).strip()
         if slot and all(self.voc_match(word, "date_article") for word in slot.split()):
-            slot = ""  # the engine bound a bare article, which the parser reads as the number 1
+            slot = ""  # the engine bound a bare article, which names no date
         if ignore:
-            text = utterance.casefold()
-            for start, end in sorted(ignore, reverse=True):
-                text = f"{text[:start]} {text[end:]}"
-            return self._parse_date(text, now)
-        dt = self._parse_date(slot or utterance, now)
+            return self._parse_date(self._text_without(raw, ignore), now, past)
+        dt = self._parse_date(slot or utterance, now, past)
         if dt:
             return dt
         if slot:
@@ -702,7 +755,13 @@ class TimeSkill(OVOSSkill):
         # parse them first, and ask only when they hold no offset. Asking on
         # `None` alone turned a working answer into a question on any engine
         # that computes no map.
-        dt, utt = extract_datetime(utt, lang=self.lang) or (None, None)
+        now = self.get_datetime()  # session aware
+        dt = self._parse_date(utt, now)
+        if not dt:
+            # a length with no direction word ("if I wait two hours") is no
+            # date, and it is still the time to wait from now
+            offset = extract_duration(utt, self.lang, anchor=now)
+            dt = now + offset.duration if offset is not None else None
         if not dt and self.typed_slot(message, "offset") is None:
             response = self.get_response("ask_offset")
             if not response:
@@ -710,16 +769,14 @@ class TimeSkill(OVOSSkill):
             response = normalizer.normalize(response)
             # the prompt asks for a length of time ("ten minutes"), and a
             # length alone is not a date: read it as a duration from now
-            # first, and as a date only when it holds no duration.
-            # extract_duration returns a bare None for text the normalizer
-            # emptied ("?", " "), and a zero length is still a length
-            offset, _ = (extract_duration(response, lang=self.lang)
-                         or (None, response))
+            # first, and as a date only when it holds no duration. A zero
+            # length is still a length. A month or a year is counted on the
+            # calendar from now.
+            offset = extract_duration(response, self.lang, anchor=now)
             if offset is not None:
-                dt = self.get_datetime() + offset
+                dt = now + offset.duration
             else:
-                dt, utt = extract_datetime(response,
-                                           lang=self.lang) or (None, None)
+                dt = self._parse_date(response, now)
 
         if not dt:
             self.handle_query_time(message)
@@ -736,11 +793,7 @@ class TimeSkill(OVOSSkill):
         """Handle queries about the current date."""
         utt = message.data.get('utterance', "").lower()
         now = self.get_datetime()  # session aware
-        try:
-            dt, utt = extract_datetime(utt, anchorDate=now, lang=self.lang) or (now, utt)
-        except Exception:
-            self.log.exception(f"failed to extract date from '{utt}'")
-            dt = now
+        dt = self._parse_date(utt, now, self._is_past(utt)) or now
 
         # handle questions ~ "what is the day in sydney"
         location_string = self._resolve_location(message.data.get("location"))
@@ -819,11 +872,13 @@ class TimeSkill(OVOSSkill):
 
         A request that names no date is about today. A yes/no question that
         names a weekday gets the yes/no dialogs, and so does a request that
-        names a weekday and another day: a holiday, or a date with digits that
-        the text without the weekday reads as a day other than today, unless
-        the whole text reads as the weekday. Digits that the parser cannot
-        read in a yes/no question give the date error. A holiday the utterance names is the date, and the weekday it names is
-        the answer to check, not the date.
+        names a weekday and another day: a holiday, or one day that the text
+        without the weekday names ("it's friday today, right", hu "csütörtök
+        lesz október 31"). A time or a year beside the weekday names no other
+        day ("friday at 3", "friday 2026"). Digits that the parser cannot
+        read in a yes/no question give the date error. A holiday the utterance
+        names is the date, and the weekday it names is the answer to check,
+        not the date.
         """
         now = self.get_datetime()  # session aware
         utterance = message.data.get("utterance", "")
@@ -833,7 +888,6 @@ class TimeSkill(OVOSSkill):
             utterance, "weekday_or", lang=self.lang)
         holiday = self._get_named_holiday(utterance, now)
         has_digits = bool(re.search(r"\d", utterance))
-        read = None
         other = alone = None  # the date it names besides its weekday; the weekday read alone
         if named and not choice:
             index, span = named[-1]
@@ -844,19 +898,14 @@ class TimeSkill(OVOSSkill):
                     return
                 self._speak_weekday_match(other or now, now, index)
                 return
-            alone = self._parse_date(utterance[slice(*span)], now)
-            # digits that move the whole text's date off the weekday's own are a date;
-            # a time or a year beside the weekday leave it there
-            if has_digits and other and other.date() != now.date():
-                whole = self._parse_date(self._blank_weekday_questions(utterance), now)
-                # a time beside the weekday is no date, whatever "last" or "next" moves
-                is_time = other.time() != datetime.time()
-                if not (is_time or (alone and whole and whole.date() == alone.date())):
-                    self._speak_weekday_match(other, now, index)
-                    return
-                read = whole
+            alone = self._parse_date(utterance[slice(*span)], now,
+                                     self._is_past(utterance))
+            rest = self._read_span(self._text_without(utterance, [span]), now)
+            if other and rest and rest.width == datetime.timedelta(days=1):
+                self._speak_weekday_match(other, now, index)
+                return
 
-        dt = holiday or read or self._get_requested_date(
+        dt = holiday or self._get_requested_date(
             message, now, ignore=[span for _, span in named] if choice else None)
         if choice and dt is None and not has_digits:
             dt = now
@@ -906,13 +955,7 @@ class TimeSkill(OVOSSkill):
         dates = []
         for slot in ("start", "end"):
             text = message.data.get(slot)
-            dt = None
-            if text:
-                try:
-                    dt, _ = extract_datetime(text, anchorDate=now,
-                                             lang=self.lang) or (None, None)
-                except Exception:
-                    self.log.exception(f"failed to extract date from '{text}'")
+            dt = self._parse_date(text, now) if text else None
             if not dt:
                 self.speak_dialog("extract_date_error")
                 return
@@ -980,21 +1023,19 @@ class TimeSkill(OVOSSkill):
     #  use voc_match or something to disambiguate
     @intent_handler("date_last_weekend.intent")
     def handle_date_last_weekend(self, message):
-        # Strip year off nice_date as request is inherently close
-        # Don't pass `now` to `nice_date` as a
-        # request on Monday will return "yesterday"
+        """Speak the dates of the last weekend that has ended.
+
+        Monday is two days after that Saturday, and each later weekday one
+        more, so on a Saturday or a Sunday it is the weekend before, as
+        handle_date_future_weekend skips the weekend in progress.
         """
-        Handles the intent to provide the dates of the previous weekend.
-        
-        Speaks a dialog with the formatted dates for last Saturday and Sunday.
-        """
+        # nice_date gets no `now`: on a Monday it would say "yesterday",
+        # and the year is cut off because the weekend is close
         now = self.get_datetime()
-        dt = extract_datetime('last saturday',
-                              anchorDate=now, lang='en-us')[0]
-        saturday_date = ', '.join(nice_date(dt, lang=self.lang).split(', ')[:2])
-        dt = extract_datetime('last sunday',
-                              anchorDate=now, lang='en-us')[0]
-        sunday_date = ', '.join(nice_date(dt, lang=self.lang).split(', ')[:2])
+        saturday_dt = now - datetime.timedelta(days=now.weekday() + 2)
+        sunday_dt = saturday_dt + datetime.timedelta(days=1)
+        saturday_date = ', '.join(nice_date(saturday_dt, lang=self.lang).split(', ')[:2])
+        sunday_date = ', '.join(nice_date(sunday_dt, lang=self.lang).split(', ')[:2])
         self.speak_dialog('date_last_weekend', {
             'saturday_date': saturday_date,
             'sunday_date': sunday_date

@@ -20,6 +20,7 @@ dependencies = [
     "ovos-utils>=0.8.1",
     "ovos-workshop>=9.7.0a1,<10.0.0",
     "ovos-date-parser>=0.37.1a1,<1.0.0",
+    "chronologia>=0.32.8a1",
     "ovos-utterance-normalizer>=0.0.1,<1.0.0",
     "ovos-spec-tools>=1.11.0a1",
     "tzdata",
