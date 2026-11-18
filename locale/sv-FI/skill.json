@@ -1,0 +1,22 @@
+{
+  "skill_id": "ovos-skill-date-time.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-date-time",
+  "name": "Datum och tid",
+  "description": "Få reda på tiden, datumet, veckodagen",
+  "examples": [
+    "Vad är klockan?",
+    "Säg vilken veckodag det är",
+    "Hur många dagar är det till den 4 juli",
+    "Vilket datum är det?",
+    "Visa mig klockan",
+    "Vilken dag är minnesdagen 2020?",
+    "Vad är klockan i Paris?"
+  ],
+  "tags": [
+    "clock",
+    "date",
+    "time",
+    "query",
+    "information"
+  ]
+}

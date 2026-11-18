@@ -1,0 +1,49 @@
+a qué distancia ye {date:date} ?
+a qué distancia ye {date:date} d'agora?
+a qué distancia ye {date:date} de hue?
+cuán ye concretament {date:date}?
+cuán será concretament {date:date}?
+cuán estió l'anterior {date:date}?
+cuán estió lo siguient {date:date}?
+cuán estió lo zaguera {date:date}?
+cuán estió la siguient {date:date}?
+cuán estió la zaguera {date:date}?
+cuán estió {date:date}?
+cuán ye l'anterior {date:date}?
+cuán ye lo siguient {date:date}?
+cuán ye lo zaguera {date:date}?
+cuán ye la siguient {date:date}?
+cuán ye la zaguera {date:date}?
+cuán ye {date:date}?
+cuán ye exactament {date:date}?
+cuán será exactament {date:date}?
+cuántas días quedan dica {date:date}?
+cuántas horas quedan dica {date:date}?
+cuántas semanas quedan dica {date:date}?
+cuánto falta pa {date:date}?
+cuánto queda pa {date:date}?
+cuánto tiempo falta antes de {date:date}?
+cuánto tiempo falta dica {date:date}?
+cuánto tiempo fa que estió {date:date}?
+cuánto tiempo nos queda antes de {date:date}?
+cuánto tiempo queda antes de {date:date}?
+cuánto tiempo queda dica {date:date}?
+cuánto tiempo tenemos antes de {date:date}?
+cuántos días dende agora faltan pa {date:date}?
+cuántos días dende agora quedan pa {date:date}?
+cuántos días han pasau dende {date:date}?
+cómo de luent ye {date:date} ?
+cómo de luent ye {date:date} d'agora?
+cómo de luent ye {date:date} de hue?
+cómo de leixos ye {date:date} ?
+cómo de leixos ye {date:date} d'agora?
+cómo de leixos ye {date:date} de hue?
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Aragonese speaker has read it.
+Cuántos días faltan pa lo 24 de chunyo
+# No Aragonese speaker has read this file. Every line is a machine draft.
+cuántos días i hai entre {start} y {end}
+conta los días entre {start} y {end}
+quántos días pasan de {start} a {end}
+di-me la diferencia en días entre {start} y {end}
+quántos días de distancia i hai entre {start} y {end}
+de {start} a {end} quántos días son en total

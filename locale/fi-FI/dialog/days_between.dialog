@@ -1,0 +1,3 @@
+# unvouched: Finnish machine draft, awaiting a Finnish speaker
+Päivästä {from_date} päivään {to_date} on {num_days}
+Päivien {from_date} ja {to_date} välillä on {num_days}

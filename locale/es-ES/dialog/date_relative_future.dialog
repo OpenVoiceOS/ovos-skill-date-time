@@ -1,0 +1,4 @@
+Es {date}, en {num_days}
+Es {date}, {num_days} a partir de ahora
+{date}, en {num_days}
+{date}, {num_days} a partir de ahora

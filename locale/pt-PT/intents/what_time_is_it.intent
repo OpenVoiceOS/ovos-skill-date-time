@@ -1,0 +1,60 @@
+atual hora
+atual hora em {location}
+atual horas
+atual horas em {location}
+hora agora
+hora agora em {location}
+hora atual
+hora atual em {location}
+já é
+já é cinco
+já é cinco em {location}
+já é dez
+já é dez em {location}
+já é dois
+já é dois em {location}
+já é doze
+já é doze em {location}
+já é manhã
+já é manhã em {location}
+já é meia-noite
+já é meia-noite em {location}
+já é meio-dia
+já é meio-dia em {location}
+já é noite
+já é noite em {location}
+já é nove
+já é nove em {location}
+já é oito
+já é oito em {location}
+já é onze
+já é onze em {location}
+já é quatro
+já é quatro em {location}
+já é seis
+já é seis em {location}
+já é sete
+já é sete em {location}
+já é tarde
+já é tarde em {location}
+já é três
+já é três em {location}
+já é um
+já é um em {location}
+presente hora
+presente hora em {location}
+presente horas
+presente horas em {location}
+que horas são
+que horas são agora
+que horas são agora em {location}
+que horas são atualmente
+que horas são atualmente em {location}
+que horas são no momento
+que horas são no momento em {location}
+que horas são no presente
+que horas são no presente em {location}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no European Portuguese speaker has read it.
+é possível obter a hora actual horas em {location}
+Mostra-me a hora
+Que horas são em {location}

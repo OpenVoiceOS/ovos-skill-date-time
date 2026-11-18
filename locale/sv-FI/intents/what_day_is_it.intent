@@ -1,0 +1,12 @@
+# unvouched: copied from sv-SE, awaiting a Finland-Swedish speaker
+vilket datum är det idag [tack]
+vilken dag i månaden är det idag
+säg mig vilket datum det är idag
+vilken dag i månaden har vi idag
+vilken dag i månaden är det idag i {location}
+vad är dagens datum [tack]
+säg mig dagens datum
+vad är dagens datum i {location}
+ge mig hela dagens datum
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Finland Swedish speaker has read it.
+Vilket datum är det

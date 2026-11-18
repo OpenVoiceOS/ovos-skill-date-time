@@ -1,0 +1,151 @@
+I want to know what day of the week {date:date} is
+I want to know what day of the week {date:date} was
+I want to know what day {date:date} is
+I want to know what day {date:date} was
+I want to know what weekday {date:date} is
+I want to know what weekday {date:date} was
+I want to know which day of the week {date:date} is
+I want to know which day of the week {date:date} was
+I want to know which day {date:date} is
+I want to know which day {date:date} was
+I want to know which weekday {date:date} is
+I want to know which weekday {date:date} was
+can you tell me the day of the week for {date:date}
+can you tell me the weekday for {date:date}
+can you tell me what day of the week {date:date} is
+can you tell me what day of the week {date:date} was
+can you tell me what day {date:date} is
+can you tell me what day {date:date} was
+can you tell me what weekday {date:date} is
+can you tell me what weekday {date:date} was
+do you know the day of the week for {date:date}
+do you know the weekday for {date:date}
+do you know what day of the week {date:date} is
+do you know what day of the week {date:date} was
+do you know what day {date:date} is
+do you know what day {date:date} was
+do you know what weekday {date:date} is
+do you know what weekday {date:date} was
+do you know which day of the week {date:date} is
+do you know which day of the week {date:date} was
+do you know which day {date:date} is
+do you know which day {date:date} was
+do you know which weekday {date:date} is
+do you know which weekday {date:date} was
+on what day does {date:date} fall on
+on what day is {date:date}
+on what day of the week does {date:date} fall on
+on what day of the week is {date:date}
+on what day of the week was {date:date}
+on what day of the week will it be on {date:date}
+on what day was {date:date}
+on what day will it be on {date:date}
+on what weekday does {date:date} fall on
+on what weekday is {date:date}
+on what weekday was {date:date}
+on what weekday will it be on {date:date}
+on which day does {date:date} fall on
+on which day is {date:date}
+on which day of the week does {date:date} fall on
+on which day of the week is {date:date}
+on which day of the week was {date:date}
+on which day of the week will it be on {date:date}
+on which day was {date:date}
+on which day will it be on {date:date}
+on which weekday does {date:date} fall on
+on which weekday is {date:date}
+on which weekday was {date:date}
+on which weekday will it be on {date:date}
+tell me the day of the week for {date:date}
+tell me the weekday for {date:date}
+tell me what day of the week {date:date} is
+tell me what day of the week {date:date} was
+tell me what day {date:date} is
+tell me what day {date:date} was
+tell me what weekday {date:date} is
+tell me what weekday {date:date} was
+what day does {date:date} fall on
+what day is {date:date}
+what day of the week does {date:date} fall on
+what day of the week is {date:date}
+what day of the week was {date:date}
+what day of the week will it be on {date:date}
+what day of the week {date:date} is
+what day of the week {date:date} was
+what day was {date:date}
+what day will it be on {date:date}
+what day {date:date} is
+what day {date:date} was
+what weekday does {date:date} fall on
+what weekday is {date:date}
+what weekday was {date:date}
+what weekday will it be on {date:date}
+what weekday {date:date} is
+what weekday {date:date} was
+what’s the day of the week for {date:date}
+what’s the weekday for {date:date}
+which day does {date:date} fall on
+which day is {date:date}
+which day of the week does {date:date} fall on
+which day of the week is {date:date}
+which day of the week was {date:date}
+which day of the week will it be on {date:date}
+which day of the week {date:date} is
+which day of the week {date:date} was
+which day was {date:date}
+which day will it be on {date:date}
+which day {date:date} is
+which day {date:date} was
+which weekday does {date:date} fall on
+which weekday is {date:date}
+which weekday was {date:date}
+which weekday will it be on {date:date}
+which weekday {date:date} is
+which weekday {date:date} was
+are we on Friday
+are we on Monday
+are we on Saturday
+are we on Sunday
+are we on Thursday
+are we on Tuesday
+are we on Wednesday
+can you tell me the day of the week
+can you tell me the weekday
+do you know the day of the week
+do you know the weekday
+is it Friday
+is it Monday
+is it Saturday
+is it Sunday
+is it Thursday
+is it Tuesday
+is it Wednesday
+is today Friday
+is today Monday
+is today Saturday
+is today Sunday
+is today Thursday
+is today Tuesday
+is today Wednesday
+tell me the day of the week
+tell me the weekday
+what day of the week is it
+what day of the week is today
+what weekday is it
+what weekday is it [please]
+what weekday is today
+what’s the day of the week
+what’s the weekday
+what’s today's day of the week
+what’s today's weekday
+which day of the week is it
+which day of the week is today
+which weekday is it
+which weekday is today
+is today a (monday|tuesday|wednesday|thursday|friday|saturday|sunday)
+which weekday are we on today
+today is (monday|friday|saturday), right
+does {date:date} fall on a {weekday}
+is {date:date} on a {weekday}
+was {date:date} on a {weekday}
+will {date:date} be on a {weekday}

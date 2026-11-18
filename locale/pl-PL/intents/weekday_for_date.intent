@@ -1,0 +1,12 @@
+jaki dzień tygodnia wypada {date:date} [proszę]
+na jaki dzień przypada {date:date}
+powiedz mi, jaki dzień to {date:date}
+jaki dzień tygodnia będzie {date:date}
+jaki dzień tygodnia jest dzisiaj [proszę]
+jaki dzisiaj dzień
+w jaki dzień tygodnia dzisiaj jesteśmy
+powiedz mi, jaki dzień tygodnia jest dzisiaj
+czy {date:date} wypada w {weekday} [proszę]
+czy {date:date} to {weekday}
+czy {date:date} był {weekday}
+czy {date:date} będzie {weekday}

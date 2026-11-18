@@ -1,0 +1,2 @@
+There are {num_days} between {from_date} and {to_date}
+{from_date} and {to_date} are {num_days} apart
