@@ -841,8 +841,13 @@ class TimeSkill(OVOSSkill):
         """
         if "start" in message.data or "end" in message.data:
             self._speak_days_between(message)
-        else:
-            self.handle_query_date(message, response_type="relative")
+            return
+        utterance = message.data.get("utterance", "").lower()
+        if not self._parse_date(utterance, self.get_datetime(), self._is_past(utterance)):
+            # with no date read, handle_query_date would answer with today
+            self.speak_dialog("extract_date_error")
+            return
+        self.handle_query_date(message, response_type="relative")
 
     @intent_handler("what_day_is_it.intent")
     def handle_current_day(self, message):
