@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.12.4a2](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.12.4a2) (2026-11-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.12.4a1...1.12.4a2)
+
+**Merged pull requests:**
+
+- test: pin the spoken nice\_\* writer output on the m2v pipeline [\#502](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/502) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.12.4a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.12.4a1) (2026-11-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.12.3a2...1.12.4a1)
@@ -266,10 +274,6 @@
 ## [1.10.9a14](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a14) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a13...1.10.9a14)
-
-**Merged pull requests:**
-
-- translate\(de-DE\): update date\_future\_weekend.intent [\#395](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/395) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 
 ## [1.10.9a13](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a13) (2026-09-28)
 
