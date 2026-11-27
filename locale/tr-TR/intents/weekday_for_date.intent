@@ -1,0 +1,12 @@
+{date:date} hangi haftanın gününe denk geliyor [lütfen]
+{date:date} hangi güne rastlıyor
+bana {date:date} tarihinin hangi gün olduğunu söyle
+{date:date} hangi gün olacak
+bugün haftanın hangi günü [lütfen]
+bugün hangi gün
+haftanın hangi gündeyiz
+bana bugün haftanın hangi günü olduğunu söyle
+{date:date} bir {weekday} mi [lütfen]
+{date:date} günü {weekday} gününe denk geliyor mu
+{date:date} günü {weekday} müydü
+{date:date} günü {weekday} olacak mı

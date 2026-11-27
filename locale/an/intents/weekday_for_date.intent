@@ -1,0 +1,58 @@
+yera lo {date:date} un domingo?
+yera lo {date:date} un chueves?
+yera lo {date:date} un luns?
+yera lo {date:date} un martes?
+yera lo {date:date} un mierques?
+yera lo {date:date} un sabado?
+yera lo {date:date} un viernes?
+ye lo {date:date} un domingo?
+ye lo {date:date} un chueves?
+ye lo {date:date} un luns?
+ye lo {date:date} un martes?
+ye lo {date:date} un mierques?
+ye lo {date:date} un sabado?
+ye lo {date:date} un viernes?
+quiero saber qué día d'a semana ye lo {date:date}
+quiero saber qué día d'a semana ye lo {date:date}?
+quiero saber qué día d'a semana estió lo {date:date}
+quiero saber qué día d'a semana estió lo {date:date}?
+di-me qué día d'a semana estió lo {date:date}?
+en qué día d'a semana caye lo {date:date}?
+me puez decir qué día d'a semana estió lo {date:date}?
+qué día d'a semana yera lo {date:date}?
+qué día d'a semana ye lo {date:date}?
+sabes qué día d'a semana ye lo {date:date} ?
+sabes qué día d'a semana estió lo {date:date}
+sabes qué día d'a semana estió lo {date:date}?
+sabes qué día laborable estió lo {date:date}
+sabes qué día laborable estió lo {date:date}?
+hue ye domingo?
+hue ye chueves?
+hue ye luns?
+hue ye martes?
+hue ye mierques?
+hue ye sabado?
+hue ye viernes?
+hue somos a domingo?
+hue somos a chueves?
+hue somos a luns?
+hue somos a martes?
+hue somos a mierques?
+hue somos a sabado?
+hue somos a viernes?
+me puez decir qué día d'a semana ye?
+me puez decir qué día laborable ye?
+qué día d'a semana ye ?
+qué día d'a semana ye hue?
+qué día laborable ye ?
+qué día laborable ye hue?
+sabes qué día d'a semana ye?
+sabes qué día laborable ye?
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Aragonese speaker has read it.
+Di-me lo día d'a semana
+quin día d'a semana nos toca hue
+di-me quin día d'a semana corre hue
+caye {date:date} en {weekday}?
+ye {date:date} un {weekday}?
+estió {date:date} un {weekday}?
+será {date:date} un {weekday}?

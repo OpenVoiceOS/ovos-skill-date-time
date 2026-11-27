@@ -1,0 +1,108 @@
+diga'm quin dia de la setmana era {date:date}
+diga'm quin dia de la setmana és {date:date}
+diga'm quin dia era {date:date}
+diga'm quin dia feiner era {date:date}
+diga'm quin dia feiner és {date:date}
+diga'm quin dia és {date:date}
+em pots dir el dia de la setmana de {date:date}
+em pots dir el dia laborable de {date:date}
+em pots dir quin dia de la setmana era {date:date}
+em pots dir quin dia de la setmana és {date:date}
+em pots dir quin dia era {date:date}
+em pots dir quin dia feiner era {date:date}
+em pots dir quin dia feiner és {date:date}
+em pots dir quin dia és {date:date}
+em saps dir el dia de la setmana de {date:date}
+em saps dir el dia laborable de {date:date}
+en quin dia cau {date:date}
+en quin dia de la setmana cau {date:date}
+en quin dia de la setmana era {date:date}
+en quin dia de la setmana serà {date:date}
+en quin dia de la setmana és {date:date}
+en quin dia era {date:date}
+en quin dia feiner cau {date:date}
+en quin dia feiner era {date:date}
+en quin dia feiner serà {date:date}
+en quin dia feiner és {date:date}
+en quin dia serà {date:date}
+en quin dia és {date:date}
+era {date:date} un dijous
+era {date:date} un dilluns
+era {date:date} un dimarts
+era {date:date} un dimecres
+era {date:date} un dissabte
+era {date:date} un diumenge
+era {date:date} un divendres
+quin dia de la setmana era a {date:date}
+quin dia de la setmana era {date:date}
+quin dia de la setmana és a {date:date}
+quin dia de la setmana és {date:date}
+quin dia era {date:date}
+quin dia feiner era {date:date}
+quin dia feiner és {date:date}
+quin dia laborable era a {date:date}
+quin dia laborable és a {date:date}
+quin dia és {date:date}
+quin és el dia de la setmana de {date:date}
+quin és el dia laborable de {date:date}
+saps quin dia de la setmana era {date:date}
+saps quin dia de la setmana és {date:date}
+saps quin dia era {date:date}
+saps quin dia feiner era {date:date}
+saps quin dia feiner és {date:date}
+saps quin dia és {date:date}
+vull saber quin dia de la setmana era {date:date}
+vull saber quin dia de la setmana és {date:date}
+vull saber quin dia era {date:date}
+vull saber quin dia feiner era {date:date}
+vull saber quin dia feiner és {date:date}
+vull saber quin dia és {date:date}
+és {date:date} un dijous
+és {date:date} un dilluns
+és {date:date} un dimarts
+és {date:date} un dimecres
+és {date:date} un dissabte
+és {date:date} un diumenge
+és {date:date} un divendres
+em pots dir el dia de la setmana
+em pots dir el dia laborable
+quin dia de la setmana és
+quin dia de la setmana és avui
+quin dia feiner és
+quin dia feiner és avui
+quin dia és avui
+quin dia és de la setmana
+quin dia és feiner
+saps el dia de la setmana
+saps el dia laborable
+som dijous
+som dilluns
+som dimarts
+som dimecres
+som dissabte
+som diumenge
+som divendres
+és avui dijous
+és avui dilluns
+és avui dimarts
+és avui dimecres
+és avui dissabte
+és avui diumenge
+és avui divendres
+és dijous
+és dilluns
+és dimarts
+és dimecres
+és dissabte
+és diumenge
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no Catalan speaker has read it.
+és divendres
+Digues-me el dia de la setmana
+a quin dia de la setmana som avui
+digues-me quin dia de la setmana correspon a avui
+quin dia de la setmana és el d'avui
+cau {date:date} en {weekday} [si us plau]
+és {date:date} de {weekday}
+va ser {date:date} de {weekday}
+serà {date:date} de {weekday}
+és cert que el {date:date} és {weekday}

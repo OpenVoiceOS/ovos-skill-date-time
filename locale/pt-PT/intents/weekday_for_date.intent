@@ -1,0 +1,24 @@
+que dia da semana é {date:date} [por favor]
+em que dia cai {date:date}
+diz-me que dia é {date:date}
+que dia da semana será {date:date}
+# Added from this locale's own skill.json store example, so the skill hears what the store page promises. Unvouched: no European Portuguese speaker has read it.
+Que dia é o Dia Memorial de 2020
+dizer-me o dia da semana
+podes dizer-me o dia da semana
+qual dia da semana é hoje
+qual é o dia da semana de hoje
+sabes o dia da semana
+é hoje domingo
+é hoje quarta-feira
+é hoje quinta-feira
+é hoje segunda-feira
+é hoje sexta-feira
+é hoje sábado
+é hoje terça-feira
+Diz-me o dia da semana
+que dia da semana é hoje
+cai {date:date} numa {weekday} [por favor]
+é {date:date} numa {weekday}
+foi {date:date} numa {weekday}
+será {date:date} numa {weekday}

@@ -1,0 +1,23 @@
+{
+  "skill_id": "ovos-skill-date-time.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-date-time",
+  "name": "Päivämäärä ja aika",
+  "description": "Kerro kellonaika, päivämäärä ja viikonpäivä",
+  "examples": [
+    "mikä on tämän päivän päivämäärä",
+    "Aika, kiitos.",
+    "monesko päivä tänään on",
+    "mikä viikonpäivä tänään on",
+    "mikä kuukausi nyt on",
+    "mikä vuosi nyt on",
+    "onko tämä vuosi karkausvuosi",
+    "milloin on seuraava karkausvuosi"
+  ],
+  "tags": [
+    "clock",
+    "date",
+    "time",
+    "query",
+    "information"
+  ]
+}

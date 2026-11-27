@@ -1,0 +1,16 @@
+# Future-time queries, e.g. "która będzie godzina za 5 minut", "za 2 godziny jaka będzie godzina w {location}".
+# {number:offset} anchors the number for the engine; the handler re-parses the whole utterance for the duration.
+# The noun after the number agrees with it: godziny/minuty/sekundy after 2-4, 22-24, 32-34 and so on,
+# godzin/minut/sekund after 5-21, 25-31 and so on. "miną" goes with the first set, "minie" with the second.
+(która|jaka) (jest|będzie) godzina za {number:offset} (godziny|minuty|sekundy|godzin|minut|sekund) [od teraz] [w {location}]
+(która|jaka) godzina (jest|będzie) za {number:offset} (godziny|minuty|sekundy|godzin|minut|sekund) [od teraz] [w {location}]
+(która|jaka) (jest|będzie) godzina w {location} za {number:offset} (godziny|minuty|sekundy|godzin|minut|sekund) [od teraz]
+w {location} (która|jaka) (jest|będzie) godzina za {number:offset} (godziny|minuty|sekundy|godzin|minut|sekund) [od teraz]
+jaki (jest|będzie) czas za {number:offset} (godziny|minuty|sekundy|godzin|minut|sekund) [od teraz] [w {location}]
+jaki czas (jest|będzie) za {number:offset} (godziny|minuty|sekundy|godzin|minut|sekund) [od teraz] [w {location}]
+(za {number:offset} (godziny|minuty|sekundy|godzin|minut|sekund) [od teraz]|{number:offset} (godziny|minuty|sekundy|godzin|minut|sekund) od teraz) (która|jaka) (jest|będzie) godzina [w {location}]
+(za {number:offset} (godziny|minuty|sekundy|godzin|minut|sekund) [od teraz]|{number:offset} (godziny|minuty|sekundy|godzin|minut|sekund) od teraz) jaki (jest|będzie) czas [w {location}]
+(kiedy|o której) miną {number:offset} (godziny|minuty|sekundy) [od teraz] [w {location}]
+(kiedy|o której) minie {number:offset} (godzin|minut|sekund) [od teraz] [w {location}]
+(powiedz|podaj) (godzinę|czas) za {number:offset} (godziny|minuty|sekundy|godzin|minut|sekund) [od teraz] [w {location}]
+(która|jaka) (jest|będzie) godzina za (godzinę|minutę|pół godziny|kwadrans) [w {location}]
