@@ -3,7 +3,7 @@
 covers: which writer speaks each slot (time, date, weekday, month, year, days until), the chronologia reader, the writer for each locale
 source: speech.py, __init__.py (get_spoken_time, handle_query_date, handle_weekday, handle_current_day), test/end2end/spoken_pin_rows.py
 generated: no
-verify: (for f in nice_weekday nice_month nice_duration nice_day; do grep -q "^| \`$f\`" docs/speech.md || { echo "page lacks $f"; exit 1; }; grep -q "$f(" __init__.py || { echo "code lacks $f"; exit 1; }; done; for f in spoken_time spoken_date spoken_day_month spoken_year; do grep -q "^| \`$f\`" docs/speech.md || { echo "page lacks $f"; exit 1; }; grep -q "def $f(" speech.py || { echo "speech.py lacks $f"; exit 1; }; done; grep -q "if now is None and writes(lang)" speech.py || { echo "relative date path changed"; exit 1; }; grep -q "from chronologia import extract_candidates, extract_duration, extract_timespan" __init__.py || { echo "chronologia import changed"; exit 1; }; grep -q "datetime.datetime(2026, 3, 4, 14, 35)" test/end2end/test_spoken_writers.py || { echo "anchor changed"; exit 1; }; echo OK)
+verify: (for f in nice_weekday nice_month nice_duration nice_day; do grep -q "^| \`$f\`" docs/speech.md || { echo "page lacks $f"; exit 1; }; grep -q "$f(" __init__.py || { echo "code lacks $f"; exit 1; }; done; for f in spoken_time spoken_date spoken_day_month spoken_year; do grep -q "^| \`$f\`" docs/speech.md || { echo "page lacks $f"; exit 1; }; grep -q "def $f(" speech.py || { echo "speech.py lacks $f"; exit 1; }; done; grep -q "is None and writes(lang)" speech.py || { echo "relative date path differs"; exit 1; }; grep -q "from chronologia import extract_candidates, extract_duration, extract_timespan" __init__.py || { echo "chronologia import changed"; exit 1; }; grep -q "datetime.datetime(2026, 3, 4, 14, 35)" test/end2end/test_spoken_writers.py || { echo "anchor changed"; exit 1; }; echo OK)
 see: settings.md, testing.md
 -->
 
@@ -57,7 +57,7 @@ The skill imports `extract_candidates`, `extract_duration` and `extract_timespan
 
 `spoken_time`, `spoken_date`, `spoken_day_month` and `spoken_year` call the chronologia writer when `chronologia.spoken.writes(lang)` is true. chronologia writes pt-PT. For each other locale, and when chronologia raises `UnsupportedForm`, they call `nice_time`, `nice_date` or `nice_year`.
 
-A date with a reference day (`now`) always goes to `nice_date`. chronologia has no relative words, so only `nice_date` says "today" or "tomorrow" and drops the year that the date shares with `now`. Each day count (`{num_days}`) uses `nice_duration`, because chronologia writes no lengths of time.
+A date with a reference day always goes to `nice_date`. chronologia has no relative words, so only `nice_date` says "today" or "tomorrow" and drops the year that the date shares with the reference day. Each day count (`{num_days}`) uses `nice_duration`, because chronologia writes no lengths of time.
 
 The 12- or 24-hour clock comes from the session `time_format`. In pt-PT, the 12-hour clock gives the conversational reading ("três menos vinte e cinco da tarde"), and the 24-hour clock gives the digits reading ("catorze e trinta e cinco").
 
