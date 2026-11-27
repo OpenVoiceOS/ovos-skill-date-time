@@ -1,4 +1,4 @@
-"""Which writer speaks each value: chronologia for pt-PT, ovos-date-parser
+"""Which writer speaks each value: chronologia for pt-PT and pt-BR, ovos-date-parser
 for other locales and for dates relative to a reference day."""
 import datetime
 import unittest
@@ -20,6 +20,22 @@ class TestSpeech(unittest.TestCase):
                          "catorze e trinta e cinco")
         self.assertEqual(spoken_time(DT, "pt-PT", use_24hour=False),
                          "três menos vinte e cinco da tarde")
+
+    def test_pt_br_comes_from_chronologia(self):
+        # gold from chronologia test/test_spoken_pt_br.py (Cunha & Cintra
+        # 2017 pp. 385-388, FLiP DID 1881)
+        monday = datetime.datetime(2026, 9, 7)
+        self.assertEqual(spoken_date(monday, "pt-BR"),
+                         "segunda-feira sete de setembro de dois mil e vinte e seis")
+        self.assertEqual(spoken_year(DT, "pt-BR"), "dois mil e vinte e seis")
+        self.assertEqual(spoken_time(DT.replace(hour=16, minute=0), "pt-BR",
+                                     use_24hour=True), "dezesseis horas")
+        self.assertEqual(spoken_time(DT.replace(hour=0, minute=0), "pt-BR",
+                                     use_24hour=True), "zero hora")
+        self.assertEqual(spoken_time(DT.replace(hour=13, minute=30), "pt-BR",
+                                     use_24hour=False), "uma e meia da tarde")
+        self.assertEqual(spoken_time(DT.replace(hour=12, minute=30), "pt-BR",
+                                     use_24hour=False), "meio-dia e meio")
 
     def test_a_reference_day_keeps_the_relative_words(self):
         self.assertEqual(spoken_date(DT, "pt-PT", now=DT), "hoje")

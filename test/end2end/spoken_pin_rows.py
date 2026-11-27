@@ -22,7 +22,7 @@ ROWS = {
         ("days_until", "quantos dias faltam até vinte de março", "date_relative_future", "num_days", "dezasseis dias"),
     ],
     "pt-BR": [
-        ("time", "que horas são", "time_current", "time", "três menos vinte e cinco da tarde"),
+        ("time", "que horas são", "time_current", "time", "duas e trinta e cinco da tarde"),
         ("date", "qual é a data de hoje", "date", "date", "quarta-feira, quatro de março de dois mil e vinte e seis"),
         ("weekday", "que dia da semana é hoje", "weekday_current", "weekday", "quarta-feira"),
         ("tomorrow", "que dia da semana é amanhã", "weekday_at_date_future", "weekday", "quinta-feira"),

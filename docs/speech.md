@@ -55,7 +55,7 @@ The skill imports `extract_candidates`, `extract_duration` and `extract_timespan
 
 ## The writer for each locale
 
-`spoken_time`, `spoken_date`, `spoken_day_month` and `spoken_year` call the chronologia writer when `chronologia.spoken.writes(lang)` is true. chronologia writes pt-PT. For each other locale, and when chronologia raises `UnsupportedForm`, they call `nice_time`, `nice_date` or `nice_year`.
+`spoken_time`, `spoken_date`, `spoken_day_month` and `spoken_year` call the chronologia writer when `chronologia.spoken.writes(lang)` is true. chronologia writes pt-PT and pt-BR. For each other locale, and when chronologia raises `UnsupportedForm`, they call `nice_time`, `nice_date` or `nice_year`.
 
 A date with a reference day always goes to `nice_date`. chronologia has no relative words, so only `nice_date` says "today" or "tomorrow" and drops the year that the date shares with the reference day. Each day count (`{num_days}`) uses `nice_duration`, because chronologia writes no lengths of time.
 
