@@ -24,8 +24,8 @@ import geocoder
 import pytz
 from ovos_bus_client.message import Message
 from chronologia import extract_candidates, extract_duration, extract_timespan
-from ovos_date_parser import nice_time, nice_date, nice_duration, \
-    date_time_format, nice_weekday, nice_month, nice_day, nice_year, extract_holiday_date
+from ovos_date_parser import nice_time, nice_duration, \
+    date_time_format, nice_weekday, nice_month, nice_day, extract_holiday_date
 from ovos_utils import classproperty
 from ovos_utils.log import LOG
 from ovos_utils.parse import fuzzy_match
@@ -38,6 +38,8 @@ from ovos_workshop.decorators import intent_handler
 from ovos_workshop.resource_files import ResourceFile
 from ovos_workshop.skills import OVOSSkill
 from timezonefinder import TimezoneFinder
+
+from ovos_skill_date_time.speech import spoken_date, spoken_day_month, spoken_time, spoken_year
 
 # the chronologia constructions that recur, and how far back the last occurrence lies
 PAST_PERIODS = {
@@ -665,8 +667,7 @@ class TimeSkill(OVOSSkill):
         if not dt:
             return None
 
-        s = nice_time(dt, lang=self.lang, speech=True,
-                      use_24hour=self.use_24hour, use_ampm=not self.use_24hour)
+        s = spoken_time(dt, self.lang, self.use_24hour)
         # HACK: Mimic 2 has a bug with saying "AM".  Work around it for now.
         if not self.use_24hour:
             s = s.replace("AM", "A.M.")
@@ -805,7 +806,7 @@ class TimeSkill(OVOSSkill):
                                   {"location": location_string})
                 return  # failed in timezone lookup
 
-        speak_date = nice_date(dt, lang=self.lang)
+        speak_date = spoken_date(dt, self.lang)
         # speak it
         if response_type == "simple":
             self.speak_dialog("date", {"date": speak_date})
@@ -859,7 +860,7 @@ class TimeSkill(OVOSSkill):
             self.speak_dialog("time_tz_not_found", {"location": location})
             return
         try:
-            spoken = nice_date(now, lang=self.lang)
+            spoken = spoken_date(now, self.lang)
         except (KeyError, NotImplementedError):  # ovos-date-parser has no date format for the language
             self.speak_dialog("day_current", {"day": nice_day(now, lang=self.lang)})
         else:
@@ -921,13 +922,13 @@ class TimeSkill(OVOSSkill):
         dialog = ("weekday_at_date_future" if dt.date() > now.date()
                   else "weekday_at_date_past")
         self.speak_dialog(dialog, {
-            "date": nice_date(dt, lang=self.lang, now=now),
+            "date": spoken_date(dt, self.lang, now=now),
             "weekday": nice_weekday(dt, lang=self.lang)})
 
     def _speak_weekday_match(self, dt, now, expected_weekday: int):
         """Answer whether a date falls on the weekday the user named."""
         data = {
-            "date": nice_date(dt, lang=self.lang, now=now),
+            "date": spoken_date(dt, self.lang, now=now),
             "weekday": self._render_weekday(expected_weekday),
             "actual_weekday": nice_weekday(dt, lang=self.lang)
         }
@@ -965,12 +966,12 @@ class TimeSkill(OVOSSkill):
         num_days = abs((end.date() - start.date()).days)
         if num_days == 0:
             self.speak_dialog("days_between_same", {
-                "date": nice_date(start, lang=self.lang, now=now)})
+                "date": spoken_date(start, self.lang, now=now)})
             return
         self.speak_dialog("days_between", {
             "num_days": nice_duration(num_days * 86400, lang=self.lang).strip(),
-            "from_date": nice_date(start, lang=self.lang, now=now),
-            "to_date": nice_date(end, lang=self.lang, now=now)})
+            "from_date": spoken_date(start, self.lang, now=now),
+            "to_date": spoken_date(end, self.lang, now=now)})
 
     @intent_handler("what_month_is_it.intent")
     def handle_current_month(self, message):
@@ -988,7 +989,7 @@ class TimeSkill(OVOSSkill):
     def handle_current_year(self, message):
         now = self.get_datetime()  # session aware
         self.speak_dialog("year_current",
-                          {"year": nice_year(now, lang=self.lang)})
+                          {"year": spoken_year(now, self.lang)})
 
     @intent_handler("date_future_weekend.intent")
     def handle_date_future_weekend(self, message):
@@ -1012,8 +1013,8 @@ class TimeSkill(OVOSSkill):
             saturday_dt += datetime.timedelta(days=7)
 
         sunday_dt = saturday_dt + datetime.timedelta(days=1)
-        saturday_date = ', '.join(nice_date(saturday_dt, lang=self.lang).split(', ')[:2])
-        sunday_date = ', '.join(nice_date(sunday_dt, lang=self.lang).split(', ')[:2])
+        saturday_date = spoken_day_month(saturday_dt, self.lang)
+        sunday_date = spoken_day_month(sunday_dt, self.lang)
         self.speak_dialog('date_future_weekend', {
             'saturday_date': saturday_date,
             'sunday_date': sunday_date
@@ -1029,13 +1030,13 @@ class TimeSkill(OVOSSkill):
         more, so on a Saturday or a Sunday it is the weekend before, as
         handle_date_future_weekend skips the weekend in progress.
         """
-        # nice_date gets no `now`: on a Monday it would say "yesterday",
+        # the date gets no `now`: on a Monday it would say "yesterday",
         # and the year is cut off because the weekend is close
         now = self.get_datetime()
         saturday_dt = now - datetime.timedelta(days=now.weekday() + 2)
         sunday_dt = saturday_dt + datetime.timedelta(days=1)
-        saturday_date = ', '.join(nice_date(saturday_dt, lang=self.lang).split(', ')[:2])
-        sunday_date = ', '.join(nice_date(sunday_dt, lang=self.lang).split(', ')[:2])
+        saturday_date = spoken_day_month(saturday_dt, self.lang)
+        sunday_date = spoken_day_month(sunday_dt, self.lang)
         self.speak_dialog('date_last_weekend', {
             'saturday_date': saturday_date,
             'sunday_date': sunday_date

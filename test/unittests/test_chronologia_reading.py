@@ -51,7 +51,7 @@ class TestChronologiaReading(unittest.TestCase):
     def _last_weekend(self, now):
         """The (saturday, sunday) dates the skill speaks for the last weekend."""
         clock, lang = self._patched("en-US", now)
-        with clock, lang, mock.patch("ovos_skill_date_time.nice_date",
+        with clock, lang, mock.patch("ovos_skill_date_time.spoken_day_month",
                                      side_effect=lambda dt, lang: dt.date().isoformat()), \
                 mock.patch.object(self.skill, "speak_dialog") as speak:
             self.skill.handle_date_last_weekend(Message("date_last_weekend", {}))
@@ -95,7 +95,7 @@ class TestChronologiaReading(unittest.TestCase):
 
     def test_a_date_with_slashes_is_the_date_until_which_days_are_counted(self):
         clock, lang = self._patched("en-US", NOW)
-        with clock, lang, mock.patch("ovos_skill_date_time.nice_date",
+        with clock, lang, mock.patch("ovos_skill_date_time.spoken_date",
                                      side_effect=lambda dt, lang: dt.date().isoformat()), \
                 mock.patch.object(self.skill, "speak_dialog") as speak:
             self.skill.handle_time_until(Message("time_until",
@@ -106,7 +106,7 @@ class TestChronologiaReading(unittest.TestCase):
 
     def test_the_days_until_a_date_said_with_until(self):
         clock, lang = self._patched("hu-HU", NOW)
-        with clock, lang, mock.patch("ovos_skill_date_time.nice_date",
+        with clock, lang, mock.patch("ovos_skill_date_time.spoken_date",
                                      side_effect=lambda dt, lang: dt.date().isoformat()), \
                 mock.patch.object(self.skill, "speak_dialog") as speak:
             self.skill.handle_time_until(Message("time_until",
@@ -148,7 +148,7 @@ class TestChronologiaReading(unittest.TestCase):
     def _spoken_date(self, handler, intent, utterance):
         """The dialog and its data, with each date spoken as its ISO instant."""
         clock, lang = self._patched("en-US", NOW)
-        with clock, lang, mock.patch("ovos_skill_date_time.nice_date",
+        with clock, lang, mock.patch("ovos_skill_date_time.spoken_date",
                                      side_effect=lambda dt, lang, **_: dt.isoformat()), \
                 mock.patch.object(self.skill, "speak_dialog") as speak:
             handler(Message(intent, {"utterance": utterance}))

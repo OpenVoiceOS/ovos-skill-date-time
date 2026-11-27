@@ -26,6 +26,9 @@ FROZEN = pytz.timezone(TZ).localize(datetime.datetime(2026, 3, 4, 14, 35))
 
 # (lang, case) -> the defect, with the form a speaker says.
 KNOWN_DEFECTS = {
+    ("pt-PT", "date"): "the chronologia pt-PT writer joins the weekday and the date with no "
+                       "comma: 'quarta-feira quatro de março de dois mil e vinte e seis'; the "
+                       "weekday is an apposition before the date and takes a comma",
     ("da-DK", "date"): "da-DK year 2026 is written 'seks og tyve'; Danish writes "
                        "a compound numeral as one word: 'to tusind og seksogtyve'",
     ("da-DK", "year"): "da-DK year 2026 is written 'seks og tyve'; Danish writes "
