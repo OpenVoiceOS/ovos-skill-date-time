@@ -1,9 +1,3 @@
-how far away is {date:date}
-how far away is {date:date} from now
-how far away is {date:date} from today
-how far off is {date:date}
-how far off is {date:date} from now
-how far off is {date:date} from today
 how long ago was {date:date}
 how long do we have before {date:date}
 how long do we have until {date:date}
@@ -40,18 +34,14 @@ what's the time left before {date:date}
 what's the time left until {date:date}
 what's the time remaining before {date:date}
 what's the time remaining until {date:date}
-when is {date:date}
-when will it be {date:date}
-when exactly is {date:date}
-when exactly will it be {date:date}
 when is the last {date:date}
 when is the next {date:date}
 when is the previous {date:date}
 when was the last {date:date}
 when was the next {date:date}
 when was the previous {date:date}
-when was {date:date}
 how much longer must we wait for {date:date}
+(when is|when's|when was) (christmas|christmas eve|easter|halloween|thanksgiving|hanukkah|new year's day|new year's eve|valentine's day|mother's day|father's day|st patrick's day|the fourth of july)
 how many days (are there|is it) between {start} and {end}
 how many days between {start} and {end}
 how many days (are there|is it) from {start} (to|until) {end}

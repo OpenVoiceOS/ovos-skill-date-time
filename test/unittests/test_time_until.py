@@ -114,6 +114,25 @@ class TestTimeUntil(unittest.TestCase):
         key, _ = self._ask("march 1 2027", "")
         self.assertEqual(key, "extract_date_error")
 
+    def test_unreadable_single_date_speaks_the_error_not_today(self):
+        # the slot names no date, so the answer must not be today's date
+        message = Message("time_until", {"utterance": "when was the eiffel tower built",
+                                         "date": "the eiffel tower built"})
+        with mock.patch.object(self.skill, "show_date") as show:
+            key, _ = self._handle(message)
+        self.assertEqual(key, "extract_date_error")
+        show.assert_not_called()
+
+    def test_bare_holiday_question_answers_with_the_holiday(self):
+        # the holiday line has no {date} slot: the handler reads the date from the utterance
+        with mock.patch.object(self.skill, "show_date"):
+            key, data = self._handle(Message("time_until", {"utterance": "when is christmas"}))
+            self.assertEqual(key, "date_relative_future")
+            self.assertEqual(data["date"], "friday, december twenty-fifth, twenty twenty six")
+            key, data = self._handle(Message("time_until", {"utterance": "when was easter"}))
+        self.assertEqual(key, "date_relative_past")
+        self.assertEqual(data["date"], "sunday, april fifth, twenty twenty six")
+
     def test_both_phrasings_share_the_handler(self):
         # one date: the date and its distance from today
         message = Message("time_until", {"utterance": "how long until march 1 2027",
