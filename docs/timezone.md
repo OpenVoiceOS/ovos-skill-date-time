@@ -15,7 +15,7 @@ A request with no location uses the timezone of the session. A request that name
 
 ## A named location
 
-The `{location}` slot of the intent holds the place. The skill removes the phrases in `non_location_phrases.intent` of the locale, so a phrase such as "right now" is not a place. `get_timezone_in_location` then tries these steps in order and stops at the first result:
+The `{location}` slot of the intent holds the place. The skill removes the phrases in `non_location_phrases.intent` of the locale, so a phrase such as "the moment" is not a place. `get_timezone_in_location` then tries these steps in order and stops at the first result:
 
 1. `_is_ambiguous_location`: a place in `ambiguous_locations.intent` (for example "australia", "usa") has more than one timezone. The skill gives no timezone.
 2. `_get_timezone_from_builtins`: a name without "/" goes to the OpenStreetMap geocoder (`geocoder.osm`), and `timezonefinder` gets the zone at those coordinates. This step needs the network. A name such as `America/Los_Angeles` goes to `pytz.timezone`.

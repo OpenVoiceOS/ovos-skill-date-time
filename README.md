@@ -21,7 +21,7 @@ OVOS loads the skill through the `opm.skill` entry point `ovos-skill-date-time.o
 
 ```text
 "what time is it"                     -> It's <time>
-"how many days until march twentieth" -> It's <date>, <num_days> from now
+"how many days until march twentieth" -> It is <date>, in <num_days>
 ```
 
 The skill selects one line of the dialog file for each answer. The clock fills the slots. With the clock frozen at 14:35 on 4 March 2026, `<time>` is "two thirty five p.m." in a 12-hour session, and `<num_days>` is "sixteen days".

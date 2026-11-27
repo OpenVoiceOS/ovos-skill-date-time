@@ -15,10 +15,10 @@ The `.intent` files list more forms. At runtime the intent pipeline can also rou
 
 - "What time is it?"
 - "What time is it in Paris?"
-- "What's the time now?"
-- "What does the clock say right now?"
+- "What's the time at the moment?"
+- "What time is it again?"
 
-## A time from now: `what_time_will_it_be`
+## A later time: `what_time_will_it_be`
 
 - "What time will it be in 5 minutes?"
 - "What time will it be in an hour?"
