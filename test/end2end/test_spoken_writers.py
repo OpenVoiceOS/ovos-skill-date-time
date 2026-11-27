@@ -30,6 +30,14 @@ KNOWN_DEFECTS = {
                        "a compound numeral as one word: 'to tusind og seksogtyve'",
     ("da-DK", "year"): "da-DK year 2026 is written 'seks og tyve'; Danish writes "
                        "a compound numeral as one word: 'to tusind og seksogtyve'",
+    ("it-IT", "date"): "it-IT year 2026 is written 'duemila ventisei'; Italian writes a cardinal "
+                       "in letters as one word: 'duemilaventisei' (Accademia della Crusca, "
+                       "consulenza 1077: 'la grafia prevista è, tranne rare eccezioni, "
+                       "senza spazi: duecentodiecimila e non *duecento dieci mila')",
+    ("it-IT", "year"): "it-IT year 2026 is written 'duemila ventisei'; Italian writes a cardinal "
+                       "in letters as one word: 'duemilaventisei' (Accademia della Crusca, "
+                       "consulenza 1077: 'la grafia prevista è, tranne rare eccezioni, "
+                       "senza spazi: duecentodiecimila e non *duecento dieci mila')",
 }
 
 

@@ -53,12 +53,12 @@ ROWS = {
     ],
     "it-IT": [
         ("time", "che ore sono", "time_current", "time", "due e trentacinque del pomeriggio"),
-        ("date", "che data è oggi", "date", "date", "mercoledì, quattro marzo, duemila ventisei"),
+        ("date", "che data è oggi", "date", "date", "mercoledì, quattro marzo, duemilaventisei"),
         ("weekday", "che giorno della settimana è oggi", "weekday_current", "weekday", "mercoledì"),
         ("tomorrow", "che giorno della settimana è domani", "weekday_at_date_future", "weekday", "giovedì"),
         ("weekday_of", "che giorno della settimana è il venti marzo", "weekday_at_date_future", "weekday", "venerdì"),
         ("month", "in che mese siamo", "month_current", "month", "marzo"),
-        ("year", "in che anno siamo", "year_current", "year", "duemila ventisei"),
+        ("year", "in che anno siamo", "year_current", "year", "duemilaventisei"),
         ("days_until", "quanti giorni mancano al venti marzo", "date_relative_future", "num_days", "sedici giorni"),
     ],
     "de-DE": [
