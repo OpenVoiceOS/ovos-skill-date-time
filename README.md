@@ -1,68 +1,42 @@
 # <img src='https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/calendar.svg' card_color='#22a7f0' width='50' height='50' style='vertical-align:bottom'/> Date and Time
+<!-- agent-hint
+covers: what the skill does, install, a quickstart and the docs link table
+source: pyproject.toml
+generated: no
+verify: diff <(ls docs/*.md | xargs -n1 basename | sort) <(grep -o '(docs/[a-z0-9-]*\.md)' README.md | sed 's%(docs/%%; s%)%%' | sort -u)
+see: docs/index.md
+-->
 
-Get the time, date, and day of the week.
+An OVOS skill that speaks the time, the date, the weekday, the month, the year and the number of days until a date. It answers for your location or for a place that you name. It works with no network, except for the lookup of a named place.
 
-## About
+## Install
 
-This skill gets the local time or the time in major cities around the world. It gives times in 12-hour format (2:30 pm) or 24-hour format (14:30), based on the Time Format setting in your `mycroft.conf`.
-
-## Examples
-
-* "What time is it?"
-* "What time is it in Paris?"
-* "Show me the time"
-* "What day is it"
-* "What's the date?"
-* "Tell me the day of the week"
-* "How many days until July 4th"
-* "How many days are there between March 1st and June 5th?"
-* "What day is Memorial Day 2020?"
-
-## Configuration
-
-You can adjust the skill's behavior in the `settings.json` file.
-
-The skill includes 2 sound files, `"casio-watch.wav"` and `"clock-chime.mp3"`, to signal when the hour changes.
-
-Below is an example configuration file with explanations for each option.
-
-```json
-{
-    "play_hour_chime": true,
-    "hour_sound": "clock-chime.mp3"
-}
+```bash
+uv pip install --prerelease=allow ovos-skill-date-time
 ```
 
-- **`play_hour_chime`**: (boolean) Turns the hourly chime on or off. If `true`, the skill plays an audio chime at the start of every hour. The default is `false`.
-- **`hour_sound`**: (string) Sets the path to the audio file for the hourly chime. By default, it points to `casio-watch.wav` in the `res` folder. You can set it to the path of any audio file you prefer.
+OVOS loads the skill through the `opm.skill` entry point `ovos-skill-date-time.openvoiceos`.
 
-## Related projects
+## Quickstart
 
-- [OpenVoiceOS/ovos-date-parser](https://github.com/OpenVoiceOS/ovos-date-parser): parses and formats dates and times for this skill.
-- [OpenVoiceOS/ovos-workshop](https://github.com/OpenVoiceOS/ovos-workshop): the skill framework this skill builds on.
-- [OpenVoiceOS/ovos-utterance-normalizer](https://github.com/OpenVoiceOS/ovos-utterance-normalizer): normalizes utterances before intent matching.
+```text
+"what time is it"                     -> It's <time>
+"how many days until march twentieth" -> It is <date>, in <num_days>
+```
 
-## Credits
+The skill selects one line of the dialog file for each answer. The clock fills the slots. With the clock frozen at 14:35 on 4 March 2026, `<time>` is "two thirty five p.m." in a 12-hour session, and `<num_days>` is "sixteen days".
 
-- [casio-watch.wav by @Pablobd](https://freesound.org/people/Pablobd/sounds/492481/) under the [CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/)
-- [clock-chime.mp3 by @ecfike](https://pixabay.com/sound-effects/clock-chime-88027/) under the [Pixabay Content License](https://pixabay.com/service/license-summary/)
-- Original skill by Mycroft AI (@MycroftAI)
-- Timezone boundaries from [timezonefinder-data](https://github.com/jannikmi/timezonefinder), built from [timezone-boundary-builder](https://github.com/evansiroky/timezone-boundary-builder) on [OpenStreetMap](https://www.openstreetmap.org/copyright) data, under the [Open Database License (ODbL) v1.0](https://opendatacommons.org/licenses/odbl/1-0/)
+## Documentation
 
-Resolving a timezone from coordinates queries that database through the
-`timezonefinder` package, which installs it unmodified. The ODbL asks for the
-attribution above, and its share-alike clause covers a derivative of the
-database: anyone who alters the bundled boundary data and passes it on must
-offer the altered database under the ODbL as well. Using the skill, and
-building on the skill's own Apache-2.0 code, carries no such obligation.
+| Page | Contents |
+| :--- | :--- |
+| [Docs index](docs/index.md) | the reading order |
+| [Phrases for each intent](docs/usage.md) | example phrases and the intent that each one starts |
+| [How the skill speaks the time and the date](docs/speech.md) | the writer for each slot and for each locale |
+| [Session values and settings](docs/settings.md) | the 12- or 24-hour clock, the display date, the hourly chime |
+| [The timezone source](docs/timezone.md) | the timezone for a request with and without a place |
+| [Run the tests](docs/testing.md) | unit tests, end-to-end tests with the frozen clock, strict xfail rows |
 
-## Category
-**Daily**
+## License and credits
 
-## Tags
-#date
-#time
-#clock
-#world-time
-#world-clock
-#date-time
+[Apache-2.0](./LICENSE). Original skill by Mycroft AI. Sounds: [casio-watch.wav by Pablobd](https://freesound.org/people/Pablobd/sounds/492481/) (CC0 1.0), [clock-chime.mp3 by ecfike](https://pixabay.com/sound-effects/clock-chime-88027/) (Pixabay Content License). Timezone boundaries from [timezonefinder-data](https://github.com/jannikmi/timezonefinder), built from [timezone-boundary-builder](https://github.com/evansiroky/timezone-boundary-builder) on [OpenStreetMap](https://www.openstreetmap.org/copyright) data, under the [Open Database License (ODbL) v1.0](https://opendatacommons.org/licenses/odbl/1-0/). The `timezonefinder` package installs that database unmodified. A changed copy of the boundary data that you pass on must be under the ODbL. The `NOTICE` file holds the full attribution.
