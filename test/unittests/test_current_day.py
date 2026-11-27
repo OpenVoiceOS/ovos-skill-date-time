@@ -89,14 +89,14 @@ class TestCurrentDay(unittest.TestCase):
         for error in (KeyError("xx"),
                       NotImplementedError("Unsupported language: xx")):
             with self.subTest(error=type(error).__name__), \
-                    mock.patch("ovos_skill_date_time.nice_date",
+                    mock.patch("ovos_skill_date_time.speech.nice_date",
                                side_effect=error):
                 key, data = self._ask("what day is it")
                 self.assertEqual(key, "day_current")
                 self.assertEqual(data["day"], "27 September")
 
     def test_another_error_of_the_parser_is_not_hidden(self):
-        with mock.patch("ovos_skill_date_time.nice_date",
+        with mock.patch("ovos_skill_date_time.speech.nice_date",
                         side_effect=ValueError("bad date")):
             with self.assertRaises(ValueError):
                 self._ask("what day is it")

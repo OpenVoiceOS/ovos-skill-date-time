@@ -7,9 +7,11 @@ the slot value in the ``speak`` message metadata. The expected values in
 whose current output differs from the grammar is a strict xfail in
 ``KNOWN_DEFECTS``.
 
-Weekday and month names compare without case: case is not spoken.
+Weekday and month names compare without case: case is not spoken. Both
+sides compare without , . ; because the writers promise words, not punctuation.
 """
 import datetime
+import re
 from unittest import mock
 
 import pytest
@@ -39,6 +41,10 @@ KNOWN_DEFECTS = {
                        "consulenza 1077: 'la grafia prevista è, tranne rare eccezioni, "
                        "senza spazi: duecentodiecimila e non *duecento dieci mila')",
 }
+
+
+def _words(text):
+    return " ".join(re.sub(r"[,.;]", " ", text).split())
 
 
 def _frozen_now(tz=None):
@@ -95,5 +101,5 @@ def test_spoken_slot(minicroft_factory, lang, case, utterance, dialog, slot, exp
     value = metas[0]["data"][slot]
     if case in ("weekday", "tomorrow", "weekday_of", "month"):
         value, expected = value.casefold(), expected.casefold()
-    assert value == expected
-    assert expected.casefold() in speaks[0].data["utterance"].casefold()
+    assert _words(value) == _words(expected)
+    assert _words(expected).casefold() in _words(speaks[0].data["utterance"]).casefold()
