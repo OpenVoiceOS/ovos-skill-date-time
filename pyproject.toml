@@ -7,6 +7,7 @@ name = "ovos-skill-date-time"
 dynamic = ["version"]
 description = "ovos date and time skill"
 readme = "README.md"
+requires-python = ">=3.11"
 license = {text = "Apache-2.0"}
 authors = [
     {name = "OpenVoiceOS", email = "jarbasai@mailfence.com"}
