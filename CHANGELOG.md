@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.13.0a1](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.13.0a1) (2026-11-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.12.4a3...1.13.0a1)
+
+**Merged pull requests:**
+
+- feat: speak pt-PT dates, times and years with the chronologia writer [\#510](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/510) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [1.12.4a3](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.12.4a3) (2026-11-27)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.12.4a2...1.12.4a3)
@@ -294,10 +302,6 @@
 ## [1.10.9a12](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a12) (2026-09-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-date-time/compare/1.10.9a11...1.10.9a12)
-
-**Merged pull requests:**
-
-- translate\(de-DE\): update date\_last\_weekend.intent [\#400](https://github.com/OpenVoiceOS/ovos-skill-date-time/pull/400) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
 
 ## [1.10.9a11](https://github.com/OpenVoiceOS/ovos-skill-date-time/tree/1.10.9a11) (2026-09-28)
 
